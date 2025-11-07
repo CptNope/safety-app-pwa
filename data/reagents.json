@@ -476,6 +476,565 @@
           "confidence": "high"
         }
       }
+    },
+    "Heroin": {
+      "class": "opioid (semi-synthetic)",
+      "forms": [
+        "powder",
+        "tar"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B008B",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple→violet"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "blue-green→dark green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→brown"
+        }
+      ],
+      "notes": [
+        "CRITICAL: Always use fentanyl test strips. Heroin frequently contaminated with fentanyl/analogues."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "Essential due to widespread fentanyl contamination. Test every batch.",
+          "confidence": "high"
+        }
+      }
+    },
+    "DMT": {
+      "class": "tryptamine (indole)",
+      "forms": [
+        "freebase crystal",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple (indole)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→brown"
+        }
+      ],
+      "notes": [
+        "Ehrlich confirms indole. DMT usually yellowish crystals; pure is white."
+      ]
+    },
+    "5-MeO-DMT": {
+      "class": "tryptamine (indole)",
+      "forms": [
+        "freebase powder",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#A9A9A9",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→yellow-brown"
+        }
+      ],
+      "notes": [
+        "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
+      ]
+    },
+    "GHB": {
+      "class": "depressant (GHB/GBL)",
+      "forms": [
+        "liquid",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Standard reagents ineffective for GHB/GBL. Specialized tests exist but uncommon. Use extreme caution with dosing."
+      ]
+    },
+    "PCP": {
+      "class": "arylcyclohexylamine (dissociative)",
+      "forms": [
+        "powder",
+        "liquid",
+        "tablet"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction to pale yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→blue-gray"
+        }
+      ],
+      "notes": [
+        "PCP shows limited reagent reactions. Often adulterant in other substances."
+      ]
+    },
+    "DXM": {
+      "class": "dissociative (morphinan)",
+      "forms": [
+        "syrup",
+        "pill",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-orange"
+        }
+      ],
+      "notes": [
+        "Commonly extracted from cough medicine. Reagent tests limited value due to additives."
+      ]
+    },
+    "Mescaline": {
+      "class": "phenethylamine (psychedelic)",
+      "forms": [
+        "powder",
+        "capsule",
+        "cactus"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→orange-brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "brown→dark brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        }
+      ],
+      "notes": [
+        "Rare in powder form. Often substituted with other psychedelics. Lab testing recommended."
+      ]
+    },
+    "DOI": {
+      "class": "phenethylamine (psychedelic, DOx)",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#2F4F4F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark gray→black"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green→dark green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→olive"
+        }
+      ],
+      "notes": [
+        "Long duration (16-30h). Sometimes mis-sold as LSD. Does NOT react with Ehrlich (not an indole)."
+      ]
+    },
+    "Bromo-DragonFLY": {
+      "class": "phenethylamine (psychedelic, benzodifuran)",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-orange"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#808000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "olive→brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→olive"
+        }
+      ],
+      "notes": [
+        "EXTREMELY potent and long-lasting (up to 3 days). Very dangerous due to vasoconstriction. Often mis-sold. Does NOT react with Ehrlich."
+      ]
+    },
+    "25I-NBOMe": {
+      "class": "phenethylamine (NBOMe series)",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFFE0",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "pale yellow→yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "no reaction (NOT an indole)"
+        }
+      ],
+      "notes": [
+        "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
+      ]
+    },
+    "2C-I": {
+      "class": "phenethylamine (2C-x series)",
+      "forms": [
+        "powder",
+        "capsule",
+        "tablet"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "brown→dark brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "brown→dark brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green→olive-brown"
+        }
+      ],
+      "notes": [
+        "Part of 2C-x family. Can be difficult to distinguish from other 2C compounds with reagents alone."
+      ]
+    },
+    "2C-E": {
+      "class": "phenethylamine (2C-x series)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#A0522D",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "sienna-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#556B2F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark olive-green"
+        }
+      ],
+      "notes": [
+        "Similar reactions to 2C-I. Lab testing recommended to differentiate between 2C-x compounds."
+      ]
+    },
+    "4-AcO-DMT": {
+      "class": "tryptamine (indole, psilocin prodrug)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#7E4E9B",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#D2691E",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "tan→brown"
+        }
+      ],
+      "notes": [
+        "Research chemical; converts to psilocin in body. Similar effects to psilocybin mushrooms."
+      ]
+    },
+    "3-MMC": {
+      "class": "cathinone (stimulant)",
+      "forms": [
+        "powder",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFD700",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→orange"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#A9A9A9",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray→olive"
+        }
+      ],
+      "notes": [
+        "Cathinone research chemical. Popular replacement for banned stimulants. Reagent reactions vary by batch."
+      ]
+    },
+    "4-MMC": {
+      "class": "cathinone (stimulant)",
+      "forms": [
+        "powder",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFD700",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→orange-brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→green-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#556B2F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "olive-green"
+        }
+      ],
+      "notes": [
+        "Mephedrone. Banned in many countries but still in circulation. Similar reactions to other cathinones."
+      ]
     }
   },
   "id_guide": {
