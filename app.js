@@ -141,27 +141,51 @@ function QuickTest(){
 }
 
 function Swatches(){
-  const entries = (name) => Object.entries({
-    ...(name==='Simon’s'?{MDMA:'var(--simons-mdma)'}:{}),
-    ...(name==='Marquis'?{MDMA:'var(--marquis-mdma)'}:{}),
-    ...(name==='Mecke'?{MDMA:'var(--mecke-mdma)'}:{}),
-    ...(name==='Mandelin'?{MDMA:'var(--mandelin-mdma)'}:{}),
-  }).map(([sub,hex])=>({sub,hex}));
+  const {data} = useJSON('data/reagents.json');
+  if(!data) return null;
+  
+  // Build a map of reagent -> substance -> color
+  const reagentMap = {};
+  Object.keys(data.reagents).forEach(reagentId => {
+    reagentMap[reagentId] = [];
+  });
+  
+  // Collect all substance reactions for each reagent
+  Object.entries(data.substances).forEach(([substanceName, substanceData]) => {
+    if(substanceData.testing) {
+      substanceData.testing.forEach(test => {
+        if(reagentMap[test.reagent]) {
+          reagentMap[test.reagent].push({
+            substance: substanceName,
+            color: test.color,
+            alt: test.alt
+          });
+        }
+      });
+    }
+  });
+  
   return (
     <div className="grid gap-3">
-      {["Simon’s","Marquis","Mecke","Mandelin"].map(n=>(
-        <div key={n} className="rounded-2xl border border-white/10 p-4 bg-white/5">
-          <h3 className="font-semibold text-lg mb-1">{n}</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {entries(n).map((e,i)=>(
-              <div key={i} className="flex items-center justify-between bg-black/20 rounded-xl p-2">
-                <span className="text-sm">{e.sub}</span>
-                <Chip label={e.hex === '#00000000'?'No Reaction':e.hex} color={e.hex}/>
-              </div>
-            ))}
+      {Object.entries(data.reagents).map(([reagentId, reagentInfo]) => {
+        const reactions = reagentMap[reagentId];
+        if(reactions.length === 0) return null;
+        
+        return (
+          <div key={reagentId} className="rounded-2xl border border-white/10 p-4 bg-white/5">
+            <h3 className="font-semibold text-lg mb-1">{reagentInfo.name}</h3>
+            <div className="text-xs opacity-70 mb-2">{reagentInfo.notes}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+              {reactions.map((r, i) => (
+                <div key={i} className="flex items-center justify-between bg-black/20 rounded-xl p-2">
+                  <span className="text-sm font-medium">{r.substance}</span>
+                  <Chip label={r.alt} color={r.color}/>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
