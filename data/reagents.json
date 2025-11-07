@@ -1041,35 +1041,154 @@
     "blotter": {
       "name": "Blotter (paper tabs)",
       "tips": [
-        "Common size ~6–7mm",
-        "Use Ehrlich/Hofmann on a tiny corner"
+        "Common size ~6–7mm square; art/designs vary widely",
+        "Cut off tiny corner (~1mm) for testing—preserve majority",
+        "Use Ehrlich/Hofmann on corner; purple = indole (LSD, tryptamines)",
+        "NO purple with Ehrlich = NOT LSD (likely NBOMe or DOx—dangerous)",
+        "Test on white ceramic plate to see color change clearly"
       ],
       "uv_hacks": [
-        "365 nm UV often makes paper glow (optical brighteners)."
+        "365 nm UV often makes paper glow (optical brighteners)",
+        "Fluorescence does NOT confirm LSD—just paper treatment",
+        "Some art inks fluoresce; not diagnostic"
+      ],
+      "safety": [
+        "Always test before consuming",
+        "NBOMes can be fatal; bitter/numbing taste is red flag",
+        "If no Ehrlich reaction, do not consume"
       ]
     },
     "gel_tab": {
       "name": "Gel Tab/Windowpane",
       "tips": [
-        "Test a sliver with Ehrlich; slower reactions possible."
+        "Cut small sliver (~1-2mm) with clean blade",
+        "Test with Ehrlich; may take 60-120s for color development",
+        "Gel can slow reagent penetration—be patient",
+        "Purple reaction confirms indole presence"
+      ],
+      "safety": [
+        "Wear gloves when handling",
+        "Store remaining sample in foil away from light/heat"
       ]
     },
     "microdot": {
       "name": "Microdot",
       "tips": [
-        "Scrape a minute amount; Ehrlich for indoles."
+        "Very small pellets; scrape minute amount with blade edge",
+        "Use Ehrlich for indoles (LSD, psilocin)",
+        "May need to crush slightly to expose interior",
+        "Test on white surface for visibility"
       ]
     },
     "capsule": {
-      "name": "Capsule",
+      "name": "Capsule/Powder",
+      "common_substances": ["MDMA", "MDA", "Amphetamine", "Ketamine", "2C-x"],
       "tips": [
-        "Mix sample; Marquis/Mecke/Mandelin; Simon\u2019s for MDMA vs MDA."
+        "Open capsule; mix powder thoroughly before sampling",
+        "Take small amount (~1-2mg grain of salt size) from multiple spots",
+        "Use Marquis first (broad spectrum), then Mecke, Mandelin",
+        "Simon's test differentiates MDMA (blue) from MDA/meth (no color)",
+        "Test on white ceramic plate; observe 30-60 seconds",
+        "Adulterants may create mixed/unusual colors"
+      ],
+      "safety": [
+        "Assume fentanyl contamination possible—use test strips",
+        "Never trust color/consistency alone",
+        "Different batches require separate testing"
       ]
     },
     "tablet": {
-      "name": "Tablet/Pill",
+      "name": "Tablet/Pressed Pill",
       "tips": [
-        "Logos/colors are unreliable; scrape multiple points."
+        "Logos, colors, stamps are MEANINGLESS—anyone can press pills",
+        "Scrape powder from 2-3 different spots (surface + interior)",
+        "Use Marquis/Mecke/Mandelin on each sample",
+        "Check for consistency—different colors = mixed substances",
+        "Hard-pressed pills may need crushing for better reaction"
+      ],
+      "safety": [
+        "Pressed pills frequently contain unexpected substances",
+        "Fentanyl test strips essential for any pill",
+        "Different colored specks may indicate multiple drugs"
+      ]
+    },
+    "powder": {
+      "name": "Powder/Fine Crystal",
+      "common_substances": ["Cocaine", "Heroin", "Ketamine", "MDMA", "Meth"],
+      "tips": [
+        "Use tiny amount (1-2mg) on white ceramic surface",
+        "Test multiple spots from sample—adulterants may not mix evenly",
+        "Note color, texture, smell (without direct sniffing)",
+        "White powders: could be anything—test essential",
+        "Marquis + Mecke + Mandelin recommended minimum"
+      ],
+      "safety": [
+        "ALWAYS use fentanyl strips for white powders",
+        "Wear nitrile gloves; avoid skin contact",
+        "Work in ventilated area",
+        "Even tiny amounts of fentanyl can be fatal"
+      ]
+    },
+    "crystal": {
+      "name": "Crystal/Shard",
+      "common_substances": ["Methamphetamine", "MDMA", "DMT", "3-MMC"],
+      "tips": [
+        "Crush small crystal (~2mg) to powder for testing",
+        "Larger surface area = better reagent reaction",
+        "Test multiple crystals if batch looks inconsistent",
+        "Clear vs cloudy crystals don't indicate purity",
+        "Use Marquis, Mecke, Mandelin, Simon's as appropriate"
+      ],
+      "safety": [
+        "Fentanyl contamination possible in any street drug",
+        "Gloves essential—meth absorbs through skin"
+      ]
+    },
+    "rock": {
+      "name": "Rock/Chunk",
+      "common_substances": ["Crack cocaine", "MDMA rock", "Heroin (tar)"],
+      "tips": [
+        "Scrape powder from multiple spots—exterior vs interior",
+        "Crack: minimal reagent reaction; use Scott test if available",
+        "Heroin/tar: Marquis (purple), Mecke (green), fentanyl strips critical",
+        "MDMA rock: crush sample for better testing",
+        "Brown/black material often heavily cut"
+      ],
+      "safety": [
+        "Tar heroin almost always contains fentanyl—test every time",
+        "Crack adulterants (levamisole) won't show on reagents",
+        "PPE essential for tar—sticky and contaminating"
+      ]
+    },
+    "liquid": {
+      "name": "Liquid/Solution",
+      "common_substances": ["GHB", "LSD liquid", "Ketamine solution"],
+      "tips": [
+        "Place 1-2 drops on white ceramic plate, allow to evaporate slightly",
+        "LSD liquid: Ehrlich on dried residue (purple = LSD)",
+        "GHB: reagents ineffective; lab testing only reliable method",
+        "Ketamine solution: test dried residue with Mandelin (orange)",
+        "Alcohol/water solvents may dilute reagent—wait for evaporation"
+      ],
+      "safety": [
+        "GHB dosing extremely dangerous—small volume difference = overdose",
+        "Never assume liquid concentration",
+        "Wear eye protection—liquids can splash"
+      ]
+    },
+    "mushroom": {
+      "name": "Mushroom (Dried/Fresh)",
+      "tips": [
+        "Scrape powder from cap and stem separately—test both",
+        "Use Ehrlich on powder (purple = psilocybin/psilocin)",
+        "Marquis shows tan/brown for psilocybin",
+        "Fresh mushrooms harder to test—dry sample works better",
+        "Multiple species contain psilocybin; reagent confirms indole only"
+      ],
+      "safety": [
+        "Reagents don't identify specific mushroom species",
+        "Toxic mushrooms exist—don't rely on reagents for wild ID",
+        "Ehrlich confirms indole but not edibility"
       ]
     }
   },
@@ -1079,42 +1198,215 @@
     },
     "cards": [
       {
-        "id": "uv_light",
-        "name": "UV/Blacklight (365\u2013395 nm)",
-        "type": "auxiliary",
+        "id": "reagent_testing_basics",
+        "name": "Reagent Testing Best Practices",
+        "type": "essential",
         "do": [
-          "Use near\u2011UV flashlight; observe fluorescence."
+          "Use white ceramic plate or spot plate for testing",
+          "Test tiny amounts (1-2mg, size of grain of salt)",
+          "Use multiple reagents on same sample for confirmation",
+          "Observe color change within specified time window (usually 30-120s)",
+          "Test in good lighting; natural light or bright white LED best",
+          "Work in ventilated area away from children/pets",
+          "Keep reagents refrigerated; replace every 6-12 months"
         ],
         "dont": [
-          "Fluorescence \u2260 LSD; many papers/inks glow."
+          "Never test large amounts—reagents are corrosive",
+          "Don't mix reagents together—test separately",
+          "Don't reuse testing surface without cleaning",
+          "Don't assume one test is enough—cross-reference multiple",
+          "Don't test in direct sunlight—can affect color perception"
         ],
         "notes": [
-          "Paper brighteners glow blue\u2011white; not diagnostic."
+          "Reagents degrade over time—brown/dark reagents may give false results",
+          "Temperature affects reaction speed—room temp (20-25°C) ideal",
+          "Some substances react violently (fizzing/smoking)—normal for certain reactions"
+        ]
+      },
+      {
+        "id": "sample_collection",
+        "name": "Sample Collection & Preparation",
+        "type": "essential",
+        "do": [
+          "Wear nitrile gloves throughout process",
+          "Use clean implements (new razor blade, knife, spatula)",
+          "Sample from multiple spots in batch—adulterants distribute unevenly",
+          "Crush crystals/rocks to powder for better reagent contact",
+          "For pills: scrape surface AND interior",
+          "For liquids: allow to evaporate slightly on test plate",
+          "Store remaining sample separately from tested portion"
+        ],
+        "dont": [
+          "Never touch samples with bare hands",
+          "Don't cross-contaminate between samples or tests",
+          "Don't assume homogeneous mixing in powders/pills"
+        ],
+        "notes": [
+          "Fentanyl can absorb through skin—gloves essential",
+          "Clean workspace between different samples",
+          "Label tests if comparing multiple samples"
+        ]
+      },
+      {
+        "id": "interpreting_results",
+        "name": "Interpreting Test Results",
+        "type": "essential",
+        "do": [
+          "Compare results to known reaction charts",
+          "Note exact color, time to color change, final color",
+          "Consider multiple reagents together—no single test confirms identity",
+          "Account for lighting conditions when judging color",
+          "Document with photo if possible (flash off, white background)",
+          "Unexpected colors may indicate adulterants or unknown substances"
+        ],
+        "dont": [
+          "Don't trust partial matches—'close enough' isn't safe",
+          "Don't ignore no-reaction results—may be important",
+          "Don't assume purity based on correct color—only identifies presence"
+        ],
+        "notes": [
+          "Mixed/muddy colors often indicate multiple substances",
+          "No reaction with all reagents may indicate inert cut or unknown substance",
+          "Reagents detect presence, NOT concentration or purity"
+        ]
+      },
+      {
+        "id": "fentanyl_strips",
+        "name": "Fentanyl Test Strips (Critical)",
+        "type": "critical",
+        "do": [
+          "Use for ANY powder, pill, or suspected opioid",
+          "Dissolve small sample (~10mg) in water per instructions",
+          "Wait full development time (usually 5 minutes)",
+          "One line = fentanyl detected; two lines = negative",
+          "Test every batch/pill individually—contamination varies"
+        ],
+        "dont": [
+          "Negatives ≠ 100% safe—analogues may not be detected",
+          "Don't skip testing because substance 'shouldn't' have fentanyl",
+          "Don't assume entire batch is clean from one test"
+        ],
+        "notes": [
+          "Fentanyl found in cocaine, meth, MDMA, ketamine, pressed pills",
+          "Cross-contamination during production is common",
+          "Some analogues (carfentanil, novel fentanyls) may not trigger test",
+          "Free fentanyl test strips available in many areas"
+        ]
+      },
+      {
+        "id": "xylazine_strips",
+        "name": "Xylazine Test Strips",
+        "type": "screening",
+        "do": [
+          "Use for opioid samples—xylazine increasingly common adulterant",
+          "Follow same procedure as fentanyl strips",
+          "Test opioids, especially heroin and pressed pills"
+        ],
+        "notes": [
+          "Xylazine (veterinary sedative) causes severe wounds, doesn't respond to naloxone",
+          "Often mixed with fentanyl in street opioids",
+          "Test strips available through harm reduction organizations"
+        ]
+      },
+      {
+        "id": "uv_light",
+        "name": "UV/Blacklight (365–395 nm)",
+        "type": "auxiliary",
+        "do": [
+          "Use near‑UV flashlight (365nm wavelength best)",
+          "Observe fluorescence in dark room for best visibility",
+          "Check both sides of blotter paper"
+        ],
+        "dont": [
+          "Fluorescence ≠ LSD; many papers/inks glow",
+          "Don't use as primary identification method",
+          "Don't stare at UV source—eye damage risk"
+        ],
+        "notes": [
+          "Paper brighteners glow blue‑white; not diagnostic of LSD",
+          "Some inks fluoresce green/orange—still not definitive",
+          "Useful as quick screen but MUST follow with Ehrlich test"
         ]
       },
       {
         "id": "taste",
-        "name": "Taste (AVOID)",
+        "name": "Taste/Tongue Testing (NEVER DO THIS)",
         "type": "do-not",
         "dont": [
-          "Do not lick/bite unknown items."
+          "NEVER lick, bite, or touch substances to tongue",
+          "NEVER 'gum' or sublingual test unknown substances",
+          "NEVER rely on bitter/numbing sensations for ID"
         ],
         "notes": [
-          "Bitter/numbing can be a red flag (e.g., NBOMe) but taste is unsafe/unreliable."
+          "NBOMes taste bitter/metallic AND can be fatal",
+          "Fentanyl analogues can be absorbed through mucous membranes",
+          "Many substances taste similar—completely unreliable",
+          "LSD should have no taste—bitter = danger, but no taste ≠ safe"
         ]
       },
       {
-        "id": "strip_tests",
-        "name": "Test Strips (Immunoassay)",
-        "type": "screening",
+        "id": "lab_testing",
+        "name": "Laboratory Testing (Gold Standard)",
+        "type": "confirmation",
         "do": [
-          "Fentanyl/xylazine strips per instructions."
+          "Use for definitive identification and purity analysis",
+          "Submit samples to drug checking services where available",
+          "Common methods: GC/MS, FTIR, HPLC",
+          "Provides exact substance ID and percentage purity"
         ],
-        "dont": [
-          "Negatives \u2260 safe."
+        "services": [
+          "DrugsData.org (USA, mail-in, $150)",
+          "WEDINOS (UK, free postal)",
+          "Energy Control (Spain/International)",
+          "Get Your Drugs Tested (Canada)"
         ],
         "notes": [
-          "Useful adjunct when opioids/adulterants are possible."
+          "Only lab testing definitively identifies substances and quantifies purity",
+          "Reagents are presumptive—they suggest but don't prove",
+          "Lab testing may take days to weeks for results"
+        ]
+      },
+      {
+        "id": "reagent_storage",
+        "name": "Reagent Storage & Shelf Life",
+        "type": "essential",
+        "do": [
+          "Store in refrigerator (not freezer)",
+          "Keep bottles tightly sealed when not in use",
+          "Keep away from light (amber glass bottles ideal)",
+          "Label with date opened",
+          "Replace every 6-12 months even if unused"
+        ],
+        "dont": [
+          "Don't leave bottles open—moisture and air degrade reagents",
+          "Don't expose to direct sunlight or heat",
+          "Don't freeze—can cause bottles to crack"
+        ],
+        "notes": [
+          "Degraded reagents turn brown/dark and give false results",
+          "Marquis turns brown fastest; check before each use",
+          "Fresh reagents are clear or light-colored (except Mandelin)",
+          "Discard if color changed significantly or past expiration"
+        ]
+      },
+      {
+        "id": "cross_contamination",
+        "name": "Avoiding Cross-Contamination",
+        "type": "safety",
+        "do": [
+          "Use new surface or clean thoroughly between tests",
+          "Change gloves between different samples",
+          "Use separate implements for each substance",
+          "Wash testing surface with isopropyl alcohol + water",
+          "Dispose of used materials safely"
+        ],
+        "dont": [
+          "Never reuse testing surface without cleaning",
+          "Don't touch multiple samples with same tool"
+        ],
+        "notes": [
+          "Trace fentanyl contamination from one sample can transfer",
+          "Even invisible residue can affect results"
         ]
       }
     ]

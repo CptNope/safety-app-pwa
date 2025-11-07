@@ -234,6 +234,9 @@ function IDGuide(){
         return (
           <div key={k} className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-2">
             <h3 className="font-semibold text-lg">{g.name}</h3>
+            {g.common_substances && <div className="text-xs opacity-70 mb-1">
+              Common: {g.common_substances.join(', ')}
+            </div>}
             {g.tips && <div className="text-sm">
               <div className="font-semibold">Tips</div>
               <ul className="list-disc ms-5">{g.tips.map((t,i)=><li key={i}>{t}</li>)}</ul>
@@ -241,6 +244,10 @@ function IDGuide(){
             {g.uv_hacks && <div className="text-sm text-sky-200">
               <div className="font-semibold">UV light</div>
               <ul className="list-disc ms-5">{g.uv_hacks.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.safety && <div className="text-sm text-amber-200">
+              <div className="font-semibold">⚠️ Safety</div>
+              <ul className="list-disc ms-5">{g.safety.map((t,i)=><li key={i}>{t}</li>)}</ul>
             </div>}
           </div>
         )
@@ -264,6 +271,7 @@ function Methods(){
           </div>
           {m.do && m.do.length>0 && (<div className="text-sm"><div className="font-semibold">Do</div><ul className="list-disc ms-5">{m.do.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
           {m.dont && m.dont.length>0 && (<div className="text-sm text-rose-200"><div className="font-semibold">Avoid</div><ul className="list-disc ms-5">{m.dont.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
+          {m.services && m.services.length>0 && (<div className="text-sm text-emerald-200"><div className="font-semibold">Services</div><ul className="list-disc ms-5">{m.services.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
           {m.notes && m.notes.length>0 && (<div className="text-sm text-sky-200"><div className="font-semibold">Notes</div><ul className="list-disc ms-5">{m.notes.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
         </div>
       ))}
