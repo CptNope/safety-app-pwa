@@ -1,0 +1,6 @@
+
+:root{
+  --simons-mdma:#1f66ff; --marquis-mdma:#4b0082; --mecke-mdma:#001a66; --mandelin-mdma:#000;
+}
+.reagent-chip{display:inline-block;padding:.375rem .625rem;border-radius:999px;font-weight:600;font-size:.8rem;line-height:1;color:#fff;border:1px solid rgba(0,0,0,.15)}
+.reagent-chip[data-nr="true"]{color:#222;border-color:#aaa;background:transparent}
