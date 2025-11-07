@@ -85,7 +85,7 @@
             0,
             120
           ],
-          "alt": "purple/violet within 30\u2013120s"
+          "alt": "purple/violet within 30–120s"
         },
         {
           "reagent": "hofmann",
@@ -134,13 +134,355 @@
           "confidence": "do-not"
         }
       }
+    },
+    "Cocaine": {
+      "class": "tropane alkaloid",
+      "forms": [
+        "powder",
+        "rock (crack)"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction to pale yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction to pale yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange-brown"
+        }
+      ],
+      "notes": [
+        "Cocaine often shows minimal/no reaction with common reagents. Use multiple tests; fentanyl strips recommended."
+      ]
+    },
+    "Methamphetamine": {
+      "class": "phenethylamine",
+      "forms": [
+        "crystal",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FF4500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→orange-brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#4B0082",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark blue-green→black"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green→brown"
+        },
+        {
+          "reagent": "simons",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction (primary amine)"
+        }
+      ],
+      "notes": [
+        "Simon's test distinguishes meth (no reaction) from MDMA (blue). Use multiple reagents."
+      ]
+    },
+    "MDA": {
+      "class": "phenethylamine",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple→black"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "blue-black→black"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark→black"
+        },
+        {
+          "reagent": "simons",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction (primary amine)"
+        }
+      ],
+      "notes": [
+        "Similar to MDMA but Simon's shows no reaction (MDA is primary amine, MDMA is secondary)."
+      ]
+    },
+    "Amphetamine": {
+      "class": "phenethylamine",
+      "forms": [
+        "powder",
+        "paste",
+        "tablet"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FF8C00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green→brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green"
+        },
+        {
+          "reagent": "simons",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction (primary amine)"
+        }
+      ],
+      "notes": [
+        "Speed/amphetamine paste often contains adulterants. Test multiple points."
+      ]
+    },
+    "2C-B": {
+      "class": "phenethylamine (psychedelic)",
+      "forms": [
+        "powder",
+        "capsule",
+        "tablet"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-green"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green→olive"
+        }
+      ],
+      "notes": [
+        "Distinctive yellow-green with Marquis/Mecke. Often confused with other 2C-x compounds."
+      ]
+    },
+    "Ketamine": {
+      "class": "arylcyclohexylamine (dissociative)",
+      "forms": [
+        "powder",
+        "liquid",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction to faint yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→orange-brown"
+        }
+      ],
+      "notes": [
+        "Ketamine shows minimal reaction with most reagents. Specialized tests (Morris) available."
+      ]
+    },
+    "Psilocybin": {
+      "class": "tryptamine (indole)",
+      "forms": [
+        "mushroom",
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#7E4E9B",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#8B7355",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "tan→brown"
+        }
+      ],
+      "notes": [
+        "Ehrlich for indole group confirmation. Whole mushrooms: test cap/stem separately if possible."
+      ]
+    },
+    "Fentanyl": {
+      "class": "synthetic opioid",
+      "forms": [
+        "powder",
+        "pressed pill",
+        "patch",
+        "adulterant"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction to faint pink"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow-green"
+        }
+      ],
+      "notes": [
+        "CRITICAL: Use fentanyl test strips. Reagents are unreliable for fentanyl/analogues. Extremely potent—use PPE."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "Immunoassay strips are the recommended method. Dissolve tiny sample and follow strip instructions.",
+          "confidence": "high"
+        }
+      }
     }
   },
   "id_guide": {
     "blotter": {
       "name": "Blotter (paper tabs)",
       "tips": [
-        "Common size ~6\u20137mm",
+        "Common size ~6–7mm",
         "Use Ehrlich/Hofmann on a tiny corner"
       ],
       "uv_hacks": [
