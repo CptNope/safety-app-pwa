@@ -511,6 +511,146 @@ function Methods(){
   );
 }
 
+function FirstResponder(){
+  const {data} = useJSON('data/reagents.json');
+  if(!data?.first_responder) return null;
+  const fr = data.first_responder;
+  
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-blue-500/50 bg-blue-500/10 p-4">
+        <h2 className="text-lg font-bold text-blue-200 mb-2">🚒 {fr.title}</h2>
+        <p className="text-sm text-blue-100 mb-2">{fr.overview.description}</p>
+        <p className="text-sm text-red-200 font-bold">⚠️ {fr.overview.critical}</p>
+      </div>
+      
+      {fr.scene_safety && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-lg text-amber-200">⚠️ {fr.scene_safety.name}</h3>
+          
+          <div className="space-y-2">
+            <div className="font-semibold text-md text-red-200">Primary Hazards</div>
+            {fr.scene_safety.primary_hazards.map((h,i)=>(
+              <div key={i} className="rounded-xl border border-red-500/30 bg-red-500/5 p-3 space-y-1 text-sm">
+                <div className="font-bold text-red-200">{h.hazard}</div>
+                <div><span className="font-semibold">Danger:</span> {h.danger}</div>
+                <div><span className="font-semibold">Signs:</span> {h.signs}</div>
+                <div className="text-emerald-200"><span className="font-semibold">PPE Required:</span> {h.ppe}</div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2 text-sm">
+            <div className="font-semibold">Scene Assessment Steps</div>
+            <ol className="list-decimal ms-5 space-y-0.5">{fr.scene_safety.scene_assessment_steps.map((s,i)=><li key={i}>{s}</li>)}</ol>
+          </div>
+          
+          <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-3 space-y-2 text-sm">
+            <div className="font-semibold text-red-200">If Responder Exposed</div>
+            <ul className="list-disc ms-5 space-y-0.5">{fr.scene_safety.if_exposed.map((s,i)=><li key={i}>{s}</li>)}</ul>
+          </div>
+        </div>
+      )}
+      
+      {fr.patient_assessment && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-lg text-emerald-200">🏥 {fr.patient_assessment.name}</h3>
+          
+          <div className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2 text-sm">
+            <div className="font-semibold">Vital Signs Focus</div>
+            <ul className="list-disc ms-5 space-y-0.5">{fr.patient_assessment.vital_signs_focus.map((v,i)=><li key={i}>{v}</li>)}</ul>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-3">
+            <div className="rounded-xl border border-purple-500/30 bg-purple-500/5 p-3 space-y-2 text-sm">
+              <div className="font-semibold text-purple-200">Opioid Overdose Signs</div>
+              <ul className="list-disc ms-5 space-y-0.5">{fr.patient_assessment.opioid_overdose_signs.map((s,i)=><li key={i}>{s}</li>)}</ul>
+            </div>
+            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-3 space-y-2 text-sm">
+              <div className="font-semibold text-orange-200">Stimulant Toxicity Signs</div>
+              <ul className="list-disc ms-5 space-y-0.5">{fr.patient_assessment.stimulant_toxicity_signs.map((s,i)=><li key={i}>{s}</li>)}</ul>
+            </div>
+          </div>
+          
+          <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-3 space-y-2">
+            <div className="font-bold text-emerald-200">💉 Naloxone Protocol</div>
+            <div className="text-sm"><span className="font-semibold">Indication:</span> {fr.patient_assessment.naloxone_protocol.indication}</div>
+            <div className="text-sm"><span className="font-semibold">Dosing:</span><ul className="list-disc ms-5 mt-1">{fr.patient_assessment.naloxone_protocol.dosing.map((d,i)=><li key={i}>{d}</li>)}</ul></div>
+            <div className="text-sm"><span className="font-semibold text-amber-200">Special Considerations:</span><ul className="list-disc ms-5 mt-1">{fr.patient_assessment.naloxone_protocol.special_considerations.map((c,i)=><li key={i}>{c}</li>)}</ul></div>
+            <div className="text-sm text-sky-200">{fr.patient_assessment.naloxone_protocol.public_access}</div>
+          </div>
+        </div>
+      )}
+      
+      {fr.field_test_kits && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-lg text-sky-200">🧪 {fr.field_test_kits.name}</h3>
+          <div className="text-sm text-amber-200 italic">{fr.field_test_kits.overview}</div>
+          
+          {fr.field_test_kits.kits.map((kit,i)=>(
+            <div key={i} className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+              <div className="flex items-start justify-between gap-2">
+                <div>
+                  <div className="font-bold text-sky-200">{kit.name}</div>
+                  <div className="text-xs text-gray-400">{kit.manufacturer} • {kit.type}</div>
+                </div>
+                {kit.public_availability && kit.public_availability.includes('YES') && (
+                  <span className="px-2 py-1 text-xs rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 whitespace-nowrap">Public Available</span>
+                )}
+              </div>
+              
+              <div className="text-sm space-y-1">
+                <div><span className="font-semibold">For:</span> {kit.intended_for.join(', ')}</div>
+                {Array.isArray(kit.substances_detected) && (
+                  <div><span className="font-semibold">Detects:</span> {kit.substances_detected.join(', ')}</div>
+                )}
+                <div><span className="font-semibold">How it works:</span> {kit.how_it_works}</div>
+                <div className="text-emerald-200"><span className="font-semibold">Advantages:</span> {kit.advantages.join(', ')}</div>
+                <div className="text-amber-200"><span className="font-semibold">Limitations:</span> {kit.limitations.join(', ')}</div>
+                <div><span className="font-semibold">Cost:</span> {kit.cost}</div>
+                {kit.url && <a href={kit.url} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline inline-block mt-1">{kit.url}</a>}
+                {kit.public_note && <div className="text-sky-300 font-semibold mt-1">ℹ️ {kit.public_note}</div>}
+              </div>
+            </div>
+          ))}
+          
+          {fr.field_test_kits.public_available_summary && (
+            <div className="rounded-xl border-2 border-emerald-500/50 bg-emerald-500/10 p-4 space-y-2">
+              <div className="font-bold text-emerald-200">✅ Test Kits Available to Public:</div>
+              <ul className="list-disc ms-5 text-sm space-y-1">{fr.field_test_kits.public_available_summary.map((s,i)=><li key={i}>{s}</li>)}</ul>
+            </div>
+          )}
+        </div>
+      )}
+      
+      {fr.post_exposure_protocol && (
+        <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-red-200">⚠️ {fr.post_exposure_protocol.name}</h3>
+          <div className="text-sm space-y-2">
+            <div><span className="font-semibold">If Exposed:</span><ul className="list-disc ms-5 mt-1 space-y-0.5">{fr.post_exposure_protocol.if_responder_exposed.map((s,i)=><li key={i}>{s}</li>)}</ul></div>
+            <div><span className="font-semibold text-amber-200">Symptoms:</span><ul className="list-disc ms-5 mt-1 space-y-0.5">{fr.post_exposure_protocol.symptoms_of_exposure.map((s,i)=><li key={i}>{s}</li>)}</ul></div>
+            <div className="text-sky-200 italic"><span className="font-semibold">Important:</span> {fr.post_exposure_protocol.panic_vs_real_exposure}</div>
+          </div>
+        </div>
+      )}
+      
+      {fr.training_resources && (
+        <div className="rounded-xl border border-blue-500/30 bg-blue-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-blue-200">📚 {fr.training_resources.name}</h3>
+          {fr.training_resources.recommended_training.map((t,i)=>(
+            <div key={i} className="rounded-lg bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
+              <div className="font-bold text-blue-100">{t.topic}</div>
+              <div><span className="font-semibold">Provider:</span> {t.provider}</div>
+              <div>{t.description}</div>
+              <a href={t.url} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200 underline inline-block">{t.url}</a>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function App(){
   const [tab,setTab] = useState('quick');
   const {data} = useJSON('data/reagents.json');
@@ -523,6 +663,7 @@ function App(){
           <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
+          <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
           <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
         </nav>
@@ -536,6 +677,7 @@ function App(){
       {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
+      {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
 

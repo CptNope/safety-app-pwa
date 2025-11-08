@@ -3791,64 +3791,317 @@
       "notes": "Spanish harm reduction org, bilingual resources."
     }
   ],
-  "field_kits": [
-    {
-      "id": "sirchie_nark",
-      "name": "Sirchie NARK II Presumptive Kits",
-      "intended_for": [
-        "First responder",
-        "Law enforcement"
-      ],
-      "detection_type": "Colorimetric ampoule",
-      "sample_type": [
-        "Powder",
-        "Residue"
-      ],
-      "chain_of_custody": true,
-      "regions": [
-        "US"
-      ],
-      "url": "https://www.sirchie.com/products/nark-presumptive-drug-analysis.html"
+  "first_responder": {
+    "title": "First Responder Protocols & Equipment",
+    "overview": {
+      "description": "Information for Fire, EMS, and Law Enforcement responding to suspected drug overdoses or scenes with unknown substances.",
+      "critical": "Scene safety is paramount. Fentanyl and analogues can be absorbed through skin or inhaled. ALWAYS use appropriate PPE before approaching."
     },
-    {
-      "id": "drager_dt5000",
-      "name": "Dräger DrugTest 5000 (Oral Fluid)",
-      "intended_for": [
-        "First responder",
-        "Safety officer"
+    "scene_safety": {
+      "name": "Scene Safety & Assessment",
+      "primary_hazards": [
+        {
+          "hazard": "Fentanyl & Analogues",
+          "danger": "Extremely potent synthetic opioids. Skin absorption and inhalation possible. Microgram quantities can be lethal.",
+          "signs": "White/off-white powder, pressed pills, sometimes mixed with other substances",
+          "ppe": "Double nitrile gloves, N95/P100 respirator, eye protection, disposable gown"
+        },
+        {
+          "hazard": "Carfentanil",
+          "danger": "100x more potent than fentanyl. Used as elephant tranquilizer. Even smaller amounts deadly.",
+          "signs": "Indistinguishable from fentanyl visually",
+          "ppe": "Full PPE including respirator mandatory"
+        },
+        {
+          "hazard": "Xylazine (Tranq)",
+          "danger": "Veterinary sedative. Causes severe wounds. Does NOT respond to naloxone.",
+          "signs": "Mixed with fentanyl in powders and pressed pills",
+          "ppe": "Standard PPE for powder exposure"
+        },
+        {
+          "hazard": "Volatile Substances",
+          "danger": "GHB, solvents, chemical precursors may be present at labs/stash houses",
+          "signs": "Chemical odors, containers, manufacturing equipment",
+          "ppe": "Respirator, chemical-resistant gloves, consider HAZMAT team"
+        }
       ],
-      "detection_type": "Immunoassay (oral fluid)",
-      "sample_type": [
-        "Oral fluid"
+      "scene_assessment_steps": [
+        "1. Approach cautiously - look for visible powders, pills, paraphernalia",
+        "2. Don PPE BEFORE entering scene if drugs suspected",
+        "3. Ventilate area if safe to do so (open windows/doors)",
+        "4. Identify patient(s) and assess medical needs",
+        "5. Identify visible substances - DO NOT TOUCH without PPE",
+        "6. Look for drug paraphernalia (needles, pipes, pill bottles, baggies)",
+        "7. Request law enforcement if not already on scene",
+        "8. Document scene with photos if protocol allows"
       ],
-      "chain_of_custody": true,
-      "regions": [
-        "US",
-        "EU"
+      "if_exposed": [
+        "Remove from contaminated area immediately",
+        "Remove contaminated clothing carefully (avoid shaking - can aerosolize powder)",
+        "Flush exposed skin with copious water for 15+ minutes",
+        "Seek immediate medical attention",
+        "Monitor for signs of opioid toxicity (respiratory depression, altered mental status)",
+        "Have naloxone available for responder exposure"
+      ]
+    },
+    "patient_assessment": {
+      "name": "Patient Assessment & Treatment",
+      "vital_signs_focus": [
+        "Respiratory rate (MOST CRITICAL for opioid OD)",
+        "Pulse oximetry",
+        "Level of consciousness (GCS)",
+        "Pupil size and reactivity",
+        "Skin color/temperature",
+        "Blood pressure and heart rate"
       ],
-      "url": "https://www.draeger.com/en-us_us/Products/DrugTest-5000"
+      "opioid_overdose_signs": [
+        "Respiratory depression (<12 breaths/min) or apnea",
+        "Unconsciousness or extreme sedation",
+        "Pinpoint pupils (miosis)",
+        "Cyanosis (blue lips/fingernails)",
+        "Bradycardia (slow heart rate)",
+        "Hypotension",
+        "Choking/gurgling sounds"
+      ],
+      "stimulant_toxicity_signs": [
+        "Tachycardia (rapid heart rate >120 bpm)",
+        "Hypertension",
+        "Hyperthermia (>103°F/39.4°C critical)",
+        "Agitation/aggression/psychosis",
+        "Seizures",
+        "Chest pain",
+        "Diaphoresis (profuse sweating)"
+      ],
+      "treatment_priorities": {
+        "opioid_overdose": [
+          "1. Airway management - position, suction if needed",
+          "2. Ventilatory support - BVM if inadequate breathing",
+          "3. Naloxone administration (see dosing below)",
+          "4. IV access if able",
+          "5. Transport - prolonged monitoring needed",
+          "6. Repeat naloxone if re-sedation occurs"
+        ],
+        "stimulant_toxicity": [
+          "1. Scene safety - patient may be combative",
+          "2. Cooling measures if hyperthermic (>103°F)",
+          "3. Benzodiazepines for seizures/agitation (ALS)",
+          "4. IV access and fluid resuscitation",
+          "5. Cardiac monitoring - watch for arrhythmias",
+          "6. Rapid transport"
+        ],
+        "unknown_substance": [
+          "1. ABC's (Airway, Breathing, Circulation)",
+          "2. Supportive care based on symptoms",
+          "3. Bring substance/container to hospital if safe",
+          "4. Do NOT induce vomiting",
+          "5. Transport for evaluation"
+        ]
+      },
+      "naloxone_protocol": {
+        "indication": "Suspected opioid overdose with respiratory depression",
+        "dosing": [
+          "Intranasal: 4mg (one spray per nostril) - preferred for safety",
+          "IM: 0.4-2mg, repeat every 2-3 minutes as needed",
+          "IV: 0.4mg, repeat every 2-3 minutes (faster onset but requires IV access)"
+        ],
+        "special_considerations": [
+          "Fentanyl may require MULTIPLE doses (4-10mg total not uncommon)",
+          "Duration of action: 30-90 minutes (shorter than most opioids)",
+          "Patient may become combative when awakened (withdrawal)",
+          "Re-sedation common - transport and monitor even if patient refuses",
+          "Xylazine will NOT respond to naloxone - supportive care only"
+        ],
+        "public_access": "Naloxone available over-counter in most states. Firefighters/EMS should carry nasal spray in all response vehicles."
+      }
+    },
+    "field_test_kits": {
+      "name": "Field Test Kits for First Responders",
+      "overview": "Presumptive tests provide probable identification but are NOT definitive. Used for scene safety assessment and probable cause determination. Lab confirmation required for prosecution.",
+      "kits": [
+        {
+          "id": "nark_ii",
+          "name": "Sirchie NARK II",
+          "manufacturer": "Sirchie",
+          "type": "Colorimetric ampoule tests",
+          "intended_for": ["Law Enforcement", "Fire/EMS (scene safety)"],
+          "substances_detected": [
+            "Opiates/Heroin",
+            "Cocaine/Crack",
+            "Methamphetamine",
+            "MDMA",
+            "Marijuana",
+            "Ketamine",
+            "Fentanyl (specific test)",
+            "Synthetic cannabinoids"
+          ],
+          "how_it_works": "Sealed ampoules with reagent. Break ampoule, observe color change.",
+          "advantages": ["Self-contained", "Shelf-stable", "Easy to use", "Chain of custody seals available"],
+          "limitations": ["False positives possible", "Cannot determine purity", "Fentanyl test less reliable than strips"],
+          "cost": "$2-5 per test",
+          "public_availability": "Restricted to law enforcement in most areas",
+          "url": "https://www.sirchie.com/nark-ii.html"
+        },
+        {
+          "id": "trunarc",
+          "name": "TruNarc Handheld Analyzer",
+          "manufacturer": "Thermo Fisher Scientific",
+          "type": "Raman spectroscopy",
+          "intended_for": ["Law Enforcement", "Customs", "Security"],
+          "substances_detected": ["Over 400 controlled substances and precursors", "Through plastic bags and glass"],
+          "how_it_works": "Laser-based spectroscopy identifies molecular structure without opening container.",
+          "advantages": ["No sample contact", "Tests through packaging", "Extensive library", "Can detect mixtures"],
+          "limitations": ["Expensive ($20,000+)", "Requires calibration", "Some dark containers interfere"],
+          "cost": "$20,000-30,000",
+          "public_availability": "Not available to public",
+          "url": "https://www.thermofisher.com/trunarc"
+        },
+        {
+          "id": "detectachem_mobiledetect",
+          "name": "DetectaChem MobileDetect",
+          "manufacturer": "DetectaChem",
+          "type": "Colorimetric pouches + smartphone app",
+          "intended_for": ["First Responders", "Law Enforcement"],
+          "substances_detected": ["Fentanyl", "Heroin", "Cocaine", "Meth", "MDMA", "Synthetic cannabinoids"],
+          "how_it_works": "Dry reagent pouches. Add sample, shake, photograph color with app for analysis.",
+          "advantages": ["Safer than liquid reagents", "App provides interpretation", "Portable", "Less cross-contamination risk"],
+          "limitations": ["Requires smartphone", "Presumptive only"],
+          "cost": "$15-25 per test",
+          "public_availability": "Some products available to public",
+          "url": "https://www.detectachem.com/"
+        },
+        {
+          "id": "fentanyl_test_strips_leo",
+          "name": "Fentanyl Test Strips (Law Enforcement Grade)",
+          "manufacturer": "Multiple (BTNX, Bairun)",
+          "type": "Immunoassay lateral flow",
+          "intended_for": ["First Responders", "Scene Safety Assessment"],
+          "substances_detected": ["Fentanyl and many analogues (carfentanil, acetyl fentanyl, etc.)"],
+          "how_it_works": "Dissolve sample in water, dip strip, read in 5 minutes. 1 line = positive, 2 lines = negative.",
+          "advantages": ["Highly sensitive", "Fast results", "Inexpensive", "Critical for scene safety"],
+          "limitations": ["Some novel analogues not detected", "Cannot determine concentration"],
+          "cost": "$1-2 per strip",
+          "public_availability": "YES - Same strips available over-counter and through harm reduction orgs",
+          "url": "Pharmacy/harm reduction organizations",
+          "public_note": "Public can obtain identical strips - see harm reduction resources"
+        },
+        {
+          "id": "xylazine_test_strips",
+          "name": "Xylazine Test Strips",
+          "manufacturer": "BTNX",
+          "type": "Immunoassay lateral flow",
+          "intended_for": ["First Responders", "Scene Assessment"],
+          "substances_detected": ["Xylazine (veterinary tranquilizer)"],
+          "how_it_works": "Same as fentanyl strips - dissolve sample, dip, read.",
+          "advantages": ["Identifies xylazine contamination", "Important for treatment decisions (won't respond to naloxone)"],
+          "limitations": ["Single analyte only"],
+          "cost": "$2-3 per strip",
+          "public_availability": "YES - Available through harm reduction organizations",
+          "url": "https://nextdistro.org/ (free for public)",
+          "public_note": "Free distribution through NEXT Distro and other harm reduction orgs"
+        },
+        {
+          "id": "drager_drugtest",
+          "name": "Dräger DrugTest 5000",
+          "manufacturer": "Drägerwerk",
+          "type": "Oral fluid immunoassay",
+          "intended_for": ["Law Enforcement", "Workplace Safety"],
+          "substances_detected": ["THC", "Opiates", "Cocaine", "Amphetamines", "Methamphetamine", "Benzodiazepines"],
+          "how_it_works": "Oral swab collects saliva, results in 5-10 minutes.",
+          "advantages": ["Non-invasive", "Detects recent use", "Multiple drugs simultaneously"],
+          "limitations": ["Does NOT work on powders/pills", "Detects use, not identify substance", "For impairment testing only"],
+          "cost": "$10-15 per test",
+          "public_availability": "Restricted - workplace/law enforcement use",
+          "url": "https://www.draeger.com/"
+        }
+      ],
+      "public_available_summary": [
+        "Fentanyl Test Strips - Identical to first responder use - pharmacies and harm reduction orgs",
+        "Xylazine Test Strips - Free from NEXT Distro and harm reduction organizations",
+        "DetectaChem consumer products - Some dry reagent pouches available",
+        "Traditional reagent test kits (Marquis, Mecke, etc.) - DanceSafe, Bunk Police, etc."
+      ]
+    },
+    "documentation_and_reporting": {
+      "name": "Documentation Requirements",
+      "scene_documentation": [
+        "Photograph scene (wide angle and close-up)",
+        "Document location and condition of patient",
+        "Note presence of drug paraphernalia",
+        "Document any visible substances (without touching)",
+        "Note position and condition of pill bottles, syringes, etc.",
+        "Witnesses present and statements if obtained"
+      ],
+      "patient_care_documentation": [
+        "Chief complaint/caller information",
+        "Patient's stated drug use (if conscious)",
+        "Vital signs (especially respiratory rate)",
+        "Level of consciousness (GCS)",
+        "Naloxone administered (dose, route, time, response)",
+        "Other interventions performed",
+        "Patient response to treatment",
+        "Transport destination and condition on arrival"
+      ],
+      "substance_handling": [
+        "ONLY law enforcement should collect and secure evidence",
+        "Fire/EMS: Note substance location, do not collect",
+        "If substance brought to hospital with patient, document and hand off to law enforcement",
+        "Maintain chain of custody if required by protocol",
+        "Photograph any prescription bottles with patient"
+      ]
+    },
+    "post_exposure_protocol": {
+      "name": "First Responder Exposure to Fentanyl",
+      "if_responder_exposed": [
+        "Remove from area immediately",
+        "Carefully remove contaminated clothing (avoid shaking/aerosolizing)",
+        "Flush skin with water for 15 minutes minimum",
+        "Monitor for symptoms: dizziness, respiratory depression, altered mental status, pinpoint pupils",
+        "Administer naloxone if symptoms develop",
+        "Transport to ED for evaluation",
+        "Do NOT induce vomiting",
+        "Do NOT use hand sanitizer (may enhance absorption)"
+      ],
+      "symptoms_of_exposure": [
+        "Respiratory depression (slow or shallow breathing)",
+        "Drowsiness or sedation",
+        "Confusion or disorientation",
+        "Pinpoint pupils",
+        "Clammy skin",
+        "Hypotension (low blood pressure)",
+        "Loss of consciousness"
+      ],
+      "panic_vs_real_exposure": "Studies show most 'fentanyl exposure' calls in first responders are panic attacks, not true toxicity. True fentanyl exposure causes RESPIRATORY DEPRESSION and SEDATION, not anxiety/hyperventilation. If responder is alert and anxious, likely panic attack. Still remove from scene, provide supportive care, and monitor.",
+      "decontamination": [
+        "Soap and water most effective",
+        "Baby wipes acceptable in field",
+        "Avoid alcohol-based sanitizers",
+        "All exposed skin should be washed",
+        "Do not contaminate vehicle - change gloves before driving"
+      ]
+    },
+    "training_resources": {
+      "name": "Training & Continuing Education",
+      "recommended_training": [
+        {
+          "topic": "Fentanyl Awareness",
+          "provider": "DEA",
+          "url": "https://www.dea.gov/onepill",
+          "description": "One Pill Can Kill campaign materials, videos, and statistics"
+        },
+        {
+          "topic": "Opioid Overdose Response",
+          "provider": "SAMHSA",
+          "url": "https://www.samhsa.gov/",
+          "description": "Opioid overdose prevention toolkit, naloxone training"
+        },
+        {
+          "topic": "Officer Safety and Fentanyl",
+          "provider": "NIJ/NFSTC",
+          "url": "https://www.nij.ojp.gov/",
+          "description": "Research on fentanyl exposure risks, PPE recommendations"
+        }
+      ]
     }
-  ],
-  "ppe_and_protocols": {
-    "ppe": [
-      "Double nitrile gloves",
-      "Eye protection",
-      "N95/P100 for aerosol risk",
-      "Disposable gown/coveralls"
-    ],
-    "exposure_steps": [
-      "Fresh air, remove contaminated clothing, flush skin",
-      "Ventilatory support",
-      "Naloxone for suspected opioids; transport"
-    ],
-    "scene_checklist_print": [
-      "Secure scene & PPE",
-      "Photo with scale",
-      "Collect labeled sample",
-      "Presumptive test & record",
-      "Maintain chain-of-custody",
-      "Transport/submit to lab"
-    ]
   },
   "counterfeit_pills_warning": {
     "title": "⚠️ COUNTERFEIT PRESCRIPTION PILLS CRISIS",
