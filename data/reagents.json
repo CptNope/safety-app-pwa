@@ -3850,6 +3850,209 @@
       "Transport/submit to lab"
     ]
   },
+  "counterfeit_pills_warning": {
+    "title": "⚠️ COUNTERFEIT PRESCRIPTION PILLS CRISIS",
+    "overview": {
+      "warning": "Drug cartels are mass-producing fake prescription pills containing fentanyl and other deadly substances. These pills are designed to look IDENTICAL to legitimate pharmaceuticals.",
+      "scope": "The DEA reports that 6 out of 10 fentanyl-laced fake prescription pills contain a potentially lethal dose of fentanyl. These pills are flooding the US drug supply.",
+      "critical": "NEVER assume a pill is safe based on appearance alone. Pills bought outside of a licensed pharmacy should be considered extremely high-risk."
+    },
+    "most_counterfeited": {
+      "name": "Most Commonly Counterfeited Pills",
+      "pills": [
+        {
+          "drug": "M30 / 'Blues' (Fake Oxycodone)",
+          "appearance": "Blue round pill, 'M' on one side, '30' on other",
+          "reality": "Almost always contain fentanyl, carfentanil, or fentanyl analogues. Extremely deadly.",
+          "prevalence": "Most common fake pill. Virtually all M30s on the street are counterfeit.",
+          "visual_tells": "Slightly thicker/thinner edges, chalky texture, uneven color, crumbly/breaks easily"
+        },
+        {
+          "drug": "Xanax Bars (Alprazolam)",
+          "appearance": "White, yellow, or green rectangular bars with score marks, 'XANAX' imprint or 'X|2' or 'G3722'",
+          "reality": "Often contain fentanyl, flualprazolam, etizolam, or other RC benzos. Extremely unpredictable potency.",
+          "prevalence": "Very common. Many deaths from fake Xanax + fentanyl.",
+          "visual_tells": "Chalky texture, incorrect font, uneven edges, breaks unevenly along scores"
+        },
+        {
+          "drug": "Adderall (Amphetamine)",
+          "appearance": "Orange, peach, or blue pills, various shapes, 'AD' or numbers",
+          "reality": "May contain methamphetamine, caffeine, or fentanyl.",
+          "prevalence": "Increasing. College campuses particularly affected.",
+          "visual_tells": "Texture differences, color variations, incorrect hardness"
+        },
+        {
+          "drug": "Percocet (Oxycodone/Acetaminophen)",
+          "appearance": "White or yellow round/oval pills with various imprints",
+          "reality": "Often contain fentanyl or analogues.",
+          "prevalence": "Common in areas with opioid crisis.",
+          "visual_tells": "Similar to M30s—texture, weight, and breakage patterns differ"
+        },
+        {
+          "drug": "Vicodin/Norco (Hydrocodone)",
+          "appearance": "White oblong pills, various imprints",
+          "reality": "Frequently contain fentanyl.",
+          "prevalence": "Moderate. Increasing as crackdown on prescriptions tightens.",
+          "visual_tells": "Texture, color uniformity, edge quality"
+        }
+      ]
+    },
+    "testing_strategies": {
+      "name": "How to Test Suspected Counterfeit Pills",
+      "critical_first_step": {
+        "title": "1. FENTANYL TEST STRIPS (MANDATORY)",
+        "why": "Colorimetric reagents CANNOT reliably detect fentanyl or its analogues. Test strips are the ONLY reliable method for fentanyl detection outside a lab.",
+        "how": [
+          "Crush a TINY portion of pill (10mg or less—quarter of a grain of rice)",
+          "Dissolve in water per strip instructions (usually 1-2 tablespoons)",
+          "Dip strip and wait 5 minutes",
+          "One line = FENTANYL DETECTED (positive)",
+          "Two lines = Negative (but not 100% safe—analogues may evade detection)"
+        ],
+        "where_to_get": "Free from harm reduction organizations (NEXT Distro, DanceSafe), some pharmacies sell over-counter, online vendors",
+        "limitations": "Some novel fentanyl analogues may not be detected. Negative does NOT guarantee safety."
+      },
+      "colorimetric_reagents": {
+        "title": "2. Colorimetric Reagent Tests (SECONDARY)",
+        "purpose": "Can help identify what the pill DOES contain, but cannot rule out fentanyl.",
+        "method": [
+          "Scrape powder from pill surface AND interior",
+          "Test with Marquis, Mecke, and Mandelin",
+          "Compare to expected reactions:",
+          "  • Oxycodone: Purple-brown (Marquis), Blue-green (Mecke)",
+          "  • Benzodiazepines: NO REACTION (can't identify with reagents)",
+          "  • Amphetamine: Orange-brown (Marquis), Yellow (Mecke)"
+        ],
+        "red_flags": [
+          "No reaction at all (benzos don't react, but unexpected for 'opioid' pills)",
+          "Unexpected colors suggest wrong drug or adulterants",
+          "Mixed/muddy colors suggest multiple substances"
+        ]
+      },
+      "visual_inspection": {
+        "title": "3. Visual & Physical Inspection (LEAST RELIABLE)",
+        "warning": "Counterfeiters are getting extremely good at replicating pill appearance. DO NOT rely on visual inspection alone.",
+        "what_to_check": [
+          "Font/imprint quality: Genuine pills have crisp, even imprints. Fakes may have uneven depth, wrong font, or blurry edges",
+          "Edges: Genuine pills have smooth, uniform edges. Fakes may be rough, uneven, or have 'flash' (extra material)",
+          "Color uniformity: Genuine pills have even color. Fakes may have speckling or uneven dye distribution",
+          "Texture: Genuine pills are smooth. Fakes may be chalky, grainy, or crumbly",
+          "Hardness: Genuine pills have consistent hardness. Fakes may crumble too easily or be too hard",
+          "Score lines: Genuine pills have even, straight scores. Fakes may have crooked or incomplete scores",
+          "Size/shape: Compare to pill identification databases (drugs.com, pillidentifier.com)"
+        ],
+        "note": "Even perfect-looking pills can be deadly fakes. Mexican cartels use industrial pill presses that produce near-identical copies."
+      }
+    },
+    "current_trends": {
+      "name": "Current Trends & Emerging Threats (2024-2025)",
+      "trends": [
+        {
+          "trend": "Rainbow Fentanyl",
+          "description": "Brightly colored fentanyl pills designed to look like candy. Targeting concerns about youth appeal.",
+          "colors": "Pink, blue, green, yellow, purple pills",
+          "response": "DEA public safety alerts issued. Test ALL colorful pills."
+        },
+        {
+          "trend": "Xylazine ('Tranq') Contamination",
+          "description": "Veterinary sedative increasingly mixed with fentanyl in pills and powders. Causes severe tissue damage and does NOT respond to naloxone.",
+          "danger": "Wounds/necrosis at injection sites. Respiratory depression not reversed by Narcan.",
+          "testing": "Xylazine test strips now available from harm reduction orgs."
+        },
+        {
+          "trend": "Super-Potent Analogues",
+          "description": "Carfentanil (elephant tranquilizer), isotonitazene, and other ultra-potent synthetic opioids replacing fentanyl in some areas.",
+          "danger": "Even more potent than fentanyl. May require multiple Narcan doses.",
+          "note": "Standard fentanyl strips may not detect all analogues."
+        },
+        {
+          "trend": "Cocaine & Meth Contamination",
+          "description": "Fentanyl increasingly found in stimulants (cocaine, meth, fake Adderall). Likely cross-contamination during production but possibly intentional.",
+          "danger": "Users not expecting opioids are at extreme risk. No tolerance = higher OD risk.",
+          "response": "Test ALL powders and pills with fentanyl strips, regardless of expected substance."
+        },
+        {
+          "trend": "Pressed Benzo Pills with Fentanyl",
+          "description": "Fake Xanax bars often contain fentanyl in addition to (or instead of) benzodiazepines or RC benzos.",
+          "danger": "CNS depression from both opioid and benzo = extreme respiratory depression.",
+          "note": "Never mix downers. This combination is extremely deadly."
+        }
+      ]
+    },
+    "harm_reduction_strategies": {
+      "name": "Safer Use Strategies (If You Have Pressed Pills)",
+      "strategies": [
+        {
+          "strategy": "Never use alone",
+          "why": "Someone needs to be there to call 911 and administer naloxone if you overdose.",
+          "tools": "NeverUseAlone hotline: 1-800-484-3731 (US), Brave app (Canada)"
+        },
+        {
+          "strategy": "Start with a very small amount",
+          "why": "Fentanyl distribution in pills is uneven. One pill may have 10x the dose of another from the same batch.",
+          "how": "Crush pill, take 1/4 or less first, wait 1-2 hours before taking more"
+        },
+        {
+          "strategy": "Have naloxone (Narcan) immediately available",
+          "why": "Fentanyl acts FAST. Naloxone can reverse opioid overdose.",
+          "how": "2-4mg nasal spray. May need multiple doses for fentanyl. Available over-counter at pharmacies, free from harm reduction orgs."
+        },
+        {
+          "strategy": "Don't mix substances",
+          "why": "Combining downers (opioids + alcohol, benzos, GHB) dramatically increases overdose risk.",
+          "note": "Stimulants + fentanyl also extremely dangerous—stimulant wears off while opioid still active."
+        },
+        {
+          "strategy": "Test every pill/batch separately",
+          "why": "Fentanyl distribution is NOT uniform. One pill being safe doesn't mean the next is.",
+          "note": "Pills from the same bag may vary wildly in content."
+        },
+        {
+          "strategy": "Use drug checking services",
+          "why": "Lab testing provides definitive identification and can detect novel substances.",
+          "where": "Some harm reduction organizations offer free drug checking. Check local resources."
+        }
+      ]
+    },
+    "resources": {
+      "name": "Resources & Where to Get Help",
+      "resources": [
+        {
+          "name": "NEXT Distro",
+          "service": "Free fentanyl test strips, xylazine strips, naloxone",
+          "url": "https://nextdistro.org/",
+          "note": "Ships discreetly, no questions asked"
+        },
+        {
+          "name": "DanceSafe",
+          "service": "Fentanyl strips, reagent kits, education",
+          "url": "https://dancesafe.org/",
+          "note": "Harm reduction organization"
+        },
+        {
+          "name": "Never Use Alone Hotline",
+          "service": "Overdose prevention hotline—call while using, they stay on line",
+          "phone": "1-800-484-3731 (US)",
+          "note": "Volunteer-run, free, confidential"
+        },
+        {
+          "name": "SAMHSA National Helpline",
+          "service": "Treatment referral and information",
+          "phone": "1-800-662-4357",
+          "note": "Free, confidential, 24/7"
+        },
+        {
+          "name": "DEA Public Safety Alerts",
+          "service": "Current information on fake pills and fentanyl trends",
+          "url": "https://www.dea.gov/onepill",
+          "note": "One Pill Can Kill campaign"
+        }
+      ]
+    },
+    "bottom_line": {
+      "message": "The safest option is to avoid pills obtained outside of a licensed pharmacy. If you choose to use pressed pills, TEST EVERY SINGLE PILL, never use alone, and have naloxone available. Your life depends on it."
+    }
+  },
   "medical_treatment": {
     "overview": {
       "title": "Medical Emergency Response & Hospital Treatment",

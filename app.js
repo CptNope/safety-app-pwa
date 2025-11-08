@@ -264,6 +264,128 @@ function Vendors(){
   );
 }
 
+function CounterfeitPillsWarning(){
+  const {data} = useJSON('data/reagents.json');
+  if(!data?.counterfeit_pills_warning) return null;
+  const cpw = data.counterfeit_pills_warning;
+  
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-red-600/70 bg-red-600/20 p-5">
+        <h2 className="text-xl font-bold text-red-100 mb-3">{cpw.title}</h2>
+        <div className="space-y-2 text-sm">
+          <p className="text-red-50 font-semibold">{cpw.overview.warning}</p>
+          <p className="text-red-100">{cpw.overview.scope}</p>
+          <p className="text-red-100 font-bold">{cpw.overview.critical}</p>
+        </div>
+      </div>
+      
+      {cpw.most_counterfeited && (
+        <div className="rounded-2xl border border-orange-500/30 bg-orange-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-orange-200">💊 {cpw.most_counterfeited.name}</h3>
+          {cpw.most_counterfeited.pills.map((pill,i)=>(
+            <div key={i} className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-1.5">
+              <div className="font-bold text-orange-100">{pill.drug}</div>
+              <div className="text-sm"><span className="font-semibold text-gray-300">Looks like:</span> {pill.appearance}</div>
+              <div className="text-sm"><span className="font-semibold text-red-300">Reality:</span> {pill.reality}</div>
+              <div className="text-sm"><span className="font-semibold text-amber-300">Prevalence:</span> {pill.prevalence}</div>
+              <div className="text-sm"><span className="font-semibold text-sky-300">Visual tells:</span> {pill.visual_tells}</div>
+            </div>
+          ))}
+        </div>
+      )}
+      
+      {cpw.testing_strategies && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-lg text-emerald-200">🧪 {cpw.testing_strategies.name}</h3>
+          
+          {cpw.testing_strategies.critical_first_step && (
+            <div className="rounded-xl border-2 border-emerald-500/50 bg-emerald-500/10 p-4 space-y-2">
+              <div className="font-bold text-emerald-100 text-md">{cpw.testing_strategies.critical_first_step.title}</div>
+              <div className="text-sm"><span className="font-semibold">Why:</span> {cpw.testing_strategies.critical_first_step.why}</div>
+              <div className="text-sm"><span className="font-semibold">How:</span><ul className="list-disc ms-5 mt-1">{cpw.testing_strategies.critical_first_step.how.map((h,i)=><li key={i}>{h}</li>)}</ul></div>
+              <div className="text-sm"><span className="font-semibold">Where to get:</span> {cpw.testing_strategies.critical_first_step.where_to_get}</div>
+              <div className="text-sm text-yellow-200"><span className="font-semibold">⚠️ Limitations:</span> {cpw.testing_strategies.critical_first_step.limitations}</div>
+            </div>
+          )}
+          
+          {cpw.testing_strategies.colorimetric_reagents && (
+            <div className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2 text-sm">
+              <div className="font-semibold">{cpw.testing_strategies.colorimetric_reagents.title}</div>
+              <div><span className="font-semibold">Purpose:</span> {cpw.testing_strategies.colorimetric_reagents.purpose}</div>
+              <div><span className="font-semibold">Method:</span><ul className="list-disc ms-5 mt-1">{cpw.testing_strategies.colorimetric_reagents.method.map((m,i)=><li key={i}>{m}</li>)}</ul></div>
+              <div><span className="font-semibold text-red-300">Red flags:</span><ul className="list-disc ms-5 mt-1">{cpw.testing_strategies.colorimetric_reagents.red_flags.map((r,i)=><li key={i}>{r}</li>)}</ul></div>
+            </div>
+          )}
+          
+          {cpw.testing_strategies.visual_inspection && (
+            <div className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2 text-sm">
+              <div className="font-semibold">{cpw.testing_strategies.visual_inspection.title}</div>
+              <div className="text-yellow-200 font-semibold">⚠️ {cpw.testing_strategies.visual_inspection.warning}</div>
+              <div><span className="font-semibold">What to check:</span><ul className="list-disc ms-5 mt-1 space-y-0.5">{cpw.testing_strategies.visual_inspection.what_to_check.map((w,i)=><li key={i}>{w}</li>)}</ul></div>
+              <div className="text-red-200">⚠️ {cpw.testing_strategies.visual_inspection.note}</div>
+            </div>
+          )}
+        </div>
+      )}
+      
+      {cpw.current_trends && (
+        <div className="rounded-2xl border border-purple-500/30 bg-purple-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-purple-200">📊 {cpw.current_trends.name}</h3>
+          {cpw.current_trends.trends.map((trend,i)=>(
+            <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
+              <div className="font-bold text-purple-100">{trend.trend}</div>
+              <div>{trend.description}</div>
+              {trend.colors && <div><span className="font-semibold">Colors:</span> {trend.colors}</div>}
+              {trend.danger && <div className="text-red-300"><span className="font-semibold">⚠️ Danger:</span> {trend.danger}</div>}
+              {trend.response && <div><span className="font-semibold">Response:</span> {trend.response}</div>}
+              {trend.testing && <div><span className="font-semibold">Testing:</span> {trend.testing}</div>}
+              {trend.note && <div className="text-amber-200"><span className="font-semibold">Note:</span> {trend.note}</div>}
+            </div>
+          ))}
+        </div>
+      )}
+      
+      {cpw.harm_reduction_strategies && (
+        <div className="rounded-2xl border border-blue-500/30 bg-blue-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-blue-200">🛡️ {cpw.harm_reduction_strategies.name}</h3>
+          {cpw.harm_reduction_strategies.strategies.map((strat,i)=>(
+            <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
+              <div className="font-bold text-blue-100">{strat.strategy}</div>
+              <div><span className="font-semibold">Why:</span> {strat.why}</div>
+              {strat.how && <div><span className="font-semibold">How:</span> {strat.how}</div>}
+              {strat.tools && <div><span className="font-semibold">Tools:</span> {strat.tools}</div>}
+              {strat.where && <div><span className="font-semibold">Where:</span> {strat.where}</div>}
+              {strat.note && <div className="text-amber-200">{strat.note}</div>}
+            </div>
+          ))}
+        </div>
+      )}
+      
+      {cpw.resources && (
+        <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-emerald-200">📞 {cpw.resources.name}</h3>
+          {cpw.resources.resources.map((res,i)=>(
+            <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
+              <div className="font-bold text-emerald-100">{res.name}</div>
+              <div>{res.service}</div>
+              {res.url && <a href={res.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 hover:text-sky-200 underline">{res.url}</a>}
+              {res.phone && <div className="font-semibold text-lg">{res.phone}</div>}
+              {res.note && <div className="text-gray-400 italic">{res.note}</div>}
+            </div>
+          ))}
+        </div>
+      )}
+      
+      {cpw.bottom_line && (
+        <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-4">
+          <div className="text-sm text-red-100 font-bold">{cpw.bottom_line.message}</div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function MedicalTreatment(){
   const {data} = useJSON('data/reagents.json');
   if(!data?.medical_treatment) return null;
@@ -271,6 +393,8 @@ function MedicalTreatment(){
   
   return (
     <div className="space-y-4">
+      <CounterfeitPillsWarning/>
+      
       {mt.overview && (
         <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-4">
           <h3 className="text-lg font-bold text-red-200 mb-2">⚠️ {mt.overview.title}</h3>
