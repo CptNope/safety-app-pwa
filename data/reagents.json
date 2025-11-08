@@ -5285,6 +5285,111 @@
             "truth": "Test kits are harm reduction tools. Fentanyl test strips are legal in all 50 US states as of 2023. Check local laws, but carrying testing supplies is generally legal."
           }
         ]
+      },
+      {
+        "category": "Dosing & Mixing Myths",
+        "myths": [
+          {
+            "myth": "If you've done a substance before, you can always handle the same dose",
+            "reality": "Tolerance decreases rapidly with time off (days to weeks). Purity varies wildly between batches. After a break, your 'normal' dose can cause overdose or unexpected intensity.",
+            "danger_level": "critical",
+            "truth": "Always start with a lower dose after any break. Tolerance drops quickly—especially opioids (can drop 50% in days). Test every batch for potency differences."
+          },
+          {
+            "myth": "Mixing uppers and downers cancels out the danger",
+            "reality": "Speedballs (cocaine + heroin) and similar combinations are extremely dangerous. Stimulant masks opioid sedation, then wears off first causing delayed respiratory depression. Heart strain from opposing effects.",
+            "danger_level": "critical",
+            "truth": "Never mix stimulants and depressants thinking they 'balance.' This combination has killed countless people including celebrities. Effects don't cancel—they compound danger."
+          },
+          {
+            "myth": "Taking more will make a 'bad trip' go away faster",
+            "reality": "Taking more of any substance during negative effects will intensify and prolong the experience. For psychedelics, this can turn manageable anxiety into full psychotic break.",
+            "danger_level": "high",
+            "truth": "If having bad experience: change environment, have sober friend present, practice breathing, remember it will end. NEVER take more. For psychedelics, benzodiazepines can help (medical setting)."
+          },
+          {
+            "myth": "Edibles don't work on me, so I should keep eating more",
+            "reality": "Edibles take 1-3 hours to peak (sometimes longer). People eat more before feeling first dose, then all doses hit at once causing severe anxiety, paranoia, or physical distress.",
+            "danger_level": "high",
+            "truth": "Start with 5-10mg THC (or less). Wait minimum 2-3 hours before considering more. Edible overdose isn't fatal but can be extremely unpleasant for 6-12 hours."
+          },
+          {
+            "myth": "Volumetric dosing isn't necessary for small doses",
+            "reality": "Eyeballing doses of potent substances (LSD, benzos, research chemicals, fentanyl) can cause massive overdose. Milligram differences can be lethal for some substances.",
+            "danger_level": "critical",
+            "truth": "For substances active in microgram/milligram range: use volumetric dosing (dissolve known amount in liquid, measure precisely). Invest in 0.001g scale minimum. Eyeballing can kill."
+          },
+          {
+            "myth": "You can't overdose if you're experienced/have high tolerance",
+            "reality": "Experienced users die from overdoses regularly. Reasons: tolerance inconsistency, batch purity variation, fentanyl contamination, combination effects, overconfidence.",
+            "danger_level": "critical",
+            "truth": "Experience doesn't grant immunity. Many OD deaths are experienced users who thought they knew their limits. Always test, start lower than you think, never use alone."
+          }
+        ]
+      },
+      {
+        "category": "Specific Substance Myths",
+        "myths": [
+          {
+            "myth": "Acid stays in your spinal fluid forever and can cause flashbacks years later",
+            "reality": "Completely false. LSD is metabolized and eliminated from body within days. HPPD (persistent perceptual changes) is real but rare, not caused by 'stored' LSD.",
+            "danger_level": "low",
+            "truth": "LSD doesn't remain in body long-term. HPPD is a recognized condition but mechanism is neurological adaptation, not stored drug. Flashbacks are psychological, not pharmacological."
+          },
+          {
+            "myth": "Molly (powder MDMA) is purer/safer than ecstasy (pills)",
+            "reality": "Form doesn't indicate purity or safety. Powder can be anything (often cathinones, methylone, or meth). Pills can be anything. Both need testing.",
+            "danger_level": "high",
+            "truth": "'Molly' is often NOT MDMA. Powder form is easier to fake than press into convincing pills. Test everything regardless of form."
+          },
+          {
+            "myth": "Smoking DMT can't cause psychological damage because it's natural",
+            "reality": "Natural ≠ safe. DMT can cause severe psychological distress, PTSD-like symptoms, depersonalization/derealization, or worsen latent mental illness. Integration support important.",
+            "danger_level": "medium",
+            "truth": "DMT is extremely powerful. While physical safety profile is good, psychological risks are real. Not for everyone. Set, setting, and integration critical."
+          },
+          {
+            "myth": "Ketamine is safe because it's used in hospitals",
+            "reality": "Medical ketamine is pure, precisely dosed, in controlled setting. Street ketamine may be cut, contaminated, or analogues (2-FDCK). Chronic use causes bladder damage.",
+            "danger_level": "medium",
+            "truth": "Medical use ≠ recreational safety. Test your ketamine. Chronic use causes 'K-cramps' and bladder damage (can require surgery). Limit frequency, stay hydrated."
+          },
+          {
+            "myth": "Xanax is safe because it's prescribed by doctors",
+            "reality": "Benzodiazepines are physically addictive. Withdrawal can cause seizures and death. Street 'Xanax' is often pressed pills containing fentanyl or RC benzos (flualprazolam, etizolam).",
+            "danger_level": "critical",
+            "truth": "Benzos have legitimate medical use but serious risks. NEVER stop cold turkey after regular use. Street 'Xanax' often contains fentanyl—test every pill."
+          },
+          {
+            "myth": "Poppers (alkyl nitrites) are harmless party drugs",
+            "reality": "Poppers can cause: sudden drops in blood pressure, methemoglobinemia (oxygen transport disruption), vision damage (especially amyl nitrite), chemical burns. Dangerous with Viagra/Cialis (severe hypotension).",
+            "danger_level": "high",
+            "truth": "Poppers carry real risks. Never mix with erectile dysfunction drugs (can be fatal). Don't get on skin. Use in ventilated area. Frequent use damages blood cells."
+          }
+        ]
+      },
+      {
+        "category": "Storage & Handling Myths",
+        "myths": [
+          {
+            "myth": "Putting LSD in the freezer preserves it best",
+            "reality": "Freezing can cause condensation when removed, degrading LSD on blotter. Temperature fluctuations and moisture are main enemies, not temperature itself.",
+            "danger_level": "low",
+            "truth": "Store LSD in airtight container (foil, then baggie), cool dark place (not freezer). Desiccant pack helps. Avoid light, heat, moisture, oxygen. Will stay potent for years if stored properly."
+          },
+          {
+            "myth": "Old drugs just get weaker, not dangerous",
+            "reality": "Some substances degrade into toxic compounds. MDMA can form MDA (more neurotoxic). Some research chemicals degrade unpredictably. Degraded reagents give false results.",
+            "danger_level": "medium",
+            "truth": "Discard old substances (>1-2 years) or test before use. Replace reagents every 6-12 months. Degraded drugs may be less effective OR more toxic."
+          },
+          {
+            "myth": "You can't overdose on mushrooms you grew yourself",
+            "reality": "Psilocybin content varies by strain, growing conditions, and individual mushroom. Some mushrooms in same flush can be 2-3x more potent than others. Contamination possible.",
+            "danger_level": "medium",
+            "truth": "Home-grown mushrooms still need careful dosing. Start low (1-2g dried). Potency varies. Can't visually determine psilocybin content. Weigh accurately, know your strain."
+          }
+        ]
       }
     ],
     "bottom_line": {
