@@ -164,17 +164,30 @@ function QuickTest(){
         </div>
       )}
       {s.links && (
-        <div className="flex flex-wrap gap-2 pt-2 border-t border-white/10">
-          {s.links.wikipedia && (
-            <a href={s.links.wikipedia} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-500/30 border border-blue-400/50 text-blue-100 text-sm font-medium hover:bg-blue-500/40 transition">
-              📖 Wikipedia
-            </a>
-          )}
-          {s.links.erowid && (
-            <a href={s.links.erowid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-500/30 border border-emerald-400/50 text-emerald-100 text-sm font-medium hover:bg-emerald-500/40 transition">
-              🌿 Erowid
-            </a>
-          )}
+        <div className="pt-3 border-t border-white/10 space-y-2">
+          <div className="text-xs text-gray-300">
+            <span className="font-semibold">📚 Learn More:</span> Visit these trusted resources for detailed information about this substance
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {s.links.wikipedia && (
+              <a href={s.links.wikipedia} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-500/30 border border-blue-400/50 text-blue-100 text-sm font-medium hover:bg-blue-500/40 transition group relative">
+                📖 Wikipedia
+                <div className="absolute hidden group-hover:block bottom-full left-0 mb-2 w-64 p-2 bg-slate-900 border border-blue-400/50 rounded-lg text-xs z-10">
+                  <div className="font-semibold text-blue-200">Scientific Information</div>
+                  <div className="text-gray-300">Pharmacology, chemistry, effects, risks, legal status, and medical uses</div>
+                </div>
+              </a>
+            )}
+            {s.links.erowid && (
+              <a href={s.links.erowid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-500/30 border border-emerald-400/50 text-emerald-100 text-sm font-medium hover:bg-emerald-500/40 transition group relative">
+                🌿 Erowid
+                <div className="absolute hidden group-hover:block bottom-full left-0 mb-2 w-64 p-2 bg-slate-900 border border-emerald-400/50 rounded-lg text-xs z-10">
+                  <div className="font-semibold text-emerald-200">Experience Reports & Harm Reduction</div>
+                  <div className="text-gray-300">User experiences, dosage info, effects timeline, safety tips, and trip reports</div>
+                </div>
+              </a>
+            )}
+          </div>
         </div>
       )}
     </div>
