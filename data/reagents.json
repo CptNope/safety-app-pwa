@@ -4436,7 +4436,10 @@
           "name": "Sirchie NARK II",
           "manufacturer": "Sirchie",
           "type": "Colorimetric ampoule tests",
-          "intended_for": ["Law Enforcement", "Fire/EMS (scene safety)"],
+          "intended_for": [
+            "Law Enforcement",
+            "Fire/EMS (scene safety)"
+          ],
           "substances_detected": [
             "Opiates/Heroin",
             "Cocaine/Crack",
@@ -4448,8 +4451,17 @@
             "Synthetic cannabinoids"
           ],
           "how_it_works": "Sealed ampoules with reagent. Break ampoule, observe color change.",
-          "advantages": ["Self-contained", "Shelf-stable", "Easy to use", "Chain of custody seals available"],
-          "limitations": ["False positives possible", "Cannot determine purity", "Fentanyl test less reliable than strips"],
+          "advantages": [
+            "Self-contained",
+            "Shelf-stable",
+            "Easy to use",
+            "Chain of custody seals available"
+          ],
+          "limitations": [
+            "False positives possible",
+            "Cannot determine purity",
+            "Fentanyl test less reliable than strips"
+          ],
           "cost": "$2-5 per test",
           "public_availability": "Restricted to law enforcement in most areas",
           "url": "https://www.sirchie.com/nark-ii.html"
@@ -4459,11 +4471,27 @@
           "name": "TruNarc Handheld Analyzer",
           "manufacturer": "Thermo Fisher Scientific",
           "type": "Raman spectroscopy",
-          "intended_for": ["Law Enforcement", "Customs", "Security"],
-          "substances_detected": ["Over 400 controlled substances and precursors", "Through plastic bags and glass"],
+          "intended_for": [
+            "Law Enforcement",
+            "Customs",
+            "Security"
+          ],
+          "substances_detected": [
+            "Over 400 controlled substances and precursors",
+            "Through plastic bags and glass"
+          ],
           "how_it_works": "Laser-based spectroscopy identifies molecular structure without opening container.",
-          "advantages": ["No sample contact", "Tests through packaging", "Extensive library", "Can detect mixtures"],
-          "limitations": ["Expensive ($20,000+)", "Requires calibration", "Some dark containers interfere"],
+          "advantages": [
+            "No sample contact",
+            "Tests through packaging",
+            "Extensive library",
+            "Can detect mixtures"
+          ],
+          "limitations": [
+            "Expensive ($20,000+)",
+            "Requires calibration",
+            "Some dark containers interfere"
+          ],
           "cost": "$20,000-30,000",
           "public_availability": "Not available to public",
           "url": "https://www.thermofisher.com/trunarc"
@@ -4473,11 +4501,29 @@
           "name": "DetectaChem MobileDetect",
           "manufacturer": "DetectaChem",
           "type": "Colorimetric pouches + smartphone app",
-          "intended_for": ["First Responders", "Law Enforcement"],
-          "substances_detected": ["Fentanyl", "Heroin", "Cocaine", "Meth", "MDMA", "Synthetic cannabinoids"],
+          "intended_for": [
+            "First Responders",
+            "Law Enforcement"
+          ],
+          "substances_detected": [
+            "Fentanyl",
+            "Heroin",
+            "Cocaine",
+            "Meth",
+            "MDMA",
+            "Synthetic cannabinoids"
+          ],
           "how_it_works": "Dry reagent pouches. Add sample, shake, photograph color with app for analysis.",
-          "advantages": ["Safer than liquid reagents", "App provides interpretation", "Portable", "Less cross-contamination risk"],
-          "limitations": ["Requires smartphone", "Presumptive only"],
+          "advantages": [
+            "Safer than liquid reagents",
+            "App provides interpretation",
+            "Portable",
+            "Less cross-contamination risk"
+          ],
+          "limitations": [
+            "Requires smartphone",
+            "Presumptive only"
+          ],
           "cost": "$15-25 per test",
           "public_availability": "Some products available to public",
           "url": "https://www.detectachem.com/"
@@ -4487,11 +4533,24 @@
           "name": "Fentanyl Test Strips (Law Enforcement Grade)",
           "manufacturer": "Multiple (BTNX, Bairun)",
           "type": "Immunoassay lateral flow",
-          "intended_for": ["First Responders", "Scene Safety Assessment"],
-          "substances_detected": ["Fentanyl and many analogues (carfentanil, acetyl fentanyl, etc.)"],
+          "intended_for": [
+            "First Responders",
+            "Scene Safety Assessment"
+          ],
+          "substances_detected": [
+            "Fentanyl and many analogues (carfentanil, acetyl fentanyl, etc.)"
+          ],
           "how_it_works": "Dissolve sample in water, dip strip, read in 5 minutes. 1 line = positive, 2 lines = negative.",
-          "advantages": ["Highly sensitive", "Fast results", "Inexpensive", "Critical for scene safety"],
-          "limitations": ["Some novel analogues not detected", "Cannot determine concentration"],
+          "advantages": [
+            "Highly sensitive",
+            "Fast results",
+            "Inexpensive",
+            "Critical for scene safety"
+          ],
+          "limitations": [
+            "Some novel analogues not detected",
+            "Cannot determine concentration"
+          ],
           "cost": "$1-2 per strip",
           "public_availability": "YES - Same strips available over-counter and through harm reduction orgs",
           "url": "Pharmacy/harm reduction organizations",
@@ -4502,11 +4561,21 @@
           "name": "Xylazine Test Strips",
           "manufacturer": "BTNX",
           "type": "Immunoassay lateral flow",
-          "intended_for": ["First Responders", "Scene Assessment"],
-          "substances_detected": ["Xylazine (veterinary tranquilizer)"],
+          "intended_for": [
+            "First Responders",
+            "Scene Assessment"
+          ],
+          "substances_detected": [
+            "Xylazine (veterinary tranquilizer)"
+          ],
           "how_it_works": "Same as fentanyl strips - dissolve sample, dip, read.",
-          "advantages": ["Identifies xylazine contamination", "Important for treatment decisions (won't respond to naloxone)"],
-          "limitations": ["Single analyte only"],
+          "advantages": [
+            "Identifies xylazine contamination",
+            "Important for treatment decisions (won't respond to naloxone)"
+          ],
+          "limitations": [
+            "Single analyte only"
+          ],
           "cost": "$2-3 per strip",
           "public_availability": "YES - Available through harm reduction organizations",
           "url": "https://nextdistro.org/ (free for public)",
@@ -4517,11 +4586,29 @@
           "name": "Dräger DrugTest 5000",
           "manufacturer": "Drägerwerk",
           "type": "Oral fluid immunoassay",
-          "intended_for": ["Law Enforcement", "Workplace Safety"],
-          "substances_detected": ["THC", "Opiates", "Cocaine", "Amphetamines", "Methamphetamine", "Benzodiazepines"],
+          "intended_for": [
+            "Law Enforcement",
+            "Workplace Safety"
+          ],
+          "substances_detected": [
+            "THC",
+            "Opiates",
+            "Cocaine",
+            "Amphetamines",
+            "Methamphetamine",
+            "Benzodiazepines"
+          ],
           "how_it_works": "Oral swab collects saliva, results in 5-10 minutes.",
-          "advantages": ["Non-invasive", "Detects recent use", "Multiple drugs simultaneously"],
-          "limitations": ["Does NOT work on powders/pills", "Detects use, not identify substance", "For impairment testing only"],
+          "advantages": [
+            "Non-invasive",
+            "Detects recent use",
+            "Multiple drugs simultaneously"
+          ],
+          "limitations": [
+            "Does NOT work on powders/pills",
+            "Detects use, not identify substance",
+            "For impairment testing only"
+          ],
           "cost": "$10-15 per test",
           "public_availability": "Restricted - workplace/law enforcement use",
           "url": "https://www.draeger.com/"
@@ -5079,123 +5166,6 @@
     "overview": "These widespread myths persist in drug culture but are factually incorrect and can lead to dangerous decisions. Evidence-based facts are provided to counter each myth.",
     "categories": [
       {
-        "category": "Testing & Identification Myths",
-        "myths": [
-          {
-            "myth": "Pure MDMA is always white/clear crystals",
-            "reality": "Pure MDMA is typically tan, brown, or champagne colored due to precursor residues (safrole). Pure white MDMA is suspicious and may indicate different synthesis route or not MDMA at all.",
-            "danger_level": "high",
-            "truth": "Color does NOT indicate purity or identity. Always test with reagents."
-          },
-          {
-            "myth": "If it looks, smells, or tastes right, it's safe",
-            "reality": "Appearance, smell, and taste are completely unreliable. Fentanyl, NBOMes, and other dangerous adulterants can be made to look identical to expected substances.",
-            "danger_level": "critical",
-            "truth": "NEVER rely on sensory identification. Taste testing can kill you (NBOMes, fentanyl). Always use reagent tests and fentanyl strips."
-          },
-          {
-            "myth": "Reagent tests show purity percentage",
-            "reality": "Reagent tests only show PRESENCE of a substance, not concentration or purity. A 'correct' color just means the expected substance is present—could be 10% or 90% pure.",
-            "danger_level": "medium",
-            "truth": "Only lab testing (GC/MS) can determine purity percentage. Reagents are presumptive identification only."
-          },
-          {
-            "myth": "If my dealer has good reviews/reputation, I don't need to test",
-            "reality": "Dealers often don't know what they're selling. Cross-contamination happens during production. Supply chains are long and unreliable. Today's batch may differ from yesterday's.",
-            "danger_level": "critical",
-            "truth": "ALWAYS test every batch, every time. People die from trusted sources regularly."
-          },
-          {
-            "myth": "Pills with the same stamp/logo contain the same thing",
-            "reality": "Anyone can press pills with any stamp. Same appearance = zero guarantee of identical contents. Pill presses are widely available. Cartels mass-produce fake pharmaceuticals.",
-            "danger_level": "critical",
-            "truth": "Pill appearance is meaningless. 6 out of 10 counterfeit pills contain lethal fentanyl (DEA). Test every pill individually."
-          },
-          {
-            "myth": "Fentanyl test strips aren't accurate",
-            "reality": "Fentanyl test strips are highly sensitive immunoassay tests, same technology used in medical settings. They detect fentanyl and many analogues at very low concentrations.",
-            "danger_level": "high",
-            "truth": "Fentanyl strips are reliable for most fentanyl analogues. Some novel analogues may escape detection, but strips catch the vast majority. Use them every time."
-          }
-        ]
-      },
-      {
-        "category": "Substance Effect Myths",
-        "myths": [
-          {
-            "myth": "You can't overdose on LSD or mushrooms",
-            "reality": "While lethal overdose is extremely rare, dangerous psychological reactions (psychotic breaks, dangerous behavior, HPPD) occur at high doses. Physical toxicity exists at extreme doses.",
-            "danger_level": "medium",
-            "truth": "Psychological overdose is real and dangerous. Start low, go slow. NBOMes (often sold as LSD) CAN cause fatal overdose."
-          },
-          {
-            "myth": "MDMA is safe if you stay hydrated and cool",
-            "reality": "While hydration and temperature management are important, MDMA has inherent risks: serotonin syndrome, hyponatremia (drinking TOO much water), cardiac stress, neurotoxicity.",
-            "danger_level": "medium",
-            "truth": "MDMA is never 'safe.' Harm can be reduced through: testing, proper dosing (1-1.5mg/kg), limiting frequency (3 month breaks minimum), staying cool, moderate hydration."
-          },
-          {
-            "myth": "Crack is more dangerous/addictive than powder cocaine chemically",
-            "reality": "Crack and powder cocaine are the same drug (cocaine). Crack is freebase form, powder is HCl salt. Route of administration (smoking vs snorting) affects onset/intensity, not the chemical itself.",
-            "danger_level": "low",
-            "truth": "Different form, same drug. Faster onset (smoking) creates more intense experience and potentially faster psychological dependence, but chemical addiction potential is identical."
-          },
-          {
-            "myth": "Cannabis is completely harmless and non-addictive",
-            "reality": "While relatively safe, cannabis can cause: psychological dependence (~9% of users), anxiety/paranoia, cannabinoid hyperemesis syndrome, impaired driving, respiratory issues (smoking), and may worsen mental health conditions.",
-            "danger_level": "low",
-            "truth": "Cannabis is low-risk but not zero-risk. Start low (especially edibles), avoid driving, be cautious with high-THC products, take breaks to avoid dependence."
-          },
-          {
-            "myth": "Pharmaceutical drugs from a pharmacy are always safe to mix",
-            "reality": "Prescription drugs have dangerous interactions. MAOIs + stimulants = hypertensive crisis. SSRIs + MDMA = serotonin syndrome. Benzos + opioids = respiratory depression/death.",
-            "danger_level": "critical",
-            "truth": "Always research drug interactions. Tell doctors ALL substances you use. Never assume 'legal' = safe to combine."
-          }
-        ]
-      },
-      {
-        "category": "Harm Reduction Myths",
-        "myths": [
-          {
-            "myth": "Using Narcan causes painful withdrawal, so hesitate to use it",
-            "reality": "Narcan (naloxone) may cause withdrawal symptoms in opioid-dependent people, but this is NOT a reason to avoid using it. Death is worse than withdrawal discomfort.",
-            "danger_level": "critical",
-            "truth": "ALWAYS administer naloxone if suspected opioid overdose. Withdrawal is temporary and non-fatal. Not breathing is fatal. Give naloxone immediately, worry about withdrawal later."
-          },
-          {
-            "myth": "Eating food before/during MDMA ruins the experience",
-            "reality": "Empty stomach may speed onset slightly, but having food prevents hypoglycemia, provides energy, and reduces nausea. Prolonged dancing on empty stomach is dangerous.",
-            "danger_level": "medium",
-            "truth": "Eat a light meal before. Bring snacks with electrolytes. Nutrition and energy matter more than slightly faster onset."
-          },
-          {
-            "myth": "Drinking lots of water prevents MDMA toxicity",
-            "reality": "MDMA + excessive water = hyponatremia (dangerously low sodium), which can be fatal. MDMA impairs body's ability to regulate water/electrolytes.",
-            "danger_level": "high",
-            "truth": "Moderate hydration only. ~500ml (16oz) water per hour maximum. Sports drinks with electrolytes better than plain water. Don't force water."
-          },
-          {
-            "myth": "Vitamin C, orange juice, or acidic drinks enhance psychedelic trips",
-            "reality": "No scientific evidence. May slightly affect absorption of some substances, but doesn't 'enhance' or 'intensify' trips in meaningful way.",
-            "danger_level": "low",
-            "truth": "Placebo effect. Drink whatever keeps you comfortable and hydrated. Focus on set, setting, and dosage instead."
-          },
-          {
-            "myth": "You should put ice in your eyes or on your neck if overheating on MDMA",
-            "reality": "Ice directly on eyes is dangerous (corneal damage). Ice on neck provides minimal cooling. Vasoconstriction from MDMA + ice = poor combination.",
-            "danger_level": "medium",
-            "truth": "If overheating: move to cool area, remove excess clothing, drink cool water slowly, wet towels on forehead/wrists, seek medical help if severe. NO ice on eyes."
-          },
-          {
-            "myth": "Testing your drugs means you're paranoid or inexperienced",
-            "reality": "Testing is smart, responsible harm reduction practiced by experienced users who understand the contaminated drug supply.",
-            "danger_level": "medium",
-            "truth": "Testing is a sign of intelligence and experience, not paranoia. Dead people don't get to be experienced users."
-          }
-        ]
-      },
-      {
         "category": "Medical & Safety Myths",
         "myths": [
           {
@@ -5233,35 +5203,6 @@
             "reality": "Most detox products are scams. Detection times depend on: substance half-life, metabolism, frequency of use, body fat percentage. No reliable way to 'beat' modern drug tests.",
             "danger_level": "low",
             "truth": "Only reliable method: abstinence for appropriate detection window (THC: days-weeks, others: hours-days). Dilution may work for urine tests but often detected. Synthetic urine illegal in many areas."
-          }
-        ]
-      },
-      {
-        "category": "Historical & Cultural Myths",
-        "myths": [
-          {
-            "myth": "LSD causes chromosome damage and birth defects",
-            "reality": "Thoroughly debunked. Based on flawed 1960s research. Multiple subsequent studies found no chromosomal damage or increased birth defects from LSD use.",
-            "danger_level": "low",
-            "truth": "LSD does not damage chromosomes. However, using any drug during pregnancy is not recommended due to other potential risks."
-          },
-          {
-            "myth": "Strychnine is commonly used to cut LSD blotter",
-            "reality": "Completely false. Strychnine is bitter and toxic at doses that would fit on blotter. No evidence of strychnine being used to cut LSD. Myth from 1960s-70s.",
-            "danger_level": "low",
-            "truth": "LSD blotter adulterants are typically other psychoactives (NBOMes, DOx compounds), not poisons. Test with Ehrlich reagent."
-          },
-          {
-            "myth": "Ecstasy/Molly always contains meth, bath salts, or is never real MDMA",
-            "reality": "While adulteration is common, lab testing shows many samples do contain MDMA. Purity and cutting agents vary widely by region, source, and time.",
-            "danger_level": "medium",
-            "truth": "Assume your 'molly' could be anything. Test with multiple reagents (Marquis, Mecke, Simon's) + fentanyl strips. Don't assume it's fake OR real—verify."
-          },
-          {
-            "myth": "One use of meth/crack/heroin will instantly make you addicted",
-            "reality": "Addiction is a complex process involving genetics, psychology, environment, and repeated use. While these drugs have high addiction potential, one use doesn't guarantee addiction.",
-            "danger_level": "low",
-            "truth": "Risk factors matter: genetic predisposition, mental health, environment, frequency. That said, these substances carry very high addiction risk—avoid if possible."
           }
         ]
       },
@@ -5330,66 +5271,84 @@
         ]
       },
       {
-        "category": "Specific Substance Myths",
+        "category": "Harm Reduction Myths",
         "myths": [
           {
-            "myth": "Acid stays in your spinal fluid forever and can cause flashbacks years later",
-            "reality": "Completely false. LSD is metabolized and eliminated from body within days. HPPD (persistent perceptual changes) is real but rare, not caused by 'stored' LSD.",
-            "danger_level": "low",
-            "truth": "LSD doesn't remain in body long-term. HPPD is a recognized condition but mechanism is neurological adaptation, not stored drug. Flashbacks are psychological, not pharmacological."
-          },
-          {
-            "myth": "Molly (powder MDMA) is purer/safer than ecstasy (pills)",
-            "reality": "Form doesn't indicate purity or safety. Powder can be anything (often cathinones, methylone, or meth). Pills can be anything. Both need testing.",
-            "danger_level": "high",
-            "truth": "'Molly' is often NOT MDMA. Powder form is easier to fake than press into convincing pills. Test everything regardless of form."
-          },
-          {
-            "myth": "Smoking DMT can't cause psychological damage because it's natural",
-            "reality": "Natural ≠ safe. DMT can cause severe psychological distress, PTSD-like symptoms, depersonalization/derealization, or worsen latent mental illness. Integration support important.",
-            "danger_level": "medium",
-            "truth": "DMT is extremely powerful. While physical safety profile is good, psychological risks are real. Not for everyone. Set, setting, and integration critical."
-          },
-          {
-            "myth": "Ketamine is safe because it's used in hospitals",
-            "reality": "Medical ketamine is pure, precisely dosed, in controlled setting. Street ketamine may be cut, contaminated, or analogues (2-FDCK). Chronic use causes bladder damage.",
-            "danger_level": "medium",
-            "truth": "Medical use ≠ recreational safety. Test your ketamine. Chronic use causes 'K-cramps' and bladder damage (can require surgery). Limit frequency, stay hydrated."
-          },
-          {
-            "myth": "Xanax is safe because it's prescribed by doctors",
-            "reality": "Benzodiazepines are physically addictive. Withdrawal can cause seizures and death. Street 'Xanax' is often pressed pills containing fentanyl or RC benzos (flualprazolam, etizolam).",
+            "myth": "Using Narcan causes painful withdrawal, so hesitate to use it",
+            "reality": "Narcan (naloxone) may cause withdrawal symptoms in opioid-dependent people, but this is NOT a reason to avoid using it. Death is worse than withdrawal discomfort.",
             "danger_level": "critical",
-            "truth": "Benzos have legitimate medical use but serious risks. NEVER stop cold turkey after regular use. Street 'Xanax' often contains fentanyl—test every pill."
+            "truth": "ALWAYS administer naloxone if suspected opioid overdose. Withdrawal is temporary and non-fatal. Not breathing is fatal. Give naloxone immediately, worry about withdrawal later."
           },
           {
-            "myth": "Poppers (alkyl nitrites) are harmless party drugs",
-            "reality": "Poppers can cause: sudden drops in blood pressure, methemoglobinemia (oxygen transport disruption), vision damage (especially amyl nitrite), chemical burns. Dangerous with Viagra/Cialis (severe hypotension).",
+            "myth": "Eating food before/during MDMA ruins the experience",
+            "reality": "Empty stomach may speed onset slightly, but having food prevents hypoglycemia, provides energy, and reduces nausea. Prolonged dancing on empty stomach is dangerous.",
+            "danger_level": "medium",
+            "truth": "Eat a light meal before. Bring snacks with electrolytes. Nutrition and energy matter more than slightly faster onset."
+          },
+          {
+            "myth": "Drinking lots of water prevents MDMA toxicity",
+            "reality": "MDMA + excessive water = hyponatremia (dangerously low sodium), which can be fatal. MDMA impairs body's ability to regulate water/electrolytes.",
             "danger_level": "high",
-            "truth": "Poppers carry real risks. Never mix with erectile dysfunction drugs (can be fatal). Don't get on skin. Use in ventilated area. Frequent use damages blood cells."
+            "truth": "Moderate hydration only. ~500ml (16oz) water per hour maximum. Sports drinks with electrolytes better than plain water. Don't force water."
+          },
+          {
+            "myth": "Vitamin C, orange juice, or acidic drinks enhance psychedelic trips",
+            "reality": "No scientific evidence. May slightly affect absorption of some substances, but doesn't 'enhance' or 'intensify' trips in meaningful way.",
+            "danger_level": "low",
+            "truth": "Placebo effect. Drink whatever keeps you comfortable and hydrated. Focus on set, setting, and dosage instead."
+          },
+          {
+            "myth": "You should put ice in your eyes or on your neck if overheating on MDMA",
+            "reality": "Ice directly on eyes is dangerous (corneal damage). Ice on neck provides minimal cooling. Vasoconstriction from MDMA + ice = poor combination.",
+            "danger_level": "medium",
+            "truth": "If overheating: move to cool area, remove excess clothing, drink cool water slowly, wet towels on forehead/wrists, seek medical help if severe. NO ice on eyes."
+          },
+          {
+            "myth": "Testing your drugs means you're paranoid or inexperienced",
+            "reality": "Testing is smart, responsible harm reduction practiced by experienced users who understand the contaminated drug supply.",
+            "danger_level": "medium",
+            "truth": "Testing is a sign of intelligence and experience, not paranoia. Dead people don't get to be experienced users."
           }
         ]
       },
       {
-        "category": "Storage & Handling Myths",
+        "category": "Testing & Identification Myths",
         "myths": [
           {
-            "myth": "Putting LSD in the freezer preserves it best",
-            "reality": "Freezing can cause condensation when removed, degrading LSD on blotter. Temperature fluctuations and moisture are main enemies, not temperature itself.",
-            "danger_level": "low",
-            "truth": "Store LSD in airtight container (foil, then baggie), cool dark place (not freezer). Desiccant pack helps. Avoid light, heat, moisture, oxygen. Will stay potent for years if stored properly."
+            "myth": "Pure MDMA is always white/clear crystals",
+            "reality": "Pure MDMA is typically tan, brown, or champagne colored due to precursor residues (safrole). Pure white MDMA is suspicious and may indicate different synthesis route or not MDMA at all.",
+            "danger_level": "high",
+            "truth": "Color does NOT indicate purity or identity. Always test with reagents."
           },
           {
-            "myth": "Old drugs just get weaker, not dangerous",
-            "reality": "Some substances degrade into toxic compounds. MDMA can form MDA (more neurotoxic). Some research chemicals degrade unpredictably. Degraded reagents give false results.",
-            "danger_level": "medium",
-            "truth": "Discard old substances (>1-2 years) or test before use. Replace reagents every 6-12 months. Degraded drugs may be less effective OR more toxic."
+            "myth": "If it looks, smells, or tastes right, it's safe",
+            "reality": "Appearance, smell, and taste are completely unreliable. Fentanyl, NBOMes, and other dangerous adulterants can be made to look identical to expected substances.",
+            "danger_level": "critical",
+            "truth": "NEVER rely on sensory identification. Taste testing can kill you (NBOMes, fentanyl). Always use reagent tests and fentanyl strips."
           },
           {
-            "myth": "You can't overdose on mushrooms you grew yourself",
-            "reality": "Psilocybin content varies by strain, growing conditions, and individual mushroom. Some mushrooms in same flush can be 2-3x more potent than others. Contamination possible.",
+            "myth": "Reagent tests show purity percentage",
+            "reality": "Reagent tests only show PRESENCE of a substance, not concentration or purity. A 'correct' color just means the expected substance is present—could be 10% or 90% pure.",
             "danger_level": "medium",
-            "truth": "Home-grown mushrooms still need careful dosing. Start low (1-2g dried). Potency varies. Can't visually determine psilocybin content. Weigh accurately, know your strain."
+            "truth": "Only lab testing (GC/MS) can determine purity percentage. Reagents are presumptive identification only."
+          },
+          {
+            "myth": "If my dealer has good reviews/reputation, I don't need to test",
+            "reality": "Dealers often don't know what they're selling. Cross-contamination happens during production. Supply chains are long and unreliable. Today's batch may differ from yesterday's.",
+            "danger_level": "critical",
+            "truth": "ALWAYS test every batch, every time. People die from trusted sources regularly."
+          },
+          {
+            "myth": "Pills with the same stamp/logo contain the same thing",
+            "reality": "Anyone can press pills with any stamp. Same appearance = zero guarantee of identical contents. Pill presses are widely available. Cartels mass-produce fake pharmaceuticals.",
+            "danger_level": "critical",
+            "truth": "Pill appearance is meaningless. 6 out of 10 counterfeit pills contain lethal fentanyl (DEA). Test every pill individually."
+          },
+          {
+            "myth": "Fentanyl test strips aren't accurate",
+            "reality": "Fentanyl test strips are highly sensitive immunoassay tests, same technology used in medical settings. They detect fentanyl and many analogues at very low concentrations.",
+            "danger_level": "high",
+            "truth": "Fentanyl strips are reliable for most fentanyl analogues. Some novel analogues may escape detection, but strips catch the vast majority. Use them every time."
           }
         ]
       },
@@ -5485,6 +5444,134 @@
             "reality": "These products fall into regulatory gray area as 'supplements.' Manufacturers can sell them without FDA approval. FDA only acts AFTER harm occurs. Thousands of tainted products on market at any time. No pre-market testing required.",
             "danger_level": "high",
             "truth": "Sexual enhancement supplements are NOT FDA-approved and NOT regulated like medications. FDA can only issue warnings after finding problems. Being sold in stores means nothing about safety. Check FDA Tainted Supplements database before using any product."
+          }
+        ]
+      },
+      {
+        "category": "Specific Substance Myths",
+        "myths": [
+          {
+            "myth": "Acid stays in your spinal fluid forever and can cause flashbacks years later",
+            "reality": "Completely false. LSD is metabolized and eliminated from body within days. HPPD (persistent perceptual changes) is real but rare, not caused by 'stored' LSD.",
+            "danger_level": "low",
+            "truth": "LSD doesn't remain in body long-term. HPPD is a recognized condition but mechanism is neurological adaptation, not stored drug. Flashbacks are psychological, not pharmacological."
+          },
+          {
+            "myth": "Molly (powder MDMA) is purer/safer than ecstasy (pills)",
+            "reality": "Form doesn't indicate purity or safety. Powder can be anything (often cathinones, methylone, or meth). Pills can be anything. Both need testing.",
+            "danger_level": "high",
+            "truth": "'Molly' is often NOT MDMA. Powder form is easier to fake than press into convincing pills. Test everything regardless of form."
+          },
+          {
+            "myth": "Smoking DMT can't cause psychological damage because it's natural",
+            "reality": "Natural ≠ safe. DMT can cause severe psychological distress, PTSD-like symptoms, depersonalization/derealization, or worsen latent mental illness. Integration support important.",
+            "danger_level": "medium",
+            "truth": "DMT is extremely powerful. While physical safety profile is good, psychological risks are real. Not for everyone. Set, setting, and integration critical."
+          },
+          {
+            "myth": "Ketamine is safe because it's used in hospitals",
+            "reality": "Medical ketamine is pure, precisely dosed, in controlled setting. Street ketamine may be cut, contaminated, or analogues (2-FDCK). Chronic use causes bladder damage.",
+            "danger_level": "medium",
+            "truth": "Medical use ≠ recreational safety. Test your ketamine. Chronic use causes 'K-cramps' and bladder damage (can require surgery). Limit frequency, stay hydrated."
+          },
+          {
+            "myth": "Xanax is safe because it's prescribed by doctors",
+            "reality": "Benzodiazepines are physically addictive. Withdrawal can cause seizures and death. Street 'Xanax' is often pressed pills containing fentanyl or RC benzos (flualprazolam, etizolam).",
+            "danger_level": "critical",
+            "truth": "Benzos have legitimate medical use but serious risks. NEVER stop cold turkey after regular use. Street 'Xanax' often contains fentanyl—test every pill."
+          },
+          {
+            "myth": "Poppers (alkyl nitrites) are harmless party drugs",
+            "reality": "Poppers can cause: sudden drops in blood pressure, methemoglobinemia (oxygen transport disruption), vision damage (especially amyl nitrite), chemical burns. Dangerous with Viagra/Cialis (severe hypotension).",
+            "danger_level": "high",
+            "truth": "Poppers carry real risks. Never mix with erectile dysfunction drugs (can be fatal). Don't get on skin. Use in ventilated area. Frequent use damages blood cells."
+          }
+        ]
+      },
+      {
+        "category": "Substance Effect Myths",
+        "myths": [
+          {
+            "myth": "You can't overdose on LSD or mushrooms",
+            "reality": "While lethal overdose is extremely rare, dangerous psychological reactions (psychotic breaks, dangerous behavior, HPPD) occur at high doses. Physical toxicity exists at extreme doses.",
+            "danger_level": "medium",
+            "truth": "Psychological overdose is real and dangerous. Start low, go slow. NBOMes (often sold as LSD) CAN cause fatal overdose."
+          },
+          {
+            "myth": "MDMA is safe if you stay hydrated and cool",
+            "reality": "While hydration and temperature management are important, MDMA has inherent risks: serotonin syndrome, hyponatremia (drinking TOO much water), cardiac stress, neurotoxicity.",
+            "danger_level": "medium",
+            "truth": "MDMA is never 'safe.' Harm can be reduced through: testing, proper dosing (1-1.5mg/kg), limiting frequency (3 month breaks minimum), staying cool, moderate hydration."
+          },
+          {
+            "myth": "Crack is more dangerous/addictive than powder cocaine chemically",
+            "reality": "Crack and powder cocaine are the same drug (cocaine). Crack is freebase form, powder is HCl salt. Route of administration (smoking vs snorting) affects onset/intensity, not the chemical itself.",
+            "danger_level": "low",
+            "truth": "Different form, same drug. Faster onset (smoking) creates more intense experience and potentially faster psychological dependence, but chemical addiction potential is identical."
+          },
+          {
+            "myth": "Cannabis is completely harmless and non-addictive",
+            "reality": "While relatively safe, cannabis can cause: psychological dependence (~9% of users), anxiety/paranoia, cannabinoid hyperemesis syndrome, impaired driving, respiratory issues (smoking), and may worsen mental health conditions.",
+            "danger_level": "low",
+            "truth": "Cannabis is low-risk but not zero-risk. Start low (especially edibles), avoid driving, be cautious with high-THC products, take breaks to avoid dependence."
+          },
+          {
+            "myth": "Pharmaceutical drugs from a pharmacy are always safe to mix",
+            "reality": "Prescription drugs have dangerous interactions. MAOIs + stimulants = hypertensive crisis. SSRIs + MDMA = serotonin syndrome. Benzos + opioids = respiratory depression/death.",
+            "danger_level": "critical",
+            "truth": "Always research drug interactions. Tell doctors ALL substances you use. Never assume 'legal' = safe to combine."
+          }
+        ]
+      },
+      {
+        "category": "Storage & Handling Myths",
+        "myths": [
+          {
+            "myth": "Putting LSD in the freezer preserves it best",
+            "reality": "Freezing can cause condensation when removed, degrading LSD on blotter. Temperature fluctuations and moisture are main enemies, not temperature itself.",
+            "danger_level": "low",
+            "truth": "Store LSD in airtight container (foil, then baggie), cool dark place (not freezer). Desiccant pack helps. Avoid light, heat, moisture, oxygen. Will stay potent for years if stored properly."
+          },
+          {
+            "myth": "Old drugs just get weaker, not dangerous",
+            "reality": "Some substances degrade into toxic compounds. MDMA can form MDA (more neurotoxic). Some research chemicals degrade unpredictably. Degraded reagents give false results.",
+            "danger_level": "medium",
+            "truth": "Discard old substances (>1-2 years) or test before use. Replace reagents every 6-12 months. Degraded drugs may be less effective OR more toxic."
+          },
+          {
+            "myth": "You can't overdose on mushrooms you grew yourself",
+            "reality": "Psilocybin content varies by strain, growing conditions, and individual mushroom. Some mushrooms in same flush can be 2-3x more potent than others. Contamination possible.",
+            "danger_level": "medium",
+            "truth": "Home-grown mushrooms still need careful dosing. Start low (1-2g dried). Potency varies. Can't visually determine psilocybin content. Weigh accurately, know your strain."
+          }
+        ]
+      },
+      {
+        "category": "Historical & Cultural Myths",
+        "myths": [
+          {
+            "myth": "LSD causes chromosome damage and birth defects",
+            "reality": "Thoroughly debunked. Based on flawed 1960s research. Multiple subsequent studies found no chromosomal damage or increased birth defects from LSD use.",
+            "danger_level": "low",
+            "truth": "LSD does not damage chromosomes. However, using any drug during pregnancy is not recommended due to other potential risks."
+          },
+          {
+            "myth": "Strychnine is commonly used to cut LSD blotter",
+            "reality": "Completely false. Strychnine is bitter and toxic at doses that would fit on blotter. No evidence of strychnine being used to cut LSD. Myth from 1960s-70s.",
+            "danger_level": "low",
+            "truth": "LSD blotter adulterants are typically other psychoactives (NBOMes, DOx compounds), not poisons. Test with Ehrlich reagent."
+          },
+          {
+            "myth": "Ecstasy/Molly always contains meth, bath salts, or is never real MDMA",
+            "reality": "While adulteration is common, lab testing shows many samples do contain MDMA. Purity and cutting agents vary widely by region, source, and time.",
+            "danger_level": "medium",
+            "truth": "Assume your 'molly' could be anything. Test with multiple reagents (Marquis, Mecke, Simon's) + fentanyl strips. Don't assume it's fake OR real—verify."
+          },
+          {
+            "myth": "One use of meth/crack/heroin will instantly make you addicted",
+            "reality": "Addiction is a complex process involving genetics, psychology, environment, and repeated use. While these drugs have high addiction potential, one use doesn't guarantee addiction.",
+            "danger_level": "low",
+            "truth": "Risk factors matter: genetic predisposition, mental health, environment, frequency. That said, these substances carry very high addiction risk—avoid if possible."
           }
         ]
       }
