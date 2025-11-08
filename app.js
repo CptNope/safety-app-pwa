@@ -83,14 +83,14 @@ function InstallAndUpdateBar(){
   return (
     <div className="space-y-2">
       {canInstall && <Banner tone="success" actions={<div className="flex gap-2">
-        <button onClick={doInstall} className="px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 hover:bg-emerald-500/30">Install App</button>
+        <button onClick={doInstall} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-emerald-500/30 border border-emerald-400/60 text-emerald-100 hover:bg-emerald-500/40 transition">Install App</button>
       </div>}>This app can be installed.</Banner>}
 
-      <Banner actions={<div className="flex gap-2">
-        <button onClick={checkUpdates} className="px-3 py-1.5 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15">Check for updates</button>
-        {updateReady && <button onClick={applyUpdate} className="px-3 py-1.5 text-xs rounded-lg bg-sky-500/20 border border-sky-400/40 hover:bg-sky-500/30">Update now</button>}
+      <Banner actions={<div className="flex flex-wrap gap-2">
+        <button onClick={checkUpdates} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-white/20 border border-white/30 text-white hover:bg-white/25 transition">Check for updates</button>
+        {updateReady && <button onClick={applyUpdate} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-sky-500/30 border border-sky-400/60 text-sky-100 hover:bg-sky-500/40 transition">Update now</button>}
       </div>}>
-        PWA updates install silently. Click “Check for updates” to fetch a new version. {updateReady ? "New version ready—click Update now." : ""}
+        PWA updates install silently. Click "Check for updates" to fetch a new version. {updateReady ? "New version ready—click Update now." : ""}
       </Banner>
     </div>
   );
@@ -110,12 +110,12 @@ function QuickTest(){
   return (
     <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
       <div className="flex flex-wrap items-center gap-2">
-        <label className="text-sm">Suspected substance:</label>
-        <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/30 rounded-lg px-3 py-2 border border-white/10">
-          {Object.keys(data.substances).map(k=><option key={k} value={k}>{k}</option>)}
+        <label className="text-sm font-medium">Suspected substance:</label>
+        <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
+          {Object.keys(data.substances).map(k=><option key={k} value={k} className="bg-slate-800">{k}</option>)}
         </select>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {s.testing.map((t,i)=>(
           <div key={i} className="rounded-xl p-3 bg-black/20 border border-white/10">
             <div className="flex items-center justify-between">
@@ -139,12 +139,12 @@ function QuickTest(){
       {s.links && (
         <div className="flex flex-wrap gap-2 pt-2 border-t border-white/10">
           {s.links.wikipedia && (
-            <a href={s.links.wikipedia} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-500/20 border border-blue-400/30 text-blue-200 text-sm hover:bg-blue-500/30 transition">
+            <a href={s.links.wikipedia} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-500/30 border border-blue-400/50 text-blue-100 text-sm font-medium hover:bg-blue-500/40 transition">
               📖 Wikipedia
             </a>
           )}
           {s.links.erowid && (
-            <a href={s.links.erowid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-sm hover:bg-emerald-500/30 transition">
+            <a href={s.links.erowid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-500/30 border border-emerald-400/50 text-emerald-100 text-sm font-medium hover:bg-emerald-500/40 transition">
               🌿 Erowid
             </a>
           )}
@@ -298,14 +298,14 @@ function App(){
   const {data} = useJSON('data/reagents.json');
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8 space-y-6">
-      <header className="flex items-center justify-between">
-        <h1 className="text-xl md:text-2xl font-bold">Harm Reduction Guide (PWA)</h1>
-        <nav className="flex gap-1 text-xs">
-          <button onClick={()=>setTab('quick')} className={"px-2 py-1 rounded "+(tab==='quick'?'bg-white/20':'bg-white/5')}>Quick Test</button>
-          <button onClick={()=>setTab('swatches')} className={"px-2 py-1 rounded "+(tab==='swatches'?'bg-white/20':'bg-white/5')}>Swatches</button>
-          <button onClick={()=>setTab('id')} className={"px-2 py-1 rounded "+(tab==='id'?'bg-white/20':'bg-white/5')}>ID Guide</button>
-          <button onClick={()=>setTab('methods')} className={"px-2 py-1 rounded "+(tab==='methods'?'bg-white/20':'bg-white/5')}>Methods</button>
-          <button onClick={()=>setTab('vendors')} className={"px-2 py-1 rounded "+(tab==='vendors'?'bg-white/20':'bg-white/5')}>Vendors</button>
+      <header className="space-y-3">
+        <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
+        <nav className="flex flex-wrap gap-2 justify-center sm:justify-start">
+          <button onClick={()=>setTab('quick')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Quick Test</button>
+          <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
+          <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
+          <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
+          <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
         </nav>
       </header>
 
@@ -319,7 +319,7 @@ function App(){
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
 
-      <footer className="text-xs opacity-70 py-8">Built for education and harm-reduction. {new Date().getFullYear()}</footer>
+      <footer className="text-xs text-gray-400 py-8 text-center">Built for education and harm-reduction. {new Date().getFullYear()}</footer>
     </div>
   );
 }
