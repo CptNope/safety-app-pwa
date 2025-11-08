@@ -683,6 +683,67 @@ function FirstResponder(){
   );
 }
 
+function Myths(){
+  const {data} = useJSON('data/reagents.json');
+  if(!data?.myths_and_misinformation) return null;
+  const myths = data.myths_and_misinformation;
+  
+  const getDangerBadge = (level) => {
+    if(level === 'critical') return <span className="px-2 py-0.5 text-xs rounded-full bg-red-600/30 border border-red-500/50 text-red-100">CRITICAL</span>;
+    if(level === 'high') return <span className="px-2 py-0.5 text-xs rounded-full bg-orange-600/30 border border-orange-500/50 text-orange-100">HIGH</span>;
+    if(level === 'medium') return <span className="px-2 py-0.5 text-xs rounded-full bg-yellow-600/30 border border-yellow-500/50 text-yellow-100">MEDIUM</span>;
+    if(level === 'low') return <span className="px-2 py-0.5 text-xs rounded-full bg-blue-600/30 border border-blue-500/50 text-blue-100">LOW</span>;
+    return null;
+  };
+  
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-amber-500/50 bg-amber-500/10 p-4">
+        <h2 className="text-lg font-bold text-amber-200 mb-2">⚠️ {myths.title}</h2>
+        <p className="text-sm text-amber-100">{myths.overview}</p>
+      </div>
+      
+      {myths.categories.map((cat,i)=>(
+        <div key={i} className="space-y-3">
+          <h3 className="font-semibold text-lg text-sky-200">📌 {cat.category}</h3>
+          
+          {cat.myths.map((m,j)=>(
+            <div key={j} className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-red-400 font-bold">❌</span>
+                    <h4 className="font-semibold text-red-200">MYTH: {m.myth}</h4>
+                  </div>
+                </div>
+                {getDangerBadge(m.danger_level)}
+              </div>
+              
+              <div className="text-sm space-y-2 pl-6">
+                <div>
+                  <span className="font-semibold text-gray-300">Reality: </span>
+                  <span className="text-gray-200">{m.reality}</span>
+                </div>
+                <div className="rounded-lg bg-emerald-500/10 border border-emerald-500/30 p-3">
+                  <span className="text-emerald-400 font-bold">✅ TRUTH: </span>
+                  <span className="text-emerald-100">{m.truth}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+      
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-5 space-y-3">
+        <h3 className="text-lg font-bold text-emerald-200">✅ {myths.bottom_line.title}</h3>
+        <ul className="list-disc ms-5 space-y-2 text-sm text-emerald-100">
+          {myths.bottom_line.points.map((p,i)=><li key={i}>{p}</li>)}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 function App(){
   const [tab,setTab] = useState('quick');
   const {data} = useJSON('data/reagents.json');
@@ -695,6 +756,7 @@ function App(){
           <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
+          <button onClick={()=>setTab('myths')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='myths'?'bg-amber-500/30 border border-amber-400/60 text-amber-100':'bg-amber-500/10 border border-amber-400/30 text-amber-200 hover:bg-amber-500/20')}>❌ Myths</button>
           <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
           <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
@@ -709,6 +771,7 @@ function App(){
       {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
+      {tab==='myths' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-amber-200">❌ Common Myths & Misinformation</h2><Myths/></section>)}
       {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}

@@ -5072,6 +5072,236 @@
       ]
     }
   },
+  "myths_and_misinformation": {
+    "title": "Debunking Common Myths & Dangerous Misinformation",
+    "overview": "These widespread myths persist in drug culture but are factually incorrect and can lead to dangerous decisions. Evidence-based facts are provided to counter each myth.",
+    "categories": [
+      {
+        "category": "Testing & Identification Myths",
+        "myths": [
+          {
+            "myth": "Pure MDMA is always white/clear crystals",
+            "reality": "Pure MDMA is typically tan, brown, or champagne colored due to precursor residues (safrole). Pure white MDMA is suspicious and may indicate different synthesis route or not MDMA at all.",
+            "danger_level": "high",
+            "truth": "Color does NOT indicate purity or identity. Always test with reagents."
+          },
+          {
+            "myth": "If it looks, smells, or tastes right, it's safe",
+            "reality": "Appearance, smell, and taste are completely unreliable. Fentanyl, NBOMes, and other dangerous adulterants can be made to look identical to expected substances.",
+            "danger_level": "critical",
+            "truth": "NEVER rely on sensory identification. Taste testing can kill you (NBOMes, fentanyl). Always use reagent tests and fentanyl strips."
+          },
+          {
+            "myth": "Reagent tests show purity percentage",
+            "reality": "Reagent tests only show PRESENCE of a substance, not concentration or purity. A 'correct' color just means the expected substance is present—could be 10% or 90% pure.",
+            "danger_level": "medium",
+            "truth": "Only lab testing (GC/MS) can determine purity percentage. Reagents are presumptive identification only."
+          },
+          {
+            "myth": "If my dealer has good reviews/reputation, I don't need to test",
+            "reality": "Dealers often don't know what they're selling. Cross-contamination happens during production. Supply chains are long and unreliable. Today's batch may differ from yesterday's.",
+            "danger_level": "critical",
+            "truth": "ALWAYS test every batch, every time. People die from trusted sources regularly."
+          },
+          {
+            "myth": "Pills with the same stamp/logo contain the same thing",
+            "reality": "Anyone can press pills with any stamp. Same appearance = zero guarantee of identical contents. Pill presses are widely available. Cartels mass-produce fake pharmaceuticals.",
+            "danger_level": "critical",
+            "truth": "Pill appearance is meaningless. 6 out of 10 counterfeit pills contain lethal fentanyl (DEA). Test every pill individually."
+          },
+          {
+            "myth": "Fentanyl test strips aren't accurate",
+            "reality": "Fentanyl test strips are highly sensitive immunoassay tests, same technology used in medical settings. They detect fentanyl and many analogues at very low concentrations.",
+            "danger_level": "high",
+            "truth": "Fentanyl strips are reliable for most fentanyl analogues. Some novel analogues may escape detection, but strips catch the vast majority. Use them every time."
+          }
+        ]
+      },
+      {
+        "category": "Substance Effect Myths",
+        "myths": [
+          {
+            "myth": "You can't overdose on LSD or mushrooms",
+            "reality": "While lethal overdose is extremely rare, dangerous psychological reactions (psychotic breaks, dangerous behavior, HPPD) occur at high doses. Physical toxicity exists at extreme doses.",
+            "danger_level": "medium",
+            "truth": "Psychological overdose is real and dangerous. Start low, go slow. NBOMes (often sold as LSD) CAN cause fatal overdose."
+          },
+          {
+            "myth": "MDMA is safe if you stay hydrated and cool",
+            "reality": "While hydration and temperature management are important, MDMA has inherent risks: serotonin syndrome, hyponatremia (drinking TOO much water), cardiac stress, neurotoxicity.",
+            "danger_level": "medium",
+            "truth": "MDMA is never 'safe.' Harm can be reduced through: testing, proper dosing (1-1.5mg/kg), limiting frequency (3 month breaks minimum), staying cool, moderate hydration."
+          },
+          {
+            "myth": "Crack is more dangerous/addictive than powder cocaine chemically",
+            "reality": "Crack and powder cocaine are the same drug (cocaine). Crack is freebase form, powder is HCl salt. Route of administration (smoking vs snorting) affects onset/intensity, not the chemical itself.",
+            "danger_level": "low",
+            "truth": "Different form, same drug. Faster onset (smoking) creates more intense experience and potentially faster psychological dependence, but chemical addiction potential is identical."
+          },
+          {
+            "myth": "Cannabis is completely harmless and non-addictive",
+            "reality": "While relatively safe, cannabis can cause: psychological dependence (~9% of users), anxiety/paranoia, cannabinoid hyperemesis syndrome, impaired driving, respiratory issues (smoking), and may worsen mental health conditions.",
+            "danger_level": "low",
+            "truth": "Cannabis is low-risk but not zero-risk. Start low (especially edibles), avoid driving, be cautious with high-THC products, take breaks to avoid dependence."
+          },
+          {
+            "myth": "Pharmaceutical drugs from a pharmacy are always safe to mix",
+            "reality": "Prescription drugs have dangerous interactions. MAOIs + stimulants = hypertensive crisis. SSRIs + MDMA = serotonin syndrome. Benzos + opioids = respiratory depression/death.",
+            "danger_level": "critical",
+            "truth": "Always research drug interactions. Tell doctors ALL substances you use. Never assume 'legal' = safe to combine."
+          }
+        ]
+      },
+      {
+        "category": "Harm Reduction Myths",
+        "myths": [
+          {
+            "myth": "Using Narcan causes painful withdrawal, so hesitate to use it",
+            "reality": "Narcan (naloxone) may cause withdrawal symptoms in opioid-dependent people, but this is NOT a reason to avoid using it. Death is worse than withdrawal discomfort.",
+            "danger_level": "critical",
+            "truth": "ALWAYS administer naloxone if suspected opioid overdose. Withdrawal is temporary and non-fatal. Not breathing is fatal. Give naloxone immediately, worry about withdrawal later."
+          },
+          {
+            "myth": "Eating food before/during MDMA ruins the experience",
+            "reality": "Empty stomach may speed onset slightly, but having food prevents hypoglycemia, provides energy, and reduces nausea. Prolonged dancing on empty stomach is dangerous.",
+            "danger_level": "medium",
+            "truth": "Eat a light meal before. Bring snacks with electrolytes. Nutrition and energy matter more than slightly faster onset."
+          },
+          {
+            "myth": "Drinking lots of water prevents MDMA toxicity",
+            "reality": "MDMA + excessive water = hyponatremia (dangerously low sodium), which can be fatal. MDMA impairs body's ability to regulate water/electrolytes.",
+            "danger_level": "high",
+            "truth": "Moderate hydration only. ~500ml (16oz) water per hour maximum. Sports drinks with electrolytes better than plain water. Don't force water."
+          },
+          {
+            "myth": "Vitamin C, orange juice, or acidic drinks enhance psychedelic trips",
+            "reality": "No scientific evidence. May slightly affect absorption of some substances, but doesn't 'enhance' or 'intensify' trips in meaningful way.",
+            "danger_level": "low",
+            "truth": "Placebo effect. Drink whatever keeps you comfortable and hydrated. Focus on set, setting, and dosage instead."
+          },
+          {
+            "myth": "You should put ice in your eyes or on your neck if overheating on MDMA",
+            "reality": "Ice directly on eyes is dangerous (corneal damage). Ice on neck provides minimal cooling. Vasoconstriction from MDMA + ice = poor combination.",
+            "danger_level": "medium",
+            "truth": "If overheating: move to cool area, remove excess clothing, drink cool water slowly, wet towels on forehead/wrists, seek medical help if severe. NO ice on eyes."
+          },
+          {
+            "myth": "Testing your drugs means you're paranoid or inexperienced",
+            "reality": "Testing is smart, responsible harm reduction practiced by experienced users who understand the contaminated drug supply.",
+            "danger_level": "medium",
+            "truth": "Testing is a sign of intelligence and experience, not paranoia. Dead people don't get to be experienced users."
+          }
+        ]
+      },
+      {
+        "category": "Medical & Safety Myths",
+        "myths": [
+          {
+            "myth": "Fentanyl can absorb through skin and cause overdose from brief contact",
+            "reality": "Dermal absorption of fentanyl requires prolonged contact with high concentration (like prescription patches). Brief contact with powder is extremely unlikely to cause overdose.",
+            "danger_level": "medium",
+            "truth": "Most 'fentanyl exposure' events in first responders are panic attacks, not true toxicity. Still use gloves for safety, but brief contact is not immediately deadly. Real fentanyl OD causes sedation/respiratory depression, NOT anxiety."
+          },
+          {
+            "myth": "If someone is overdosing, put them in a cold shower to wake them up",
+            "reality": "Cold shower risks: drowning, injury from falling, aspiration of water, shock, doesn't address underlying problem. Ineffective and dangerous.",
+            "danger_level": "critical",
+            "truth": "Opioid OD: Give naloxone, rescue breathing, call 911. Stimulant toxicity: Cool environment, medical help. Never use cold shower for overdose."
+          },
+          {
+            "myth": "Letting someone 'sleep it off' is safer than calling 911",
+            "reality": "Opioid overdoses can progress to respiratory arrest and death. What looks like 'sleeping' may be dying. Good Samaritan laws protect callers in most areas.",
+            "danger_level": "critical",
+            "truth": "If you can't wake someone, breathing is slow (<12/min), lips/nails are blue, or you're unsure: CALL 911 IMMEDIATELY. Give naloxone if available. Sleeping off an overdose = death."
+          },
+          {
+            "myth": "Naloxone is only for heroin; it doesn't work on fentanyl",
+            "reality": "Naloxone works on ALL opioids including fentanyl and analogues. Fentanyl may require higher/multiple doses, but naloxone is the correct treatment.",
+            "danger_level": "critical",
+            "truth": "Naloxone works on fentanyl. May need 4-10mg total (multiple doses) vs 0.4-2mg for heroin. Keep giving naloxone and doing rescue breathing until help arrives."
+          },
+          {
+            "myth": "Activated charcoal or drinking milk helps with drug overdoses",
+            "reality": "Activated charcoal only works if given by medical professionals within ~1 hour of ORAL ingestion, patient is conscious, and specific criteria met. Milk does nothing.",
+            "danger_level": "medium",
+            "truth": "Don't try to give activated charcoal or milk to overdose victim. Call 911, give naloxone if opioid OD, provide rescue breathing, monitor until help arrives."
+          },
+          {
+            "myth": "Drug test detox drinks/methods actually work",
+            "reality": "Most detox products are scams. Detection times depend on: substance half-life, metabolism, frequency of use, body fat percentage. No reliable way to 'beat' modern drug tests.",
+            "danger_level": "low",
+            "truth": "Only reliable method: abstinence for appropriate detection window (THC: days-weeks, others: hours-days). Dilution may work for urine tests but often detected. Synthetic urine illegal in many areas."
+          }
+        ]
+      },
+      {
+        "category": "Historical & Cultural Myths",
+        "myths": [
+          {
+            "myth": "LSD causes chromosome damage and birth defects",
+            "reality": "Thoroughly debunked. Based on flawed 1960s research. Multiple subsequent studies found no chromosomal damage or increased birth defects from LSD use.",
+            "danger_level": "low",
+            "truth": "LSD does not damage chromosomes. However, using any drug during pregnancy is not recommended due to other potential risks."
+          },
+          {
+            "myth": "Strychnine is commonly used to cut LSD blotter",
+            "reality": "Completely false. Strychnine is bitter and toxic at doses that would fit on blotter. No evidence of strychnine being used to cut LSD. Myth from 1960s-70s.",
+            "danger_level": "low",
+            "truth": "LSD blotter adulterants are typically other psychoactives (NBOMes, DOx compounds), not poisons. Test with Ehrlich reagent."
+          },
+          {
+            "myth": "Ecstasy/Molly always contains meth, bath salts, or is never real MDMA",
+            "reality": "While adulteration is common, lab testing shows many samples do contain MDMA. Purity and cutting agents vary widely by region, source, and time.",
+            "danger_level": "medium",
+            "truth": "Assume your 'molly' could be anything. Test with multiple reagents (Marquis, Mecke, Simon's) + fentanyl strips. Don't assume it's fake OR real—verify."
+          },
+          {
+            "myth": "One use of meth/crack/heroin will instantly make you addicted",
+            "reality": "Addiction is a complex process involving genetics, psychology, environment, and repeated use. While these drugs have high addiction potential, one use doesn't guarantee addiction.",
+            "danger_level": "low",
+            "truth": "Risk factors matter: genetic predisposition, mental health, environment, frequency. That said, these substances carry very high addiction risk—avoid if possible."
+          }
+        ]
+      },
+      {
+        "category": "Legal & Ethical Myths",
+        "myths": [
+          {
+            "myth": "Calling 911 for an overdose will get everyone arrested",
+            "reality": "Most US states have Good Samaritan laws protecting callers and victims from prosecution for minor drug possession when seeking emergency help.",
+            "danger_level": "critical",
+            "truth": "ALWAYS call 911 for overdoses. Good Samaritan laws exist in most states. Even where they don't, saving a life > legal risk. Paramedics are there to help, not arrest."
+          },
+          {
+            "myth": "Cops can legally lie about being cops if asked",
+            "reality": "True, but irrelevant. Undercover officers can and do lie about their identity. Asking 'are you a cop' provides zero protection or useful information.",
+            "danger_level": "low",
+            "truth": "Don't rely on asking if someone is law enforcement. Practice operational security: don't discuss illegal activity with strangers, use harm reduction, test your substances."
+          },
+          {
+            "myth": "Carrying drug testing kits is evidence of drug use and can get you arrested",
+            "reality": "In most jurisdictions, harm reduction supplies (including test kits, fentanyl strips) are legal and increasingly encouraged by public health. Some states explicitly protect possession.",
+            "danger_level": "low",
+            "truth": "Test kits are harm reduction tools. Fentanyl test strips are legal in all 50 US states as of 2023. Check local laws, but carrying testing supplies is generally legal."
+          }
+        ]
+      }
+    ],
+    "bottom_line": {
+      "title": "Critical Takeaways",
+      "points": [
+        "Always test your substances with reagents AND fentanyl strips",
+        "Appearance, smell, taste, and source reputation are unreliable—test anyway",
+        "Reagent tests show presence, NOT purity—only lab testing quantifies",
+        "Call 911 for overdoses—Good Samaritan laws protect you in most areas",
+        "Naloxone works on all opioids including fentanyl—use it without hesitation",
+        "No substance is 100% safe—harm can only be reduced, not eliminated",
+        "When in doubt, start low and go slow—you can always take more, never less",
+        "Research drug interactions before combining substances",
+        "Base decisions on evidence and science, not myths and anecdotes"
+      ]
+    }
+  },
   "link_display_rules": {
     "show_warning": true,
     "warning_text": "Education only. Presumptive tests ≠ lab confirmation."
