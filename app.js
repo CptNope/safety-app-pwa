@@ -136,6 +136,20 @@ function QuickTest(){
           </ul>
         </div>
       )}
+      {s.links && (
+        <div className="flex flex-wrap gap-2 pt-2 border-t border-white/10">
+          {s.links.wikipedia && (
+            <a href={s.links.wikipedia} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-500/20 border border-blue-400/30 text-blue-200 text-sm hover:bg-blue-500/30 transition">
+              📖 Wikipedia
+            </a>
+          )}
+          {s.links.erowid && (
+            <a href={s.links.erowid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-sm hover:bg-emerald-500/30 transition">
+              🌿 Erowid
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 }

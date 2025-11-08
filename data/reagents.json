@@ -13,12 +13,12 @@
       "notes": "Useful for amphetamines."
     },
     "simons": {
-      "name": "Simon\u2019s",
+      "name": "Simon’s",
       "notes": "Secondary amines (MDMA/meth)."
     },
     "ehrlich": {
       "name": "Ehrlich",
-      "notes": "Indoles (LSD/psilocin) \u2192 purple."
+      "notes": "Indoles (LSD/psilocin) → purple."
     },
     "hofmann": {
       "name": "Hofmann (Ehrlich Mod.)",
@@ -36,7 +36,7 @@
             0,
             60
           ],
-          "alt": "purple\u2192indigo\u2192black"
+          "alt": "purple→indigo→black"
         },
         {
           "reagent": "mecke",
@@ -45,7 +45,7 @@
             0,
             60
           ],
-          "alt": "dark blue\u2192black"
+          "alt": "dark blue→black"
         },
         {
           "reagent": "mandelin",
@@ -68,7 +68,11 @@
       ],
       "notes": [
         "Use multiple reagents; lighting/timing matter."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
+        "erowid": "https://www.erowid.org/chemicals/mdma/"
+      }
     },
     "LSD": {
       "class": "ergoline (indole)",
@@ -133,6 +137,10 @@
           "summary": "Avoid taste-testing; unreliable and risky (NBOMe risk).",
           "confidence": "do-not"
         }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
+        "erowid": "https://www.erowid.org/chemicals/lsd/"
       }
     },
     "Cocaine": {
@@ -172,7 +180,11 @@
       ],
       "notes": [
         "Cocaine often shows minimal/no reaction with common reagents. Use multiple tests; fentanyl strips recommended."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Cocaine",
+        "erowid": "https://www.erowid.org/chemicals/cocaine/"
+      }
     },
     "Methamphetamine": {
       "class": "phenethylamine",
@@ -220,7 +232,11 @@
       ],
       "notes": [
         "Simon's test distinguishes meth (no reaction) from MDMA (blue). Use multiple reagents."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/meth/"
+      }
     },
     "MDA": {
       "class": "phenethylamine",
@@ -268,7 +284,11 @@
       ],
       "notes": [
         "Similar to MDMA but Simon's shows no reaction (MDA is primary amine, MDMA is secondary)."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/mda/"
+      }
     },
     "Amphetamine": {
       "class": "phenethylamine",
@@ -317,7 +337,11 @@
       ],
       "notes": [
         "Speed/amphetamine paste often contains adulterants. Test multiple points."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
+        "erowid": "https://www.erowid.org/chemicals/amphetamines/"
+      }
     },
     "2C-B": {
       "class": "phenethylamine (psychedelic)",
@@ -357,7 +381,11 @@
       ],
       "notes": [
         "Distinctive yellow-green with Marquis/Mecke. Often confused with other 2C-x compounds."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
+        "erowid": "https://www.erowid.org/chemicals/2cb/"
+      }
     },
     "Ketamine": {
       "class": "arylcyclohexylamine (dissociative)",
@@ -397,7 +425,11 @@
       ],
       "notes": [
         "Ketamine shows minimal reaction with most reagents. Specialized tests (Morris) available."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ketamine",
+        "erowid": "https://www.erowid.org/chemicals/ketamine/"
+      }
     },
     "Psilocybin": {
       "class": "tryptamine (indole)",
@@ -437,7 +469,11 @@
       ],
       "notes": [
         "Ehrlich for indole group confirmation. Whole mushrooms: test cap/stem separately if possible."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
+        "erowid": "https://www.erowid.org/plants/mushrooms/"
+      }
     },
     "Fentanyl": {
       "class": "synthetic opioid",
@@ -475,6 +511,10 @@
           "summary": "Immunoassay strips are the recommended method. Dissolve tiny sample and follow strip instructions.",
           "confidence": "high"
         }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fentanyl",
+        "erowid": "https://www.erowid.org/chemicals/fentanyl/"
       }
     },
     "Heroin": {
@@ -520,6 +560,10 @@
           "summary": "Essential due to widespread fentanyl contamination. Test every batch.",
           "confidence": "high"
         }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Heroin",
+        "erowid": "https://www.erowid.org/chemicals/heroin/"
       }
     },
     "DMT": {
@@ -559,7 +603,11 @@
       ],
       "notes": [
         "Ehrlich confirms indole. DMT usually yellowish crystals; pure is white."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine",
+        "erowid": "https://www.erowid.org/chemicals/dmt/"
+      }
     },
     "5-MeO-DMT": {
       "class": "tryptamine (indole)",
@@ -589,7 +637,11 @@
       ],
       "notes": [
         "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DMT",
+        "erowid": "https://www.erowid.org/chemicals/5meo_dmt/"
+      }
     },
     "GHB": {
       "class": "depressant (GHB/GBL)",
@@ -610,7 +662,11 @@
       ],
       "notes": [
         "Standard reagents ineffective for GHB/GBL. Specialized tests exist but uncommon. Use extreme caution with dosing."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
+        "erowid": "https://www.erowid.org/chemicals/ghb/"
+      }
     },
     "PCP": {
       "class": "arylcyclohexylamine (dissociative)",
@@ -641,7 +697,11 @@
       ],
       "notes": [
         "PCP shows limited reagent reactions. Often adulterant in other substances."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Phencyclidine",
+        "erowid": "https://www.erowid.org/chemicals/pcp/"
+      }
     },
     "DXM": {
       "class": "dissociative (morphinan)",
@@ -672,7 +732,11 @@
       ],
       "notes": [
         "Commonly extracted from cough medicine. Reagent tests limited value due to additives."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dextromethorphan",
+        "erowid": "https://www.erowid.org/chemicals/dxm/"
+      }
     },
     "Mescaline": {
       "class": "phenethylamine (psychedelic)",
@@ -712,7 +776,11 @@
       ],
       "notes": [
         "Rare in powder form. Often substituted with other psychedelics. Lab testing recommended."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
+        "erowid": "https://www.erowid.org/chemicals/mescaline/"
+      }
     },
     "DOI": {
       "class": "phenethylamine (psychedelic, DOx)",
@@ -751,7 +819,11 @@
       ],
       "notes": [
         "Long duration (16-30h). Sometimes mis-sold as LSD. Does NOT react with Ehrlich (not an indole)."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-iodoamphetamine",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
+      }
     },
     "Bromo-DragonFLY": {
       "class": "phenethylamine (psychedelic, benzodifuran)",
@@ -790,7 +862,11 @@
       ],
       "notes": [
         "EXTREMELY potent and long-lasting (up to 3 days). Very dangerous due to vasoconstriction. Often mis-sold. Does NOT react with Ehrlich."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bromo-DragonFLY",
+        "erowid": "https://www.erowid.org/chemicals/bromo_dragonfly/"
+      }
     },
     "25I-NBOMe": {
       "class": "phenethylamine (NBOMe series)",
@@ -838,7 +914,11 @@
       ],
       "notes": [
         "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/25I-NBOMe",
+        "erowid": "https://www.erowid.org/chemicals/nbome/"
+      }
     },
     "2C-I": {
       "class": "phenethylamine (2C-x series)",
@@ -878,7 +958,11 @@
       ],
       "notes": [
         "Part of 2C-x family. Can be difficult to distinguish from other 2C compounds with reagents alone."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2C-I",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal034.shtml"
+      }
     },
     "2C-E": {
       "class": "phenethylamine (2C-x series)",
@@ -917,7 +1001,11 @@
       ],
       "notes": [
         "Similar reactions to 2C-I. Lab testing recommended to differentiate between 2C-x compounds."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2C-E",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal024.shtml"
+      }
     },
     "4-AcO-DMT": {
       "class": "tryptamine (indole, psilocin prodrug)",
@@ -956,7 +1044,11 @@
       ],
       "notes": [
         "Research chemical; converts to psilocin in body. Similar effects to psilocybin mushrooms."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/O-Acetylpsilocin",
+        "erowid": "https://www.erowid.org/chemicals/4_acetoxy_dmt/"
+      }
     },
     "3-MMC": {
       "class": "cathinone (stimulant)",
@@ -995,7 +1087,11 @@
       ],
       "notes": [
         "Cathinone research chemical. Popular replacement for banned stimulants. Reagent reactions vary by batch."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/3-Methylmethcathinone",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_3MMC.shtml"
+      }
     },
     "4-MMC": {
       "class": "cathinone (stimulant)",
@@ -1034,7 +1130,11 @@
       ],
       "notes": [
         "Mephedrone. Banned in many countries but still in circulation. Similar reactions to other cathinones."
-      ]
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mephedrone",
+        "erowid": "https://www.erowid.org/chemicals/4_methylmethcathinone/"
+      }
     }
   },
   "id_guide": {
@@ -1082,7 +1182,13 @@
     },
     "capsule": {
       "name": "Capsule/Powder",
-      "common_substances": ["MDMA", "MDA", "Amphetamine", "Ketamine", "2C-x"],
+      "common_substances": [
+        "MDMA",
+        "MDA",
+        "Amphetamine",
+        "Ketamine",
+        "2C-x"
+      ],
       "tips": [
         "Open capsule; mix powder thoroughly before sampling",
         "Take small amount (~1-2mg grain of salt size) from multiple spots",
@@ -1114,7 +1220,13 @@
     },
     "powder": {
       "name": "Powder/Fine Crystal",
-      "common_substances": ["Cocaine", "Heroin", "Ketamine", "MDMA", "Meth"],
+      "common_substances": [
+        "Cocaine",
+        "Heroin",
+        "Ketamine",
+        "MDMA",
+        "Meth"
+      ],
       "tips": [
         "Use tiny amount (1-2mg) on white ceramic surface",
         "Test multiple spots from sample—adulterants may not mix evenly",
@@ -1131,7 +1243,12 @@
     },
     "crystal": {
       "name": "Crystal/Shard",
-      "common_substances": ["Methamphetamine", "MDMA", "DMT", "3-MMC"],
+      "common_substances": [
+        "Methamphetamine",
+        "MDMA",
+        "DMT",
+        "3-MMC"
+      ],
       "tips": [
         "Crush small crystal (~2mg) to powder for testing",
         "Larger surface area = better reagent reaction",
@@ -1146,7 +1263,11 @@
     },
     "rock": {
       "name": "Rock/Chunk",
-      "common_substances": ["Crack cocaine", "MDMA rock", "Heroin (tar)"],
+      "common_substances": [
+        "Crack cocaine",
+        "MDMA rock",
+        "Heroin (tar)"
+      ],
       "tips": [
         "Scrape powder from multiple spots—exterior vs interior",
         "Crack: minimal reagent reaction; use Scott test if available",
@@ -1162,7 +1283,11 @@
     },
     "liquid": {
       "name": "Liquid/Solution",
-      "common_substances": ["GHB", "LSD liquid", "Ketamine solution"],
+      "common_substances": [
+        "GHB",
+        "LSD liquid",
+        "Ketamine solution"
+      ],
       "tips": [
         "Place 1-2 drops on white ceramic plate, allow to evaporate slightly",
         "LSD liquid: Ehrlich on dried residue (purple = LSD)",
@@ -1423,7 +1548,7 @@
         "Marquis",
         "Mecke",
         "Mandelin",
-        "Simon\u2019s",
+        "Simon’s",
         "Ehrlich",
         "Hofmann"
       ],
@@ -1443,11 +1568,11 @@
         "Marquis",
         "Mecke",
         "Mandelin",
-        "Simon\u2019s",
+        "Simon’s",
         "Ehrlich",
         "Hofmann"
       ],
-      "price_range": "$$\u2013$$$",
+      "price_range": "$$–$$$",
       "shipping_policy": "EU; intl varies",
       "notes": "Wide coverage."
     }
@@ -1473,7 +1598,7 @@
     },
     {
       "id": "drager_dt5000",
-      "name": "Dr\u00e4ger DrugTest 5000 (Oral Fluid)",
+      "name": "Dräger DrugTest 5000 (Oral Fluid)",
       "intended_for": [
         "First responder",
         "Safety officer"
@@ -1513,6 +1638,6 @@
   },
   "link_display_rules": {
     "show_warning": true,
-    "warning_text": "Education only. Presumptive tests \u2260 lab confirmation."
+    "warning_text": "Education only. Presumptive tests ≠ lab confirmation."
   }
 }
