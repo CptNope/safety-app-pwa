@@ -501,6 +501,74 @@ function IDGuide(){
             {g.common_substances && <div className="text-xs opacity-70 mb-1">
               Common: {g.common_substances.join(', ')}
             </div>}
+            {g.common_targets && <div className="text-sm">
+              <div className="font-semibold text-red-200">Common Targets</div>
+              <ul className="list-disc ms-5">{g.common_targets.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.visual_tells && <div className="text-sm">
+              <div className="font-semibold text-amber-200">Visual Identification</div>
+              <ul className="list-disc ms-5">{g.visual_tells.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.reality_check && <div className="text-sm">
+              <div className="font-semibold text-red-200">⚠️ Reality Check</div>
+              <ul className="list-disc ms-5">{g.reality_check.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.testing && <div className="text-sm">
+              <div className="font-semibold text-emerald-200">Testing</div>
+              <ul className="list-disc ms-5">{g.testing.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.cocaine_cuts && <div className="text-sm">
+              <div className="font-semibold">Cocaine Cuts</div>
+              <ul className="list-disc ms-5">{g.cocaine_cuts.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.mdma_cuts && <div className="text-sm">
+              <div className="font-semibold">MDMA/Ecstasy Cuts</div>
+              <ul className="list-disc ms-5">{g.mdma_cuts.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.heroin_cuts && <div className="text-sm">
+              <div className="font-semibold text-red-200">Heroin Cuts</div>
+              <ul className="list-disc ms-5">{g.heroin_cuts.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.meth_cuts && <div className="text-sm">
+              <div className="font-semibold">Methamphetamine Cuts</div>
+              <ul className="list-disc ms-5">{g.meth_cuts.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.ketamine_cuts && <div className="text-sm">
+              <div className="font-semibold">Ketamine Cuts</div>
+              <ul className="list-disc ms-5">{g.ketamine_cuts.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.detection_notes && <div className="text-sm">
+              <div className="font-semibold text-sky-200">Detection Notes</div>
+              <ul className="list-disc ms-5">{g.detection_notes.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.mdma_crystal && <div className="text-sm">
+              <div className="font-semibold">MDMA Crystal</div>
+              <ul className="list-disc ms-5">{g.mdma_crystal.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.meth_crystal && <div className="text-sm">
+              <div className="font-semibold">Methamphetamine Crystal</div>
+              <ul className="list-disc ms-5">{g.meth_crystal.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.cocaine_appearance && <div className="text-sm">
+              <div className="font-semibold">Cocaine Appearance</div>
+              <ul className="list-disc ms-5">{g.cocaine_appearance.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.ketamine_appearance && <div className="text-sm">
+              <div className="font-semibold">Ketamine Appearance</div>
+              <ul className="list-disc ms-5">{g.ketamine_appearance.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.visual_notes && <div className="text-sm">
+              <div className="font-semibold text-amber-200">Visual Notes</div>
+              <ul className="list-disc ms-5">{g.visual_notes.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.weight_observations && <div className="text-sm">
+              <div className="font-semibold">Weight & Density</div>
+              <ul className="list-disc ms-5">{g.weight_observations.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
+            {g.packaging_clues && <div className="text-sm">
+              <div className="font-semibold">Packaging Clues</div>
+              <ul className="list-disc ms-5">{g.packaging_clues.map((t,i)=><li key={i}>{t}</li>)}</ul>
+            </div>}
             {g.tips && <div className="text-sm">
               <div className="font-semibold">Tips</div>
               <ul className="list-disc ms-5">{g.tips.map((t,i)=><li key={i}>{t}</li>)}</ul>
