@@ -105,15 +105,42 @@ function Chip({label,color}){
 function QuickTest(){
   const {data} = useJSON('data/reagents.json');
   const [suspect,setSuspect] = useState('MDMA');
+  const [search,setSearch] = useState('');
   if(!data) return null;
+  
+  // Filter substances based on search
+  const allSubstances = Object.keys(data.substances).sort();
+  const filteredSubstances = search 
+    ? allSubstances.filter(k => k.toLowerCase().includes(search.toLowerCase()))
+    : allSubstances;
+  
   const s = data.substances[suspect];
+  
   return (
     <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
-      <div className="flex flex-wrap items-center gap-2">
-        <label className="text-sm font-medium">Suspected substance:</label>
-        <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
-          {Object.keys(data.substances).map(k=><option key={k} value={k} className="bg-slate-800">{k}</option>)}
-        </select>
+      <div className="space-y-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <label className="text-sm font-medium">🔍 Search substances:</label>
+          <input 
+            type="text" 
+            placeholder="Type to search (e.g., MDMA, LSD, Cocaine)..." 
+            value={search} 
+            onChange={e=>setSearch(e.target.value)}
+            className="flex-1 min-w-[250px] bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50 placeholder:text-gray-500"
+          />
+          {search && (
+            <button onClick={()=>setSearch('')} className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition">
+              Clear
+            </button>
+          )}
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <label className="text-sm font-medium">Selected substance:</label>
+          <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
+            {filteredSubstances.map(k=><option key={k} value={k} className="bg-slate-800">{k}</option>)}
+          </select>
+          <span className="text-xs opacity-60">({filteredSubstances.length} of {allSubstances.length} substances)</span>
+        </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {s.testing.map((t,i)=>(

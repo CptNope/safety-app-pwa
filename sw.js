@@ -1,5 +1,5 @@
 
-const VERSION = "v17-202511081248";
+const VERSION = "v18-202511081254";
 const CACHE = "safety-pwa-" + VERSION;
 const ASSETS = [
   "./", "./index.html", "./assets/styles.css", "./app.js", "./data/reagents.json", "./manifest.webmanifest"

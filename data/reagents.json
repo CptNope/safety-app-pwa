@@ -2937,6 +2937,124 @@
       "price_range": "$$–$$$",
       "shipping_policy": "EU; intl varies",
       "notes": "Wide coverage."
+    },
+    {
+      "id": "bunkpolice",
+      "name": "Bunk Police",
+      "url": "https://bunkpolice.com/",
+      "regions": [
+        "US",
+        "Canada",
+        "International"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Simon's",
+        "Ehrlich",
+        "Hofmann"
+      ],
+      "price_range": "$$",
+      "shipping_policy": "Worldwide shipping",
+      "notes": "Fast shipping, comprehensive kits with test tubes."
+    },
+    {
+      "id": "eztest",
+      "name": "EZ Test",
+      "url": "https://ez-test.com.au/",
+      "regions": [
+        "Australia",
+        "EU",
+        "International"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Simon's",
+        "Ehrlich"
+      ],
+      "price_range": "$–$$",
+      "shipping_policy": "AU, EU, worldwide",
+      "notes": "Single-use ampoules, convenient for festivals."
+    },
+    {
+      "id": "testkitplus",
+      "name": "Test Kit Plus",
+      "url": "https://testkitplus.com/",
+      "regions": [
+        "Canada",
+        "US"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Simon's",
+        "Ehrlich",
+        "Hofmann"
+      ],
+      "price_range": "$$",
+      "shipping_policy": "Canada + US",
+      "notes": "Canadian harm reduction organization."
+    },
+    {
+      "id": "reagenttestsuk",
+      "name": "Reagent Tests UK",
+      "url": "https://www.reagent-tests.uk/",
+      "regions": [
+        "UK",
+        "EU",
+        "International"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Simon's",
+        "Ehrlich",
+        "Hofmann"
+      ],
+      "price_range": "$$",
+      "shipping_policy": "UK, EU, worldwide",
+      "notes": "Extensive reagent selection, detailed guides."
+    },
+    {
+      "id": "elevationchemicals",
+      "name": "Elevation Chemicals",
+      "url": "https://elevationchemicals.com/",
+      "regions": [
+        "Australia",
+        "New Zealand"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Ehrlich"
+      ],
+      "price_range": "$$",
+      "shipping_policy": "AU, NZ",
+      "notes": "Australian vendor with fast local shipping."
+    },
+    {
+      "id": "sincolorantes",
+      "name": "Sin Colorantes",
+      "url": "https://www.sincolorantes.com/",
+      "regions": [
+        "Spain",
+        "EU"
+      ],
+      "reagents": [
+        "Marquis",
+        "Mecke",
+        "Mandelin",
+        "Ehrlich"
+      ],
+      "price_range": "$–$$",
+      "shipping_policy": "Spain, EU",
+      "notes": "Spanish harm reduction org, bilingual resources."
     }
   ],
   "field_kits": [
