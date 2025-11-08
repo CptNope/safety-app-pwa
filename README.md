@@ -2,6 +2,8 @@
 
 A comprehensive, offline-capable Progressive Web App (PWA) for substance testing information and harm reduction education.
 
+**Created by Jeremy Anderson** • [Contribute on GitHub](https://github.com/CptNope/safety-app-pwa)
+
 ## ⚠️ Important Disclaimer
 
 **This app is for educational purposes only.** Reagent tests are presumptive and do NOT provide definitive identification. Always:
@@ -13,7 +15,7 @@ A comprehensive, offline-capable Progressive Web App (PWA) for substance testing
 
 ## 📋 Overview
 
-This PWA provides quick reference information for identifying substances using colorimetric reagent tests. It includes data on 27+ substances, covering everything from common recreational drugs to rare research chemicals.
+This PWA provides quick reference information for identifying substances using colorimetric reagent tests. It includes data on **55 substances**, covering everything from common recreational drugs to rare research chemicals, plus comprehensive emergency medical information.
 
 ### Key Features
 
@@ -21,13 +23,15 @@ This PWA provides quick reference information for identifying substances using c
 - **🧪 Quick Test Lookup** - Select a substance and instantly see expected reagent reactions
 - **🎨 Color-Coded Results** - Visual representation of expected color changes
 - **⏱️ Timing Windows** - Reaction time frames for each test
-- **📚 Comprehensive Database** - 27 substances with detailed testing information
+- **📚 Comprehensive Database** - 55 substances with detailed testing information
+- **🔗 External Resources** - Wikipedia and Erowid links for every substance
 - **🔍 Multiple Tabs**:
-  - Quick Test - Substance-specific reagent reactions
-  - Swatches - Visual color reference for common reagents
-  - ID Guide - Form-specific testing tips (blotter, pills, powders, etc.)
-  - Methods - Overview of testing methods and protocols
-  - Vendors - Trusted reagent kit suppliers
+  - **Quick Test** - Substance-specific reagent reactions with Wikipedia/Erowid links
+  - **Swatches** - Visual color reference showing all substances for each reagent
+  - **ID Guide** - 10 form types with detailed testing tips (blotter, pills, powders, crystals, liquids, mushrooms, etc.)
+  - **Methods** - Comprehensive testing protocols, safety procedures, and best practices
+  - **🚨 Emergency** - Hospital treatment protocols, overdose response, and medical information by drug class
+  - **Vendors** - Trusted reagent kit suppliers by region
 
 ## 🚀 Getting Started
 
@@ -87,6 +91,21 @@ Overview of testing methods including:
 - Test strip protocols (fentanyl, xylazine)
 - Safety warnings (taste testing - DON'T DO IT)
 
+### Emergency Tab 🚨
+
+Comprehensive medical emergency information:
+- **Immediate Response**: Step-by-step emergency actions before help arrives
+- **What to Tell EMS**: Critical information for first responders
+- **Hospital Treatments**: Medical protocols by drug class
+  - Opioid overdose (naloxone, ventilation, monitoring)
+  - Stimulant toxicity (cooling, sedation, cardiac care)
+  - Psychedelic crisis (calm environment, talk-down technique)
+  - Dissociative toxicity (supportive care, monitoring)
+  - GHB overdose (airway protection, short duration)
+  - Serotonin syndrome (cooling, benzodiazepines)
+- **Legal Protections**: Good Samaritan laws, naloxone access
+- **After Treatment**: Recovery recommendations and harm reduction
+
 ### Vendors Tab
 
 Filter by region to find trusted reagent kit suppliers:
@@ -94,28 +113,47 @@ Filter by region to find trusted reagent kit suppliers:
 - PRO Test (EU/International)
 - Field kit information for first responders
 
-## 🧬 Substances Covered
+## 🧬 Substances Covered (55 Total)
 
-### Stimulants
-- MDMA, MDA, Methamphetamine, Amphetamine
-- Cocaine
-- 3-MMC, 4-MMC (Mephedrone)
+### Entactogens (3)
+- MDMA, MDA, MDEA (MDE/Eve)
 
-### Psychedelics
-- LSD, Psilocybin, DMT, 5-MeO-DMT, 4-AcO-DMT
-- 2C-B, 2C-I, 2C-E
-- Mescaline
-- DOI, Bromo-DragonFLY
-- 25I-NBOMe
+### Stimulants (3)
+- Cocaine, Methamphetamine, Amphetamine
 
-### Dissociatives
+### Cathinones (9)
+- 3-MMC, 4-MMC (Mephedrone), Methylone (bk-MDMA), MDPV, Alpha-PVP (Flakka)
+- Ethylone (bk-MDEA), Pentedrone, Butylone (bk-MBDB), NEP
+
+### Psychedelics - Tryptamines (11)
+- LSD, DMT, 5-MeO-DMT, Psilocybin, 4-AcO-DMT
+- AMT, 5-MeO-AMT, 5-MeO-MiPT (Moxy), 5-MeO-DiPT (Foxy)
+- 4-HO-MET (Metocin), 4-HO-MiPT (Miprocin)
+
+### Psychedelics - Phenethylamines (14)
+- **2C-x Series (6)**: 2C-B, 2C-E, 2C-I, 2C-P, 2C-D, 2C-T-7
+- **DOx Series (4)**: DOI, DOM, DOB, DOC
+- **NBOMe Series (4)**: 25I-NBOMe, 25B-NBOMe, 25C-NBOMe, Bromo-DragonFLY
+- **Mescaline Family (4)**: Mescaline, Allylescaline, Escaline, Proscaline
+
+### Dissociatives (6)
 - Ketamine, PCP, DXM
+- 3-MeO-PCP, 3-MeO-PCE, MXE (Methoxetamine)
 
-### Opioids
-- Heroin, Fentanyl
+### Opioids (4)
+- Heroin, Fentanyl, Morphine, Oxycodone
 
-### Depressants
+### Depressants (1)
 - GHB
+
+### Each Substance Entry Includes:
+- ✅ Chemical class
+- ✅ Common forms (powder, pill, blotter, etc.)
+- ✅ 2-4 reagent test reactions with hex colors
+- ✅ Timing windows for each reaction
+- ✅ Safety notes and harm reduction info
+- ✅ Wikipedia link (pharmacology)
+- ✅ Erowid link (experience reports)
 
 ## 🔬 Reagents Explained
 
@@ -307,12 +345,31 @@ Always follow proper safety protocols:
 
 ## 🤝 Contributing
 
+**Contributions are welcome!** Visit [github.com/CptNope/safety-app-pwa](https://github.com/CptNope/safety-app-pwa) to contribute.
+
+### How to Contribute
+
+1. **Fork the repository** on GitHub
+2. **Add or correct data** in `data/reagents.json`
+3. **Test your changes** locally
+4. **Submit a pull request** with your improvements
+
+### What We Need
+
+- ✅ Additional substances with verified reagent reactions
+- ✅ Corrections to existing data (with sources)
+- ✅ Translations to other languages
+- ✅ UI/UX improvements
+- ✅ Bug fixes and performance improvements
+- ✅ Documentation updates
+
 ### Reporting Issues
 
 If you find errors in reagent data or have suggestions:
-1. Check existing data against trusted sources (DanceSafe, Reagent Tests UK, etc.)
-2. Provide source references for corrections
-3. Include substance name and reagent in question
+1. Open an issue on GitHub
+2. Check existing data against trusted sources (DanceSafe, Reagent Tests UK, etc.)
+3. Provide source references for corrections
+4. Include substance name and reagent in question
 
 ### Data Sources
 
@@ -321,6 +378,12 @@ Reagent data compiled from:
 - Reagent Tests UK database
 - Erowid testing resources
 - Published harm reduction literature
+
+## 👨‍💻 Author
+
+**Jeremy Anderson** ([@CptNope](https://github.com/CptNope))
+
+This project is maintained and expanded based on community feedback. Thank you to all contributors who help make this resource more comprehensive and accurate.
 
 ## 📚 Additional Resources
 

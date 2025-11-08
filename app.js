@@ -388,7 +388,20 @@ function App(){
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
 
-      <footer className="text-xs text-gray-400 py-8 text-center">Built for education and harm-reduction. {new Date().getFullYear()}</footer>
+      <footer className="py-8 space-y-4">
+        <div className="flex flex-wrap justify-center gap-3">
+          <button className="px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 text-sm font-medium hover:bg-emerald-500/30 transition cursor-not-allowed" disabled title="Donate option coming soon">
+            💚 Support This Project (Coming Soon)
+          </button>
+          <a href="https://github.com/CptNope/safety-app-pwa" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 text-sm font-medium hover:bg-blue-500/30 transition inline-flex items-center gap-2">
+            🐙 Contribute on GitHub
+          </a>
+        </div>
+        <div className="text-xs text-gray-400 text-center space-y-1">
+          <div>Built for education and harm reduction by <span className="text-white font-medium">Jeremy Anderson</span></div>
+          <div>© {new Date().getFullYear()} • Open source • Community contributions welcome</div>
+        </div>
+      </footer>
     </div>
   );
 }
