@@ -3411,6 +3411,156 @@
         "Toxic mushrooms exist—don't rely on reagents for wild ID",
         "Ehrlich confirms indole but not edibility"
       ]
+    },
+    "counterfeit_rx_pills": {
+      "name": "Counterfeit Prescription Pills (Critical)",
+      "common_targets": [
+        "Oxycodone (M30, A215, K9)",
+        "Xanax (bars, footballs)",
+        "Adderall",
+        "Percocet",
+        "Valium"
+      ],
+      "visual_tells": [
+        "Check imprint sharpness—real pills have crisp, clean imprints",
+        "Fake pills often have rough/uneven edges",
+        "Color may be slightly off (too bright or too dull)",
+        "Size/thickness variations within same 'batch'",
+        "Powdery residue or easily crumbled = likely fake",
+        "Score lines (break lines) may be crooked or shallow",
+        "Font differences in numbers/letters (compare to legitimate pill images)"
+      ],
+      "reality_check": [
+        "If you didn't get it from YOUR prescription at a licensed pharmacy, assume it's fake",
+        "Street pills are RARELY legitimate pharmaceuticals",
+        "Even if it looks perfect, test for fentanyl",
+        "6 out of 10 fake pills contain lethal fentanyl dose (DEA)",
+        "One pill CAN kill"
+      ],
+      "testing": [
+        "ALWAYS use fentanyl test strips on any suspected pharma pill from street",
+        "Scrape powder from surface AND interior",
+        "Test multiple pills from batch if possible",
+        "Reagent tests show fentanyl/heroin presence (Marquis purple, Mecke green)",
+        "Consider lab testing for definitive ID"
+      ]
+    },
+    "common_cutting_agents": {
+      "name": "Common Cutting Agents by Substance",
+      "cocaine_cuts": [
+        "Levamisole (60-90% of cocaine; causes immune damage)",
+        "Phenacetin (banned pain reliever; carcinogenic)",
+        "Lidocaine, Benzocaine (local anesthetics mimic numbing)",
+        "Caffeine (stimulant effect)",
+        "Inositol, Mannitol (white powder, no effect)",
+        "Creatine (bulking agent)",
+        "Boric acid (dangerous)"
+      ],
+      "mdma_cuts": [
+        "Caffeine (most common; adds stimulation)",
+        "MDA (similar effects; less empathogenic)",
+        "Methamphetamine (longer, harsher stimulation)",
+        "Cathinones (bath salts; unpredictable)",
+        "Sugar, starch (inert bulking)"
+      ],
+      "heroin_cuts": [
+        "Fentanyl/analogues (EXTREMELY dangerous; most common)",
+        "Xylazine (tranq; causes wounds, no naloxone response)",
+        "6-MAM (heroin metabolite; sometimes added)",
+        "Caffeine, quinine (historical cuts)",
+        "Sugars, starch, powder milk"
+      ],
+      "meth_cuts": [
+        "MSM (methyl sulfonyl methane; re-crystallizes like meth)",
+        "ISO (isopropylbenzylamine; looks identical)",
+        "N-Iso (another isomer; similar appearance)",
+        "Caffeine (adds jitters)",
+        "Ephedrine/pseudoephedrine (precursors; sometimes present)"
+      ],
+      "ketamine_cuts": [
+        "MSG (monosodium glutamate; similar crystal appearance)",
+        "Creatine (white powder)",
+        "Dextromethorphan (DXM; dissociative)",
+        "2-FDCK, DCK (ketamine analogues; similar effects)"
+      ],
+      "detection_notes": [
+        "Acetone wash removes many water-soluble cuts (caffeine, sugars, MSM)",
+        "Reagent tests may not detect inert cuts",
+        "Melting point changes with cuts present",
+        "Lab testing (GC/MS) shows all components"
+      ]
+    },
+    "crystal_characteristics": {
+      "name": "Crystal Structure & Appearance Details",
+      "mdma_crystal": [
+        "Color: Tan, brown, champagne, off-white (pure rarely pure white)",
+        "Structure: Chunky, irregular crystals; not perfectly clear",
+        "Texture: Slightly sticky when crushed (hygroscopic)",
+        "Smell: Slight licorice/anise/sassafras (safrole precursor residue)",
+        "Pure white MDMA is suspicious—often indicates synthesis from different precursor or not MDMA"
+      ],
+      "meth_crystal": [
+        "Color: Clear, white, sometimes pale blue/pink (from impurities)",
+        "Structure: Large shards, 'glass-like', fractures like glass",
+        "Texture: Hard, brittle, clean breaks",
+        "Smell: Minimal to none; sometimes chemical smell",
+        "ISO cut looks IDENTICAL—testing essential"
+      ],
+      "cocaine_appearance": [
+        "Form: Powder (HCl) or rock (crack/freebase)",
+        "HCl color: White to off-white, 'pearlescent' sheen possible",
+        "Texture: Flaky, soft powder; compresses easily (fishscale = high quality)",
+        "Crack: Off-white to tan rocks, waxy texture",
+        "Smell: Chemical, diesel-like, or slight floral"
+      ],
+      "dmt_crystal": [
+        "Color: White to yellow/orange (pure = white; plant fats = yellow)",
+        "Structure: Fine needles/crystals or waxy substance",
+        "Smell: VERY distinctive (described as mothballs, new shoes, plastic)",
+        "Texture: Waxy or crystalline depending on purity"
+      ]
+    },
+    "weight_and_density": {
+      "name": "Weight & Density Observations",
+      "tips": [
+        "Use milligram scale (0.001g accuracy minimum)",
+        "Weigh sample before and after washing (indicates cut %)",
+        "Compare density to known values (crude test)",
+        "Unusual weight-to-volume ratio may indicate heavy cuts"
+      ],
+      "examples": [
+        "MDMA crystal: ~1.2g/ml density; 100mg should be fairly small volume",
+        "Cocaine HCl: ~1.2g/ml",
+        "Meth: ~1.0-1.1g/ml",
+        "Heavy cuts (sugars, inositol): may increase apparent volume"
+      ],
+      "notes": [
+        "Not practical for field testing—requires precision equipment",
+        "Useful for serious analysis or large quantities",
+        "Density changes with moisture content"
+      ]
+    },
+    "packaging_context": {
+      "name": "Packaging & Presentation Clues",
+      "tips": [
+        "Pharmacy bottles = check authenticity (tamper seals, lot numbers, expiration)",
+        "Street baggies = no reliability; any substance can be in any bag",
+        "Blister packs = easily faked; check print quality",
+        "Pills in unmarked bags = assume counterfeit",
+        "Powder in capsules = check capsule itself (vegetarian vs gelatin; colors)"
+      ],
+      "red_flags": [
+        "Misspellings on packaging",
+        "Poor print quality or smudged text",
+        "Wrong pharmacy name/address",
+        "Tamper seals missing or damaged",
+        "Lot numbers that look hand-written or photocopied"
+      ],
+      "notes": [
+        "Professional counterfeiters can fake packaging—never trust appearance alone",
+        "Real pharmaceuticals from questionable sources may still be diverted/expired",
+        "Always test contents regardless of packaging"
+      ]
     }
   },
   "methods": {
@@ -3628,6 +3778,245 @@
         "notes": [
           "Trace fentanyl contamination from one sample can transfer",
           "Even invisible residue can affect results"
+        ]
+      },
+      {
+        "id": "melting_point",
+        "name": "Melting Point Testing (Advanced)",
+        "type": "clandestine",
+        "do": [
+          "Use melting point apparatus or capillary tube + thermometer",
+          "Heat sample slowly (~1-2°C per minute) for accuracy",
+          "Observe temperature at which solid begins to melt",
+          "Compare to known melting point ranges for suspected substance",
+          "Crush crystal to powder for more uniform melting"
+        ],
+        "dont": [
+          "Don't heat rapidly—melting range will be inaccurate",
+          "Don't use open flame (fire hazard + decomposes many substances)",
+          "Don't assume purity—cuts change melting point"
+        ],
+        "notes": [
+          "Pure MDMA: ~148-153°C; Methamphetamine: ~170-175°C; Cocaine HCl: ~195-198°C",
+          "Adulterants lower/broaden melting point range",
+          "Requires specialized equipment or improvised setup (oil bath + thermometer)",
+          "Not practical for field use but useful for serious verification"
+        ]
+      },
+      {
+        "id": "acetone_wash",
+        "name": "Acetone Wash (Purity Improvement)",
+        "type": "clandestine",
+        "do": [
+          "Use pure anhydrous acetone (not nail polish remover)",
+          "Crush sample to fine powder in glass container",
+          "Add cold acetone (~0°C, ice bath), stir 2-3 minutes",
+          "Filter through coffee filter; collect solid residue",
+          "Air dry filtered solid completely (24+ hours)",
+          "Discard acetone (contains cuts/impurities)"
+        ],
+        "dont": [
+          "Don't use acetone with additives (nail polish remover)",
+          "Don't wash substances soluble in acetone (most psychedelics)",
+          "Don't assume washed = pure—some cuts remain"
+        ],
+        "notes": [
+          "Effective for cocaine, amphetamines, MDMA (HCl salts insoluble in cold acetone)",
+          "Removes many common cuts: caffeine, sugars, MSM, cutting agents",
+          "Weight loss indicates cut percentage (50% loss = ~50% cut)",
+          "NOT foolproof—some adulterants also insoluble",
+          "Legal in most areas (acetone is hardware store item)"
+        ]
+      },
+      {
+        "id": "solubility_tests",
+        "name": "Solubility Testing",
+        "type": "clandestine",
+        "do": [
+          "Test small sample (~10mg) in water, then in alcohol (ethanol/isopropanol)",
+          "Observe dissolution speed, clarity, residue",
+          "Compare to known solubility of suspected substance",
+          "Note temperature (room temp ~20°C standard)"
+        ],
+        "notes": [
+          "Cocaine HCl: very soluble in water; Crack: barely soluble in water",
+          "MDMA HCl: soluble in water and alcohol",
+          "Most cuts are water-soluble (sugars, caffeine)—residue may indicate insoluble adulterant",
+          "Not definitive but provides clues about form (salt vs freebase)",
+          "Combine with other tests for better picture"
+        ]
+      },
+      {
+        "id": "burn_test",
+        "name": "Burn Test (Visual Observation Only)",
+        "type": "clandestine",
+        "do": [
+          "Place tiny amount (~1mg) on aluminum foil or metal surface",
+          "Heat from below with lighter (indirect heat)",
+          "Observe: Does it melt? Smoke? Color of smoke? Residue?",
+          "Note smell (but don't inhale fumes directly)"
+        ],
+        "dont": [
+          "NEVER inhale smoke/vapors (toxic combustion products)",
+          "Don't use as primary ID method—extremely unreliable",
+          "Don't burn large amounts (waste + more toxic fumes)"
+        ],
+        "notes": [
+          "Methamphetamine: melts to clear liquid, re-crystallizes on cooling, minimal residue",
+          "MDMA: melts/liquifies, brown residue, distinct smell",
+          "Cocaine: doesn't vaporize well, burns/chars, chemical smell",
+          "Heroin: liquifies, brown smoke (distinctive 'vinegar' smell)",
+          "VERY unreliable—many substances behave similarly; use only as rough screen"
+        ]
+      },
+      {
+        "id": "physical_observation",
+        "name": "Physical Characteristics (Visual Inspection)",
+        "type": "auxiliary",
+        "do": [
+          "Examine under bright light or magnification",
+          "Note: color, crystal structure, texture, smell (don't inhale deeply)",
+          "Check for uniformity—mixed colors/textures indicate cuts",
+          "Observe how crystals break/crush",
+          "Look for foreign particles or discoloration"
+        ],
+        "dont": [
+          "Don't trust visual ID alone—any substance can be made to look like another",
+          "Don't smell powders directly (fentanyl risk)",
+          "Don't assume purity from appearance (can be deceiving)"
+        ],
+        "notes": [
+          "Meth: clear/white crystals, 'glass-like', odorless or slight chemical smell",
+          "MDMA: tan/brown crystals or white powder, slight licorice/sassafras smell",
+          "Cocaine: white/off-white powder, 'flaky', slight chemical/diesel smell",
+          "Visual inspection is ALWAYS supplementary—never diagnostic"
+        ]
+      },
+      {
+        "id": "documentation",
+        "name": "Photographic Documentation",
+        "type": "auxiliary",
+        "do": [
+          "Photograph reagent tests with white background, flash OFF",
+          "Include time stamps if possible",
+          "Take reference photo with known color chart (if available)",
+          "Document before/during/after color changes",
+          "Use macro mode for detail"
+        ],
+        "notes": [
+          "Photos help compare results later or consult with experts",
+          "Lighting affects color perception—natural daylight best",
+          "Share photos (anonymously) with drug checking forums for second opinion",
+          "Keep test photos separate from personal photos (opsec)"
+        ]
+      },
+      {
+        "id": "bleach_test",
+        "name": "Bleach Test (Cocaine/Levamisole Detection)",
+        "type": "clandestine",
+        "do": [
+          "Dissolve small sample (~20mg) in water",
+          "Add 2-3 drops household bleach",
+          "Swirl gently and observe color change",
+          "Amber/brown/orange color indicates levamisole presence"
+        ],
+        "dont": [
+          "Don't inhale bleach fumes (toxic chlorine gas possible)",
+          "Don't test in enclosed space—ventilate well",
+          "Negative result ≠ pure cocaine (other adulterants exist)"
+        ],
+        "notes": [
+          "Levamisole is veterinary dewormer, toxic, found in 60-90% of cocaine",
+          "Causes immune system damage, skin necrosis",
+          "Bleach test is quick field test specific to levamisole",
+          "Won't detect other cuts (phenacetin, lidocaine, caffeine)"
+        ]
+      },
+      {
+        "id": "morris_reagent",
+        "name": "Morris Reagent (Cocaine Specific)",
+        "type": "advanced_reagent",
+        "do": [
+          "Use Morris reagent (thiocyanate + cobalt)",
+          "Place tiny sample on white plate",
+          "Add 1 drop Morris, observe color",
+          "Blue-green/turquoise = cocaine present"
+        ],
+        "notes": [
+          "More specific than Marquis for cocaine detection",
+          "Less commonly available than primary reagents",
+          "Still presumptive—not definitive"
+        ]
+      },
+      {
+        "id": "pill_id_databases",
+        "name": "Pill Identification Databases",
+        "type": "auxiliary",
+        "services": [
+          "Drugs.com Pill Identifier (legitimate pharmaceuticals)",
+          "EcstasyData.org (lab results for street pills)",
+          "Pillreports.net (user-submitted, less reliable)",
+          "Your local drug checking service app/website"
+        ],
+        "do": [
+          "Enter imprint code, color, shape into database",
+          "For legitimate pills: cross-reference with prescription",
+          "For street pills: check recent lab results in your area"
+        ],
+        "dont": [
+          "NEVER assume identical appearance = identical content",
+          "Don't trust pill reports without recent lab confirmation",
+          "Don't skip testing because pill 'looks right'"
+        ],
+        "notes": [
+          "Anyone can press pills with any stamp/logo—appearance means nothing",
+          "Legitimate pill databases (Drugs.com) only for identifying real prescriptions",
+          "Street pill databases show trends but are NOT guarantees",
+          "Always test, even if pill ID looks promising"
+        ]
+      },
+      {
+        "id": "gcms_explained",
+        "name": "GC/MS (Gas Chromatography-Mass Spectrometry)",
+        "type": "confirmation",
+        "do": [
+          "Submit samples to professional lab for GC/MS analysis",
+          "Provides definitive ID + quantitative purity analysis",
+          "Can detect multiple substances and adulterants"
+        ],
+        "notes": [
+          "Gold standard for substance identification",
+          "Separates mixture into components (GC), then identifies each (MS)",
+          "Shows percentage composition: '72% MDMA, 15% caffeine, 8% sugar, 5% unknown'",
+          "Available through drug checking services (DrugsData, WEDINOS, Energy Control)",
+          "Results may take 1-4 weeks",
+          "Cost: $0-150 depending on service"
+        ]
+      },
+      {
+        "id": "ftir_spectroscopy",
+        "name": "FTIR (Fourier-Transform Infrared Spectroscopy)",
+        "type": "confirmation",
+        "notes": [
+          "Professional lab technique—identifies substances by molecular 'fingerprint'",
+          "Non-destructive (sample can be recovered)",
+          "Very accurate for pure substances; struggles with complex mixtures",
+          "Used by some drug checking services as alternative to GC/MS",
+          "Faster results than GC/MS (minutes vs days)"
+        ]
+      },
+      {
+        "id": "marquis_limitations",
+        "name": "Understanding Reagent Limitations",
+        "type": "essential",
+        "notes": [
+          "Reagents are PRESUMPTIVE tests—they suggest, not prove",
+          "Same color can result from different substances (e.g., MDMA and DXM both orange with Marquis)",
+          "Mixtures create unpredictable colors",
+          "Cuts/adulterants may mask or alter expected reactions",
+          "False negatives possible (substance present but no reaction)",
+          "False positives possible (wrong substance gives similar color)",
+          "Always use multiple reagents + fentanyl strips + consider lab testing"
         ]
       }
     ]
