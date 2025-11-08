@@ -237,6 +237,73 @@ function Vendors(){
   );
 }
 
+function MedicalTreatment(){
+  const {data} = useJSON('data/reagents.json');
+  if(!data?.medical_treatment) return null;
+  const mt = data.medical_treatment;
+  
+  return (
+    <div className="space-y-4">
+      {mt.overview && (
+        <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-4">
+          <h3 className="text-lg font-bold text-red-200 mb-2">⚠️ {mt.overview.title}</h3>
+          <p className="text-sm text-red-100 mb-2">{mt.overview.warning}</p>
+          <p className="text-sm text-red-100/80">{mt.overview.good_samaritan}</p>
+        </div>
+      )}
+      
+      {mt.emergency_response && (
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
+          <h3 className="font-semibold text-lg text-amber-200">🚨 {mt.emergency_response.name}</h3>
+          <div className="space-y-2">
+            <div className="font-semibold text-sm">Steps:</div>
+            <ul className="list-disc ms-5 text-sm space-y-1">{mt.emergency_response.steps.map((s,i)=><li key={i}>{s}</li>)}</ul>
+          </div>
+          <div className="space-y-2">
+            <div className="font-semibold text-sm text-emerald-200">What to tell EMS/911:</div>
+            <ul className="list-disc ms-5 text-sm space-y-1">{mt.emergency_response.what_to_tell_ems.map((s,i)=><li key={i}>{s}</li>)}</ul>
+          </div>
+          <div className="space-y-2">
+            <div className="font-semibold text-sm text-rose-200">DO NOT:</div>
+            <ul className="list-disc ms-5 text-sm space-y-1">{mt.emergency_response.do_not.map((s,i)=><li key={i}>{s}</li>)}</ul>
+          </div>
+        </div>
+      )}
+      
+      {mt.hospital_treatments && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-lg">🏥 Hospital Treatments by Drug Class</h3>
+          {Object.entries(mt.hospital_treatments).map(([key, treatment])=>(
+            <div key={key} className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
+              <h4 className="font-semibold text-md text-sky-200">{treatment.name}</h4>
+              {treatment.signs && (<div className="text-sm"><div className="font-semibold text-red-200">⚠️ Signs of Overdose:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.signs.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+              {treatment.prehospital && (<div className="text-sm"><div className="font-semibold text-amber-200">Before Hospital:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.prehospital.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+              {treatment.hospital && (<div className="text-sm"><div className="font-semibold text-emerald-200">Hospital Treatment:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.hospital.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+              {treatment.common_interventions && (<div className="text-sm"><div className="font-semibold">Common Interventions:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.common_interventions.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+              {treatment.notes && (<div className="text-sm text-sky-200/80"><div className="font-semibold">Notes:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.notes.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+            </div>
+          ))}
+        </div>
+      )}
+      
+      {mt.legal_protections && (
+        <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 space-y-3">
+          <h3 className="font-semibold text-lg text-emerald-200">⚖️ {mt.legal_protections.name}</h3>
+          {mt.legal_protections.good_samaritan_laws && (<div className="text-sm"><div className="font-semibold">Good Samaritan Laws:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{mt.legal_protections.good_samaritan_laws.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+          {mt.legal_protections.naloxone_access && (<div className="text-sm"><div className="font-semibold">Naloxone Access:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{mt.legal_protections.naloxone_access.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
+        </div>
+      )}
+      
+      {mt.after_treatment && (
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-2">
+          <h3 className="font-semibold text-lg">💚 {mt.after_treatment.name}</h3>
+          <ul className="list-disc ms-5 text-sm space-y-0.5">{mt.after_treatment.recommendations.map((s,i)=><li key={i}>{s}</li>)}</ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function IDGuide(){
   const {data} = useJSON('data/reagents.json');
   if(!data?.id_guide) return null;
@@ -305,6 +372,7 @@ function App(){
           <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
+          <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
           <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
         </nav>
       </header>
@@ -317,6 +385,7 @@ function App(){
       {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
+      {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
 
       <footer className="text-xs text-gray-400 py-8 text-center">Built for education and harm-reduction. {new Date().getFullYear()}</footer>
