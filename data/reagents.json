@@ -4823,7 +4823,7 @@
     "overview": {
       "title": "Medical Emergency Response & Hospital Treatment",
       "warning": "⚠️ THIS IS EDUCATIONAL INFORMATION ONLY. In a medical emergency, ALWAYS call emergency services (911 in US) immediately. Time is critical.",
-      "good_samaritan": "Most US states and many countries have Good Samaritan laws protecting people who call for help during a drug emergency from arrest or prosecution."
+      "good_samaritan": "Most US states and many countries have Good Samaritan laws protecting people who call for help during a drug emergency from arrest or prosecution. As of 2023, 47 US states + DC have some form of these laws. States with NO or very limited protections: Wyoming, Kansas, Texas (very limited). ALWAYS CALL 911 REGARDLESS - saving a life is more important than potential legal consequences."
     },
     "emergency_response": {
       "name": "Immediate Actions (Before Help Arrives)",
@@ -5043,11 +5043,13 @@
     "legal_protections": {
       "name": "Legal Protections for Seeking Help",
       "good_samaritan_laws": [
-        "Most US states have 'Good Samaritan' or '911 Immunity' laws",
+        "47 US states + DC have 'Good Samaritan' or '911 Immunity' laws (as of 2023)",
         "These protect callers from arrest/prosecution for drug possession when calling 911",
         "Protection typically extends to the person overdosing AND the person calling",
         "Minor drug offenses usually covered; may not protect large-scale dealing",
-        "Laws vary by state - check local laws, but ALWAYS call anyway in emergency"
+        "States with NO or very limited Good Samaritan protections: Wyoming, Kansas, Texas (limited)",
+        "EVEN in these states: ALWAYS call 911 anyway - saving a life is more important than legal risk",
+        "Laws vary by state - check local laws, but emergency response is priority"
       ],
       "naloxone_access": [
         "Naloxone (Narcan) available without prescription in most states",
@@ -5268,9 +5270,9 @@
         "myths": [
           {
             "myth": "Calling 911 for an overdose will get everyone arrested",
-            "reality": "Most US states have Good Samaritan laws protecting callers and victims from prosecution for minor drug possession when seeking emergency help.",
+            "reality": "47 US states + DC have Good Samaritan laws protecting callers and victims from prosecution for minor drug possession when seeking emergency help. Only Wyoming, Kansas, and Texas (very limited) lack these protections. Even in those states, arrests during overdose calls are rare.",
             "danger_level": "critical",
-            "truth": "ALWAYS call 911 for overdoses. Good Samaritan laws exist in most states. Even where they don't, saving a life > legal risk. Paramedics are there to help, not arrest."
+            "truth": "ALWAYS call 911 for overdoses. Good Samaritan laws exist in 47 states + DC (as of 2023). States without: Wyoming, Kansas, Texas (limited). Even in these states, saving a life > legal risk. Paramedics are there to save lives, not make arrests. Police focus is medical emergency, not prosecution."
           },
           {
             "myth": "Cops can legally lie about being cops if asked",
