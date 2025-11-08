@@ -5390,6 +5390,101 @@
             "truth": "Home-grown mushrooms still need careful dosing. Start low (1-2g dried). Potency varies. Can't visually determine psilocybin content. Weigh accurately, know your strain."
           }
         ]
+      },
+      {
+        "category": "Legal Alternatives & Smoke Shop Products",
+        "myths": [
+          {
+            "myth": "Amanita muscaria mushroom products sold in smoke shops are safe because they're legal",
+            "reality": "Amanita muscaria (fly agaric) is NOT psilocybin. Contains muscimol and ibotenic acid which cause: delirium, nausea, confusion, seizures (high doses), unpredictable effects. Legality ≠ safety. Potency varies wildly between products and batches.",
+            "danger_level": "high",
+            "truth": "Amanita muscaria is a deliriant, not a classic psychedelic. Effects are often unpleasant and unpredictable. Not comparable to psilocybin mushrooms. Legal status doesn't mean safe—many dangerous substances are legal."
+          },
+          {
+            "myth": "Mushroom vapes and edibles from smoke shops contain only natural mushroom extracts",
+            "reality": "Lab testing has found many 'mushroom' vapes contain 4-AcO-DMT (psilacetin, synthetic psilocybin prodrug) or other research chemicals, NOT actual mushroom extracts. Unlabeled, unknown doses, no quality control, often mislabeled.",
+            "danger_level": "critical",
+            "truth": "NEVER trust smoke shop 'mushroom' products. Lab tests show many contain synthetic tryptamines (4-AcO-DMT, 4-HO-MET) not listed on label. Unknown doses, contamination risks, legal gray area. If using psychedelics, source from tested suppliers or grow your own psilocybin mushrooms."
+          },
+          {
+            "myth": "Delta-8, Delta-10, THC-O, and HHC from gas stations are just like regular weed",
+            "reality": "These synthetic cannabinoids are made by chemical conversion of CBD/hemp. Often contain: heavy metals, residual solvents, unknown byproducts. THC-O is fully synthetic (not natural). Many products fail safety testing. Effects can be much stronger and more anxiety-inducing than natural THC.",
+            "danger_level": "high",
+            "truth": "Synthetic cannabinoids carry real risks. Many products contaminated with toxic chemicals from improper synthesis. If using cannabis, stick to tested dispensary products or natural flower. Avoid gas station/smoke shop synthetic cannabinoids."
+          },
+          {
+            "myth": "Kratom is completely safe because it's natural and sold legally",
+            "reality": "Kratom (Mitragyna speciosa) contains opioid receptor agonists. Can cause: physical dependence, withdrawal (similar to opioids), liver toxicity (rare but documented), respiratory depression (high doses or with other depressants), seizures (contaminated products).",
+            "danger_level": "medium",
+            "truth": "Kratom has opioid-like properties and risks. Can be physically addictive. Withdrawal symptoms are real. Deaths have occurred (usually with other substances). Use cautiously, don't mix with other depressants, buy from tested vendors only, start with low doses."
+          },
+          {
+            "myth": "7-hydroxymitragynine (7-OH) extract is just concentrated kratom",
+            "reality": "7-OH is 13x more potent than morphine (by some measures). Isolated alkaloid products create much higher addiction/dependence risk than whole-leaf kratom. Easier to overdose. Withdrawal more severe. Some products contain synthetic 7-OH or other adulterants.",
+            "danger_level": "high",
+            "truth": "7-OH extracts are significantly more dangerous than regular kratom leaf. Higher addiction potential, severe withdrawal, easier to overdose. Stick to whole-leaf kratom if using. Avoid concentrated extracts and isolated alkaloid products."
+          },
+          {
+            "myth": "Products labeled 'not for human consumption' are safe research chemicals",
+            "reality": "This labeling is legal loophole to sell untested, potentially dangerous substances. No quality control, purity unknown, may contain toxic byproducts or wrong substance entirely. 'Research chemical' often means 'no human safety data exists.'",
+            "danger_level": "critical",
+            "truth": "NEVER consume products labeled 'not for human consumption.' This label exists to avoid FDA regulation, not to protect you. Unknown purity, unknown substances, no safety testing. Research chemicals are experimental—use at extreme risk."
+          },
+          {
+            "myth": "Phenibut is safe because it's sold as a supplement",
+            "reality": "Phenibut is a GABA-B agonist (similar to baclofen). Causes physical dependence rapidly (some users after just 1-2 weeks daily use). Withdrawal can include: seizures, psychosis, severe anxiety, insomnia. Tolerance builds quickly requiring dose escalation.",
+            "danger_level": "high",
+            "truth": "Phenibut is NOT a safe supplement. Highly addictive, dangerous withdrawal, narrow therapeutic window. If using, maximum 2-3 times per week, never daily. Taper slowly if dependent—never cold turkey. Many countries have banned or restricted it."
+          },
+          {
+            "myth": "Tianeptine (gas station opioid) is just an antidepressant supplement",
+            "reality": "Tianeptine sold in gas stations (brands like 'Pegasus,' 'Zaza Red') contains massive doses (100-500mg vs medical dose of 12.5-37.5mg). Acts as mu-opioid agonist at high doses. Extremely addictive, severe withdrawal (worse than many opioids), deaths documented.",
+            "danger_level": "critical",
+            "truth": "Gas station tianeptine products are essentially unregulated opioids. Extremely addictive, brutal withdrawal, overdose risk. Multiple states have banned. AVOID entirely. If addicted, seek medical detox—withdrawal is severe and dangerous."
+          },
+          {
+            "myth": "Salvia divinorum is safe because it's legal in some places and natural",
+            "reality": "Salvia is extremely potent kappa-opioid agonist. Causes complete dissociation from reality, loss of motor control, potential for injury, intense dysphoria common. Not recreational for most people. Psychological distress possible.",
+            "danger_level": "medium",
+            "truth": "Salvia is legal in some areas but intensely powerful and often unpleasant. Not like other psychedelics. Most people find experience frightening. If using: have sitter, remove dangerous objects, sit/lie down before effects start, start with very low dose."
+          },
+          {
+            "myth": "Kava is completely harmless because it's used traditionally",
+            "reality": "Kava can cause: liver toxicity (rare but serious—multiple deaths documented), dermopathy (scaly skin with chronic use), interaction with medications, potentiation of alcohol and sedatives. Traditional preparation methods may be safer than extracts.",
+            "danger_level": "medium",
+            "truth": "Kava carries liver toxicity risk, especially concentrated extracts and supplements. Avoid if you have liver issues or take medications. Don't mix with alcohol. Traditional aqueous preparation (not extracts) considered safer. Monitor for signs of liver problems."
+          },
+          {
+            "myth": "Gas station/sex shop 'male enhancement' pills are safe herbal supplements",
+            "reality": "FDA testing has found many contain UNDISCLOSED pharmaceuticals: sildenafil (Viagra), tadalafil (Cialis), vardenafil (Levitra), or dangerous analogs. Often in uncontrolled doses combined with other stimulants. Can cause: dangerous blood pressure drops, heart attacks, strokes, priapism (medical emergency), fatal interactions with nitrates (heart medications).",
+            "danger_level": "critical",
+            "truth": "NEVER use gas station sexual enhancement products. FDA has issued hundreds of warnings. Products contain hidden prescription drugs in unknown doses. Fatal if combined with nitrates (nitroglycerin, isosorbide). Can cause heart attacks, strokes, prolonged erections requiring surgery. If you need ED medication, see a doctor—legitimate prescriptions are safe and effective."
+          },
+          {
+            "myth": "If a sexual enhancement product is labeled 'all natural' or 'herbal,' it doesn't contain pharmaceuticals",
+            "reality": "FDA lab tests repeatedly find undisclosed sildenafil, tadalafil, and analogs in products labeled 'all natural.' Some contain multiple drugs combined (e.g., sildenafil + tadalafil), which is never done medically. Labels are often completely fraudulent.",
+            "danger_level": "critical",
+            "truth": "Labeling is meaningless for these products. FDA has found prescription ED drugs in hundreds of 'herbal' supplements. Some contain chemical analogs not approved for human use. Never trust labels on gas station/sex shop enhancement products."
+          },
+          {
+            "myth": "Taking more sexual enhancement pills will work better without risks",
+            "reality": "These products already contain uncontrolled (often excessive) doses of pharmaceuticals. Taking multiple pills can cause: severe hypotension (dangerously low blood pressure), heart attack, stroke, seizures, priapism (requires emergency treatment), death.",
+            "danger_level": "critical",
+            "truth": "If product contains hidden sildenafil/tadalafil, taking multiple doses is overdosing on prescription medication. Can be fatal, especially with alcohol or other drugs. Seek medical help immediately if experiencing chest pain, vision changes, prolonged erection (>4 hours), or severe headache."
+          },
+          {
+            "myth": "'Female arousal' pills and 'libido enhancers' from smoke shops are safe",
+            "reality": "These products also frequently contain undisclosed pharmaceuticals, stimulants, or untested chemicals. Some found to contain: yohimbine (can cause hypertension, anxiety, seizures), sildenafil, synthetic stimulants, or unknown substances. No quality control, unknown ingredients.",
+            "danger_level": "high",
+            "truth": "Avoid all gas station/smoke shop sexual enhancement products regardless of target gender. Many contain dangerous undisclosed stimulants or pharmaceuticals. If experiencing sexual dysfunction, consult healthcare provider for safe, tested options."
+          },
+          {
+            "myth": "Sexual enhancement products are regulated by FDA because they're sold in stores",
+            "reality": "These products fall into regulatory gray area as 'supplements.' Manufacturers can sell them without FDA approval. FDA only acts AFTER harm occurs. Thousands of tainted products on market at any time. No pre-market testing required.",
+            "danger_level": "high",
+            "truth": "Sexual enhancement supplements are NOT FDA-approved and NOT regulated like medications. FDA can only issue warnings after finding problems. Being sold in stores means nothing about safety. Check FDA Tainted Supplements database before using any product."
+          }
+        ]
       }
     ],
     "bottom_line": {
