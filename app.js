@@ -262,15 +262,34 @@ function Vendors(){
         <input placeholder="Filter vendors…" value={q} onChange={e=>setQ(e.target.value)} className="bg-black/30 rounded-lg px-2 py-1 border border-white/10 text-xs flex-1 min-w-[200px]"/>
       </div>
       {list.map(v => (
-        <a key={v.id} href={v.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border border-white/10 p-4 bg-white/5 hover:bg-white/10 transition">
-          <div className="flex items-center justify-between gap-4">
-            <div>
-              <h3 className="font-semibold">{v.name}</h3>
+        <a key={v.id} href={v.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border border-white/10 p-4 bg-white/5 hover:bg-white/10 transition space-y-3">
+          <div className="flex items-start justify-between gap-4">
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <h3 className="font-semibold">{v.name}</h3>
+                {v.category === 'harm_reduction' && <span className="px-2 py-0.5 text-[10px] rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200">FREE</span>}
+                {v.category === 'professional' && <span className="px-2 py-0.5 text-[10px] rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-200">Professional</span>}
+                {v.category === 'professional_and_consumer' && <span className="px-2 py-0.5 text-[10px] rounded-full bg-purple-500/20 border border-purple-400/40 text-purple-200">Public Available</span>}
+              </div>
               <div className="text-xs opacity-70">Regions: {v.regions.join(', ')}</div>
-              <p className="text-sm text-sky-200/80 mt-1">{v.notes}</p>
+              {v.price_range && <div className="text-xs text-amber-200 mt-1">Price: {v.price_range}</div>}
+              <p className="text-sm text-sky-200/80 mt-2">{v.notes}</p>
             </div>
-            <span className="px-2 py-1 text-xs rounded-full bg-sky-500/20 border border-sky-400/40">Visit</span>
+            <span className="px-2 py-1 text-xs rounded-full bg-sky-500/20 border border-sky-400/40 whitespace-nowrap">Visit</span>
           </div>
+          
+          {(v.reagents || v.products) && (
+            <div className="pt-2 border-t border-white/10">
+              <div className="text-xs font-semibold mb-1.5 opacity-80">{v.reagents ? 'Reagents Available:' : 'Products Available:'}</div>
+              <div className="flex flex-wrap gap-1.5">
+                {(v.reagents || v.products).map((item, i) => (
+                  <span key={i} className="px-2 py-0.5 text-xs rounded-md bg-white/10 border border-white/20 text-gray-300">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </a>
       ))}
     </div>

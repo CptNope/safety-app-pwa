@@ -3789,6 +3789,130 @@
       "price_range": "$–$$",
       "shipping_policy": "Spain, EU",
       "notes": "Spanish harm reduction org, bilingual resources."
+    },
+    {
+      "id": "nextdistro",
+      "name": "NEXT Distro",
+      "url": "https://nextdistro.org/",
+      "regions": [
+        "US"
+      ],
+      "products": [
+        "Fentanyl test strips",
+        "Xylazine test strips",
+        "Naloxone (Narcan)"
+      ],
+      "price_range": "FREE",
+      "shipping_policy": "Free discreet shipping (US)",
+      "notes": "FREE harm reduction supplies shipped discreetly. No questions asked. Fentanyl & xylazine strips, naloxone.",
+      "category": "harm_reduction"
+    },
+    {
+      "id": "sirchie",
+      "name": "Sirchie (NARK II)",
+      "url": "https://www.sirchie.com/nark-ii.html",
+      "regions": [
+        "US"
+      ],
+      "products": [
+        "NARK II field test kits",
+        "Colorimetric ampoule tests",
+        "Opiates",
+        "Cocaine",
+        "Methamphetamine",
+        "MDMA",
+        "Marijuana",
+        "Ketamine",
+        "Fentanyl",
+        "Synthetic cannabinoids"
+      ],
+      "price_range": "$2-5 per test",
+      "shipping_policy": "US",
+      "notes": "Law enforcement field test kits. Presumptive colorimetric tests. Restricted to law enforcement in most areas.",
+      "category": "professional"
+    },
+    {
+      "id": "thermofisher_trunarc",
+      "name": "Thermo Fisher (TruNarc)",
+      "url": "https://www.thermofisher.com/trunarc",
+      "regions": [
+        "US",
+        "International"
+      ],
+      "products": [
+        "TruNarc Handheld Analyzer",
+        "Raman spectroscopy device",
+        "Tests 400+ substances",
+        "Through-package testing"
+      ],
+      "price_range": "$20,000-30,000",
+      "shipping_policy": "International",
+      "notes": "Professional Raman spectroscopy analyzer for law enforcement. Tests through packaging without opening. Not available to public.",
+      "category": "professional"
+    },
+    {
+      "id": "detectachem",
+      "name": "DetectaChem",
+      "url": "https://www.detectachem.com/",
+      "regions": [
+        "US",
+        "International"
+      ],
+      "products": [
+        "MobileDetect pouches",
+        "Fentanyl test pouches",
+        "Heroin test pouches",
+        "Cocaine test pouches",
+        "Meth test pouches",
+        "MDMA test pouches",
+        "Smartphone app analysis"
+      ],
+      "price_range": "$15-25 per test",
+      "shipping_policy": "US, International",
+      "notes": "Dry reagent pouches + smartphone app. Safer than liquid reagents. Some consumer products available.",
+      "category": "professional_and_consumer"
+    },
+    {
+      "id": "btnx_fentanyl",
+      "name": "BTNX (Fentanyl Test Strips)",
+      "url": "https://www.btnx.com/",
+      "regions": [
+        "US",
+        "Canada",
+        "International"
+      ],
+      "products": [
+        "Fentanyl test strips",
+        "Xylazine test strips",
+        "Drug screening tests"
+      ],
+      "price_range": "$1-2 per strip (bulk)",
+      "shipping_policy": "Worldwide",
+      "notes": "Manufacturer of fentanyl and xylazine test strips. Same strips used by first responders and available to public through harm reduction orgs and pharmacies.",
+      "category": "professional_and_consumer"
+    },
+    {
+      "id": "drager",
+      "name": "Drägerwerk (DrugTest 5000)",
+      "url": "https://www.draeger.com/",
+      "regions": [
+        "US",
+        "EU",
+        "International"
+      ],
+      "products": [
+        "DrugTest 5000 oral fluid test",
+        "THC",
+        "Opiates",
+        "Cocaine",
+        "Amphetamines",
+        "Methamphetamine",
+        "Benzodiazepines"
+      ],
+      "price_range": "$10-15 per test",
+      "shipping_policy": "International",
+      "notes": "Oral fluid drug screening for law enforcement and workplace safety. Tests for impairment, not substance identification. Professional use only.",
+      "category": "professional"
     }
   ],
   "first_responder": {
