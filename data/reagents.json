@@ -2497,6 +2497,740 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Proscaline",
         "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal040.shtml"
       }
+    },
+    "Alprazolam": {
+      "class": "benzodiazepine",
+      "forms": [
+        "pressed pill",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Xanax. Benzos do NOT react with colorimetric reagents. Many pressed 'Xanax' bars contain fentanyl or RC benzos—use fentanyl strips."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "CRITICAL for pressed pills. Many fake Xanax bars contain fentanyl.",
+          "confidence": "high"
+        }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alprazolam",
+        "erowid": "https://www.erowid.org/pharms/alprazolam/"
+      }
+    },
+    "Clonazepam": {
+      "class": "benzodiazepine",
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Clonazepam",
+        "erowid": "https://www.erowid.org/pharms/clonazepam/"
+      }
+    },
+    "Diazepam": {
+      "class": "benzodiazepine",
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
+        "erowid": "https://www.erowid.org/pharms/diazepam/"
+      }
+    },
+    "Etizolam": {
+      "class": "thienodiazepine (benzo analogue)",
+      "forms": [
+        "pill",
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Research chemical benzo analogue. No reagent reactions. Legal status varies; sold as 'research chemical' or pressed into fake pharma pills."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml"
+      }
+    },
+    "Flualprazolam": {
+      "class": "benzodiazepine (designer)",
+      "forms": [
+        "pressed pill",
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Designer benzo found in fake Xanax bars. Very potent. No reagent reactions. Often mixed with fentanyl in pressed pills."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "Test pressed pills for fentanyl contamination.",
+          "confidence": "high"
+        }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Flualprazolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Flualprazolam.shtml"
+      }
+    },
+    "Phenibut": {
+      "class": "GABA-B agonist (nootropic)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "GABA analogue sold as nootropic supplement. No reagent reactions. Physical dependence can develop with regular use."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Phenibut",
+        "erowid": "https://www.erowid.org/smarts/phenibut/"
+      }
+    },
+    "6-APB": {
+      "class": "benzofuran (entactogen)",
+      "forms": [
+        "powder",
+        "capsule",
+        "pill"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#4B0082",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple→black"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#1F1F1F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark→black"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green"
+        }
+      ],
+      "notes": [
+        "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
+        "erowid": "https://www.erowid.org/chemicals/6apb/"
+      }
+    },
+    "5-APB": {
+      "class": "benzofuran (entactogen)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B008B",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark magenta"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#2F4F4F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark slate"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#556B2F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "olive-green"
+        }
+      ],
+      "notes": [
+        "Similar to 6-APB but slightly different pharmacology. MDMA-like empathogenic effects."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/5-APB",
+        "erowid": "https://www.erowid.org/chemicals/5apb/"
+      }
+    },
+    "5-MAPB": {
+      "class": "benzofuran (entactogen)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#483D8B",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark slate blue"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#2F4F4F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark slate gray"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "forest green"
+        }
+      ],
+      "notes": [
+        "Benzofuran empathogen. More selective serotonin release than 5/6-APB. Often considered most MDMA-like benzofuran."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/5-MAPB",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_5MAPB.shtml"
+      }
+    },
+    "Methylphenidate": {
+      "class": "stimulant (pharmaceutical)",
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FF8C00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark orange"
+        }
+      ],
+      "notes": [
+        "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
+        "erowid": "https://www.erowid.org/pharms/methylphenidate/"
+      }
+    },
+    "Lisdexamfetamine": {
+      "class": "stimulant (prodrug)",
+      "forms": [
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FF4500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange-red"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FF6347",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "tomato red"
+        }
+      ],
+      "notes": [
+        "Vyvanse. Amphetamine prodrug for ADHD. Converts to d-amphetamine in the body. Pharmaceutical capsules should match pill ID."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Lisdexamfetamine",
+        "erowid": "https://www.erowid.org/pharms/lisdexamfetamine/"
+      }
+    },
+    "Ephedrine": {
+      "class": "stimulant (sympathomimetic)",
+      "forms": [
+        "powder",
+        "pill"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→red-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#D2691E",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "chocolate"
+        }
+      ],
+      "notes": [
+        "Bronchodilator, decongestant. Common adulterant/cut in methamphetamine and ecstasy. Weaker stimulant than amphetamines."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ephedrine",
+        "erowid": "https://www.erowid.org/chemicals/ephedrine/"
+      }
+    },
+    "Codeine": {
+      "class": "opioid",
+      "forms": [
+        "pill",
+        "liquid",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "blue-green"
+        }
+      ],
+      "notes": [
+        "Prescription opioid pain reliever. Metabolizes to morphine in body. Pharmaceutical pills should match pill ID databases."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "Test any non-pharmaceutical powder/pill for fentanyl contamination.",
+          "confidence": "high"
+        }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
+        "erowid": "https://www.erowid.org/pharms/codeine/"
+      }
+    },
+    "Hydrocodone": {
+      "class": "opioid",
+      "forms": [
+        "pill"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B008B",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark magenta"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#2E8B57",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "sea green"
+        }
+      ],
+      "notes": [
+        "Vicodin/Norco. Semi-synthetic opioid. Pharmaceutical pills should match pill ID. Pressed pills may contain fentanyl."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "CRITICAL for any pressed/non-pharmacy pills.",
+          "confidence": "high"
+        }
+      },
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hydrocodone",
+        "erowid": "https://www.erowid.org/pharms/hydrocodone/"
+      }
+    },
+    "Tramadol": {
+      "class": "opioid (synthetic)",
+      "forms": [
+        "pill",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFD700",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        }
+      ],
+      "notes": [
+        "Synthetic opioid with SNRI properties. Lowers seizure threshold. Pharmaceutical pills should match databases."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Tramadol",
+        "erowid": "https://www.erowid.org/pharms/tramadol/"
+      }
+    },
+    "2-FDCK": {
+      "class": "dissociative (arylcyclohexylamine)",
+      "forms": [
+        "powder",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFFE0",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "light yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#D2B48C",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "tan"
+        }
+      ],
+      "notes": [
+        "2-Fluorodeschloroketamine. Ketamine analogue research chemical. Similar dissociative effects, longer duration."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2-Fluorodeschloroketamine",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_2FDCK.shtml"
+      }
+    },
+    "DCK": {
+      "class": "dissociative (arylcyclohexylamine)",
+      "forms": [
+        "powder",
+        "crystal"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#F5DEB3",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "wheat/beige"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#D2691E",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "chocolate"
+        }
+      ],
+      "notes": [
+        "Deschloroketamine. Ketamine analogue. More potent and longer lasting than ketamine. Hole dose lower than ketamine."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Deschloroketamine",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Deschloroketamine.shtml"
+      }
+    },
+    "4-AcO-MET": {
+      "class": "tryptamine (indole)",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple"
+        }
+      ],
+      "notes": [
+        "Metacetin. 4-substituted tryptamine. Presumed prodrug to 4-HO-MET. Visual psychedelic similar to psilocybin."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/4-AcO-MET",
+        "erowid": "https://www.erowid.org/chemicals/4_acetoxy_met/"
+      }
+    },
+    "DPT": {
+      "class": "tryptamine (indole)",
+      "forms": [
+        "powder",
+        "freebase"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#8E5AA3",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple"
+        }
+      ],
+      "notes": [
+        "Dipropyltryptamine. Tryptamine psychedelic. Can be smoked, snorted, or taken orally. Shorter duration than DMT when smoked."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dipropyltryptamine",
+        "erowid": "https://www.erowid.org/chemicals/dpt/"
+      }
+    },
+    "Kratom": {
+      "class": "opioid agonist (plant alkaloids)",
+      "forms": [
+        "powder",
+        "leaf",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "saddle brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#A0522D",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "sienna"
+        }
+      ],
+      "notes": [
+        "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
+        "erowid": "https://www.erowid.org/plants/kratom/"
+      }
     }
   },
   "id_guide": {
