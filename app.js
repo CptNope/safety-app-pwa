@@ -1230,7 +1230,7 @@ function CounterfeitPillsWarning(){
           
           {cpw.testing_strategies.critical_first_step && (
             <div className="rounded-xl border-2 border-emerald-500/50 bg-emerald-500/10 p-4 space-y-2">
-              <div className="font-bold text-emerald-100 text-md">{cpw.testing_strategies.critical_first_step.title}</div>
+              <div className="font-bold text-emerald-100 text-base">{cpw.testing_strategies.critical_first_step.title}</div>
               <div className="text-sm"><span className="font-semibold">Why:</span> {cpw.testing_strategies.critical_first_step.why}</div>
               <div className="text-sm"><span className="font-semibold">How:</span><ul className="list-disc ms-5 mt-1">{cpw.testing_strategies.critical_first_step.how.map((h,i)=><li key={i}>{h}</li>)}</ul></div>
               <div className="text-sm"><span className="font-semibold">Where to get:</span> {cpw.testing_strategies.critical_first_step.where_to_get}</div>
@@ -1526,7 +1526,7 @@ function FirstResponder(){
           <h3 className="font-semibold text-lg text-amber-200">⚠️ {fr.scene_safety.name}</h3>
           
           <div className="space-y-2">
-            <div className="font-semibold text-md text-red-200">Primary Hazards</div>
+            <div className="font-semibold text-base text-red-200">Primary Hazards</div>
             {fr.scene_safety.primary_hazards.map((h,i)=>(
               <div key={i} className="rounded-xl border border-red-500/30 bg-red-500/5 p-3 space-y-1 text-sm">
                 <div className="font-bold text-red-200">{h.hazard}</div>
