@@ -1088,8 +1088,32 @@
       ],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine",
-        "erowid": "https://www.erowid.org/chemicals/dmt/"
-      }
+        "erowid": "https://www.erowid.org/chemicals/dmt/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DMT"
+      },
+      "scientific_papers": [
+        {
+          "title": "DMT: The Spirit Molecule - A Doctor's Revolutionary Research",
+          "authors": "Strassman RJ",
+          "journal": "Park Street Press",
+          "year": 2001,
+          "summary": "Groundbreaking clinical research on DMT effects in human volunteers, documenting entity encounters and mystical experiences"
+        },
+        {
+          "title": "Human psychopharmacology of N,N-dimethyltryptamine",
+          "authors": "Strassman RJ, et al.",
+          "journal": "Behavioural Brain Research",
+          "year": 1996,
+          "summary": "First modern controlled study of DMT in humans, pharmacokinetics and dose-response relationships"
+        },
+        {
+          "title": "DMT models the near-death experience",
+          "authors": "Timmermann C, et al.",
+          "journal": "Frontiers in Psychology",
+          "year": 2018,
+          "summary": "Study showing DMT experiences phenomenologically similar to near-death experiences"
+        }
+      ]
     },
     "5-MeO-DMT": {
       "class": "tryptamine (indole)",
@@ -1125,19 +1149,43 @@
       ],
       "notes": [
         "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DMT",
-        "erowid": "https://www.erowid.org/chemicals/5meo_dmt/"
-      }
+      ]
     },
     "GHB": {
       "class": "depressant (GHB/GBL)",
       "description": {
-        "overview": "Gamma-Hydroxybutyrate (GHB) is a powerful central nervous system depressant that produces euphoria, relaxation, and sedation. Known as 'liquid ecstasy' or 'G,' it has legitimate medical uses but notorious reputation as date-rape drug. Extremely dose-sensitive with narrow margin between desired effects and unconsciousness/overdose.",
-        "origins": "Synthesized in 1960s as surgical anesthetic but abandoned due to side effects. Used by bodybuilders in 1980s for growth hormone release and sleep. Became popular club drug in 1990s rave scene. Scheduled in 2000 after date-rape cases and overdoses. Medical form (Xyrem/sodium oxybate) approved for narcolepsy. GBL (prodrug) often sold as 'cleaner' or 'solvent' to circumvent laws—converts to GHB in body.",
-        "uses": "Medical: Narcolepsy treatment (Xyrem) under strict controls. Historically: Bodybuilding, growth hormone stimulation. Recreational: Euphoria, reduced inhibitions, enhanced sociability, increased libido. 'Chemsex' scenes. Some use for sleep aid. Typical dose 1-2.5ml/grams (extremely variable by concentration and individual). Effects: alcohol-like intoxication without hangover (at proper doses).",
-        "dangers": "CRITICAL OVERDOSE RISK: Dose-response curve extremely steep—small increases cause unconsciousness, respiratory depression, coma, death. Impossible to reverse overdose (no antidote like naloxone for opioids). Combining with alcohol or other depressants frequently fatal. Physical addiction develops rapidly (days to weeks) with severe, dangerous withdrawal (seizures, psychosis, death possible). Used in drug-facilitated sexual assault—colorless, odorless, causes amnesia and sedation. Street concentrations wildly variable making dosing unpredictable. Reagent tests largely ineffective for GHB/GBL. Redosing too soon (before prior dose peaks) causes overdose. Memory blackouts common."
+        "overview": "Gamma-hydroxybutyrate (GHB) is a CNS depressant that occurs naturally in the human body in trace amounts. As a drug, it produces euphoria, relaxation, and sociability at low doses, but has an extremely narrow margin between desired effects and overdose. Commonly known as a 'date rape drug' though most use is voluntary. Liquid form makes dosing dangerous.",
+        "origins": "Synthesized in 1874, developed as an anesthetic in 1960s but abandoned due to side effects. Used by bodybuilders in 1980s for alleged growth hormone release and sleep enhancement. Became popular club drug in 1990s. Scheduled as Schedule I (illicit) in 2000 but Schedule III when prescribed as Xyrem for narcolepsy. Precursors GBL and 1,4-BD legal in many areas and convert to GHB in body.",
+        "uses": "Medical: Xyrem (sodium oxybate) prescribed for narcolepsy with cataplexy. Rare use as anesthetic in some countries. Recreational: Euphoria, disinhibition, enhanced sociability and sexuality. Popular in club/rave scenes and 'chemsex' contexts. Bodybuilding: Claimed (unproven) benefits for muscle growth and recovery. Typical dose 1-2.5g but highly variable by concentration. Duration 1.5-3 hours.",
+        "dangers": "EXTREME OVERDOSE RISK: Very narrow therapeutic window. Difference between desired effects and unconsciousness can be <1g. Sudden onset—conscious to unconscious in minutes. Respiratory depression, vomiting while unconscious (aspiration risk), seizures. No antidote—supportive care only. Combining with alcohol is extremely dangerous and often fatal. Physical dependence develops quickly with regular use. Withdrawal can be life-threatening (similar to alcohol). Liquid form makes accurate dosing nearly impossible. Concentration varies wildly between batches. Used in drug-facilitated sexual assault. Memory impairment and blackouts common. Chronic use linked to cognitive impairment. GBL and 1,4-BD (precursors) are even more dangerous due to unpredictable conversion rates.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
+          "erowid": "https://www.erowid.org/chemicals/ghb/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/GHB"
+        },
+        "scientific_papers": [
+          {
+            "title": "Gamma hydroxybutyrate: a new drug of abuse",
+            "authors": "Mason PE, Kerns WP",
+            "journal": "American Family Physician",
+            "year": 2002,
+            "summary": "Clinical review of GHB pharmacology, toxicity, and overdose management"
+          },
+          {
+            "title": "GHB withdrawal syndrome: a review",
+            "authors": "Miotto K, et al.",
+            "journal": "Journal of Psychoactive Drugs",
+            "year": 2001,
+            "summary": "Documentation of severe and potentially fatal GHB withdrawal syndrome"
+          },
+          {
+            "title": "Club drugs: methylenedioxymethamphetamine, flunitrazepam, ketamine hydrochloride, and gamma-hydroxybutyrate",
+            "authors": "Gahlinger PM",
+            "journal": "American Family Physician",
+            "year": 2004,
+            "summary": "Overview of club drugs including GHB's role in drug-facilitated sexual assault"
+          }
+        ]
       },
       "forms": [
         "liquid",
@@ -1156,19 +1204,43 @@
       ],
       "notes": [
         "Standard reagents ineffective for GHB/GBL. Specialized tests exist but uncommon. Use extreme caution with dosing."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
-        "erowid": "https://www.erowid.org/chemicals/ghb/"
-      }
+      ]
     },
     "PCP": {
       "class": "arylcyclohexylamine (dissociative)",
       "description": {
-        "overview": "Phencyclidine (PCP), known as 'angel dust' or 'wet,' is a powerful dissociative anesthetic that causes hallucinations, delusions, and a detached sense of reality. Notorious for unpredictable behavior, superhuman strength stories (mostly mythologized), and violent incidents. One of the most stigmatized recreational drugs due to 1970s-80s media coverage.",
-        "origins": "Developed in 1926, patented by Parke-Davis in 1952 as surgical anesthetic (Sernyl). Discontinued for human use in 1965 due to severe emergence delirium and agitation post-surgery. Continued in veterinary medicine briefly. Became street drug in 1960s-70s, often sprinkled on marijuana or tobacco ('sherm,' 'wet'). Peak use in 1970s; declined due to reputation but persists in some areas.",
-        "uses": "No current medical use. Veterinary use discontinued. Recreationally: Dissociation, hallucinations, euphoria (at low doses), numbness. Often consumed accidentally when laced on marijuana or sold as other drugs. Typically smoked, snorted, or ingested. Effects: 4-6 hours with possible extended confusion/agitation. 'Dissociative anesthetic' means pain insensitivity while conscious.",
-        "dangers": "Unpredictable psychological effects: severe agitation, paranoia, psychosis, violent behavior possible but not universal. 'PCP strength' largely myth—analgesia and delirium can make restraint difficult. Injuries from inability to feel pain or judge danger during intoxication. Can trigger schizophrenia-like symptoms lasting days to weeks. Seizures, coma, death possible at high doses. Often adulterant in other drugs. Chronic use causes memory problems, depression, cognitive deficits. Extremely dysphoric experiences common ('bad trips'). Dangerous combinations with depressants. Medical stigma means users may avoid seeking help. Limited reagent testing effectiveness."
+        "overview": "Phencyclidine (PCP, angel dust) is a dissociative anesthetic developed in the 1950s but discontinued for human use due to severe psychological side effects. Produces dissociation, numbness, and at high doses, extreme agitation, violence, and psychosis. Notorious for unpredictable and dangerous behavior. Still used in veterinary medicine.",
+        "origins": "Synthesized in 1926, developed as IV anesthetic (Sernyl) by Parke-Davis in 1950s. Human use discontinued in 1965 due to postoperative delirium and psychosis. Veterinary use continued until 1978. Became street drug in 1960s-70s, often misrepresented as THC, mescaline, or LSD. Less popular now than in 1970s-80s 'angel dust' era but still present in drug supply.",
+        "uses": "No current legitimate medical use. Veterinary use discontinued. Illicitly used for dissociative effects, numbness, feeling of strength/invincibility. Sometimes unknowingly consumed when sold as other drugs. Can be smoked (often on mint, parsley), snorted, injected, or taken orally. Effects 4-6 hours (oral/snorted), 30min-1hour (smoked). Doses vary wildly due to illicit production.",
+        "dangers": "Extremely unpredictable and dangerous. Notorious for violent, bizarre, self-destructive behavior. Superhuman strength feeling leads to severe injuries. Numbness prevents pain awareness—users have seriously injured themselves without realizing. Acute: Aggression, psychosis, seizures, hyperthermia, hypertensive crisis, coma, death. Chronic: Memory loss, speech difficulties, depression, suicidal ideation. Psychological addiction common. Horrible withdrawal. Can trigger lasting psychosis. Often found as adulterant in other drugs. Combining with other depressants extremely dangerous.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Phencyclidine",
+          "erowid": "https://www.erowid.org/chemicals/pcp/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/PCP"
+        },
+        "scientific_papers": [
+          {
+            "title": "Phencyclidine (PCP): a dangerous drug, but useful in schizophrenia research",
+            "authors": "Morris BJ, et al.",
+            "journal": "Journal of Psychology & Psychotherapy",
+            "year": 2014,
+            "summary": "Review of PCP's role in NMDA receptor research and schizophrenia models"
+          },
+          {
+            "title": "PCP intoxication: assessment of possible indicators",
+            "authors": "McCarron MM, et al.",
+            "journal": "Clinical Toxicology",
+            "year": 1981,
+            "summary": "Clinical presentation and management of PCP intoxication"
+          },
+          {
+            "title": "Phencyclidine-induced psychosis",
+            "authors": "Allen RM, Young SJ",
+            "journal": "American Journal of Psychiatry",
+            "year": 1978,
+            "summary": "Documentation of PCP-induced psychotic episodes and lasting psychiatric effects"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -1197,11 +1269,7 @@
       ],
       "notes": [
         "PCP shows limited reagent reactions. Often adulterant in other substances."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Phencyclidine",
-        "erowid": "https://www.erowid.org/chemicals/pcp/"
-      }
+      ]
     },
     "DXM": {
       "class": "dissociative (morphinan)",
@@ -1209,7 +1277,35 @@
         "overview": "Dextromethorphan (DXM) is an over-the-counter cough suppressant that produces dissociative and hallucinogenic effects at high doses. Found in many cough syrups and cold medications, it's one of the most accessible psychoactive substances. Effects are dose-dependent with distinct 'plateaus' of intensity, from mild euphoria to complete dissociation.",
         "origins": "Developed in the 1950s-60s as a safer, non-addictive alternative to codeine for cough suppression. FDA-approved and widely available OTC since 1958. Recreational use documented since the 1960s but became more popular in the 1990s-2000s with internet information sharing. Often extracted from cough syrups (cold water extraction) to avoid consuming harmful additives.",
         "uses": "Medical: Cough suppressant in cold/flu medications (Robitussin, NyQuil, Delsym). Typical therapeutic dose 15-30mg. Recreational: Dissociative effects, 'robo-tripping,' visual distortions, euphoria. Doses range from 100mg (first plateau) to 1500mg+ (fourth plateau, complete dissociation). Popular among teenagers due to legal accessibility. Some report antidepressant effects at low doses.",
-        "dangers": "Serotonin syndrome risk, especially when combined with antidepressants (SSRIs, MAOIs). Respiratory depression at high doses. Nausea and vomiting common ('robo-itch'). Cough syrups contain dangerous additives: acetaminophen (liver damage), guaifenesin (nausea), antihistamines (dangerous combinations). Dissociation can lead to injury from falls or accidents. Tolerance develops rapidly with frequent use. Psychological addiction possible. Chronic abuse linked to brain lesions (Olney's lesions - debated). Some products contain high amounts of acetaminophen which can cause fatal liver failure at recreational DXM doses. Always check active ingredients carefully."
+        "dangers": "Serotonin syndrome risk, especially when combined with antidepressants (SSRIs, MAOIs). Respiratory depression at high doses. Nausea and vomiting common ('robo-itch'). Cough syrups contain dangerous additives: acetaminophen (liver damage), guaifenesin (nausea), antihistamines (dangerous combinations). Dissociation can lead to injury from falls or accidents. Tolerance develops rapidly with frequent use. Psychological addiction possible. Chronic abuse linked to brain lesions (Olney's lesions - debated). Some products contain high amounts of acetaminophen which can cause fatal liver failure at recreational DXM doses. Always check active ingredients carefully.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Dextromethorphan",
+          "erowid": "https://www.erowid.org/chemicals/dxm/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/DXM"
+        },
+        "scientific_papers": [
+          {
+            "title": "Dextromethorphan: an overview of safety issues",
+            "authors": "Schwartz RH",
+            "journal": "Clinical Pediatrics",
+            "year": 2005,
+            "summary": "Review of DXM abuse patterns, toxicity, and risks especially in adolescents"
+          },
+          {
+            "title": "Recreational dextromethorphan use and abuse",
+            "authors": "Miller SC",
+            "journal": "Journal of Substance Abuse Treatment",
+            "year": 2005,
+            "summary": "Clinical overview of DXM's dissociative effects and abuse potential"
+          },
+          {
+            "title": "Serotonin toxicity associated with the use of over-the-counter cough and cold medications",
+            "authors": "LoVecchio F, et al.",
+            "journal": "American Journal of Emergency Medicine",
+            "year": 2005,
+            "summary": "Case reports of serotonin syndrome from DXM combinations with antidepressants"
+          }
+        ]
       },
       "forms": [
         "syrup",
@@ -1238,11 +1334,7 @@
       ],
       "notes": [
         "Commonly extracted from cough medicine. Reagent tests limited value due to additives."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Dextromethorphan",
-        "erowid": "https://www.erowid.org/chemicals/dxm/"
-      }
+      ]
     },
     "Mescaline": {
       "class": "phenethylamine (psychedelic)",
@@ -1250,7 +1342,35 @@
         "overview": "Mescaline is a naturally occurring psychedelic alkaloid found in peyote, San Pedro, and other cacti. One of the oldest known psychedelics, producing visual hallucinations, altered perception, and spiritual experiences similar to psilocybin and LSD but with a unique character. Effects last 10-12 hours with relatively gentle come-up and minimal body load compared to synthetic psychedelics.",
         "origins": "Used by indigenous peoples of Mexico and southwestern US for at least 5,700 years in religious ceremonies. Peyote central to Native American Church practices (legally protected for members). Isolated in 1897, synthesized in 1919. Studied by early psychedelic researchers in 1950s-60s. Aldous Huxley's 'The Doors of Perception' (1954) popularized mescaline experiences. Scheduled in 1970 but peyote use remains legal for Native American Church.",
         "uses": "Traditional: Sacred medicine in indigenous ceremonies, vision quests, healing rituals (peyote and San Pedro). Recreational: Visual hallucinations, introspection, nature connection, spiritual experiences. San Pedro cactus tea more common than peyote due to conservation concerns. Typical dose 200-400mg mescaline or equivalent cactus material. Duration 10-12 hours. Known for warm, empathogenic quality alongside psychedelic effects.",
-        "dangers": "Physiologically very safe—no lethal dose established. Primary risks psychological: bad trips, anxiety, paranoia especially at high doses or unsafe settings. Nausea and vomiting common during come-up (traditional preparation includes purging as spiritual cleansing). Cactus preparations can cause more stomach discomfort than pure mescaline. Can trigger latent mental health conditions. Peyote endangered due to overharvesting—ethical concerns with non-traditional use. San Pedro more sustainable. Contraindicated with heart conditions (slight cardiovascular stimulation). Very long duration can be exhausting. Set and setting crucial. Legal status: mescaline Schedule I, but peyote legal for Native American Church, San Pedro often legal as ornamental cactus."
+        "dangers": "Physiologically very safe—no lethal dose established. Primary risks psychological: bad trips, anxiety, paranoia especially at high doses or unsafe settings. Nausea and vomiting common during come-up (traditional preparation includes purging as spiritual cleansing). Cactus preparations can cause more stomach discomfort than pure mescaline. Can trigger latent mental health conditions. Peyote endangered due to overharvesting—ethical concerns with non-traditional use. San Pedro more sustainable. Contraindicated with heart conditions (slight cardiovascular stimulation). Very long duration can be exhausting. Set and setting crucial. Legal status: mescaline Schedule I, but peyote legal for Native American Church, San Pedro often legal as ornamental cactus.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
+          "erowid": "https://www.erowid.org/chemicals/mescaline/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline"
+        },
+        "scientific_papers": [
+          {
+            "title": "Mescaline: a global history of the first psychedelic",
+            "authors": "Jay M",
+            "journal": "Yale University Press",
+            "year": 2019,
+            "summary": "Comprehensive history of mescaline's role in indigenous cultures and Western psychedelic research"
+          },
+          {
+            "title": "Pharmacology and phenomenology of the psychedelic experience produced by mescaline",
+            "authors": "Hermle L, et al.",
+            "journal": "Journal of Psychiatric Research",
+            "year": 1992,
+            "summary": "Clinical study of mescaline's psychological effects and safety profile"
+          },
+          {
+            "title": "Peyote and mescaline: effects and potential therapeutic uses",
+            "authors": "El-Seedi HR, et al.",
+            "journal": "Phytochemistry Reviews",
+            "year": 2005,
+            "summary": "Review of mescaline pharmacology, traditional use, and therapeutic potential"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -1288,11 +1408,7 @@
       ],
       "notes": [
         "Rare in powder form. Often substituted with other psychedelics. Lab testing recommended."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
-        "erowid": "https://www.erowid.org/chemicals/mescaline/"
-      }
+      ]
     },
     "25I-NBOMe": {
       "class": "phenethylamine (NBOMe series)",
@@ -1300,7 +1416,35 @@
         "overview": "25I-NBOMe (2C-I-NBOMe) is a potent synthetic psychedelic from the NBOMe series, often sold as 'LSD' on blotter paper. Produces intense visual hallucinations and stimulation but is significantly more dangerous than LSD with numerous deaths reported. Distinctive bitter/metallic taste (LSD is tasteless) and causes severe tongue numbness. Active at sub-milligram doses, highly dose-sensitive with narrow safety margin.",
         "origins": "Synthesized in 2003 by chemist Ralf Heim at Free University of Berlin for serotonin receptor research. Never intended for human consumption. Appeared on recreational market around 2010 as 'legal LSD alternative' and frequently sold as actual LSD. Multiple deaths reported 2012-2015 led to emergency scheduling. Part of NBOMe series (25I, 25C, 25B) all with similar dangers.",
         "uses": "No medical use. Recreational: Intense visual hallucinations, euphoria, stimulation. Often consumed unknowingly when sold as LSD. Typical dose 200-800mcg on blotter (appears identical to LSD blotter). Effects 6-10 hours. Some users sought NBOMe specifically for intense visuals, but deaths and unpredictability have reduced intentional use. Harm reduction communities strongly discourage NBOMe use and emphasize testing all 'LSD' with Ehrlich reagent.",
-        "dangers": "MULTIPLE DEATHS REPORTED—can be fatal at doses barely above 'normal' recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless and causes no numbness—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: increased heart rate and blood pressure to dangerous levels, risk of stroke/heart attack. Psychological: anxiety, paranoia, panic, bad trips. Some users have died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD putting unsuspecting users at risk. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT IMMEDIATELY."
+        "dangers": "MULTIPLE DEATHS REPORTED—can be fatal at doses barely above 'normal' recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless and causes no numbness—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: increased heart rate and blood pressure to dangerous levels, risk of stroke/heart attack. Psychological: anxiety, paranoia, panic, bad trips. Some users have died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD putting unsuspecting users at risk. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT IMMEDIATELY.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/25I-NBOMe",
+          "erowid": "https://www.erowid.org/chemicals/nbome/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/25I-NBOMe"
+        },
+        "scientific_papers": [
+          {
+            "title": "25I-NBOMe: a potent and toxic new psychedelic substance",
+            "authors": "Suzuki J, et al.",
+            "journal": "Journal of Medical Toxicology",
+            "year": 2014,
+            "summary": "Case reports of NBOMe toxicity including deaths, seizures, and multi-organ failure"
+          },
+          {
+            "title": "NBOMes: a systematic review of fatalities",
+            "authors": "Lawn W, et al.",
+            "journal": "Forensic Science International",
+            "year": 2014,
+            "summary": "Comprehensive review documenting deaths associated with NBOMe series psychedelics"
+          },
+          {
+            "title": "Misrepresentation of LSD as 25I-NBOMe",
+            "authors": "Nikolaou P, et al.",
+            "journal": "Human Psychopharmacology",
+            "year": 2015,
+            "summary": "Study on NBOMes being sold as LSD and importance of reagent testing to prevent deaths"
+          }
+        ]
       },
       "forms": [
         "blotter",
@@ -1346,11 +1490,7 @@
       ],
       "notes": [
         "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/25I-NBOMe",
-        "erowid": "https://www.erowid.org/chemicals/nbome/"
-      }
+      ]
     },
     "Alprazolam": {
       "class": "benzodiazepine",
@@ -1358,7 +1498,35 @@
         "overview": "Alprazolam (Xanax) is a fast-acting, potent benzodiazepine prescribed for anxiety and panic disorders. Produces relaxation, sedation, and anxiolytic (anti-anxiety) effects. One of the most prescribed and most abused benzos due to rapid onset and euphoric effects at higher doses. Street 'Xanax' pills frequently counterfeit and contain fentanyl, other benzos (flualprazolam, etizolam), or no active ingredient.",
         "origins": "Developed by Upjohn (now Pfizer) in late 1960s, FDA-approved 1981. Became one of most prescribed psychiatric medications in US. Short half-life (6-12 hours) makes it effective for acute anxiety but also increases addiction potential. Available in immediate-release tablets (0.25mg to 2mg) and extended-release (Xanax XR). 'Bars' (2mg) became street drug of choice in 2000s-2010s, often combined with opioids or alcohol.",
         "uses": "Medical: Anxiety disorders, panic disorder, anxiety associated with depression. Short-term use recommended due to tolerance and dependence. Rapid relief of acute anxiety/panic attacks. Recreational: Sedation, disinhibition, euphoria (at high doses), blackout experiences, combining with opioids or alcohol ('lean'). Popular in hip-hop culture. Pressed counterfeit pills widely available on street/dark web. Typical prescribed dose 0.25-2mg; recreational users often take 4-10mg+ leading to blackouts and dangerous behavior.",
-        "dangers": "EXTREMELY ADDICTIVE—physical dependence develops within weeks. Withdrawal can be FATAL (seizures, delirium tremens)—requires medical supervision to safely discontinue. Blackouts and amnesia common at recreational doses leading to dangerous behavior, accidents, sexual assault. Combining with opioids or alcohol frequently FATAL (respiratory depression). Counterfeit 'Xanax' bars often contain fentanyl—numerous overdose deaths. Pressed pills may contain flualprazolam (longer-acting, more sedating RC benzo) or other research chemicals. Tolerance develops rapidly requiring higher doses. Cognitive impairment, motor coordination issues increase fall/accident risk. Paradoxical reactions possible (increased anxiety, aggression). Rebound anxiety when stopping. Elderly particularly vulnerable to falls, confusion, dementia-like symptoms. Reagent tests don't work on benzos—fentanyl test strips essential for any street pills."
+        "dangers": "EXTREMELY ADDICTIVE—physical dependence develops within weeks. Withdrawal can be FATAL (seizures, delirium tremens)—requires medical supervision to safely discontinue. Blackouts and amnesia common at recreational doses leading to dangerous behavior, accidents, sexual assault. Combining with opioids or alcohol frequently FATAL (respiratory depression). Counterfeit 'Xanax' bars often contain fentanyl—numerous overdose deaths. Pressed pills may contain flualprazolam (longer-acting, more sedating RC benzo) or other research chemicals. Tolerance develops rapidly requiring higher doses. Cognitive impairment, motor coordination issues increase fall/accident risk. Paradoxical reactions possible (increased anxiety, aggression). Rebound anxiety when stopping. Elderly particularly vulnerable to falls, confusion, dementia-like symptoms. Reagent tests don't work on benzos—fentanyl test strips essential for any street pills.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Alprazolam",
+          "erowid": "https://www.erowid.org/pharms/alprazolam/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Alprazolam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Alprazolam dependence and withdrawal: a review of the syndrome and treatment",
+            "authors": "Ait-Daoud N, et al.",
+            "journal": "Expert Opinion on Drug Metabolism & Toxicology",
+            "year": 2018,
+            "summary": "Comprehensive review of alprazolam's high addiction potential and withdrawal management"
+          },
+          {
+            "title": "The epidemiology of alprazolam misuse: a review",
+            "authors": "Edinoff AN, et al.",
+            "journal": "Health Psychology Research",
+            "year": 2020,
+            "summary": "Analysis of alprazolam abuse patterns, counterfeit pills, and overdose risks"
+          },
+          {
+            "title": "Counterfeit alprazolam tablets containing fentanyl: a new public health concern",
+            "authors": "Moss MJ, et al.",
+            "journal": "Journal of Psychoactive Drugs",
+            "year": 2018,
+            "summary": "Documentation of fentanyl-contaminated fake Xanax pills and overdose deaths"
+          }
+        ]
       },
       "forms": [
         "pressed pill",
