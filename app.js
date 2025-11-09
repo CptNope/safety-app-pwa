@@ -271,16 +271,17 @@ function QuickTest(){
         
         if(sections.length > 0 || relevantGuides.length > 0) {
           return (
-            <div className="pt-3 border-t border-white/10 space-y-3">
-              <div className="font-semibold text-sky-200 flex items-center gap-2">
-                🔍 Identification Guide
-                <span className="text-xs font-normal opacity-70">({suspect} specific information)</span>
-              </div>
-              
-              {/* Counterfeit Pills Warning */}
-              {sections.filter(s => s.type === 'counterfeit').map((section, idx) => (
-                <div key={`cf-${idx}`} className="rounded-xl p-3 bg-red-500/10 border border-red-400/30">
-                  <div className="font-semibold text-red-200 mb-2">🚨 {section.data.name}</div>
+            <div className="pt-3 border-t border-white/10">
+              <details className="space-y-3">
+                <summary className="font-semibold text-sky-200 flex items-center gap-2 cursor-pointer hover:text-sky-100 transition">
+                  🔍 Identification Guide
+                  <span className="text-xs font-normal opacity-70">({suspect} specific information)</span>
+                </summary>
+                <div className="space-y-3 mt-3">
+                  {/* Counterfeit Pills Warning */}
+                  {sections.filter(s => s.type === 'counterfeit').map((section, idx) => (
+                    <div key={`cf-${idx}`} className="rounded-xl p-3 bg-red-500/10 border border-red-400/30">
+                      <div className="font-semibold text-red-200 mb-2">🚨 {section.data.name}</div>
                   {section.data.reality_check && (
                     <div className="mb-2">
                       <div className="text-xs font-semibold text-red-300 mb-1">⚠️ Critical Warning:</div>
@@ -358,6 +359,8 @@ function QuickTest(){
                   )}
                 </div>
               ))}
+                </div>
+              </details>
             </div>
           );
         }
