@@ -322,6 +322,116 @@ function QuickTest(){
         return null;
       })()}
       
+      {data.methods && data.methods.cards && (()=>{
+        const relevantMethods = [];
+        
+        // Always show these essential methods
+        const essentialIds = ['reagent_testing_basics', 'sample_collection', 'interpreting_results'];
+        essentialIds.forEach(id => {
+          const method = data.methods.cards.find(m => m.id === id);
+          if(method) relevantMethods.push(method);
+        });
+        
+        // Add fentanyl strips for opioids, stimulants, or if other_methods mentions it
+        const needsFentanyl = s.class && (
+          s.class.toLowerCase().includes('opioid') ||
+          s.class.toLowerCase().includes('stimulant') ||
+          s.class.toLowerCase().includes('phenethylamine') ||
+          (s.forms && s.forms.some(f => f.toLowerCase().includes('pill') || f.toLowerCase().includes('tablet'))) ||
+          (s.other_methods && s.other_methods.fentanyl_strips)
+        );
+        if(needsFentanyl) {
+          const fentanylMethod = data.methods.cards.find(m => m.id === 'fentanyl_strips');
+          if(fentanylMethod) relevantMethods.push(fentanylMethod);
+        }
+        
+        // Add xylazine strips for opioids
+        if(s.class && s.class.toLowerCase().includes('opioid')) {
+          const xylazineMethod = data.methods.cards.find(m => m.id === 'xylazine_strips');
+          if(xylazineMethod) relevantMethods.push(xylazineMethod);
+        }
+        
+        // Add UV light method for blotter substances
+        if(s.forms && s.forms.some(f => f.toLowerCase().includes('blotter'))) {
+          const uvMethod = data.methods.cards.find(m => m.id === 'uv_light');
+          if(uvMethod) relevantMethods.push(uvMethod);
+        }
+        
+        if(relevantMethods.length > 0) {
+          return (
+            <div className="pt-3 border-t border-white/10 space-y-2">
+              <div className="font-semibold text-blue-200 flex items-center gap-2">
+                🔬 Testing Methods & Best Practices
+                <span className="text-xs font-normal opacity-70">({relevantMethods.length} method{relevantMethods.length > 1 ? 's' : ''})</span>
+              </div>
+              <div className="space-y-2">
+                {relevantMethods.map((method, idx) => {
+                  const typeColors = {
+                    'essential': 'bg-blue-500/10 border-blue-400/30',
+                    'critical': 'bg-red-500/10 border-red-400/30',
+                    'screening': 'bg-purple-500/10 border-purple-400/30',
+                    'auxiliary': 'bg-slate-500/10 border-slate-400/30',
+                    'do-not': 'bg-red-500/10 border-red-400/30'
+                  };
+                  const typeColor = typeColors[method.type] || 'bg-blue-500/10 border-blue-400/30';
+                  const headerColor = method.type === 'critical' ? 'text-red-200' : method.type === 'do-not' ? 'text-red-300' : 'text-blue-200';
+                  
+                  return (
+                    <details key={idx} className={`rounded-xl p-3 border ${typeColor}`}>
+                      <summary className={`font-semibold ${headerColor} cursor-pointer hover:opacity-80 transition`}>
+                        {method.name}
+                        {method.type === 'critical' && <span className="ml-2 text-xs bg-red-500/30 px-2 py-0.5 rounded">CRITICAL</span>}
+                        {method.type === 'essential' && <span className="ml-2 text-xs bg-blue-500/30 px-2 py-0.5 rounded">ESSENTIAL</span>}
+                      </summary>
+                      <div className="mt-2 space-y-2 text-sm">
+                        {method.do && (
+                          <div>
+                            <div className="text-xs font-semibold text-emerald-300 mb-1">✓ Do:</div>
+                            <ul className="list-disc ms-5 space-y-0.5 text-emerald-100">
+                              {method.do.map((item, i) => <li key={i}>{item}</li>)}
+                            </ul>
+                          </div>
+                        )}
+                        {method.dont && (
+                          <div>
+                            <div className="text-xs font-semibold text-red-300 mb-1">✗ Don't:</div>
+                            <ul className="list-disc ms-5 space-y-0.5 text-red-100">
+                              {method.dont.map((item, i) => <li key={i}>{item}</li>)}
+                            </ul>
+                          </div>
+                        )}
+                        {method.notes && (
+                          <div>
+                            <div className="text-xs font-semibold text-amber-300 mb-1">ℹ️ Notes:</div>
+                            <ul className="list-disc ms-5 space-y-0.5 text-amber-100">
+                              {method.notes.map((item, i) => <li key={i}>{item}</li>)}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    </details>
+                  );
+                })}
+              </div>
+              {s.other_methods && (
+                <div className="rounded-xl p-3 bg-indigo-500/10 border border-indigo-400/30 mt-2">
+                  <div className="font-semibold text-indigo-200 mb-2">Additional Methods for {suspect}</div>
+                  <div className="space-y-1 text-sm">
+                    {Object.entries(s.other_methods).map(([methodKey, methodData]) => (
+                      <div key={methodKey} className="text-indigo-100">
+                        <span className="font-semibold capitalize">{methodKey.replace(/_/g, ' ')}:</span> {methodData.summary}
+                        <span className="text-xs opacity-70 ml-1">[Confidence: {methodData.confidence}]</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          );
+        }
+        return null;
+      })()}
+      
       {s.notes && s.notes.length > 0 && (
         <div className="pt-3 border-t border-white/10 rounded-xl p-3 bg-amber-500/10 border border-amber-400/30">
           <div className="font-semibold text-amber-200 mb-2 flex items-center gap-2">
