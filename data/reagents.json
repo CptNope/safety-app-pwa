@@ -3134,36 +3134,303 @@
     },
     "resources": {
       "name": "Resources & Where to Get Help",
-      "resources": [
+      "categories": [
         {
-          "name": "NEXT Distro",
-          "service": "Free fentanyl test strips, xylazine strips, naloxone",
-          "url": "https://nextdistro.org/",
-          "note": "Ships discreetly, no questions asked"
+          "category": "Emergency & Crisis Support",
+          "resources": [
+            {
+              "name": "Never Use Alone Hotline",
+              "service": "Overdose prevention hotline—call while using, they stay on line",
+              "phone": "1-800-484-3731 (US)",
+              "url": "https://neverusealone.com/",
+              "note": "Volunteer-run, free, confidential. They monitor your call and dispatch help if needed."
+            },
+            {
+              "name": "National Suicide Prevention Lifeline",
+              "service": "24/7 crisis support and suicide prevention",
+              "phone": "988 (US)",
+              "url": "https://988lifeline.org/",
+              "note": "Free, confidential support for people in distress. Text or chat available."
+            },
+            {
+              "name": "Crisis Text Line",
+              "service": "Free 24/7 crisis support via text",
+              "phone": "Text HOME to 741741 (US)",
+              "url": "https://www.crisistextline.org/",
+              "note": "Text-based crisis support with trained counselors"
+            },
+            {
+              "name": "SAMHSA National Helpline",
+              "service": "Treatment referral and information",
+              "phone": "1-800-662-4357",
+              "url": "https://www.samhsa.gov/find-help/national-helpline",
+              "note": "Free, confidential, 24/7, English and Spanish"
+            },
+            {
+              "name": "Fireside Project",
+              "service": "Psychedelic peer support hotline",
+              "phone": "1-623-473-7433 (62-FIRESIDE)",
+              "url": "https://firesideproject.org/",
+              "note": "Free support for difficult psychedelic experiences. Text and app support available."
+            },
+            {
+              "name": "TripSit IRC Chat",
+              "service": "Real-time chat support for drug experiences",
+              "url": "https://chat.tripsit.me/",
+              "note": "Volunteer peer support, harm reduction info, trip sitting"
+            }
+          ]
         },
         {
-          "name": "DanceSafe",
-          "service": "Fentanyl strips, reagent kits, education",
-          "url": "https://dancesafe.org/",
-          "note": "Harm reduction organization"
+          "category": "Free Harm Reduction Supplies",
+          "resources": [
+            {
+              "name": "NEXT Distro",
+              "service": "Free fentanyl test strips, xylazine strips, naloxone",
+              "url": "https://nextdistro.org/",
+              "note": "Ships discreetly nationwide, no questions asked. Completely free."
+            },
+            {
+              "name": "DanceSafe",
+              "service": "Fentanyl strips, reagent kits, education, chapter network",
+              "url": "https://dancesafe.org/",
+              "note": "Pioneering harm reduction organization. Volunteer chapters at festivals/events."
+            },
+            {
+              "name": "PEHR (Point of Entry Harm Reduction)",
+              "service": "Fentanyl test strips and naloxone",
+              "url": "https://pehrproject.org/",
+              "note": "Free shipping, NY-based"
+            },
+            {
+              "name": "FentCheck",
+              "service": "Fentanyl test strips research and distribution",
+              "url": "https://fentcheck.org/",
+              "note": "Vancouver-based, international shipping"
+            }
+          ]
         },
         {
-          "name": "Never Use Alone Hotline",
-          "service": "Overdose prevention hotline—call while using, they stay on line",
-          "phone": "1-800-484-3731 (US)",
-          "note": "Volunteer-run, free, confidential"
+          "category": "Lab Testing Services (Mail-In)",
+          "resources": [
+            {
+              "name": "DrugsData / EcstasyData",
+              "service": "Mail-in drug testing with GC/MS analysis and public results database",
+              "url": "https://drugsdata.org/",
+              "note": "$150/sample. Gold standard lab testing. Results published anonymously. Run by Erowid."
+            },
+            {
+              "name": "Energy Control International",
+              "service": "Mail-in drug testing from Spain (Europe-focused)",
+              "url": "https://energycontrol-international.org/drug-testing-service/",
+              "note": "€50-70/sample. GC/MS, FTIR, NMR available. Ships to many countries."
+            },
+            {
+              "name": "WEDINOS (Welsh Emerging Drugs & Identification of Novel Substances)",
+              "service": "Free drug testing for UK/Wales residents",
+              "url": "https://www.wedinos.org/",
+              "note": "Free, anonymous. Public health service. UK only."
+            },
+            {
+              "name": "Get Your Drugs Tested",
+              "service": "European drug checking service locator",
+              "url": "https://www.getyourdrugstested.com/",
+              "note": "Find local drug checking services across Europe"
+            }
+          ]
         },
         {
-          "name": "SAMHSA National Helpline",
-          "service": "Treatment referral and information",
-          "phone": "1-800-662-4357",
-          "note": "Free, confidential, 24/7"
+          "category": "Educational Resources",
+          "resources": [
+            {
+              "name": "Erowid",
+              "service": "Comprehensive drug information, experience reports, safety info",
+              "url": "https://www.erowid.org/",
+              "note": "Largest drug information database. Experience vaults, dosage guides, chemistry."
+            },
+            {
+              "name": "PsychonautWiki",
+              "service": "Detailed pharmacology, dosing, and safety information",
+              "url": "https://psychonautwiki.org/",
+              "note": "Scientific approach to drug information. Harm reduction focused."
+            },
+            {
+              "name": "TripSit Factsheets",
+              "service": "Quick drug info sheets and combo safety charts",
+              "url": "https://tripsit.me/",
+              "note": "Easy-to-read factsheets, drug combination chart, mobile-friendly"
+            },
+            {
+              "name": "Bluelight",
+              "service": "Drug discussion forum with expert contributors",
+              "url": "https://www.bluelight.org/",
+              "note": "Established 2000. Active community, harm reduction subforum."
+            },
+            {
+              "name": "r/ReagentTesting",
+              "service": "Reddit community for reagent testing questions",
+              "url": "https://www.reddit.com/r/ReagentTesting/",
+              "note": "Help identifying reagent results, sourcing kits, troubleshooting"
+            },
+            {
+              "name": "r/HarmReduction",
+              "service": "General harm reduction discussion and support",
+              "url": "https://www.reddit.com/r/harmreduction/",
+              "note": "Non-judgmental community for safer use practices"
+            }
+          ]
         },
         {
-          "name": "DEA Public Safety Alerts",
-          "service": "Current information on fake pills and fentanyl trends",
-          "url": "https://www.dea.gov/onepill",
-          "note": "One Pill Can Kill campaign"
+          "category": "Treatment & Recovery Resources",
+          "resources": [
+            {
+              "name": "SMART Recovery",
+              "service": "Science-based addiction recovery support groups",
+              "url": "https://www.smartrecovery.org/",
+              "note": "Free meetings (online and in-person). Alternative to 12-step programs."
+            },
+            {
+              "name": "Narcotics Anonymous",
+              "service": "12-step recovery program for substance use",
+              "phone": "1-818-773-9999",
+              "url": "https://www.na.org/",
+              "note": "Free peer support meetings worldwide. Find local meetings online."
+            },
+            {
+              "name": "Alcoholics Anonymous",
+              "service": "12-step recovery program for alcohol use",
+              "url": "https://www.aa.org/",
+              "note": "Many people use AA for other substances too. Free worldwide meetings."
+            },
+            {
+              "name": "Dual Recovery Anonymous",
+              "service": "12-step for co-occurring mental health and substance use",
+              "url": "https://draonline.org/",
+              "note": "For people with both mental health issues and substance use"
+            },
+            {
+              "name": "Substance Abuse Treatment Locator",
+              "service": "Find local treatment facilities (SAMHSA)",
+              "url": "https://findtreatment.gov/",
+              "note": "US treatment facility locator. Filter by payment options, services offered."
+            },
+            {
+              "name": "Psychedelic Integration Therapist Directory",
+              "service": "Find therapists for psychedelic integration",
+              "url": "https://integration.maps.org/",
+              "note": "MAPS-vetted therapists for processing psychedelic experiences"
+            }
+          ]
+        },
+        {
+          "category": "Research & Advocacy Organizations",
+          "resources": [
+            {
+              "name": "MAPS (Multidisciplinary Association for Psychedelic Studies)",
+              "service": "Psychedelic research, education, and advocacy",
+              "url": "https://maps.org/",
+              "note": "Leading psychedelic research organization. MDMA-assisted therapy trials."
+            },
+            {
+              "name": "Drug Policy Alliance",
+              "service": "Drug policy reform and harm reduction advocacy",
+              "url": "https://drugpolicy.org/",
+              "note": "Leading organization for ending drug war, promoting harm reduction policy"
+            },
+            {
+              "name": "Harm Reduction Coalition",
+              "service": "National harm reduction advocacy and resources",
+              "url": "https://harmreduction.org/",
+              "note": "Training, resources, policy advocacy. Syringe access, overdose prevention."
+            },
+            {
+              "name": "Erowid Center",
+              "service": "Nonprofit documenting psychoactive plants and chemicals",
+              "url": "https://www.erowid.org/",
+              "note": "Maintains the Erowid.org database. Accepts donations."
+            },
+            {
+              "name": "Students for Sensible Drug Policy (SSDP)",
+              "service": "Youth-led drug policy reform",
+              "url": "https://ssdp.org/",
+              "note": "Campus chapters, peer education, policy advocacy"
+            }
+          ]
+        },
+        {
+          "category": "Legal Aid & Know Your Rights",
+          "resources": [
+            {
+              "name": "National Lawyers Guild",
+              "service": "Legal support and know-your-rights info",
+              "url": "https://www.nlg.org/know-your-rights/",
+              "note": "Legal support for activists and arrestees. State-specific guides."
+            },
+            {
+              "name": "ACLU Criminal Law Reform",
+              "service": "Legal resources and advocacy",
+              "url": "https://www.aclu.org/issues/criminal-law-reform",
+              "note": "Information on drug war, mass incarceration, police accountability"
+            },
+            {
+              "name": "Drug War Facts",
+              "service": "Evidence-based information on drug policy",
+              "url": "https://drugwarfacts.org/",
+              "note": "Reliable statistics and facts about prohibition, harm reduction"
+            }
+          ]
+        },
+        {
+          "category": "International Harm Reduction",
+          "resources": [
+            {
+              "name": "The Loop (UK)",
+              "service": "Drug safety testing at festivals and clubs",
+              "url": "https://wearetheloop.org/",
+              "note": "Multi-agency safety testing. Active at UK festivals."
+            },
+            {
+              "name": "Kosmicare (Portugal)",
+              "service": "Psychedelic peer support at festivals",
+              "url": "https://kosmicare.org/",
+              "note": "Integration support, crisis intervention at Boom Festival and others"
+            },
+            {
+              "name": "Jellinek (Netherlands)",
+              "service": "Drug information and testing in Amsterdam",
+              "url": "https://www.jellinek.nl/",
+              "note": "Free, anonymous drug testing. English-speaking services."
+            },
+            {
+              "name": "Energy Control (Spain)",
+              "service": "Harm reduction, drug checking, education",
+              "url": "https://energycontrol.org/",
+              "note": "Spanish harm reduction organization. Pioneering drug checking services."
+            },
+            {
+              "name": "Crew (Scotland)",
+              "service": "Harm reduction information and services",
+              "url": "https://www.crew.scot/",
+              "note": "Scottish harm reduction organization. Info, support, training."
+            }
+          ]
+        },
+        {
+          "category": "Vendor & Supply Information",
+          "resources": [
+            {
+              "name": "DEA Public Safety Alerts",
+              "service": "Current information on fake pills and fentanyl trends",
+              "url": "https://www.dea.gov/onepill",
+              "note": "One Pill Can Kill campaign. Track counterfeit pill warnings."
+            },
+            {
+              "name": "Pill Reports",
+              "service": "User-submitted ecstasy pill testing reports",
+              "url": "https://www.pillreports.net/",
+              "note": "User-generated content. Not lab-verified. Use with caution."
+            }
+          ]
         }
       ]
     },
