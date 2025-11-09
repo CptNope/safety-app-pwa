@@ -1355,7 +1355,7 @@ function MedicalTreatment(){
           <h3 className="font-semibold text-lg">🏥 Hospital Treatments by Drug Class</h3>
           {Object.entries(mt.hospital_treatments).map(([key, treatment])=>(
             <div key={key} className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
-              <h4 className="font-semibold text-md text-sky-200">{treatment.name}</h4>
+              <h4 className="font-semibold text-base text-sky-200">{treatment.name}</h4>
               {treatment.signs && (<div className="text-sm"><div className="font-semibold text-red-200">⚠️ Signs of Overdose:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.signs.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
               {treatment.prehospital && (<div className="text-sm"><div className="font-semibold text-amber-200">Before Hospital:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.prehospital.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
               {treatment.hospital && (<div className="text-sm"><div className="font-semibold text-emerald-200">Hospital Treatment:</div><ul className="list-disc ms-5 mt-1 space-y-0.5">{treatment.hospital.map((s,i)=><li key={i}>{s}</li>)}</ul></div>)}
