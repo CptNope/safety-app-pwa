@@ -106,6 +106,13 @@ function QuickTest(){
   const {data} = useJSON('data/reagents.json');
   const [suspect,setSuspect] = useState('MDMA');
   const [search,setSearch] = useState('');
+  const [showAllMyths,setShowAllMyths] = useState(false);
+  
+  // Reset showAllMyths when substance changes
+  useEffect(() => {
+    setShowAllMyths(false);
+  }, [suspect]);
+  
   if(!data) return null;
   
   // Filter substances based on search
@@ -563,18 +570,36 @@ function QuickTest(){
         const relevantMyths = [];
         const substanceLower = suspect.toLowerCase();
         
-        // Keywords to match for different substances
+        // Expanded keywords to match for different substances
         const mythKeywords = {
-          'fentanyl': ['fentanyl'],
-          'heroin': ['heroin', 'opioid'],
-          'cocaine': ['cocaine'],
-          'mdma': ['mdma', 'molly', 'ecstasy'],
-          'lsd': ['lsd', 'acid'],
-          'methamphetamine': ['meth'],
-          'naloxone': ['naloxone', 'narcan'],
-          'cannabis': ['cannabis', 'marijuana', 'thc'],
-          'kratom': ['kratom'],
-          'mushroom': ['mushroom']
+          'fentanyl': ['fentanyl', 'carfentanil', 'opioid', 'overdose', 'naloxone', 'narcan'],
+          'heroin': ['heroin', 'opioid', 'overdose', 'naloxone', 'narcan', 'speedball'],
+          'cocaine': ['cocaine', 'crack', 'speedball', 'stimulant', 'levamisole'],
+          'mdma': ['mdma', 'molly', 'ecstasy', 'sass', 'empathogen'],
+          'mda': ['mda', 'sass', 'mdma', 'molly', 'ecstasy'],
+          'lsd': ['lsd', 'acid', 'psychedelic', 'trip', 'flashback', 'blotter', 'nbome'],
+          'psilocybin': ['mushroom', 'psilocybin', 'psychedelic', 'trip', 'shroom'],
+          'dmt': ['dmt', 'psychedelic', 'trip', 'tryptamine'],
+          '5-meo-dmt': ['dmt', 'psychedelic', 'trip', 'tryptamine'],
+          'mescaline': ['mescaline', 'psychedelic', 'trip'],
+          'methamphetamine': ['meth', 'methamphetamine', 'stimulant', 'amphetamine'],
+          'amphetamine': ['amphetamine', 'adderall', 'stimulant', 'meth'],
+          'ketamine': ['ketamine', 'dissociative', 'k-hole'],
+          'pcp': ['pcp', 'dissociative', 'angel dust'],
+          'dxm': ['dxm', 'dextromethorphan', 'dissociative', 'cough'],
+          'ghb': ['ghb', 'date rape', 'depressant', 'overdose'],
+          'alprazolam': ['xanax', 'alprazolam', 'benzo', 'benzodiazepine', 'withdrawal'],
+          'clonazepam': ['klonopin', 'clonazepam', 'benzo', 'benzodiazepine', 'withdrawal'],
+          'diazepam': ['valium', 'diazepam', 'benzo', 'benzodiazepine', 'withdrawal'],
+          'etizolam': ['etizolam', 'benzo', 'research chemical', 'withdrawal'],
+          'flualprazolam': ['flualprazolam', 'xanax', 'benzo', 'fake', 'counterfeit'],
+          '2c-b': ['2c-b', '2c', 'psychedelic', 'trip'],
+          '25i-nbome': ['nbome', '25i', 'blotter', 'fake lsd', 'psychedelic'],
+          'kratom': ['kratom', 'opioid', 'withdrawal', 'natural'],
+          'phenibut': ['phenibut', 'withdrawal', 'nootropic', 'gaba'],
+          'cannabis': ['cannabis', 'marijuana', 'thc', 'weed', 'edible'],
+          'codeine': ['codeine', 'lean', 'purple drank', 'opioid', 'cough syrup'],
+          '6-apb': ['6-apb', 'benzo fury', 'empathogen', 'research chemical']
         };
         
         // Get keywords for this substance
@@ -586,14 +611,22 @@ function QuickTest(){
           }
         }
         
-        // Also match by class
+        // Also match by class (add to existing keywords)
         if(s.class) {
           const classLower = s.class.toLowerCase();
-          if(classLower.includes('opioid')) keywords.push('opioid', 'overdose', 'naloxone');
-          if(classLower.includes('psychedelic') || classLower.includes('tryptamine')) keywords.push('psychedelic', 'trip');
-          if(classLower.includes('stimulant')) keywords.push('stimulant');
-          if(classLower.includes('benzo')) keywords.push('benzo', 'xanax');
+          if(classLower.includes('opioid')) keywords.push('opioid', 'overdose', 'naloxone', 'narcan', 'heroin', 'fentanyl');
+          if(classLower.includes('psychedelic') || classLower.includes('tryptamine')) keywords.push('psychedelic', 'trip', 'flashback', 'bad trip');
+          if(classLower.includes('stimulant') || classLower.includes('phenethylamine')) keywords.push('stimulant', 'meth', 'cocaine', 'speedball');
+          if(classLower.includes('benzo')) keywords.push('benzo', 'benzodiazepine', 'xanax', 'withdrawal', 'fake', 'counterfeit');
+          if(classLower.includes('dissociative')) keywords.push('dissociative', 'ketamine', 'k-hole');
+          if(classLower.includes('empathogen')) keywords.push('mdma', 'molly', 'ecstasy', 'empathogen');
         }
+        
+        // Add universal testing/safety keywords for all substances
+        keywords.push('test', 'overdose', 'purity', 'adulterant', 'cut');
+        
+        // Remove duplicates
+        keywords = [...new Set(keywords)];
         
         // Search through all myth categories
         if(keywords.length > 0 && data.myths_and_misinformation.categories) {
@@ -609,24 +642,27 @@ function QuickTest(){
           });
         }
         
-        // Limit to top 3 most critical myths
-        const topMyths = relevantMyths
+        // Sort by danger level
+        const sortedMyths = relevantMyths
           .sort((a, b) => {
             const priority = {critical: 0, high: 1, medium: 2, low: 3};
             return priority[a.danger_level] - priority[b.danger_level];
-          })
-          .slice(0, 3);
+          });
         
-        if(topMyths.length > 0) {
+        // Show top 3 by default, all if showAllMyths is true
+        const displayMyths = showAllMyths ? sortedMyths : sortedMyths.slice(0, 3);
+        const hasMore = sortedMyths.length > 3;
+        
+        if(sortedMyths.length > 0) {
           return (
             <div className="pt-3 border-t border-white/10">
               <details className="space-y-3">
                 <summary className="font-semibold text-amber-200 flex items-center gap-2 cursor-pointer hover:text-amber-100 transition">
                   ⚠️ Common Myths & Misinformation
-                  <span className="text-xs font-normal opacity-70">({topMyths.length} debunked)</span>
+                  <span className="text-xs font-normal opacity-70">({sortedMyths.length} debunked)</span>
                 </summary>
                 <div className="space-y-2 mt-3">
-                  {topMyths.map((myth, idx) => {
+                  {displayMyths.map((myth, idx) => {
                     const colorClasses = {
                       critical: 'bg-red-500/10 border-red-400/30',
                       high: 'bg-orange-500/10 border-orange-400/30',
@@ -667,6 +703,14 @@ function QuickTest(){
                       </div>
                     );
                   })}
+                  {hasMore && (
+                    <button 
+                      onClick={() => setShowAllMyths(!showAllMyths)}
+                      className="w-full mt-3 px-4 py-2 rounded-lg bg-amber-500/10 border border-amber-400/30 text-amber-200 text-sm font-medium hover:bg-amber-500/20 transition flex items-center justify-center gap-2"
+                    >
+                      {showAllMyths ? '▲ Show Less' : `▼ Show ${sortedMyths.length - 3} More Myth${sortedMyths.length - 3 > 1 ? 's' : ''}`}
+                    </button>
+                  )}
                 </div>
               </details>
             </div>
