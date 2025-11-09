@@ -782,16 +782,44 @@ function Swatches(){
         if(reactions.length === 0) return null;
         
         return (
-          <div key={reagentId} className="rounded-2xl border border-white/10 p-4 bg-white/5">
-            <h3 className="font-semibold text-lg mb-1">{reagentInfo.name}</h3>
-            <div className="text-xs opacity-70 mb-2">{reagentInfo.notes}</div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-              {reactions.map((r, i) => (
-                <div key={i} className="flex items-center justify-between bg-black/20 rounded-xl p-2">
-                  <span className="text-sm font-medium">{r.substance}</span>
-                  <Chip label={r.alt} color={r.color}/>
+          <div key={reagentId} className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
+            <div>
+              <h3 className="font-semibold text-lg mb-1">{reagentInfo.name}</h3>
+              <div className="text-xs opacity-70">{reagentInfo.notes}</div>
+            </div>
+            
+            {(reagentInfo.origins || reagentInfo.usage) && (
+              <details className="rounded-xl p-3 bg-white/5 border border-white/10">
+                <summary className="font-semibold text-blue-200 cursor-pointer hover:text-blue-100 transition text-sm">
+                  📚 Learn About This Reagent
+                </summary>
+                <div className="mt-3 space-y-3 text-sm">
+                  {reagentInfo.origins && (
+                    <div>
+                      <div className="font-semibold text-amber-200 mb-1">🧪 Origins & History</div>
+                      <div className="text-gray-300 leading-relaxed">{reagentInfo.origins}</div>
+                    </div>
+                  )}
+                  {reagentInfo.usage && (
+                    <div>
+                      <div className="font-semibold text-emerald-200 mb-1">💡 How To Use</div>
+                      <div className="text-gray-300 leading-relaxed">{reagentInfo.usage}</div>
+                    </div>
+                  )}
                 </div>
-              ))}
+              </details>
+            )}
+            
+            <div>
+              <div className="font-semibold text-sm text-slate-200 mb-2">Color Reactions ({reactions.length} substances)</div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+                {reactions.map((r, i) => (
+                  <div key={i} className="flex items-center justify-between bg-black/20 rounded-xl p-2">
+                    <span className="text-sm font-medium">{r.substance}</span>
+                    <Chip label={r.alt} color={r.color}/>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         );
