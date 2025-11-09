@@ -188,6 +188,56 @@ function QuickTest(){
               <div className="text-sm text-red-100 leading-relaxed">{s.description.dangers}</div>
             </div>
           )}
+          
+          {s.description.links && (
+            <div className="rounded-lg p-3 bg-blue-500/10 border border-blue-400/30">
+              <div className="text-sm font-semibold text-blue-200 mb-2">🔗 Resources & Information</div>
+              <div className="flex flex-wrap gap-2">
+                {s.description.links.wikipedia && (
+                  <a href={s.description.links.wikipedia} target="_blank" rel="noopener noreferrer" 
+                     className="text-xs px-3 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-100 hover:bg-blue-500/30 transition-colors">
+                    Wikipedia
+                  </a>
+                )}
+                {s.description.links.erowid && (
+                  <a href={s.description.links.erowid} target="_blank" rel="noopener noreferrer"
+                     className="text-xs px-3 py-1.5 rounded-full bg-green-500/20 border border-green-400/40 text-green-100 hover:bg-green-500/30 transition-colors">
+                    Erowid
+                  </a>
+                )}
+                {s.description.links.psychonautwiki && (
+                  <a href={s.description.links.psychonautwiki} target="_blank" rel="noopener noreferrer"
+                     className="text-xs px-3 py-1.5 rounded-full bg-purple-500/20 border border-purple-400/40 text-purple-100 hover:bg-purple-500/30 transition-colors">
+                    PsychonautWiki
+                  </a>
+                )}
+              </div>
+            </div>
+          )}
+          
+          {s.description.scientific_papers && s.description.scientific_papers.length > 0 && (
+            <div className="rounded-lg p-3 bg-amber-500/10 border border-amber-400/30">
+              <div className="text-sm font-semibold text-amber-200 mb-2">📚 Scientific Research</div>
+              <div className="space-y-2">
+                {s.description.scientific_papers.map((paper, idx) => (
+                  <div key={idx} className="text-xs bg-black/20 rounded p-2 border border-white/5">
+                    <div className="font-semibold text-amber-100 mb-0.5">{paper.title}</div>
+                    <div className="text-slate-300 mb-0.5">{paper.authors} ({paper.year})</div>
+                    <div className="text-slate-400 italic mb-1">{paper.journal}</div>
+                    {paper.doi && (
+                      <div className="text-blue-300 mb-1">
+                        <a href={`https://doi.org/${paper.doi}`} target="_blank" rel="noopener noreferrer" 
+                           className="hover:underline">
+                          DOI: {paper.doi}
+                        </a>
+                      </div>
+                    )}
+                    <div className="text-slate-200">{paper.summary}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
       
