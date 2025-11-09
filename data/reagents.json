@@ -28,6 +28,12 @@
   "substances": {
     "MDMA": {
       "class": "phenethylamine",
+      "forms": [
+        "powder",
+        "crystal",
+        "capsule",
+        "tablet"
+      ],
       "testing": [
         {
           "reagent": "marquis",
