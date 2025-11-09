@@ -409,6 +409,46 @@ function QuickTest(){
           if(uvMethod) relevantMethods.push(uvMethod);
         }
         
+        // Add cocaine-specific tests
+        const substanceLower = suspect.toLowerCase();
+        if(substanceLower.includes('cocaine') || substanceLower.includes('crack')) {
+          const bleachTest = data.methods.cards.find(m => m.id === 'bleach_test');
+          if(bleachTest) relevantMethods.push(bleachTest);
+          const morrisTest = data.methods.cards.find(m => m.id === 'morris_reagent');
+          if(morrisTest) relevantMethods.push(morrisTest);
+        }
+        
+        // Add pill ID databases for pills/tablets
+        if(s.forms && s.forms.some(f => f.toLowerCase().includes('pill') || f.toLowerCase().includes('tablet'))) {
+          const pillDb = data.methods.cards.find(m => m.id === 'pill_id_databases');
+          if(pillDb) relevantMethods.push(pillDb);
+        }
+        
+        // Add physical observation for crystals/powders/rocks
+        if(s.forms && s.forms.some(f => {
+          const form = f.toLowerCase();
+          return form.includes('crystal') || form.includes('powder') || form.includes('rock') || form.includes('chunk');
+        })) {
+          const physObs = data.methods.cards.find(m => m.id === 'physical_observation');
+          if(physObs) relevantMethods.push(physObs);
+        }
+        
+        // Always add these important methods at the end
+        const alwaysShowIds = [
+          'reagent_storage',
+          'cross_contamination',
+          'marquis_limitations',
+          'documentation',
+          'lab_testing',
+          'taste'
+        ];
+        alwaysShowIds.forEach(id => {
+          const method = data.methods.cards.find(m => m.id === id);
+          if(method && !relevantMethods.find(rm => rm.id === id)) {
+            relevantMethods.push(method);
+          }
+        });
+        
         if(relevantMethods.length > 0) {
           return (
             <div className="pt-3 border-t border-white/10 space-y-2">
@@ -423,17 +463,33 @@ function QuickTest(){
                     'critical': 'bg-red-500/10 border-red-400/30',
                     'screening': 'bg-purple-500/10 border-purple-400/30',
                     'auxiliary': 'bg-slate-500/10 border-slate-400/30',
-                    'do-not': 'bg-red-500/10 border-red-400/30'
+                    'do-not': 'bg-red-500/10 border-red-400/30',
+                    'safety': 'bg-amber-500/10 border-amber-400/30',
+                    'clandestine': 'bg-indigo-500/10 border-indigo-400/30',
+                    'advanced_reagent': 'bg-cyan-500/10 border-cyan-400/30',
+                    'confirmation': 'bg-emerald-500/10 border-emerald-400/30'
                   };
                   const typeColor = typeColors[method.type] || 'bg-blue-500/10 border-blue-400/30';
-                  const headerColor = method.type === 'critical' ? 'text-red-200' : method.type === 'do-not' ? 'text-red-300' : 'text-blue-200';
+                  const headerColors = {
+                    'critical': 'text-red-200',
+                    'do-not': 'text-red-300',
+                    'safety': 'text-amber-200',
+                    'clandestine': 'text-indigo-200',
+                    'advanced_reagent': 'text-cyan-200',
+                    'confirmation': 'text-emerald-200'
+                  };
+                  const headerColor = headerColors[method.type] || 'text-blue-200';
                   
                   return (
                     <details key={idx} className={`rounded-xl p-3 border ${typeColor}`}>
                       <summary className={`font-semibold ${headerColor} cursor-pointer hover:opacity-80 transition`}>
                         {method.name}
-                        {method.type === 'critical' && <span className="ml-2 text-xs bg-red-500/30 px-2 py-0.5 rounded">CRITICAL</span>}
-                        {method.type === 'essential' && <span className="ml-2 text-xs bg-blue-500/30 px-2 py-0.5 rounded">ESSENTIAL</span>}
+                        {method.type === 'critical' && <span className="ml-2 text-xs bg-red-500/30 px-2 py-0.5 rounded uppercase">CRITICAL</span>}
+                        {method.type === 'essential' && <span className="ml-2 text-xs bg-blue-500/30 px-2 py-0.5 rounded uppercase">ESSENTIAL</span>}
+                        {method.type === 'do-not' && <span className="ml-2 text-xs bg-red-500/30 px-2 py-0.5 rounded uppercase">⚠️ NEVER DO</span>}
+                        {method.type === 'confirmation' && <span className="ml-2 text-xs bg-emerald-500/30 px-2 py-0.5 rounded uppercase">Gold Standard</span>}
+                        {method.type === 'safety' && <span className="ml-2 text-xs bg-amber-500/30 px-2 py-0.5 rounded uppercase">Safety</span>}
+                        {method.type === 'clandestine' && <span className="ml-2 text-xs bg-indigo-500/30 px-2 py-0.5 rounded uppercase">Advanced</span>}
                       </summary>
                       <div className="mt-2 space-y-2 text-sm">
                         {method.do && (
@@ -457,6 +513,14 @@ function QuickTest(){
                             <div className="text-xs font-semibold text-amber-300 mb-1">ℹ️ Notes:</div>
                             <ul className="list-disc ms-5 space-y-0.5 text-amber-100">
                               {method.notes.map((item, i) => <li key={i}>{item}</li>)}
+                            </ul>
+                          </div>
+                        )}
+                        {method.services && (
+                          <div>
+                            <div className="text-xs font-semibold text-sky-300 mb-1">🌐 Available Services:</div>
+                            <ul className="list-disc ms-5 space-y-0.5 text-sky-100">
+                              {method.services.map((item, i) => <li key={i}>{item}</li>)}
                             </ul>
                           </div>
                         )}
