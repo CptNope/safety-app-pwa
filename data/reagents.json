@@ -28,6 +28,12 @@
   "substances": {
     "MDMA": {
       "class": "phenethylamine",
+      "description": {
+        "overview": "3,4-Methylenedioxymethamphetamine (MDMA), commonly known as ecstasy or molly, is an empathogen-entactogen that produces feelings of emotional openness, empathy, and euphoria. It's one of the most popular recreational drugs worldwide, particularly in dance and festival settings.",
+        "origins": "First synthesized by Merck pharmaceutical company in 1912, MDMA remained obscure until the 1970s when chemist Alexander Shulgin resynthesized it and introduced it to psychotherapists. It gained popularity as a therapeutic tool before becoming a Schedule I controlled substance in 1985.",
+        "uses": "Originally explored for marriage counseling and PTSD treatment in psychotherapy. Currently used recreationally for its prosocial effects, emotional warmth, and sensory enhancement. FDA-approved clinical trials are ongoing for PTSD-assisted therapy with promising results.",
+        "dangers": "Neurotoxicity concerns with frequent use, especially at high doses or elevated body temperatures. Risk of hyperthermia, hyponatremia (water intoxication), serotonin syndrome. Often adulterated with methamphetamine, MDA, cathinones, or other stimulants. Increasing fentanyl contamination in pressed pills. Can cause short-term memory issues, depression, and anxiety in the days following use ('comedown')."
+      },
       "forms": [
         "powder",
         "crystal",
@@ -82,6 +88,12 @@
     },
     "LSD": {
       "class": "ergoline (indole)",
+      "description": {
+        "overview": "Lysergic acid diethylamide (LSD) is a powerful hallucinogenic drug that profoundly alters perception, mood, and thought. Known for producing vivid visual hallucinations, synesthesia, and mystical experiences, LSD is one of the most potent psychoactive substances known, active at microgram doses.",
+        "origins": "Synthesized in 1938 by Swiss chemist Albert Hofmann at Sandoz Laboratories while researching ergot alkaloids. Its psychedelic properties were discovered accidentally in 1943 when Hofmann absorbed a small amount through his skin. Widely used in psychiatric research in the 1950s-60s before being scheduled in 1968.",
+        "uses": "Historically used in psychotherapy for treating alcoholism, anxiety, and depression. Currently being researched for treatment of PTSD, anxiety, depression, and cluster headaches. Recreationally used for introspection, creativity enhancement, and transcendent experiences. Microdosing (sub-perceptual doses) popular for cognitive enhancement.",
+        "dangers": "Psychological risks include 'bad trips,' anxiety, paranoia, and exacerbation of underlying mental health conditions. Rare but serious risk of persistent perceptual changes (HPPD). No physical addiction or toxicity, but psychologically intense. Primary danger is NBOMe compounds sold as LSD—these can be fatal and taste bitter/metallic. Real LSD is tasteless and causes tongue numbness only from ink/paper."
+      },
       "forms": [
         "blotter",
         "gel tab",
@@ -151,6 +163,12 @@
     },
     "Cocaine": {
       "class": "tropane alkaloid",
+      "description": {
+        "overview": "Cocaine is a powerful stimulant drug extracted from coca plant leaves, producing intense euphoria, increased energy, and heightened alertness. One of the most addictive substances known, cocaine has profound effects on the brain's reward system and cardiovascular system.",
+        "origins": "Indigenous peoples of South America have chewed coca leaves for thousands of years. Pure cocaine was first isolated in 1859 and became widely used in medicine and consumer products (including Coca-Cola) before its addictive properties were understood. Criminalized in most countries by the 1920s.",
+        "uses": "Historically used as a local anesthetic in eye, nose, and throat surgeries (still used rarely for this purpose). Recreationally used for euphoria, confidence, and energy. No accepted medical use for systemic effects due to high addiction potential and cardiovascular risks.",
+        "dangers": "Highly addictive with severe cardiovascular risks including heart attack, stroke, and arrhythmias. Nasal damage from snorting, lung damage from smoking crack. Often cut with levamisole (causes immune system damage), phenacetin (carcinogenic), and increasingly fentanyl (lethal). Overdose can cause seizures, hyperthermia, and cardiac arrest. Psychological dependence develops rapidly."
+      },
       "forms": [
         "powder",
         "rock (crack)"
@@ -194,6 +212,12 @@
     },
     "Methamphetamine": {
       "class": "phenethylamine",
+      "description": {
+        "overview": "Methamphetamine (meth, crystal, ice) is an extremely potent central nervous system stimulant with high abuse potential. It produces intense euphoria, increased energy, and focus, but is notorious for its destructive physical and psychological effects with chronic use.",
+        "origins": "First synthesized in Japan in 1919 from ephedrine. Used by military forces in WWII to enhance soldier alertness. Became popular in 1960s biker culture and later in the 1990s with improved synthesis methods. The 'Breaking Bad' era saw Mexican cartel production dominate the market.",
+        "uses": "Prescription methamphetamine (Desoxyn) exists for ADHD and severe obesity but is rarely prescribed. Recreationally used for euphoria, energy, focus, and appetite suppression. Popular in club scenes, among long-haul drivers, and for sexual enhancement (chemsex).",
+        "dangers": "Severe neurotoxicity with repeated use, causing permanent damage to dopamine and serotonin systems. 'Meth mouth' (severe dental decay), skin sores from compulsive picking, extreme weight loss, psychosis, paranoia, and violent behavior. Cardiovascular strain can cause heart attack and stroke. Often cut with MSM, ISO, or N-Iso (look identical). Sleep deprivation from binges causes hallucinations and psychotic breaks. Highly addictive with devastating social consequences."
+      },
       "forms": [
         "crystal",
         "powder"

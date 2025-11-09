@@ -142,6 +142,48 @@ function QuickTest(){
           <span className="text-xs opacity-60">({filteredSubstances.length} of {allSubstances.length} substances)</span>
         </div>
       </div>
+      
+      {s.description && (
+        <div className="rounded-xl p-4 bg-gradient-to-br from-slate-500/10 to-slate-600/10 border border-slate-400/30 space-y-3">
+          <div className="flex items-center gap-2">
+            <div className="text-lg font-bold text-slate-100">{suspect}</div>
+            {s.class && <div className="text-xs px-2 py-1 rounded bg-slate-500/30 border border-slate-400/40 text-slate-200">{s.class}</div>}
+          </div>
+          
+          {s.description.overview && (
+            <div>
+              <div className="text-sm font-semibold text-slate-200 mb-1">📋 Overview</div>
+              <div className="text-sm text-slate-100 leading-relaxed">{s.description.overview}</div>
+            </div>
+          )}
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {s.description.origins && (
+              <div>
+                <div className="text-sm font-semibold text-blue-200 mb-1">🧪 Origins & History</div>
+                <div className="text-sm text-blue-100 leading-relaxed">{s.description.origins}</div>
+              </div>
+            )}
+            
+            {s.description.uses && (
+              <div>
+                <div className="text-sm font-semibold text-emerald-200 mb-1">💊 Uses</div>
+                <div className="text-sm text-emerald-100 leading-relaxed">{s.description.uses}</div>
+              </div>
+            )}
+          </div>
+          
+          {s.description.dangers && (
+            <div className="rounded-lg p-3 bg-red-500/10 border border-red-400/30">
+              <div className="text-sm font-semibold text-red-200 mb-1 flex items-center gap-1">
+                ⚠️ Dangers & Risks
+              </div>
+              <div className="text-sm text-red-100 leading-relaxed">{s.description.dangers}</div>
+            </div>
+          )}
+        </div>
+      )}
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {s.testing.map((t,i)=>(
           <div key={i} className="rounded-xl p-3 bg-black/20 border border-white/10">
