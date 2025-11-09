@@ -812,19 +812,222 @@ function Myths(){
   );
 }
 
+function Welcome(){
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-6">
+        <h2 className="text-2xl font-bold text-emerald-200 mb-3">📚 Welcome to Harm Reduction Guide</h2>
+        <p className="text-sm text-emerald-100 leading-relaxed">
+          This comprehensive guide provides evidence-based information about substance testing, identification, and harm reduction practices. Our goal is to promote safety through education.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
+        <h3 className="font-semibold text-lg text-white">🎯 What This App Does</h3>
+        <ul className="space-y-2 text-sm">
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Quick Test:</strong> Search substances and see expected reagent test results with color swatches</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>ID Guide:</strong> Visual identification of different substance forms (pills, crystals, powders)</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Testing Methods:</strong> Comprehensive guide to reagent testing, lab testing, and field methods</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Myths Debunked:</strong> Correct dangerous misinformation with evidence-based facts</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Emergency Info:</strong> Medical treatment protocols and overdose response</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Vendor List:</strong> Trusted sources for testing kits and harm reduction supplies</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Resources:</strong> Regional pill testing databases and lab analysis services</span></li>
+        </ul>
+      </div>
+
+      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
+        <h3 className="font-semibold text-lg text-white">📖 How to Use This Guide</h3>
+        <ol className="space-y-3 text-sm list-decimal list-inside">
+          <li><strong>Search for your substance</strong> in the Quick Test tab to see expected reagent reactions</li>
+          <li><strong>View color swatches</strong> to compare your test results visually</li>
+          <li><strong>Check ID Guide</strong> for visual characteristics of different substance forms</li>
+          <li><strong>Review testing methods</strong> to learn proper testing procedures</li>
+          <li><strong>Read Myths section</strong> to avoid dangerous misinformation</li>
+          <li><strong>Keep Emergency info</strong> accessible in case of adverse reactions</li>
+          <li><strong>Use Resources tab</strong> to find pill testing results from your region</li>
+        </ol>
+      </div>
+
+      <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-5">
+        <h3 className="font-semibold text-lg text-red-200 mb-2">⚠️ Important Disclaimers</h3>
+        <ul className="space-y-2 text-sm text-red-100">
+          <li className="flex gap-2"><span>•</span><span><strong>Educational Only:</strong> This app provides information for harm reduction purposes. It does not encourage illegal drug use.</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Presumptive Testing:</strong> Reagent tests are presumptive identification only. Lab testing (GC/MS) provides definitive results.</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>No Purity Information:</strong> Reagent tests show presence, NOT purity or concentration.</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Medical Emergencies:</strong> Always call emergency services (911) for overdoses or serious reactions.</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Test Every Batch:</strong> Different batches may contain different substances. Always test.</span></li>
+        </ul>
+      </div>
+
+      <div className="rounded-2xl border border-sky-500/30 bg-sky-500/10 p-5">
+        <h3 className="font-semibold text-lg text-sky-200 mb-2">🔬 Testing Best Practices</h3>
+        <ul className="space-y-1.5 text-sm text-sky-100">
+          <li>• Use multiple reagents for confirmation</li>
+          <li>• Test in good lighting conditions</li>
+          <li>• Use white ceramic plates or surfaces</li>
+          <li>• Test a small sample (tip of a toothpick)</li>
+          <li>• Always use fentanyl test strips on opioids and pressed pills</li>
+          <li>• Consider lab testing (DrugsData.org, WEDINOS) for definitive results</li>
+          <li>• Replace reagents every 6-12 months (they degrade over time)</li>
+        </ul>
+      </div>
+
+      <div className="rounded-2xl border border-white/10 p-5 bg-white/5">
+        <h3 className="font-semibold text-lg text-white mb-2">📱 Offline Access</h3>
+        <p className="text-sm text-gray-300">
+          This is a Progressive Web App (PWA). After your first visit, it works offline! Add it to your home screen for quick access anytime, anywhere.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Resources(){
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-purple-500/50 bg-purple-500/10 p-5">
+        <h2 className="text-xl font-bold text-purple-200 mb-2">🌍 Regional Pill Testing Databases</h2>
+        <p className="text-sm text-purple-100">
+          These services provide lab analysis results of street drugs submitted from specific regions. Check if substances matching your description have been tested recently.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇺🇸</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">DrugsData.org (USA - Nationwide)</h3>
+              <p className="text-sm text-gray-300">Independent lab testing service. Submit samples anonymously for GC/MS analysis. Results published in searchable database. Covers all 50 states.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://drugsdata.org" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Database</a>
+                <a href="https://drugsdata.org/send_sample.php" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Submit Sample</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇬🇧</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">WEDINOS (Wales & UK)</h3>
+              <p className="text-sm text-gray-300">Free drug testing service for Wales. Accepts postal samples from across UK. Published database of results with detailed chemical analysis.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://www.wedinos.org" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Database</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇪🇸</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">Energy Control (Spain & International)</h3>
+              <p className="text-sm text-gray-300">Spanish harm reduction organization. Offers drug checking services and publishes alerts. International mail-in service available.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://energycontrol-international.org" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇨🇭</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">Saferparty (Switzerland - Zurich)</h3>
+              <p className="text-sm text-gray-300">Drug checking and harm reduction in Zurich. Regular on-site testing events. Published database with pill images and lab results.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://www.saferparty.ch" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Database</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇦🇹</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">CheckIt! (Austria - Vienna)</h3>
+              <p className="text-sm text-gray-300">Drug checking service in Vienna. On-site testing at events and walk-in lab. Results database with pill warnings and alerts.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://checkit.wien" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Database</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇨🇦</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">Get Your Drugs Tested (Canada - BC)</h3>
+              <p className="text-sm text-gray-300">British Columbia drug checking services. Multiple locations across BC. Results published with alerts for dangerous substances.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://www.getyourdrugstested.com" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇳🇱</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">Drugs Information and Monitoring System (Netherlands)</h3>
+              <p className="text-sm text-gray-300">Dutch drug testing network (DIMS). Anonymous testing at multiple locations. Comprehensive database with pill images and analysis.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://www.drugs-test.nl" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Database</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🇫🇷</span>
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold text-white">SINTES (France - Nationwide)</h3>
+              <p className="text-sm text-gray-300">French national drug monitoring system. Collects and analyzes samples across France. Published reports and alerts.</p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <a href="https://www.ofdt.fr/produits-et-addictions/de-z/sintes/" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="rounded-2xl border-2 border-amber-500/50 bg-amber-500/10 p-5">
+        <h3 className="font-semibold text-lg text-amber-200 mb-2">⚠️ Using Pill Databases</h3>
+        <ul className="space-y-2 text-sm text-amber-100">
+          <li className="flex gap-2"><span>•</span><span><strong>No Guarantee:</strong> Just because a pill LOOKS the same doesn't mean it contains the same substance</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Regional Variation:</strong> Pill presses and contents vary by location and time</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Always Test:</strong> Use these databases for information, but ALWAYS test your specific pill</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>Check Dates:</strong> Recent results more relevant than old ones</span></li>
+          <li className="flex gap-2"><span>•</span><span><strong>High-Risk Alerts:</strong> Pay special attention to warnings about dangerous substances</span></li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 function App(){
-  const [tab,setTab] = useState('quick');
+  const [tab,setTab] = useState('welcome');
   const {data} = useJSON('data/reagents.json');
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8 space-y-6">
       <header className="space-y-3">
         <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
         <nav className="flex flex-wrap gap-2 justify-center sm:justify-start">
+          <button onClick={()=>setTab('welcome')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}>📚 Welcome</button>
           <button onClick={()=>setTab('quick')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Quick Test</button>
           <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
           <button onClick={()=>setTab('myths')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='myths'?'bg-amber-500/30 border border-amber-400/60 text-amber-100':'bg-amber-500/10 border border-amber-400/30 text-amber-200 hover:bg-amber-500/20')}>❌ Myths</button>
+          <button onClick={()=>setTab('resources')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}>🌍 Resources</button>
           <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
           <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
@@ -835,11 +1038,13 @@ function App(){
 
       {data?.link_display_rules?.show_warning && <Banner tone="warn">{data.link_display_rules.warning_text}</Banner>}
 
+      {tab==='welcome' && (<section className="space-y-3"><Welcome/></section>)}
       {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Quick Test</h2><QuickTest/></section>)}
       {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
       {tab==='myths' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-amber-200">❌ Common Myths & Misinformation</h2><Myths/></section>)}
+      {tab==='resources' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-purple-200">🌍 Testing Resources by Region</h2><Resources/></section>)}
       {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
