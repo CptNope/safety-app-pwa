@@ -336,36 +336,63 @@ function QuickTest(){
       {data.vendors && (()=>{
         // Get reagents needed for this substance
         const neededReagents = s.testing.map(t => data.reagents[t.reagent].name);
-        // Filter vendors that sell consumer test kits
-        const relevantVendors = data.vendors.filter(v => 
-          (v.category === 'harm_reduction' || v.category === 'professional_and_consumer') &&
-          v.reagents && v.reagents.some(r => neededReagents.includes(r))
-        ).slice(0, 4); // Show max 4 vendors
+        
+        // Filter and enhance vendors with matching reagent info
+        const relevantVendors = data.vendors
+          .filter(v => 
+            (v.category === 'harm_reduction' || v.category === 'professional_and_consumer') &&
+            v.reagents && v.reagents.some(r => neededReagents.includes(r))
+          )
+          .map(v => {
+            // Find which reagents this vendor has that we need
+            const matchingReagents = v.reagents.filter(r => neededReagents.includes(r));
+            return {...v, matchingReagents, matchCount: matchingReagents.length};
+          })
+          .sort((a, b) => b.matchCount - a.matchCount) // Sort by most matching reagents first
+          .slice(0, 6); // Show max 6 vendors
         
         if(relevantVendors.length > 0) {
+          const allReagentsMatch = relevantVendors.some(v => v.matchCount === neededReagents.length);
+          
           return (
             <div className="pt-3 border-t border-white/10 space-y-2">
               <div className="flex items-center justify-between">
                 <div className="font-semibold text-emerald-200 flex items-center gap-2">
                   🛒 Where to Buy Test Kits
+                  <span className="text-xs font-normal opacity-70">({relevantVendors.length} vendor{relevantVendors.length > 1 ? 's' : ''})</span>
                 </div>
                 <button onClick={()=>{ const vendorsTab = document.querySelector('[data-tab="vendors"]'); if(vendorsTab) vendorsTab.click(); }} className="text-xs text-sky-300 hover:text-sky-200 underline">
                   View All Vendors
                 </button>
               </div>
               <div className="text-xs text-gray-400 mb-2">
-                These vendors sell the reagents needed to test {suspect}
+                {suspect} requires: <span className="font-semibold text-emerald-300">{neededReagents.join(', ')}</span>
+                {allReagentsMatch && <span className="text-emerald-300"> (vendors below have all needed reagents)</span>}
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {relevantVendors.map(v => (
                   <a key={v.id} href={v.url} target="_blank" rel="noopener noreferrer" className="block rounded-lg border border-white/10 p-3 bg-white/5 hover:bg-white/10 transition">
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="flex-1 min-w-0">
-                        <div className="font-semibold text-sm truncate">{v.name}</div>
-                        <div className="text-xs opacity-70 truncate">{v.regions.join(', ')}</div>
-                        {v.price_range && <div className="text-xs text-emerald-300 mt-0.5">{v.price_range}</div>}
+                    <div className="space-y-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex-1 min-w-0">
+                          <div className="font-semibold text-sm truncate">{v.name}</div>
+                          <div className="text-xs opacity-70 truncate">{v.regions.join(', ')}</div>
+                        </div>
+                        <span className="text-xs text-sky-300">→</span>
                       </div>
-                      <span className="text-xs text-sky-300">→</span>
+                      <div className="flex flex-wrap gap-1">
+                        {v.matchingReagents.map((reagent, i) => (
+                          <span key={i} className="px-1.5 py-0.5 text-[10px] rounded bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 font-medium">
+                            {reagent}
+                          </span>
+                        ))}
+                        {v.matchCount < neededReagents.length && (
+                          <span className="px-1.5 py-0.5 text-[10px] rounded bg-amber-500/20 border border-amber-400/40 text-amber-200">
+                            +{neededReagents.length - v.matchCount} more needed
+                          </span>
+                        )}
+                      </div>
+                      {v.price_range && <div className="text-xs text-emerald-300">{v.price_range}</div>}
                     </div>
                   </a>
                 ))}
