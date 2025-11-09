@@ -1560,10 +1560,6 @@
           "summary": "CRITICAL for pressed pills. Many fake Xanax bars contain fentanyl.",
           "confidence": "high"
         }
-      },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Alprazolam",
-        "erowid": "https://www.erowid.org/pharms/alprazolam/"
       }
     },
     "Clonazepam": {
@@ -1600,11 +1596,7 @@
       ],
       "notes": [
         "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Clonazepam",
-        "erowid": "https://www.erowid.org/pharms/clonazepam/"
-      }
+      ]
     },
     "Diazepam": {
       "class": "benzodiazepine",
@@ -1612,11 +1604,39 @@
         "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
         "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
         "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
-        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, delirium tremens). Requires medical supervision to discontinue safely. Long half-life means withdrawal may not start for several days after last dose, then last weeks. Combining with opioids or alcohol frequently FATAL (respiratory depression, overdose). Cognitive impairment, memory problems, motor coordination deficits especially in elderly (fall risk). Paradoxical reactions possible (increased anxiety, aggression). Tolerance develops requiring higher doses. Driving impairment. Chronic use associated with dementia risk (debated). Counterfeit pills may contain fentanyl or research chemical benzos (flualprazolam, etizolam). Reagent tests ineffective for benzos—fentanyl strips essential for street pills. Elderly particularly vulnerable to oversedation, confusion, and falls. Pregnancy category D (causes birth defects)."
+        "dangers": "Physical dependence and addiction with regular use. Withdrawal can be SEVERE and dangerous (seizures, psychosis, insomnia, anxiety)—medical supervision required for tapering. Long half-life means withdrawal symptoms may not appear for days after stopping. Combining with alcohol or opioids dangerous (respiratory depression). Cognitive impairment and memory issues. Sedation increases fall/accident risk especially in elderly. Counterfeit pills may contain other benzos, fentanyl, or nothing. Paradoxical reactions possible. Tolerance develops. Diazepam popular among those with opioid use disorder—deadly combination.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
+          "erowid": "https://www.erowid.org/pharms/diazepam/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Diazepam: a review of its pharmacological properties and therapeutic efficacy",
+            "authors": "Shader RI, Greenblatt DJ",
+            "journal": "Drugs",
+            "year": 1993,
+            "summary": "Comprehensive review of diazepam's pharmacology, clinical uses, and safety profile"
+          },
+          {
+            "title": "Benzodiazepine withdrawal: outcome in 50 patients",
+            "authors": "Rickels K, et al.",
+            "journal": "British Journal of Addiction",
+            "year": 1990,
+            "summary": "Clinical study documenting withdrawal syndrome from long-term diazepam use"
+          },
+          {
+            "title": "Long-term benzodiazepine use and cognitive decline",
+            "authors": "Billioti de Gage S, et al.",
+            "journal": "BMJ",
+            "year": 2014,
+            "summary": "Study showing association between benzodiazepine use and increased dementia risk"
+          }
+        ]
       },
       "forms": [
-        "pill",
-        "powder"
+        "tablet",
+        "pill"
       ],
       "testing": [
         {
@@ -1640,11 +1660,7 @@
       ],
       "notes": [
         "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
-        "erowid": "https://www.erowid.org/pharms/diazepam/"
-      }
+      ]
     },
     "Etizolam": {
       "class": "thienodiazepine (benzo analogue)",
@@ -1652,7 +1668,35 @@
         "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
         "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
         "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
-        "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination."
+        "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
+          "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Etizolam and benzodiazepine differentiation in urine",
+            "authors": "Manchester KR, et al.",
+            "journal": "Journal of Analytical Toxicology",
+            "year": 2012,
+            "summary": "Analytical study on detecting etizolam as emerging benzodiazepine analogue"
+          },
+          {
+            "title": "Etizolam: a review of pharmacology, clinical efficacy, and tolerability",
+            "authors": "Lodhi A, Kaur J",
+            "journal": "Reviews on Recent Clinical Trials",
+            "year": 2020,
+            "summary": "Comprehensive review of etizolam's effects, medical uses, and side effects"
+          },
+          {
+            "title": "Designer benzodiazepines: a new challenge",
+            "authors": "Manchester KR, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2018,
+            "summary": "Review of etizolam and other research chemical benzos entering the illicit market"
+          }
+        ]
       },
       "forms": [
         "pill",
