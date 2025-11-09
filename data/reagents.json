@@ -2181,7 +2181,8 @@
       ],
       "price_range": "$$",
       "shipping_policy": "US shipping",
-      "notes": "Nonprofit + education."
+      "notes": "Nonprofit + education.",
+      "category": "harm_reduction"
     },
     {
       "id": "protest",
@@ -2201,7 +2202,8 @@
       ],
       "price_range": "$$–$$$",
       "shipping_policy": "EU; intl varies",
-      "notes": "Wide coverage."
+      "notes": "Wide coverage.",
+      "category": "harm_reduction"
     },
     {
       "id": "bunkpolice",
@@ -2222,7 +2224,8 @@
       ],
       "price_range": "$$",
       "shipping_policy": "Worldwide shipping",
-      "notes": "Fast shipping, comprehensive kits with test tubes."
+      "notes": "Fast shipping, comprehensive kits with test tubes.",
+      "category": "harm_reduction"
     },
     {
       "id": "eztest",
@@ -2242,7 +2245,8 @@
       ],
       "price_range": "$–$$",
       "shipping_policy": "AU, EU, worldwide",
-      "notes": "Single-use ampoules, convenient for festivals."
+      "notes": "Single-use ampoules, convenient for festivals.",
+      "category": "harm_reduction"
     },
     {
       "id": "testkitplus",
@@ -2262,7 +2266,8 @@
       ],
       "price_range": "$$",
       "shipping_policy": "Canada + US",
-      "notes": "Canadian harm reduction organization."
+      "notes": "Canadian harm reduction organization.",
+      "category": "harm_reduction"
     },
     {
       "id": "reagenttestsuk",
@@ -2283,7 +2288,8 @@
       ],
       "price_range": "$$",
       "shipping_policy": "UK, EU, worldwide",
-      "notes": "Extensive reagent selection, detailed guides."
+      "notes": "Extensive reagent selection, detailed guides.",
+      "category": "harm_reduction"
     },
     {
       "id": "elevationchemicals",
@@ -2301,7 +2307,8 @@
       ],
       "price_range": "$$",
       "shipping_policy": "AU, NZ",
-      "notes": "Australian vendor with fast local shipping."
+      "notes": "Australian vendor with fast local shipping.",
+      "category": "harm_reduction"
     },
     {
       "id": "sincolorantes",
@@ -2319,7 +2326,8 @@
       ],
       "price_range": "$–$$",
       "shipping_policy": "Spain, EU",
-      "notes": "Spanish harm reduction org, bilingual resources."
+      "notes": "Spanish harm reduction org, bilingual resources.",
+      "category": "harm_reduction"
     },
     {
       "id": "nextdistro",
