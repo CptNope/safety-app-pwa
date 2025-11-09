@@ -163,6 +163,60 @@ function QuickTest(){
           </ul>
         </div>
       )}
+      {s.notes && s.notes.length > 0 && (
+        <div className="pt-3 border-t border-white/10 rounded-xl p-3 bg-amber-500/10 border border-amber-400/30">
+          <div className="font-semibold text-amber-200 mb-2 flex items-center gap-2">
+            ⚠️ Safety & Harm Reduction Notes
+          </div>
+          <ul className="list-disc ms-5 text-sm space-y-1 text-amber-100">
+            {s.notes.map((note, i) => <li key={i}>{note}</li>)}
+          </ul>
+        </div>
+      )}
+      
+      {data.vendors && (()=>{
+        // Get reagents needed for this substance
+        const neededReagents = s.testing.map(t => data.reagents[t.reagent].name);
+        // Filter vendors that sell consumer test kits
+        const relevantVendors = data.vendors.filter(v => 
+          (v.category === 'harm_reduction' || v.category === 'professional_and_consumer') &&
+          v.reagents && v.reagents.some(r => neededReagents.includes(r))
+        ).slice(0, 4); // Show max 4 vendors
+        
+        if(relevantVendors.length > 0) {
+          return (
+            <div className="pt-3 border-t border-white/10 space-y-2">
+              <div className="flex items-center justify-between">
+                <div className="font-semibold text-emerald-200 flex items-center gap-2">
+                  🛒 Where to Buy Test Kits
+                </div>
+                <button onClick={()=>{ const vendorsTab = document.querySelector('[data-tab="vendors"]'); if(vendorsTab) vendorsTab.click(); }} className="text-xs text-sky-300 hover:text-sky-200 underline">
+                  View All Vendors
+                </button>
+              </div>
+              <div className="text-xs text-gray-400 mb-2">
+                These vendors sell the reagents needed to test {suspect}
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {relevantVendors.map(v => (
+                  <a key={v.id} href={v.url} target="_blank" rel="noopener noreferrer" className="block rounded-lg border border-white/10 p-3 bg-white/5 hover:bg-white/10 transition">
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex-1 min-w-0">
+                        <div className="font-semibold text-sm truncate">{v.name}</div>
+                        <div className="text-xs opacity-70 truncate">{v.regions.join(', ')}</div>
+                        {v.price_range && <div className="text-xs text-emerald-300 mt-0.5">{v.price_range}</div>}
+                      </div>
+                      <span className="text-xs text-sky-300">→</span>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        }
+        return null;
+      })()}
+      
       {s.links && (
         <div className="pt-3 border-t border-white/10 space-y-2">
           <div className="text-xs text-gray-300">
@@ -1113,7 +1167,7 @@ function App(){
           <button onClick={()=>setTab('resources')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}>🌍 Resources</button>
           <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
-          <button onClick={()=>setTab('vendors')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
+          <button onClick={()=>setTab('vendors')} data-tab="vendors" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
         </nav>
       </header>
 
