@@ -821,6 +821,46 @@ function Swatches(){
                 ))}
               </div>
             </div>
+            
+            {data.vendors && (()=>{
+              // Find vendors that sell this reagent
+              const relevantVendors = data.vendors
+                .filter(v => v.reagents && v.reagents.includes(reagentInfo.name))
+                .filter(v => v.category === 'harm_reduction' || v.category === 'professional_and_consumer');
+              
+              if(relevantVendors.length > 0) {
+                return (
+                  <div>
+                    <div className="font-semibold text-sm text-emerald-200 mb-2">
+                      🛒 Where to Buy {reagentInfo.name} ({relevantVendors.length} vendor{relevantVendors.length > 1 ? 's' : ''})
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {relevantVendors.map((v, idx) => (
+                        <a 
+                          key={idx}
+                          href={v.url} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="rounded-xl p-3 bg-emerald-500/10 border border-emerald-400/30 hover:bg-emerald-500/20 transition group"
+                        >
+                          <div className="flex items-start justify-between mb-1">
+                            <div className="font-semibold text-emerald-100 group-hover:text-emerald-50">{v.name}</div>
+                            {v.price_range && <div className="text-xs text-emerald-300">{v.price_range}</div>}
+                          </div>
+                          <div className="text-xs text-emerald-200/70 mb-1">
+                            {v.regions.join(', ')}
+                          </div>
+                          {v.notes && (
+                            <div className="text-xs text-emerald-200/60 italic">{v.notes}</div>
+                          )}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              return null;
+            })()}
           </div>
         );
       })}
