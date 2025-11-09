@@ -3377,6 +3377,41 @@
           "Usually resolves within 24 hours if drug stopped and supportive care given"
         ]
       },
+      "benzodiazepine_overdose": {
+        "name": "Benzodiazepine/Sedative Overdose (Xanax, Valium, Klonopin, Etizolam, Flualprazolam, Phenibut)",
+        "signs": [
+          "Extreme drowsiness, sedation, or unconsciousness",
+          "Slurred speech, confusion",
+          "Slow, shallow breathing (respiratory depression)",
+          "Weakness, lack of coordination",
+          "Low blood pressure (hypotension)",
+          "Hypothermia (low body temperature)",
+          "Paradoxical agitation (in some cases)"
+        ],
+        "prehospital": [
+          "Recovery position if unconscious but breathing",
+          "Monitor breathing closely - be prepared for CPR",
+          "Keep person warm (benzos can cause hypothermia)",
+          "Do NOT induce vomiting"
+        ],
+        "hospital": [
+          "Airway protection - intubation if severe respiratory depression",
+          "Oxygen support or mechanical ventilation if needed",
+          "IV fluids for low blood pressure",
+          "Activated charcoal if recent ingestion (within 1 hour) and patient alert",
+          "Flumazenil (benzo antidote) - used CAUTIOUSLY and rarely",
+          "Cardiac and respiratory monitoring",
+          "Observation until fully conscious and stable"
+        ],
+        "notes": [
+          "Flumazenil (benzo reversal agent) is RARELY used - can cause seizures in chronic benzo users or if combined with other drugs",
+          "Combining benzos with alcohol or opioids dramatically increases overdose risk - respiratory depression can be fatal",
+          "Most benzo-only overdoses are not fatal if breathing is supported - death usually from combinations",
+          "Counterfeit pills (Xanax, Valium) may contain fentanyl, flualprazolam, or other dangerous substances",
+          "Withdrawal can be life-threatening for chronic users - medical supervision required for detox",
+          "Designer benzos (flualprazolam, etizolam) may be more potent and longer-lasting than expected"
+        ]
+      },
       "general_supportive": {
         "name": "General Hospital Supportive Care (All Overdoses)",
         "common_interventions": [

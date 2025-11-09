@@ -567,15 +567,24 @@ function QuickTest(){
         
         // Determine which emergency treatment applies
         if(classLower.includes('opioid') || substanceLower.includes('heroin') || substanceLower.includes('fentanyl') || 
-           substanceLower.includes('morphine') || substanceLower.includes('oxycodone') || substanceLower.includes('codeine')) {
+           substanceLower.includes('morphine') || substanceLower.includes('oxycodone') || substanceLower.includes('codeine') ||
+           substanceLower.includes('kratom')) {
           treatmentKey = 'opioid_overdose';
+        } else if(classLower.includes('benzodiazepine') || classLower.includes('thienodiazepine') || classLower.includes('gaba') ||
+                  substanceLower.includes('phenibut') || substanceLower.includes('alprazolam') || substanceLower.includes('xanax') ||
+                  substanceLower.includes('clonazepam') || substanceLower.includes('klonopin') || substanceLower.includes('diazepam') ||
+                  substanceLower.includes('valium') || substanceLower.includes('etizolam') || substanceLower.includes('flualprazolam')) {
+          treatmentKey = 'benzodiazepine_overdose';
         } else if(classLower.includes('phenethylamine') || classLower.includes('stimulant') || classLower.includes('cathinone') ||
+                  classLower.includes('benzofuran') || classLower.includes('entactogen') ||
                   substanceLower.includes('mdma') || substanceLower.includes('cocaine') || substanceLower.includes('meth') ||
-                  substanceLower.includes('amphetamine') || substanceLower.includes('cathinone')) {
+                  substanceLower.includes('amphetamine') || substanceLower.includes('cathinone') || substanceLower.includes('6-apb') ||
+                  substanceLower.includes('5-apb') || substanceLower.includes('methylphenidate')) {
           treatmentKey = 'stimulant_overdose';
         } else if(classLower.includes('psychedelic') || classLower.includes('tryptamine') || classLower.includes('lysergamide') ||
                   substanceLower.includes('lsd') || substanceLower.includes('psilocybin') || substanceLower.includes('dmt') ||
-                  substanceLower.includes('nbome') || substanceLower.includes('2c-') || substanceLower.includes('do')) {
+                  substanceLower.includes('nbome') || substanceLower.includes('2c-') || substanceLower.includes('do') ||
+                  substanceLower.includes('mescaline')) {
           treatmentKey = 'psychedelic_crisis';
         } else if(classLower.includes('dissociative') || substanceLower.includes('ketamine') || substanceLower.includes('pcp') ||
                   substanceLower.includes('dxm') || substanceLower.includes('mxe')) {
