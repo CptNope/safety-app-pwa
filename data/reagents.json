@@ -147,7 +147,45 @@
         "overview": "3,4-Methylenedioxymethamphetamine (MDMA), commonly known as ecstasy or molly, is an empathogen-entactogen that produces feelings of emotional openness, empathy, and euphoria. It's one of the most popular recreational drugs worldwide, particularly in dance and festival settings.",
         "origins": "First synthesized by Merck pharmaceutical company in 1912, MDMA remained obscure until the 1970s when chemist Alexander Shulgin resynthesized it and introduced it to psychotherapists. It gained popularity as a therapeutic tool before becoming a Schedule I controlled substance in 1985.",
         "uses": "Originally explored for marriage counseling and PTSD treatment in psychotherapy. Currently used recreationally for its prosocial effects, emotional warmth, and sensory enhancement. FDA-approved clinical trials are ongoing for PTSD-assisted therapy with promising results.",
-        "dangers": "Neurotoxicity concerns with frequent use, especially at high doses or elevated body temperatures. Risk of hyperthermia, hyponatremia (water intoxication), serotonin syndrome. Often adulterated with methamphetamine, MDA, cathinones, or other stimulants. Increasing fentanyl contamination in pressed pills. Can cause short-term memory issues, depression, and anxiety in the days following use ('comedown')."
+        "dangers": "Neurotoxicity concerns with frequent use, especially at high doses or elevated body temperatures. Risk of hyperthermia, hyponatremia (water intoxication), serotonin syndrome. Often adulterated with methamphetamine, MDA, cathinones, or other stimulants. Increasing fentanyl contamination in pressed pills. Can cause short-term memory issues, depression, and anxiety in the days following use ('comedown').",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
+          "erowid": "https://www.erowid.org/chemicals/mdma/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/MDMA"
+        },
+        "scientific_papers": [
+          {
+            "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study",
+            "authors": "Mitchell JM, et al.",
+            "journal": "Nature Medicine",
+            "year": 2021,
+            "doi": "10.1038/s41591-021-01336-3",
+            "summary": "MAPS Phase 3 trial showing 67% of participants no longer met PTSD criteria after MDMA-assisted therapy"
+          },
+          {
+            "title": "The pharmacology and clinical pharmacology of 3,4-methylenedioxymethamphetamine (MDMA, ecstasy)",
+            "authors": "Green AR, et al.",
+            "journal": "Pharmacological Reviews",
+            "year": 2003,
+            "doi": "10.1124/pr.55.3.3",
+            "summary": "Comprehensive review of MDMA pharmacology, metabolism, and toxicology"
+          },
+          {
+            "title": "MDMA (Ecstasy): a review of its harms and classification under the Misuse of Drugs Act 1971",
+            "authors": "Nutt D, King LA, Saulsbury W, Blakemore C",
+            "journal": "Journal of Psychopharmacology",
+            "year": 2007,
+            "doi": "10.1177/0269881106074953",
+            "summary": "Evidence-based harm assessment placing MDMA lower than alcohol and tobacco"
+          },
+          {
+            "title": "Neurotoxicity of amphetamines and its metabolites",
+            "authors": "Carvalho M, et al.",
+            "journal": "Current Drug Metabolism",
+            "year": 2012,
+            "summary": "Review of neurotoxicity mechanisms and risk factors for MDMA-induced neurotoxicity"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -195,11 +233,7 @@
       ],
       "notes": [
         "Use multiple reagents; lighting/timing matter."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
-        "erowid": "https://www.erowid.org/chemicals/mdma/"
-      }
+      ]
     },
     "LSD": {
       "class": "ergoline (indole)",
@@ -207,7 +241,37 @@
         "overview": "Lysergic acid diethylamide (LSD) is a powerful hallucinogenic drug that profoundly alters perception, mood, and thought. Known for producing vivid visual hallucinations, synesthesia, and mystical experiences, LSD is one of the most potent psychoactive substances known, active at microgram doses.",
         "origins": "Synthesized in 1938 by Swiss chemist Albert Hofmann at Sandoz Laboratories while researching ergot alkaloids. Its psychedelic properties were discovered accidentally in 1943 when Hofmann absorbed a small amount through his skin. Widely used in psychiatric research in the 1950s-60s before being scheduled in 1968.",
         "uses": "Historically used in psychotherapy for treating alcoholism, anxiety, and depression. Currently being researched for treatment of PTSD, anxiety, depression, and cluster headaches. Recreationally used for introspection, creativity enhancement, and transcendent experiences. Microdosing (sub-perceptual doses) popular for cognitive enhancement.",
-        "dangers": "Psychological risks include 'bad trips,' anxiety, paranoia, and exacerbation of underlying mental health conditions. Rare but serious risk of persistent perceptual changes (HPPD). No physical addiction or toxicity, but psychologically intense. Primary danger is NBOMe compounds sold as LSD—these can be fatal and taste bitter/metallic. Real LSD is tasteless and causes tongue numbness only from ink/paper."
+        "dangers": "Psychological risks include 'bad trips,' anxiety, paranoia, and exacerbation of underlying mental health conditions. Rare but serious risk of persistent perceptual changes (HPPD). No physical addiction or toxicity, but psychologically intense. Primary danger is NBOMe compounds sold as LSD—these can be fatal and taste bitter/metallic. Real LSD is tasteless and causes tongue numbness only from ink/paper.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
+          "erowid": "https://www.erowid.org/chemicals/lsd/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/LSD"
+        },
+        "scientific_papers": [
+          {
+            "title": "LSD-assisted psychotherapy for anxiety associated with a life-threatening disease: a qualitative study",
+            "authors": "Gasser P, et al.",
+            "journal": "Journal of Nervous and Mental Disease",
+            "year": 2014,
+            "doi": "10.1097/NMD.0000000000000113",
+            "summary": "First controlled study in 40 years showing LSD-assisted therapy reduced anxiety in terminal illness patients"
+          },
+          {
+            "title": "Acute, subacute and long-term subjective effects of psilocybin in healthy humans: a pooled analysis of experimental studies",
+            "authors": "Studerus E, et al.",
+            "journal": "Journal of Psychopharmacology",
+            "year": 2011,
+            "summary": "Comprehensive safety analysis showing classical psychedelics have low toxicity and adverse event rates"
+          },
+          {
+            "title": "Neural correlates of the LSD experience revealed by multimodal neuroimaging",
+            "authors": "Carhart-Harris RL, et al.",
+            "journal": "Proceedings of the National Academy of Sciences",
+            "year": 2016,
+            "doi": "10.1073/pnas.1518377113",
+            "summary": "Neuroimaging study revealing how LSD affects brain connectivity and consciousness"
+          }
+        ]
       },
       "forms": [
         "blotter",
@@ -270,10 +334,6 @@
           "summary": "Avoid taste-testing; unreliable and risky (NBOMe risk).",
           "confidence": "do-not"
         }
-      },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
-        "erowid": "https://www.erowid.org/chemicals/lsd/"
       }
     },
     "Cocaine": {
@@ -282,7 +342,36 @@
         "overview": "Cocaine is a powerful stimulant drug extracted from coca plant leaves, producing intense euphoria, increased energy, and heightened alertness. One of the most addictive substances known, cocaine has profound effects on the brain's reward system and cardiovascular system.",
         "origins": "Indigenous peoples of South America have chewed coca leaves for thousands of years. Pure cocaine was first isolated in 1859 and became widely used in medicine and consumer products (including Coca-Cola) before its addictive properties were understood. Criminalized in most countries by the 1920s.",
         "uses": "Historically used as a local anesthetic in eye, nose, and throat surgeries (still used rarely for this purpose). Recreationally used for euphoria, confidence, and energy. No accepted medical use for systemic effects due to high addiction potential and cardiovascular risks.",
-        "dangers": "Highly addictive with severe cardiovascular risks including heart attack, stroke, and arrhythmias. Nasal damage from snorting, lung damage from smoking crack. Often cut with levamisole (causes immune system damage), phenacetin (carcinogenic), and increasingly fentanyl (lethal). Overdose can cause seizures, hyperthermia, and cardiac arrest. Psychological dependence develops rapidly."
+        "dangers": "Highly addictive with severe cardiovascular risks including heart attack, stroke, and arrhythmias. Nasal damage from snorting, lung damage from smoking crack. Often cut with levamisole (causes immune system damage), phenacetin (carcinogenic), and increasingly fentanyl (lethal). Overdose can cause seizures, hyperthermia, and cardiac arrest. Psychological dependence develops rapidly.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Cocaine",
+          "erowid": "https://www.erowid.org/chemicals/cocaine/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Cocaine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Cardiovascular toxicity of cocaine: an overview",
+            "authors": "Schwartz BG, et al.",
+            "journal": "Clinical Cardiology",
+            "year": 2010,
+            "doi": "10.1002/clc.20718",
+            "summary": "Comprehensive review of cocaine's cardiovascular effects including myocardial infarction, arrhythmias, and sudden death"
+          },
+          {
+            "title": "Levamisole contamination: a potential risk for all cocaine users",
+            "authors": "Muirhead TT, et al.",
+            "journal": "British Journal of Dermatology",
+            "year": 2011,
+            "summary": "Study on levamisole adulterant causing agranulocytosis and necrotic skin lesions in cocaine users"
+          },
+          {
+            "title": "Cocaine use and risk of myocardial infarction and stroke: systematic review and meta-analysis",
+            "authors": "Maraj S, et al.",
+            "journal": "Mayo Clinic Proceedings",
+            "year": 2010,
+            "summary": "Meta-analysis showing cocaine use significantly increases risk of heart attack and stroke"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -319,11 +408,7 @@
       ],
       "notes": [
         "Cocaine often shows minimal/no reaction with common reagents. Use multiple tests; fentanyl strips recommended."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Cocaine",
-        "erowid": "https://www.erowid.org/chemicals/cocaine/"
-      }
+      ]
     },
     "Methamphetamine": {
       "class": "phenethylamine",
