@@ -419,6 +419,12 @@
     },
     "Ketamine": {
       "class": "arylcyclohexylamine (dissociative)",
+      "description": {
+        "overview": "Ketamine is a dissociative anesthetic that causes a sense of detachment from one's body and environment. Known for producing 'k-holes' (profound dissociative states), dream-like experiences, and analgesia. It has a remarkable safety profile compared to other anesthetics and is experiencing a renaissance as a depression treatment.",
+        "origins": "Synthesized in 1962 by Calvin Stevens at Parke-Davis as a safer alternative to PCP for anesthesia. Approved for medical use in 1970. Widely used in Vietnam War as battlefield anesthetic. Became popular in rave/club scenes in the 1990s. Recently FDA-approved as esketamine (Spravato) nasal spray for treatment-resistant depression.",
+        "uses": "Medical: WHO Essential Medicine for anesthesia, especially in emergency/field medicine and pediatrics. Pain management, sedation, and recently for treatment-resistant depression. Veterinary medicine (common horse tranquilizer stereotype). Recreational: Dissociative experiences, psychedelic exploration, club/rave scenes. Therapeutic: Psychedelic-assisted therapy for depression, PTSD, anxiety, and addiction showing promising results.",
+        "dangers": "Bladder damage (ulcerative cystitis) with chronic heavy use—can become severe and irreversible. Respiratory depression when combined with other depressants (alcohol, opioids, benzodiazepines). Risk of injury during dissociation due to impaired coordination and pain perception. Psychological dependence possible. 'K-holes' can be psychologically distressing for unprepared users. Cognitive impairment with chronic use. Often cut with synthetic cathinones or other dissociatives (2-FDCK, DCK). Street ketamine purity highly variable."
+      },
       "forms": [
         "powder",
         "liquid",
@@ -463,6 +469,12 @@
     },
     "Psilocybin": {
       "class": "tryptamine (indole)",
+      "description": {
+        "overview": "Psilocybin is a naturally occurring psychedelic compound found in over 200 species of mushrooms ('magic mushrooms' or 'shrooms'). It produces profound alterations in perception, mood, thought, and sense of self. Psilocybin is considered one of the safest psychoactive substances with minimal toxicity and no addiction potential.",
+        "origins": "Used in indigenous Mesoamerican spiritual and healing ceremonies for thousands of years. First isolated from Psilocybe mushrooms by Swiss chemist Albert Hofmann (who also discovered LSD) in 1958. Popularized in Western culture by R. Gordon Wasson's 1957 Life Magazine article. Scheduled in 1970 despite therapeutic research. Recently decriminalized or legalized in several US cities and states.",
+        "uses": "Traditional: Spiritual ceremonies, divination, healing rituals in indigenous cultures. Current research: Treatment for depression, anxiety (especially end-of-life), PTSD, addiction (smoking, alcohol), cluster headaches, and OCD with breakthrough results. Recreational: Introspection, nature connection, creative insights, mystical experiences. Microdosing: Sub-perceptual doses for mood, creativity, and focus enhancement.",
+        "dangers": "Physiologically very safe—no lethal dose established, no organ toxicity. Primary risks are psychological: 'bad trips' with anxiety, paranoia, or terrifying experiences, especially in unsafe settings or high doses. Can trigger latent mental health conditions or exacerbate existing ones. HPPD (flashbacks) rare but possible. Mushroom misidentification can be fatal—only consume from trusted sources or expert identification. No physical addiction but psychological attachment possible. Set and setting crucial for positive experiences. Contraindicated with certain mental health conditions (schizophrenia, bipolar)."
+      },
       "forms": [
         "mushroom",
         "powder",
@@ -507,6 +519,12 @@
     },
     "Fentanyl": {
       "class": "synthetic opioid",
+      "description": {
+        "overview": "Fentanyl is an extremely potent synthetic opioid, approximately 50-100 times stronger than morphine and 30-50 times stronger than heroin. Originally developed for pain management and anesthesia, it has become a major driver of overdose deaths when illicitly manufactured and mixed into other drugs without users' knowledge.",
+        "origins": "Synthesized in 1959 by Belgian physician Paul Janssen as a surgical analgesic. Introduced medically in the 1960s for anesthesia and chronic pain management via patches and lozenges. Illicitly manufactured fentanyl (IMF) emerged in the 1970s but exploded in the 2010s, fueling the current opioid crisis.",
+        "uses": "Medical: Prescribed as transdermal patches (Duragesic), lozenges (Actiq), or IV anesthesia for severe pain and surgical procedures. Cancer patients and chronic pain management. Illicitly: Added to heroin to increase potency, pressed into counterfeit pills (fake oxycodone, Xanax), or mixed into cocaine, meth, and MDMA as adulterant.",
+        "dangers": "EXTREMELY HIGH OVERDOSE RISK: 2mg (size of few grains of salt) can be lethal. Respiratory depression occurs within seconds to minutes. Naloxone (Narcan) required immediately for overdose reversal—may need multiple doses. Increasingly found in non-opioid drugs causing unexpected overdoses. Analogues (carfentanil, acetylfentanyl) are even more potent. Cross-contamination during production endangers entire drug supply. Most overdose deaths now involve fentanyl. Test strips essential for any street drugs."
+      },
       "forms": [
         "powder",
         "pressed pill",
@@ -549,6 +567,12 @@
     },
     "Heroin": {
       "class": "opioid (semi-synthetic)",
+      "description": {
+        "overview": "Heroin (diacetylmorphine) is a highly addictive semi-synthetic opioid derived from morphine, which comes from opium poppy plants. It produces intense euphoria, pain relief, and sedation, but carries extreme risks of addiction, overdose, and infectious disease transmission. The current street supply is heavily contaminated with fentanyl.",
+        "origins": "Synthesized from morphine in 1874 by English chemist C.R. Alder Wright. Commercialized by Bayer pharmaceutical company in 1898 as a 'safer' morphine substitute and cough suppressant (tradename 'Heroin'). Quickly recognized as highly addictive and banned in most countries by the 1920s-30s. Illicit production now centered in Afghanistan, Mexico, and Southeast Asia.",
+        "uses": "No current medical use in the United States (diamorphine still used medically in UK for severe pain). Historically used for pain, cough suppression, and as morphine substitute. Recreationally used for intense euphoria, pain relief, and escape. Routes: injection (IV), smoking, snorting. IV use carries highest overdose and infection risk.",
+        "dangers": "Extremely high addiction potential—physical dependence develops rapidly. Overdose causes respiratory depression and death, especially with fentanyl contamination (now in majority of heroin supply). HIV, Hepatitis C transmission from shared needles. Collapsed veins, bacterial infections, abscesses from injection. Withdrawal is intensely uncomfortable but not typically fatal. Xylazine (tranq) increasingly found in supply, causes severe wounds and doesn't respond to naloxone. Unpredictable potency makes every dose potentially lethal. Naloxone and fentanyl test strips are life-saving harm reduction tools."
+      },
       "forms": [
         "powder",
         "tar"
