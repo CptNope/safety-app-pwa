@@ -279,7 +279,7 @@ function QuickTest(){
         if(sections.length > 0 || relevantGuides.length > 0) {
           return (
             <div className="pt-3 border-t border-white/10">
-              <details className="space-y-3">
+              <details open className="space-y-3">
                 <summary className="font-semibold text-sky-200 flex items-center gap-2 cursor-pointer hover:text-sky-100 transition">
                   🔍 Identification Guide
                   <span className="text-xs font-normal opacity-70">({suspect} specific information)</span>
@@ -558,6 +558,139 @@ function QuickTest(){
           </ul>
         </div>
       )}
+      
+      {data.medical_treatment && (()=>{
+        // Map substance to appropriate emergency treatment category
+        const substanceLower = suspect.toLowerCase();
+        const classLower = (s.class || '').toLowerCase();
+        let treatmentKey = null;
+        
+        // Determine which emergency treatment applies
+        if(classLower.includes('opioid') || substanceLower.includes('heroin') || substanceLower.includes('fentanyl') || 
+           substanceLower.includes('morphine') || substanceLower.includes('oxycodone') || substanceLower.includes('codeine')) {
+          treatmentKey = 'opioid_overdose';
+        } else if(classLower.includes('phenethylamine') || classLower.includes('stimulant') || classLower.includes('cathinone') ||
+                  substanceLower.includes('mdma') || substanceLower.includes('cocaine') || substanceLower.includes('meth') ||
+                  substanceLower.includes('amphetamine') || substanceLower.includes('cathinone')) {
+          treatmentKey = 'stimulant_overdose';
+        } else if(classLower.includes('psychedelic') || classLower.includes('tryptamine') || classLower.includes('lysergamide') ||
+                  substanceLower.includes('lsd') || substanceLower.includes('psilocybin') || substanceLower.includes('dmt') ||
+                  substanceLower.includes('nbome') || substanceLower.includes('2c-') || substanceLower.includes('do')) {
+          treatmentKey = 'psychedelic_crisis';
+        } else if(classLower.includes('dissociative') || substanceLower.includes('ketamine') || substanceLower.includes('pcp') ||
+                  substanceLower.includes('dxm') || substanceLower.includes('mxe')) {
+          treatmentKey = 'dissociative_toxicity';
+        } else if(substanceLower.includes('ghb') || substanceLower.includes('gbl')) {
+          treatmentKey = 'ghb_overdose';
+        }
+        
+        // Show serotonin syndrome warning for MDMA
+        const showSerotoninWarning = substanceLower.includes('mdma') || substanceLower.includes('molly');
+        
+        if(!treatmentKey && !showSerotoninWarning) return null;
+        
+        const mt = data.medical_treatment;
+        const treatment = treatmentKey ? mt.hospital_treatments[treatmentKey] : null;
+        
+        return (
+          <div className="pt-3 border-t-2 border-red-500/50 space-y-3">
+            {/* Emergency Response - Always visible */}
+            {mt.emergency_response && (
+              <div className="rounded-xl p-4 bg-red-500/10 border-2 border-red-400/50">
+                <div className="font-bold text-red-200 mb-2 text-lg flex items-center gap-2">
+                  🚨 MEDICAL EMERGENCY RESPONSE
+                </div>
+                <div className="text-xs text-red-100 mb-3 font-semibold">
+                  ⚠️ CALL 911 IMMEDIATELY if experiencing severe symptoms. Good Samaritan laws protect you in 47 states + DC.
+                </div>
+                <div className="space-y-2 text-sm">
+                  <div>
+                    <div className="font-semibold text-red-200">Immediate Actions:</div>
+                    <ul className="list-disc ms-5 space-y-0.5 text-red-100">
+                      {mt.emergency_response.steps.slice(0,4).map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-emerald-200">What to Tell EMS:</div>
+                    <ul className="list-disc ms-5 space-y-0.5 text-emerald-100">
+                      {mt.emergency_response.what_to_tell_ems.slice(0,3).map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-orange-200">DO NOT:</div>
+                    <ul className="list-disc ms-5 space-y-0.5 text-orange-100">
+                      {mt.emergency_response.do_not.slice(0,3).map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            )}
+            
+            {/* Substance-Specific Hospital Treatment - Always visible */}
+            {treatment && (
+              <div className="rounded-xl p-4 bg-rose-500/10 border-2 border-rose-400/50 space-y-3">
+                <div className="font-bold text-rose-200 text-lg">{treatment.name}</div>
+                
+                {treatment.signs && (
+                  <div>
+                    <div className="font-semibold text-red-200 flex items-center gap-1">⚠️ Emergency Signs:</div>
+                    <ul className="list-disc ms-5 text-sm space-y-0.5 text-red-100 mt-1">
+                      {treatment.signs.map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                )}
+                
+                {treatment.prehospital && (
+                  <div>
+                    <div className="font-semibold text-amber-200">Before Hospital Arrival:</div>
+                    <ul className="list-disc ms-5 text-sm space-y-0.5 text-amber-100 mt-1">
+                      {treatment.prehospital.map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                )}
+                
+                {treatment.hospital && (
+                  <div>
+                    <div className="font-semibold text-sky-200">Hospital Treatment:</div>
+                    <ul className="list-disc ms-5 text-sm space-y-0.5 text-sky-100 mt-1">
+                      {treatment.hospital.map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                )}
+                
+                {treatment.notes && (
+                  <div className="rounded-lg p-2 bg-sky-500/10 border border-sky-400/30">
+                    <div className="font-semibold text-sky-200 text-sm">Critical Notes:</div>
+                    <ul className="list-disc ms-5 text-sm space-y-0.5 text-sky-100 mt-1">
+                      {treatment.notes.map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+            
+            {/* Serotonin Syndrome Warning for MDMA - Always visible */}
+            {showSerotoninWarning && mt.hospital_treatments?.serotonin_syndrome && (
+              <div className="rounded-xl p-4 bg-purple-500/10 border-2 border-purple-400/50 space-y-2">
+                <div className="font-bold text-purple-200 flex items-center gap-2">
+                  ⚠️ Serotonin Syndrome Risk (MDMA + Antidepressants)
+                </div>
+                <div className="text-xs text-purple-100 font-semibold">
+                  NEVER combine MDMA with SSRIs, SNRIs, or MAOIs - can be life-threatening!
+                </div>
+                {mt.hospital_treatments.serotonin_syndrome.signs && (
+                  <div>
+                    <div className="font-semibold text-red-200 text-sm">Warning Signs:</div>
+                    <ul className="list-disc ms-5 text-sm space-y-0.5 text-red-100">
+                      {mt.hospital_treatments.serotonin_syndrome.signs.map((s,i)=><li key={i}>{s}</li>)}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      })()}
       
       {data.vendors && (()=>{
         // Get reagents needed for this substance
