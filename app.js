@@ -163,6 +163,165 @@ function QuickTest(){
           </ul>
         </div>
       )}
+      {s.forms && s.forms.length > 0 && data.id_guide && (()=>{
+        const sections = [];
+        
+        // Check for counterfeit pill warning (opioids, benzos in tablet/pill form)
+        const isPillForm = s.forms.some(f => f.toLowerCase().includes('tablet') || f.toLowerCase().includes('pill'));
+        const isOpioidOrBenzo = s.class && (s.class.toLowerCase().includes('opioid') || s.class.toLowerCase().includes('benzo'));
+        if(isPillForm && isOpioidOrBenzo && data.id_guide.counterfeit_rx_pills) {
+          sections.push({type: 'counterfeit', data: data.id_guide.counterfeit_rx_pills});
+        }
+        
+        // Check for cutting agents
+        const substanceLower = suspect.toLowerCase();
+        const cuttingAgents = data.id_guide.common_cutting_agents;
+        if(cuttingAgents) {
+          let cutsField = null;
+          if(substanceLower.includes('cocaine')) cutsField = 'cocaine_cuts';
+          else if(substanceLower.includes('mdma')) cutsField = 'mdma_cuts';
+          else if(substanceLower.includes('heroin')) cutsField = 'heroin_cuts';
+          else if(substanceLower.includes('meth')) cutsField = 'meth_cuts';
+          else if(substanceLower.includes('ketamine')) cutsField = 'ketamine_cuts';
+          
+          if(cutsField && cuttingAgents[cutsField]) {
+            sections.push({type: 'cutting', field: cutsField, data: cuttingAgents});
+          }
+        }
+        
+        // Check for crystal characteristics
+        const isCrystalForm = s.forms.some(f => f.toLowerCase().includes('crystal'));
+        const crystalChars = data.id_guide.crystal_characteristics;
+        if(isCrystalForm && crystalChars) {
+          let crystalField = null;
+          if(substanceLower.includes('mdma')) crystalField = 'mdma_crystal';
+          else if(substanceLower.includes('meth')) crystalField = 'meth_crystal';
+          else if(substanceLower.includes('dmt')) crystalField = 'dmt_crystal';
+          
+          if(crystalField && crystalChars[crystalField]) {
+            sections.push({type: 'crystal', field: crystalField, data: crystalChars});
+          }
+        }
+        
+        // Get ID Guide sections for this substance's forms
+        const relevantGuides = s.forms
+          .map(form => {
+            const formKey = form.toLowerCase().replace(/\s+/g, '_').replace(/[()]/g, '');
+            const guideKeys = {
+              'blotter': 'blotter',
+              'gel_tab': 'gel_tab',
+              'capsule': 'capsule',
+              'powder': 'powder',
+              'tablet': 'tablet',
+              'pressed_pill': 'tablet',
+              'crystal': 'crystal',
+              'microdot': 'microdot',
+              'liquid': 'liquid',
+              'mushroom': 'mushroom',
+              'rock': 'rock_chunk',
+              'crack': 'rock_chunk',
+              'tar': 'rock_chunk'
+            };
+            const key = guideKeys[formKey] || formKey;
+            return data.id_guide[key] ? {form, guide: data.id_guide[key]} : null;
+          })
+          .filter(Boolean);
+        
+        if(sections.length > 0 || relevantGuides.length > 0) {
+          return (
+            <div className="pt-3 border-t border-white/10 space-y-3">
+              <div className="font-semibold text-sky-200 flex items-center gap-2">
+                🔍 Identification Guide
+                <span className="text-xs font-normal opacity-70">({suspect} specific information)</span>
+              </div>
+              
+              {/* Counterfeit Pills Warning */}
+              {sections.filter(s => s.type === 'counterfeit').map((section, idx) => (
+                <div key={`cf-${idx}`} className="rounded-xl p-3 bg-red-500/10 border border-red-400/30">
+                  <div className="font-semibold text-red-200 mb-2">🚨 {section.data.name}</div>
+                  {section.data.reality_check && (
+                    <div className="mb-2">
+                      <div className="text-xs font-semibold text-red-300 mb-1">⚠️ Critical Warning:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-red-100">
+                        {section.data.reality_check.map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {section.data.visual_tells && (
+                    <div className="mb-2">
+                      <div className="text-xs font-semibold text-amber-300 mb-1">Visual Identification:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-amber-100">
+                        {section.data.visual_tells.slice(0, 4).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {section.data.testing && (
+                    <div>
+                      <div className="text-xs font-semibold text-sky-300 mb-1">Testing:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-sky-100">
+                        {section.data.testing.slice(0, 3).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ))}
+              
+              {/* Cutting Agents */}
+              {sections.filter(s => s.type === 'cutting').map((section, idx) => (
+                <div key={`cut-${idx}`} className="rounded-xl p-3 bg-orange-500/10 border border-orange-400/30">
+                  <div className="font-semibold text-orange-200 mb-2">⚗️ Common Cutting Agents</div>
+                  <ul className="list-disc ms-5 text-sm space-y-0.5 text-orange-100">
+                    {section.data[section.field].map((item, i) => <li key={i}>{item}</li>)}
+                  </ul>
+                </div>
+              ))}
+              
+              {/* Crystal Characteristics */}
+              {sections.filter(s => s.type === 'crystal').map((section, idx) => (
+                <div key={`crys-${idx}`} className="rounded-xl p-3 bg-purple-500/10 border border-purple-400/30">
+                  <div className="font-semibold text-purple-200 mb-2">💎 Crystal Characteristics</div>
+                  <ul className="list-disc ms-5 text-sm space-y-0.5 text-purple-100">
+                    {section.data[section.field].map((item, i) => <li key={i}>{item}</li>)}
+                  </ul>
+                </div>
+              ))}
+              
+              {/* Form-specific guides */}
+              {relevantGuides.map(({form, guide}, idx) => (
+                <div key={idx} className="rounded-xl p-3 bg-sky-500/10 border border-sky-400/30">
+                  <div className="font-semibold text-sky-200 mb-2">{guide.name}</div>
+                  {guide.tips && (
+                    <div className="mb-2">
+                      <div className="text-xs font-semibold text-sky-300 mb-1">Testing Tips:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-sky-100">
+                        {guide.tips.map((tip, i) => <li key={i}>{tip}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {guide.safety && (
+                    <div className="mb-2">
+                      <div className="text-xs font-semibold text-amber-300 mb-1">⚠️ Safety:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-amber-100">
+                        {guide.safety.map((s, i) => <li key={i}>{s}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {guide.uv_hacks && (
+                    <div>
+                      <div className="text-xs font-semibold text-purple-300 mb-1">UV Light Notes:</div>
+                      <ul className="list-disc ms-5 text-sm space-y-0.5 text-purple-100">
+                        {guide.uv_hacks.map((uv, i) => <li key={i}>{uv}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          );
+        }
+        return null;
+      })()}
+      
       {s.notes && s.notes.length > 0 && (
         <div className="pt-3 border-t border-white/10 rounded-xl p-3 bg-amber-500/10 border border-amber-400/30">
           <div className="font-semibold text-amber-200 mb-2 flex items-center gap-2">
