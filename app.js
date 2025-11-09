@@ -558,6 +558,123 @@ function QuickTest(){
         return null;
       })()}
       
+      {data.myths_and_misinformation && (()=>{
+        // Find relevant myths for this substance
+        const relevantMyths = [];
+        const substanceLower = suspect.toLowerCase();
+        
+        // Keywords to match for different substances
+        const mythKeywords = {
+          'fentanyl': ['fentanyl'],
+          'heroin': ['heroin', 'opioid'],
+          'cocaine': ['cocaine'],
+          'mdma': ['mdma', 'molly', 'ecstasy'],
+          'lsd': ['lsd', 'acid'],
+          'methamphetamine': ['meth'],
+          'naloxone': ['naloxone', 'narcan'],
+          'cannabis': ['cannabis', 'marijuana', 'thc'],
+          'kratom': ['kratom'],
+          'mushroom': ['mushroom']
+        };
+        
+        // Get keywords for this substance
+        let keywords = [];
+        for(const [key, words] of Object.entries(mythKeywords)) {
+          if(substanceLower.includes(key)) {
+            keywords = words;
+            break;
+          }
+        }
+        
+        // Also match by class
+        if(s.class) {
+          const classLower = s.class.toLowerCase();
+          if(classLower.includes('opioid')) keywords.push('opioid', 'overdose', 'naloxone');
+          if(classLower.includes('psychedelic') || classLower.includes('tryptamine')) keywords.push('psychedelic', 'trip');
+          if(classLower.includes('stimulant')) keywords.push('stimulant');
+          if(classLower.includes('benzo')) keywords.push('benzo', 'xanax');
+        }
+        
+        // Search through all myth categories
+        if(keywords.length > 0 && data.myths_and_misinformation.categories) {
+          data.myths_and_misinformation.categories.forEach(category => {
+            if(category.myths) {
+              category.myths.forEach(myth => {
+                const mythText = (myth.myth + ' ' + myth.reality + ' ' + myth.truth).toLowerCase();
+                if(keywords.some(keyword => mythText.includes(keyword))) {
+                  relevantMyths.push({...myth, category: category.category});
+                }
+              });
+            }
+          });
+        }
+        
+        // Limit to top 3 most critical myths
+        const topMyths = relevantMyths
+          .sort((a, b) => {
+            const priority = {critical: 0, high: 1, medium: 2, low: 3};
+            return priority[a.danger_level] - priority[b.danger_level];
+          })
+          .slice(0, 3);
+        
+        if(topMyths.length > 0) {
+          return (
+            <div className="pt-3 border-t border-white/10">
+              <details className="space-y-3">
+                <summary className="font-semibold text-amber-200 flex items-center gap-2 cursor-pointer hover:text-amber-100 transition">
+                  ⚠️ Common Myths & Misinformation
+                  <span className="text-xs font-normal opacity-70">({topMyths.length} debunked)</span>
+                </summary>
+                <div className="space-y-2 mt-3">
+                  {topMyths.map((myth, idx) => {
+                    const colorClasses = {
+                      critical: 'bg-red-500/10 border-red-400/30',
+                      high: 'bg-orange-500/10 border-orange-400/30',
+                      medium: 'bg-amber-500/10 border-amber-400/30',
+                      low: 'bg-yellow-500/10 border-yellow-400/30'
+                    };
+                    const badgeColors = {
+                      critical: 'bg-red-500/30 text-red-200',
+                      high: 'bg-orange-500/30 text-orange-200',
+                      medium: 'bg-amber-500/30 text-amber-200',
+                      low: 'bg-yellow-500/30 text-yellow-200'
+                    };
+                    const colorClass = colorClasses[myth.danger_level] || colorClasses.medium;
+                    const badgeColor = badgeColors[myth.danger_level] || badgeColors.medium;
+                    
+                    return (
+                      <div key={idx} className={`rounded-xl p-3 border ${colorClass}`}>
+                        <div className="flex items-start gap-2 mb-2">
+                          <div className="flex-1">
+                            <div className="font-semibold text-red-200 text-sm mb-1">
+                              ❌ MYTH: "{myth.myth}"
+                            </div>
+                          </div>
+                          <div className={`text-xs px-2 py-0.5 rounded ${badgeColor} font-semibold uppercase`}>
+                            {myth.danger_level}
+                          </div>
+                        </div>
+                        <div className="text-sm space-y-1">
+                          <div>
+                            <span className="font-semibold text-amber-200">Reality:</span>
+                            <span className="text-amber-100"> {myth.reality}</span>
+                          </div>
+                          <div className="pt-1 border-t border-white/10">
+                            <span className="font-semibold text-emerald-200">✓ Truth:</span>
+                            <span className="text-emerald-100"> {myth.truth}</span>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </details>
+            </div>
+          );
+        }
+        return null;
+      })()}
+      
       {s.links && (
         <div className="pt-3 border-t border-white/10 space-y-2">
           <div className="text-xs text-gray-300">
