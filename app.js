@@ -868,30 +868,30 @@ function QuickTest(){
           }
         }
         
-        // Also match by class (add to existing keywords)
-        if(s.class) {
+        // Only add class-based keywords if no specific keywords found
+        if(keywords.length === 0 && s.class) {
           const classLower = s.class.toLowerCase();
-          if(classLower.includes('opioid')) keywords.push('opioid', 'overdose', 'naloxone', 'narcan', 'heroin', 'fentanyl');
-          if(classLower.includes('psychedelic') || classLower.includes('tryptamine')) keywords.push('psychedelic', 'trip', 'flashback', 'bad trip');
-          if(classLower.includes('stimulant') || classLower.includes('phenethylamine')) keywords.push('stimulant', 'meth', 'cocaine', 'speedball');
-          if(classLower.includes('benzo')) keywords.push('benzo', 'benzodiazepine', 'xanax', 'withdrawal', 'fake', 'counterfeit');
-          if(classLower.includes('dissociative')) keywords.push('dissociative', 'ketamine', 'k-hole');
-          if(classLower.includes('empathogen')) keywords.push('mdma', 'molly', 'ecstasy', 'empathogen');
+          if(classLower.includes('opioid')) keywords = ['opioid', 'naloxone', 'narcan'];
+          else if(classLower.includes('psychedelic') || classLower.includes('tryptamine')) keywords = ['psychedelic', 'lsd', 'mushroom'];
+          else if(classLower.includes('benzo')) keywords = ['benzo', 'benzodiazepine', 'xanax'];
+          else if(classLower.includes('dissociative')) keywords = ['dissociative', 'ketamine'];
         }
         
-        // Add universal testing/safety keywords for all substances
-        keywords.push('test', 'overdose', 'purity', 'adulterant', 'cut');
-        
-        // Remove duplicates
-        keywords = [...new Set(keywords)];
-        
-        // Search through all myth categories
+        // Search through all myth categories with stricter matching
         if(keywords.length > 0 && data.myths_and_misinformation.categories) {
           data.myths_and_misinformation.categories.forEach(category => {
             if(category.myths) {
               category.myths.forEach(myth => {
                 const mythText = (myth.myth + ' ' + myth.reality + ' ' + myth.truth).toLowerCase();
-                if(keywords.some(keyword => mythText.includes(keyword))) {
+                
+                // Require at least one primary keyword to match
+                const primaryMatch = keywords.slice(0, 3).some(keyword => mythText.includes(keyword));
+                
+                // Or require the actual substance name to appear
+                const substanceNameMatch = mythText.includes(substanceLower);
+                
+                // Only include if primary match or substance name appears
+                if(primaryMatch || substanceNameMatch) {
                   relevantMyths.push({...myth, category: category.category});
                 }
               });
