@@ -689,6 +689,12 @@
     },
     "5-MeO-DMT": {
       "class": "tryptamine (indole)",
+      "description": {
+        "overview": "5-Methoxy-N,N-Dimethyltryptamine (5-MeO-DMT) is an extremely potent, fast-acting psychedelic tryptamine distinct from DMT. Produces intense ego dissolution, unity experiences, and 'white light' phenomena rather than DMT's colorful visuals and entities. Naturally found in various plants and Colorado River toad (Bufo alvarius) venom. Effects last 15-45 minutes but feel timeless. Considered one of the most powerful psychedelics.",
+        "origins": "Isolated from plant sources in 1936. Found in Bufo alvarius (Sonoran Desert toad) venom in 1965. Synthetic version available. Traditional use by indigenous South American tribes in yopo snuff (Anadenanthera). Modern use popularized by ethnobotanist Jonathan Ott and later by 'toad smoking' phenomenon. Not as culturally widespread as DMT or ayahuasca. Recently scheduled in many countries but research ongoing.",
+        "uses": "Traditional: Yopo snuff ceremonies. Modern: Ego death experiences, mystical/spiritual exploration, therapeutic potential for trauma/addiction. Some report life-changing realizations and healing. Effects: Complete dissolution of self, unity with universe, 'white light,' profound peace or terror depending on set/setting. Minimal visuals compared to DMT—more about internal experience. Duration 15-45 minutes when smoked/vaporized. Typical dose 5-20mg (extremely potent). Sometimes used in therapeutic contexts but requires experienced facilitation.",
+        "dangers": "EXTREMELY INTENSE—overwhelming even for experienced psychedelic users. Can be terrifying if unprepared—complete ego death with no frame of reference. Risk of physical injury during experience (thrashing, falling). Should never be used standing or near hazards. Respiratory depression possible at high doses or combinations. Dangerous with MAOIs (serotonin syndrome, hypertensive crisis). Toad venom harvesting harms endangered species—synthetic preferred. Very difficult to distinguish from DMT by appearance—lab testing recommended. Psychological integration challenges post-experience. Can trigger lasting existential crisis or spiritual emergency. Contraindicated for heart conditions (cardiovascular stress). Not for recreational use—requires serious intention and safe setting. Reports of deaths from improper use or combinations."
+      },
       "forms": [
         "freebase powder",
         "crystal"
@@ -795,6 +801,12 @@
     },
     "DXM": {
       "class": "dissociative (morphinan)",
+      "description": {
+        "overview": "Dextromethorphan (DXM) is an over-the-counter cough suppressant that produces dissociative and hallucinogenic effects at high doses. Found in many cough syrups and cold medications, it's one of the most accessible psychoactive substances. Effects are dose-dependent with distinct 'plateaus' of intensity, from mild euphoria to complete dissociation.",
+        "origins": "Developed in the 1950s-60s as a safer, non-addictive alternative to codeine for cough suppression. FDA-approved and widely available OTC since 1958. Recreational use documented since the 1960s but became more popular in the 1990s-2000s with internet information sharing. Often extracted from cough syrups (cold water extraction) to avoid consuming harmful additives.",
+        "uses": "Medical: Cough suppressant in cold/flu medications (Robitussin, NyQuil, Delsym). Typical therapeutic dose 15-30mg. Recreational: Dissociative effects, 'robo-tripping,' visual distortions, euphoria. Doses range from 100mg (first plateau) to 1500mg+ (fourth plateau, complete dissociation). Popular among teenagers due to legal accessibility. Some report antidepressant effects at low doses.",
+        "dangers": "Serotonin syndrome risk, especially when combined with antidepressants (SSRIs, MAOIs). Respiratory depression at high doses. Nausea and vomiting common ('robo-itch'). Cough syrups contain dangerous additives: acetaminophen (liver damage), guaifenesin (nausea), antihistamines (dangerous combinations). Dissociation can lead to injury from falls or accidents. Tolerance develops rapidly with frequent use. Psychological addiction possible. Chronic abuse linked to brain lesions (Olney's lesions - debated). Some products contain high amounts of acetaminophen which can cause fatal liver failure at recreational DXM doses. Always check active ingredients carefully."
+      },
       "forms": [
         "syrup",
         "pill",
@@ -830,6 +842,12 @@
     },
     "Mescaline": {
       "class": "phenethylamine (psychedelic)",
+      "description": {
+        "overview": "Mescaline is a naturally occurring psychedelic alkaloid found in peyote, San Pedro, and other cacti. One of the oldest known psychedelics, producing visual hallucinations, altered perception, and spiritual experiences similar to psilocybin and LSD but with a unique character. Effects last 10-12 hours with relatively gentle come-up and minimal body load compared to synthetic psychedelics.",
+        "origins": "Used by indigenous peoples of Mexico and southwestern US for at least 5,700 years in religious ceremonies. Peyote central to Native American Church practices (legally protected for members). Isolated in 1897, synthesized in 1919. Studied by early psychedelic researchers in 1950s-60s. Aldous Huxley's 'The Doors of Perception' (1954) popularized mescaline experiences. Scheduled in 1970 but peyote use remains legal for Native American Church.",
+        "uses": "Traditional: Sacred medicine in indigenous ceremonies, vision quests, healing rituals (peyote and San Pedro). Recreational: Visual hallucinations, introspection, nature connection, spiritual experiences. San Pedro cactus tea more common than peyote due to conservation concerns. Typical dose 200-400mg mescaline or equivalent cactus material. Duration 10-12 hours. Known for warm, empathogenic quality alongside psychedelic effects.",
+        "dangers": "Physiologically very safe—no lethal dose established. Primary risks psychological: bad trips, anxiety, paranoia especially at high doses or unsafe settings. Nausea and vomiting common during come-up (traditional preparation includes purging as spiritual cleansing). Cactus preparations can cause more stomach discomfort than pure mescaline. Can trigger latent mental health conditions. Peyote endangered due to overharvesting—ethical concerns with non-traditional use. San Pedro more sustainable. Contraindicated with heart conditions (slight cardiovascular stimulation). Very long duration can be exhausting. Set and setting crucial. Legal status: mescaline Schedule I, but peyote legal for Native American Church, San Pedro often legal as ornamental cactus."
+      },
       "forms": [
         "powder",
         "capsule",
@@ -872,94 +890,14 @@
         "erowid": "https://www.erowid.org/chemicals/mescaline/"
       }
     },
-    "DOI": {
-      "class": "phenethylamine (psychedelic, DOx)",
-      "forms": [
-        "blotter",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#2F4F4F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark gray→black"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green→dark green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808080",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "gray→olive"
-        }
-      ],
-      "notes": [
-        "Long duration (16-30h). Sometimes mis-sold as LSD. Does NOT react with Ehrlich (not an indole)."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-iodoamphetamine",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
-      }
-    },
-    "Bromo-DragonFLY": {
-      "class": "phenethylamine (psychedelic, benzodifuran)",
-      "forms": [
-        "blotter",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→yellow-orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808080",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "gray→olive"
-        }
-      ],
-      "notes": [
-        "EXTREMELY potent and long-lasting (up to 3 days). Very dangerous due to vasoconstriction. Often mis-sold. Does NOT react with Ehrlich."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Bromo-DragonFLY",
-        "erowid": "https://www.erowid.org/chemicals/bromo_dragonfly/"
-      }
-    },
     "25I-NBOMe": {
       "class": "phenethylamine (NBOMe series)",
+      "description": {
+        "overview": "25I-NBOMe (2C-I-NBOMe) is a potent synthetic psychedelic from the NBOMe series, often sold as 'LSD' on blotter paper. Produces intense visual hallucinations and stimulation but is significantly more dangerous than LSD with numerous deaths reported. Distinctive bitter/metallic taste (LSD is tasteless) and causes severe tongue numbness. Active at sub-milligram doses, highly dose-sensitive with narrow safety margin.",
+        "origins": "Synthesized in 2003 by chemist Ralf Heim at Free University of Berlin for serotonin receptor research. Never intended for human consumption. Appeared on recreational market around 2010 as 'legal LSD alternative' and frequently sold as actual LSD. Multiple deaths reported 2012-2015 led to emergency scheduling. Part of NBOMe series (25I, 25C, 25B) all with similar dangers.",
+        "uses": "No medical use. Recreational: Intense visual hallucinations, euphoria, stimulation. Often consumed unknowingly when sold as LSD. Typical dose 200-800mcg on blotter (appears identical to LSD blotter). Effects 6-10 hours. Some users sought NBOMe specifically for intense visuals, but deaths and unpredictability have reduced intentional use. Harm reduction communities strongly discourage NBOMe use and emphasize testing all 'LSD' with Ehrlich reagent.",
+        "dangers": "MULTIPLE DEATHS REPORTED—can be fatal at doses barely above 'normal' recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless and causes no numbness—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: increased heart rate and blood pressure to dangerous levels, risk of stroke/heart attack. Psychological: anxiety, paranoia, panic, bad trips. Some users have died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD putting unsuspecting users at risk. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT IMMEDIATELY."
+      },
       "forms": [
         "blotter",
         "powder"
@@ -1010,1589 +948,17 @@
         "erowid": "https://www.erowid.org/chemicals/nbome/"
       }
     },
-    "2C-I": {
-      "class": "phenethylamine (2C-x series)",
-      "forms": [
-        "powder",
-        "capsule",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown→dark brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown→dark brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green→olive-brown"
-        }
-      ],
-      "notes": [
-        "Part of 2C-x family. Can be difficult to distinguish from other 2C compounds with reagents alone."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-I",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal034.shtml"
-      }
-    },
-    "2C-E": {
-      "class": "phenethylamine (2C-x series)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "sienna-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#556B2F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark olive-green"
-        }
-      ],
-      "notes": [
-        "Similar reactions to 2C-I. Lab testing recommended to differentiate between 2C-x compounds."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-E",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal024.shtml"
-      }
-    },
-    "4-AcO-DMT": {
-      "class": "tryptamine (indole, psilocin prodrug)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple/violet (indole)"
-        },
-        {
-          "reagent": "hofmann",
-          "color": "#7E4E9B",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan→brown"
-        }
-      ],
-      "notes": [
-        "Research chemical; converts to psilocin in body. Similar effects to psilocybin mushrooms."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/O-Acetylpsilocin",
-        "erowid": "https://www.erowid.org/chemicals/4_acetoxy_dmt/"
-      }
-    },
-    "3-MMC": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→yellow-green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#A9A9A9",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "gray→olive"
-        }
-      ],
-      "notes": [
-        "Cathinone research chemical. Popular replacement for banned stimulants. Reagent reactions vary by batch."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/3-Methylmethcathinone",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_3MMC.shtml"
-      }
-    },
-    "4-MMC": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange-brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→green-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#556B2F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-green"
-        }
-      ],
-      "notes": [
-        "Mephedrone. Banned in many countries but still in circulation. Similar reactions to other cathinones."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Mephedrone",
-        "erowid": "https://www.erowid.org/chemicals/4_methylmethcathinone/"
-      }
-    },
-    "MDEA": {
-      "class": "entactogen (phenethylamine)",
-      "forms": [
-        "powder",
-        "capsule",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#4B0082",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark purple→black"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#1a1a2e",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark blue→black"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#00008B",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark blue"
-        },
-        {
-          "reagent": "simons",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "MDE or 'Eve'. Similar to MDMA but less common. Often sold as MDMA. Simon's negative (no secondary amine)."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxy-N-ethylamphetamine",
-        "erowid": "https://www.erowid.org/chemicals/mdea/"
-      }
-    },
-    "DOM": {
-      "class": "psychedelic amphetamine",
-      "forms": [
-        "blotter",
-        "powder",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive→green"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "DOx compound. Very long duration (14-24h). Often sold on blotter. Not an indole (Ehrlich negative)."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-methylamphetamine",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
-      }
-    },
-    "DOB": {
-      "class": "psychedelic amphetamine",
-      "forms": [
-        "blotter",
-        "powder",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→yellow-green"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#32CD32",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "DOx compound. Very long duration (18-30h). Extremely potent. Often sold as LSD. Ehrlich negative."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-bromoamphetamine",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal062.shtml"
-      }
-    },
-    "25C-NBOMe": {
-      "class": "psychedelic (NBOMe)",
-      "forms": [
-        "blotter",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→green"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#32CD32",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "NBOMe series. DANGEROUS - can be fatal. Sold as LSD. Bitter/metallic taste. Ehrlich negative. If blotter tastes bitter, SPIT IT OUT."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/25C-NBOMe",
-        "erowid": "https://www.erowid.org/chemicals/nbome/"
-      }
-    },
-    "25B-NBOMe": {
-      "class": "psychedelic (NBOMe)",
-      "forms": [
-        "blotter",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#90EE90",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "light green"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "NBOMe series. DANGEROUS - potentially fatal. Sold as LSD. Bitter taste. Ehrlich negative. NEVER consume bitter blotter."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/25B-NBOMe",
-        "erowid": "https://www.erowid.org/chemicals/nbome/"
-      }
-    },
-    "Methylone": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow-brown→green"
-        },
-        {
-          "reagent": "simons",
-          "color": "#1F66FF",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "blue"
-        }
-      ],
-      "notes": [
-        "bk-MDMA. Cathinone often sold as MDMA. Simon's positive (blue) but different from MDMA reactions on other tests."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methylone",
-        "erowid": "https://www.erowid.org/chemicals/methylone/"
-      }
-    },
-    "MDPV": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→orange-brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        }
-      ],
-      "notes": [
-        "Bath salts. Very potent stimulant. Dangerous - compulsive redosing, paranoia, psychosis. Handle with extreme caution."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methylenedioxypyrovalerone",
-        "erowid": "https://www.erowid.org/chemicals/mdpv/"
-      }
-    },
-    "Alpha-PVP": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF6347",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→red-brown"
-        }
-      ],
-      "notes": [
-        "Flakka. Extremely potent synthetic cathinone. Linked to violent behavior and psychosis. Very dangerous."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Alpha-Pyrrolidinopentiophenone",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_alphaPVP.shtml"
-      }
-    },
-    "Oxycodone": {
-      "class": "opioid",
-      "forms": [
-        "tablet",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction or very faint"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#32CD32",
-          "window_s": [
-            0,
-            90
-          ],
-          "alt": "yellow-green (slow)"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "Prescription opioid. Pressed pills often contain fentanyl. ALWAYS use fentanyl test strips with any pill."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Oxycodone",
-        "erowid": "https://www.erowid.org/pharms/oxycodone/"
-      }
-    },
-    "Morphine": {
-      "class": "opioid",
-      "forms": [
-        "powder",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B008B",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "purple→violet"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#006400",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808080",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "grey-green"
-        }
-      ],
-      "notes": [
-        "Classic opioid. Reagents show reactions but fentanyl test strips essential for street samples."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Morphine",
-        "erowid": "https://www.erowid.org/pharms/morphine/"
-      }
-    },
-    "2C-P": {
-      "class": "phenethylamine (2C-x series)",
-      "forms": [
-        "powder",
-        "capsule",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "sienna-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "forest green"
-        }
-      ],
-      "notes": [
-        "Very long duration (10-20h). Potent 2C compound. Similar reagent reactions to other 2C-x."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-P",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal039.shtml"
-      }
-    },
-    "2C-D": {
-      "class": "phenethylamine (2C-x series)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#6B8E23",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-green"
-        }
-      ],
-      "notes": [
-        "Milder 2C compound. Lower potency than 2C-B. Similar reagent pattern to other 2C-x."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-D",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal022.shtml"
-      }
-    },
-    "2C-T-7": {
-      "class": "phenethylamine (2C-x series)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#696969",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "grey-green"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B7355",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown-grey"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#708090",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "slate grey→green"
-        }
-      ],
-      "notes": [
-        "Sulfur-containing 2C variant. Long duration. Unique reagent colors due to sulfur group."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-T-7",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal046.shtml"
-      }
-    },
-    "5-MeO-MiPT": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple (indole)"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow-orange"
-        }
-      ],
-      "notes": [
-        "Moxy. Tryptamine with stimulating and psychedelic effects. Ehrlich positive confirms indole."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-MiPT",
-        "erowid": "https://www.erowid.org/chemicals/5meo_mipt/"
-      }
-    },
-    "5-MeO-DiPT": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple (indole)"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan-orange"
-        }
-      ],
-      "notes": [
-        "Foxy. Tryptamine with unique effects profile. Ehrlich positive."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DiPT",
-        "erowid": "https://www.erowid.org/chemicals/5meo_dipt/"
-      }
-    },
-    "4-HO-MET": {
-      "class": "tryptamine (indole, psilocin analogue)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple/violet"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        }
-      ],
-      "notes": [
-        "Metocin. Psilocin analogue with similar effects. Ehrlich positive indole reaction."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/4-HO-MET",
-        "erowid": "https://www.erowid.org/chemicals/4_ho_met/"
-      }
-    },
-    "4-HO-MiPT": {
-      "class": "tryptamine (indole, psilocin analogue)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        }
-      ],
-      "notes": [
-        "Miprocin. Similar to psilocybin/4-AcO-DMT. Ehrlich confirms indole."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/4-HO-MiPT",
-        "erowid": "https://www.erowid.org/chemicals/4_ho_mipt/"
-      }
-    },
-    "3-MeO-PCP": {
-      "class": "dissociative (arylcyclohexylamine)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-yellow"
-        }
-      ],
-      "notes": [
-        "PCP analogue. Potent dissociative. Long duration. Handle with caution."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/3-MeO-PCP",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_3MeOPCP.shtml"
-      }
-    },
-    "Ethylone": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange-brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→green-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive→green"
-        }
-      ],
-      "notes": [
-        "bk-MDEA. Cathinone sold as MDMA or Methylone. Difficult to distinguish from other cathinones."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Ethylone",
-        "erowid": "https://www.erowid.org/chemicals/ethylone/"
-      }
-    },
-    "Pentedrone": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark orange"
-        }
-      ],
-      "notes": [
-        "Synthetic cathinone. Similar structure to MDPV. Reagent testing helps narrow down but lab test recommended."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Pentedrone",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_Pentedrone.shtml"
-      }
-    },
-    "Butylone": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→greenish"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-green"
-        }
-      ],
-      "notes": [
-        "bk-MBDB. Cathinone similar to Methylone and Ethylone. Often sold as MDMA or research chemical."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Butylone",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_Butylone.shtml"
-      }
-    },
-    "NEP": {
-      "class": "cathinone (stimulant)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        }
-      ],
-      "notes": [
-        "N-Ethylpentedrone. Research chemical cathinone. Similar structure to pentedrone and MDPV."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/N-Ethylpentedrone",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_NEthylpentedrone.shtml"
-      }
-    },
-    "AMT": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "capsule",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple (indole)"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan→brown"
-        }
-      ],
-      "notes": [
-        "Alpha-Methyltryptamine. Long duration tryptamine (12-24h). Ehrlich positive. MAO inhibitor properties."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Alpha-Methyltryptamine",
-        "erowid": "https://www.erowid.org/chemicals/amt/"
-      }
-    },
-    "5-MeO-AMT": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple (indole)"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow-orange"
-        }
-      ],
-      "notes": [
-        "5-methoxy-alpha-methyltryptamine. Potent tryptamine with stimulant properties. Ehrlich positive."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-AMT",
-        "erowid": "https://www.erowid.org/chemicals/5meo_amt/"
-      }
-    },
-    "MXE": {
-      "class": "dissociative (arylcyclohexylamine)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        }
-      ],
-      "notes": [
-        "Methoxetamine. Ketamine analogue. Now rare due to ban. Similar dissociative effects but longer duration."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methoxetamine",
-        "erowid": "https://www.erowid.org/chemicals/methoxetamine/"
-      }
-    },
-    "3-MeO-PCE": {
-      "class": "dissociative (arylcyclohexylamine)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#FFFF00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→orange"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-yellow"
-        }
-      ],
-      "notes": [
-        "3-methoxyeticyclidine. PCP/PCE analogue. Potent dissociative research chemical. Long duration."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/3-MeO-PCE",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_3MeOPCE.shtml"
-      }
-    },
-    "DOC": {
-      "class": "psychedelic amphetamine",
-      "forms": [
-        "blotter",
-        "powder",
-        "tablet"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow→green"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#32CD32",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "bright green"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "2,5-Dimethoxy-4-chloroamphetamine. DOx compound. Very long duration (12-24h). Sold on blotter. Ehrlich negative."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-chloroamphetamine",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
-      }
-    },
-    "Allylescaline": {
-      "class": "phenethylamine (mescaline analogue)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "sienna-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-green"
-        }
-      ],
-      "notes": [
-        "Mescaline analogue. Similar effects to mescaline but different pharmacology. Research chemical."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Allylescaline",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal007.shtml"
-      }
-    },
-    "Escaline": {
-      "class": "phenethylamine (mescaline analogue)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#808000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive"
-        }
-      ],
-      "notes": [
-        "Mescaline analogue. Similar structure to mescaline with ethyl groups. Psychedelic phenethylamine."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Escaline",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal033.shtml"
-      }
-    },
-    "Proscaline": {
-      "class": "phenethylamine (mescaline analogue)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark orange"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "chocolate-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#6B8E23",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-drab"
-        }
-      ],
-      "notes": [
-        "Mescaline analogue with propyl groups. Psychedelic effects similar to mescaline but distinct pharmacology."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Proscaline",
-        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal040.shtml"
-      }
-    },
     "Alprazolam": {
       "class": "benzodiazepine",
+      "description": {
+        "overview": "Alprazolam (Xanax) is a fast-acting, potent benzodiazepine prescribed for anxiety and panic disorders. Produces relaxation, sedation, and anxiolytic (anti-anxiety) effects. One of the most prescribed and most abused benzos due to rapid onset and euphoric effects at higher doses. Street 'Xanax' pills frequently counterfeit and contain fentanyl, other benzos (flualprazolam, etizolam), or no active ingredient.",
+        "origins": "Developed by Upjohn (now Pfizer) in late 1960s, FDA-approved 1981. Became one of most prescribed psychiatric medications in US. Short half-life (6-12 hours) makes it effective for acute anxiety but also increases addiction potential. Available in immediate-release tablets (0.25mg to 2mg) and extended-release (Xanax XR). 'Bars' (2mg) became street drug of choice in 2000s-2010s, often combined with opioids or alcohol.",
+        "uses": "Medical: Anxiety disorders, panic disorder, anxiety associated with depression. Short-term use recommended due to tolerance and dependence. Rapid relief of acute anxiety/panic attacks. Recreational: Sedation, disinhibition, euphoria (at high doses), blackout experiences, combining with opioids or alcohol ('lean'). Popular in hip-hop culture. Pressed counterfeit pills widely available on street/dark web. Typical prescribed dose 0.25-2mg; recreational users often take 4-10mg+ leading to blackouts and dangerous behavior.",
+        "dangers": "EXTREMELY ADDICTIVE—physical dependence develops within weeks. Withdrawal can be FATAL (seizures, delirium tremens)—requires medical supervision to safely discontinue. Blackouts and amnesia common at recreational doses leading to dangerous behavior, accidents, sexual assault. Combining with opioids or alcohol frequently FATAL (respiratory depression). Counterfeit 'Xanax' bars often contain fentanyl—numerous overdose deaths. Pressed pills may contain flualprazolam (longer-acting, more sedating RC benzo) or other research chemicals. Tolerance develops rapidly requiring higher doses. Cognitive impairment, motor coordination issues increase fall/accident risk. Paradoxical reactions possible (increased anxiety, aggression). Rebound anxiety when stopping. Elderly particularly vulnerable to falls, confusion, dementia-like symptoms. Reagent tests don't work on benzos—fentanyl test strips essential for any street pills."
+      },
       "forms": [
         "pressed pill",
-        "powder"
+        "tablet"
       ],
       "testing": [
         {
@@ -2664,6 +1030,12 @@
     },
     "Diazepam": {
       "class": "benzodiazepine",
+      "description": {
+        "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
+        "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
+        "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
+        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, delirium tremens). Requires medical supervision to discontinue safely. Long half-life means withdrawal may not start for several days after last dose, then last weeks. Combining with opioids or alcohol frequently FATAL (respiratory depression, overdose). Cognitive impairment, memory problems, motor coordination deficits especially in elderly (fall risk). Paradoxical reactions possible (increased anxiety, aggression). Tolerance develops requiring higher doses. Driving impairment. Chronic use associated with dementia risk (debated). Counterfeit pills may contain fentanyl or research chemical benzos (flualprazolam, etizolam). Reagent tests ineffective for benzos—fentanyl strips essential for street pills. Elderly particularly vulnerable to oversedation, confusion, and falls. Pregnancy category D (causes birth defects)."
+      },
       "forms": [
         "pill",
         "powder"
@@ -2807,520 +1179,175 @@
       }
     },
     "6-APB": {
-      "class": "benzofuran (entactogen)",
-      "forms": [
-        "powder",
-        "capsule",
-        "pill"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#4B0082",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "purple→black"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#1F1F1F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark→black"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
-        }
-      ],
-      "notes": [
-        "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
-        "erowid": "https://www.erowid.org/chemicals/6apb/"
-      }
+    "class": "benzofuran (entactogen)",
+    "description": {
+      "overview": "6-APB (6-(2-Aminopropyl)benzofuran), known as 'Benzo Fury,' is a synthetic empathogen-entactogen and stimulant, chemically related to MDMA and MDA. Produces euphoria, emotional openness, stimulation, and psychedelic visuals. Duration significantly longer than MDMA (8-14 hours). Popular in UK club scenes before being banned. Part of benzofuran family (5-APB, 5-MAPB, etc.).",
+      "origins": "Synthesized in 1993 by David Nichols at Purdue University for research purposes. Remained obscure research chemical until late 2000s. Marketed in UK as legal high under brand name 'Benzo Fury' in early 2010s before being scheduled in 2013. Gained popularity as MDMA substitute when MDMA quality/availability declined in UK. Now Schedule I in most countries but still available on research chemical markets.",
+      "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, music enhancement, dancing, emotional connection. Produces more psychedelic visuals than MDMA, especially at higher doses. Popular at festivals and raves as MDMA alternative. Typical dose 80-120mg; effects last 8-14 hours (much longer than MDMA's 4-6 hours). Some users prefer benzofurans for longer-lasting experiences; others find duration exhausting.",
+      "dangers": "Very long duration can be physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Vasoconstriction. Serotonin depletion worse than MDMA due to longer duration—severe comedown depression possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, eye wiggling (nystagmus), overheating risk. Difficult to sleep for 12-18 hours after dosing. Higher doses produce intense psychedelic effects that can be overwhelming. Limited research on long-term effects. Sold as MDMA or mixed into pills—always test. Reagent reactions similar to MDMA but distinguishable with multiple reagents. Tolerance develops; cross-tolerance with MDMA. Recommended waiting period 3+ months between uses like MDMA."
     },
-    "5-APB": {
-      "class": "benzofuran (entactogen)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B008B",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark magenta"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#2F4F4F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark slate"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#556B2F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "olive-green"
-        }
-      ],
-      "notes": [
-        "Similar to 6-APB but slightly different pharmacology. MDMA-like empathogenic effects."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-APB",
-        "erowid": "https://www.erowid.org/chemicals/5apb/"
-      }
-    },
-    "5-MAPB": {
-      "class": "benzofuran (entactogen)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#483D8B",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark slate blue"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#2F4F4F",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark slate gray"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "forest green"
-        }
-      ],
-      "notes": [
-        "Benzofuran empathogen. More selective serotonin release than 5/6-APB. Often considered most MDMA-like benzofuran."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MAPB",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_5MAPB.shtml"
-      }
-    },
-    "Methylphenidate": {
-      "class": "stimulant (pharmaceutical)",
-      "forms": [
-        "pill",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF8C00",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark orange"
-        }
-      ],
-      "notes": [
-        "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
-        "erowid": "https://www.erowid.org/pharms/methylphenidate/"
-      }
-    },
-    "Lisdexamfetamine": {
-      "class": "stimulant (prodrug)",
-      "forms": [
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FF4500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange-red"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF6347",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tomato red"
-        }
-      ],
-      "notes": [
-        "Vyvanse. Amphetamine prodrug for ADHD. Converts to d-amphetamine in the body. Pharmaceutical capsules should match pill ID."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Lisdexamfetamine",
-        "erowid": "https://www.erowid.org/pharms/lisdexamfetamine/"
-      }
-    },
-    "Ephedrine": {
-      "class": "stimulant (sympathomimetic)",
-      "forms": [
-        "powder",
-        "pill"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→red-brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "chocolate"
-        }
-      ],
-      "notes": [
-        "Bronchodilator, decongestant. Common adulterant/cut in methamphetamine and ecstasy. Weaker stimulant than amphetamines."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Ephedrine",
-        "erowid": "https://www.erowid.org/chemicals/ephedrine/"
-      }
-    },
-    "Codeine": {
-      "class": "opioid",
-      "forms": [
-        "pill",
-        "liquid",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#9370DB",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "purple"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "blue-green"
-        }
-      ],
-      "notes": [
-        "Prescription opioid pain reliever. Metabolizes to morphine in body. Pharmaceutical pills should match pill ID databases."
-      ],
-      "other_methods": {
-        "fentanyl_strips": {
-          "summary": "Test any non-pharmaceutical powder/pill for fentanyl contamination.",
-          "confidence": "high"
-        }
+    "forms": [
+      "powder",
+      "capsule",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→black"
       },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
-        "erowid": "https://www.erowid.org/pharms/codeine/"
-      }
-    },
-    "Hydrocodone": {
-      "class": "opioid",
-      "forms": [
-        "pill"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B008B",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "dark magenta"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#2E8B57",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "sea green"
-        }
-      ],
-      "notes": [
-        "Vicodin/Norco. Semi-synthetic opioid. Pharmaceutical pills should match pill ID. Pressed pills may contain fentanyl."
-      ],
-      "other_methods": {
-        "fentanyl_strips": {
-          "summary": "CRITICAL for any pressed/non-pharmacy pills.",
-          "confidence": "high"
-        }
+      {
+        "reagent": "mecke",
+        "color": "#1F1F1F",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark→black"
       },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Hydrocodone",
-        "erowid": "https://www.erowid.org/pharms/hydrocodone/"
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
       }
+    ],
+    "notes": [
+      "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
+    ],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
+      "erowid": "https://www.erowid.org/chemicals/6apb/"
+    }
+  },
+  "Methylphenidate": {
+    "class": "stimulant (pharmaceutical)",
+    "description": {
+      "overview": "Methylphenidate (Ritalin, Concerta) is a prescription stimulant medication used primarily to treat ADHD and narcolepsy. It increases dopamine and norepinephrine activity in the brain, improving focus, attention, and impulse control. Structurally different from amphetamine but with similar therapeutic effects. Commonly diverted for academic performance enhancement.",
+      "origins": "First synthesized in 1944 by Leandro Panizzon at Ciba (now Novartis). Named 'Ritalin' after his wife Rita who used it for low blood pressure. FDA-approved in 1955 for treating hyperactivity and later ADHD. Became Schedule II controlled substance in 1971. Extended-release formulations (Concerta, Ritalin LA) developed in 2000s to reduce abuse potential.",
+      "uses": "Medical: ADHD treatment (children and adults), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD patients. Recreational/Academic: Cognitive enhancement for studying, productivity, euphoria at high doses. Popular among college students during exams. Typical therapeutic dose 5-20mg; recreational users may take 40-80mg+.",
+      "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke with pre-existing conditions or high doses. Abuse potential lower than amphetamine but still significant. Tolerance develops with regular use. Nasal damage from snorting crushed pills (common route of abuse). Can trigger anxiety, paranoia, psychosis at high doses. Appetite suppression, insomnia, irritability. Growth suppression in children with long-term use (controversial). Withdrawal: fatigue, depression, difficulty concentrating. Interactions with MAOIs can be dangerous. Pharmaceutical pills should match pill ID databases—counterfeit Ritalin rare but possible."
     },
-    "Tramadol": {
-      "class": "opioid (synthetic)",
-      "forms": [
-        "pill",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFD700",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "yellow"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange"
-        }
-      ],
-      "notes": [
-        "Synthetic opioid with SNRI properties. Lowers seizure threshold. Pharmaceutical pills should match databases."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Tramadol",
-        "erowid": "https://www.erowid.org/pharms/tramadol/"
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FF8C00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark orange"
       }
+    ],
+    "notes": [
+      "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
+    ],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
+      "erowid": "https://www.erowid.org/pharms/methylphenidate/"
+    }
+  },
+  "Codeine": {
+    "class": "opioid",
+    "description": {
+      "overview": "Codeine is a naturally occurring opioid found in opium poppy, commonly prescribed for mild to moderate pain and cough suppression. Weaker than morphine (codeine is a prodrug that converts to morphine in the liver). Found in prescription medications like Tylenol #3, cough syrups (promethazine-codeine), and standalone pills. Popular in 'lean' or 'purple drank' culture when mixed with soda and candy.",
+      "origins": "Isolated from opium in 1832 by French chemist Pierre Robiquet. Widely used in medicine since late 1800s as safer alternative to morphine for mild pain. Included in over-the-counter cough syrups until stricter regulations in 1970s-90s. Hip-hop culture popularized 'lean' (codeine cough syrup + soda) in 1990s-2000s Houston scene, spreading nationally. Now Schedule II-V depending on formulation and concentration.",
+      "uses": "Medical: Mild-moderate pain relief, cough suppression, diarrhea treatment. Often combined with acetaminophen (Tylenol #3) or aspirin. Typical dose 15-60mg for pain. Recreational: 'Lean' or 'purple drank' (codeine cough syrup + promethazine + soda + candy), euphoria, relaxation, nodding. Doses 60-120mg+ for recreational effects. Effects: 3-4 hours duration, less intense than other opioids but still addictive.",
+      "dangers": "Addiction and physical dependence develop with regular use—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea. Respiratory depression at high doses or when combined with other depressants (alcohol, benzos, promethazine). Acetaminophen toxicity—many codeine pills contain APAP which causes liver damage/failure at high doses (>4000mg daily). 'Lean' culture glamorizes dangerous behavior—multiple celebrity deaths (Pimp C, DJ Screw, Lil Peep used multiple substances). Genetic variation in CYP2D6 enzyme means some people convert codeine to morphine very efficiently (ultra-rapid metabolizers = overdose risk) while others get no effect (poor metabolizers). Constipation, nausea, itching common. Promethazine in cough syrup adds sedation and respiratory depression risk. Driving impairment. Gateway to stronger opioids for some users."
     },
-    "2-FDCK": {
-      "class": "dissociative (arylcyclohexylamine)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFFFE0",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "light yellow"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#D2B48C",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "tan"
-        }
-      ],
-      "notes": [
-        "2-Fluorodeschloroketamine. Ketamine analogue research chemical. Similar dissociative effects, longer duration."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2-Fluorodeschloroketamine",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_2FDCK.shtml"
+    "forms": [
+      "pill",
+      "liquid",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-green"
       }
+    ],
+    "notes": [
+      "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
+    ],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
+      "erowid": "https://www.erowid.org/pharms/codeine/"
+    }
+  },
+  "Kratom": {
+    "class": "opioid agonist (plant alkaloids)",
+    "description": {
+      "overview": "Kratom (Mitragyna speciosa) is a tropical tree native to Southeast Asia whose leaves contain alkaloids that act as opioid agonists and stimulants. At low doses, produces stimulant effects; at higher doses, opioid-like pain relief and sedation. Widely used for pain management, opioid withdrawal, and energy. Legal status varies by country and US state.",
+      "origins": "Used traditionally in Thailand, Malaysia, and Indonesia for centuries by laborers to combat fatigue and manage pain. Leaves chewed fresh or brewed as tea. Western awareness grew in 1800s but remained obscure until 2000s internet commerce. Banned in Thailand (ironically, its origin) since 1943 but recently re-legalized. DEA attempted scheduling in 2016 but withdrew after public outcry. Currently unscheduled federally in US but banned in several states.",
+      "uses": "Traditional: Energy, pain relief, treating diarrhea, wound healing. Modern: Self-treatment for chronic pain (alternative to prescription opioids), opioid withdrawal aid (reduces symptoms), anxiety and depression relief, energy and focus (low doses), recreational sedation (high doses). Strains: Red (sedating, pain relief), Green (balanced), White (energizing). Typical dose 2-5g (moderate) to 5-10g+ (strong). Often consumed as powder in capsules, 'toss and wash,' or tea.",
+      "dangers": "Physical dependence and withdrawal with regular use—symptoms similar to mild opioid withdrawal (muscle aches, irritability, insomnia, runny nose). Tolerance develops, requiring increasing doses. Nausea and 'wobbles' (dizziness, nausea) common at high doses or with certain strains. Constipation (opioid effect). Liver toxicity rare but reported with chronic heavy use or adulterated products. Respiratory depression possible when combined with other CNS depressants (alcohol, benzos, opioids)—deaths almost always involve poly-drug use. Seizures reported in rare cases. Quality control issues: products may be contaminated with salmonella, heavy metals, or adulterated with actual opioids. Some extracts (shots, enhanced products) extremely potent. Addiction potential debated but real for some users. Can test positive for methadone on some drug tests (false positive)."
     },
-    "DCK": {
-      "class": "dissociative (arylcyclohexylamine)",
-      "forms": [
-        "powder",
-        "crystal"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#F5DEB3",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "wheat/beige"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#D2691E",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "chocolate"
-        }
-      ],
-      "notes": [
-        "Deschloroketamine. Ketamine analogue. More potent and longer lasting than ketamine. Hole dose lower than ketamine."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Deschloroketamine",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_Deschloroketamine.shtml"
+    "forms": [
+      "powder",
+      "leaf",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B4513",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "saddle brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#A0522D",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "sienna"
       }
-    },
-    "4-AcO-MET": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#9370DB",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple/violet (indole)"
-        },
-        {
-          "reagent": "hofmann",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple"
-        }
-      ],
-      "notes": [
-        "Metacetin. 4-substituted tryptamine. Presumed prodrug to 4-HO-MET. Visual psychedelic similar to psilocybin."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/4-AcO-MET",
-        "erowid": "https://www.erowid.org/chemicals/4_acetoxy_met/"
-      }
-    },
-    "DPT": {
-      "class": "tryptamine (indole)",
-      "forms": [
-        "powder",
-        "freebase"
-      ],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#9370DB",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple/violet (indole)"
-        },
-        {
-          "reagent": "hofmann",
-          "color": "#8E5AA3",
-          "window_s": [
-            0,
-            120
-          ],
-          "alt": "purple"
-        }
-      ],
-      "notes": [
-        "Dipropyltryptamine. Tryptamine psychedelic. Can be smoked, snorted, or taken orally. Shorter duration than DMT when smoked."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Dipropyltryptamine",
-        "erowid": "https://www.erowid.org/chemicals/dpt/"
-      }
-    },
-    "Kratom": {
-      "class": "opioid agonist (plant alkaloids)",
-      "forms": [
-        "powder",
-        "leaf",
-        "capsule"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#8B4513",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "saddle brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#A0522D",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "sienna"
-        }
-      ],
-      "notes": [
-        "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
-        "erowid": "https://www.erowid.org/plants/kratom/"
-      }
+    ],
+    "notes": [
+      "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
+    ],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
+      "erowid": "https://www.erowid.org/plants/kratom/"
     }
   },
   "id_guide": {
