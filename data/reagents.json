@@ -270,6 +270,12 @@
     },
     "MDA": {
       "class": "phenethylamine",
+      "description": {
+        "overview": "3,4-Methylenedioxyamphetamine (MDA), known as 'sass' or 'the love drug,' is the parent compound of MDMA and produces similar empathogenic effects but with more pronounced psychedelic qualities. Often sold as or confused with MDMA, MDA has a longer duration and more intense visual effects.",
+        "origins": "First synthesized in 1910, predating MDMA by decades. Used experimentally in psychotherapy in the 1960s-70s before MDMA became popular. Nicknamed 'the love drug' in the 1960s counterculture. Became Schedule I in 1970. Currently resurging as MDMA alternative or adulterant in pressed pills.",
+        "uses": "Historically explored in psychotherapy for emotional processing and couples therapy. Recreationally used for empathogenic and mild psychedelic effects at music events and festivals. Some users prefer MDA's more 'trippy' character versus MDMA's pure empathy. Often unintentionally consumed when sold as MDMA.",
+        "dangers": "Similar neurotoxicity concerns as MDMA, possibly greater. Higher body temperature elevation risk (hyperthermia). More prone to causing confusion and anxiety than MDMA due to psychedelic effects. Often found as MDMA adulterant or sold as 'MDMA' in pressed pills. Simon's reagent shows NO reaction (primary amine vs MDMA's secondary amine)—key distinction. Longer duration (6-8 hours) can lead to dehydration and exhaustion. Same risks: serotonin syndrome, hyponatremia, comedown depression."
+      },
       "forms": [
         "powder",
         "capsule"
@@ -322,6 +328,12 @@
     },
     "Amphetamine": {
       "class": "phenethylamine",
+      "description": {
+        "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
+        "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
+        "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
+        "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal."
+      },
       "forms": [
         "powder",
         "paste",
@@ -375,6 +387,12 @@
     },
     "2C-B": {
       "class": "phenethylamine (psychedelic)",
+      "description": {
+        "overview": "2C-B (4-Bromo-2,5-dimethoxyphenethylamine) is a synthetic psychedelic that combines visual hallucinations with empathogenic effects, often described as a hybrid between MDMA and LSD. Known for vivid, colorful visuals and emotional warmth at moderate doses. Highly dose-sensitive with effects varying dramatically by just a few milligrams.",
+        "origins": "Synthesized in 1974 by Alexander Shulgin, who explored its effects in his book 'PiHKAL' (Phenethylamines I Have Known And Loved). Initially marketed in the 1980s as aphrodisiac 'Nexus' or 'Erox' before becoming scheduled. Gained popularity in European club scenes in 1990s-2000s. Now Schedule I in most countries but still widely available.",
+        "uses": "Briefly explored as psychotherapy adjunct in 1980s before scheduling. Recreationally used for colorful visual hallucinations, enhanced music appreciation, tactile sensitivity, and emotional openness. Popular at festivals and clubs as 'party psychedelic'—more manageable than LSD. Some report aphrodisiac effects. Typical dose 15-25mg (highly dose-sensitive).",
+        "dangers": "Extreme dose sensitivity: 5mg difference can dramatically change experience intensity. Uncomfortable body load at higher doses (nausea, tension, vasoconstriction). 'Nexus flip' (combining with MDMA) popular but increases risks. Often sold as ecstasy pills or mislabeled. Can cause anxiety or panic at unexpected high doses. Reagent test shows distinctive yellow-green (similar to other 2C-x compounds). Physical effects include increased heart rate and blood pressure. Bad trips possible especially in unsafe settings. Contraindicated with cardiovascular conditions."
+      },
       "forms": [
         "powder",
         "capsule",
@@ -622,6 +640,12 @@
     },
     "DMT": {
       "class": "tryptamine (indole)",
+      "description": {
+        "overview": "N,N-Dimethyltryptamine (DMT) is an extremely powerful, fast-acting psychedelic that produces intense visual and auditory hallucinations, often described as 'breakthrough' experiences to alternate dimensions or encounters with entities. Effects last only 5-15 minutes when smoked but are profoundly intense. Naturally occurs in many plants and trace amounts in human body.",
+        "origins": "First synthesized in 1931 by Canadian chemist Richard Manske. Found in numerous plants used in South American shamanic ceremonies (ayahuasca brew contains DMT from Psychotria viridis). Modern Western use popularized by Terence McKenna's lectures in 1980s-90s. Known as 'the spirit molecule' from Rick Strassman's 1990s clinical research and subsequent book/documentary.",
+        "uses": "Traditional: Ayahuasca ceremonies in South American indigenous cultures (DMT + MAOI from Banisteriopsis caapi vine). Modern: Brief but intense psychedelic experiences, spiritual exploration, entity contact reports. Research: Strassman's studies suggested potential for understanding consciousness. Recreational: 'Breakthrough' experiences, visual phenomena beyond other psychedelics. Typically smoked/vaporized for 5-15min effects or oral with MAOI for hours-long ayahuasca experience.",
+        "dangers": "Overwhelming psychological intensity—can be terrifying for unprepared users. Risk of injury during experience due to complete dissociation from physical reality. Entities and alien landscapes can cause lasting existential confusion or fear. Extremely rapid onset (seconds) prevents gradual adaptation. Post-experience integration challenges. When used as ayahuasca (oral + MAOI), dangerous drug interactions: SSRIs, other antidepressants, stimulants, tyramine-rich foods can cause serotonin syndrome or hypertensive crisis. Pure DMT relatively safe physiologically but psychological impact profound. Not recommended for those with psychotic disorders or family history."
+      },
       "forms": [
         "freebase crystal",
         "powder"
@@ -699,6 +723,12 @@
     },
     "GHB": {
       "class": "depressant (GHB/GBL)",
+      "description": {
+        "overview": "Gamma-Hydroxybutyrate (GHB) is a powerful central nervous system depressant that produces euphoria, relaxation, and sedation. Known as 'liquid ecstasy' or 'G,' it has legitimate medical uses but notorious reputation as date-rape drug. Extremely dose-sensitive with narrow margin between desired effects and unconsciousness/overdose.",
+        "origins": "Synthesized in 1960s as surgical anesthetic but abandoned due to side effects. Used by bodybuilders in 1980s for growth hormone release and sleep. Became popular club drug in 1990s rave scene. Scheduled in 2000 after date-rape cases and overdoses. Medical form (Xyrem/sodium oxybate) approved for narcolepsy. GBL (prodrug) often sold as 'cleaner' or 'solvent' to circumvent laws—converts to GHB in body.",
+        "uses": "Medical: Narcolepsy treatment (Xyrem) under strict controls. Historically: Bodybuilding, growth hormone stimulation. Recreational: Euphoria, reduced inhibitions, enhanced sociability, increased libido. 'Chemsex' scenes. Some use for sleep aid. Typical dose 1-2.5ml/grams (extremely variable by concentration and individual). Effects: alcohol-like intoxication without hangover (at proper doses).",
+        "dangers": "CRITICAL OVERDOSE RISK: Dose-response curve extremely steep—small increases cause unconsciousness, respiratory depression, coma, death. Impossible to reverse overdose (no antidote like naloxone for opioids). Combining with alcohol or other depressants frequently fatal. Physical addiction develops rapidly (days to weeks) with severe, dangerous withdrawal (seizures, psychosis, death possible). Used in drug-facilitated sexual assault—colorless, odorless, causes amnesia and sedation. Street concentrations wildly variable making dosing unpredictable. Reagent tests largely ineffective for GHB/GBL. Redosing too soon (before prior dose peaks) causes overdose. Memory blackouts common."
+      },
       "forms": [
         "liquid",
         "powder"
@@ -724,6 +754,12 @@
     },
     "PCP": {
       "class": "arylcyclohexylamine (dissociative)",
+      "description": {
+        "overview": "Phencyclidine (PCP), known as 'angel dust' or 'wet,' is a powerful dissociative anesthetic that causes hallucinations, delusions, and a detached sense of reality. Notorious for unpredictable behavior, superhuman strength stories (mostly mythologized), and violent incidents. One of the most stigmatized recreational drugs due to 1970s-80s media coverage.",
+        "origins": "Developed in 1926, patented by Parke-Davis in 1952 as surgical anesthetic (Sernyl). Discontinued for human use in 1965 due to severe emergence delirium and agitation post-surgery. Continued in veterinary medicine briefly. Became street drug in 1960s-70s, often sprinkled on marijuana or tobacco ('sherm,' 'wet'). Peak use in 1970s; declined due to reputation but persists in some areas.",
+        "uses": "No current medical use. Veterinary use discontinued. Recreationally: Dissociation, hallucinations, euphoria (at low doses), numbness. Often consumed accidentally when laced on marijuana or sold as other drugs. Typically smoked, snorted, or ingested. Effects: 4-6 hours with possible extended confusion/agitation. 'Dissociative anesthetic' means pain insensitivity while conscious.",
+        "dangers": "Unpredictable psychological effects: severe agitation, paranoia, psychosis, violent behavior possible but not universal. 'PCP strength' largely myth—analgesia and delirium can make restraint difficult. Injuries from inability to feel pain or judge danger during intoxication. Can trigger schizophrenia-like symptoms lasting days to weeks. Seizures, coma, death possible at high doses. Often adulterant in other drugs. Chronic use causes memory problems, depression, cognitive deficits. Extremely dysphoric experiences common ('bad trips'). Dangerous combinations with depressants. Medical stigma means users may avoid seeking help. Limited reagent testing effectiveness."
+      },
       "forms": [
         "powder",
         "liquid",
