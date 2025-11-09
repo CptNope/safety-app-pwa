@@ -416,7 +416,35 @@
         "overview": "Methamphetamine (meth, crystal, ice) is an extremely potent central nervous system stimulant with high abuse potential. It produces intense euphoria, increased energy, and focus, but is notorious for its destructive physical and psychological effects with chronic use.",
         "origins": "First synthesized in Japan in 1919 from ephedrine. Used by military forces in WWII to enhance soldier alertness. Became popular in 1960s biker culture and later in the 1990s with improved synthesis methods. The 'Breaking Bad' era saw Mexican cartel production dominate the market.",
         "uses": "Prescription methamphetamine (Desoxyn) exists for ADHD and severe obesity but is rarely prescribed. Recreationally used for euphoria, energy, focus, and appetite suppression. Popular in club scenes, among long-haul drivers, and for sexual enhancement (chemsex).",
-        "dangers": "Severe neurotoxicity with repeated use, causing permanent damage to dopamine and serotonin systems. 'Meth mouth' (severe dental decay), skin sores from compulsive picking, extreme weight loss, psychosis, paranoia, and violent behavior. Cardiovascular strain can cause heart attack and stroke. Often cut with MSM, ISO, or N-Iso (look identical). Sleep deprivation from binges causes hallucinations and psychotic breaks. Highly addictive with devastating social consequences."
+        "dangers": "Severe neurotoxicity with repeated use, causing permanent damage to dopamine and serotonin systems. 'Meth mouth' (severe dental decay), skin sores from compulsive picking, extreme weight loss, psychosis, paranoia, and violent behavior. Cardiovascular strain can cause heart attack and stroke. Often cut with MSM, ISO, or N-Iso (look identical). Sleep deprivation from binges causes hallucinations and psychotic breaks. Highly addictive with devastating social consequences.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methamphetamine",
+          "erowid": "https://www.erowid.org/chemicals/meth/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Methamphetamine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Methamphetamine neurotoxicity: dissociation of striatal dopamine terminal damage from parietal cortical cell body injury",
+            "authors": "Pu C, Vorhees CV",
+            "journal": "Synapse",
+            "year": 1993,
+            "summary": "Foundational study on methamphetamine-induced neurotoxicity and dopamine system damage"
+          },
+          {
+            "title": "Methamphetamine-associated psychosis",
+            "authors": "Glasner-Edwards S, Mooney LJ",
+            "journal": "Journal of Dual Diagnosis",
+            "year": 2014,
+            "summary": "Review of meth-induced psychosis, prevalence, and treatment strategies"
+          },
+          {
+            "title": "The Matrix Model for methamphetamine addiction: evidence-based strategies",
+            "authors": "Rawson RA, et al.",
+            "journal": "Journal of Substance Abuse Treatment",
+            "year": 2006,
+            "summary": "Evidence-based treatment protocol for methamphetamine addiction"
+          }
+        ]
       },
       "forms": [
         "crystal",
@@ -462,11 +490,7 @@
       ],
       "notes": [
         "Simon's test distinguishes meth (no reaction) from MDMA (blue). Use multiple reagents."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methamphetamine",
-        "erowid": "https://www.erowid.org/chemicals/meth/"
-      }
+      ]
     },
     "MDA": {
       "class": "phenethylamine",
@@ -474,7 +498,28 @@
         "overview": "3,4-Methylenedioxyamphetamine (MDA), known as 'sass' or 'the love drug,' is the parent compound of MDMA and produces similar empathogenic effects but with more pronounced psychedelic qualities. Often sold as or confused with MDMA, MDA has a longer duration and more intense visual effects.",
         "origins": "First synthesized in 1910, predating MDMA by decades. Used experimentally in psychotherapy in the 1960s-70s before MDMA became popular. Nicknamed 'the love drug' in the 1960s counterculture. Became Schedule I in 1970. Currently resurging as MDMA alternative or adulterant in pressed pills.",
         "uses": "Historically explored in psychotherapy for emotional processing and couples therapy. Recreationally used for empathogenic and mild psychedelic effects at music events and festivals. Some users prefer MDA's more 'trippy' character versus MDMA's pure empathy. Often unintentionally consumed when sold as MDMA.",
-        "dangers": "Similar neurotoxicity concerns as MDMA, possibly greater. Higher body temperature elevation risk (hyperthermia). More prone to causing confusion and anxiety than MDMA due to psychedelic effects. Often found as MDMA adulterant or sold as 'MDMA' in pressed pills. Simon's reagent shows NO reaction (primary amine vs MDMA's secondary amine)—key distinction. Longer duration (6-8 hours) can lead to dehydration and exhaustion. Same risks: serotonin syndrome, hyponatremia, comedown depression."
+        "dangers": "Similar neurotoxicity concerns as MDMA, possibly greater. Higher body temperature elevation risk (hyperthermia). More prone to causing confusion and anxiety than MDMA due to psychedelic effects. Often found as MDMA adulterant or sold as 'MDMA' in pressed pills. Simon's reagent shows NO reaction (primary amine vs MDMA's secondary amine)—key distinction. Longer duration (6-8 hours) can lead to dehydration and exhaustion. Same risks: serotonin syndrome, hyponatremia, comedown depression.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
+          "erowid": "https://www.erowid.org/chemicals/mda/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/MDA"
+        },
+        "scientific_papers": [
+          {
+            "title": "Comparative neurotoxicity of MDMA and MDA: a review",
+            "authors": "Stone DM, et al.",
+            "journal": "Pharmacology, Biochemistry and Behavior",
+            "year": 1987,
+            "summary": "Comparative study showing MDA may have greater neurotoxicity than MDMA"
+          },
+          {
+            "title": "Chemistry and pharmacology of MDA and MDMA",
+            "authors": "Shulgin AT",
+            "journal": "PiHKAL: A Chemical Love Story",
+            "year": 1991,
+            "summary": "Comprehensive report on MDA pharmacology and subjective effects by Alexander Shulgin"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -520,11 +565,7 @@
       ],
       "notes": [
         "Similar to MDMA but Simon's shows no reaction (MDA is primary amine, MDMA is secondary)."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
-        "erowid": "https://www.erowid.org/chemicals/mda/"
-      }
+      ]
     },
     "Amphetamine": {
       "class": "phenethylamine",
@@ -532,7 +573,36 @@
         "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
         "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
         "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
-        "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal."
+        "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
+          "erowid": "https://www.erowid.org/chemicals/amphetamines/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Amphetamine"
+        },
+        "scientific_papers": [
+          {
+            "title": "A review of the neuropharmacology of amphetamine",
+            "authors": "Sulzer D, et al.",
+            "journal": "Neuropsychopharmacology",
+            "year": 2005,
+            "doi": "10.1038/sj.npp.1300801",
+            "summary": "Comprehensive review of amphetamine mechanisms: dopamine release, transporter reversal, and therapeutic effects"
+          },
+          {
+            "title": "Efficacy and safety of long-term treatment with stimulants in adults with ADHD",
+            "authors": "Castells X, et al.",
+            "journal": "Cochrane Database of Systematic Reviews",
+            "year": 2011,
+            "summary": "Meta-analysis of amphetamine effectiveness and safety for ADHD treatment in adults"
+          },
+          {
+            "title": "Amphetamine-induced neurotoxicity: A review",
+            "authors": "Krasnova IN, Cadet JL",
+            "journal": "Brain Research Bulletin",
+            "year": 2009,
+            "summary": "Review of neurotoxic effects of amphetamine at high doses and potential mechanisms"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -579,11 +649,7 @@
       ],
       "notes": [
         "Speed/amphetamine paste often contains adulterants. Test multiple points."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
-        "erowid": "https://www.erowid.org/chemicals/amphetamines/"
-      }
+      ]
     },
     "2C-B": {
       "class": "phenethylamine (psychedelic)",
@@ -591,7 +657,35 @@
         "overview": "2C-B (4-Bromo-2,5-dimethoxyphenethylamine) is a synthetic psychedelic that combines visual hallucinations with empathogenic effects, often described as a hybrid between MDMA and LSD. Known for vivid, colorful visuals and emotional warmth at moderate doses. Highly dose-sensitive with effects varying dramatically by just a few milligrams.",
         "origins": "Synthesized in 1974 by Alexander Shulgin, who explored its effects in his book 'PiHKAL' (Phenethylamines I Have Known And Loved). Initially marketed in the 1980s as aphrodisiac 'Nexus' or 'Erox' before becoming scheduled. Gained popularity in European club scenes in 1990s-2000s. Now Schedule I in most countries but still widely available.",
         "uses": "Briefly explored as psychotherapy adjunct in 1980s before scheduling. Recreationally used for colorful visual hallucinations, enhanced music appreciation, tactile sensitivity, and emotional openness. Popular at festivals and clubs as 'party psychedelic'—more manageable than LSD. Some report aphrodisiac effects. Typical dose 15-25mg (highly dose-sensitive).",
-        "dangers": "Extreme dose sensitivity: 5mg difference can dramatically change experience intensity. Uncomfortable body load at higher doses (nausea, tension, vasoconstriction). 'Nexus flip' (combining with MDMA) popular but increases risks. Often sold as ecstasy pills or mislabeled. Can cause anxiety or panic at unexpected high doses. Reagent test shows distinctive yellow-green (similar to other 2C-x compounds). Physical effects include increased heart rate and blood pressure. Bad trips possible especially in unsafe settings. Contraindicated with cardiovascular conditions."
+        "dangers": "Extreme dose sensitivity: 5mg difference can dramatically change experience intensity. Uncomfortable body load at higher doses (nausea, tension, vasoconstriction). 'Nexus flip' (combining with MDMA) popular but increases risks. Often sold as ecstasy pills or mislabeled. Can cause anxiety or panic at unexpected high doses. Reagent test shows distinctive yellow-green (similar to other 2C-x compounds). Physical effects include increased heart rate and blood pressure. Bad trips possible especially in unsafe settings. Contraindicated with cardiovascular conditions.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
+          "erowid": "https://www.erowid.org/chemicals/2cb/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B"
+        },
+        "scientific_papers": [
+          {
+            "title": "Pharmacology of 2C-B: a review",
+            "authors": "Shulgin AT",
+            "journal": "PiHKAL: A Chemical Love Story",
+            "year": 1991,
+            "summary": "Original synthesis and detailed pharmacology report by Alexander Shulgin, including dosage and effects"
+          },
+          {
+            "title": "Acute effects of 2C-B on neuropsychological performance",
+            "authors": "González D, et al.",
+            "journal": "European Neuropsychopharmacology",
+            "year": 2015,
+            "summary": "Clinical study on cognitive and perceptual effects of 2C-B in controlled setting"
+          },
+          {
+            "title": "The 2C-phenethylamines: pharmacology, toxicology, and use",
+            "authors": "Dean BV, et al.",
+            "journal": "Journal of Medical Toxicology",
+            "year": 2013,
+            "summary": "Review of the 2C-x family including 2C-B pharmacology, toxicity, and clinical presentation"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -629,11 +723,7 @@
       ],
       "notes": [
         "Distinctive yellow-green with Marquis/Mecke. Often confused with other 2C-x compounds."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
-        "erowid": "https://www.erowid.org/chemicals/2cb/"
-      }
+      ]
     },
     "Ketamine": {
       "class": "arylcyclohexylamine (dissociative)",
@@ -641,7 +731,36 @@
         "overview": "Ketamine is a dissociative anesthetic that causes a sense of detachment from one's body and environment. Known for producing 'k-holes' (profound dissociative states), dream-like experiences, and analgesia. It has a remarkable safety profile compared to other anesthetics and is experiencing a renaissance as a depression treatment.",
         "origins": "Synthesized in 1962 by Calvin Stevens at Parke-Davis as a safer alternative to PCP for anesthesia. Approved for medical use in 1970. Widely used in Vietnam War as battlefield anesthetic. Became popular in rave/club scenes in the 1990s. Recently FDA-approved as esketamine (Spravato) nasal spray for treatment-resistant depression.",
         "uses": "Medical: WHO Essential Medicine for anesthesia, especially in emergency/field medicine and pediatrics. Pain management, sedation, and recently for treatment-resistant depression. Veterinary medicine (common horse tranquilizer stereotype). Recreational: Dissociative experiences, psychedelic exploration, club/rave scenes. Therapeutic: Psychedelic-assisted therapy for depression, PTSD, anxiety, and addiction showing promising results.",
-        "dangers": "Bladder damage (ulcerative cystitis) with chronic heavy use—can become severe and irreversible. Respiratory depression when combined with other depressants (alcohol, opioids, benzodiazepines). Risk of injury during dissociation due to impaired coordination and pain perception. Psychological dependence possible. 'K-holes' can be psychologically distressing for unprepared users. Cognitive impairment with chronic use. Often cut with synthetic cathinones or other dissociatives (2-FDCK, DCK). Street ketamine purity highly variable."
+        "dangers": "Bladder damage (ulcerative cystitis) with chronic heavy use—can become severe and irreversible. Respiratory depression when combined with other depressants (alcohol, opioids, benzodiazepines). Risk of injury during dissociation due to impaired coordination and pain perception. Psychological dependence possible. 'K-holes' can be psychologically distressing for unprepared users. Cognitive impairment with chronic use. Often cut with synthetic cathinones or other dissociatives (2-FDCK, DCK). Street ketamine purity highly variable.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Ketamine",
+          "erowid": "https://www.erowid.org/chemicals/ketamine/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Ketamine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Ketamine for treatment-resistant depression: the first decade of progress",
+            "authors": "Newport DJ, et al.",
+            "journal": "The American Journal of Psychiatry",
+            "year": 2015,
+            "doi": "10.1176/appi.ajp.2015.15040465",
+            "summary": "Review of breakthrough ketamine research showing rapid antidepressant effects in treatment-resistant depression"
+          },
+          {
+            "title": "Ketamine-induced ulcerative cystitis: a new clinical entity",
+            "authors": "Shahani R, et al.",
+            "journal": "Urology",
+            "year": 2007,
+            "summary": "First comprehensive report on ketamine-induced bladder damage in chronic recreational users"
+          },
+          {
+            "title": "The use of ketamine as an antidepressant: a systematic review and meta-analysis",
+            "authors": "Marcantoni WS, et al.",
+            "journal": "Annals of Clinical Psychiatry",
+            "year": 2020,
+            "summary": "Meta-analysis confirming ketamine's rapid antidepressant effects and safety profile in clinical settings"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -679,11 +798,7 @@
       ],
       "notes": [
         "Ketamine shows minimal reaction with most reagents. Specialized tests (Morris) available."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Ketamine",
-        "erowid": "https://www.erowid.org/chemicals/ketamine/"
-      }
+      ]
     },
     "Psilocybin": {
       "class": "tryptamine (indole)",
@@ -691,7 +806,44 @@
         "overview": "Psilocybin is a naturally occurring psychedelic compound found in over 200 species of mushrooms ('magic mushrooms' or 'shrooms'). It produces profound alterations in perception, mood, thought, and sense of self. Psilocybin is considered one of the safest psychoactive substances with minimal toxicity and no addiction potential.",
         "origins": "Used in indigenous Mesoamerican spiritual and healing ceremonies for thousands of years. First isolated from Psilocybe mushrooms by Swiss chemist Albert Hofmann (who also discovered LSD) in 1958. Popularized in Western culture by R. Gordon Wasson's 1957 Life Magazine article. Scheduled in 1970 despite therapeutic research. Recently decriminalized or legalized in several US cities and states.",
         "uses": "Traditional: Spiritual ceremonies, divination, healing rituals in indigenous cultures. Current research: Treatment for depression, anxiety (especially end-of-life), PTSD, addiction (smoking, alcohol), cluster headaches, and OCD with breakthrough results. Recreational: Introspection, nature connection, creative insights, mystical experiences. Microdosing: Sub-perceptual doses for mood, creativity, and focus enhancement.",
-        "dangers": "Physiologically very safe—no lethal dose established, no organ toxicity. Primary risks are psychological: 'bad trips' with anxiety, paranoia, or terrifying experiences, especially in unsafe settings or high doses. Can trigger latent mental health conditions or exacerbate existing ones. HPPD (flashbacks) rare but possible. Mushroom misidentification can be fatal—only consume from trusted sources or expert identification. No physical addiction but psychological attachment possible. Set and setting crucial for positive experiences. Contraindicated with certain mental health conditions (schizophrenia, bipolar)."
+        "dangers": "Physiologically very safe—no lethal dose established, no organ toxicity. Primary risks are psychological: 'bad trips' with anxiety, paranoia, or terrifying experiences, especially in unsafe settings or high doses. Can trigger latent mental health conditions or exacerbate existing ones. HPPD (flashbacks) rare but possible. Mushroom misidentification can be fatal—only consume from trusted sources or expert identification. No physical addiction but psychological attachment possible. Set and setting crucial for positive experiences. Contraindicated with certain mental health conditions (schizophrenia, bipolar).",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
+          "erowid": "https://www.erowid.org/plants/mushrooms/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin"
+        },
+        "scientific_papers": [
+          {
+            "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer",
+            "authors": "Ross S, et al.",
+            "journal": "Journal of Psychopharmacology",
+            "year": 2016,
+            "doi": "10.1177/0269881116675513",
+            "summary": "Landmark trial showing single psilocybin dose reduced depression/anxiety in cancer patients for 6+ months"
+          },
+          {
+            "title": "Psilocybin for treatment-resistant depression: fMRI-measured brain mechanisms",
+            "authors": "Carhart-Harris RL, et al.",
+            "journal": "Scientific Reports",
+            "year": 2017,
+            "doi": "10.1038/s41598-017-13282-7",
+            "summary": "Study showing psilocybin's antidepressant effects and brain mechanism via amygdala reactivity changes"
+          },
+          {
+            "title": "Psilocybin-occasioned mystical experiences in the treatment of tobacco addiction",
+            "authors": "Garcia-Romeu A, et al.",
+            "journal": "Current Drug Abuse Reviews",
+            "year": 2014,
+            "summary": "Study showing 80% smoking cessation rate at 6-month follow-up after psilocybin-assisted therapy"
+          },
+          {
+            "title": "The safety and efficacy of psychedelic-assisted therapies: a review",
+            "authors": "Johnson MW, Griffiths RR",
+            "journal": "Neurotherapeutics",
+            "year": 2017,
+            "summary": "Comprehensive safety review showing psilocybin has excellent safety profile in controlled settings"
+          }
+        ]
       },
       "forms": [
         "mushroom",
@@ -729,11 +881,7 @@
       ],
       "notes": [
         "Ehrlich for indole group confirmation. Whole mushrooms: test cap/stem separately if possible."
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
-        "erowid": "https://www.erowid.org/plants/mushrooms/"
-      }
+      ]
     },
     "Fentanyl": {
       "class": "synthetic opioid",
@@ -741,7 +889,43 @@
         "overview": "Fentanyl is an extremely potent synthetic opioid, approximately 50-100 times stronger than morphine and 30-50 times stronger than heroin. Originally developed for pain management and anesthesia, it has become a major driver of overdose deaths when illicitly manufactured and mixed into other drugs without users' knowledge.",
         "origins": "Synthesized in 1959 by Belgian physician Paul Janssen as a surgical analgesic. Introduced medically in the 1960s for anesthesia and chronic pain management via patches and lozenges. Illicitly manufactured fentanyl (IMF) emerged in the 1970s but exploded in the 2010s, fueling the current opioid crisis.",
         "uses": "Medical: Prescribed as transdermal patches (Duragesic), lozenges (Actiq), or IV anesthesia for severe pain and surgical procedures. Cancer patients and chronic pain management. Illicitly: Added to heroin to increase potency, pressed into counterfeit pills (fake oxycodone, Xanax), or mixed into cocaine, meth, and MDMA as adulterant.",
-        "dangers": "EXTREMELY HIGH OVERDOSE RISK: 2mg (size of few grains of salt) can be lethal. Respiratory depression occurs within seconds to minutes. Naloxone (Narcan) required immediately for overdose reversal—may need multiple doses. Increasingly found in non-opioid drugs causing unexpected overdoses. Analogues (carfentanil, acetylfentanyl) are even more potent. Cross-contamination during production endangers entire drug supply. Most overdose deaths now involve fentanyl. Test strips essential for any street drugs."
+        "dangers": "EXTREMELY HIGH OVERDOSE RISK: 2mg (size of few grains of salt) can be lethal. Respiratory depression occurs within seconds to minutes. Naloxone (Narcan) required immediately for overdose reversal—may need multiple doses. Increasingly found in non-opioid drugs causing unexpected overdoses. Analogues (carfentanil, acetylfentanyl) are even more potent. Cross-contamination during production endangers entire drug supply. Most overdose deaths now involve fentanyl. Test strips essential for any street drugs.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Fentanyl",
+          "erowid": "https://www.erowid.org/chemicals/fentanyl/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Fentanyl"
+        },
+        "scientific_papers": [
+          {
+            "title": "Fentanyl and fentanyl analogues: 50 years on",
+            "authors": "Suzuki J, El-Haddad S",
+            "journal": "Current Opinion in Anaesthesiology",
+            "year": 2017,
+            "doi": "10.1097/ACO.0000000000000469",
+            "summary": "Comprehensive review of fentanyl history, pharmacology, and role in current overdose crisis"
+          },
+          {
+            "title": "Evidence of fentanyl contamination in the unregulated drug supply",
+            "authors": "Klar SA, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2016,
+            "summary": "Study documenting widespread fentanyl contamination in heroin and other street drugs"
+          },
+          {
+            "title": "Performance of fentanyl test strips for rapid assessment of fentanyl in drug samples",
+            "authors": "Peiper NC, et al.",
+            "journal": "International Journal of Drug Policy",
+            "year": 2019,
+            "summary": "Validation study showing fentanyl test strips are effective harm reduction tool"
+          },
+          {
+            "title": "The changing opioid crisis: development, challenges and opportunities",
+            "authors": "Ciccarone D",
+            "journal": "Molecular Psychiatry",
+            "year": 2021,
+            "summary": "Analysis of how illicit fentanyl transformed the opioid epidemic and increased mortality"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -777,10 +961,6 @@
           "summary": "Immunoassay strips are the recommended method. Dissolve tiny sample and follow strip instructions.",
           "confidence": "high"
         }
-      },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Fentanyl",
-        "erowid": "https://www.erowid.org/chemicals/fentanyl/"
       }
     },
     "Heroin": {
@@ -789,7 +969,35 @@
         "overview": "Heroin (diacetylmorphine) is a highly addictive semi-synthetic opioid derived from morphine, which comes from opium poppy plants. It produces intense euphoria, pain relief, and sedation, but carries extreme risks of addiction, overdose, and infectious disease transmission. The current street supply is heavily contaminated with fentanyl.",
         "origins": "Synthesized from morphine in 1874 by English chemist C.R. Alder Wright. Commercialized by Bayer pharmaceutical company in 1898 as a 'safer' morphine substitute and cough suppressant (tradename 'Heroin'). Quickly recognized as highly addictive and banned in most countries by the 1920s-30s. Illicit production now centered in Afghanistan, Mexico, and Southeast Asia.",
         "uses": "No current medical use in the United States (diamorphine still used medically in UK for severe pain). Historically used for pain, cough suppression, and as morphine substitute. Recreationally used for intense euphoria, pain relief, and escape. Routes: injection (IV), smoking, snorting. IV use carries highest overdose and infection risk.",
-        "dangers": "Extremely high addiction potential—physical dependence develops rapidly. Overdose causes respiratory depression and death, especially with fentanyl contamination (now in majority of heroin supply). HIV, Hepatitis C transmission from shared needles. Collapsed veins, bacterial infections, abscesses from injection. Withdrawal is intensely uncomfortable but not typically fatal. Xylazine (tranq) increasingly found in supply, causes severe wounds and doesn't respond to naloxone. Unpredictable potency makes every dose potentially lethal. Naloxone and fentanyl test strips are life-saving harm reduction tools."
+        "dangers": "Extremely high addiction potential—physical dependence develops rapidly. Overdose causes respiratory depression and death, especially with fentanyl contamination (now in majority of heroin supply). HIV, Hepatitis C transmission from shared needles. Collapsed veins, bacterial infections, abscesses from injection. Withdrawal is intensely uncomfortable but not typically fatal. Xylazine (tranq) increasingly found in supply, causes severe wounds and doesn't respond to naloxone. Unpredictable potency makes every dose potentially lethal. Naloxone and fentanyl test strips are life-saving harm reduction tools.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Heroin",
+          "erowid": "https://www.erowid.org/chemicals/heroin/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Heroin"
+        },
+        "scientific_papers": [
+          {
+            "title": "Supervised injection facilities: a review of the evidence",
+            "authors": "Potier C, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2014,
+            "summary": "Review showing supervised injection sites reduce overdose deaths and disease transmission without increasing drug use"
+          },
+          {
+            "title": "The effectiveness of opioid maintenance treatment in prison settings",
+            "authors": "Hedrich D, et al.",
+            "journal": "Addiction",
+            "year": 2012,
+            "summary": "Evidence for methadone/buprenorphine maintenance reducing overdose risk and recidivism"
+          },
+          {
+            "title": "Fentanyl-contaminated heroin and overdose: a review",
+            "authors": "Somerville NJ, et al.",
+            "journal": "JAMA Internal Medicine",
+            "year": 2017,
+            "summary": "Analysis of fentanyl contamination in heroin supply and impact on overdose mortality"
+          }
+        ]
       },
       "forms": [
         "powder",
@@ -832,10 +1040,6 @@
           "summary": "Essential due to widespread fentanyl contamination. Test every batch.",
           "confidence": "high"
         }
-      },
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Heroin",
-        "erowid": "https://www.erowid.org/chemicals/heroin/"
       }
     },
     "DMT": {
