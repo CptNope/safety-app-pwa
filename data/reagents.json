@@ -996,6 +996,12 @@
     },
     "Clonazepam": {
       "class": "benzodiazepine",
+      "description": {
+        "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed primarily for seizure disorders and panic disorder. Known for potent anti-anxiety and anticonvulsant effects with a long half-life (18-50 hours). Often considered more sedating than other benzos. Street name 'k-pins' or 'klonies.' Popular for anxiety relief and combining with opioids (dangerous).",
+        "origins": "Developed by Hoffmann-La Roche in 1960s, FDA-approved 1975 for seizure disorders. Later approved for panic disorder. Became one of the most prescribed benzos for anxiety despite being primarily an anticonvulsant. Long duration makes it less prone to interdose withdrawal but more difficult to discontinue.",
+        "uses": "Medical: Seizure disorders (especially absence seizures, myoclonic seizures), panic disorder, acute mania, restless leg syndrome, akathisia. Typical dose 0.5-2mg daily. Recreational: Anxiety relief, sedation, enhancing opioid effects, muscle relaxation. Some users prefer clonazepam for longer-lasting anxiety relief compared to Xanax. Popular among those with opioid use disorder.",
+        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, psychosis). Long half-life means withdrawal symptoms may appear days after last dose and persist for weeks/months. Combining with opioids or alcohol FATAL risk (respiratory depression). Cognitive impairment, memory problems, depression. Driving impairment significant. Elderly at high risk for falls, confusion. Tolerance develops. Paradoxical reactions (increased anxiety, aggression) possible. Counterfeit pills rare but increasing. Pregnancy category D. Chronic use linked to increased dementia risk (debated). Very difficult to taper off due to long action—requires slow, medically supervised withdrawal."
+      },
       "forms": [
         "pill",
         "powder"
@@ -1070,6 +1076,12 @@
     },
     "Etizolam": {
       "class": "thienodiazepine (benzo analogue)",
+      "description": {
+        "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
+        "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
+        "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
+        "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination."
+      },
       "forms": [
         "pill",
         "blotter",
@@ -1105,6 +1117,12 @@
     },
     "Flualprazolam": {
       "class": "benzodiazepine (designer)",
+      "description": {
+        "overview": "Flualprazolam is a designer benzodiazepine (research chemical) that's significantly more potent than alprazolam (Xanax). Never approved for medical use. Primarily found in counterfeit 'Xanax' bars pressed by illegal manufacturers. Longer-lasting and more sedating than real alprazolam. Causes profound blackouts and amnesia at recreational doses. Extremely dangerous.",
+        "origins": "Synthesized as research chemical, never studied for medical use. Appeared on darknet markets and research chemical vendors around 2016-2017. Quickly became popular adulterant in fake Xanax bars because it's cheap, potent, and produces benzo-like effects. No legitimate pharmaceutical use—purely illicit production. Often manufactured in China and imported by illegal pill pressers.",
+        "uses": "No medical use. Illicit: Found in counterfeit Xanax bars (often labeled as 'alprazolam 2mg' but actually contain flualprazolam). Also sold as blotter or powder on research chemical markets. Effects: Intense sedation, anxiety relief, muscle relaxation, amnesia. Much stronger than alprazolam mg-for-mg. Duration 10-14 hours (vs Xanax 6-12 hours). Users often take what they think is regular Xanax but get unexpectedly powerful effects.",
+        "dangers": "EXTREMELY DANGEROUS. Much more potent than alprazolam—easy to overdose when sold as 'Xanax.' Causes severe blackouts lasting 12+ hours with total amnesia. Users engage in dangerous behavior with no memory. Physical dependence develops RAPIDLY (days to weeks). Withdrawal can be FATAL (seizures). Often combined with fentanyl in pressed pills—LETHAL combination. Overdose causes profound sedation, respiratory depression (especially with other depressants), coma. No quality control—dosage unpredictable. Some 'Xanax' bars contain 3-5mg flualprazolam (equivalent to 6-10mg+ alprazolam). Cannot be distinguished from real Xanax by appearance. Reagent tests don't work. Long half-life means effects persist dangerously long. Reports of users blacking out for entire weekends. Legal consequences: still driving, operating machinery during blackout."
+      },
       "forms": [
         "pressed pill",
         "blotter",
@@ -1146,6 +1164,12 @@
     },
     "Phenibut": {
       "class": "GABA-B agonist (nootropic)",
+      "description": {
+        "overview": "Phenibut (β-phenyl-GABA) is a GABA-B receptor agonist developed in Russia for anxiety, sold as unregulated dietary supplement in US. Produces anxiety relief, sociability, mild euphoria, and improved sleep. Not a benzodiazepine but has similar effects. Legal and widely available online. Marketed as nootropic/cognitive enhancer. Addiction potential severely underestimated by users.",
+        "origins": "Developed in 1960s Soviet Union for cosmonauts to reduce stress without sedation impairment. Prescription medication in Russia, Latvia, Ukraine (trade names: Noofen, Anvifen). Remains unscheduled in US, UK, and most Western countries. Sold as dietary supplement despite not being approved by FDA. Became popular in nootropic/biohacking communities in 2010s. Reddit, Longecity forums popularized use.",
+        "uses": "Medical (in Russia): Anxiety disorders, insomnia, PTSD, alcohol withdrawal. Typical dose 250-1000mg. Supplement use: Anxiety relief, social anxiety reduction, sleep aid, mood enhancement. Some users report improved sociability and reduced social inhibition (similar to alcohol but without intoxication). Popular for public speaking, dates, interviews. Effects: 2-4 hours onset, 15-24 hour duration. Recreational: Euphoria at higher doses (2-3g+), combining with alcohol or other drugs (dangerous).",
+        "dangers": "SEVERE PHYSICAL DEPENDENCE develops with daily use (even at recommended doses). Withdrawal can be DANGEROUS: seizures, psychosis, hallucinations, severe anxiety, insomnia, agitation. Withdrawal worse than many report—can last weeks. Tolerance develops rapidly requiring dose escalation. Long half-life (5-6 hours) but effects last much longer—easy to redose and overdose. Combining with alcohol or other depressants dangerous (respiratory depression). Liver toxicity possible with chronic use. Very difficult to quit once dependent—requires slow taper (months). Rebound anxiety severe. Highly variable individual response—some very sensitive. Sold with minimal warnings about addiction potential. Users often don't realize they're dependent until they try to stop. Not detected on standard drug tests. Quality varies between suppliers—heavy metal contamination possible. Some countries beginning to schedule/ban."
+      },
       "forms": [
         "powder",
         "capsule"
@@ -1349,6 +1373,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
       "erowid": "https://www.erowid.org/plants/kratom/"
     }
+  }
   },
   "id_guide": {
     "blotter": {
