@@ -874,9 +874,92 @@ function Welcome(){
 
       <div className="rounded-2xl border border-white/10 p-5 bg-white/5">
         <h3 className="font-semibold text-lg text-white mb-2">📱 Offline Access</h3>
-        <p className="text-sm text-gray-300">
+        <p className="text-sm text-gray-300 mb-3">
           This is a Progressive Web App (PWA). After your first visit, it works offline! Add it to your home screen for quick access anytime, anywhere.
         </p>
+        <PWAInstallButton/>
+      </div>
+    </div>
+  );
+}
+
+function PWAInstallButton(){
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const [isInstalled, setIsInstalled] = useState(false);
+  
+  useEffect(()=>{
+    // Check if already installed
+    if(window.matchMedia('(display-mode: standalone)').matches){
+      setIsInstalled(true);
+      return;
+    }
+    
+    // Listen for the beforeinstallprompt event
+    const handler = (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+    
+    window.addEventListener('beforeinstallprompt', handler);
+    
+    // Check if already installed (iOS)
+    if(window.navigator.standalone === true){
+      setIsInstalled(true);
+    }
+    
+    return ()=> window.removeEventListener('beforeinstallprompt', handler);
+  },[]);
+  
+  const handleInstall = async () => {
+    if(!deferredPrompt) return;
+    
+    deferredPrompt.prompt();
+    const {outcome} = await deferredPrompt.userChoice;
+    
+    if(outcome === 'accepted'){
+      setIsInstalled(true);
+    }
+    
+    setDeferredPrompt(null);
+  };
+  
+  if(isInstalled){
+    return (
+      <div className="flex items-center gap-2 p-3 rounded-lg bg-emerald-500/20 border border-emerald-400/40">
+        <span className="text-emerald-400 text-xl">✓</span>
+        <span className="text-sm text-emerald-200 font-medium">App installed! Access it from your home screen.</span>
+      </div>
+    );
+  }
+  
+  if(!deferredPrompt){
+    return (
+      <div className="p-3 rounded-lg bg-sky-500/10 border border-sky-400/30">
+        <div className="text-sm text-sky-200 space-y-2">
+          <p className="font-semibold">💡 How to Install (Manual)</p>
+          <ul className="text-xs space-y-1 text-sky-100">
+            <li><strong>Chrome/Edge (Desktop):</strong> Click the install icon in the address bar</li>
+            <li><strong>Safari (iOS):</strong> Tap Share → Add to Home Screen</li>
+            <li><strong>Chrome (Android):</strong> Tap Menu (⋮) → Install App</li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
+  
+  return (
+    <div className="space-y-2">
+      <button 
+        onClick={handleInstall}
+        className="w-full px-4 py-3 rounded-lg bg-gradient-to-r from-emerald-500/20 to-sky-500/20 border border-emerald-400/40 hover:from-emerald-500/30 hover:to-sky-500/30 transition-all duration-200 group"
+      >
+        <div className="flex items-center justify-center gap-2">
+          <span className="text-xl group-hover:scale-110 transition-transform">📥</span>
+          <span className="font-semibold text-emerald-200">Install App</span>
+        </div>
+      </button>
+      <div className="text-xs text-gray-400 text-center">
+        Works offline • No app store needed • Updates automatically
       </div>
     </div>
   );
