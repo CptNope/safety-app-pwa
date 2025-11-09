@@ -852,8 +852,8 @@ function Swatches(){
               <div className="text-xs opacity-70">{reagentInfo.notes}</div>
             </div>
             
-            {(reagentInfo.origins || reagentInfo.usage) && (
-              <details className="rounded-xl p-3 bg-white/5 border border-white/10">
+            {(reagentInfo.origins || reagentInfo.usage || reagentInfo.strengths || reagentInfo.weaknesses) && (
+              <details open className="rounded-xl p-3 bg-white/5 border border-white/10">
                 <summary className="font-semibold text-blue-200 cursor-pointer hover:text-blue-100 transition text-sm">
                   📚 Learn About This Reagent
                 </summary>
@@ -868,6 +868,22 @@ function Swatches(){
                     <div>
                       <div className="font-semibold text-emerald-200 mb-1">💡 How To Use</div>
                       <div className="text-gray-300 leading-relaxed">{reagentInfo.usage}</div>
+                    </div>
+                  )}
+                  {reagentInfo.strengths && (
+                    <div>
+                      <div className="font-semibold text-green-200 mb-1">✓ Strengths</div>
+                      <ul className="list-disc ms-5 space-y-1 text-green-100">
+                        {reagentInfo.strengths.map((strength, i) => <li key={i}>{strength}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {reagentInfo.weaknesses && (
+                    <div>
+                      <div className="font-semibold text-orange-200 mb-1">⚠ Weaknesses & Limitations</div>
+                      <ul className="list-disc ms-5 space-y-1 text-orange-100">
+                        {reagentInfo.weaknesses.map((weakness, i) => <li key={i}>{weakness}</li>)}
+                      </ul>
                     </div>
                   )}
                 </div>
