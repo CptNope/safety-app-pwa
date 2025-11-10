@@ -1,0 +1,330 @@
+{
+  "blotter": {
+    "name": "Blotter (paper tabs)",
+    "tips": [
+      "Common size ~6–7mm square; art/designs vary widely",
+      "Cut off tiny corner (~1mm) for testing—preserve majority",
+      "Use Ehrlich/Hofmann on corner; purple = indole (LSD, tryptamines)",
+      "NO purple with Ehrlich = NOT LSD (likely NBOMe or DOx—dangerous)",
+      "Test on white ceramic plate to see color change clearly"
+    ],
+    "uv_hacks": [
+      "365 nm UV often makes paper glow (optical brighteners)",
+      "Fluorescence does NOT confirm LSD—just paper treatment",
+      "Some art inks fluoresce; not diagnostic"
+    ],
+    "safety": [
+      "Always test before consuming",
+      "NBOMes can be fatal; bitter/numbing taste is red flag",
+      "If no Ehrlich reaction, do not consume"
+    ]
+  },
+  "gel_tab": {
+    "name": "Gel Tab/Windowpane",
+    "tips": [
+      "Cut small sliver (~1-2mm) with clean blade",
+      "Test with Ehrlich; may take 60-120s for color development",
+      "Gel can slow reagent penetration—be patient",
+      "Purple reaction confirms indole presence"
+    ],
+    "safety": [
+      "Wear gloves when handling",
+      "Store remaining sample in foil away from light/heat"
+    ]
+  },
+  "microdot": {
+    "name": "Microdot",
+    "tips": [
+      "Very small pellets; scrape minute amount with blade edge",
+      "Use Ehrlich for indoles (LSD, psilocin)",
+      "May need to crush slightly to expose interior",
+      "Test on white surface for visibility"
+    ]
+  },
+  "capsule": {
+    "name": "Capsule/Powder",
+    "common_substances": [
+      "MDMA",
+      "MDA",
+      "Amphetamine",
+      "Ketamine",
+      "2C-x"
+    ],
+    "tips": [
+      "Open capsule; mix powder thoroughly before sampling",
+      "Take small amount (~1-2mg grain of salt size) from multiple spots",
+      "Use Marquis first (broad spectrum), then Mecke, Mandelin",
+      "Simon's test differentiates MDMA (blue) from MDA/meth (no color)",
+      "Test on white ceramic plate; observe 30-60 seconds",
+      "Adulterants may create mixed/unusual colors"
+    ],
+    "safety": [
+      "Assume fentanyl contamination possible—use test strips",
+      "Never trust color/consistency alone",
+      "Different batches require separate testing"
+    ]
+  },
+  "tablet": {
+    "name": "Tablet/Pressed Pill",
+    "tips": [
+      "Logos, colors, stamps are MEANINGLESS—anyone can press pills",
+      "Scrape powder from 2-3 different spots (surface + interior)",
+      "Use Marquis/Mecke/Mandelin on each sample",
+      "Check for consistency—different colors = mixed substances",
+      "Hard-pressed pills may need crushing for better reaction"
+    ],
+    "safety": [
+      "Pressed pills frequently contain unexpected substances",
+      "Fentanyl test strips essential for any pill",
+      "Different colored specks may indicate multiple drugs"
+    ]
+  },
+  "powder": {
+    "name": "Powder/Fine Crystal",
+    "common_substances": [
+      "Cocaine",
+      "Heroin",
+      "Ketamine",
+      "MDMA",
+      "Meth"
+    ],
+    "tips": [
+      "Use tiny amount (1-2mg) on white ceramic surface",
+      "Test multiple spots from sample—adulterants may not mix evenly",
+      "Note color, texture, smell (without direct sniffing)",
+      "White powders: could be anything—test essential",
+      "Marquis + Mecke + Mandelin recommended minimum"
+    ],
+    "safety": [
+      "ALWAYS use fentanyl strips for white powders",
+      "Wear nitrile gloves; avoid skin contact",
+      "Work in ventilated area",
+      "Even tiny amounts of fentanyl can be fatal"
+    ]
+  },
+  "crystal": {
+    "name": "Crystal/Shard",
+    "common_substances": [
+      "Methamphetamine",
+      "MDMA",
+      "DMT",
+      "3-MMC"
+    ],
+    "tips": [
+      "Crush small crystal (~2mg) to powder for testing",
+      "Larger surface area = better reagent reaction",
+      "Test multiple crystals if batch looks inconsistent",
+      "Clear vs cloudy crystals don't indicate purity",
+      "Use Marquis, Mecke, Mandelin, Simon's as appropriate"
+    ],
+    "safety": [
+      "Fentanyl contamination possible in any street drug",
+      "Gloves essential—meth absorbs through skin"
+    ]
+  },
+  "rock": {
+    "name": "Rock/Chunk",
+    "common_substances": [
+      "Crack cocaine",
+      "MDMA rock",
+      "Heroin (tar)"
+    ],
+    "tips": [
+      "Scrape powder from multiple spots—exterior vs interior",
+      "Crack: minimal reagent reaction; use Scott test if available",
+      "Heroin/tar: Marquis (purple), Mecke (green), fentanyl strips critical",
+      "MDMA rock: crush sample for better testing",
+      "Brown/black material often heavily cut"
+    ],
+    "safety": [
+      "Tar heroin almost always contains fentanyl—test every time",
+      "Crack adulterants (levamisole) won't show on reagents",
+      "PPE essential for tar—sticky and contaminating"
+    ]
+  },
+  "liquid": {
+    "name": "Liquid/Solution",
+    "common_substances": [
+      "GHB",
+      "LSD liquid",
+      "Ketamine solution"
+    ],
+    "tips": [
+      "Place 1-2 drops on white ceramic plate, allow to evaporate slightly",
+      "LSD liquid: Ehrlich on dried residue (purple = LSD)",
+      "GHB: reagents ineffective; lab testing only reliable method",
+      "Ketamine solution: test dried residue with Mandelin (orange)",
+      "Alcohol/water solvents may dilute reagent—wait for evaporation"
+    ],
+    "safety": [
+      "GHB dosing extremely dangerous—small volume difference = overdose",
+      "Never assume liquid concentration",
+      "Wear eye protection—liquids can splash"
+    ]
+  },
+  "mushroom": {
+    "name": "Mushroom (Dried/Fresh)",
+    "tips": [
+      "Scrape powder from cap and stem separately—test both",
+      "Use Ehrlich on powder (purple = psilocybin/psilocin)",
+      "Marquis shows tan/brown for psilocybin",
+      "Fresh mushrooms harder to test—dry sample works better",
+      "Multiple species contain psilocybin; reagent confirms indole only"
+    ],
+    "safety": [
+      "Reagents don't identify specific mushroom species",
+      "Toxic mushrooms exist—don't rely on reagents for wild ID",
+      "Ehrlich confirms indole but not edibility"
+    ]
+  },
+  "counterfeit_rx_pills": {
+    "name": "Counterfeit Prescription Pills (Critical)",
+    "common_targets": [
+      "Oxycodone (M30, A215, K9)",
+      "Xanax (bars, footballs)",
+      "Adderall",
+      "Percocet",
+      "Valium"
+    ],
+    "visual_tells": [
+      "Check imprint sharpness—real pills have crisp, clean imprints",
+      "Fake pills often have rough/uneven edges",
+      "Color may be slightly off (too bright or too dull)",
+      "Size/thickness variations within same 'batch'",
+      "Powdery residue or easily crumbled = likely fake",
+      "Score lines (break lines) may be crooked or shallow",
+      "Font differences in numbers/letters (compare to legitimate pill images)"
+    ],
+    "reality_check": [
+      "If you didn't get it from YOUR prescription at a licensed pharmacy, assume it's fake",
+      "Street pills are RARELY legitimate pharmaceuticals",
+      "Even if it looks perfect, test for fentanyl",
+      "6 out of 10 fake pills contain lethal fentanyl dose (DEA)",
+      "One pill CAN kill"
+    ],
+    "testing": [
+      "ALWAYS use fentanyl test strips on any suspected pharma pill from street",
+      "Scrape powder from surface AND interior",
+      "Test multiple pills from batch if possible",
+      "Reagent tests show fentanyl/heroin presence (Marquis purple, Mecke green)",
+      "Consider lab testing for definitive ID"
+    ]
+  },
+  "common_cutting_agents": {
+    "name": "Common Cutting Agents by Substance",
+    "cocaine_cuts": [
+      "Levamisole (60-90% of cocaine; causes immune damage)",
+      "Phenacetin (banned pain reliever; carcinogenic)",
+      "Lidocaine, Benzocaine (local anesthetics mimic numbing)",
+      "Caffeine (stimulant effect)",
+      "Inositol, Mannitol (white powder, no effect)",
+      "Creatine (bulking agent)",
+      "Boric acid (dangerous)"
+    ],
+    "mdma_cuts": [
+      "Caffeine (most common; adds stimulation)",
+      "MDA (similar effects; less empathogenic)",
+      "Methamphetamine (longer, harsher stimulation)",
+      "Cathinones (bath salts; unpredictable)",
+      "Sugar, starch (inert bulking)"
+    ],
+    "heroin_cuts": [
+      "Fentanyl/analogues (EXTREMELY dangerous; most common)",
+      "Xylazine (tranq; causes wounds, no naloxone response)",
+      "6-MAM (heroin metabolite; sometimes added)",
+      "Caffeine, quinine (historical cuts)",
+      "Sugars, starch, powder milk"
+    ],
+    "meth_cuts": [
+      "MSM (methyl sulfonyl methane; re-crystallizes like meth)",
+      "ISO (isopropylbenzylamine; looks identical)",
+      "N-Iso (another isomer; similar appearance)",
+      "Caffeine (adds jitters)",
+      "Ephedrine/pseudoephedrine (precursors; sometimes present)"
+    ],
+    "ketamine_cuts": [
+      "MSG (monosodium glutamate; similar crystal appearance)",
+      "Creatine (white powder)",
+      "Dextromethorphan (DXM; dissociative)",
+      "2-FDCK, DCK (ketamine analogues; similar effects)"
+    ],
+    "detection_notes": [
+      "Acetone wash removes many water-soluble cuts (caffeine, sugars, MSM)",
+      "Reagent tests may not detect inert cuts",
+      "Melting point changes with cuts present",
+      "Lab testing (GC/MS) shows all components"
+    ]
+  },
+  "crystal_characteristics": {
+    "name": "Crystal Structure & Appearance Details",
+    "mdma_crystal": [
+      "Color: Tan, brown, champagne, off-white (pure rarely pure white)",
+      "Structure: Chunky, irregular crystals; not perfectly clear",
+      "Texture: Slightly sticky when crushed (hygroscopic)",
+      "Smell: Slight licorice/anise/sassafras (safrole precursor residue)",
+      "Pure white MDMA is suspicious—often indicates synthesis from different precursor or not MDMA"
+    ],
+    "meth_crystal": [
+      "Color: Clear, white, sometimes pale blue/pink (from impurities)",
+      "Structure: Large shards, 'glass-like', fractures like glass",
+      "Texture: Hard, brittle, clean breaks",
+      "Smell: Minimal to none; sometimes chemical smell",
+      "ISO cut looks IDENTICAL—testing essential"
+    ],
+    "cocaine_appearance": [
+      "Form: Powder (HCl) or rock (crack/freebase)",
+      "HCl color: White to off-white, 'pearlescent' sheen possible",
+      "Texture: Flaky, soft powder; compresses easily (fishscale = high quality)",
+      "Crack: Off-white to tan rocks, waxy texture",
+      "Smell: Chemical, diesel-like, or slight floral"
+    ],
+    "dmt_crystal": [
+      "Color: White to yellow/orange (pure = white; plant fats = yellow)",
+      "Structure: Fine needles/crystals or waxy substance",
+      "Smell: VERY distinctive (described as mothballs, new shoes, plastic)",
+      "Texture: Waxy or crystalline depending on purity"
+    ]
+  },
+  "weight_and_density": {
+    "name": "Weight & Density Observations",
+    "tips": [
+      "Use milligram scale (0.001g accuracy minimum)",
+      "Weigh sample before and after washing (indicates cut %)",
+      "Compare density to known values (crude test)",
+      "Unusual weight-to-volume ratio may indicate heavy cuts"
+    ],
+    "examples": [
+      "MDMA crystal: ~1.2g/ml density; 100mg should be fairly small volume",
+      "Cocaine HCl: ~1.2g/ml",
+      "Meth: ~1.0-1.1g/ml",
+      "Heavy cuts (sugars, inositol): may increase apparent volume"
+    ],
+    "notes": [
+      "Not practical for field testing—requires precision equipment",
+      "Useful for serious analysis or large quantities",
+      "Density changes with moisture content"
+    ]
+  },
+  "packaging_context": {
+    "name": "Packaging & Presentation Clues",
+    "tips": [
+      "Pharmacy bottles = check authenticity (tamper seals, lot numbers, expiration)",
+      "Street baggies = no reliability; any substance can be in any bag",
+      "Blister packs = easily faked; check print quality",
+      "Pills in unmarked bags = assume counterfeit",
+      "Powder in capsules = check capsule itself (vegetarian vs gelatin; colors)"
+    ],
+    "red_flags": [
+      "Misspellings on packaging",
+      "Poor print quality or smudged text",
+      "Wrong pharmacy name/address",
+      "Tamper seals missing or damaged",
+      "Lot numbers that look hand-written or photocopied"
+    ],
+    "notes": [
+      "Professional counterfeiters can fake packaging—never trust appearance alone",
+      "Real pharmaceuticals from questionable sources may still be diverted/expired",
+      "Always test contents regardless of packaging"
+    ]
+  }
+}

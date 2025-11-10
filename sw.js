@@ -1,8 +1,26 @@
 
-const VERSION = "v65-202511097070";
+const VERSION = "v66-202511092100";
 const CACHE = "safety-pwa-" + VERSION;
 const ASSETS = [
-  "./", "./index.html", "./assets/styles.css", "./app.js", "./data/reagents.json", "./manifest.webmanifest"
+  "./",
+  "./index.html",
+  "./assets/styles.css",
+  "./app.js",
+  "./data-loader.js",
+  "./data/reagents.json",
+  "./manifest.webmanifest",
+  // Modular database files
+  "./data/modular/index.json",
+  "./data/modular/reagents.json",
+  "./data/modular/substances.json",
+  "./data/modular/id_guide.json",
+  "./data/modular/methods.json",
+  "./data/modular/vendors.json",
+  "./data/modular/first_responder.json",
+  "./data/modular/counterfeit_pills.json",
+  "./data/modular/medical_treatment.json",
+  "./data/modular/myths.json",
+  "./data/modular/config.json"
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));

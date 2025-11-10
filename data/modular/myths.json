@@ -1,0 +1,430 @@
+{
+  "title": "Debunking Common Myths & Dangerous Misinformation",
+  "overview": "These widespread myths persist in drug culture but are factually incorrect and can lead to dangerous decisions. Evidence-based facts are provided to counter each myth.",
+  "categories": [
+    {
+      "category": "Medical & Safety Myths",
+      "myths": [
+        {
+          "myth": "Fentanyl can absorb through skin and cause overdose from brief contact",
+          "reality": "Dermal absorption of fentanyl requires prolonged contact with high concentration (like prescription patches). Brief contact with powder is extremely unlikely to cause overdose.",
+          "danger_level": "medium",
+          "truth": "Most 'fentanyl exposure' events in first responders are panic attacks, not true toxicity. Still use gloves for safety, but brief contact is not immediately deadly. Real fentanyl OD causes sedation/respiratory depression, NOT anxiety."
+        },
+        {
+          "myth": "If someone is overdosing, put them in a cold shower to wake them up",
+          "reality": "Cold shower risks: drowning, injury from falling, aspiration of water, shock, doesn't address underlying problem. Ineffective and dangerous.",
+          "danger_level": "critical",
+          "truth": "Opioid OD: Give naloxone, rescue breathing, call 911. Stimulant toxicity: Cool environment, medical help. Never use cold shower for overdose."
+        },
+        {
+          "myth": "Letting someone 'sleep it off' is safer than calling 911",
+          "reality": "Opioid overdoses can progress to respiratory arrest and death. What looks like 'sleeping' may be dying. Good Samaritan laws protect callers in most areas.",
+          "danger_level": "critical",
+          "truth": "If you can't wake someone, breathing is slow (<12/min), lips/nails are blue, or you're unsure: CALL 911 IMMEDIATELY. Give naloxone if available. Sleeping off an overdose = death."
+        },
+        {
+          "myth": "Naloxone is only for heroin; it doesn't work on fentanyl",
+          "reality": "Naloxone works on ALL opioids including fentanyl and analogues. Fentanyl may require higher/multiple doses, but naloxone is the correct treatment.",
+          "danger_level": "critical",
+          "truth": "Naloxone works on fentanyl. May need 4-10mg total (multiple doses) vs 0.4-2mg for heroin. Keep giving naloxone and doing rescue breathing until help arrives."
+        },
+        {
+          "myth": "Activated charcoal or drinking milk helps with drug overdoses",
+          "reality": "Activated charcoal only works if given by medical professionals within ~1 hour of ORAL ingestion, patient is conscious, and specific criteria met. Milk does nothing.",
+          "danger_level": "medium",
+          "truth": "Don't try to give activated charcoal or milk to overdose victim. Call 911, give naloxone if opioid OD, provide rescue breathing, monitor until help arrives."
+        },
+        {
+          "myth": "Drug test detox drinks/methods actually work",
+          "reality": "Most detox products are scams. Detection times depend on: substance half-life, metabolism, frequency of use, body fat percentage. No reliable way to 'beat' modern drug tests.",
+          "danger_level": "low",
+          "truth": "Only reliable method: abstinence for appropriate detection window (THC: days-weeks, others: hours-days). Dilution may work for urine tests but often detected. Synthetic urine illegal in many areas."
+        }
+      ]
+    },
+    {
+      "category": "Legal & Ethical Myths",
+      "myths": [
+        {
+          "myth": "Calling 911 for an overdose will get everyone arrested",
+          "reality": "47 US states + DC have Good Samaritan laws protecting callers and victims from prosecution for minor drug possession when seeking emergency help. Only Wyoming, Kansas, and Texas (very limited) lack these protections. Even in those states, arrests during overdose calls are rare.",
+          "danger_level": "critical",
+          "truth": "ALWAYS call 911 for overdoses. Good Samaritan laws exist in 47 states + DC (as of 2023). States without: Wyoming, Kansas, Texas (limited). Even in these states, saving a life > legal risk. Paramedics are there to save lives, not make arrests. Police focus is medical emergency, not prosecution."
+        },
+        {
+          "myth": "Cops can legally lie about being cops if asked",
+          "reality": "True, but irrelevant. Undercover officers can and do lie about their identity. Asking 'are you a cop' provides zero protection or useful information.",
+          "danger_level": "low",
+          "truth": "Don't rely on asking if someone is law enforcement. Practice operational security: don't discuss illegal activity with strangers, use harm reduction, test your substances."
+        },
+        {
+          "myth": "Carrying drug testing kits is evidence of drug use and can get you arrested",
+          "reality": "In most jurisdictions, harm reduction supplies (including test kits, fentanyl strips) are legal and increasingly encouraged by public health. Some states explicitly protect possession.",
+          "danger_level": "low",
+          "truth": "Test kits are harm reduction tools. Fentanyl test strips are legal in all 50 US states as of 2023. Check local laws, but carrying testing supplies is generally legal."
+        }
+      ]
+    },
+    {
+      "category": "Dosing & Mixing Myths",
+      "myths": [
+        {
+          "myth": "If you've done a substance before, you can always handle the same dose",
+          "reality": "Tolerance decreases rapidly with time off (days to weeks). Purity varies wildly between batches. After a break, your 'normal' dose can cause overdose or unexpected intensity.",
+          "danger_level": "critical",
+          "truth": "Always start with a lower dose after any break. Tolerance drops quickly—especially opioids (can drop 50% in days). Test every batch for potency differences."
+        },
+        {
+          "myth": "Mixing uppers and downers cancels out the danger",
+          "reality": "Speedballs (cocaine + heroin) and similar combinations are extremely dangerous. Stimulant masks opioid sedation, then wears off first causing delayed respiratory depression. Heart strain from opposing effects.",
+          "danger_level": "critical",
+          "truth": "Never mix stimulants and depressants thinking they 'balance.' This combination has killed countless people including celebrities. Effects don't cancel—they compound danger."
+        },
+        {
+          "myth": "Taking more will make a 'bad trip' go away faster",
+          "reality": "Taking more of any substance during negative effects will intensify and prolong the experience. For psychedelics, this can turn manageable anxiety into full psychotic break.",
+          "danger_level": "high",
+          "truth": "If having bad experience: change environment, have sober friend present, practice breathing, remember it will end. NEVER take more. For psychedelics, benzodiazepines can help (medical setting)."
+        },
+        {
+          "myth": "Edibles don't work on me, so I should keep eating more",
+          "reality": "Edibles take 1-3 hours to peak (sometimes longer). People eat more before feeling first dose, then all doses hit at once causing severe anxiety, paranoia, or physical distress.",
+          "danger_level": "high",
+          "truth": "Start with 5-10mg THC (or less). Wait minimum 2-3 hours before considering more. Edible overdose isn't fatal but can be extremely unpleasant for 6-12 hours."
+        },
+        {
+          "myth": "Volumetric dosing isn't necessary for small doses",
+          "reality": "Eyeballing doses of potent substances (LSD, benzos, research chemicals, fentanyl) can cause massive overdose. Milligram differences can be lethal for some substances.",
+          "danger_level": "critical",
+          "truth": "For substances active in microgram/milligram range: use volumetric dosing (dissolve known amount in liquid, measure precisely). Invest in 0.001g scale minimum. Eyeballing can kill."
+        },
+        {
+          "myth": "You can't overdose if you're experienced/have high tolerance",
+          "reality": "Experienced users die from overdoses regularly. Reasons: tolerance inconsistency, batch purity variation, fentanyl contamination, combination effects, overconfidence.",
+          "danger_level": "critical",
+          "truth": "Experience doesn't grant immunity. Many OD deaths are experienced users who thought they knew their limits. Always test, start lower than you think, never use alone."
+        }
+      ]
+    },
+    {
+      "category": "Harm Reduction Myths",
+      "myths": [
+        {
+          "myth": "Using Narcan causes painful withdrawal, so hesitate to use it",
+          "reality": "Narcan (naloxone) may cause withdrawal symptoms in opioid-dependent people, but this is NOT a reason to avoid using it. Death is worse than withdrawal discomfort.",
+          "danger_level": "critical",
+          "truth": "ALWAYS administer naloxone if suspected opioid overdose. Withdrawal is temporary and non-fatal. Not breathing is fatal. Give naloxone immediately, worry about withdrawal later."
+        },
+        {
+          "myth": "Eating food before/during MDMA ruins the experience",
+          "reality": "Empty stomach may speed onset slightly, but having food prevents hypoglycemia, provides energy, and reduces nausea. Prolonged dancing on empty stomach is dangerous.",
+          "danger_level": "medium",
+          "truth": "Eat a light meal before. Bring snacks with electrolytes. Nutrition and energy matter more than slightly faster onset."
+        },
+        {
+          "myth": "Drinking lots of water prevents MDMA toxicity",
+          "reality": "MDMA + excessive water = hyponatremia (dangerously low sodium), which can be fatal. MDMA impairs body's ability to regulate water/electrolytes.",
+          "danger_level": "high",
+          "truth": "Moderate hydration only. ~500ml (16oz) water per hour maximum. Sports drinks with electrolytes better than plain water. Don't force water."
+        },
+        {
+          "myth": "Vitamin C, orange juice, or acidic drinks enhance psychedelic trips",
+          "reality": "No scientific evidence. May slightly affect absorption of some substances, but doesn't 'enhance' or 'intensify' trips in meaningful way.",
+          "danger_level": "low",
+          "truth": "Placebo effect. Drink whatever keeps you comfortable and hydrated. Focus on set, setting, and dosage instead."
+        },
+        {
+          "myth": "You should put ice in your eyes or on your neck if overheating on MDMA",
+          "reality": "Ice directly on eyes is dangerous (corneal damage). Ice on neck provides minimal cooling. Vasoconstriction from MDMA + ice = poor combination.",
+          "danger_level": "medium",
+          "truth": "If overheating: move to cool area, remove excess clothing, drink cool water slowly, wet towels on forehead/wrists, seek medical help if severe. NO ice on eyes."
+        },
+        {
+          "myth": "Testing your drugs means you're paranoid or inexperienced",
+          "reality": "Testing is smart, responsible harm reduction practiced by experienced users who understand the contaminated drug supply.",
+          "danger_level": "medium",
+          "truth": "Testing is a sign of intelligence and experience, not paranoia. Dead people don't get to be experienced users."
+        }
+      ]
+    },
+    {
+      "category": "Testing & Identification Myths",
+      "myths": [
+        {
+          "myth": "Pure MDMA is always white/clear crystals",
+          "reality": "Pure MDMA is typically tan, brown, or champagne colored due to precursor residues (safrole). Pure white MDMA is suspicious and may indicate different synthesis route or not MDMA at all.",
+          "danger_level": "high",
+          "truth": "Color does NOT indicate purity or identity. Always test with reagents."
+        },
+        {
+          "myth": "If it looks, smells, or tastes right, it's safe",
+          "reality": "Appearance, smell, and taste are completely unreliable. Fentanyl, NBOMes, and other dangerous adulterants can be made to look identical to expected substances.",
+          "danger_level": "critical",
+          "truth": "NEVER rely on sensory identification. Taste testing can kill you (NBOMes, fentanyl). Always use reagent tests and fentanyl strips."
+        },
+        {
+          "myth": "Reagent tests show purity percentage",
+          "reality": "Reagent tests only show PRESENCE of a substance, not concentration or purity. A 'correct' color just means the expected substance is present—could be 10% or 90% pure.",
+          "danger_level": "medium",
+          "truth": "Only lab testing (GC/MS) can determine purity percentage. Reagents are presumptive identification only."
+        },
+        {
+          "myth": "If my dealer has good reviews/reputation, I don't need to test",
+          "reality": "Dealers often don't know what they're selling. Cross-contamination happens during production. Supply chains are long and unreliable. Today's batch may differ from yesterday's.",
+          "danger_level": "critical",
+          "truth": "ALWAYS test every batch, every time. People die from trusted sources regularly."
+        },
+        {
+          "myth": "Pills with the same stamp/logo contain the same thing",
+          "reality": "Anyone can press pills with any stamp. Same appearance = zero guarantee of identical contents. Pill presses are widely available. Cartels mass-produce fake pharmaceuticals.",
+          "danger_level": "critical",
+          "truth": "Pill appearance is meaningless. 6 out of 10 counterfeit pills contain lethal fentanyl (DEA). Test every pill individually."
+        },
+        {
+          "myth": "Fentanyl test strips aren't accurate",
+          "reality": "Fentanyl test strips are highly sensitive immunoassay tests, same technology used in medical settings. They detect fentanyl and many analogues at very low concentrations.",
+          "danger_level": "high",
+          "truth": "Fentanyl strips are reliable for most fentanyl analogues. Some novel analogues may escape detection, but strips catch the vast majority. Use them every time."
+        }
+      ]
+    },
+    {
+      "category": "Legal Alternatives & Smoke Shop Products",
+      "myths": [
+        {
+          "myth": "Amanita muscaria mushroom products sold in smoke shops are safe because they're legal",
+          "reality": "Amanita muscaria (fly agaric) is NOT psilocybin. Contains muscimol and ibotenic acid which cause: delirium, nausea, confusion, seizures (high doses), unpredictable effects. Legality ≠ safety. Potency varies wildly between products and batches.",
+          "danger_level": "high",
+          "truth": "Amanita muscaria is a deliriant, not a classic psychedelic. Effects are often unpleasant and unpredictable. Not comparable to psilocybin mushrooms. Legal status doesn't mean safe—many dangerous substances are legal."
+        },
+        {
+          "myth": "Mushroom vapes and edibles from smoke shops contain only natural mushroom extracts",
+          "reality": "Lab testing has found many 'mushroom' vapes contain 4-AcO-DMT (psilacetin, synthetic psilocybin prodrug) or other research chemicals, NOT actual mushroom extracts. Unlabeled, unknown doses, no quality control, often mislabeled.",
+          "danger_level": "critical",
+          "truth": "NEVER trust smoke shop 'mushroom' products. Lab tests show many contain synthetic tryptamines (4-AcO-DMT, 4-HO-MET) not listed on label. Unknown doses, contamination risks, legal gray area. If using psychedelics, source from tested suppliers or grow your own psilocybin mushrooms."
+        },
+        {
+          "myth": "Delta-8, Delta-10, THC-O, and HHC from gas stations are just like regular weed",
+          "reality": "These synthetic cannabinoids are made by chemical conversion of CBD/hemp. Often contain: heavy metals, residual solvents, unknown byproducts. THC-O is fully synthetic (not natural). Many products fail safety testing. Effects can be much stronger and more anxiety-inducing than natural THC.",
+          "danger_level": "high",
+          "truth": "Synthetic cannabinoids carry real risks. Many products contaminated with toxic chemicals from improper synthesis. If using cannabis, stick to tested dispensary products or natural flower. Avoid gas station/smoke shop synthetic cannabinoids."
+        },
+        {
+          "myth": "Kratom is completely safe because it's natural and sold legally",
+          "reality": "Kratom (Mitragyna speciosa) contains opioid receptor agonists. Can cause: physical dependence, withdrawal (similar to opioids), liver toxicity (rare but documented), respiratory depression (high doses or with other depressants), seizures (contaminated products).",
+          "danger_level": "medium",
+          "truth": "Kratom has opioid-like properties and risks. Can be physically addictive. Withdrawal symptoms are real. Deaths have occurred (usually with other substances). Use cautiously, don't mix with other depressants, buy from tested vendors only, start with low doses."
+        },
+        {
+          "myth": "7-hydroxymitragynine (7-OH) extract is just concentrated kratom",
+          "reality": "7-OH is 13x more potent than morphine (by some measures). Isolated alkaloid products create much higher addiction/dependence risk than whole-leaf kratom. Easier to overdose. Withdrawal more severe. Some products contain synthetic 7-OH or other adulterants.",
+          "danger_level": "high",
+          "truth": "7-OH extracts are significantly more dangerous than regular kratom leaf. Higher addiction potential, severe withdrawal, easier to overdose. Stick to whole-leaf kratom if using. Avoid concentrated extracts and isolated alkaloid products."
+        },
+        {
+          "myth": "Products labeled 'not for human consumption' are safe research chemicals",
+          "reality": "This labeling is legal loophole to sell untested, potentially dangerous substances. No quality control, purity unknown, may contain toxic byproducts or wrong substance entirely. 'Research chemical' often means 'no human safety data exists.'",
+          "danger_level": "critical",
+          "truth": "NEVER consume products labeled 'not for human consumption.' This label exists to avoid FDA regulation, not to protect you. Unknown purity, unknown substances, no safety testing. Research chemicals are experimental—use at extreme risk."
+        },
+        {
+          "myth": "Phenibut is safe because it's sold as a supplement",
+          "reality": "Phenibut is a GABA-B agonist (similar to baclofen). Causes physical dependence rapidly (some users after just 1-2 weeks daily use). Withdrawal can include: seizures, psychosis, severe anxiety, insomnia. Tolerance builds quickly requiring dose escalation.",
+          "danger_level": "high",
+          "truth": "Phenibut is NOT a safe supplement. Highly addictive, dangerous withdrawal, narrow therapeutic window. If using, maximum 2-3 times per week, never daily. Taper slowly if dependent—never cold turkey. Many countries have banned or restricted it."
+        },
+        {
+          "myth": "Tianeptine (gas station opioid) is just an antidepressant supplement",
+          "reality": "Tianeptine sold in gas stations (brands like 'Pegasus,' 'Zaza Red') contains massive doses (100-500mg vs medical dose of 12.5-37.5mg). Acts as mu-opioid agonist at high doses. Extremely addictive, severe withdrawal (worse than many opioids), deaths documented.",
+          "danger_level": "critical",
+          "truth": "Gas station tianeptine products are essentially unregulated opioids. Extremely addictive, brutal withdrawal, overdose risk. Multiple states have banned. AVOID entirely. If addicted, seek medical detox—withdrawal is severe and dangerous."
+        },
+        {
+          "myth": "Salvia divinorum is safe because it's legal in some places and natural",
+          "reality": "Salvia is extremely potent kappa-opioid agonist. Causes complete dissociation from reality, loss of motor control, potential for injury, intense dysphoria common. Not recreational for most people. Psychological distress possible.",
+          "danger_level": "medium",
+          "truth": "Salvia is legal in some areas but intensely powerful and often unpleasant. Not like other psychedelics. Most people find experience frightening. If using: have sitter, remove dangerous objects, sit/lie down before effects start, start with very low dose."
+        },
+        {
+          "myth": "Kava is completely harmless because it's used traditionally",
+          "reality": "Kava can cause: liver toxicity (rare but serious—multiple deaths documented), dermopathy (scaly skin with chronic use), interaction with medications, potentiation of alcohol and sedatives. Traditional preparation methods may be safer than extracts.",
+          "danger_level": "medium",
+          "truth": "Kava carries liver toxicity risk, especially concentrated extracts and supplements. Avoid if you have liver issues or take medications. Don't mix with alcohol. Traditional aqueous preparation (not extracts) considered safer. Monitor for signs of liver problems."
+        },
+        {
+          "myth": "Gas station/sex shop 'male enhancement' pills are safe herbal supplements",
+          "reality": "FDA testing has found many contain UNDISCLOSED pharmaceuticals: sildenafil (Viagra), tadalafil (Cialis), vardenafil (Levitra), or dangerous analogs. Often in uncontrolled doses combined with other stimulants. Can cause: dangerous blood pressure drops, heart attacks, strokes, priapism (medical emergency), fatal interactions with nitrates (heart medications).",
+          "danger_level": "critical",
+          "truth": "NEVER use gas station sexual enhancement products. FDA has issued hundreds of warnings. Products contain hidden prescription drugs in unknown doses. Fatal if combined with nitrates (nitroglycerin, isosorbide). Can cause heart attacks, strokes, prolonged erections requiring surgery. If you need ED medication, see a doctor—legitimate prescriptions are safe and effective."
+        },
+        {
+          "myth": "If a sexual enhancement product is labeled 'all natural' or 'herbal,' it doesn't contain pharmaceuticals",
+          "reality": "FDA lab tests repeatedly find undisclosed sildenafil, tadalafil, and analogs in products labeled 'all natural.' Some contain multiple drugs combined (e.g., sildenafil + tadalafil), which is never done medically. Labels are often completely fraudulent.",
+          "danger_level": "critical",
+          "truth": "Labeling is meaningless for these products. FDA has found prescription ED drugs in hundreds of 'herbal' supplements. Some contain chemical analogs not approved for human use. Never trust labels on gas station/sex shop enhancement products."
+        },
+        {
+          "myth": "Taking more sexual enhancement pills will work better without risks",
+          "reality": "These products already contain uncontrolled (often excessive) doses of pharmaceuticals. Taking multiple pills can cause: severe hypotension (dangerously low blood pressure), heart attack, stroke, seizures, priapism (requires emergency treatment), death.",
+          "danger_level": "critical",
+          "truth": "If product contains hidden sildenafil/tadalafil, taking multiple doses is overdosing on prescription medication. Can be fatal, especially with alcohol or other drugs. Seek medical help immediately if experiencing chest pain, vision changes, prolonged erection (>4 hours), or severe headache."
+        },
+        {
+          "myth": "'Female arousal' pills and 'libido enhancers' from smoke shops are safe",
+          "reality": "These products also frequently contain undisclosed pharmaceuticals, stimulants, or untested chemicals. Some found to contain: yohimbine (can cause hypertension, anxiety, seizures), sildenafil, synthetic stimulants, or unknown substances. No quality control, unknown ingredients.",
+          "danger_level": "high",
+          "truth": "Avoid all gas station/smoke shop sexual enhancement products regardless of target gender. Many contain dangerous undisclosed stimulants or pharmaceuticals. If experiencing sexual dysfunction, consult healthcare provider for safe, tested options."
+        },
+        {
+          "myth": "Sexual enhancement products are regulated by FDA because they're sold in stores",
+          "reality": "These products fall into regulatory gray area as 'supplements.' Manufacturers can sell them without FDA approval. FDA only acts AFTER harm occurs. Thousands of tainted products on market at any time. No pre-market testing required.",
+          "danger_level": "high",
+          "truth": "Sexual enhancement supplements are NOT FDA-approved and NOT regulated like medications. FDA can only issue warnings after finding problems. Being sold in stores means nothing about safety. Check FDA Tainted Supplements database before using any product."
+        }
+      ]
+    },
+    {
+      "category": "Specific Substance Myths",
+      "myths": [
+        {
+          "myth": "Acid stays in your spinal fluid forever and can cause flashbacks years later",
+          "reality": "Completely false. LSD is metabolized and eliminated from body within days. HPPD (persistent perceptual changes) is real but rare, not caused by 'stored' LSD.",
+          "danger_level": "low",
+          "truth": "LSD doesn't remain in body long-term. HPPD is a recognized condition but mechanism is neurological adaptation, not stored drug. Flashbacks are psychological, not pharmacological."
+        },
+        {
+          "myth": "Molly (powder MDMA) is purer/safer than ecstasy (pills)",
+          "reality": "Form doesn't indicate purity or safety. Powder can be anything (often cathinones, methylone, or meth). Pills can be anything. Both need testing.",
+          "danger_level": "high",
+          "truth": "'Molly' is often NOT MDMA. Powder form is easier to fake than press into convincing pills. Test everything regardless of form."
+        },
+        {
+          "myth": "Smoking DMT can't cause psychological damage because it's natural",
+          "reality": "Natural ≠ safe. DMT can cause severe psychological distress, PTSD-like symptoms, depersonalization/derealization, or worsen latent mental illness. Integration support important.",
+          "danger_level": "medium",
+          "truth": "DMT is extremely powerful. While physical safety profile is good, psychological risks are real. Not for everyone. Set, setting, and integration critical."
+        },
+        {
+          "myth": "Ketamine is safe because it's used in hospitals",
+          "reality": "Medical ketamine is pure, precisely dosed, in controlled setting. Street ketamine may be cut, contaminated, or analogues (2-FDCK). Chronic use causes bladder damage.",
+          "danger_level": "medium",
+          "truth": "Medical use ≠ recreational safety. Test your ketamine. Chronic use causes 'K-cramps' and bladder damage (can require surgery). Limit frequency, stay hydrated."
+        },
+        {
+          "myth": "Xanax is safe because it's prescribed by doctors",
+          "reality": "Benzodiazepines are physically addictive. Withdrawal can cause seizures and death. Street 'Xanax' is often pressed pills containing fentanyl or RC benzos (flualprazolam, etizolam).",
+          "danger_level": "critical",
+          "truth": "Benzos have legitimate medical use but serious risks. NEVER stop cold turkey after regular use. Street 'Xanax' often contains fentanyl—test every pill."
+        },
+        {
+          "myth": "Poppers (alkyl nitrites) are harmless party drugs",
+          "reality": "Poppers can cause: sudden drops in blood pressure, methemoglobinemia (oxygen transport disruption), vision damage (especially amyl nitrite), chemical burns. Dangerous with Viagra/Cialis (severe hypotension).",
+          "danger_level": "high",
+          "truth": "Poppers carry real risks. Never mix with erectile dysfunction drugs (can be fatal). Don't get on skin. Use in ventilated area. Frequent use damages blood cells."
+        }
+      ]
+    },
+    {
+      "category": "Substance Effect Myths",
+      "myths": [
+        {
+          "myth": "You can't overdose on LSD or mushrooms",
+          "reality": "While lethal overdose is extremely rare, dangerous psychological reactions (psychotic breaks, dangerous behavior, HPPD) occur at high doses. Physical toxicity exists at extreme doses.",
+          "danger_level": "medium",
+          "truth": "Psychological overdose is real and dangerous. Start low, go slow. NBOMes (often sold as LSD) CAN cause fatal overdose."
+        },
+        {
+          "myth": "MDMA is safe if you stay hydrated and cool",
+          "reality": "While hydration and temperature management are important, MDMA has inherent risks: serotonin syndrome, hyponatremia (drinking TOO much water), cardiac stress, neurotoxicity.",
+          "danger_level": "medium",
+          "truth": "MDMA is never 'safe.' Harm can be reduced through: testing, proper dosing (1-1.5mg/kg), limiting frequency (3 month breaks minimum), staying cool, moderate hydration."
+        },
+        {
+          "myth": "Crack is more dangerous/addictive than powder cocaine chemically",
+          "reality": "Crack and powder cocaine are the same drug (cocaine). Crack is freebase form, powder is HCl salt. Route of administration (smoking vs snorting) affects onset/intensity, not the chemical itself.",
+          "danger_level": "low",
+          "truth": "Different form, same drug. Faster onset (smoking) creates more intense experience and potentially faster psychological dependence, but chemical addiction potential is identical."
+        },
+        {
+          "myth": "Cannabis is completely harmless and non-addictive",
+          "reality": "While relatively safe, cannabis can cause: psychological dependence (~9% of users), anxiety/paranoia, cannabinoid hyperemesis syndrome, impaired driving, respiratory issues (smoking), and may worsen mental health conditions.",
+          "danger_level": "low",
+          "truth": "Cannabis is low-risk but not zero-risk. Start low (especially edibles), avoid driving, be cautious with high-THC products, take breaks to avoid dependence."
+        },
+        {
+          "myth": "Pharmaceutical drugs from a pharmacy are always safe to mix",
+          "reality": "Prescription drugs have dangerous interactions. MAOIs + stimulants = hypertensive crisis. SSRIs + MDMA = serotonin syndrome. Benzos + opioids = respiratory depression/death.",
+          "danger_level": "critical",
+          "truth": "Always research drug interactions. Tell doctors ALL substances you use. Never assume 'legal' = safe to combine."
+        }
+      ]
+    },
+    {
+      "category": "Storage & Handling Myths",
+      "myths": [
+        {
+          "myth": "Putting LSD in the freezer preserves it best",
+          "reality": "Freezing can cause condensation when removed, degrading LSD on blotter. Temperature fluctuations and moisture are main enemies, not temperature itself.",
+          "danger_level": "low",
+          "truth": "Store LSD in airtight container (foil, then baggie), cool dark place (not freezer). Desiccant pack helps. Avoid light, heat, moisture, oxygen. Will stay potent for years if stored properly."
+        },
+        {
+          "myth": "Old drugs just get weaker, not dangerous",
+          "reality": "Some substances degrade into toxic compounds. MDMA can form MDA (more neurotoxic). Some research chemicals degrade unpredictably. Degraded reagents give false results.",
+          "danger_level": "medium",
+          "truth": "Discard old substances (>1-2 years) or test before use. Replace reagents every 6-12 months. Degraded drugs may be less effective OR more toxic."
+        },
+        {
+          "myth": "You can't overdose on mushrooms you grew yourself",
+          "reality": "Psilocybin content varies by strain, growing conditions, and individual mushroom. Some mushrooms in same flush can be 2-3x more potent than others. Contamination possible.",
+          "danger_level": "medium",
+          "truth": "Home-grown mushrooms still need careful dosing. Start low (1-2g dried). Potency varies. Can't visually determine psilocybin content. Weigh accurately, know your strain."
+        }
+      ]
+    },
+    {
+      "category": "Historical & Cultural Myths",
+      "myths": [
+        {
+          "myth": "LSD causes chromosome damage and birth defects",
+          "reality": "Thoroughly debunked. Based on flawed 1960s research. Multiple subsequent studies found no chromosomal damage or increased birth defects from LSD use.",
+          "danger_level": "low",
+          "truth": "LSD does not damage chromosomes. However, using any drug during pregnancy is not recommended due to other potential risks."
+        },
+        {
+          "myth": "Strychnine is commonly used to cut LSD blotter",
+          "reality": "Completely false. Strychnine is bitter and toxic at doses that would fit on blotter. No evidence of strychnine being used to cut LSD. Myth from 1960s-70s.",
+          "danger_level": "low",
+          "truth": "LSD blotter adulterants are typically other psychoactives (NBOMes, DOx compounds), not poisons. Test with Ehrlich reagent."
+        },
+        {
+          "myth": "Ecstasy/Molly always contains meth, bath salts, or is never real MDMA",
+          "reality": "While adulteration is common, lab testing shows many samples do contain MDMA. Purity and cutting agents vary widely by region, source, and time.",
+          "danger_level": "medium",
+          "truth": "Assume your 'molly' could be anything. Test with multiple reagents (Marquis, Mecke, Simon's) + fentanyl strips. Don't assume it's fake OR real—verify."
+        },
+        {
+          "myth": "One use of meth/crack/heroin will instantly make you addicted",
+          "reality": "Addiction is a complex process involving genetics, psychology, environment, and repeated use. While these drugs have high addiction potential, one use doesn't guarantee addiction.",
+          "danger_level": "low",
+          "truth": "Risk factors matter: genetic predisposition, mental health, environment, frequency. That said, these substances carry very high addiction risk—avoid if possible."
+        }
+      ]
+    }
+  ],
+  "bottom_line": {
+    "title": "Critical Takeaways",
+    "points": [
+      "Always test your substances with reagents AND fentanyl strips",
+      "Appearance, smell, taste, and source reputation are unreliable—test anyway",
+      "Reagent tests show presence, NOT purity—only lab testing quantifies",
+      "Call 911 for overdoses—Good Samaritan laws protect you in most areas",
+      "Naloxone works on all opioids including fentanyl—use it without hesitation",
+      "No substance is 100% safe—harm can only be reduced, not eliminated",
+      "When in doubt, start low and go slow—you can always take more, never less",
+      "Research drug interactions before combining substances",
+      "Base decisions on evidence and science, not myths and anecdotes"
+    ]
+  }
+}

@@ -1,0 +1,1972 @@
+{
+  "MDMA": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "3,4-Methylenedioxymethamphetamine (MDMA), commonly known as ecstasy or molly, is an empathogen-entactogen that produces feelings of emotional openness, empathy, and euphoria. It's one of the most popular recreational drugs worldwide, particularly in dance and festival settings.",
+      "origins": "First synthesized by Merck pharmaceutical company in 1912, MDMA remained obscure until the 1970s when chemist Alexander Shulgin resynthesized it and introduced it to psychotherapists. It gained popularity as a therapeutic tool before becoming a Schedule I controlled substance in 1985.",
+      "uses": "Originally explored for marriage counseling and PTSD treatment in psychotherapy. Currently used recreationally for its prosocial effects, emotional warmth, and sensory enhancement. FDA-approved clinical trials are ongoing for PTSD-assisted therapy with promising results.",
+      "dangers": "Neurotoxicity concerns with frequent use, especially at high doses or elevated body temperatures. Risk of hyperthermia, hyponatremia (water intoxication), serotonin syndrome. Often adulterated with methamphetamine, MDA, cathinones, or other stimulants. Increasing fentanyl contamination in pressed pills. Can cause short-term memory issues, depression, and anxiety in the days following use ('comedown').",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
+        "erowid": "https://www.erowid.org/chemicals/mdma/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDMA"
+      },
+      "scientific_papers": [
+        {
+          "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study",
+          "authors": "Mitchell JM, et al.",
+          "journal": "Nature Medicine",
+          "year": 2021,
+          "doi": "10.1038/s41591-021-01336-3",
+          "summary": "MAPS Phase 3 trial showing 67% of participants no longer met PTSD criteria after MDMA-assisted therapy"
+        },
+        {
+          "title": "The pharmacology and clinical pharmacology of 3,4-methylenedioxymethamphetamine (MDMA, ecstasy)",
+          "authors": "Green AR, et al.",
+          "journal": "Pharmacological Reviews",
+          "year": 2003,
+          "doi": "10.1124/pr.55.3.3",
+          "summary": "Comprehensive review of MDMA pharmacology, metabolism, and toxicology"
+        },
+        {
+          "title": "MDMA (Ecstasy): a review of its harms and classification under the Misuse of Drugs Act 1971",
+          "authors": "Nutt D, King LA, Saulsbury W, Blakemore C",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2007,
+          "doi": "10.1177/0269881106074953",
+          "summary": "Evidence-based harm assessment placing MDMA lower than alcohol and tobacco"
+        },
+        {
+          "title": "Neurotoxicity of amphetamines and its metabolites",
+          "authors": "Carvalho M, et al.",
+          "journal": "Current Drug Metabolism",
+          "year": 2012,
+          "summary": "Review of neurotoxicity mechanisms and risk factors for MDMA-induced neurotoxicity"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "capsule",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→indigo→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#001A66",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark blue→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "very dark"
+      },
+      {
+        "reagent": "simons",
+        "color": "#1F66FF",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue (secondary amine)"
+      }
+    ],
+    "notes": [
+      "Use multiple reagents; lighting/timing matter."
+    ]
+  },
+  "LSD": {
+    "class": "ergoline (indole)",
+    "description": {
+      "overview": "Lysergic acid diethylamide (LSD) is a powerful hallucinogenic drug that profoundly alters perception, mood, and thought. Known for producing vivid visual hallucinations, synesthesia, and mystical experiences, LSD is one of the most potent psychoactive substances known, active at microgram doses.",
+      "origins": "Synthesized in 1938 by Swiss chemist Albert Hofmann at Sandoz Laboratories while researching ergot alkaloids. Its psychedelic properties were discovered accidentally in 1943 when Hofmann absorbed a small amount through his skin. Widely used in psychiatric research in the 1950s-60s before being scheduled in 1968.",
+      "uses": "Historically used in psychotherapy for treating alcoholism, anxiety, and depression. Currently being researched for treatment of PTSD, anxiety, depression, and cluster headaches. Recreationally used for introspection, creativity enhancement, and transcendent experiences. Microdosing (sub-perceptual doses) popular for cognitive enhancement.",
+      "dangers": "Psychological risks include 'bad trips,' anxiety, paranoia, and exacerbation of underlying mental health conditions. Rare but serious risk of persistent perceptual changes (HPPD). No physical addiction or toxicity, but psychologically intense. Primary danger is NBOMe compounds sold as LSD—these can be fatal and taste bitter/metallic. Real LSD is tasteless and causes tongue numbness only from ink/paper.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
+        "erowid": "https://www.erowid.org/chemicals/lsd/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/LSD"
+      },
+      "scientific_papers": [
+        {
+          "title": "LSD-assisted psychotherapy for anxiety associated with a life-threatening disease: a qualitative study",
+          "authors": "Gasser P, et al.",
+          "journal": "Journal of Nervous and Mental Disease",
+          "year": 2014,
+          "doi": "10.1097/NMD.0000000000000113",
+          "summary": "First controlled study in 40 years showing LSD-assisted therapy reduced anxiety in terminal illness patients"
+        },
+        {
+          "title": "Acute, subacute and long-term subjective effects of psilocybin in healthy humans: a pooled analysis of experimental studies",
+          "authors": "Studerus E, et al.",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2011,
+          "summary": "Comprehensive safety analysis showing classical psychedelics have low toxicity and adverse event rates"
+        },
+        {
+          "title": "Neural correlates of the LSD experience revealed by multimodal neuroimaging",
+          "authors": "Carhart-Harris RL, et al.",
+          "journal": "Proceedings of the National Academy of Sciences",
+          "year": 2016,
+          "doi": "10.1073/pnas.1518377113",
+          "summary": "Neuroimaging study revealing how LSD affects brain connectivity and consciousness"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "gel tab",
+      "liquid"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#8E5AA3",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet within 30–120s"
+      },
+      {
+        "reagent": "hofmann",
+        "color": "#7E4E9B",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "other_methods": {
+      "uv_light": {
+        "summary": "Blotter paper often fluoresces (optical brighteners); not diagnostic of LSD.",
+        "confidence": "low"
+      },
+      "taste": {
+        "summary": "Avoid taste-testing; unreliable and risky (NBOMe risk).",
+        "confidence": "do-not"
+      }
+    }
+  },
+  "Cocaine": {
+    "class": "tropane alkaloid",
+    "description": {
+      "overview": "Cocaine is a powerful stimulant drug extracted from coca plant leaves, producing intense euphoria, increased energy, and heightened alertness. One of the most addictive substances known, cocaine has profound effects on the brain's reward system and cardiovascular system.",
+      "origins": "Indigenous peoples of South America have chewed coca leaves for thousands of years. Pure cocaine was first isolated in 1859 and became widely used in medicine and consumer products (including Coca-Cola) before its addictive properties were understood. Criminalized in most countries by the 1920s.",
+      "uses": "Historically used as a local anesthetic in eye, nose, and throat surgeries (still used rarely for this purpose). Recreationally used for euphoria, confidence, and energy. No accepted medical use for systemic effects due to high addiction potential and cardiovascular risks.",
+      "dangers": "Highly addictive with severe cardiovascular risks including heart attack, stroke, and arrhythmias. Nasal damage from snorting, lung damage from smoking crack. Often cut with levamisole (causes immune system damage), phenacetin (carcinogenic), and increasingly fentanyl (lethal). Overdose can cause seizures, hyperthermia, and cardiac arrest. Psychological dependence develops rapidly.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Cocaine",
+        "erowid": "https://www.erowid.org/chemicals/cocaine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Cocaine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Cardiovascular toxicity of cocaine: an overview",
+          "authors": "Schwartz BG, et al.",
+          "journal": "Clinical Cardiology",
+          "year": 2010,
+          "doi": "10.1002/clc.20718",
+          "summary": "Comprehensive review of cocaine's cardiovascular effects including myocardial infarction, arrhythmias, and sudden death"
+        },
+        {
+          "title": "Levamisole contamination: a potential risk for all cocaine users",
+          "authors": "Muirhead TT, et al.",
+          "journal": "British Journal of Dermatology",
+          "year": 2011,
+          "summary": "Study on levamisole adulterant causing agranulocytosis and necrotic skin lesions in cocaine users"
+        },
+        {
+          "title": "Cocaine use and risk of myocardial infarction and stroke: systematic review and meta-analysis",
+          "authors": "Maraj S, et al.",
+          "journal": "Mayo Clinic Proceedings",
+          "year": 2010,
+          "summary": "Meta-analysis showing cocaine use significantly increases risk of heart attack and stroke"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "rock (crack)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange-brown"
+      }
+    ],
+    "notes": [
+      "Cocaine often shows minimal/no reaction with common reagents. Use multiple tests; fentanyl strips recommended."
+    ]
+  },
+  "Methamphetamine": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "Methamphetamine (meth, crystal, ice) is an extremely potent central nervous system stimulant with high abuse potential. It produces intense euphoria, increased energy, and focus, but is notorious for its destructive physical and psychological effects with chronic use.",
+      "origins": "First synthesized in Japan in 1919 from ephedrine. Used by military forces in WWII to enhance soldier alertness. Became popular in 1960s biker culture and later in the 1990s with improved synthesis methods. The 'Breaking Bad' era saw Mexican cartel production dominate the market.",
+      "uses": "Prescription methamphetamine (Desoxyn) exists for ADHD and severe obesity but is rarely prescribed. Recreationally used for euphoria, energy, focus, and appetite suppression. Popular in club scenes, among long-haul drivers, and for sexual enhancement (chemsex).",
+      "dangers": "Severe neurotoxicity with repeated use, causing permanent damage to dopamine and serotonin systems. 'Meth mouth' (severe dental decay), skin sores from compulsive picking, extreme weight loss, psychosis, paranoia, and violent behavior. Cardiovascular strain can cause heart attack and stroke. Often cut with MSM, ISO, or N-Iso (look identical). Sleep deprivation from binges causes hallucinations and psychotic breaks. Highly addictive with devastating social consequences.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/meth/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Methamphetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Methamphetamine neurotoxicity: dissociation of striatal dopamine terminal damage from parietal cortical cell body injury",
+          "authors": "Pu C, Vorhees CV",
+          "journal": "Synapse",
+          "year": 1993,
+          "summary": "Foundational study on methamphetamine-induced neurotoxicity and dopamine system damage"
+        },
+        {
+          "title": "Methamphetamine-associated psychosis",
+          "authors": "Glasner-Edwards S, Mooney LJ",
+          "journal": "Journal of Dual Diagnosis",
+          "year": 2014,
+          "summary": "Review of meth-induced psychosis, prevalence, and treatment strategies"
+        },
+        {
+          "title": "The Matrix Model for methamphetamine addiction: evidence-based strategies",
+          "authors": "Rawson RA, et al.",
+          "journal": "Journal of Substance Abuse Treatment",
+          "year": 2006,
+          "summary": "Evidence-based treatment protocol for methamphetamine addiction"
+        }
+      ]
+    },
+    "forms": [
+      "crystal",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FF4500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→orange-brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark blue-green→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→brown"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Simon's test distinguishes meth (no reaction) from MDMA (blue). Use multiple reagents."
+    ]
+  },
+  "MDA": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "3,4-Methylenedioxyamphetamine (MDA), known as 'sass' or 'the love drug,' is the parent compound of MDMA and produces similar empathogenic effects but with more pronounced psychedelic qualities. Often sold as or confused with MDMA, MDA has a longer duration and more intense visual effects.",
+      "origins": "First synthesized in 1910, predating MDMA by decades. Used experimentally in psychotherapy in the 1960s-70s before MDMA became popular. Nicknamed 'the love drug' in the 1960s counterculture. Became Schedule I in 1970. Currently resurging as MDMA alternative or adulterant in pressed pills.",
+      "uses": "Historically explored in psychotherapy for emotional processing and couples therapy. Recreationally used for empathogenic and mild psychedelic effects at music events and festivals. Some users prefer MDA's more 'trippy' character versus MDMA's pure empathy. Often unintentionally consumed when sold as MDMA.",
+      "dangers": "Similar neurotoxicity concerns as MDMA, possibly greater. Higher body temperature elevation risk (hyperthermia). More prone to causing confusion and anxiety than MDMA due to psychedelic effects. Often found as MDMA adulterant or sold as 'MDMA' in pressed pills. Simon's reagent shows NO reaction (primary amine vs MDMA's secondary amine)—key distinction. Longer duration (6-8 hours) can lead to dehydration and exhaustion. Same risks: serotonin syndrome, hyponatremia, comedown depression.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/mda/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDA"
+      },
+      "scientific_papers": [
+        {
+          "title": "Comparative neurotoxicity of MDMA and MDA: a review",
+          "authors": "Stone DM, et al.",
+          "journal": "Pharmacology, Biochemistry and Behavior",
+          "year": 1987,
+          "summary": "Comparative study showing MDA may have greater neurotoxicity than MDMA"
+        },
+        {
+          "title": "Chemistry and pharmacology of MDA and MDMA",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Comprehensive report on MDA pharmacology and subjective effects by Alexander Shulgin"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-black→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark→black"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Similar to MDMA but Simon's shows no reaction (MDA is primary amine, MDMA is secondary)."
+    ]
+  },
+  "Amphetamine": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
+      "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
+      "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
+      "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
+        "erowid": "https://www.erowid.org/chemicals/amphetamines/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Amphetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "A review of the neuropharmacology of amphetamine",
+          "authors": "Sulzer D, et al.",
+          "journal": "Neuropsychopharmacology",
+          "year": 2005,
+          "doi": "10.1038/sj.npp.1300801",
+          "summary": "Comprehensive review of amphetamine mechanisms: dopamine release, transporter reversal, and therapeutic effects"
+        },
+        {
+          "title": "Efficacy and safety of long-term treatment with stimulants in adults with ADHD",
+          "authors": "Castells X, et al.",
+          "journal": "Cochrane Database of Systematic Reviews",
+          "year": 2011,
+          "summary": "Meta-analysis of amphetamine effectiveness and safety for ADHD treatment in adults"
+        },
+        {
+          "title": "Amphetamine-induced neurotoxicity: A review",
+          "authors": "Krasnova IN, Cadet JL",
+          "journal": "Brain Research Bulletin",
+          "year": 2009,
+          "summary": "Review of neurotoxic effects of amphetamine at high doses and potential mechanisms"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "paste",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FF8C00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Speed/amphetamine paste often contains adulterants. Test multiple points."
+    ]
+  },
+  "2C-B": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-B (4-Bromo-2,5-dimethoxyphenethylamine) is a synthetic psychedelic that combines visual hallucinations with empathogenic effects, often described as a hybrid between MDMA and LSD. Known for vivid, colorful visuals and emotional warmth at moderate doses. Highly dose-sensitive with effects varying dramatically by just a few milligrams.",
+      "origins": "Synthesized in 1974 by Alexander Shulgin, who explored its effects in his book 'PiHKAL' (Phenethylamines I Have Known And Loved). Initially marketed in the 1980s as aphrodisiac 'Nexus' or 'Erox' before becoming scheduled. Gained popularity in European club scenes in 1990s-2000s. Now Schedule I in most countries but still widely available.",
+      "uses": "Briefly explored as psychotherapy adjunct in 1980s before scheduling. Recreationally used for colorful visual hallucinations, enhanced music appreciation, tactile sensitivity, and emotional openness. Popular at festivals and clubs as 'party psychedelic'—more manageable than LSD. Some report aphrodisiac effects. Typical dose 15-25mg (highly dose-sensitive).",
+      "dangers": "Extreme dose sensitivity: 5mg difference can dramatically change experience intensity. Uncomfortable body load at higher doses (nausea, tension, vasoconstriction). 'Nexus flip' (combining with MDMA) popular but increases risks. Often sold as ecstasy pills or mislabeled. Can cause anxiety or panic at unexpected high doses. Reagent test shows distinctive yellow-green (similar to other 2C-x compounds). Physical effects include increased heart rate and blood pressure. Bad trips possible especially in unsafe settings. Contraindicated with cardiovascular conditions.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
+        "erowid": "https://www.erowid.org/chemicals/2cb/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B"
+      },
+      "scientific_papers": [
+        {
+          "title": "Pharmacology of 2C-B: a review",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Original synthesis and detailed pharmacology report by Alexander Shulgin, including dosage and effects"
+        },
+        {
+          "title": "Acute effects of 2C-B on neuropsychological performance",
+          "authors": "González D, et al.",
+          "journal": "European Neuropsychopharmacology",
+          "year": 2015,
+          "summary": "Clinical study on cognitive and perceptual effects of 2C-B in controlled setting"
+        },
+        {
+          "title": "The 2C-phenethylamines: pharmacology, toxicology, and use",
+          "authors": "Dean BV, et al.",
+          "journal": "Journal of Medical Toxicology",
+          "year": 2013,
+          "summary": "Review of the 2C-x family including 2C-B pharmacology, toxicity, and clinical presentation"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-green"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→olive"
+      }
+    ],
+    "notes": [
+      "Distinctive yellow-green with Marquis/Mecke. Often confused with other 2C-x compounds."
+    ]
+  },
+  "Ketamine": {
+    "class": "arylcyclohexylamine (dissociative)",
+    "description": {
+      "overview": "Ketamine is a dissociative anesthetic that causes a sense of detachment from one's body and environment. Known for producing 'k-holes' (profound dissociative states), dream-like experiences, and analgesia. It has a remarkable safety profile compared to other anesthetics and is experiencing a renaissance as a depression treatment.",
+      "origins": "Synthesized in 1962 by Calvin Stevens at Parke-Davis as a safer alternative to PCP for anesthesia. Approved for medical use in 1970. Widely used in Vietnam War as battlefield anesthetic. Became popular in rave/club scenes in the 1990s. Recently FDA-approved as esketamine (Spravato) nasal spray for treatment-resistant depression.",
+      "uses": "Medical: WHO Essential Medicine for anesthesia, especially in emergency/field medicine and pediatrics. Pain management, sedation, and recently for treatment-resistant depression. Veterinary medicine (common horse tranquilizer stereotype). Recreational: Dissociative experiences, psychedelic exploration, club/rave scenes. Therapeutic: Psychedelic-assisted therapy for depression, PTSD, anxiety, and addiction showing promising results.",
+      "dangers": "Bladder damage (ulcerative cystitis) with chronic heavy use—can become severe and irreversible. Respiratory depression when combined with other depressants (alcohol, opioids, benzodiazepines). Risk of injury during dissociation due to impaired coordination and pain perception. Psychological dependence possible. 'K-holes' can be psychologically distressing for unprepared users. Cognitive impairment with chronic use. Often cut with synthetic cathinones or other dissociatives (2-FDCK, DCK). Street ketamine purity highly variable.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ketamine",
+        "erowid": "https://www.erowid.org/chemicals/ketamine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Ketamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Ketamine for treatment-resistant depression: the first decade of progress",
+          "authors": "Newport DJ, et al.",
+          "journal": "The American Journal of Psychiatry",
+          "year": 2015,
+          "doi": "10.1176/appi.ajp.2015.15040465",
+          "summary": "Review of breakthrough ketamine research showing rapid antidepressant effects in treatment-resistant depression"
+        },
+        {
+          "title": "Ketamine-induced ulcerative cystitis: a new clinical entity",
+          "authors": "Shahani R, et al.",
+          "journal": "Urology",
+          "year": 2007,
+          "summary": "First comprehensive report on ketamine-induced bladder damage in chronic recreational users"
+        },
+        {
+          "title": "The use of ketamine as an antidepressant: a systematic review and meta-analysis",
+          "authors": "Marcantoni WS, et al.",
+          "journal": "Annals of Clinical Psychiatry",
+          "year": 2020,
+          "summary": "Meta-analysis confirming ketamine's rapid antidepressant effects and safety profile in clinical settings"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "liquid",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to faint yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→orange-brown"
+      }
+    ],
+    "notes": [
+      "Ketamine shows minimal reaction with most reagents. Specialized tests (Morris) available."
+    ]
+  },
+  "Psilocybin": {
+    "class": "tryptamine (indole)",
+    "description": {
+      "overview": "Psilocybin is a naturally occurring psychedelic compound found in over 200 species of mushrooms ('magic mushrooms' or 'shrooms'). It produces profound alterations in perception, mood, thought, and sense of self. Psilocybin is considered one of the safest psychoactive substances with minimal toxicity and no addiction potential.",
+      "origins": "Used in indigenous Mesoamerican spiritual and healing ceremonies for thousands of years. First isolated from Psilocybe mushrooms by Swiss chemist Albert Hofmann (who also discovered LSD) in 1958. Popularized in Western culture by R. Gordon Wasson's 1957 Life Magazine article. Scheduled in 1970 despite therapeutic research. Recently decriminalized or legalized in several US cities and states.",
+      "uses": "Traditional: Spiritual ceremonies, divination, healing rituals in indigenous cultures. Current research: Treatment for depression, anxiety (especially end-of-life), PTSD, addiction (smoking, alcohol), cluster headaches, and OCD with breakthrough results. Recreational: Introspection, nature connection, creative insights, mystical experiences. Microdosing: Sub-perceptual doses for mood, creativity, and focus enhancement.",
+      "dangers": "Physiologically very safe—no lethal dose established, no organ toxicity. Primary risks are psychological: 'bad trips' with anxiety, paranoia, or terrifying experiences, especially in unsafe settings or high doses. Can trigger latent mental health conditions or exacerbate existing ones. HPPD (flashbacks) rare but possible. Mushroom misidentification can be fatal—only consume from trusted sources or expert identification. No physical addiction but psychological attachment possible. Set and setting crucial for positive experiences. Contraindicated with certain mental health conditions (schizophrenia, bipolar).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
+        "erowid": "https://www.erowid.org/plants/mushrooms/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin"
+      },
+      "scientific_papers": [
+        {
+          "title": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer",
+          "authors": "Ross S, et al.",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2016,
+          "doi": "10.1177/0269881116675513",
+          "summary": "Landmark trial showing single psilocybin dose reduced depression/anxiety in cancer patients for 6+ months"
+        },
+        {
+          "title": "Psilocybin for treatment-resistant depression: fMRI-measured brain mechanisms",
+          "authors": "Carhart-Harris RL, et al.",
+          "journal": "Scientific Reports",
+          "year": 2017,
+          "doi": "10.1038/s41598-017-13282-7",
+          "summary": "Study showing psilocybin's antidepressant effects and brain mechanism via amygdala reactivity changes"
+        },
+        {
+          "title": "Psilocybin-occasioned mystical experiences in the treatment of tobacco addiction",
+          "authors": "Garcia-Romeu A, et al.",
+          "journal": "Current Drug Abuse Reviews",
+          "year": 2014,
+          "summary": "Study showing 80% smoking cessation rate at 6-month follow-up after psilocybin-assisted therapy"
+        },
+        {
+          "title": "The safety and efficacy of psychedelic-assisted therapies: a review",
+          "authors": "Johnson MW, Griffiths RR",
+          "journal": "Neurotherapeutics",
+          "year": 2017,
+          "summary": "Comprehensive safety review showing psilocybin has excellent safety profile in controlled settings"
+        }
+      ]
+    },
+    "forms": [
+      "mushroom",
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#8E5AA3",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "hofmann",
+        "color": "#7E4E9B",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#8B7355",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "tan→brown"
+      }
+    ],
+    "notes": [
+      "Ehrlich for indole group confirmation. Whole mushrooms: test cap/stem separately if possible."
+    ]
+  },
+  "Fentanyl": {
+    "class": "synthetic opioid",
+    "description": {
+      "overview": "Fentanyl is an extremely potent synthetic opioid, approximately 50-100 times stronger than morphine and 30-50 times stronger than heroin. Originally developed for pain management and anesthesia, it has become a major driver of overdose deaths when illicitly manufactured and mixed into other drugs without users' knowledge.",
+      "origins": "Synthesized in 1959 by Belgian physician Paul Janssen as a surgical analgesic. Introduced medically in the 1960s for anesthesia and chronic pain management via patches and lozenges. Illicitly manufactured fentanyl (IMF) emerged in the 1970s but exploded in the 2010s, fueling the current opioid crisis.",
+      "uses": "Medical: Prescribed as transdermal patches (Duragesic), lozenges (Actiq), or IV anesthesia for severe pain and surgical procedures. Cancer patients and chronic pain management. Illicitly: Added to heroin to increase potency, pressed into counterfeit pills (fake oxycodone, Xanax), or mixed into cocaine, meth, and MDMA as adulterant.",
+      "dangers": "EXTREMELY HIGH OVERDOSE RISK: 2mg (size of few grains of salt) can be lethal. Respiratory depression occurs within seconds to minutes. Naloxone (Narcan) required immediately for overdose reversal—may need multiple doses. Increasingly found in non-opioid drugs causing unexpected overdoses. Analogues (carfentanil, acetylfentanyl) are even more potent. Cross-contamination during production endangers entire drug supply. Most overdose deaths now involve fentanyl. Test strips essential for any street drugs.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fentanyl",
+        "erowid": "https://www.erowid.org/chemicals/fentanyl/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Fentanyl"
+      },
+      "scientific_papers": [
+        {
+          "title": "Fentanyl and fentanyl analogues: 50 years on",
+          "authors": "Suzuki J, El-Haddad S",
+          "journal": "Current Opinion in Anaesthesiology",
+          "year": 2017,
+          "doi": "10.1097/ACO.0000000000000469",
+          "summary": "Comprehensive review of fentanyl history, pharmacology, and role in current overdose crisis"
+        },
+        {
+          "title": "Evidence of fentanyl contamination in the unregulated drug supply",
+          "authors": "Klar SA, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2016,
+          "summary": "Study documenting widespread fentanyl contamination in heroin and other street drugs"
+        },
+        {
+          "title": "Performance of fentanyl test strips for rapid assessment of fentanyl in drug samples",
+          "authors": "Peiper NC, et al.",
+          "journal": "International Journal of Drug Policy",
+          "year": 2019,
+          "summary": "Validation study showing fentanyl test strips are effective harm reduction tool"
+        },
+        {
+          "title": "The changing opioid crisis: development, challenges and opportunities",
+          "authors": "Ciccarone D",
+          "journal": "Molecular Psychiatry",
+          "year": 2021,
+          "summary": "Analysis of how illicit fentanyl transformed the opioid epidemic and increased mortality"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "pressed pill",
+      "patch",
+      "adulterant"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to faint pink"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow-green"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Use fentanyl test strips. Reagents are unreliable for fentanyl/analogues. Extremely potent—use PPE."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Immunoassay strips are the recommended method. Dissolve tiny sample and follow strip instructions.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Heroin": {
+    "class": "opioid (semi-synthetic)",
+    "description": {
+      "overview": "Heroin (diacetylmorphine) is a highly addictive semi-synthetic opioid derived from morphine, which comes from opium poppy plants. It produces intense euphoria, pain relief, and sedation, but carries extreme risks of addiction, overdose, and infectious disease transmission. The current street supply is heavily contaminated with fentanyl.",
+      "origins": "Synthesized from morphine in 1874 by English chemist C.R. Alder Wright. Commercialized by Bayer pharmaceutical company in 1898 as a 'safer' morphine substitute and cough suppressant (tradename 'Heroin'). Quickly recognized as highly addictive and banned in most countries by the 1920s-30s. Illicit production now centered in Afghanistan, Mexico, and Southeast Asia.",
+      "uses": "No current medical use in the United States (diamorphine still used medically in UK for severe pain). Historically used for pain, cough suppression, and as morphine substitute. Recreationally used for intense euphoria, pain relief, and escape. Routes: injection (IV), smoking, snorting. IV use carries highest overdose and infection risk.",
+      "dangers": "Extremely high addiction potential—physical dependence develops rapidly. Overdose causes respiratory depression and death, especially with fentanyl contamination (now in majority of heroin supply). HIV, Hepatitis C transmission from shared needles. Collapsed veins, bacterial infections, abscesses from injection. Withdrawal is intensely uncomfortable but not typically fatal. Xylazine (tranq) increasingly found in supply, causes severe wounds and doesn't respond to naloxone. Unpredictable potency makes every dose potentially lethal. Naloxone and fentanyl test strips are life-saving harm reduction tools.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Heroin",
+        "erowid": "https://www.erowid.org/chemicals/heroin/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Heroin"
+      },
+      "scientific_papers": [
+        {
+          "title": "Supervised injection facilities: a review of the evidence",
+          "authors": "Potier C, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2014,
+          "summary": "Review showing supervised injection sites reduce overdose deaths and disease transmission without increasing drug use"
+        },
+        {
+          "title": "The effectiveness of opioid maintenance treatment in prison settings",
+          "authors": "Hedrich D, et al.",
+          "journal": "Addiction",
+          "year": 2012,
+          "summary": "Evidence for methadone/buprenorphine maintenance reducing overdose risk and recidivism"
+        },
+        {
+          "title": "Fentanyl-contaminated heroin and overdose: a review",
+          "authors": "Somerville NJ, et al.",
+          "journal": "JAMA Internal Medicine",
+          "year": 2017,
+          "summary": "Analysis of fentanyl contamination in heroin supply and impact on overdose mortality"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "tar"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B008B",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→violet"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-green→dark green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#808080",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray→brown"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Always use fentanyl test strips. Heroin frequently contaminated with fentanyl/analogues."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Essential due to widespread fentanyl contamination. Test every batch.",
+        "confidence": "high"
+      }
+    }
+  },
+  "DMT": {
+    "class": "tryptamine (indole)",
+    "description": {
+      "overview": "N,N-Dimethyltryptamine (DMT) is an extremely powerful, fast-acting psychedelic that produces intense visual and auditory hallucinations, often described as 'breakthrough' experiences to alternate dimensions or encounters with entities. Effects last only 5-15 minutes when smoked but are profoundly intense. Naturally occurs in many plants and trace amounts in human body.",
+      "origins": "First synthesized in 1931 by Canadian chemist Richard Manske. Found in numerous plants used in South American shamanic ceremonies (ayahuasca brew contains DMT from Psychotria viridis). Modern Western use popularized by Terence McKenna's lectures in 1980s-90s. Known as 'the spirit molecule' from Rick Strassman's 1990s clinical research and subsequent book/documentary.",
+      "uses": "Traditional: Ayahuasca ceremonies in South American indigenous cultures (DMT + MAOI from Banisteriopsis caapi vine). Modern: Brief but intense psychedelic experiences, spiritual exploration, entity contact reports. Research: Strassman's studies suggested potential for understanding consciousness. Recreational: 'Breakthrough' experiences, visual phenomena beyond other psychedelics. Typically smoked/vaporized for 5-15min effects or oral with MAOI for hours-long ayahuasca experience.",
+      "dangers": "Overwhelming psychological intensity—can be terrifying for unprepared users. Risk of injury during experience due to complete dissociation from physical reality. Entities and alien landscapes can cause lasting existential confusion or fear. Extremely rapid onset (seconds) prevents gradual adaptation. Post-experience integration challenges. When used as ayahuasca (oral + MAOI), dangerous drug interactions: SSRIs, other antidepressants, stimulants, tyramine-rich foods can cause serotonin syndrome or hypertensive crisis. Pure DMT relatively safe physiologically but psychological impact profound. Not recommended for those with psychotic disorders or family history."
+    },
+    "forms": [
+      "freebase crystal",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple (indole)"
+      },
+      {
+        "reagent": "hofmann",
+        "color": "#8E5AA3",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→brown"
+      }
+    ],
+    "notes": [
+      "Ehrlich confirms indole. DMT usually yellowish crystals; pure is white."
+    ],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine",
+      "erowid": "https://www.erowid.org/chemicals/dmt/",
+      "psychonautwiki": "https://psychonautwiki.org/wiki/DMT"
+    },
+    "scientific_papers": [
+      {
+        "title": "DMT: The Spirit Molecule - A Doctor's Revolutionary Research",
+        "authors": "Strassman RJ",
+        "journal": "Park Street Press",
+        "year": 2001,
+        "summary": "Groundbreaking clinical research on DMT effects in human volunteers, documenting entity encounters and mystical experiences"
+      },
+      {
+        "title": "Human psychopharmacology of N,N-dimethyltryptamine",
+        "authors": "Strassman RJ, et al.",
+        "journal": "Behavioural Brain Research",
+        "year": 1996,
+        "summary": "First modern controlled study of DMT in humans, pharmacokinetics and dose-response relationships"
+      },
+      {
+        "title": "DMT models the near-death experience",
+        "authors": "Timmermann C, et al.",
+        "journal": "Frontiers in Psychology",
+        "year": 2018,
+        "summary": "Study showing DMT experiences phenomenologically similar to near-death experiences"
+      }
+    ]
+  },
+  "5-MeO-DMT": {
+    "class": "tryptamine (indole)",
+    "description": {
+      "overview": "5-Methoxy-N,N-Dimethyltryptamine (5-MeO-DMT) is an extremely potent, fast-acting psychedelic tryptamine distinct from DMT. Produces intense ego dissolution, unity experiences, and 'white light' phenomena rather than DMT's colorful visuals and entities. Naturally found in various plants and Colorado River toad (Bufo alvarius) venom. Effects last 15-45 minutes but feel timeless. Considered one of the most powerful psychedelics.",
+      "origins": "Isolated from plant sources in 1936. Found in Bufo alvarius (Sonoran Desert toad) venom in 1965. Synthetic version available. Traditional use by indigenous South American tribes in yopo snuff (Anadenanthera). Modern use popularized by ethnobotanist Jonathan Ott and later by 'toad smoking' phenomenon. Not as culturally widespread as DMT or ayahuasca. Recently scheduled in many countries but research ongoing.",
+      "uses": "Traditional: Yopo snuff ceremonies. Modern: Ego death experiences, mystical/spiritual exploration, therapeutic potential for trauma/addiction. Some report life-changing realizations and healing. Effects: Complete dissolution of self, unity with universe, 'white light,' profound peace or terror depending on set/setting. Minimal visuals compared to DMT—more about internal experience. Duration 15-45 minutes when smoked/vaporized. Typical dose 5-20mg (extremely potent). Sometimes used in therapeutic contexts but requires experienced facilitation.",
+      "dangers": "EXTREMELY INTENSE—overwhelming even for experienced psychedelic users. Can be terrifying if unprepared—complete ego death with no frame of reference. Risk of physical injury during experience (thrashing, falling). Should never be used standing or near hazards. Respiratory depression possible at high doses or combinations. Dangerous with MAOIs (serotonin syndrome, hypertensive crisis). Toad venom harvesting harms endangered species—synthetic preferred. Very difficult to distinguish from DMT by appearance—lab testing recommended. Psychological integration challenges post-experience. Can trigger lasting existential crisis or spiritual emergency. Contraindicated for heart conditions (cardiovascular stress). Not for recreational use—requires serious intention and safe setting. Reports of deaths from improper use or combinations."
+    },
+    "forms": [
+      "freebase powder",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#8E5AA3",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#A9A9A9",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray→yellow-brown"
+      }
+    ],
+    "notes": [
+      "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
+    ]
+  },
+  "GHB": {
+    "class": "depressant (GHB/GBL)",
+    "description": {
+      "overview": "Gamma-hydroxybutyrate (GHB) is a CNS depressant that occurs naturally in the human body in trace amounts. As a drug, it produces euphoria, relaxation, and sociability at low doses, but has an extremely narrow margin between desired effects and overdose. Commonly known as a 'date rape drug' though most use is voluntary. Liquid form makes dosing dangerous.",
+      "origins": "Synthesized in 1874, developed as an anesthetic in 1960s but abandoned due to side effects. Used by bodybuilders in 1980s for alleged growth hormone release and sleep enhancement. Became popular club drug in 1990s. Scheduled as Schedule I (illicit) in 2000 but Schedule III when prescribed as Xyrem for narcolepsy. Precursors GBL and 1,4-BD legal in many areas and convert to GHB in body.",
+      "uses": "Medical: Xyrem (sodium oxybate) prescribed for narcolepsy with cataplexy. Rare use as anesthetic in some countries. Recreational: Euphoria, disinhibition, enhanced sociability and sexuality. Popular in club/rave scenes and 'chemsex' contexts. Bodybuilding: Claimed (unproven) benefits for muscle growth and recovery. Typical dose 1-2.5g but highly variable by concentration. Duration 1.5-3 hours.",
+      "dangers": "EXTREME OVERDOSE RISK: Very narrow therapeutic window. Difference between desired effects and unconsciousness can be <1g. Sudden onset—conscious to unconscious in minutes. Respiratory depression, vomiting while unconscious (aspiration risk), seizures. No antidote—supportive care only. Combining with alcohol is extremely dangerous and often fatal. Physical dependence develops quickly with regular use. Withdrawal can be life-threatening (similar to alcohol). Liquid form makes accurate dosing nearly impossible. Concentration varies wildly between batches. Used in drug-facilitated sexual assault. Memory impairment and blackouts common. Chronic use linked to cognitive impairment. GBL and 1,4-BD (precursors) are even more dangerous due to unpredictable conversion rates.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
+        "erowid": "https://www.erowid.org/chemicals/ghb/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/GHB"
+      },
+      "scientific_papers": [
+        {
+          "title": "Gamma hydroxybutyrate: a new drug of abuse",
+          "authors": "Mason PE, Kerns WP",
+          "journal": "American Family Physician",
+          "year": 2002,
+          "summary": "Clinical review of GHB pharmacology, toxicity, and overdose management"
+        },
+        {
+          "title": "GHB withdrawal syndrome: a review",
+          "authors": "Miotto K, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2001,
+          "summary": "Documentation of severe and potentially fatal GHB withdrawal syndrome"
+        },
+        {
+          "title": "Club drugs: methylenedioxymethamphetamine, flunitrazepam, ketamine hydrochloride, and gamma-hydroxybutyrate",
+          "authors": "Gahlinger PM",
+          "journal": "American Family Physician",
+          "year": 2004,
+          "summary": "Overview of club drugs including GHB's role in drug-facilitated sexual assault"
+        }
+      ]
+    },
+    "forms": [
+      "liquid",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Standard reagents ineffective for GHB/GBL. Specialized tests exist but uncommon. Use extreme caution with dosing."
+    ]
+  },
+  "PCP": {
+    "class": "arylcyclohexylamine (dissociative)",
+    "description": {
+      "overview": "Phencyclidine (PCP, angel dust) is a dissociative anesthetic developed in the 1950s but discontinued for human use due to severe psychological side effects. Produces dissociation, numbness, and at high doses, extreme agitation, violence, and psychosis. Notorious for unpredictable and dangerous behavior. Still used in veterinary medicine.",
+      "origins": "Synthesized in 1926, developed as IV anesthetic (Sernyl) by Parke-Davis in 1950s. Human use discontinued in 1965 due to postoperative delirium and psychosis. Veterinary use continued until 1978. Became street drug in 1960s-70s, often misrepresented as THC, mescaline, or LSD. Less popular now than in 1970s-80s 'angel dust' era but still present in drug supply.",
+      "uses": "No current legitimate medical use. Veterinary use discontinued. Illicitly used for dissociative effects, numbness, feeling of strength/invincibility. Sometimes unknowingly consumed when sold as other drugs. Can be smoked (often on mint, parsley), snorted, injected, or taken orally. Effects 4-6 hours (oral/snorted), 30min-1hour (smoked). Doses vary wildly due to illicit production.",
+      "dangers": "Extremely unpredictable and dangerous. Notorious for violent, bizarre, self-destructive behavior. Superhuman strength feeling leads to severe injuries. Numbness prevents pain awareness—users have seriously injured themselves without realizing. Acute: Aggression, psychosis, seizures, hyperthermia, hypertensive crisis, coma, death. Chronic: Memory loss, speech difficulties, depression, suicidal ideation. Psychological addiction common. Horrible withdrawal. Can trigger lasting psychosis. Often found as adulterant in other drugs. Combining with other depressants extremely dangerous.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Phencyclidine",
+        "erowid": "https://www.erowid.org/chemicals/pcp/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/PCP"
+      },
+      "scientific_papers": [
+        {
+          "title": "Phencyclidine (PCP): a dangerous drug, but useful in schizophrenia research",
+          "authors": "Morris BJ, et al.",
+          "journal": "Journal of Psychology & Psychotherapy",
+          "year": 2014,
+          "summary": "Review of PCP's role in NMDA receptor research and schizophrenia models"
+        },
+        {
+          "title": "PCP intoxication: assessment of possible indicators",
+          "authors": "McCarron MM, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 1981,
+          "summary": "Clinical presentation and management of PCP intoxication"
+        },
+        {
+          "title": "Phencyclidine-induced psychosis",
+          "authors": "Allen RM, Young SJ",
+          "journal": "American Journal of Psychiatry",
+          "year": 1978,
+          "summary": "Documentation of PCP-induced psychotic episodes and lasting psychiatric effects"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "liquid",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#808080",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray→blue-gray"
+      }
+    ],
+    "notes": [
+      "PCP shows limited reagent reactions. Often adulterant in other substances."
+    ]
+  },
+  "DXM": {
+    "class": "dissociative (morphinan)",
+    "description": {
+      "overview": "Dextromethorphan (DXM) is an over-the-counter cough suppressant that produces dissociative and hallucinogenic effects at high doses. Found in many cough syrups and cold medications, it's one of the most accessible psychoactive substances. Effects are dose-dependent with distinct 'plateaus' of intensity, from mild euphoria to complete dissociation.",
+      "origins": "Developed in the 1950s-60s as a safer, non-addictive alternative to codeine for cough suppression. FDA-approved and widely available OTC since 1958. Recreational use documented since the 1960s but became more popular in the 1990s-2000s with internet information sharing. Often extracted from cough syrups (cold water extraction) to avoid consuming harmful additives.",
+      "uses": "Medical: Cough suppressant in cold/flu medications (Robitussin, NyQuil, Delsym). Typical therapeutic dose 15-30mg. Recreational: Dissociative effects, 'robo-tripping,' visual distortions, euphoria. Doses range from 100mg (first plateau) to 1500mg+ (fourth plateau, complete dissociation). Popular among teenagers due to legal accessibility. Some report antidepressant effects at low doses.",
+      "dangers": "Serotonin syndrome risk, especially when combined with antidepressants (SSRIs, MAOIs). Respiratory depression at high doses. Nausea and vomiting common ('robo-itch'). Cough syrups contain dangerous additives: acetaminophen (liver damage), guaifenesin (nausea), antihistamines (dangerous combinations). Dissociation can lead to injury from falls or accidents. Tolerance develops rapidly with frequent use. Psychological addiction possible. Chronic abuse linked to brain lesions (Olney's lesions - debated). Some products contain high amounts of acetaminophen which can cause fatal liver failure at recreational DXM doses. Always check active ingredients carefully.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dextromethorphan",
+        "erowid": "https://www.erowid.org/chemicals/dxm/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DXM"
+      },
+      "scientific_papers": [
+        {
+          "title": "Dextromethorphan: an overview of safety issues",
+          "authors": "Schwartz RH",
+          "journal": "Clinical Pediatrics",
+          "year": 2005,
+          "summary": "Review of DXM abuse patterns, toxicity, and risks especially in adolescents"
+        },
+        {
+          "title": "Recreational dextromethorphan use and abuse",
+          "authors": "Miller SC",
+          "journal": "Journal of Substance Abuse Treatment",
+          "year": 2005,
+          "summary": "Clinical overview of DXM's dissociative effects and abuse potential"
+        },
+        {
+          "title": "Serotonin toxicity associated with the use of over-the-counter cough and cold medications",
+          "authors": "LoVecchio F, et al.",
+          "journal": "American Journal of Emergency Medicine",
+          "year": 2005,
+          "summary": "Case reports of serotonin syndrome from DXM combinations with antidepressants"
+        }
+      ]
+    },
+    "forms": [
+      "syrup",
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-orange"
+      }
+    ],
+    "notes": [
+      "Commonly extracted from cough medicine. Reagent tests limited value due to additives."
+    ]
+  },
+  "Mescaline": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "Mescaline is a naturally occurring psychedelic alkaloid found in peyote, San Pedro, and other cacti. One of the oldest known psychedelics, producing visual hallucinations, altered perception, and spiritual experiences similar to psilocybin and LSD but with a unique character. Effects last 10-12 hours with relatively gentle come-up and minimal body load compared to synthetic psychedelics.",
+      "origins": "Used by indigenous peoples of Mexico and southwestern US for at least 5,700 years in religious ceremonies. Peyote central to Native American Church practices (legally protected for members). Isolated in 1897, synthesized in 1919. Studied by early psychedelic researchers in 1950s-60s. Aldous Huxley's 'The Doors of Perception' (1954) popularized mescaline experiences. Scheduled in 1970 but peyote use remains legal for Native American Church.",
+      "uses": "Traditional: Sacred medicine in indigenous ceremonies, vision quests, healing rituals (peyote and San Pedro). Recreational: Visual hallucinations, introspection, nature connection, spiritual experiences. San Pedro cactus tea more common than peyote due to conservation concerns. Typical dose 200-400mg mescaline or equivalent cactus material. Duration 10-12 hours. Known for warm, empathogenic quality alongside psychedelic effects.",
+      "dangers": "Physiologically very safe—no lethal dose established. Primary risks psychological: bad trips, anxiety, paranoia especially at high doses or unsafe settings. Nausea and vomiting common during come-up (traditional preparation includes purging as spiritual cleansing). Cactus preparations can cause more stomach discomfort than pure mescaline. Can trigger latent mental health conditions. Peyote endangered due to overharvesting—ethical concerns with non-traditional use. San Pedro more sustainable. Contraindicated with heart conditions (slight cardiovascular stimulation). Very long duration can be exhausting. Set and setting crucial. Legal status: mescaline Schedule I, but peyote legal for Native American Church, San Pedro often legal as ornamental cactus.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
+        "erowid": "https://www.erowid.org/chemicals/mescaline/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline"
+      },
+      "scientific_papers": [
+        {
+          "title": "Mescaline: a global history of the first psychedelic",
+          "authors": "Jay M",
+          "journal": "Yale University Press",
+          "year": 2019,
+          "summary": "Comprehensive history of mescaline's role in indigenous cultures and Western psychedelic research"
+        },
+        {
+          "title": "Pharmacology and phenomenology of the psychedelic experience produced by mescaline",
+          "authors": "Hermle L, et al.",
+          "journal": "Journal of Psychiatric Research",
+          "year": 1992,
+          "summary": "Clinical study of mescaline's psychological effects and safety profile"
+        },
+        {
+          "title": "Peyote and mescaline: effects and potential therapeutic uses",
+          "authors": "El-Seedi HR, et al.",
+          "journal": "Phytochemistry Reviews",
+          "year": 2005,
+          "summary": "Review of mescaline pharmacology, traditional use, and therapeutic potential"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule",
+      "cactus"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→orange-brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#8B4513",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "brown→dark brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      }
+    ],
+    "notes": [
+      "Rare in powder form. Often substituted with other psychedelics. Lab testing recommended."
+    ]
+  },
+  "25I-NBOMe": {
+    "class": "phenethylamine (NBOMe series)",
+    "description": {
+      "overview": "25I-NBOMe (2C-I-NBOMe) is a potent synthetic psychedelic from the NBOMe series, often sold as 'LSD' on blotter paper. Produces intense visual hallucinations and stimulation but is significantly more dangerous than LSD with numerous deaths reported. Distinctive bitter/metallic taste (LSD is tasteless) and causes severe tongue numbness. Active at sub-milligram doses, highly dose-sensitive with narrow safety margin.",
+      "origins": "Synthesized in 2003 by chemist Ralf Heim at Free University of Berlin for serotonin receptor research. Never intended for human consumption. Appeared on recreational market around 2010 as 'legal LSD alternative' and frequently sold as actual LSD. Multiple deaths reported 2012-2015 led to emergency scheduling. Part of NBOMe series (25I, 25C, 25B) all with similar dangers.",
+      "uses": "No medical use. Recreational: Intense visual hallucinations, euphoria, stimulation. Often consumed unknowingly when sold as LSD. Typical dose 200-800mcg on blotter (appears identical to LSD blotter). Effects 6-10 hours. Some users sought NBOMe specifically for intense visuals, but deaths and unpredictability have reduced intentional use. Harm reduction communities strongly discourage NBOMe use and emphasize testing all 'LSD' with Ehrlich reagent.",
+      "dangers": "MULTIPLE DEATHS REPORTED—can be fatal at doses barely above 'normal' recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless and causes no numbness—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: increased heart rate and blood pressure to dangerous levels, risk of stroke/heart attack. Psychological: anxiety, paranoia, panic, bad trips. Some users have died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD putting unsuspecting users at risk. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT IMMEDIATELY.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/25I-NBOMe",
+        "erowid": "https://www.erowid.org/chemicals/nbome/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/25I-NBOMe"
+      },
+      "scientific_papers": [
+        {
+          "title": "25I-NBOMe: a potent and toxic new psychedelic substance",
+          "authors": "Suzuki J, et al.",
+          "journal": "Journal of Medical Toxicology",
+          "year": 2014,
+          "summary": "Case reports of NBOMe toxicity including deaths, seizures, and multi-organ failure"
+        },
+        {
+          "title": "NBOMes: a systematic review of fatalities",
+          "authors": "Lawn W, et al.",
+          "journal": "Forensic Science International",
+          "year": 2014,
+          "summary": "Comprehensive review documenting deaths associated with NBOMe series psychedelics"
+        },
+        {
+          "title": "Misrepresentation of LSD as 25I-NBOMe",
+          "authors": "Nikolaou P, et al.",
+          "journal": "Human Psychopharmacology",
+          "year": 2015,
+          "summary": "Study on NBOMes being sold as LSD and importance of reagent testing to prevent deaths"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFFE0",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "pale yellow→yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "no reaction (NOT an indole)"
+      }
+    ],
+    "notes": [
+      "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
+    ]
+  },
+  "Alprazolam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Alprazolam (Xanax) is a fast-acting, potent benzodiazepine prescribed for anxiety and panic disorders. Produces relaxation, sedation, and anxiolytic (anti-anxiety) effects. One of the most prescribed and most abused benzos due to rapid onset and euphoric effects at higher doses. Street 'Xanax' pills frequently counterfeit and contain fentanyl, other benzos (flualprazolam, etizolam), or no active ingredient.",
+      "origins": "Developed by Upjohn (now Pfizer) in late 1960s, FDA-approved 1981. Became one of most prescribed psychiatric medications in US. Short half-life (6-12 hours) makes it effective for acute anxiety but also increases addiction potential. Available in immediate-release tablets (0.25mg to 2mg) and extended-release (Xanax XR). 'Bars' (2mg) became street drug of choice in 2000s-2010s, often combined with opioids or alcohol.",
+      "uses": "Medical: Anxiety disorders, panic disorder, anxiety associated with depression. Short-term use recommended due to tolerance and dependence. Rapid relief of acute anxiety/panic attacks. Recreational: Sedation, disinhibition, euphoria (at high doses), blackout experiences, combining with opioids or alcohol ('lean'). Popular in hip-hop culture. Pressed counterfeit pills widely available on street/dark web. Typical prescribed dose 0.25-2mg; recreational users often take 4-10mg+ leading to blackouts and dangerous behavior.",
+      "dangers": "EXTREMELY ADDICTIVE—physical dependence develops within weeks. Withdrawal can be FATAL (seizures, delirium tremens)—requires medical supervision to safely discontinue. Blackouts and amnesia common at recreational doses leading to dangerous behavior, accidents, sexual assault. Combining with opioids or alcohol frequently FATAL (respiratory depression). Counterfeit 'Xanax' bars often contain fentanyl—numerous overdose deaths. Pressed pills may contain flualprazolam (longer-acting, more sedating RC benzo) or other research chemicals. Tolerance develops rapidly requiring higher doses. Cognitive impairment, motor coordination issues increase fall/accident risk. Paradoxical reactions possible (increased anxiety, aggression). Rebound anxiety when stopping. Elderly particularly vulnerable to falls, confusion, dementia-like symptoms. Reagent tests don't work on benzos—fentanyl test strips essential for any street pills.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alprazolam",
+        "erowid": "https://www.erowid.org/pharms/alprazolam/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Alprazolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Alprazolam dependence and withdrawal: a review of the syndrome and treatment",
+          "authors": "Ait-Daoud N, et al.",
+          "journal": "Expert Opinion on Drug Metabolism & Toxicology",
+          "year": 2018,
+          "summary": "Comprehensive review of alprazolam's high addiction potential and withdrawal management"
+        },
+        {
+          "title": "The epidemiology of alprazolam misuse: a review",
+          "authors": "Edinoff AN, et al.",
+          "journal": "Health Psychology Research",
+          "year": 2020,
+          "summary": "Analysis of alprazolam abuse patterns, counterfeit pills, and overdose risks"
+        },
+        {
+          "title": "Counterfeit alprazolam tablets containing fentanyl: a new public health concern",
+          "authors": "Moss MJ, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2018,
+          "summary": "Documentation of fentanyl-contaminated fake Xanax pills and overdose deaths"
+        }
+      ]
+    },
+    "forms": [
+      "pressed pill",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Xanax. Benzos do NOT react with colorimetric reagents. Many pressed 'Xanax' bars contain fentanyl or RC benzos—use fentanyl strips."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "CRITICAL for pressed pills. Many fake Xanax bars contain fentanyl.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Clonazepam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed primarily for seizure disorders and panic disorder. Known for potent anti-anxiety and anticonvulsant effects with a long half-life (18-50 hours). Often considered more sedating than other benzos. Street name 'k-pins' or 'klonies.' Popular for anxiety relief and combining with opioids (dangerous).",
+      "origins": "Developed by Hoffmann-La Roche in 1960s, FDA-approved 1975 for seizure disorders. Later approved for panic disorder. Became one of the most prescribed benzos for anxiety despite being primarily an anticonvulsant. Long duration makes it less prone to interdose withdrawal but more difficult to discontinue.",
+      "uses": "Medical: Seizure disorders (especially absence seizures, myoclonic seizures), panic disorder, acute mania, restless leg syndrome, akathisia. Typical dose 0.5-2mg daily. Recreational: Anxiety relief, sedation, enhancing opioid effects, muscle relaxation. Some users prefer clonazepam for longer-lasting anxiety relief compared to Xanax. Popular among those with opioid use disorder.",
+      "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, psychosis). Long half-life means withdrawal symptoms may appear days after last dose and persist for weeks/months. Combining with opioids or alcohol FATAL risk (respiratory depression). Cognitive impairment, memory problems, depression. Driving impairment significant. Elderly at high risk for falls, confusion. Tolerance develops. Paradoxical reactions (increased anxiety, aggression) possible. Counterfeit pills rare but increasing. Pregnancy category D. Chronic use linked to increased dementia risk (debated). Very difficult to taper off due to long action—requires slow, medically supervised withdrawal."
+    },
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
+    ]
+  },
+  "Diazepam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
+      "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
+      "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
+      "dangers": "Physical dependence and addiction with regular use. Withdrawal can be SEVERE and dangerous (seizures, psychosis, insomnia, anxiety)—medical supervision required for tapering. Long half-life means withdrawal symptoms may not appear for days after stopping. Combining with alcohol or opioids dangerous (respiratory depression). Cognitive impairment and memory issues. Sedation increases fall/accident risk especially in elderly. Counterfeit pills may contain other benzos, fentanyl, or nothing. Paradoxical reactions possible. Tolerance develops. Diazepam popular among those with opioid use disorder—deadly combination.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
+        "erowid": "https://www.erowid.org/pharms/diazepam/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Diazepam: a review of its pharmacological properties and therapeutic efficacy",
+          "authors": "Shader RI, Greenblatt DJ",
+          "journal": "Drugs",
+          "year": 1993,
+          "summary": "Comprehensive review of diazepam's pharmacology, clinical uses, and safety profile"
+        },
+        {
+          "title": "Benzodiazepine withdrawal: outcome in 50 patients",
+          "authors": "Rickels K, et al.",
+          "journal": "British Journal of Addiction",
+          "year": 1990,
+          "summary": "Clinical study documenting withdrawal syndrome from long-term diazepam use"
+        },
+        {
+          "title": "Long-term benzodiazepine use and cognitive decline",
+          "authors": "Billioti de Gage S, et al.",
+          "journal": "BMJ",
+          "year": 2014,
+          "summary": "Study showing association between benzodiazepine use and increased dementia risk"
+        }
+      ]
+    },
+    "forms": [
+      "tablet",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
+    ]
+  },
+  "Etizolam": {
+    "class": "thienodiazepine (benzo analogue)",
+    "description": {
+      "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
+      "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
+      "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
+      "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Etizolam and benzodiazepine differentiation in urine",
+          "authors": "Manchester KR, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2012,
+          "summary": "Analytical study on detecting etizolam as emerging benzodiazepine analogue"
+        },
+        {
+          "title": "Etizolam: a review of pharmacology, clinical efficacy, and tolerability",
+          "authors": "Lodhi A, Kaur J",
+          "journal": "Reviews on Recent Clinical Trials",
+          "year": 2020,
+          "summary": "Comprehensive review of etizolam's effects, medical uses, and side effects"
+        },
+        {
+          "title": "Designer benzodiazepines: a new challenge",
+          "authors": "Manchester KR, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2018,
+          "summary": "Review of etizolam and other research chemical benzos entering the illicit market"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Research chemical benzo analogue. No reagent reactions. Legal status varies; sold as 'research chemical' or pressed into fake pharma pills."
+    ]
+  },
+  "Flualprazolam": {
+    "class": "benzodiazepine (designer)",
+    "description": {
+      "overview": "Flualprazolam is a designer benzodiazepine (research chemical) that's significantly more potent than alprazolam (Xanax). Never approved for medical use. Primarily found in counterfeit 'Xanax' bars pressed by illegal manufacturers. Longer-lasting and more sedating than real alprazolam. Causes profound blackouts and amnesia at recreational doses. Extremely dangerous.",
+      "origins": "Synthesized as research chemical, never studied for medical use. Appeared on darknet markets and research chemical vendors around 2016-2017. Quickly became popular adulterant in fake Xanax bars because it's cheap, potent, and produces benzo-like effects. No legitimate pharmaceutical use—purely illicit production. Often manufactured in China and imported by illegal pill pressers.",
+      "uses": "No medical use. Illicit: Found in counterfeit Xanax bars (often labeled as 'alprazolam 2mg' but actually contain flualprazolam). Also sold as blotter or powder on research chemical markets. Effects: Intense sedation, anxiety relief, muscle relaxation, amnesia. Much stronger than alprazolam mg-for-mg. Duration 10-14 hours (vs Xanax 6-12 hours). Users often take what they think is regular Xanax but get unexpectedly powerful effects.",
+      "dangers": "EXTREMELY DANGEROUS. Much more potent than alprazolam—easy to overdose when sold as 'Xanax.' Causes severe blackouts lasting 12+ hours with total amnesia. Users engage in dangerous behavior with no memory. Physical dependence develops RAPIDLY (days to weeks). Withdrawal can be FATAL (seizures). Often combined with fentanyl in pressed pills—LETHAL combination. Overdose causes profound sedation, respiratory depression (especially with other depressants), coma. No quality control—dosage unpredictable. Some 'Xanax' bars contain 3-5mg flualprazolam (equivalent to 6-10mg+ alprazolam). Cannot be distinguished from real Xanax by appearance. Reagent tests don't work. Long half-life means effects persist dangerously long. Reports of users blacking out for entire weekends. Legal consequences: still driving, operating machinery during blackout.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Flualprazolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Flualprazolam.shtml",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Flualprazolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Flualprazolam: report of an analytical challenge and prevalence in drug seizures",
+          "authors": "Papsun D, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2019,
+          "summary": "Documentation of flualprazolam in counterfeit pills and analytical detection challenges"
+        },
+        {
+          "title": "Designer benzodiazepines: a review of toxicology and public health risks",
+          "authors": "Zawilska JB, Wojcieszak J",
+          "journal": "Forensic Toxicology",
+          "year": 2019,
+          "summary": "Review of flualprazolam and other designer benzos as emerging public health threat"
+        },
+        {
+          "title": "Counterfeit medications containing designer benzodiazepines: a new threat",
+          "authors": "Hoiseth G, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2020,
+          "summary": "Case reports of overdoses from flualprazolam in fake Xanax pills"
+        }
+      ]
+    },
+    "forms": [
+      "pressed pill",
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Designer benzo found in fake Xanax bars. Very potent. No reagent reactions. Often mixed with fentanyl in pressed pills."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Test pressed pills for fentanyl contamination.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Phenibut": {
+    "class": "GABA-B agonist (nootropic)",
+    "description": {
+      "overview": "Phenibut (β-phenyl-GABA) is a GABA-B receptor agonist developed in Russia for anxiety, sold as unregulated dietary supplement in US. Produces anxiety relief, sociability, mild euphoria, and improved sleep. Not a benzodiazepine but has similar effects. Legal and widely available online. Marketed as nootropic/cognitive enhancer. Addiction potential severely underestimated by users.",
+      "origins": "Developed in 1960s Soviet Union for cosmonauts to reduce stress without sedation impairment. Prescription medication in Russia, Latvia, Ukraine (trade names: Noofen, Anvifen). Remains unscheduled in US, UK, and most Western countries. Sold as dietary supplement despite not being approved by FDA. Became popular in nootropic/biohacking communities in 2010s. Reddit, Longecity forums popularized use.",
+      "uses": "Medical (in Russia): Anxiety disorders, insomnia, PTSD, alcohol withdrawal. Typical dose 250-1000mg. Supplement use: Anxiety relief, social anxiety reduction, sleep aid, mood enhancement. Some users report improved sociability and reduced social inhibition (similar to alcohol but without intoxication). Popular for public speaking, dates, interviews. Effects: 2-4 hours onset, 15-24 hour duration. Recreational: Euphoria at higher doses (2-3g+), combining with alcohol or other drugs (dangerous).",
+      "dangers": "SEVERE PHYSICAL DEPENDENCE develops with daily use (even at recommended doses). Withdrawal can be DANGEROUS: seizures, psychosis, hallucinations, severe anxiety, insomnia, agitation. Withdrawal worse than many report—can last weeks. Tolerance develops rapidly requiring dose escalation. Long half-life (5-6 hours) but effects last much longer—easy to redose and overdose. Combining with alcohol or other depressants dangerous (respiratory depression). Liver toxicity possible with chronic use. Very difficult to quit once dependent—requires slow taper (months). Rebound anxiety severe. Highly variable individual response—some very sensitive. Sold with minimal warnings about addiction potential. Users often don't realize they're dependent until they try to stop. Not detected on standard drug tests. Quality varies between suppliers—heavy metal contamination possible. Some countries beginning to schedule/ban."
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "GABA analogue sold as nootropic supplement. No reagent reactions. Physical dependence can develop with regular use."
+    ]
+  },
+  "6-APB": {
+    "class": "benzofuran (entactogen)",
+    "description": {
+      "overview": "6-APB (6-(2-Aminopropyl)benzofuran), known as 'Benzo Fury,' is a synthetic empathogen-entactogen and stimulant, chemically related to MDMA and MDA. Produces euphoria, emotional openness, stimulation, and psychedelic visuals. Duration significantly longer than MDMA (8-14 hours). Popular in UK club scenes before being banned. Part of benzofuran family (5-APB, 5-MAPB, etc.).",
+      "origins": "Synthesized in 1993 by David Nichols at Purdue University for research purposes. Remained obscure research chemical until late 2000s. Marketed in UK as legal high under brand name 'Benzo Fury' in early 2010s before being scheduled in 2013. Gained popularity as MDMA substitute when MDMA quality/availability declined in UK. Now Schedule I in most countries but still available on research chemical markets.",
+      "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, music enhancement, dancing, emotional connection. Produces more psychedelic visuals than MDMA, especially at higher doses. Popular at festivals and raves as MDMA alternative. Typical dose 80-120mg; effects last 8-14 hours (much longer than MDMA's 4-6 hours). Some users prefer benzofurans for longer-lasting experiences; others find duration exhausting.",
+      "dangers": "Very long duration can be physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Vasoconstriction. Serotonin depletion worse than MDMA due to longer duration—severe comedown depression possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, eye wiggling (nystagmus), overheating risk. Difficult to sleep for 12-18 hours after dosing. Higher doses produce intense psychedelic effects that can be overwhelming. Limited research on long-term effects. Sold as MDMA or mixed into pills—always test. Reagent reactions similar to MDMA but distinguishable with multiple reagents. Tolerance develops; cross-tolerance with MDMA. Recommended waiting period 3+ months between uses like MDMA.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
+        "erowid": "https://www.erowid.org/chemicals/6apb/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/6-APB"
+      },
+      "scientific_papers": [
+        {
+          "title": "Benzofuran compounds as novel psychoactive substances",
+          "authors": "Dawson P, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2014,
+          "summary": "Analysis of 6-APB and related benzofurans as MDMA alternatives and their pharmacology"
+        },
+        {
+          "title": "Cardiovascular effects of benzofuran designer drugs",
+          "authors": "Scherbaum N, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2013,
+          "summary": "Study on cardiovascular risks of 6-APB and 5-APB use"
+        },
+        {
+          "title": "The rise of 'Benzo Fury': a review of the benzofuran NPS phenomenon",
+          "authors": "Iversen L, et al.",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2013,
+          "summary": "Review of 6-APB's emergence as legal high in UK and subsequent health concerns"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#1F1F1F",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
+    ]
+  },
+  "Methylphenidate": {
+    "class": "stimulant (pharmaceutical)",
+    "description": {
+      "overview": "Methylphenidate (Ritalin, Concerta) is a prescription stimulant medication used primarily to treat ADHD and narcolepsy. It increases dopamine and norepinephrine activity in the brain, improving focus, attention, and impulse control. Structurally different from amphetamine but with similar therapeutic effects. Commonly diverted for academic performance enhancement.",
+      "origins": "First synthesized in 1944 by Leandro Panizzon at Ciba (now Novartis). Named 'Ritalin' after his wife Rita who used it for low blood pressure. FDA-approved in 1955 for treating hyperactivity and later ADHD. Became Schedule II controlled substance in 1971. Extended-release formulations (Concerta, Ritalin LA) developed in 2000s to reduce abuse potential.",
+      "uses": "Medical: ADHD treatment (children and adults), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD patients. Recreational/Academic: Cognitive enhancement for studying, productivity, euphoria at high doses. Popular among college students during exams. Typical therapeutic dose 5-20mg; recreational users may take 40-80mg+.",
+      "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke with pre-existing conditions or high doses. Abuse potential lower than amphetamine but still significant. Tolerance develops with regular use. Nasal damage from snorting crushed pills (common route of abuse). Can trigger anxiety, paranoia, psychosis at high doses. Appetite suppression, insomnia, irritability. Growth suppression in children with long-term use (controversial). Withdrawal: fatigue, depression, difficulty concentrating. Interactions with MAOIs can be dangerous. Pharmaceutical pills should match pill ID databases—counterfeit Ritalin rare but possible.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
+        "erowid": "https://www.erowid.org/pharms/methylphenidate/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Methylphenidate"
+      },
+      "scientific_papers": [
+        {
+          "title": "Methylphenidate for ADHD in children and adolescents: a Cochrane systematic review",
+          "authors": "Storebø OJ, et al.",
+          "journal": "Cochrane Database of Systematic Reviews",
+          "year": 2015,
+          "summary": "Comprehensive review of methylphenidate effectiveness and safety for ADHD treatment"
+        },
+        {
+          "title": "Abuse of methylphenidate: a review of pharmacology and clinical experience",
+          "authors": "Morton WA, Stockton GG",
+          "journal": "Journal of the American Board of Family Medicine",
+          "year": 2000,
+          "summary": "Review of methylphenidate's abuse potential, particularly among students"
+        },
+        {
+          "title": "Cardiovascular effects of therapeutic doses of methylphenidate in adults",
+          "authors": "Habel LA, et al.",
+          "journal": "JAMA",
+          "year": 2011,
+          "summary": "Study on cardiovascular safety of methylphenidate in adult ADHD treatment"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FF8C00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark orange"
+      }
+    ],
+    "notes": [
+      "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
+    ]
+  },
+  "Codeine": {
+    "class": "opioid",
+    "description": {
+      "overview": "Codeine is a naturally occurring opioid found in opium poppy, commonly prescribed for mild to moderate pain and cough suppression. Weaker than morphine (codeine is a prodrug that converts to morphine in the liver). Found in prescription medications like Tylenol #3, cough syrups (promethazine-codeine), and standalone pills. Popular in 'lean' or 'purple drank' culture when mixed with soda and candy.",
+      "origins": "Isolated from opium in 1832 by French chemist Pierre Robiquet. Widely used in medicine since late 1800s as safer alternative to morphine for mild pain. Included in over-the-counter cough syrups until stricter regulations in 1970s-90s. Hip-hop culture popularized 'lean' (codeine cough syrup + soda) in 1990s-2000s Houston scene, spreading nationally. Now Schedule II-V depending on formulation and concentration.",
+      "uses": "Medical: Mild-moderate pain relief, cough suppression, diarrhea treatment. Often combined with acetaminophen (Tylenol #3) or aspirin. Typical dose 15-60mg for pain. Recreational: 'Lean' or 'purple drank' (codeine cough syrup + promethazine + soda + candy), euphoria, relaxation, nodding. Doses 60-120mg+ for recreational effects. Effects: 3-4 hours duration, less intense than other opioids but still addictive.",
+      "dangers": "Addiction and physical dependence develop with regular use—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea. Respiratory depression at high doses or when combined with other depressants (alcohol, benzos, promethazine). Acetaminophen toxicity—many codeine pills contain APAP which causes liver damage/failure at high doses (>4000mg daily). 'Lean' culture glamorizes dangerous behavior—multiple celebrity deaths (Pimp C, DJ Screw, Lil Peep used multiple substances). Genetic variation in CYP2D6 enzyme means some people convert codeine to morphine very efficiently (ultra-rapid metabolizers = overdose risk) while others get no effect (poor metabolizers). Constipation, nausea, itching common. Promethazine in cough syrup adds sedation and respiratory depression risk. Driving impairment. Gateway to stronger opioids for some users.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
+        "erowid": "https://www.erowid.org/pharms/codeine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Codeine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Codeine intoxication associated with ultrarapid CYP2D6 metabolism",
+          "authors": "Gasche Y, et al.",
+          "journal": "New England Journal of Medicine",
+          "year": 2004,
+          "doi": "10.1056/NEJMoa032295",
+          "summary": "Case report demonstrating fatal codeine toxicity in ultra-rapid CYP2D6 metabolizer"
+        },
+        {
+          "title": "Recreational use of codeine-containing cough syrup",
+          "authors": "Peters RJ, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2007,
+          "summary": "Study on 'purple drank' culture and health risks of recreational codeine syrup misuse"
+        },
+        {
+          "title": "Codeine, ultrarapid-metabolism genotype, and postoperative death",
+          "authors": "Ciszkowski C, et al.",
+          "journal": "New England Journal of Medicine",
+          "year": 2009,
+          "summary": "Documentation of pediatric death from codeine due to CYP2D6 ultra-rapid metabolism"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "liquid",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-green"
+      }
+    ],
+    "notes": [
+      "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
+    ]
+  },
+  "Kratom": {
+    "class": "opioid agonist (plant alkaloids)",
+    "description": {
+      "overview": "Kratom (Mitragyna speciosa) is a tropical tree native to Southeast Asia whose leaves contain alkaloids that act as opioid agonists and stimulants. At low doses, produces stimulant effects; at higher doses, opioid-like pain relief and sedation. Widely used for pain management, opioid withdrawal, and energy. Legal status varies by country and US state.",
+      "origins": "Used traditionally in Thailand, Malaysia, and Indonesia for centuries by laborers to combat fatigue and manage pain. Leaves chewed fresh or brewed as tea. Western awareness grew in 1800s but remained obscure until 2000s internet commerce. Banned in Thailand (ironically, its origin) since 1943 but recently re-legalized. DEA attempted scheduling in 2016 but withdrew after public outcry. Currently unscheduled federally in US but banned in several states.",
+      "uses": "Traditional: Energy, pain relief, treating diarrhea, wound healing. Modern: Self-treatment for chronic pain (alternative to prescription opioids), opioid withdrawal aid (reduces symptoms), anxiety and depression relief, energy and focus (low doses), recreational sedation (high doses). Strains: Red (sedating, pain relief), Green (balanced), White (energizing). Typical dose 2-5g (moderate) to 5-10g+ (strong). Often consumed as powder in capsules, 'toss and wash,' or tea.",
+      "dangers": "Physical dependence and withdrawal with regular use—symptoms similar to mild opioid withdrawal (muscle aches, irritability, insomnia, runny nose). Tolerance develops, requiring increasing doses. Nausea and 'wobbles' (dizziness, nausea) common at high doses or with certain strains. Constipation (opioid effect). Liver toxicity rare but reported with chronic heavy use or adulterated products. Respiratory depression possible when combined with other CNS depressants (alcohol, benzos, opioids)—deaths almost always involve poly-drug use. Seizures reported in rare cases. Quality control issues: products may be contaminated with salmonella, heavy metals, or adulterated with actual opioids. Some extracts (shots, enhanced products) extremely potent. Addiction potential debated but real for some users. Can test positive for methadone on some drug tests (false positive).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
+        "erowid": "https://www.erowid.org/plants/kratom/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Kratom"
+      },
+      "scientific_papers": [
+        {
+          "title": "Kratom (Mitragyna speciosa): User motivations, use patterns and implications for use disorder",
+          "authors": "Garcia-Romeu A, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2020,
+          "doi": "10.1016/j.drugalcdep.2020.107849",
+          "summary": "Large survey study on kratom use patterns, self-reported benefits, and dependence potential"
+        },
+        {
+          "title": "Pharmacology of kratom: An emerging botanical agent with stimulant, analgesic and opioid-like effects",
+          "authors": "Kruegel AC, Grundmann O",
+          "journal": "Journal of the American Osteopathic Association",
+          "year": 2018,
+          "summary": "Comprehensive review of kratom alkaloids, pharmacology, mechanisms, and clinical effects"
+        },
+        {
+          "title": "Kratom and Pain: Reviewing the Evidence",
+          "authors": "Grundmann O",
+          "journal": "Frontiers in Pharmacology",
+          "year": 2017,
+          "summary": "Review of kratom's analgesic properties and potential for opioid withdrawal management"
+        },
+        {
+          "title": "Kratom dependence and withdrawal: A case series",
+          "authors": "Singh D, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2018,
+          "summary": "Clinical case reports documenting kratom withdrawal syndrome in chronic users"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "leaf",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B4513",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "saddle brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#A0522D",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "sienna"
+      }
+    ],
+    "notes": [
+      "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
+    ]
+  }
+}

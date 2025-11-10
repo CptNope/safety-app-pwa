@@ -1,0 +1,458 @@
+{
+  "overview": {
+    "note": "Auxiliary observations. Do NOT confirm identity; avoid taste-testing. Use multiple reagents; use lab testing where possible."
+  },
+  "cards": [
+    {
+      "id": "reagent_testing_basics",
+      "name": "Reagent Testing Best Practices",
+      "type": "essential",
+      "do": [
+        "Use white ceramic plate or spot plate for testing",
+        "Test tiny amounts (1-2mg, size of grain of salt)",
+        "Use multiple reagents on same sample for confirmation",
+        "Observe color change within specified time window (usually 30-120s)",
+        "Test in good lighting; natural light or bright white LED best",
+        "Work in ventilated area away from children/pets",
+        "Keep reagents refrigerated; replace every 6-12 months"
+      ],
+      "dont": [
+        "Never test large amounts—reagents are corrosive",
+        "Don't mix reagents together—test separately",
+        "Don't reuse testing surface without cleaning",
+        "Don't assume one test is enough—cross-reference multiple",
+        "Don't test in direct sunlight—can affect color perception"
+      ],
+      "notes": [
+        "Reagents degrade over time—brown/dark reagents may give false results",
+        "Temperature affects reaction speed—room temp (20-25°C) ideal",
+        "Some substances react violently (fizzing/smoking)—normal for certain reactions"
+      ]
+    },
+    {
+      "id": "sample_collection",
+      "name": "Sample Collection & Preparation",
+      "type": "essential",
+      "do": [
+        "Wear nitrile gloves throughout process",
+        "Use clean implements (new razor blade, knife, spatula)",
+        "Sample from multiple spots in batch—adulterants distribute unevenly",
+        "Crush crystals/rocks to powder for better reagent contact",
+        "For pills: scrape surface AND interior",
+        "For liquids: allow to evaporate slightly on test plate",
+        "Store remaining sample separately from tested portion"
+      ],
+      "dont": [
+        "Never touch samples with bare hands",
+        "Don't cross-contaminate between samples or tests",
+        "Don't assume homogeneous mixing in powders/pills"
+      ],
+      "notes": [
+        "Fentanyl can absorb through skin—gloves essential",
+        "Clean workspace between different samples",
+        "Label tests if comparing multiple samples"
+      ]
+    },
+    {
+      "id": "interpreting_results",
+      "name": "Interpreting Test Results",
+      "type": "essential",
+      "do": [
+        "Compare results to known reaction charts",
+        "Note exact color, time to color change, final color",
+        "Consider multiple reagents together—no single test confirms identity",
+        "Account for lighting conditions when judging color",
+        "Document with photo if possible (flash off, white background)",
+        "Unexpected colors may indicate adulterants or unknown substances"
+      ],
+      "dont": [
+        "Don't trust partial matches—'close enough' isn't safe",
+        "Don't ignore no-reaction results—may be important",
+        "Don't assume purity based on correct color—only identifies presence"
+      ],
+      "notes": [
+        "Mixed/muddy colors often indicate multiple substances",
+        "No reaction with all reagents may indicate inert cut or unknown substance",
+        "Reagents detect presence, NOT concentration or purity"
+      ]
+    },
+    {
+      "id": "fentanyl_strips",
+      "name": "Fentanyl Test Strips (Critical)",
+      "type": "critical",
+      "do": [
+        "Use for ANY powder, pill, or suspected opioid",
+        "Dissolve small sample (~10mg) in water per instructions",
+        "Wait full development time (usually 5 minutes)",
+        "One line = fentanyl detected; two lines = negative",
+        "Test every batch/pill individually—contamination varies"
+      ],
+      "dont": [
+        "Negatives ≠ 100% safe—analogues may not be detected",
+        "Don't skip testing because substance 'shouldn't' have fentanyl",
+        "Don't assume entire batch is clean from one test"
+      ],
+      "notes": [
+        "Fentanyl found in cocaine, meth, MDMA, ketamine, pressed pills",
+        "Cross-contamination during production is common",
+        "Some analogues (carfentanil, novel fentanyls) may not trigger test",
+        "Free fentanyl test strips available in many areas"
+      ]
+    },
+    {
+      "id": "xylazine_strips",
+      "name": "Xylazine Test Strips",
+      "type": "screening",
+      "do": [
+        "Use for opioid samples—xylazine increasingly common adulterant",
+        "Follow same procedure as fentanyl strips",
+        "Test opioids, especially heroin and pressed pills"
+      ],
+      "notes": [
+        "Xylazine (veterinary sedative) causes severe wounds, doesn't respond to naloxone",
+        "Often mixed with fentanyl in street opioids",
+        "Test strips available through harm reduction organizations"
+      ]
+    },
+    {
+      "id": "uv_light",
+      "name": "UV/Blacklight (365–395 nm)",
+      "type": "auxiliary",
+      "do": [
+        "Use near‑UV flashlight (365nm wavelength best)",
+        "Observe fluorescence in dark room for best visibility",
+        "Check both sides of blotter paper"
+      ],
+      "dont": [
+        "Fluorescence ≠ LSD; many papers/inks glow",
+        "Don't use as primary identification method",
+        "Don't stare at UV source—eye damage risk"
+      ],
+      "notes": [
+        "Paper brighteners glow blue‑white; not diagnostic of LSD",
+        "Some inks fluoresce green/orange—still not definitive",
+        "Useful as quick screen but MUST follow with Ehrlich test"
+      ]
+    },
+    {
+      "id": "taste",
+      "name": "Taste/Tongue Testing (NEVER DO THIS)",
+      "type": "do-not",
+      "dont": [
+        "NEVER lick, bite, or touch substances to tongue",
+        "NEVER 'gum' or sublingual test unknown substances",
+        "NEVER rely on bitter/numbing sensations for ID"
+      ],
+      "notes": [
+        "NBOMes taste bitter/metallic AND can be fatal",
+        "Fentanyl analogues can be absorbed through mucous membranes",
+        "Many substances taste similar—completely unreliable",
+        "LSD should have no taste—bitter = danger, but no taste ≠ safe"
+      ]
+    },
+    {
+      "id": "lab_testing",
+      "name": "Laboratory Testing (Gold Standard)",
+      "type": "confirmation",
+      "do": [
+        "Use for definitive identification and purity analysis",
+        "Submit samples to drug checking services where available",
+        "Common methods: GC/MS, FTIR, HPLC",
+        "Provides exact substance ID and percentage purity"
+      ],
+      "services": [
+        "DrugsData.org (USA, mail-in, $150)",
+        "WEDINOS (UK, free postal)",
+        "Energy Control (Spain/International)",
+        "Get Your Drugs Tested (Canada)"
+      ],
+      "notes": [
+        "Only lab testing definitively identifies substances and quantifies purity",
+        "Reagents are presumptive—they suggest but don't prove",
+        "Lab testing may take days to weeks for results"
+      ]
+    },
+    {
+      "id": "reagent_storage",
+      "name": "Reagent Storage & Shelf Life",
+      "type": "essential",
+      "do": [
+        "Store in refrigerator (not freezer)",
+        "Keep bottles tightly sealed when not in use",
+        "Keep away from light (amber glass bottles ideal)",
+        "Label with date opened",
+        "Replace every 6-12 months even if unused"
+      ],
+      "dont": [
+        "Don't leave bottles open—moisture and air degrade reagents",
+        "Don't expose to direct sunlight or heat",
+        "Don't freeze—can cause bottles to crack"
+      ],
+      "notes": [
+        "Degraded reagents turn brown/dark and give false results",
+        "Marquis turns brown fastest; check before each use",
+        "Fresh reagents are clear or light-colored (except Mandelin)",
+        "Discard if color changed significantly or past expiration"
+      ]
+    },
+    {
+      "id": "cross_contamination",
+      "name": "Avoiding Cross-Contamination",
+      "type": "safety",
+      "do": [
+        "Use new surface or clean thoroughly between tests",
+        "Change gloves between different samples",
+        "Use separate implements for each substance",
+        "Wash testing surface with isopropyl alcohol + water",
+        "Dispose of used materials safely"
+      ],
+      "dont": [
+        "Never reuse testing surface without cleaning",
+        "Don't touch multiple samples with same tool"
+      ],
+      "notes": [
+        "Trace fentanyl contamination from one sample can transfer",
+        "Even invisible residue can affect results"
+      ]
+    },
+    {
+      "id": "melting_point",
+      "name": "Melting Point Testing (Advanced)",
+      "type": "clandestine",
+      "do": [
+        "Use melting point apparatus or capillary tube + thermometer",
+        "Heat sample slowly (~1-2°C per minute) for accuracy",
+        "Observe temperature at which solid begins to melt",
+        "Compare to known melting point ranges for suspected substance",
+        "Crush crystal to powder for more uniform melting"
+      ],
+      "dont": [
+        "Don't heat rapidly—melting range will be inaccurate",
+        "Don't use open flame (fire hazard + decomposes many substances)",
+        "Don't assume purity—cuts change melting point"
+      ],
+      "notes": [
+        "Pure MDMA: ~148-153°C; Methamphetamine: ~170-175°C; Cocaine HCl: ~195-198°C",
+        "Adulterants lower/broaden melting point range",
+        "Requires specialized equipment or improvised setup (oil bath + thermometer)",
+        "Not practical for field use but useful for serious verification"
+      ]
+    },
+    {
+      "id": "acetone_wash",
+      "name": "Acetone Wash (Purity Improvement)",
+      "type": "clandestine",
+      "do": [
+        "Use pure anhydrous acetone (not nail polish remover)",
+        "Crush sample to fine powder in glass container",
+        "Add cold acetone (~0°C, ice bath), stir 2-3 minutes",
+        "Filter through coffee filter; collect solid residue",
+        "Air dry filtered solid completely (24+ hours)",
+        "Discard acetone (contains cuts/impurities)"
+      ],
+      "dont": [
+        "Don't use acetone with additives (nail polish remover)",
+        "Don't wash substances soluble in acetone (most psychedelics)",
+        "Don't assume washed = pure—some cuts remain"
+      ],
+      "notes": [
+        "Effective for cocaine, amphetamines, MDMA (HCl salts insoluble in cold acetone)",
+        "Removes many common cuts: caffeine, sugars, MSM, cutting agents",
+        "Weight loss indicates cut percentage (50% loss = ~50% cut)",
+        "NOT foolproof—some adulterants also insoluble",
+        "Legal in most areas (acetone is hardware store item)"
+      ]
+    },
+    {
+      "id": "solubility_tests",
+      "name": "Solubility Testing",
+      "type": "clandestine",
+      "do": [
+        "Test small sample (~10mg) in water, then in alcohol (ethanol/isopropanol)",
+        "Observe dissolution speed, clarity, residue",
+        "Compare to known solubility of suspected substance",
+        "Note temperature (room temp ~20°C standard)"
+      ],
+      "notes": [
+        "Cocaine HCl: very soluble in water; Crack: barely soluble in water",
+        "MDMA HCl: soluble in water and alcohol",
+        "Most cuts are water-soluble (sugars, caffeine)—residue may indicate insoluble adulterant",
+        "Not definitive but provides clues about form (salt vs freebase)",
+        "Combine with other tests for better picture"
+      ]
+    },
+    {
+      "id": "burn_test",
+      "name": "Burn Test (Visual Observation Only)",
+      "type": "clandestine",
+      "do": [
+        "Place tiny amount (~1mg) on aluminum foil or metal surface",
+        "Heat from below with lighter (indirect heat)",
+        "Observe: Does it melt? Smoke? Color of smoke? Residue?",
+        "Note smell (but don't inhale fumes directly)"
+      ],
+      "dont": [
+        "NEVER inhale smoke/vapors (toxic combustion products)",
+        "Don't use as primary ID method—extremely unreliable",
+        "Don't burn large amounts (waste + more toxic fumes)"
+      ],
+      "notes": [
+        "Methamphetamine: melts to clear liquid, re-crystallizes on cooling, minimal residue",
+        "MDMA: melts/liquifies, brown residue, distinct smell",
+        "Cocaine: doesn't vaporize well, burns/chars, chemical smell",
+        "Heroin: liquifies, brown smoke (distinctive 'vinegar' smell)",
+        "VERY unreliable—many substances behave similarly; use only as rough screen"
+      ]
+    },
+    {
+      "id": "physical_observation",
+      "name": "Physical Characteristics (Visual Inspection)",
+      "type": "auxiliary",
+      "do": [
+        "Examine under bright light or magnification",
+        "Note: color, crystal structure, texture, smell (don't inhale deeply)",
+        "Check for uniformity—mixed colors/textures indicate cuts",
+        "Observe how crystals break/crush",
+        "Look for foreign particles or discoloration"
+      ],
+      "dont": [
+        "Don't trust visual ID alone—any substance can be made to look like another",
+        "Don't smell powders directly (fentanyl risk)",
+        "Don't assume purity from appearance (can be deceiving)"
+      ],
+      "notes": [
+        "Meth: clear/white crystals, 'glass-like', odorless or slight chemical smell",
+        "MDMA: tan/brown crystals or white powder, slight licorice/sassafras smell",
+        "Cocaine: white/off-white powder, 'flaky', slight chemical/diesel smell",
+        "Visual inspection is ALWAYS supplementary—never diagnostic"
+      ]
+    },
+    {
+      "id": "documentation",
+      "name": "Photographic Documentation",
+      "type": "auxiliary",
+      "do": [
+        "Photograph reagent tests with white background, flash OFF",
+        "Include time stamps if possible",
+        "Take reference photo with known color chart (if available)",
+        "Document before/during/after color changes",
+        "Use macro mode for detail"
+      ],
+      "notes": [
+        "Photos help compare results later or consult with experts",
+        "Lighting affects color perception—natural daylight best",
+        "Share photos (anonymously) with drug checking forums for second opinion",
+        "Keep test photos separate from personal photos (opsec)"
+      ]
+    },
+    {
+      "id": "bleach_test",
+      "name": "Bleach Test (Cocaine/Levamisole Detection)",
+      "type": "clandestine",
+      "do": [
+        "Dissolve small sample (~20mg) in water",
+        "Add 2-3 drops household bleach",
+        "Swirl gently and observe color change",
+        "Amber/brown/orange color indicates levamisole presence"
+      ],
+      "dont": [
+        "Don't inhale bleach fumes (toxic chlorine gas possible)",
+        "Don't test in enclosed space—ventilate well",
+        "Negative result ≠ pure cocaine (other adulterants exist)"
+      ],
+      "notes": [
+        "Levamisole is veterinary dewormer, toxic, found in 60-90% of cocaine",
+        "Causes immune system damage, skin necrosis",
+        "Bleach test is quick field test specific to levamisole",
+        "Won't detect other cuts (phenacetin, lidocaine, caffeine)"
+      ]
+    },
+    {
+      "id": "morris_reagent",
+      "name": "Morris Reagent (Cocaine Specific)",
+      "type": "advanced_reagent",
+      "do": [
+        "Use Morris reagent (thiocyanate + cobalt)",
+        "Place tiny sample on white plate",
+        "Add 1 drop Morris, observe color",
+        "Blue-green/turquoise = cocaine present"
+      ],
+      "notes": [
+        "More specific than Marquis for cocaine detection",
+        "Less commonly available than primary reagents",
+        "Still presumptive—not definitive"
+      ]
+    },
+    {
+      "id": "pill_id_databases",
+      "name": "Pill Identification Databases",
+      "type": "auxiliary",
+      "services": [
+        "Drugs.com Pill Identifier (legitimate pharmaceuticals)",
+        "EcstasyData.org (lab results for street pills)",
+        "Pillreports.net (user-submitted, less reliable)",
+        "Your local drug checking service app/website"
+      ],
+      "do": [
+        "Enter imprint code, color, shape into database",
+        "For legitimate pills: cross-reference with prescription",
+        "For street pills: check recent lab results in your area"
+      ],
+      "dont": [
+        "NEVER assume identical appearance = identical content",
+        "Don't trust pill reports without recent lab confirmation",
+        "Don't skip testing because pill 'looks right'"
+      ],
+      "notes": [
+        "Anyone can press pills with any stamp/logo—appearance means nothing",
+        "Legitimate pill databases (Drugs.com) only for identifying real prescriptions",
+        "Street pill databases show trends but are NOT guarantees",
+        "Always test, even if pill ID looks promising"
+      ]
+    },
+    {
+      "id": "gcms_explained",
+      "name": "GC/MS (Gas Chromatography-Mass Spectrometry)",
+      "type": "confirmation",
+      "do": [
+        "Submit samples to professional lab for GC/MS analysis",
+        "Provides definitive ID + quantitative purity analysis",
+        "Can detect multiple substances and adulterants"
+      ],
+      "notes": [
+        "Gold standard for substance identification",
+        "Separates mixture into components (GC), then identifies each (MS)",
+        "Shows percentage composition: '72% MDMA, 15% caffeine, 8% sugar, 5% unknown'",
+        "Available through drug checking services (DrugsData, WEDINOS, Energy Control)",
+        "Results may take 1-4 weeks",
+        "Cost: $0-150 depending on service"
+      ]
+    },
+    {
+      "id": "ftir_spectroscopy",
+      "name": "FTIR (Fourier-Transform Infrared Spectroscopy)",
+      "type": "confirmation",
+      "notes": [
+        "Professional lab technique—identifies substances by molecular 'fingerprint'",
+        "Non-destructive (sample can be recovered)",
+        "Very accurate for pure substances; struggles with complex mixtures",
+        "Used by some drug checking services as alternative to GC/MS",
+        "Faster results than GC/MS (minutes vs days)"
+      ]
+    },
+    {
+      "id": "marquis_limitations",
+      "name": "Understanding Reagent Limitations",
+      "type": "essential",
+      "notes": [
+        "Reagents are PRESUMPTIVE tests—they suggest, not prove",
+        "Same color can result from different substances (e.g., MDMA and DXM both orange with Marquis)",
+        "Mixtures create unpredictable colors",
+        "Cuts/adulterants may mask or alter expected reactions",
+        "False negatives possible (substance present but no reaction)",
+        "False positives possible (wrong substance gives similar color)",
+        "Always use multiple reagents + fentanyl strips + consider lab testing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "overview": {
+    "title": "Medical Emergency Response & Hospital Treatment",
+    "warning": "⚠️ THIS IS EDUCATIONAL INFORMATION ONLY. In a medical emergency, ALWAYS call emergency services (911 in US) immediately. Time is critical.",
+    "good_samaritan": "Most US states and many countries have Good Samaritan laws protecting people who call for help during a drug emergency from arrest or prosecution. As of 2023, 47 US states + DC have some form of these laws. States with NO or very limited protections: Wyoming, Kansas, Texas (very limited). ALWAYS CALL 911 REGARDLESS - saving a life is more important than potential legal consequences."
+  },
+  "emergency_response": {
+    "name": "Immediate Actions (Before Help Arrives)",
+    "steps": [
+      "1. CALL 911 / Emergency Services immediately - don't wait to see if symptoms improve",
+      "2. Stay with the person - never leave them alone",
+      "3. Recovery position - if unconscious but breathing, place on their side to prevent choking",
+      "4. Check breathing - if not breathing normally, begin CPR if trained",
+      "5. Keep warm - cover with blanket, maintain body temperature",
+      "6. Stay calm - reassure the person if conscious",
+      "7. Collect information - what was taken, how much, when, what route"
+    ],
+    "what_to_tell_ems": [
+      "Be HONEST about what substance was taken - doctors can't help properly without this info",
+      "Approximate amount consumed",
+      "Time of consumption",
+      "Route (oral, snorted, injected, smoked)",
+      "Any other drugs or alcohol consumed",
+      "Pre-existing medical conditions or medications",
+      "Bring pill bottles, drug samples, or paraphernalia if safe to do so"
+    ],
+    "do_not": [
+      "DO NOT induce vomiting unless specifically instructed by medical personnel",
+      "DO NOT give food or drink if person is unconscious or having seizures",
+      "DO NOT put person in cold shower or bath (risk of drowning, shock)",
+      "DO NOT try to 'walk it off'",
+      "DO NOT restrain violently - risk of injury, hyperthermia",
+      "DO NOT withhold information from medical staff"
+    ]
+  },
+  "hospital_treatments": {
+    "opioid_overdose": {
+      "name": "Opioid Overdose (Heroin, Fentanyl, Morphine, Oxycodone)",
+      "signs": [
+        "Unconsciousness or extreme sedation",
+        "Slow, shallow, or stopped breathing",
+        "Blue lips/fingernails (cyanosis)",
+        "Pinpoint pupils",
+        "Cold, clammy skin",
+        "Choking/gurgling sounds"
+      ],
+      "prehospital": [
+        "Naloxone (Narcan) nasal spray or injection - reverses opioid effects",
+        "Multiple doses may be needed for fentanyl",
+        "Rescue breathing or CPR if not breathing"
+      ],
+      "hospital": [
+        "IV naloxone continuous infusion (fentanyl requires longer monitoring)",
+        "Oxygen support or mechanical ventilation if needed",
+        "Cardiac monitoring",
+        "Observation for 4-6+ hours (fentanyl may require 12-24h)",
+        "Withdrawal management if needed"
+      ],
+      "notes": [
+        "Naloxone wears off in 30-90 minutes but drug may last longer - hospital observation critical",
+        "Fentanyl and analogues may require repeated naloxone doses",
+        "Withdrawal can begin immediately after naloxone - uncomfortable but not life-threatening"
+      ]
+    },
+    "stimulant_overdose": {
+      "name": "Stimulant Overdose/Toxicity (Cocaine, Meth, MDMA, Cathinones)",
+      "signs": [
+        "Extremely high heart rate (tachycardia)",
+        "Very high blood pressure",
+        "Chest pain",
+        "Dangerously high body temperature (hyperthermia)",
+        "Seizures",
+        "Agitation, paranoia, aggression",
+        "Stroke symptoms"
+      ],
+      "prehospital": [
+        "Keep person calm and cool",
+        "Remove to cool environment",
+        "Monitor vital signs"
+      ],
+      "hospital": [
+        "Benzodiazepines (Valium, Ativan) for agitation, seizures, blood pressure",
+        "IV fluids for dehydration",
+        "Active cooling for hyperthermia (ice packs, cooling blankets, cold IV fluids)",
+        "Cardiac monitoring and treatment for arrhythmias",
+        "Antihypertensives if blood pressure dangerously high",
+        "Treatment for rhabdomyolysis (muscle breakdown) with aggressive hydration",
+        "Possible intubation and sedation for severe agitation"
+      ],
+      "notes": [
+        "No specific antidote - treatment is supportive",
+        "Hyperthermia (>104°F/40°C) is medical emergency - can cause organ failure",
+        "Serotonin syndrome risk with MDMA - requires cooling and sedation",
+        "Cardiac complications can occur hours after use"
+      ]
+    },
+    "psychedelic_crisis": {
+      "name": "Psychedelic Bad Trip / Acute Anxiety (LSD, Psilocybin, 2C-x, NBOMes, DOx)",
+      "signs": [
+        "Extreme anxiety, panic, paranoia",
+        "Confusion, disorientation",
+        "Agitation or emotional distress",
+        "Dangerous behavior (trying to hurt self/others)",
+        "In severe cases: seizures (NBOMes), hyperthermia"
+      ],
+      "prehospital": [
+        "Calm, quiet, non-threatening environment",
+        "Reassurance: 'You took a drug, this will end, you're safe'",
+        "Do not physically restrain unless absolutely necessary for safety"
+      ],
+      "hospital": [
+        "Benzodiazepines for severe anxiety/agitation (not routinely needed)",
+        "Quiet room with minimal stimulation",
+        "Talk-down technique: calm reassurance, reality orientation",
+        "Monitoring vital signs (NBOMes and DOx can cause dangerous symptoms)",
+        "Treatment of hyperthermia if present",
+        "Most patients do not need medication - supportive care sufficient"
+      ],
+      "notes": [
+        "Classic psychedelics (LSD, psilocybin) are not physically dangerous in overdose",
+        "NBOMes are dangerous - can cause seizures, hyperthermia, death",
+        "DOx compounds last 12-30 hours - prolonged hospital stay may be needed",
+        "Antipsychotics generally avoided (can worsen symptoms)"
+      ]
+    },
+    "dissociative_toxicity": {
+      "name": "Dissociative Overdose (Ketamine, PCP, DXM, MXE, 3-MeO-PCP)",
+      "signs": [
+        "Extreme dissociation or unresponsiveness",
+        "Agitation, violence (especially PCP)",
+        "High blood pressure and heart rate",
+        "Nystagmus (rapid eye movements)",
+        "Difficulty breathing",
+        "Hyperthermia"
+      ],
+      "prehospital": [
+        "Ensure airway is clear",
+        "Calm environment, minimal stimulation",
+        "Do not restrain unless necessary - increases injury/hyperthermia risk"
+      ],
+      "hospital": [
+        "Benzodiazepines for agitation (especially PCP)",
+        "Monitoring and support of vital signs",
+        "IV fluids",
+        "Treatment of hyperthermia if present",
+        "Observation until fully conscious and oriented",
+        "Activated charcoal if recent oral ingestion and patient cooperative"
+      ],
+      "notes": [
+        "PCP can cause extreme, unpredictable violence - chemical sedation often needed",
+        "Most dissociatives wear off with supportive care",
+        "Respiratory depression possible at high doses"
+      ]
+    },
+    "ghb_overdose": {
+      "name": "GHB/GBL Overdose",
+      "signs": [
+        "Sudden unconsciousness",
+        "Shallow breathing or respiratory depression",
+        "Bradycardia (slow heart rate)",
+        "Vomiting while unconscious (aspiration risk)",
+        "Rapid onset (minutes)"
+      ],
+      "prehospital": [
+        "Recovery position immediately (high aspiration risk)",
+        "Monitor breathing closely",
+        "Be prepared for sudden awakening (can be agitated)"
+      ],
+      "hospital": [
+        "Airway protection (intubation if needed)",
+        "Supportive care - no specific antidote",
+        "Monitoring until fully conscious",
+        "Treatment typically short (2-4 hours) as drug wears off quickly",
+        "Withdrawal monitoring if chronic user"
+      ],
+      "notes": [
+        "Very narrow margin between recreational dose and overdose",
+        "Combining with alcohol is extremely dangerous",
+        "Patients often wake up suddenly and may try to leave - dangerous if still impaired"
+      ]
+    },
+    "serotonin_syndrome": {
+      "name": "Serotonin Syndrome (MDMA, combinations with antidepressants)",
+      "signs": [
+        "Agitation, confusion",
+        "Rapid heart rate",
+        "High blood pressure",
+        "Dilated pupils",
+        "Muscle rigidity, tremor, twitching",
+        "Sweating, hyperthermia",
+        "Diarrhea"
+      ],
+      "hospital": [
+        "Discontinue all serotonergic drugs immediately",
+        "Benzodiazepines for agitation",
+        "Aggressive cooling for hyperthermia",
+        "IV fluids",
+        "Cyproheptadine (serotonin antagonist) in severe cases",
+        "ICU monitoring for severe cases"
+      ],
+      "notes": [
+        "Can be life-threatening if untreated",
+        "Risk increased when combining MDMA/other drugs with SSRIs, MAOIs",
+        "Usually resolves within 24 hours if drug stopped and supportive care given"
+      ]
+    },
+    "benzodiazepine_overdose": {
+      "name": "Benzodiazepine/Sedative Overdose (Xanax, Valium, Klonopin, Etizolam, Flualprazolam, Phenibut)",
+      "signs": [
+        "Extreme drowsiness, sedation, or unconsciousness",
+        "Slurred speech, confusion",
+        "Slow, shallow breathing (respiratory depression)",
+        "Weakness, lack of coordination",
+        "Low blood pressure (hypotension)",
+        "Hypothermia (low body temperature)",
+        "Paradoxical agitation (in some cases)"
+      ],
+      "prehospital": [
+        "Recovery position if unconscious but breathing",
+        "Monitor breathing closely - be prepared for CPR",
+        "Keep person warm (benzos can cause hypothermia)",
+        "Do NOT induce vomiting"
+      ],
+      "hospital": [
+        "Airway protection - intubation if severe respiratory depression",
+        "Oxygen support or mechanical ventilation if needed",
+        "IV fluids for low blood pressure",
+        "Activated charcoal if recent ingestion (within 1 hour) and patient alert",
+        "Flumazenil (benzo antidote) - used CAUTIOUSLY and rarely",
+        "Cardiac and respiratory monitoring",
+        "Observation until fully conscious and stable"
+      ],
+      "notes": [
+        "Flumazenil (benzo reversal agent) is RARELY used - can cause seizures in chronic benzo users or if combined with other drugs",
+        "Combining benzos with alcohol or opioids dramatically increases overdose risk - respiratory depression can be fatal",
+        "Most benzo-only overdoses are not fatal if breathing is supported - death usually from combinations",
+        "Counterfeit pills (Xanax, Valium) may contain fentanyl, flualprazolam, or other dangerous substances",
+        "Withdrawal can be life-threatening for chronic users - medical supervision required for detox",
+        "Designer benzos (flualprazolam, etizolam) may be more potent and longer-lasting than expected"
+      ]
+    },
+    "general_supportive": {
+      "name": "General Hospital Supportive Care (All Overdoses)",
+      "common_interventions": [
+        "IV access and fluid administration",
+        "Continuous cardiac monitoring (ECG)",
+        "Pulse oximetry (oxygen levels)",
+        "Blood pressure monitoring",
+        "Blood tests: electrolytes, kidney/liver function, drug screen",
+        "Urinalysis",
+        "ECG to check for cardiac abnormalities",
+        "Activated charcoal if recent oral ingestion (within 1 hour) and patient alert",
+        "Observation until medically cleared"
+      ]
+    }
+  },
+  "legal_protections": {
+    "name": "Legal Protections for Seeking Help",
+    "good_samaritan_laws": [
+      "47 US states + DC have 'Good Samaritan' or '911 Immunity' laws (as of 2023)",
+      "These protect callers from arrest/prosecution for drug possession when calling 911",
+      "Protection typically extends to the person overdosing AND the person calling",
+      "Minor drug offenses usually covered; may not protect large-scale dealing",
+      "States with NO or very limited Good Samaritan protections: Wyoming, Kansas, Texas (limited)",
+      "EVEN in these states: ALWAYS call 911 anyway - saving a life is more important than legal risk",
+      "Laws vary by state - check local laws, but emergency response is priority"
+    ],
+    "naloxone_access": [
+      "Naloxone (Narcan) available without prescription in most states",
+      "Often free from harm reduction organizations, health departments",
+      "Pharmacies in most states can dispense without prescription",
+      "Training not required but recommended",
+      "Carry naloxone if you or friends use opioids"
+    ]
+  },
+  "after_treatment": {
+    "name": "After Emergency Treatment",
+    "recommendations": [
+      "Follow all discharge instructions carefully",
+      "Attend follow-up appointments",
+      "Consider substance use treatment or counseling",
+      "Reduce or stop use - tolerance drops quickly, same dose can overdose again",
+      "Never use alone - have someone present who can call for help",
+      "Test your substances before use",
+      "Start with small doses if resuming use",
+      "Get naloxone if using opioids",
+      "Tell your doctor about the incident - they can help prevent future emergencies"
+    ]
+  }
+}

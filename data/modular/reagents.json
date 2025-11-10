@@ -1,0 +1,141 @@
+{
+  "marquis": {
+    "name": "Marquis",
+    "notes": "Broad presumptive test.",
+    "origins": "Developed in 1896 by Russian chemist E. Marquis for testing opium alkaloids. Originally used in pharmaceutical quality control and later adapted for forensic drug identification in the early 20th century. Became the most widely used presumptive drug test in law enforcement and harm reduction.",
+    "usage": "Primary screening test for MDMA, amphetamines, opioids, and many other substances. Place tiny sample (~1-2mg) on white ceramic surface, add 1-2 drops of reagent, observe immediate color change. Purple/black indicates MDMA/MDA, orange indicates amphetamines, dark purple indicates opioids. Results appear within seconds but observe for 60 seconds. Most versatile reagent—should be first test performed. Cannot distinguish between chemically similar substances (MDMA vs MDA). Always use multiple reagents for confirmation.",
+    "strengths": [
+      "Most versatile and widely-used reagent—tests more substance classes than any other",
+      "Fast reaction time (seconds) provides immediate presumptive results",
+      "Excellent for MDMA, amphetamines, and opioids—most common recreational drugs",
+      "Long shelf life when stored properly (dark, cool, dry)",
+      "Widely available from all harm reduction vendors",
+      "Clear, distinct color reactions that are easy to interpret",
+      "Best 'first test' for unknown substances—should always be used first"
+    ],
+    "weaknesses": [
+      "Cannot distinguish MDMA from MDA (both purple-black)",
+      "Cannot distinguish amphetamine from methamphetamine (both orange)",
+      "Does not detect NBOMes, 2C-x, or many research chemicals",
+      "Presumptive only—never definitive identification",
+      "Can give false positives with certain cutting agents",
+      "Color interpretation can be subjective—lighting matters",
+      "Always requires confirmation with additional reagents (Mecke, Mandelin, Simon's)"
+    ]
+  },
+  "mecke": {
+    "name": "Mecke",
+    "notes": "Good contrast for MDMA-like substances.",
+    "origins": "Named after German chemist who developed it in early 1900s for alkaloid testing. Originally used in pharmaceutical quality control alongside Marquis. Gained prominence in drug checking services in the 1990s-2000s as a complementary test to distinguish substances with similar Marquis reactions. Now standard in multi-reagent test kits.",
+    "usage": "Secondary confirmation test particularly useful for MDMA/MDA differentiation and opioid identification. MDMA produces dark blue-black reaction (vs Marquis purple-black), helping confirm identity. Useful for distinguishing DXM (yellow-green) from other substances. Opioids produce blue-green or olive colors. Place sample on white surface, add 1-2 drops, observe within 60 seconds. Often used after Marquis to narrow down identification. Particularly valuable for detecting adulterants that produce unexpected color combinations.",
+    "strengths": [
+      "Excellent secondary confirmation for MDMA—provides different color than Marquis",
+      "Very useful for opioid identification (heroin, fentanyl, codeine)",
+      "Good for detecting DXM (distinct yellow-green color)",
+      "Helps identify unexpected adulterants through unusual color combinations",
+      "Fast reaction time similar to Marquis",
+      "Works well in combination with Marquis for narrowing down possibilities"
+    ],
+    "weaknesses": [
+      "Still cannot distinguish MDMA from MDA (both show dark blue-black)",
+      "Less versatile than Marquis—fewer substance classes react",
+      "Color reactions can be darker/harder to interpret than Marquis",
+      "Not as widely discussed in harm reduction literature—less user familiarity",
+      "Should not be used alone—always pair with Marquis minimum",
+      "Does not detect psychedelics (LSD, psilocybin) or NBOMes"
+    ]
+  },
+  "mandelin": {
+    "name": "Mandelin",
+    "notes": "Useful for amphetamines.",
+    "origins": "Developed by German chemist K.H. Mandelin in 1883 for detecting alkaloids in plant materials and pharmaceuticals. One of the oldest reagent tests still in use. Historically used in toxicology and pharmacy. Adopted by modern harm reduction movement as part of comprehensive test kit panels to distinguish amphetamine-type stimulants.",
+    "usage": "Specialized test for differentiating amphetamine, methamphetamine, MDMA, and MDA. MDMA produces black or very dark blue-black, amphetamine produces olive-brown or green, methamphetamine produces blue-green. Particularly useful because it shows different colors for MDMA vs amphetamine (whereas Marquis shows similar colors). Essential for detecting amphetamine cuts in MDMA samples. Use 1-2mg sample on white ceramic, add 1-2 drops reagent, observe within 60 seconds. Best used as third test in combination with Marquis and Mecke for definitive substance identification.",
+    "strengths": [
+      "Differentiates amphetamine from methamphetamine—critical distinction",
+      "Shows different color for MDMA vs amphetamine (unlike Marquis)",
+      "Essential third test for comprehensive phenethylamine identification",
+      "Excellent for detecting amphetamine cuts in MDMA samples",
+      "Oldest reagent still in use—proven track record since 1883",
+      "Part of standard 3-reagent testing protocol (Marquis, Mecke, Mandelin)"
+    ],
+    "weaknesses": [
+      "Color reactions can be subtle—olive/green/blue distinctions require good lighting",
+      "Still cannot distinguish MDMA from MDA",
+      "Less useful for substances outside phenethylamine class",
+      "Not as essential as Marquis or Simon's for most users",
+      "Some color reactions overlap—methamphetamine vs MDMA can be close",
+      "Requires experience to interpret subtle color differences accurately"
+    ]
+  },
+  "simons": {
+    "name": "Simon's",
+    "notes": "Secondary amines (MDMA/meth).",
+    "origins": "Developed in 1960s-70s for distinguishing primary vs secondary amines in forensic chemistry. Named after its developer or popularizer in forensic circles. Became critical in harm reduction when MDMA/methamphetamine confusion became common issue—users thought they had MDMA but actually had meth. Widely adopted by drug checking services and DIY test kit manufacturers in 1990s-2000s as essential MDMA verification tool.",
+    "usage": "CRITICAL test for distinguishing MDMA (secondary amine) from methamphetamine/amphetamine (primary amines). MDMA produces BLUE reaction, methamphetamine produces NO COLOR CHANGE or faint pink. This is the definitive test to confirm MDMA vs meth. Two-part reagent: Part A + Part B mixed on sample. If blue appears, it's MDMA or MDA. If NO blue, it's likely meth or amphetamine (or not an amphetamine at all). Always use Simon's when testing suspected MDMA—Marquis alone cannot distinguish MDMA from meth. Essential harm reduction tool preventing accidental meth consumption when seeking MDMA.",
+    "strengths": [
+      "THE definitive test for MDMA vs methamphetamine—no other test does this",
+      "Clear binary result: blue = MDMA/MDA, no blue = NOT MDMA",
+      "Prevents life-threatening mistake of taking meth when expecting MDMA",
+      "Essential for anyone testing suspected MDMA—should ALWAYS be used",
+      "Simple interpretation—color or no color, no subtle distinctions",
+      "Works for both powder and pressed pills",
+      "Critical harm reduction tool that has prevented countless meth exposures"
+    ],
+    "weaknesses": [
+      "Two-part reagent (A + B) requires more steps than single-bottle tests",
+      "Shorter shelf life than other reagents—must be replaced more frequently",
+      "Only tests for secondary vs primary amines—narrow application",
+      "Does not work for other drug classes (opioids, psychedelics, benzos)",
+      "Cannot distinguish MDMA from MDA (both are secondary amines, both turn blue)",
+      "Reaction can take 30-60 seconds—slower than Marquis",
+      "More expensive than single-reagent tests due to two-bottle system"
+    ]
+  },
+  "ehrlich": {
+    "name": "Ehrlich",
+    "notes": "Indoles (LSD/psilocin) → purple.",
+    "origins": "Developed by German physician Paul Ehrlich in 1901 as a medical diagnostic test for detecting urobilinogen in urine. Later adapted for chemistry to detect indole ring structures. Became essential in psychedelic harm reduction in 1990s-2000s when dangerous NBOMe compounds (fake LSD) emerged. Now the single most important test for LSD verification—distinguishes real LSD from potentially lethal NBOMe analogues sold as 'acid'.",
+    "usage": "ESSENTIAL test for any blotter/tab suspected to be LSD. Detects indole ring structure present in LSD, psilocybin/psilocin, DMT, and tryptamines. LSD, psilocybin, and DMT produce PURPLE color. NBOMe compounds (25I-NBOMe, etc.) produce NO COLOR CHANGE—this is critical because NBOMes can be lethal at doses that fit on blotter. For blotter: cut tiny corner (~1mm), place in white dish, add 1 drop Ehrlich, wait up to 5 minutes (slower reaction than other reagents). Purple = likely LSD or tryptamine. NO purple = NOT LSD, likely NBOMe or inactive blotter. Life-saving test—NBOMes have killed users who thought they were taking LSD. Always test blotter with Ehrlich before consuming.",
+    "strengths": [
+      "LIFE-SAVING: Only test that distinguishes LSD from lethal NBOMe compounds",
+      "Essential for anyone testing blotter—prevents NBOMe deaths",
+      "Detects all indole-containing psychedelics (LSD, psilocybin, DMT, tryptamines)",
+      "Clear binary result: purple = indole, no purple = NOT an indole",
+      "Works on tiny sample size—perfect for valuable LSD blotter",
+      "Simple interpretation—color develops or it doesn't",
+      "Most critical test for psychedelic users—should ALWAYS be used for blotter"
+    ],
+    "weaknesses": [
+      "Slower reaction time (up to 5 minutes) compared to other reagents",
+      "Cannot distinguish LSD from other indoles (psilocybin, DMT, 4-AcO-DMT)",
+      "Does not detect DOx compounds (DOB, DOC) or other non-indole psychedelics",
+      "Does not work for MDMA, amphetamines, or other phenethylamines",
+      "Only useful for psychedelics—not a general-purpose test",
+      "Purple color can fade over time—must observe during reaction window",
+      "Cannot detect potency—only confirms presence of indole structure"
+    ]
+  },
+  "hofmann": {
+    "name": "Hofmann (Ehrlich Mod.)",
+    "notes": "Variant for indoles.",
+    "origins": "Modified version of Ehrlich reagent, sometimes called 'Ehrlich Modification' or named after Albert Hofmann (discoverer of LSD) as homage. Developed to improve specificity for LSD detection and reduce false positives from other indole-containing compounds. Some formulations faster-reacting than traditional Ehrlich. Less widely available than standard Ehrlich but offered by some specialized test kit vendors.",
+    "usage": "Alternative or complementary test to Ehrlich for detecting indoles in suspected LSD, psilocybin, or tryptamines. Functions similarly to Ehrlich but may show faster reaction times or clearer purple color development. Use same protocol as Ehrlich: small sample, 1 drop reagent, observe for purple color indicating indole presence. Some users prefer Hofmann for blotter testing due to reportedly more vivid purple with LSD. Can be used alongside Ehrlich for additional confirmation or as substitute when Ehrlich unavailable. Like Ehrlich, purple indicates indole (LSD/psilocybin/DMT), no color change indicates NBOMe or inactive substance. Important for harm reduction when testing psychedelics.",
+    "strengths": [
+      "Faster reaction time than standard Ehrlich—results in 2-3 minutes vs 5",
+      "More vivid purple color with LSD—easier to see positive result",
+      "Potentially more specific for LSD vs other indoles (fewer false positives)",
+      "Can be used alongside Ehrlich for double-confirmation of indole presence",
+      "Good alternative when Ehrlich is unavailable or expired",
+      "Same critical function as Ehrlich—distinguishes LSD from NBOMes"
+    ],
+    "weaknesses": [
+      "Less widely available than standard Ehrlich—fewer vendors carry it",
+      "More expensive than Ehrlich due to specialized formulation",
+      "Not as well-known or documented in harm reduction community",
+      "Still has same limitations as Ehrlich—cannot distinguish LSD from other indoles",
+      "Not necessary if you already have Ehrlich—provides same information",
+      "Some users report inconsistent results between different Hofmann formulations",
+      "Less historical data and user experience compared to standard Ehrlich"
+    ]
+  }
+}
