@@ -1222,11 +1222,18 @@ function News(){
 
   return (
     <div className="space-y-4">
-      <div className="rounded-2xl border-2 border-cyan-500/50 bg-cyan-500/10 p-5">
-        <h3 className="font-semibold text-lg text-cyan-200 mb-2">📰 {news.title || 'Harm Reduction News & Alerts'}</h3>
-        <p className="text-sm text-cyan-100 leading-relaxed">
-          {news.description || 'Stay informed about dangerous batches, contamination alerts, policy changes, and harm reduction developments.'}
-        </p>
+      <div className="rounded-2xl border-2 border-cyan-500/50 bg-cyan-500/10 p-5 space-y-3">
+        <div>
+          <h3 className="font-semibold text-lg text-cyan-200 mb-2">📰 {news.title || 'Harm Reduction News & Alerts'}</h3>
+          <p className="text-sm text-cyan-100 leading-relaxed">
+            {news.description || 'Stay informed about dangerous batches, contamination alerts, policy changes, and harm reduction developments.'}
+          </p>
+        </div>
+        {news.disclaimer && (
+          <div className="text-xs text-amber-200 bg-amber-500/10 border border-amber-400/30 rounded-lg p-3">
+            {news.disclaimer}
+          </div>
+        )}
       </div>
 
       {/* Live Feeds Settings */}

@@ -4769,7 +4769,100 @@
   "news": {
     "title": "Harm Reduction News & Alerts",
     "description": "Critical alerts about dangerous batches, contamination warnings, policy updates, and harm reduction developments. Stay informed to stay safe.",
+    "disclaimer": "⚠️ NOTE: Articles below are EXAMPLES demonstrating the news system. For real-time alerts, enable Live News Feeds (pulls from DrugsData, FDA, DanceSafe, etc.). Always verify information with official sources.",
     "articles": [
+      {
+        "date": "2024-11-09",
+        "category": "Contamination Alert",
+        "priority": "critical",
+        "title": "🚨 Fentanyl-Laced Heroin - Boston Metro Area",
+        "summary": "EXAMPLE ALERT: Multiple overdoses in Boston, Cambridge, and Worcester linked to heroin batches containing high-dose fentanyl and carfentanil. Naloxone requiring 3-4 doses.",
+        "details": [
+          "EXAMPLE: This demonstrates how local alerts would appear",
+          "In real scenarios: Purple/tan heroin powder testing positive for fentanyl + carfentanil",
+          "Geographic focus: Boston, Cambridge, Somerville, Worcester areas",
+          "Action: Always use fentanyl test strips, never use alone, have naloxone ready",
+          "Real alerts would link to: Boston Public Health Commission or MA DPH",
+          "For actual alerts, check: mass.gov/dph or enable Live News Feeds"
+        ],
+        "regions": ["USA - East Coast", "USA - Massachusetts"],
+        "source": "EXAMPLE - Boston Public Health Commission",
+        "source_url": "https://www.boston.gov/departments/public-health-commission"
+      },
+      {
+        "date": "2024-11-07",
+        "category": "Service Launch",
+        "priority": "normal",
+        "title": "🎉 Worcester Harm Reduction Coalition Expands Naloxone Distribution",
+        "summary": "EXAMPLE: Worcester-based organization opens new location on Main Street, offering free naloxone, fentanyl test strips, and safer use supplies.",
+        "details": [
+          "EXAMPLE: This shows how service announcements would appear",
+          "Location (example): Main Street, Worcester",
+          "Services: Free naloxone, fentanyl strips, syringes, wound care",
+          "Hours: Monday-Friday 10am-6pm, Saturday 12pm-4pm",
+          "No ID required, confidential service",
+          "For real Worcester services: Check worcesterharmreduction.org or similar"
+        ],
+        "regions": ["USA - Massachusetts"],
+        "source": "EXAMPLE - Worcester Harm Reduction Coalition",
+        "source_url": null
+      },
+      {
+        "date": "2024-11-03",
+        "category": "Policy Update",
+        "priority": "high",
+        "title": "📜 Massachusetts Expands Good Samaritan Law Protections",
+        "summary": "EXAMPLE: New MA legislation strengthens immunity for overdose witnesses, covering paraphernalia possession and outstanding warrants.",
+        "details": [
+          "EXAMPLE: Demonstrating policy update format",
+          "In real scenarios: Calling 911 for overdose protects caller from arrest",
+          "Coverage: Drug possession, paraphernalia, probation violations, warrants",
+          "Purpose: Encourage bystanders to call 911 without fear",
+          "Applies statewide: Boston, Worcester, Springfield, all MA cities",
+          "Real info: Check mass.gov/good-samaritan-law for actual protections"
+        ],
+        "regions": ["USA - Massachusetts"],
+        "source": "EXAMPLE - Massachusetts Legislature",
+        "source_url": "https://malegislature.gov"
+      },
+      {
+        "date": "2024-10-29",
+        "category": "Contamination Alert",
+        "priority": "high",
+        "title": "⚠️ Counterfeit Xanax Bars - Boston College Campuses",
+        "summary": "EXAMPLE: Fake alprazolam bars circulating on college campuses contain fentanyl. Multiple hospitalizations reported at BU, Northeastern, BC areas.",
+        "details": [
+          "EXAMPLE: Campus-specific alert demonstration",
+          "Pills: White rectangular bars stamped 'XANAX 2', look authentic",
+          "Reality: Contain fentanyl, NOT alprazolam",
+          "Risk: Opioid-naive students at extreme overdose risk",
+          "Reported areas: BU, Northeastern, BC, Harvard, MIT campuses",
+          "Action: NEVER use pills from non-pharmacy sources, test everything",
+          "Real campus alerts: Check university health services websites"
+        ],
+        "regions": ["USA - Massachusetts", "USA - East Coast"],
+        "source": "EXAMPLE - Boston Area Campus Health",
+        "source_url": null
+      },
+      {
+        "date": "2024-10-21",
+        "category": "Research",
+        "priority": "normal",
+        "title": "🔬 Boston Medical Center Study: Supervised Injection Sites Reduce Deaths",
+        "summary": "EXAMPLE: BMC research shows supervised consumption could prevent 100+ overdose deaths annually in Boston area.",
+        "details": [
+          "EXAMPLE: Local research announcement format",
+          "Study: 5-year analysis of overdose patterns in Boston metro",
+          "Finding: Supervised sites could prevent 130 deaths/year in MA",
+          "Model: Similar to Vancouver Insite (no overdose deaths in 20 years)",
+          "Barriers: Current MA law prohibits operation",
+          "Advocacy: Boston Harm Reduction Coalition pushing for pilot program",
+          "Real research: Check BMC and Mass General publications"
+        ],
+        "regions": ["USA - Massachusetts"],
+        "source": "EXAMPLE - Boston Medical Center",
+        "source_url": "https://www.bmc.org"
+      },
       {
         "date": "2024-11-05",
         "category": "Contamination Alert",
