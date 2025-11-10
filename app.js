@@ -3017,21 +3017,21 @@ function Addiction(){
           <div className="flex gap-2">
             <span>📞</span>
             <div>
-              <p className="font-semibold">SAMHSA National Helpline: 1-800-662-4357</p>
+              <p className="font-semibold">SAMHSA National Helpline: <a href="tel:1-800-662-4357" className="hover:text-indigo-50 underline">1-800-662-4357</a></p>
               <p className="text-indigo-200">Free, confidential, 24/7 treatment referral service</p>
             </div>
           </div>
           <div className="flex gap-2">
             <span>🌐</span>
             <div>
-              <p className="font-semibold">findtreatment.gov</p>
+              <p className="font-semibold"><a href="https://findtreatment.gov" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-50 underline">findtreatment.gov</a></p>
               <p className="text-indigo-200">Locate treatment facilities by ZIP code, insurance, services</p>
             </div>
           </div>
           <div className="flex gap-2">
             <span>💊</span>
             <div>
-              <p className="font-semibold">SAMHSA MAT Locator</p>
+              <p className="font-semibold"><a href="https://www.samhsa.gov/medication-assisted-treatment/practitioner-program-data/treatment-practitioner-locator" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-50 underline">SAMHSA MAT Locator</a></p>
               <p className="text-indigo-200">Find methadone/buprenorphine providers near you</p>
             </div>
           </div>
