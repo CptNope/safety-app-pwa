@@ -2767,6 +2767,73 @@ function Addiction(){
             <li>• Fentanyl test strips - street opioids often contain fentanyl</li>
           </ul>
         </div>
+
+        <div className="rounded-xl border-2 border-amber-500/50 bg-amber-500/10 p-4 space-y-3">
+          <h4 className="font-semibold text-amber-200 mb-2">🍃 Kratom for Opioid Withdrawal (When MAT Unavailable)</h4>
+          <p className="text-sm text-amber-100 mb-2">
+            <strong>NOT FDA-approved</strong> but widely used for self-managed withdrawal when methadone/buprenorphine are inaccessible. Contains opioid receptor agonists (mitragynine, 7-hydroxymitragynine).
+          </p>
+          
+          <div className="space-y-2">
+            <div className="bg-emerald-500/10 border border-emerald-500/30 rounded p-3">
+              <p className="text-emerald-300 font-semibold mb-1">✅ PROS:</p>
+              <ul className="text-sm text-emerald-100 space-y-1">
+                <li>• <strong>Reduces withdrawal symptoms:</strong> Can ease 60-80% of acute opioid withdrawal discomfort</li>
+                <li>• <strong>Legal (most states):</strong> Available at smoke shops, online (banned in 6 states + some counties)</li>
+                <li>• <strong>No prescription needed:</strong> Accessible when MAT isn't</li>
+                <li>• <strong>Allows functioning:</strong> Can work, drive, care for family (unlike severe withdrawal)</li>
+                <li>• <strong>Lower overdose risk:</strong> Ceiling effect on respiratory depression (safer than full opioids)</li>
+                <li>• <strong>Easier to taper:</strong> Many successfully taper off kratom after stabilizing</li>
+              </ul>
+            </div>
+
+            <div className="bg-red-500/10 border border-red-500/30 rounded p-3">
+              <p className="text-red-300 font-semibold mb-1">⚠️ CONS & RISKS:</p>
+              <ul className="text-sm text-red-100 space-y-1">
+                <li>• <strong>Physical dependence:</strong> Kratom itself is addictive. You're substituting one opioid for another</li>
+                <li>• <strong>Withdrawal exists:</strong> Milder than heroin/fentanyl but real (flu-like, irritability, insomnia)</li>
+                <li>• <strong>Quality control issues:</strong> No FDA regulation. Contamination with heavy metals, salmonella documented</li>
+                <li>• <strong>Liver toxicity:</strong> Rare but serious cases reported. Monitor for jaundice, dark urine</li>
+                <li>• <strong>Not complete recovery:</strong> Still physically dependent, not addressing root causes</li>
+                <li>• <strong>Drug interactions:</strong> Dangerous with benzos, alcohol, other CNS depressants</li>
+                <li>• <strong>Can be difficult to quit:</strong> Some stay on kratom long-term, develop tolerance</li>
+              </ul>
+            </div>
+
+            <div className="bg-blue-500/10 border border-blue-500/30 rounded p-3">
+              <p className="text-blue-300 font-semibold mb-1">📊 SAFER USE GUIDELINES:</p>
+              <ul className="text-sm text-blue-100 space-y-1">
+                <li>• <strong>Starting dose:</strong> 2-4g powder, wait 45 min before redosing</li>
+                <li>• <strong>Withdrawal management:</strong> 4-8g per dose, 2-4 times daily as needed</li>
+                <li>• <strong>Don't exceed:</strong> 15-20g total per day (higher = more dependence)</li>
+                <li>• <strong>Strains:</strong> Red vein (most sedating), Green (balanced), White (stimulating)</li>
+                <li>• <strong>Stay hydrated:</strong> Kratom is constipating and dehydrating</li>
+                <li>• <strong>Buy from tested vendors:</strong> Look for lab testing (avoid gas stations)</li>
+                <li>• <strong>Avoid extracts/enhanced:</strong> Higher potency = faster tolerance/dependence</li>
+                <li>• <strong>Plan to taper:</strong> Don't use indefinitely. Once stable, slowly reduce dose</li>
+              </ul>
+            </div>
+
+            <div className="bg-purple-500/10 border border-purple-500/30 rounded p-3">
+              <p className="text-purple-300 font-semibold mb-1">⏱️ TAPERING OFF KRATOM:</p>
+              <ul className="text-sm text-purple-100 space-y-1">
+                <li>• <strong>Stabilize first:</strong> Use same dose for 1-2 weeks</li>
+                <li>• <strong>Reduce slowly:</strong> 0.5-1g per dose every 3-5 days</li>
+                <li>• <strong>Total timeline:</strong> 4-12 weeks depending on dose</li>
+                <li>• <strong>Withdrawal symptoms:</strong> Mild compared to traditional opioids</li>
+                <li>• <strong>Support helps:</strong> r/quittingkratom community</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-amber-500/30 pt-3 mt-3">
+            <p className="text-xs text-amber-200">
+              <strong>⚠️ IMPORTANT:</strong> Kratom is a harm reduction tool when MAT is unavailable, NOT a first-line treatment. 
+              If you can access methadone or buprenorphine, those are medically supervised and more effective long-term. 
+              Kratom should be temporary bridge to proper treatment or carefully managed taper tool.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Alcohol */}
