@@ -246,7 +246,8 @@
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
           "erowid": "https://www.erowid.org/chemicals/lsd/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/LSD"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/LSD",
+          "hofmann": "https://www.erowid.org/library/books_online/lsd_my_problem_child/"
         },
         "scientific_papers": [
           {

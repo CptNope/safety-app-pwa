@@ -211,7 +211,8 @@ function QuickTest(){
                 <p>• <strong>Wikipedia:</strong> General overview, history, chemistry, legal status</p>
                 <p>• <strong>Erowid:</strong> Experience reports, dosage guides, effects timeline, harm reduction</p>
                 <p>• <strong>PsychonautWiki:</strong> Detailed pharmacology, subjective effects, interactions, safety</p>
-                <p>• <strong>PiHKAL/TiHKAL:</strong> Alexander Shulgin's original synthesis, dosage, duration, qualitative commentary (for research chemicals)</p>
+                <p>• <strong>PiHKAL/TiHKAL:</strong> Alexander Shulgin's original synthesis, dosage, duration, qualitative commentary</p>
+                <p>• <strong>LSD: My Problem Child:</strong> Albert Hofmann's autobiography - the discoverer's personal account of LSD's history</p>
               </div>
               <div className="flex flex-wrap gap-2">
                 {s.description.links.wikipedia && (
@@ -242,6 +243,12 @@ function QuickTest(){
                   <a href={s.description.links.tihkal} target="_blank" rel="noopener noreferrer"
                      className="text-xs px-3 py-1.5 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-cyan-100 hover:bg-cyan-500/30 transition-colors">
                     🧬 TiHKAL
+                  </a>
+                )}
+                {s.description.links.hofmann && (
+                  <a href={s.description.links.hofmann} target="_blank" rel="noopener noreferrer"
+                     className="text-xs px-3 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-indigo-100 hover:bg-indigo-500/30 transition-colors">
+                    🔬 Hofmann
                   </a>
                 )}
               </div>
