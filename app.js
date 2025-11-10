@@ -205,26 +205,48 @@ function QuickTest(){
           
           {s.description.links && (
             <div className="rounded-lg p-3 bg-blue-500/10 border border-blue-400/30">
-              <div className="text-sm font-semibold text-blue-200 mb-2">🔗 Resources & Information</div>
+              <div className="text-sm font-semibold text-blue-200 mb-3">🔗 Resources & Information</div>
+              <div className="text-xs text-blue-100 mb-3 space-y-1 leading-relaxed">
+                <p><strong>📖 What these resources provide:</strong></p>
+                <p>• <strong>Wikipedia:</strong> General overview, history, chemistry, legal status</p>
+                <p>• <strong>Erowid:</strong> Experience reports, dosage guides, effects timeline, harm reduction</p>
+                <p>• <strong>PsychonautWiki:</strong> Detailed pharmacology, subjective effects, interactions, safety</p>
+                <p>• <strong>PiHKAL/TiHKAL:</strong> Alexander Shulgin's original synthesis, dosage, duration, qualitative commentary (for research chemicals)</p>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {s.description.links.wikipedia && (
                   <a href={s.description.links.wikipedia} target="_blank" rel="noopener noreferrer" 
                      className="text-xs px-3 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-100 hover:bg-blue-500/30 transition-colors">
-                    Wikipedia
+                    📘 Wikipedia
                   </a>
                 )}
                 {s.description.links.erowid && (
                   <a href={s.description.links.erowid} target="_blank" rel="noopener noreferrer"
                      className="text-xs px-3 py-1.5 rounded-full bg-green-500/20 border border-green-400/40 text-green-100 hover:bg-green-500/30 transition-colors">
-                    Erowid
+                    🌿 Erowid
                   </a>
                 )}
                 {s.description.links.psychonautwiki && (
                   <a href={s.description.links.psychonautwiki} target="_blank" rel="noopener noreferrer"
                      className="text-xs px-3 py-1.5 rounded-full bg-purple-500/20 border border-purple-400/40 text-purple-100 hover:bg-purple-500/30 transition-colors">
-                    PsychonautWiki
+                    🧠 PsychonautWiki
                   </a>
                 )}
+                {s.description.links.pihkal && (
+                  <a href={s.description.links.pihkal} target="_blank" rel="noopener noreferrer"
+                     className="text-xs px-3 py-1.5 rounded-full bg-amber-500/20 border border-amber-400/40 text-amber-100 hover:bg-amber-500/30 transition-colors">
+                    🧪 PiHKAL
+                  </a>
+                )}
+                {s.description.links.tihkal && (
+                  <a href={s.description.links.tihkal} target="_blank" rel="noopener noreferrer"
+                     className="text-xs px-3 py-1.5 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-cyan-100 hover:bg-cyan-500/30 transition-colors">
+                    🧬 TiHKAL
+                  </a>
+                )}
+              </div>
+              <div className="mt-3 text-xs text-blue-200/70 italic">
+                💡 Tip: Cross-reference multiple sources for accurate information. Each resource has unique strengths.
               </div>
             </div>
           )}
