@@ -1141,6 +1141,109 @@ function Swatches(){
   );
 }
 
+function News(){
+  const {data} = useJSON('data/reagents.json');
+  const [filter, setFilter] = useState('All');
+  
+  if(!data?.news) return (
+    <div className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-6">
+      <p className="text-cyan-100">📰 News section coming soon! This will display harm reduction alerts, dangerous batch warnings, policy updates, and community news.</p>
+    </div>
+  );
+
+  const news = data.news;
+  const categories = ['All', ...new Set(news.articles?.map(a => a.category) || [])];
+  const filtered = filter === 'All' ? news.articles : news.articles?.filter(a => a.category === filter);
+
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-cyan-500/50 bg-cyan-500/10 p-5">
+        <h3 className="font-semibold text-lg text-cyan-200 mb-2">📰 {news.title || 'Harm Reduction News & Alerts'}</h3>
+        <p className="text-sm text-cyan-100 leading-relaxed">
+          {news.description || 'Stay informed about dangerous batches, contamination alerts, policy changes, and harm reduction developments.'}
+        </p>
+      </div>
+
+      {categories.length > 1 && (
+        <div className="flex flex-wrap gap-2">
+          {categories.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setFilter(cat)}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
+                filter === cat
+                  ? 'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100'
+                  : 'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      )}
+
+      <div className="space-y-3">
+        {filtered?.map((article, idx) => (
+          <div key={idx} className={`rounded-2xl border p-5 space-y-3 ${
+            article.priority === 'critical' ? 'border-red-500/50 bg-red-500/10' :
+            article.priority === 'high' ? 'border-amber-500/50 bg-amber-500/10' :
+            'border-white/10 bg-white/5'
+          }`}>
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  {article.priority === 'critical' && <span className="px-2 py-0.5 rounded text-xs font-bold bg-red-500/30 text-red-100 border border-red-400/50">🚨 CRITICAL</span>}
+                  {article.priority === 'high' && <span className="px-2 py-0.5 rounded text-xs font-bold bg-amber-500/30 text-amber-100 border border-amber-400/50">⚠️ HIGH PRIORITY</span>}
+                  <span className="px-2 py-0.5 rounded text-xs font-medium bg-white/10 text-gray-300">{article.category}</span>
+                  <span className="text-xs text-gray-400">{article.date}</span>
+                </div>
+                <h4 className="font-bold text-base mb-2">{article.title}</h4>
+                <p className="text-sm leading-relaxed mb-3">{article.summary}</p>
+                
+                {article.details && (
+                  <div className="space-y-2 text-sm">
+                    {article.details.map((detail, i) => (
+                      <div key={i} className="flex gap-2">
+                        <span className="text-cyan-400">•</span>
+                        <span>{detail}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {article.regions && (
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    <span className="text-xs text-gray-400">Regions:</span>
+                    {article.regions.map((region, i) => (
+                      <span key={i} className="px-2 py-0.5 rounded text-xs bg-white/10 text-gray-300">{region}</span>
+                    ))}
+                  </div>
+                )}
+
+                {article.source && (
+                  <div className="mt-3 text-xs text-gray-400">
+                    Source: {article.source_url ? (
+                      <a href={article.source_url} target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200 underline">
+                        {article.source}
+                      </a>
+                    ) : article.source}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+
+        {(!filtered || filtered.length === 0) && (
+          <div className="text-center py-8 text-gray-400">
+            No news articles in this category yet.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function Vendors(){
   const {data} = useJSON('data/reagents.json');
   const [region, setRegion] = useState('All');
@@ -2015,6 +2118,7 @@ function App(){
           <button onClick={()=>setTab('resources')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}>🌍 Resources</button>
           <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
+          <button onClick={()=>setTab('news')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='news'?'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100':'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20')}>📰 News</button>
           <button onClick={()=>setTab('vendors')} data-tab="vendors" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Vendors</button>
         </nav>
       </header>
@@ -2032,6 +2136,7 @@ function App(){
       {tab==='resources' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-purple-200">🌍 Testing Resources by Region</h2><Resources/></section>)}
       {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
+      {tab==='news' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-cyan-200">📰 Harm Reduction News & Alerts</h2><News/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
 
       <footer className="py-8 space-y-4">

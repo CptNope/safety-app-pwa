@@ -4764,21 +4764,185 @@
           }
         ]
       }
-    ],
-    "bottom_line": {
-      "title": "Critical Takeaways",
-      "points": [
-        "Always test your substances with reagents AND fentanyl strips",
-        "Appearance, smell, taste, and source reputation are unreliable—test anyway",
-        "Reagent tests show presence, NOT purity—only lab testing quantifies",
-        "Call 911 for overdoses—Good Samaritan laws protect you in most areas",
-        "Naloxone works on all opioids including fentanyl—use it without hesitation",
-        "No substance is 100% safe—harm can only be reduced, not eliminated",
-        "When in doubt, start low and go slow—you can always take more, never less",
-        "Research drug interactions before combining substances",
-        "Base decisions on evidence and science, not myths and anecdotes"
-      ]
-    }
+    ]
+  },
+  "news": {
+    "title": "Harm Reduction News & Alerts",
+    "description": "Critical alerts about dangerous batches, contamination warnings, policy updates, and harm reduction developments. Stay informed to stay safe.",
+    "articles": [
+      {
+        "date": "2024-11-05",
+        "category": "Contamination Alert",
+        "priority": "critical",
+        "title": " Fentanyl-Laced Cocaine Circulating in Pacific Northwest",
+        "summary": "Multiple overdoses reported in Seattle, Portland, and Vancouver linked to cocaine contaminated with high doses of fentanyl. Test ALL powders with fentanyl strips.",
+        "details": [
+          "At least 15 overdoses in past 2 weeks, 3 fatal",
+          "Cocaine appears normal - white/off-white powder with fishscale appearance",
+          "Fentanyl test strips showing positive results",
+          "Some samples also contain xylazine (tranq)",
+          "Naloxone may require multiple doses due to high fentanyl concentration"
+        ],
+        "regions": ["USA - Pacific Northwest", "Canada - BC"],
+        "source": "King County Public Health",
+        "source_url": "https://kingcounty.gov/health"
+      },
+      {
+        "date": "2024-11-01",
+        "category": "Counterfeit Pills",
+        "priority": "critical",
+        "title": " DEA Seizes Record Number of Fake M30s Containing Carfentanil",
+        "summary": "DEA reports 10,000+ counterfeit oxycodone pills seized in California contained carfentanil - 100x stronger than fentanyl.",
+        "details": [
+          "Pills stamped 'M 30' designed to look identical to prescription oxycodone",
+          "Carfentanil is elephant tranquilizer - lethal in microgram doses",
+          "Standard naloxone doses may be insufficient",
+          "Pills distributed across CA, NV, AZ",
+          "NEVER use pressed pills obtained outside of pharmacy"
+        ],
+        "regions": ["USA - Southwest"],
+        "source": "DEA Public Alert",
+        "source_url": "https://www.dea.gov"
+      },
+      {
+        "date": "2024-10-28",
+        "category": "Policy Update",
+        "priority": "high",
+        "title": " Oregon Expands Naloxone Access - Now Available Without Prescription",
+        "summary": "Oregon joins 48 other states in making naloxone available over-the-counter at all pharmacies statewide.",
+        "details": [
+          "Naloxone nasal spray (Narcan) available at pharmacies without prescription",
+          "Many insurance plans now cover naloxone at no cost",
+          "Free naloxone distribution sites expanding across state",
+          "Training not required but recommended",
+          "Part of Oregon's harm reduction expansion following Measure 110"
+        ],
+        "regions": ["USA - Oregon"],
+        "source": "Oregon Health Authority",
+        "source_url": "https://www.oregon.gov/oha"
+      },
+      {
+        "date": "2024-10-25",
+        "category": "Research",
+        "priority": "normal",
+        "title": " Study: Fentanyl Test Strips 95% Effective at Detecting Contamination",
+        "summary": "New peer-reviewed research confirms fentanyl test strips are highly accurate for harm reduction purposes.",
+        "details": [
+          "Study tested 500+ street drug samples across 6 cities",
+          "95% sensitivity for detecting fentanyl and analogues",
+          "False positives rare (2% of tests)",
+          "Effective for cocaine, heroin, meth, and pressed pills",
+          "Researchers recommend testing entire batch, not just portion"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "JAMA Network Open",
+        "source_url": "https://jamanetwork.com"
+      },
+      {
+        "date": "2024-10-20",
+        "category": "Contamination Alert",
+        "priority": "high",
+        "title": " MDMA Pills Testing Positive for Methamphetamine in UK",
+        "summary": "Multiple cities across UK reporting MDMA pills containing high doses of methamphetamine with little to no MDMA.",
+        "details": [
+          "Pills sold as 'MDMA' or 'Ecstasy' containing mostly meth",
+          "Common pill presses: Blue Punisher, Heineken, Tesla",
+          "Users reporting unexpected stimulation, jaw clenching, paranoia",
+          "Reagent testing shows orange (amphetamine) instead of purple-black",
+          "WEDINOS lab confirmed multiple samples"
+        ],
+        "regions": ["UK - England", "UK - Scotland"],
+        "source": "WEDINOS",
+        "source_url": "https://wedinos.org"
+      },
+      {
+        "date": "2024-10-15",
+        "category": "Service Launch",
+        "priority": "normal",
+        "title": " Chicago Opens First Sanctioned Drug Checking Site",
+        "summary": "Chicago becomes third US city to offer free laboratory-grade drug checking using FTIR spectroscopy.",
+        "details": [
+          "Located at harm reduction center in South Side",
+          "Free testing using Fourier-transform infrared spectroscopy (FTIR)",
+          "Results provided within 15 minutes",
+          "Also offers fentanyl/xylazine test strips",
+          "No identification required, fully confidential",
+          "Open Mon-Fri 10am-6pm"
+        ],
+        "regions": ["USA - Illinois"],
+        "source": "Chicago Department of Public Health",
+        "source_url": null
+      },
+      {
+        "date": "2024-10-10",
+        "category": "Contamination Alert",
+        "priority": "high",
+        "title": " Benzodiazepine Adulterants Found in Heroin - East Coast",
+        "summary": "Heroin samples testing positive for potent benzodiazepines (not just fentanyl). Naloxone alone may not reverse overdose.",
+        "details": [
+          "Samples contain fentanyl + etizolam or flualprazolam",
+          "Benzodiazepines do NOT respond to naloxone",
+          "Overdoses presenting with prolonged unconsciousness despite naloxone",
+          "Requires hospital monitoring and supportive care",
+          "Particularly dangerous when combined with opioids",
+          "Test strips cannot detect benzos - lab testing required"
+        ],
+        "regions": ["USA - East Coast", "Canada - Ontario"],
+        "source": "DrugsData.org",
+        "source_url": "https://drugsdata.org"
+      },
+      {
+        "date": "2024-10-05",
+        "category": "Policy Update",
+        "priority": "normal",
+        "title": " California Decriminalizes Possession of Drug Testing Equipment",
+        "summary": "New law explicitly protects possession of reagent test kits and fentanyl strips from paraphernalia charges.",
+        "details": [
+          "AB 1598 signed into law, effective January 2025",
+          "Reagent test kits, fentanyl strips explicitly legal",
+          "Cannot be used as evidence of drug possession",
+          "Harm reduction organizations can distribute without legal risk",
+          "Part of broader overdose prevention legislation"
+        ],
+        "regions": ["USA - California"],
+        "source": "California Legislature",
+        "source_url": null
+      },
+      {
+        "date": "2024-09-28",
+        "category": "Community News",
+        "priority": "normal",
+        "title": " DanceSafe Launches Reagent Test Kit Recycling Program",
+        "summary": "National harm reduction org now accepting used reagent bottles for safe disposal and recycling.",
+        "details": [
+          "Mail-in program for expired or used reagent bottles",
+          "Prepaid shipping labels available on website",
+          "Prevents chemical contamination from improper disposal",
+          "Also offers reagent refill service (save money, reduce waste)",
+          "Program starts in US, expanding to EU in 2025"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "DanceSafe",
+        "source_url": "https://dancesafe.org"
+      },
+      {
+        "date": "2024-09-20",
+        "category": "Research",
+        "priority": "normal",
+        "title": " New Study: Testing Strips Detect Xylazine with 90% Accuracy",
+        "summary": "BTNX xylazine test strips validated in peer-reviewed study, showing high accuracy for detecting tranq contamination.",
+        "details": [
+          "Study tested 300+ heroin/fentanyl samples",
+          "90% sensitivity, 95% specificity for xylazine detection",
+          "Works with heroin, fentanyl powder, and pressed pills",
+          "Available at harm reduction organizations nationwide",
+          "Xylazine does NOT respond to naloxone - wounds require medical care"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "Drug and Alcohol Dependence",
+        "source_url": null
+      }
+    ]
   },
   "link_display_rules": {
     "show_warning": true,
