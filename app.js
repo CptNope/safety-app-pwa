@@ -2705,6 +2705,272 @@ function Resources(){
   );
 }
 
+function Addiction(){
+  return (
+    <div className="space-y-4">
+      <div className="rounded-2xl border-2 border-teal-500/50 bg-teal-500/10 p-5">
+        <h2 className="text-xl font-bold text-teal-200 mb-2">💊 Addiction & Treatment</h2>
+        <p className="text-sm text-teal-100">
+          Evidence-based information about addiction, recovery, and treatment options. Addiction is a medical condition, not a moral failing. Recovery is possible with proper support and treatment.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-5">
+        <h3 className="font-semibold text-lg text-red-200 mb-2">🚨 Critical Warnings</h3>
+        <ul className="space-y-2 text-sm text-red-100">
+          <li className="flex gap-2"><span>⚠️</span><span><strong>Alcohol & Benzodiazepines:</strong> Withdrawal can be FATAL. NEVER quit cold turkey without medical supervision. Seizures can occur 2-5 days after stopping.</span></li>
+          <li className="flex gap-2"><span>⚠️</span><span><strong>Opioids:</strong> Tolerance drops rapidly during abstinence. Same dose that was previously tolerated can cause fatal overdose. Start low if relapse occurs.</span></li>
+          <li className="flex gap-2"><span>⚠️</span><span><strong>Medical Detox:</strong> Seek professional help for physical dependence. Home detox can be dangerous or fatal for some substances.</span></li>
+        </ul>
+      </div>
+
+      {/* Opioids */}
+      <div className="space-y-3">
+        <h3 className="text-lg font-bold text-orange-200">💉 Opioids (Heroin, Fentanyl, Oxycodone, etc.)</h3>
+        
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Medication-Assisted Treatment (MAT) - Most Effective</h4>
+          <div className="text-sm space-y-2">
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Methadone:</p>
+              <p className="text-gray-300">Long-acting opioid agonist. Taken daily at clinic. Prevents withdrawal and cravings. Gold standard for opioid addiction. Reduces overdose risk by 50%+. Allows normal functioning.</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Buprenorphine (Suboxone, Subutex):</p>
+              <p className="text-gray-300">Partial opioid agonist. Can be prescribed by certified doctors for take-home use. Prevents withdrawal, reduces cravings, ceiling effect makes overdose less likely. Easier to taper than methadone.</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Naltrexone (Vivitrol):</p>
+              <p className="text-gray-300">Opioid antagonist. Blocks opioid effects. Requires full detox first (7-10 days opioid-free). Monthly injection available. No abuse potential but less effective than methadone/buprenorphine.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Withdrawal Timeline & Management</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• <strong>6-12 hours (short-acting):</strong> Anxiety, sweating, yawning, watery eyes</li>
+            <li>• <strong>1-3 days:</strong> Peak symptoms - muscle aches, nausea, vomiting, diarrhea, insomnia</li>
+            <li>• <strong>5-7 days:</strong> Physical symptoms subside</li>
+            <li>• <strong>Weeks-months:</strong> Post-acute withdrawal - depression, anxiety, cravings</li>
+          </ul>
+          <p className="text-sm text-amber-200 mt-2">⚠️ Opioid withdrawal is NOT medically dangerous but extremely uncomfortable. Medical support highly recommended.</p>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+          <h4 className="font-semibold text-white mb-2">Harm Reduction in Recovery</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• MAT is not "trading one drug for another" - it's evidence-based medicine</li>
+            <li>• Staying on MAT indefinitely is often more successful than tapering</li>
+            <li>• Keep naloxone available - relapse risk is highest early in recovery</li>
+            <li>• If you relapse: Start with much lower dose (tolerance drops fast)</li>
+            <li>• Fentanyl test strips - street opioids often contain fentanyl</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Alcohol */}
+      <div className="space-y-3">
+        <h3 className="text-lg font-bold text-yellow-200">🍺 Alcohol</h3>
+        
+        <div className="rounded-xl border-2 border-red-500/50 bg-red-500/10 p-4">
+          <h4 className="font-semibold text-red-200 mb-2">🚨 DANGEROUS WITHDRAWAL - Medical Supervision Required</h4>
+          <p className="text-sm text-red-100">Alcohol withdrawal can cause FATAL seizures (delirium tremens). If drinking heavily daily, DO NOT quit without medical help. Hospital or detox facility provides medications to prevent seizures.</p>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Medications for Alcohol Use Disorder</h4>
+          <div className="text-sm space-y-2">
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Naltrexone:</p>
+              <p className="text-gray-300">Reduces cravings and pleasure from drinking. Can be used while still drinking (Sinclair Method). Oral daily or monthly injection (Vivitrol).</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Acamprosate (Campral):</p>
+              <p className="text-gray-300">Reduces cravings and post-acute withdrawal symptoms. Taken 3x daily after complete abstinence achieved.</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Disulfiram (Antabuse):</p>
+              <p className="text-gray-300">Makes you violently ill if you drink. Psychological deterrent. Requires full commitment to abstinence.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Safe Detox Protocol (Medical Setting Only)</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• Benzodiazepines (Librium, Ativan) taper prevents seizures</li>
+            <li>• Thiamine (vitamin B1) prevents Wernicke-Korsakoff syndrome</li>
+            <li>• Monitoring vital signs and symptoms</li>
+            <li>• Nutritional support and hydration</li>
+            <li>• Timeline: 3-7 days for acute withdrawal, weeks for post-acute</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Benzodiazepines */}
+      <div className="space-y-3">
+        <h3 className="text-lg font-bold text-pink-200">💊 Benzodiazepines (Xanax, Valium, Klonopin)</h3>
+        
+        <div className="rounded-xl border-2 border-red-500/50 bg-red-500/10 p-4">
+          <h4 className="font-semibold text-red-200 mb-2">🚨 DANGEROUS WITHDRAWAL - NEVER Quit Cold Turkey</h4>
+          <p className="text-sm text-red-100">Benzodiazepine withdrawal causes seizures that can be fatal. Withdrawal can last weeks to months. ALWAYS taper slowly under medical supervision. Cold turkey quitting can cause death.</p>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Proper Tapering Approach</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• Switch to long-acting benzo (diazepam/Valium) if using short-acting</li>
+            <li>• Reduce dose by 5-10% every 1-2 weeks (slower for long-term use)</li>
+            <li>• Ashton Manual protocol widely recommended</li>
+            <li>• Can take 6-18 months for safe taper from high doses</li>
+            <li>• Symptoms: anxiety, insomnia, tremors, perceptual changes, seizure risk</li>
+            <li>• Protracted withdrawal possible (symptoms lasting months after cessation)</li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+          <h4 className="font-semibold text-white mb-2">Critical Safety Information</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• Find a doctor experienced with benzo tapers (many don't understand severity)</li>
+            <li>• Online communities (BenzoBuddies) provide peer support</li>
+            <li>• Avoid alcohol and other sedatives during taper</li>
+            <li>• Emergency protocol if seizure occurs: Call 911 immediately</li>
+            <li>• Long-term use (&gt;6 months) makes withdrawal more severe</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Stimulants */}
+      <div className="space-y-3">
+        <h3 className="text-lg font-bold text-red-200">⚡ Stimulants (Cocaine, Meth, Adderall)</h3>
+        
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Withdrawal & Recovery</h4>
+          <p className="text-sm text-gray-300 mb-2">Stimulant withdrawal is not medically dangerous but causes severe depression, fatigue, and cravings. "Crash" phase can last days to weeks.</p>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• <strong>Crash (1-3 days):</strong> Exhaustion, hypersomnia, increased appetite, depression</li>
+            <li>• <strong>Withdrawal (1-4 weeks):</strong> Anhedonia (can't feel pleasure), low energy, irritability, strong cravings</li>
+            <li>• <strong>Extinction (weeks-months):</strong> Gradual return to baseline, intermittent cravings</li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Treatment Approaches</h4>
+          <div className="text-sm space-y-2">
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">No FDA-approved medications (yet):</p>
+              <p className="text-gray-300">Research ongoing for meth (bupropion + naltrexone shows promise). Cocaine (no effective medication currently).</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Contingency Management:</p>
+              <p className="text-gray-300">Most effective behavioral treatment. Rewards (vouchers, prizes) for negative drug tests. Proven to increase abstinence.</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold mb-1">Cognitive Behavioral Therapy (CBT):</p>
+              <p className="text-gray-300">Identify triggers, develop coping strategies, change thought patterns. Evidence-based for stimulant addiction.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+          <h4 className="font-semibold text-white mb-2">Harm Reduction Strategies</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• Sleep and nutrition crucial during withdrawal (brain healing)</li>
+            <li>• Exercise helps restore dopamine function</li>
+            <li>• Avoid other stimulants during recovery (caffeine initially OK)</li>
+            <li>• Relapse prevention: Identify triggers, avoid people/places/things</li>
+            <li>• If using: Test for fentanyl, avoid mixing with opioids, stay hydrated</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Cannabis */}
+      <div className="space-y-3">
+        <h3 className="text-lg font-bold text-green-200">🌿 Cannabis</h3>
+        
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Cannabis Use Disorder</h4>
+          <p className="text-sm text-gray-300 mb-2">~9% of users develop dependence. Higher risk with daily use, high-THC products, early onset use. Withdrawal is real but mild.</p>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• <strong>Withdrawal (3-7 days peak):</strong> Irritability, anxiety, insomnia, decreased appetite, restlessness</li>
+            <li>• <strong>Duration:</strong> 1-2 weeks for most symptoms</li>
+            <li>• <strong>Treatment:</strong> No medications needed. Behavioral therapy helpful.</li>
+            <li>• <strong>Sleep issues:</strong> May persist several weeks (melatonin, good sleep hygiene)</li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+          <h4 className="font-semibold text-white mb-2">Quitting Successfully</h4>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>• Gradual reduction often easier than cold turkey</li>
+            <li>• Exercise, hobbies to replace use patterns</li>
+            <li>• CBD may help with anxiety (but verify no THC if testing)</li>
+            <li>• Avoid triggers: friends who use, paraphernalia, routines</li>
+            <li>• r/leaves community provides peer support</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* General Treatment Resources */}
+      <div className="rounded-2xl border-2 border-indigo-500/50 bg-indigo-500/10 p-5 mt-6">
+        <h3 className="text-lg font-bold text-indigo-200 mb-3">🏥 Finding Treatment</h3>
+        <div className="space-y-2 text-sm text-indigo-100">
+          <div className="flex gap-2">
+            <span>📞</span>
+            <div>
+              <p className="font-semibold">SAMHSA National Helpline: 1-800-662-4357</p>
+              <p className="text-indigo-200">Free, confidential, 24/7 treatment referral service</p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <span>🌐</span>
+            <div>
+              <p className="font-semibold">findtreatment.gov</p>
+              <p className="text-indigo-200">Locate treatment facilities by ZIP code, insurance, services</p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <span>💊</span>
+            <div>
+              <p className="font-semibold">SAMHSA MAT Locator</p>
+              <p className="text-indigo-200">Find methadone/buprenorphine providers near you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Support Groups */}
+      <div className="space-y-3 mt-4">
+        <h3 className="font-semibold text-lg text-blue-200">🤝 Support Groups</h3>
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
+          <ul className="text-sm text-gray-300 space-y-2">
+            <li>• <strong>SMART Recovery:</strong> Science-based alternative to 12-step. Focuses on self-empowerment, CBT techniques</li>
+            <li>• <strong>AA/NA:</strong> 12-step programs. Free, worldwide availability. Abstinence-based.</li>
+            <li>• <strong>Refuge Recovery:</strong> Buddhist-based recovery program</li>
+            <li>• <strong>LifeRing:</strong> Secular recovery support</li>
+            <li>• <strong>Online communities:</strong> r/stopdrinking, r/OpiatesRecovery, r/leaves (cannabis)</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Key Principles */}
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-5 mt-4">
+        <h3 className="text-lg font-bold text-emerald-200 mb-2">✅ Core Recovery Principles</h3>
+        <ul className="space-y-2 text-sm text-emerald-100">
+          <li>• <strong>Addiction is a disease:</strong> Not a moral failing. Requires medical treatment.</li>
+          <li>• <strong>MAT works:</strong> Medication-assisted treatment has highest success rates for opioids.</li>
+          <li>• <strong>Harm reduction is valid:</strong> Reducing use/consequences is progress, not failure.</li>
+          <li>• <strong>Relapse is common:</strong> Part of recovery for many. Learn and try again.</li>
+          <li>• <strong>Multiple paths:</strong> What works for one person may not work for another.</li>
+          <li>• <strong>Treat underlying issues:</strong> Mental health, trauma, chronic pain need addressing.</li>
+          <li>• <strong>Support matters:</strong> Peer support, therapy, family - don't do it alone.</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 function App(){
   const [tab,setTab] = useState('welcome');
   const {data} = useJSON('data/reagents.json');
@@ -2719,6 +2985,7 @@ function App(){
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
           <button onClick={()=>setTab('myths')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='myths'?'bg-amber-500/30 border border-amber-400/60 text-amber-100':'bg-amber-500/10 border border-amber-400/30 text-amber-200 hover:bg-amber-500/20')}>❌ Myths</button>
+          <button onClick={()=>setTab('addiction')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='addiction'?'bg-teal-500/30 border border-teal-400/60 text-teal-100':'bg-teal-500/10 border border-teal-400/30 text-teal-200 hover:bg-teal-500/20')}>💊 Addiction</button>
           <button onClick={()=>setTab('resources')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}>🌍 Resources</button>
           <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
@@ -2737,6 +3004,7 @@ function App(){
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
       {tab==='myths' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-amber-200">❌ Common Myths & Misinformation</h2><Myths/></section>)}
+      {tab==='addiction' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-teal-200">💊 Addiction & Treatment</h2><Addiction/></section>)}
       {tab==='resources' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-purple-200">🌍 Testing Resources by Region</h2><Resources/></section>)}
       {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
