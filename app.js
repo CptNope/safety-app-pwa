@@ -1148,11 +1148,12 @@ function News(){
   const [useLiveFeeds, setUseLiveFeeds] = useState(false);
   const [detectedRegion, setDetectedRegion] = useState(null);
   const [geoError, setGeoError] = useState(null);
+  const [displayCount, setDisplayCount] = useState(10); // Show 10 initially
   
   // ALWAYS call the safe hook (Rules of Hooks) - it handles everything internally
   // news-aggregator.js is loaded before app.js, so this function always exists
-  const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, refresh } = 
-    useSafeAggregatedNews({ enabled: useLiveFeeds });
+  const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, pagination, refresh } = 
+    useSafeAggregatedNews({ enabled: useLiveFeeds, limit: null, offset: 0 }); // Get all for now
   
   // Detect user location (optional)
   const detectLocation = () => {
@@ -1353,8 +1354,16 @@ function News(){
         </div>
       )}
 
+      {/* Article count and pagination info */}
+      {filtered.length > 0 && (
+        <div className="text-sm text-gray-400 pb-2">
+          Showing {Math.min(displayCount, filtered.length)} of {filtered.length} articles
+          {useLiveFeeds && pagination?.total > 0 && ` (${pagination.total} total from live feeds)`}
+        </div>
+      )}
+
       <div className="space-y-3">
-        {filtered?.map((article, idx) => (
+        {filtered?.slice(0, displayCount).map((article, idx) => (
           <div key={idx} className={`rounded-2xl border p-5 space-y-3 ${
             article.priority === 'critical' ? 'border-red-500/50 bg-red-500/10' :
             article.priority === 'high' ? 'border-amber-500/50 bg-amber-500/10' :
@@ -1362,13 +1371,22 @@ function News(){
           }`}>
             <div className="flex items-start justify-between gap-3">
               <div className="flex-1">
-                <div className="flex items-center gap-2 mb-2">
+                <div className="flex items-center gap-2 mb-2 flex-wrap">
                   {article.priority === 'critical' && <span className="px-2 py-0.5 rounded text-xs font-bold bg-red-500/30 text-red-100 border border-red-400/50">🚨 CRITICAL</span>}
                   {article.priority === 'high' && <span className="px-2 py-0.5 rounded text-xs font-bold bg-amber-500/30 text-amber-100 border border-amber-400/50">⚠️ HIGH PRIORITY</span>}
                   <span className="px-2 py-0.5 rounded text-xs font-medium bg-white/10 text-gray-300">{article.category}</span>
                   <span className="text-xs text-gray-400">{article.date}</span>
+                  {article.feed_source && (
+                    <span className="px-2 py-0.5 rounded text-xs bg-cyan-500/20 text-cyan-200 border border-cyan-400/30">📡 {article.feed_source}</span>
+                  )}
                 </div>
-                <h4 className="font-bold text-base mb-2">{article.title}</h4>
+                <h4 className="font-bold text-base mb-2">
+                  {article.source_url ? (
+                    <a href={article.source_url} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 transition-colors">
+                      {article.title} <span className="text-cyan-400 text-sm">→</span>
+                    </a>
+                  ) : article.title}
+                </h4>
                 <p className="text-sm leading-relaxed mb-3">{article.summary}</p>
                 
                 {article.details && (
@@ -1391,15 +1409,22 @@ function News(){
                   </div>
                 )}
 
-                {article.source && (
-                  <div className="mt-3 text-xs text-gray-400">
-                    Source: {article.source_url ? (
-                      <a href={article.source_url} target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200 underline">
-                        {article.source}
-                      </a>
-                    ) : article.source}
-                  </div>
-                )}
+                <div className="mt-3 flex items-center gap-3 text-xs">
+                  {article.source && (
+                    <div className="text-gray-400">
+                      Source: {article.source_url ? (
+                        <a href={article.source_url} target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200 underline">
+                          {article.source} ↗
+                        </a>
+                      ) : article.source}
+                    </div>
+                  )}
+                  {article.author && (
+                    <div className="text-gray-500">
+                      By {article.author}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
@@ -1407,10 +1432,55 @@ function News(){
 
         {(!filtered || filtered.length === 0) && (
           <div className="text-center py-8 text-gray-400">
-            No news articles in this category yet.
+            {useLiveFeeds && liveLoading ? (
+              <div className="flex flex-col items-center gap-2">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-cyan-500"></div>
+                <p>Loading live news feeds...</p>
+              </div>
+            ) : (
+              <div>
+                <p>No news articles found.</p>
+                {!useLiveFeeds && (
+                  <p className="mt-2 text-sm">Try enabling Live News Feeds for real-time articles.</p>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>
+
+      {/* Load More Button */}
+      {filtered.length > displayCount && (
+        <div className="pt-4 flex flex-col items-center gap-2">
+          <button
+            onClick={() => setDisplayCount(prev => prev + 10)}
+            className="px-6 py-3 rounded-xl bg-cyan-500/20 text-cyan-200 border border-cyan-400/30 hover:bg-cyan-500/30 transition-colors font-medium"
+          >
+            Load More ({filtered.length - displayCount} remaining)
+          </button>
+          <button
+            onClick={() => setDisplayCount(filtered.length)}
+            className="px-4 py-2 rounded-lg text-sm text-cyan-300 hover:text-cyan-200 underline"
+          >
+            Show All
+          </button>
+        </div>
+      )}
+
+      {/* Show Less Button */}
+      {displayCount > 10 && filtered.length > 10 && displayCount >= filtered.length && (
+        <div className="pt-4 flex justify-center">
+          <button
+            onClick={() => {
+              setDisplayCount(10);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="px-4 py-2 rounded-lg text-sm text-gray-400 hover:text-gray-300 underline"
+          >
+            ↑ Show Less
+          </button>
+        </div>
+      )}
     </div>
   );
 }

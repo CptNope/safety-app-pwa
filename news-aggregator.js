@@ -22,7 +22,8 @@ class NewsAggregator {
         name: 'DrugsData.org',
         url: 'https://www.drugsdata.org/rss.xml',
         category: 'Lab Results',
-        parser: 'drugsdata'
+        parser: 'drugsdata',
+        enabled: true
       },
       
       // FDA Drug Alerts
@@ -31,7 +32,17 @@ class NewsAggregator {
         name: 'FDA Drug Recalls',
         url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drug-recalls/rss.xml',
         category: 'Safety Alerts',
-        parser: 'fda'
+        parser: 'fda',
+        enabled: true
+      },
+
+      fda_safety: {
+        type: 'rss',
+        name: 'FDA Safety Alerts',
+        url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/fda-newsroom/rss.xml',
+        category: 'Safety Alerts',
+        parser: 'fda',
+        enabled: true
       },
 
       // Harm Reduction Organizations
@@ -40,7 +51,8 @@ class NewsAggregator {
         name: 'DanceSafe',
         url: 'https://dancesafe.org/feed/',
         category: 'Community News',
-        parser: 'wordpress'
+        parser: 'wordpress',
+        enabled: true
       },
 
       erowid: {
@@ -48,7 +60,8 @@ class NewsAggregator {
         name: 'Erowid News',
         url: 'https://www.erowid.org/general/about/about_rss.xml',
         category: 'Research',
-        parser: 'generic'
+        parser: 'generic',
+        enabled: true
       },
 
       // Drug Policy Alliance
@@ -57,7 +70,8 @@ class NewsAggregator {
         name: 'Drug Policy Alliance',
         url: 'https://drugpolicy.org/rss.xml',
         category: 'Policy Update',
-        parser: 'wordpress'
+        parser: 'wordpress',
+        enabled: true
       },
 
       // NIDA Research
@@ -66,7 +80,62 @@ class NewsAggregator {
         name: 'NIDA Research Updates',
         url: 'https://nida.nih.gov/rss/research-updates.xml',
         category: 'Research',
-        parser: 'generic'
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Additional Sources
+      samhsa: {
+        type: 'rss',
+        name: 'SAMHSA News',
+        url: 'https://www.samhsa.gov/rss/newsroom.xml',
+        category: 'Policy Update',
+        parser: 'generic',
+        enabled: true
+      },
+
+      maps: {
+        type: 'rss',
+        name: 'MAPS (Psychedelic Research)',
+        url: 'https://maps.org/news/rss',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      filterforwards: {
+        type: 'rss',
+        name: 'Filter Magazine',
+        url: 'https://filtermag.org/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      drugscience: {
+        type: 'rss',
+        name: 'Drug Science UK',
+        url: 'https://www.drugscience.org.uk/feed/',
+        category: 'Research',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // News API Integration (requires API key, optional)
+      newsapi: {
+        type: 'newsapi',
+        name: 'NewsAPI.org',
+        category: 'Contamination Alert',
+        parser: 'newsapi',
+        enabled: false, // Enable when API key is provided
+        apiKey: null, // Set via config
+        queries: [
+          'fentanyl overdose',
+          'drug contamination',
+          'harm reduction',
+          'naloxone',
+          'drug checking'
+        ]
       },
 
       // Local fallback (manual entries from database)
@@ -74,24 +143,35 @@ class NewsAggregator {
         type: 'local',
         name: 'Manual Updates',
         category: 'All',
-        parser: 'local'
+        parser: 'local',
+        enabled: true
       }
     };
   }
 
   /**
-   * Fetch news from all sources
+   * Fetch news from all sources with pagination support
    */
   async fetchAllNews(options = {}) {
-    const { maxAge = this.cacheExpiry, forceRefresh = false } = options;
+    const { 
+      maxAge = this.cacheExpiry, 
+      forceRefresh = false,
+      limit = null, // null = all articles
+      offset = 0
+    } = options;
     
     // Check cache first
     if (!forceRefresh && this.isCacheValid('all', maxAge)) {
-      return this.cache.get('all');
+      const cached = this.cache.get('all');
+      return this.paginateResults(cached, limit, offset);
     }
 
+    // Only fetch from enabled sources
+    const enabledSources = Object.entries(this.sources)
+      .filter(([key, source]) => source.enabled !== false);
+
     const results = await Promise.allSettled(
-      Object.entries(this.sources).map(([key, source]) => 
+      enabledSources.map(([key, source]) => 
         this.fetchSource(key, source)
       )
     );
@@ -103,17 +183,46 @@ class NewsAggregator {
       .sort((a, b) => new Date(b.date) - new Date(a.date));
 
     // Cache results
-    this.cache.set('all', {
+    const cacheData = {
       articles: allArticles,
       timestamp: Date.now(),
       sources: results.map((r, i) => ({
-        name: Object.keys(this.sources)[i],
+        name: enabledSources[i][0],
         status: r.status,
         count: r.status === 'fulfilled' ? r.value?.length : 0
       }))
-    });
+    };
+    
+    this.cache.set('all', cacheData);
 
-    return this.cache.get('all');
+    return this.paginateResults(cacheData, limit, offset);
+  }
+
+  /**
+   * Paginate results
+   */
+  paginateResults(cacheData, limit, offset) {
+    if (!cacheData || !cacheData.articles) {
+      return { articles: [], total: 0, hasMore: false, ...cacheData };
+    }
+
+    const total = cacheData.articles.length;
+    
+    if (limit === null) {
+      return { ...cacheData, total, hasMore: false };
+    }
+
+    const paginatedArticles = cacheData.articles.slice(offset, offset + limit);
+    const hasMore = (offset + limit) < total;
+
+    return {
+      ...cacheData,
+      articles: paginatedArticles,
+      total,
+      hasMore,
+      showing: paginatedArticles.length,
+      offset
+    };
   }
 
   /**
@@ -126,6 +235,8 @@ class NewsAggregator {
           return await this.fetchRSS(source);
         case 'api':
           return await this.fetchAPI(source);
+        case 'newsapi':
+          return await this.fetchNewsAPI(source);
         case 'local':
           return await this.fetchLocal();
         default:
@@ -334,18 +445,92 @@ class NewsAggregator {
       cacheAge: Math.round((Date.now() - cached.timestamp) / 1000) + 's'
     };
   }
+
+  /**
+   * Fetch from NewsAPI.org (requires API key)
+   */
+  async fetchNewsAPI(source) {
+    if (!source.apiKey) {
+      console.warn('NewsAPI requires an API key. Set it in config.');
+      return [];
+    }
+
+    const articles = [];
+    const today = new Date();
+    const oneWeekAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
+    
+    for (const query of source.queries || []) {
+      try {
+        const url = `https://newsapi.org/v2/everything?` +
+          `q=${encodeURIComponent(query)}` +
+          `&from=${oneWeekAgo.toISOString().split('T')[0]}` +
+          `&sortBy=publishedAt` +
+          `&language=en` +
+          `&pageSize=10` +
+          `&apiKey=${source.apiKey}`;
+
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.status === 'ok' && data.articles) {
+          const formatted = data.articles.map(article => ({
+            date: this.parseDate(article.publishedAt),
+            category: source.category || 'Contamination Alert',
+            priority: this.detectPriority(article.title + ' ' + article.description),
+            title: article.title,
+            summary: article.description || article.content?.substring(0, 300) + '...',
+            source: article.source.name,
+            source_url: article.url,
+            feed_source: 'NewsAPI.org',
+            author: article.author,
+            image_url: article.urlToImage
+          }));
+          articles.push(...formatted);
+        }
+      } catch (error) {
+        console.error(`NewsAPI query failed for "${query}":`, error);
+      }
+    }
+
+    return articles;
+  }
+
+  /**
+   * Detect priority based on keywords in title/description
+   */
+  detectPriority(text) {
+    const lowerText = text.toLowerCase();
+    
+    // Critical indicators
+    if (lowerText.match(/fatal|death|died|carfentanil|overdose outbreak|emergency alert/i)) {
+      return 'critical';
+    }
+    
+    // High priority indicators
+    if (lowerText.match(/warning|alert|contamination|fentanyl|overdose|recall/i)) {
+      return 'high';
+    }
+    
+    return 'normal';
+  }
 }
 
 // Create singleton instance
 const newsAggregator = new NewsAggregator();
 
-// React hook for using aggregated news
+// React hook for using aggregated news with pagination
 function useAggregatedNews(options = {}) {
-  const { enabled = true } = options;
+  const { enabled = true, limit, offset } = options;
   const [news, setNews] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [lastUpdate, setLastUpdate] = React.useState(null);
+  const [pagination, setPagination] = React.useState({
+    total: 0,
+    showing: 0,
+    hasMore: false,
+    offset: 0
+  });
 
   React.useEffect(() => {
     // Don't fetch if disabled
@@ -353,6 +538,7 @@ function useAggregatedNews(options = {}) {
       setNews(null);
       setLoading(false);
       setError(null);
+      setPagination({ total: 0, showing: 0, hasMore: false, offset: 0 });
       return;
     }
 
@@ -361,11 +547,17 @@ function useAggregatedNews(options = {}) {
     async function load() {
       try {
         setLoading(true);
-        const result = await newsAggregator.fetchAllNews(options);
+        const result = await newsAggregator.fetchAllNews({ ...options, limit, offset });
         
         if (mounted) {
           setNews(result.articles || []);
           setLastUpdate(new Date(result.timestamp));
+          setPagination({
+            total: result.total || 0,
+            showing: result.showing || 0,
+            hasMore: result.hasMore || false,
+            offset: result.offset || 0
+          });
           setError(null);
         }
       } catch (err) {
@@ -389,35 +581,47 @@ function useAggregatedNews(options = {}) {
       mounted = false;
       clearInterval(interval);
     };
-  }, [enabled]);
+  }, [enabled, limit, offset]);
 
   const refresh = React.useCallback(async () => {
     if (!enabled) return;
     
     setLoading(true);
     try {
-      const result = await newsAggregator.fetchAllNews({ forceRefresh: true });
+      const result = await newsAggregator.fetchAllNews({ forceRefresh: true, limit, offset });
       setNews(result.articles || []);
       setLastUpdate(new Date(result.timestamp));
+      setPagination({
+        total: result.total || 0,
+        showing: result.showing || 0,
+        hasMore: result.hasMore || false,
+        offset: result.offset || 0
+      });
       setError(null);
     } catch (err) {
       setError(err);
     } finally {
       setLoading(false);
     }
-  }, [enabled]);
+  }, [enabled, limit, offset]);
 
-  return { news, loading, error, lastUpdate, refresh };
+  return { news, loading, error, lastUpdate, pagination, refresh };
 }
 
 // Safe wrapper hook that can ALWAYS be called (even if aggregator doesn't exist)
 // This prevents React Hooks violations
 function useSafeAggregatedNews(options = {}) {
-  const { enabled = false } = options;
+  const { enabled = false, limit, offset } = options;
   const [news, setNews] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [lastUpdate, setLastUpdate] = React.useState(null);
+  const [pagination, setPagination] = React.useState({
+    total: 0,
+    showing: 0,
+    hasMore: false,
+    offset: 0
+  });
 
   React.useEffect(() => {
     // Check if aggregator exists and is enabled
@@ -425,6 +629,7 @@ function useSafeAggregatedNews(options = {}) {
       setNews(null);
       setLoading(false);
       setError(null);
+      setPagination({ total: 0, showing: 0, hasMore: false, offset: 0 });
       return;
     }
 
@@ -433,11 +638,17 @@ function useSafeAggregatedNews(options = {}) {
     async function load() {
       try {
         setLoading(true);
-        const result = await newsAggregator.fetchAllNews(options);
+        const result = await newsAggregator.fetchAllNews({ ...options, limit, offset });
         
         if (mounted) {
           setNews(result.articles || []);
           setLastUpdate(new Date(result.timestamp));
+          setPagination({
+            total: result.total || 0,
+            showing: result.showing || 0,
+            hasMore: result.hasMore || false,
+            offset: result.offset || 0
+          });
           setError(null);
         }
       } catch (err) {
@@ -461,23 +672,29 @@ function useSafeAggregatedNews(options = {}) {
       mounted = false;
       clearInterval(interval);
     };
-  }, [enabled]);
+  }, [enabled, limit, offset]);
 
   const refresh = React.useCallback(async () => {
     if (!enabled || typeof newsAggregator === 'undefined') return;
     
     setLoading(true);
     try {
-      const result = await newsAggregator.fetchAllNews({ forceRefresh: true });
+      const result = await newsAggregator.fetchAllNews({ forceRefresh: true, limit, offset });
       setNews(result.articles || []);
       setLastUpdate(new Date(result.timestamp));
+      setPagination({
+        total: result.total || 0,
+        showing: result.showing || 0,
+        hasMore: result.hasMore || false,
+        offset: result.offset || 0
+      });
       setError(null);
     } catch (err) {
       setError(err);
     } finally {
       setLoading(false);
     }
-  }, [enabled]);
+  }, [enabled, limit, offset]);
 
-  return { news, loading, error, lastUpdate, refresh };
+  return { news, loading, error, lastUpdate, pagination, refresh };
 }

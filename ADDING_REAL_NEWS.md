@@ -1,8 +1,42 @@
 # 📰 Adding Real News Articles
 
-## Important: Current Articles Are Examples
+## ✅ Database Now Clean!
 
-**The news articles currently in the database are FICTIONAL EXAMPLES** meant to demonstrate the news system functionality. They are based on realistic harm reduction scenarios but are not actual published news articles.
+**All example articles have been removed.** The news database is now empty and ready for real verified articles only.
+
+## 🎉 NEW FEATURES (v74)
+
+### More RSS Feeds Added!
+The app now pulls from **11 sources** automatically when Live News Feeds are enabled:
+1. **DrugsData.org** - Lab test results
+2. **FDA Drug Recalls** - Official recalls  
+3. **FDA Safety Alerts** - General safety news
+4. **DanceSafe** - Harm reduction community
+5. **Erowid** - Research and education
+6. **Drug Policy Alliance** - Policy updates
+7. **NIDA** - Research from NIH
+8. **SAMHSA** - Federal substance abuse agency
+9. **MAPS** - Psychedelic research
+10. **Filter Magazine** - Harm reduction journalism
+11. **Drug Science UK** - UK-based research
+
+### NewsAPI.org Integration (Optional)
+- Automatically searches major news outlets for harm reduction topics
+- Requires free API key from https://newsapi.org
+- Searches for: fentanyl, overdose, contamination, naloxone, harm reduction
+- Can be configured in `news-aggregator.js`
+
+### Load More / Pagination
+- Initially shows 10 articles
+- Click "Load More" to show 10 more at a time
+- Click "Show All" to display everything
+- Click "Show Less" to collapse back to 10
+
+### Clickable Article Links
+- Article titles now link directly to source
+- Source names are clickable links
+- All links open in new tabs
+- Visual indicator (→) shows link is available
 
 ## How to Add Real News Articles
 
@@ -173,14 +207,70 @@ https://bostonglobe.com/2024/11/09/health/fentanyl-cocaine-alert
 5. **Test display** - check app renders correctly
 6. **Commit changes** with descriptive message
 
+## 🔑 Enabling NewsAPI (Optional)
+
+NewsAPI.org provides access to major news outlets and can automatically search for harm reduction news.
+
+### Step 1: Get API Key
+1. Go to https://newsapi.org
+2. Sign up for free account (up to 100 requests/day)
+3. Copy your API key
+
+### Step 2: Enable in Code
+Edit `news-aggregator.js`, find the `newsapi` source (around line 125):
+
+```javascript
+newsapi: {
+  type: 'newsapi',
+  name: 'NewsAPI.org',
+  category: 'Contamination Alert',
+  parser: 'newsapi',
+  enabled: true,  // Change from false to true
+  apiKey: 'YOUR_API_KEY_HERE',  // Paste your API key
+  queries: [
+    'fentanyl overdose',
+    'drug contamination',
+    'harm reduction',
+    'naloxone',
+    'drug checking'
+  ]
+}
+```
+
+### Step 3: Customize Search Terms
+Add more queries to find relevant articles:
+```javascript
+queries: [
+  'fentanyl overdose',
+  'drug contamination',
+  'harm reduction',
+  'naloxone distribution',
+  'drug checking service',
+  'overdose prevention',
+  'safe consumption site',
+  'drug testing kit',
+  'Boston fentanyl',  // Add local searches
+  'Massachusetts overdose'
+]
+```
+
+### Limits
+- Free tier: 100 requests/day
+- Searches last 7 days of articles
+- 10 results per query
+- Refreshes every hour when Live News Feeds are enabled
+
 ## Automation Ideas
 
 ### Future Enhancements:
-1. **RSS Feed Parser** - Auto-import from trusted RSS feeds (already implemented in `news-aggregator.js`)
-2. **Admin Interface** - Web form to add/edit articles
-3. **Fact-Checking API** - Auto-verify with multiple sources
-4. **Expiration Dates** - Auto-archive old contamination alerts
-5. **User Submissions** - Community reporting with moderation
+1. **RSS Feed Parser** - Auto-import from trusted RSS feeds (✅ already implemented in `news-aggregator.js`)
+2. **NewsAPI Integration** - Auto-search major news outlets (✅ already implemented, needs API key)
+3. **Admin Interface** - Web form to add/edit articles
+4. **Fact-Checking API** - Auto-verify with multiple sources
+5. **Expiration Dates** - Auto-archive old contamination alerts
+6. **User Submissions** - Community reporting with moderation
+7. **Google Alerts Integration** - Email-based monitoring
+8. **Regional News APIs** - Local health department feeds
 
 ## Legal Considerations
 
