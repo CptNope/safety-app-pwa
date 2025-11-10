@@ -1144,12 +1144,49 @@ function Swatches(){
 function News(){
   const {data} = useJSON('data/reagents.json');
   const [filter, setFilter] = useState('All');
+  const [regionFilter, setRegionFilter] = useState('All Regions');
   const [useLiveFeeds, setUseLiveFeeds] = useState(false);
+  const [detectedRegion, setDetectedRegion] = useState(null);
+  const [geoError, setGeoError] = useState(null);
   
   // ALWAYS call the safe hook (Rules of Hooks) - it handles everything internally
   // news-aggregator.js is loaded before app.js, so this function always exists
   const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, refresh } = 
     useSafeAggregatedNews({ enabled: useLiveFeeds });
+  
+  // Detect user location (optional)
+  const detectLocation = () => {
+    if (!navigator.geolocation) {
+      setGeoError('Geolocation not supported');
+      return;
+    }
+    
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        // Simple region detection based on coordinates
+        const { latitude, longitude } = position.coords;
+        let region = 'USA - Nationwide';
+        
+        // Very rough region detection (would need proper geocoding API for accuracy)
+        if (latitude >= 49) region = 'Canada';
+        else if (latitude >= 45 && longitude <= -110) region = 'USA - Pacific Northwest';
+        else if (latitude >= 35 && latitude < 42 && longitude >= -125 && longitude <= -114) region = 'USA - California';
+        else if (latitude >= 32 && latitude < 37 && longitude >= -115 && longitude <= -103) region = 'USA - Southwest';
+        else if (latitude >= 37 && latitude < 45 && longitude >= -80 && longitude <= -70) region = 'USA - East Coast';
+        else if (longitude >= -10 && longitude <= 30) {
+          if (latitude >= 48 && latitude <= 62) region = 'UK - England';
+          else if (latitude >= 40 && latitude <= 44) region = 'Spain';
+          else if (latitude >= 45 && latitude <= 48) region = 'France';
+        }
+        
+        setDetectedRegion(region);
+        setRegionFilter(region);
+      },
+      (error) => {
+        setGeoError(error.message);
+      }
+    );
+  };
   
   if(!data?.news) return (
     <div className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-6">
@@ -1164,8 +1201,24 @@ function News(){
     ? [...(news.articles || []), ...liveNews]
     : (news.articles || []);
   
+  // Extract unique regions from all articles
+  const allRegions = new Set(['All Regions']);
+  allArticles.forEach(article => {
+    if (article.regions && Array.isArray(article.regions)) {
+      article.regions.forEach(region => allRegions.add(region));
+    }
+  });
+  const regions = Array.from(allRegions);
+  
   const categories = ['All', ...new Set(allArticles.map(a => a.category) || [])];
-  const filtered = filter === 'All' ? allArticles : allArticles.filter(a => a.category === filter);
+  
+  // Filter by both category AND region
+  const filtered = allArticles.filter(article => {
+    const categoryMatch = filter === 'All' || article.category === filter;
+    const regionMatch = regionFilter === 'All Regions' || 
+      (article.regions && article.regions.includes(regionFilter));
+    return categoryMatch && regionMatch;
+  });
 
   return (
     <div className="space-y-4">
@@ -1228,22 +1281,68 @@ function News(){
           )}
         </div>
 
+      {/* Region Filter with Geolocation */}
+      {regions.length > 1 && (
+        <div className="rounded-xl border border-purple-500/30 bg-purple-500/5 p-4 space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="font-medium text-sm text-purple-200">📍 Filter by Region</div>
+            <button
+              onClick={detectLocation}
+              className="px-3 py-1 rounded-lg text-xs font-medium bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition flex items-center gap-1"
+            >
+              🌍 Detect My Location
+            </button>
+          </div>
+          
+          {detectedRegion && (
+            <div className="text-xs text-purple-300 bg-purple-500/10 rounded p-2">
+              ✓ Detected region: {detectedRegion}
+            </div>
+          )}
+          
+          {geoError && (
+            <div className="text-xs text-amber-300 bg-amber-500/10 rounded p-2">
+              ⚠️ Location detection: {geoError}. Please select manually below.
+            </div>
+          )}
+          
+          <div className="flex flex-wrap gap-2">
+            {regions.map(region => (
+              <button
+                key={region}
+                onClick={() => setRegionFilter(region)}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
+                  regionFilter === region
+                    ? 'bg-purple-500/30 border border-purple-400/60 text-purple-100'
+                    : 'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20'
+                }`}
+              >
+                {region} ({allArticles.filter(a => region === 'All Regions' || (a.regions && a.regions.includes(region))).length})
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Category Filters */}
       {categories.length > 1 && (
-        <div className="flex flex-wrap gap-2">
-          {categories.map(cat => (
-            <button
-              key={cat}
-              onClick={() => setFilter(cat)}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
-                filter === cat
-                  ? 'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100'
-                  : 'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20'
-              }`}
-            >
-              {cat} {useLiveFeeds && liveNews && `(${allArticles.filter(a => cat === 'All' || a.category === cat).length})`}
-            </button>
-          ))}
+        <div className="space-y-2">
+          <div className="font-medium text-sm text-cyan-200">🏷️ Filter by Category</div>
+          <div className="flex flex-wrap gap-2">
+            {categories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setFilter(cat)}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${
+                  filter === cat
+                    ? 'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100'
+                    : 'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20'
+                }`}
+              >
+                {cat} ({filtered.filter(a => cat === 'All' || a.category === cat).length})
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
