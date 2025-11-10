@@ -3040,15 +3040,151 @@ function Addiction(){
 
       {/* Support Groups */}
       <div className="space-y-3 mt-4">
-        <h3 className="font-semibold text-lg text-blue-200">🤝 Support Groups</h3>
-        <div className="rounded-xl border border-white/10 bg-white/5 p-4">
-          <ul className="text-sm text-gray-300 space-y-2">
-            <li>• <strong>SMART Recovery:</strong> Science-based alternative to 12-step. Focuses on self-empowerment, CBT techniques</li>
-            <li>• <strong>AA/NA:</strong> 12-step programs. Free, worldwide availability. Abstinence-based.</li>
-            <li>• <strong>Refuge Recovery:</strong> Buddhist-based recovery program</li>
-            <li>• <strong>LifeRing:</strong> Secular recovery support</li>
-            <li>• <strong>Online communities:</strong> r/stopdrinking, r/OpiatesRecovery, r/leaves (cannabis)</li>
-          </ul>
+        <h3 className="font-semibold text-lg text-blue-200">🤝 Support Groups & Communities</h3>
+        <p className="text-sm text-gray-300">Multiple paths to recovery - find what works for you. Many programs offer in-person and online meetings.</p>
+        
+        {/* 12-Step Programs */}
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Traditional 12-Step Programs</h4>
+          <div className="text-sm text-gray-300 space-y-2">
+            <div>
+              <p className="text-cyan-300 font-semibold">Alcoholics Anonymous (AA)</p>
+              <p>Oldest and largest recovery fellowship. Spiritual (not religious) program based on 12 steps. Free, worldwide availability. In-person and online meetings.</p>
+              <p className="text-cyan-200 text-xs mt-1">🌐 aa.org | 📱 Meeting Guide app | 💬 aa-intergroup.org (online meetings)</p>
+            </div>
+            <div>
+              <p className="text-cyan-300 font-semibold">Narcotics Anonymous (NA)</p>
+              <p>12-step program for drug addiction. All substances welcomed. "Just for today" philosophy. Peer support focus.</p>
+              <p className="text-cyan-200 text-xs mt-1">🌐 na.org | 💬 Virtual NA (online meetings)</p>
+            </div>
+            <div>
+              <p className="text-cyan-300 font-semibold">Cocaine Anonymous (CA)</p>
+              <p>12-step program specifically for cocaine and stimulant addiction. Welcomes all substance issues.</p>
+              <p className="text-cyan-200 text-xs mt-1">🌐 ca.org</p>
+            </div>
+            <div>
+              <p className="text-cyan-300 font-semibold">Al-Anon / Nar-Anon</p>
+              <p>Support for family members and loved ones of people with addiction. Helps you cope and set boundaries.</p>
+              <p className="text-cyan-200 text-xs mt-1">🌐 al-anon.org | nar-anon.org</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Christian-Based Programs */}
+        <div className="rounded-xl border border-purple-500/30 bg-purple-500/10 p-4 space-y-3">
+          <h4 className="font-semibold text-white">✝️ Christian-Based Recovery Programs</h4>
+          <div className="text-sm text-gray-300 space-y-2">
+            <div>
+              <p className="text-purple-300 font-semibold">Celebrate Recovery</p>
+              <p>Christ-centered 12-step program. Addresses all types of hurts, habits, and hang-ups. Large community, church-based meetings nationwide. Open to everyone.</p>
+              <p className="text-purple-200 text-xs mt-1">🌐 celebraterecovery.com | 25,000+ churches worldwide | 💬 Online meetings available</p>
+            </div>
+            <div>
+              <p className="text-purple-300 font-semibold">Teen Challenge</p>
+              <p>Faith-based residential program. Long-term (12-15 months). Intensive Christian discipleship approach. Free or low-cost options available.</p>
+              <p className="text-purple-200 text-xs mt-1">🌐 teenchallenge.org | 📞 Find local center</p>
+            </div>
+            <div>
+              <p className="text-purple-300 font-semibold">Alcoholics for Christ</p>
+              <p>Combines AA principles with Christian faith. Christ-centered recovery focusing on spiritual healing. Meeting directory available.</p>
+              <p className="text-purple-200 text-xs mt-1">🌐 alcoholicsforchrist.com</p>
+            </div>
+            <div>
+              <p className="text-purple-300 font-semibold">Reformers Unanimous</p>
+              <p>Addiction recovery program through local churches. Bible-based curriculum. Weekly meetings with accountability.</p>
+              <p className="text-purple-200 text-xs mt-1">🌐 reformu.com</p>
+            </div>
+            <div>
+              <p className="text-purple-300 font-semibold">Setting Captives Free</p>
+              <p>Online Christian discipleship courses for various addictions. Self-paced with mentorship. Free courses available.</p>
+              <p className="text-purple-200 text-xs mt-1">🌐 settingcaptivesfree.com | 💬 Online mentorship included</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Science-Based / Secular Programs */}
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Science-Based & Secular Programs</h4>
+          <div className="text-sm text-gray-300 space-y-2">
+            <div>
+              <p className="text-emerald-300 font-semibold">SMART Recovery</p>
+              <p>Science-based alternative to 12-step. Focuses on self-empowerment, CBT techniques, motivational interviewing. Online and in-person meetings.</p>
+              <p className="text-emerald-200 text-xs mt-1">🌐 smartrecovery.org | 💬 Daily online meetings | 📱 SMART Recovery app</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold">LifeRing Secular Recovery</p>
+              <p>Non-religious, abstinence-based support. "Empower your sober self" approach. Peer-led meetings.</p>
+              <p className="text-emerald-200 text-xs mt-1">🌐 lifering.org | 💬 Online meetings available</p>
+            </div>
+            <div>
+              <p className="text-emerald-300 font-semibold">Women for Sobriety</p>
+              <p>Program specifically for women. 13 statements of acceptance. Focuses on emotional and spiritual growth.</p>
+              <p className="text-emerald-200 text-xs mt-1">🌐 womenforsobriety.org</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Alternative Spiritual Programs */}
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+          <h4 className="font-semibold text-white">Alternative Spiritual Programs</h4>
+          <div className="text-sm text-gray-300 space-y-2">
+            <div>
+              <p className="text-amber-300 font-semibold">Refuge Recovery / Recovery Dharma</p>
+              <p>Buddhist-based recovery program. Mindfulness, meditation, and Buddhist philosophy. Non-theistic approach.</p>
+              <p className="text-amber-200 text-xs mt-1">🌐 recoverydharma.org (merger of Refuge Recovery)</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Online Communities */}
+        <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/10 p-4 space-y-3">
+          <h4 className="font-semibold text-white">💬 Online Communities & Forums</h4>
+          <div className="text-sm text-gray-300 space-y-2">
+            <p className="font-semibold text-cyan-300">Reddit Recovery Communities (Free, Anonymous, 24/7)</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div>
+                <p className="text-cyan-200">• <strong>r/stopdrinking</strong> - 500k+ members, daily check-ins</p>
+                <p className="text-cyan-200">• <strong>r/OpiatesRecovery</strong> - Opioid addiction support</p>
+                <p className="text-cyan-200">• <strong>r/redditorsinrecovery</strong> - All substances</p>
+                <p className="text-cyan-200">• <strong>r/leaves</strong> - Cannabis addiction (200k+ members)</p>
+                <p className="text-cyan-200">• <strong>r/stopsmoking</strong> - Nicotine/tobacco</p>
+              </div>
+              <div>
+                <p className="text-cyan-200">• <strong>r/Stims</strong> - Stimulant recovery resources</p>
+                <p className="text-cyan-200">• <strong>r/benzorecovery</strong> - Benzodiazepine tapering</p>
+                <p className="text-cyan-200">• <strong>r/quittingkratom</strong> - Kratom dependence</p>
+                <p className="text-cyan-200">• <strong>r/alcoholism</strong> - Alcohol support</p>
+                <p className="text-cyan-200">• <strong>r/RecoveryWings</strong> - Peer mentorship</p>
+              </div>
+            </div>
+            
+            <p className="font-semibold text-cyan-300 mt-3">Other Online Resources</p>
+            <div className="space-y-1">
+              <p className="text-cyan-200">• <strong>In The Rooms</strong> (intherooms.com) - Free online 12-step meetings, 24/7, all time zones</p>
+              <p className="text-cyan-200">• <strong>Sober Grid</strong> (app) - Sober social network, 24/7 peer support</p>
+              <p className="text-cyan-200">• <strong>I Am Sober</strong> (app) - Sobriety tracker with community features</p>
+              <p className="text-cyan-200">• <strong>Tempest</strong> (jointempest.com) - Online recovery courses and community</p>
+              <p className="text-cyan-200">• <strong>She Recovers</strong> (sherecovers.org) - Community for women in recovery</p>
+              <p className="text-cyan-200">• <strong>The Phoenix</strong> (thephoenix.org) - Free sober active community (fitness-based)</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Harm Reduction Groups */}
+        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2">
+          <h4 className="font-semibold text-white">Harm Reduction Communities</h4>
+          <p className="text-sm text-gray-300">Support for people actively using or not ready for abstinence:</p>
+          <div className="text-sm text-gray-300 space-y-1">
+            <p>• <strong>Moderation Management</strong> (moderation.org) - Controlled drinking support</p>
+            <p>• <strong>r/HarmReduction</strong> (Reddit) - Safer use strategies and support</p>
+            <p>• <strong>DanceSafe</strong> community forums - Drug checking and safety</p>
+          </div>
+        </div>
+
+        <div className="bg-blue-500/10 border border-blue-500/30 rounded p-3 mt-3">
+          <p className="text-sm text-blue-100">
+            <strong>💡 TIP:</strong> Try multiple groups/programs. What works for one person may not work for another. Many people combine approaches (e.g., MAT + support group, therapy + online community). Recovery is personal - find your path.
+          </p>
         </div>
       </div>
 
