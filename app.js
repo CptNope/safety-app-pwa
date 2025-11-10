@@ -3143,18 +3143,18 @@ function Addiction(){
             <p className="font-semibold text-cyan-300">Reddit Recovery Communities (Free, Anonymous, 24/7)</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div>
-                <p className="text-cyan-200">• <strong>r/stopdrinking</strong> - 500k+ members, daily check-ins</p>
-                <p className="text-cyan-200">• <strong>r/OpiatesRecovery</strong> - Opioid addiction support</p>
-                <p className="text-cyan-200">• <strong>r/redditorsinrecovery</strong> - All substances</p>
-                <p className="text-cyan-200">• <strong>r/leaves</strong> - Cannabis addiction (200k+ members)</p>
-                <p className="text-cyan-200">• <strong>r/stopsmoking</strong> - Nicotine/tobacco</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/stopdrinking" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/stopdrinking</a> - 500k+ members, daily check-ins</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/OpiatesRecovery" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/OpiatesRecovery</a> - Opioid addiction support</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/redditorsinrecovery" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/redditorsinrecovery</a> - All substances</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/leaves" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/leaves</a> - Cannabis addiction (200k+ members)</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/stopsmoking" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/stopsmoking</a> - Nicotine/tobacco</p>
               </div>
               <div>
-                <p className="text-cyan-200">• <strong>r/Stims</strong> - Stimulant recovery resources</p>
-                <p className="text-cyan-200">• <strong>r/benzorecovery</strong> - Benzodiazepine tapering</p>
-                <p className="text-cyan-200">• <strong>r/quittingkratom</strong> - Kratom dependence</p>
-                <p className="text-cyan-200">• <strong>r/alcoholism</strong> - Alcohol support</p>
-                <p className="text-cyan-200">• <strong>r/RecoveryWings</strong> - Peer mentorship</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/Stims" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/Stims</a> - Stimulant recovery resources</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/benzorecovery" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/benzorecovery</a> - Benzodiazepine tapering</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/quittingkratom" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/quittingkratom</a> - Kratom dependence</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/alcoholism" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/alcoholism</a> - Alcohol support</p>
+                <p className="text-cyan-200">• <a href="https://reddit.com/r/RecoveryWings" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline font-bold">r/RecoveryWings</a> - Peer mentorship</p>
               </div>
             </div>
             
@@ -3176,8 +3176,8 @@ function Addiction(){
           <p className="text-sm text-gray-300">Support for people actively using or not ready for abstinence:</p>
           <div className="text-sm text-gray-300 space-y-1">
             <p>• <strong>Moderation Management</strong> (<a href="https://moderation.org" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 underline">moderation.org</a>) - Controlled drinking support</p>
-            <p>• <strong>r/HarmReduction</strong> (Reddit) - Safer use strategies and support</p>
-            <p>• <strong>DanceSafe</strong> community forums - Drug checking and safety</p>
+            <p>• <a href="https://reddit.com/r/HarmReduction" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 underline font-bold">r/HarmReduction</a> (Reddit) - Safer use strategies and support</p>
+            <p>• <a href="https://dancesafe.org" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 underline font-bold">DanceSafe</a> community forums - Drug checking and safety</p>
           </div>
         </div>
 
