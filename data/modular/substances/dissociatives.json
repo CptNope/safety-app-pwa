@@ -1,0 +1,207 @@
+{
+  "Ketamine": {
+    "class": "arylcyclohexylamine (dissociative)",
+    "description": {
+      "overview": "Ketamine is a dissociative anesthetic that causes a sense of detachment from one's body and environment. Known for producing 'k-holes' (profound dissociative states), dream-like experiences, and analgesia. It has a remarkable safety profile compared to other anesthetics and is experiencing a renaissance as a depression treatment.",
+      "origins": "Synthesized in 1962 by Calvin Stevens at Parke-Davis as a safer alternative to PCP for anesthesia. Approved for medical use in 1970. Widely used in Vietnam War as battlefield anesthetic. Became popular in rave/club scenes in the 1990s. Recently FDA-approved as esketamine (Spravato) nasal spray for treatment-resistant depression.",
+      "uses": "Medical: WHO Essential Medicine for anesthesia, especially in emergency/field medicine and pediatrics. Pain management, sedation, and recently for treatment-resistant depression. Veterinary medicine (common horse tranquilizer stereotype). Recreational: Dissociative experiences, psychedelic exploration, club/rave scenes. Therapeutic: Psychedelic-assisted therapy for depression, PTSD, anxiety, and addiction showing promising results.",
+      "dangers": "Bladder damage (ulcerative cystitis) with chronic heavy use—can become severe and irreversible. Respiratory depression when combined with other depressants (alcohol, opioids, benzodiazepines). Risk of injury during dissociation due to impaired coordination and pain perception. Psychological dependence possible. 'K-holes' can be psychologically distressing for unprepared users. Cognitive impairment with chronic use. Often cut with synthetic cathinones or other dissociatives (2-FDCK, DCK). Street ketamine purity highly variable.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ketamine",
+        "erowid": "https://www.erowid.org/chemicals/ketamine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Ketamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Ketamine for treatment-resistant depression: the first decade of progress",
+          "authors": "Newport DJ, et al.",
+          "journal": "The American Journal of Psychiatry",
+          "year": 2015,
+          "doi": "10.1176/appi.ajp.2015.15040465",
+          "summary": "Review of breakthrough ketamine research showing rapid antidepressant effects in treatment-resistant depression"
+        },
+        {
+          "title": "Ketamine-induced ulcerative cystitis: a new clinical entity",
+          "authors": "Shahani R, et al.",
+          "journal": "Urology",
+          "year": 2007,
+          "summary": "First comprehensive report on ketamine-induced bladder damage in chronic recreational users"
+        },
+        {
+          "title": "The use of ketamine as an antidepressant: a systematic review and meta-analysis",
+          "authors": "Marcantoni WS, et al.",
+          "journal": "Annals of Clinical Psychiatry",
+          "year": 2020,
+          "summary": "Meta-analysis confirming ketamine's rapid antidepressant effects and safety profile in clinical settings"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "liquid",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to faint yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→orange-brown"
+      }
+    ],
+    "notes": [
+      "Ketamine shows minimal reaction with most reagents. Specialized tests (Morris) available."
+    ]
+  },
+  "PCP": {
+    "class": "arylcyclohexylamine (dissociative)",
+    "description": {
+      "overview": "Phencyclidine (PCP, angel dust) is a dissociative anesthetic developed in the 1950s but discontinued for human use due to severe psychological side effects. Produces dissociation, numbness, and at high doses, extreme agitation, violence, and psychosis. Notorious for unpredictable and dangerous behavior. Still used in veterinary medicine.",
+      "origins": "Synthesized in 1926, developed as IV anesthetic (Sernyl) by Parke-Davis in 1950s. Human use discontinued in 1965 due to postoperative delirium and psychosis. Veterinary use continued until 1978. Became street drug in 1960s-70s, often misrepresented as THC, mescaline, or LSD. Less popular now than in 1970s-80s 'angel dust' era but still present in drug supply.",
+      "uses": "No current legitimate medical use. Veterinary use discontinued. Illicitly used for dissociative effects, numbness, feeling of strength/invincibility. Sometimes unknowingly consumed when sold as other drugs. Can be smoked (often on mint, parsley), snorted, injected, or taken orally. Effects 4-6 hours (oral/snorted), 30min-1hour (smoked). Doses vary wildly due to illicit production.",
+      "dangers": "Extremely unpredictable and dangerous. Notorious for violent, bizarre, self-destructive behavior. Superhuman strength feeling leads to severe injuries. Numbness prevents pain awareness—users have seriously injured themselves without realizing. Acute: Aggression, psychosis, seizures, hyperthermia, hypertensive crisis, coma, death. Chronic: Memory loss, speech difficulties, depression, suicidal ideation. Psychological addiction common. Horrible withdrawal. Can trigger lasting psychosis. Often found as adulterant in other drugs. Combining with other depressants extremely dangerous.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Phencyclidine",
+        "erowid": "https://www.erowid.org/chemicals/pcp/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/PCP"
+      },
+      "scientific_papers": [
+        {
+          "title": "Phencyclidine (PCP): a dangerous drug, but useful in schizophrenia research",
+          "authors": "Morris BJ, et al.",
+          "journal": "Journal of Psychology & Psychotherapy",
+          "year": 2014,
+          "summary": "Review of PCP's role in NMDA receptor research and schizophrenia models"
+        },
+        {
+          "title": "PCP intoxication: assessment of possible indicators",
+          "authors": "McCarron MM, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 1981,
+          "summary": "Clinical presentation and management of PCP intoxication"
+        },
+        {
+          "title": "Phencyclidine-induced psychosis",
+          "authors": "Allen RM, Young SJ",
+          "journal": "American Journal of Psychiatry",
+          "year": 1978,
+          "summary": "Documentation of PCP-induced psychotic episodes and lasting psychiatric effects"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "liquid",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#808080",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray→blue-gray"
+      }
+    ],
+    "notes": [
+      "PCP shows limited reagent reactions. Often adulterant in other substances."
+    ]
+  },
+  "DXM": {
+    "class": "dissociative (morphinan)",
+    "description": {
+      "overview": "Dextromethorphan (DXM) is an over-the-counter cough suppressant that produces dissociative and hallucinogenic effects at high doses. Found in many cough syrups and cold medications, it's one of the most accessible psychoactive substances. Effects are dose-dependent with distinct 'plateaus' of intensity, from mild euphoria to complete dissociation.",
+      "origins": "Developed in the 1950s-60s as a safer, non-addictive alternative to codeine for cough suppression. FDA-approved and widely available OTC since 1958. Recreational use documented since the 1960s but became more popular in the 1990s-2000s with internet information sharing. Often extracted from cough syrups (cold water extraction) to avoid consuming harmful additives.",
+      "uses": "Medical: Cough suppressant in cold/flu medications (Robitussin, NyQuil, Delsym). Typical therapeutic dose 15-30mg. Recreational: Dissociative effects, 'robo-tripping,' visual distortions, euphoria. Doses range from 100mg (first plateau) to 1500mg+ (fourth plateau, complete dissociation). Popular among teenagers due to legal accessibility. Some report antidepressant effects at low doses.",
+      "dangers": "Serotonin syndrome risk, especially when combined with antidepressants (SSRIs, MAOIs). Respiratory depression at high doses. Nausea and vomiting common ('robo-itch'). Cough syrups contain dangerous additives: acetaminophen (liver damage), guaifenesin (nausea), antihistamines (dangerous combinations). Dissociation can lead to injury from falls or accidents. Tolerance develops rapidly with frequent use. Psychological addiction possible. Chronic abuse linked to brain lesions (Olney's lesions - debated). Some products contain high amounts of acetaminophen which can cause fatal liver failure at recreational DXM doses. Always check active ingredients carefully.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dextromethorphan",
+        "erowid": "https://www.erowid.org/chemicals/dxm/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DXM"
+      },
+      "scientific_papers": [
+        {
+          "title": "Dextromethorphan: an overview of safety issues",
+          "authors": "Schwartz RH",
+          "journal": "Clinical Pediatrics",
+          "year": 2005,
+          "summary": "Review of DXM abuse patterns, toxicity, and risks especially in adolescents"
+        },
+        {
+          "title": "Recreational dextromethorphan use and abuse",
+          "authors": "Miller SC",
+          "journal": "Journal of Substance Abuse Treatment",
+          "year": 2005,
+          "summary": "Clinical overview of DXM's dissociative effects and abuse potential"
+        },
+        {
+          "title": "Serotonin toxicity associated with the use of over-the-counter cough and cold medications",
+          "authors": "LoVecchio F, et al.",
+          "journal": "American Journal of Emergency Medicine",
+          "year": 2005,
+          "summary": "Case reports of serotonin syndrome from DXM combinations with antidepressants"
+        }
+      ]
+    },
+    "forms": [
+      "syrup",
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-orange"
+      }
+    ],
+    "notes": [
+      "Commonly extracted from cough medicine. Reagent tests limited value due to additives."
+    ]
+  }
+}

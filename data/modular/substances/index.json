@@ -1,0 +1,440 @@
+{
+  "version": "2.0.0",
+  "description": "Substance metadata index for search and navigation",
+  "total_substances": 42,
+  "substances": {
+    "MDMA": {
+      "name": "MDMA",
+      "class": "phenethylamine",
+      "category": "other",
+      "forms": [
+        "powder",
+        "crystal",
+        "capsule",
+        "tablet"
+      ],
+      "aliases": []
+    },
+    "LSD": {
+      "name": "LSD",
+      "class": "ergoline (indole)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "gel tab",
+        "liquid"
+      ],
+      "aliases": []
+    },
+    "1P-LSD": {
+      "name": "1P-LSD",
+      "class": "ergoline (indole, lysergamide)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "ALD-52": {
+      "name": "ALD-52",
+      "class": "ergoline (indole, lysergamide)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "AL-LAD": {
+      "name": "AL-LAD",
+      "class": "ergoline (indole, lysergamide)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "ETH-LAD": {
+      "name": "ETH-LAD",
+      "class": "ergoline (indole, lysergamide)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "LSZ": {
+      "name": "LSZ",
+      "class": "ergoline (indole, lysergamide)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "Cocaine": {
+      "name": "Cocaine",
+      "class": "tropane alkaloid",
+      "category": "stimulants",
+      "forms": [
+        "powder",
+        "rock (crack)"
+      ],
+      "aliases": []
+    },
+    "Methamphetamine": {
+      "name": "Methamphetamine",
+      "class": "phenethylamine",
+      "category": "other",
+      "forms": [
+        "crystal",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "MDA": {
+      "name": "MDA",
+      "class": "phenethylamine",
+      "category": "other",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "aliases": []
+    },
+    "Amphetamine": {
+      "name": "Amphetamine",
+      "class": "phenethylamine",
+      "category": "other",
+      "forms": [
+        "powder",
+        "paste",
+        "tablet"
+      ],
+      "aliases": []
+    },
+    "2C-B": {
+      "name": "2C-B",
+      "class": "phenethylamine (psychedelic)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "capsule",
+        "tablet"
+      ],
+      "aliases": []
+    },
+    "Ketamine": {
+      "name": "Ketamine",
+      "class": "arylcyclohexylamine (dissociative)",
+      "category": "dissociatives",
+      "forms": [
+        "powder",
+        "liquid",
+        "crystal"
+      ],
+      "aliases": []
+    },
+    "Psilocybin": {
+      "name": "Psilocybin",
+      "class": "tryptamine (indole)",
+      "category": "psychedelics",
+      "forms": [
+        "mushroom",
+        "powder",
+        "capsule"
+      ],
+      "aliases": []
+    },
+    "Fentanyl": {
+      "name": "Fentanyl",
+      "class": "synthetic opioid",
+      "category": "opioids",
+      "forms": [
+        "powder",
+        "pressed pill",
+        "patch",
+        "adulterant"
+      ],
+      "aliases": []
+    },
+    "Heroin": {
+      "name": "Heroin",
+      "class": "opioid (semi-synthetic)",
+      "category": "opioids",
+      "forms": [
+        "powder",
+        "tar"
+      ],
+      "aliases": []
+    },
+    "DMT": {
+      "name": "DMT",
+      "class": "tryptamine (indole)",
+      "category": "psychedelics",
+      "forms": [
+        "freebase crystal",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "5-MeO-DMT": {
+      "name": "5-MeO-DMT",
+      "class": "tryptamine (indole)",
+      "category": "psychedelics",
+      "forms": [
+        "freebase powder",
+        "crystal"
+      ],
+      "aliases": []
+    },
+    "5-MeO-DiPT": {
+      "name": "5-MeO-DiPT",
+      "class": "tryptamine (indole)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "aliases": []
+    },
+    "2C-T-7": {
+      "name": "2C-T-7",
+      "class": "phenethylamine (psychedelic)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "aliases": []
+    },
+    "DOB": {
+      "name": "DOB",
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "DOC": {
+      "name": "DOC",
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "DOI": {
+      "name": "DOI",
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "DOM": {
+      "name": "DOM",
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "pill",
+        "blotter"
+      ],
+      "aliases": []
+    },
+    "GHB": {
+      "name": "GHB",
+      "class": "depressant (GHB/GBL)",
+      "category": "depressants",
+      "forms": [
+        "liquid",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "PCP": {
+      "name": "PCP",
+      "class": "arylcyclohexylamine (dissociative)",
+      "category": "dissociatives",
+      "forms": [
+        "powder",
+        "liquid",
+        "tablet"
+      ],
+      "aliases": []
+    },
+    "DXM": {
+      "name": "DXM",
+      "class": "dissociative (morphinan)",
+      "category": "dissociatives",
+      "forms": [
+        "syrup",
+        "pill",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Mescaline": {
+      "name": "Mescaline",
+      "class": "phenethylamine (psychedelic)",
+      "category": "psychedelics",
+      "forms": [
+        "powder",
+        "capsule",
+        "cactus"
+      ],
+      "aliases": []
+    },
+    "25I-NBOMe": {
+      "name": "25I-NBOMe",
+      "class": "phenethylamine (NBOMe series)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "25C-NBOMe": {
+      "name": "25C-NBOMe",
+      "class": "phenethylamine (NBOMe series)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "25B-NBOMe": {
+      "name": "25B-NBOMe",
+      "class": "phenethylamine (NBOMe series)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Alprazolam": {
+      "name": "Alprazolam",
+      "class": "benzodiazepine",
+      "category": "depressants",
+      "forms": [
+        "pressed pill",
+        "tablet"
+      ],
+      "aliases": []
+    },
+    "Bromo-DragonFLY": {
+      "name": "Bromo-DragonFLY",
+      "class": "phenethylamine (psychedelic)",
+      "category": "psychedelics",
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Clonazepam": {
+      "name": "Clonazepam",
+      "class": "benzodiazepine",
+      "category": "depressants",
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Diazepam": {
+      "name": "Diazepam",
+      "class": "benzodiazepine",
+      "category": "depressants",
+      "forms": [
+        "tablet",
+        "pill"
+      ],
+      "aliases": []
+    },
+    "Etizolam": {
+      "name": "Etizolam",
+      "class": "thienodiazepine (benzo analogue)",
+      "category": "depressants",
+      "forms": [
+        "pill",
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Flualprazolam": {
+      "name": "Flualprazolam",
+      "class": "benzodiazepine (designer)",
+      "category": "depressants",
+      "forms": [
+        "pressed pill",
+        "blotter",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Phenibut": {
+      "name": "Phenibut",
+      "class": "GABA-B agonist (nootropic)",
+      "category": "depressants",
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "aliases": []
+    },
+    "6-APB": {
+      "name": "6-APB",
+      "class": "benzofuran (entactogen)",
+      "category": "stimulants",
+      "forms": [
+        "powder",
+        "capsule",
+        "pill"
+      ],
+      "aliases": []
+    },
+    "Methylphenidate": {
+      "name": "Methylphenidate",
+      "class": "stimulant (pharmaceutical)",
+      "category": "stimulants",
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Codeine": {
+      "name": "Codeine",
+      "class": "opioid",
+      "category": "opioids",
+      "forms": [
+        "pill",
+        "liquid",
+        "powder"
+      ],
+      "aliases": []
+    },
+    "Kratom": {
+      "name": "Kratom",
+      "class": "opioid agonist (plant alkaloids)",
+      "category": "opioids",
+      "forms": [
+        "powder",
+        "leaf",
+        "capsule"
+      ],
+      "aliases": []
+    }
+  }
+}

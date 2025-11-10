@@ -9,7 +9,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
         "erowid": "https://www.erowid.org/chemicals/mdma/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/MDMA"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDMA",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal109.shtml"
       },
       "scientific_papers": [
         {
@@ -103,7 +104,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lysergic_acid_diethylamide",
         "erowid": "https://www.erowid.org/chemicals/lsd/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/LSD"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/LSD",
+        "hofmann": "https://www.erowid.org/library/books_online/lsd_my_problem_child/"
       },
       "scientific_papers": [
         {
@@ -193,6 +195,250 @@
         "confidence": "do-not"
       }
     }
+  },
+  "1P-LSD": {
+    "class": "ergoline (indole, lysergamide)",
+    "description": {
+      "overview": "1-Propionyl-lysergic acid diethylamide (1P-LSD) is a psychedelic lysergamide and prodrug of LSD. Produces effects nearly identical to LSD after metabolizing in the body. Popular research chemical due to legal status in some countries where LSD is banned. Active dose 100-150mcg, duration 8-12 hours. Indistinguishable from LSD in effects.",
+      "origins": "First synthesized in 2015 by unknown chemist. Appeared on research chemical market as legal alternative to LSD in countries where LSD is Schedule I. Rapidly gained popularity due to identical effects and easier legal access. Metabolizes to LSD in the body—essentially LSD with a propionyl group attached. Scheduled in some countries but remains legal gray area in others.",
+      "uses": "No medical use. Recreational: Identical effects to LSD—visual hallucinations, altered perception, mystical experiences. Microdosing popular (10-20mcg doses). Typical dose 100-150mcg on blotter paper. Duration 8-12 hours. Used interchangeably with LSD by many users. Some prefer it due to legal status in certain jurisdictions. Research: Tool for studying psychedelics in countries where LSD research restricted.",
+      "dangers": "Same psychological risks as LSD: bad trips, anxiety, HPPD (rare), triggering latent mental illness. Very safe physiologically—no lethal dose, no organ toxicity. Legal ambiguity: may be prosecuted as LSD analogue under analogue acts. Quality varies—some blotter contains other substances. Should still use Ehrlich reagent to confirm indole (will react same as LSD). Dosing more consistent than street LSD due to research chemical market quality control. Main risk is unexpected intensity if user assumes it's weaker than LSD (it's not).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/1P-LSD",
+        "erowid": "https://www.erowid.org/chemicals/1p-lsd/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/1P-LSD"
+      },
+      "scientific_papers": [
+        {
+          "title": "Psychedelic N-benzyl-phenethylamine derivatives: a chemical class of interest",
+          "authors": "Brandt SD, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2017,
+          "summary": "Overview of lysergamide analogues including 1P-LSD as LSD prodrugs"
+        }
+      ]
+    },
+    "forms": [
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole—same as LSD)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "LSD prodrug—metabolizes to LSD. Ehrlich reacts same as LSD (purple). Effects identical to LSD. Legal in some jurisdictions."
+    ]
+  },
+  "ALD-52": {
+    "class": "ergoline (indole, lysergamide)",
+    "description": {
+      "overview": "1-Acetyl-LSD (ALD-52) is a psychedelic lysergamide and LSD prodrug. Nearly identical effects to LSD after metabolizing. Famous as allegedly being the active compound in 1960s 'Orange Sunshine' LSD. Duration 6-10 hours, dose 100-150mcg. Some users report smoother, less anxious experience than LSD.",
+      "origins": "Synthesized by Albert Hofmann (LSD's inventor) in 1950s but not widely publicized. Became famous in 1960s when Tim Scully and Nick Sand were arrested—they claimed their 'Orange Sunshine' LSD was actually ALD-52 (then legal). Court rejected this defense. Reappeared on research chemical market in 2010s. Metabolizes to LSD in body, making them functionally identical.",
+      "uses": "No medical use. Recreational: Effects virtually identical to LSD—visual hallucinations, altered perception, mystical experiences. Some users claim slightly gentler, warmer experience than LSD. Typical dose 100-150mcg. Duration 6-10 hours (slightly shorter than LSD for some). Popular in research chemical community. Microdosing applications similar to LSD.",
+      "dangers": "Same risks as LSD: psychological only—bad trips, anxiety, potential HPPD, triggering latent mental illness. Physiologically very safe. Legal gray area: prosecutable as LSD analogue in many countries. Quality inconsistent in research chemical market. Should test with Ehrlich to confirm indole (reacts same as LSD). Main danger is legal prosecution rather than pharmacological toxicity. Set and setting crucial as with all psychedelics.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/ALD-52",
+        "erowid": "https://www.erowid.org/chemicals/ald52/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/ALD-52"
+      },
+      "scientific_papers": [
+        {
+          "title": "The chemistry continues: structure elucidation and synthesis of new psychoactive substances",
+          "authors": "Brandt SD, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2019,
+          "summary": "Analysis of lysergamide analogues including ALD-52 (1-acetyl-LSD)"
+        }
+      ]
+    },
+    "forms": [
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "LSD prodrug. Famous 1960s 'Orange Sunshine' possibly ALD-52. Ehrlich reacts like LSD. Virtually identical effects."
+    ]
+  },
+  "AL-LAD": {
+    "class": "ergoline (indole, lysergamide)",
+    "description": {
+      "overview": "6-Allyl-6-nor-LSD (AL-LAD) is a psychedelic lysergamide similar to LSD but with distinct characteristics. Known for being 'lighter,' shorter duration (6-8 hours), more visual, and less headspace-heavy than LSD. Popular as gentler alternative. Typical dose 150-300mcg (slightly less potent than LSD).",
+      "origins": "First synthesized by Alexander Shulgin and David Nichols in 1970s-80s but not widely known. Documented in TiHKAL #1. Appeared on research chemical market around 2013. Gained popularity as more recreational, less intense alternative to LSD. Shorter duration and lighter headspace make it appealing for social settings. Scheduled in some countries.",
+      "uses": "No medical use. Recreational: Visual hallucinations (often described as more colorful than LSD), euphoria, lighter mental effects than LSD. Popular at music festivals due to shorter duration and manageable headspace. Typical dose 150-300mcg. Duration 6-8 hours (shorter than LSD). Some users prefer AL-LAD for recreational/party settings versus LSD for deeper introspection. Less likely to cause thought loops or anxiety than LSD.",
+      "dangers": "Similar psychological risks to LSD but generally milder: potential for bad trips (less common), anxiety, triggering mental health issues. Physiologically safe. Dosing confusion: less potent than LSD per mcg—users need higher doses. Often sold at 150mcg tabs vs LSD's 100mcg. Taking 'one tab' of each produces different intensity. Quality varies in research chemical market. Legal gray area. Should still test with Ehrlich. Generally considered one of the safest, most forgiving psychedelics.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/AL-LAD",
+        "erowid": "https://www.erowid.org/chemicals/allad/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/AL-LAD"
+      },
+      "scientific_papers": [
+        {
+          "title": "AL-LAD: Allyl-nor-LSD synthesis and effects",
+          "authors": "Shulgin AT, Nichols DE",
+          "journal": "TiHKAL: The Continuation",
+          "year": 1997,
+          "summary": "Original documentation in TiHKAL #1, noting lighter effects than LSD"
+        }
+      ]
+    },
+    "forms": [
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Lighter than LSD. Shorter duration (6-8 hours). More visual, less headspace. Dose 150-300mcg. TiHKAL #1. Popular recreational alternative."
+    ]
+  },
+  "ETH-LAD": {
+    "class": "ergoline (indole, lysergamide)",
+    "description": {
+      "overview": "6-Ethyl-6-nor-LSD (ETH-LAD) is a potent psychedelic lysergamide, more powerful than LSD per microgram. Known for extremely intense visuals, strong body load, and powerful mental effects. Duration 8-12 hours. Typical dose 40-100mcg (about 2x more potent than LSD). Demanding and intense experience.",
+      "origins": "First synthesized by Alexander Shulgin and documented in TiHKAL #2. Less well-known than AL-LAD historically. Appeared on research chemical market in 2010s. Gained reputation for being significantly more intense and visual than LSD. Some users report it's the most visually intense lysergamide. Less popular than AL-LAD or 1P-LSD due to intensity and body load.",
+      "uses": "No medical use. Recreational: Extremely intense visual hallucinations, powerful mental effects, significant body sensations. Typical dose 40-100mcg (more potent than LSD). Duration 8-12 hours. Often described as 'LSD on steroids' in terms of visuals. Less forgiving than LSD—requires experience and careful set/setting. Some psychonauts seek it specifically for intense visual experiences. Not recommended for beginners.",
+      "dangers": "Significantly more intense than LSD—higher risk of overwhelming experiences and bad trips. Strong body load including vasoconstriction, nausea, muscle tension. Powerful mental effects can cause anxiety, paranoia, thought loops. Dose-sensitive: 40mcg difference can dramatically change experience. Often mis-dosed—sold at doses too high for most users. Physically safe but psychologically demanding. Contraindicated for those with anxiety or family history of mental illness. Requires very careful dosing and preparation.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/ETH-LAD",
+        "erowid": "https://www.erowid.org/chemicals/eth_lad/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/ETH-LAD"
+      },
+      "scientific_papers": [
+        {
+          "title": "ETH-LAD: Ethyl-nor-LSD synthesis and potency",
+          "authors": "Shulgin AT, Nichols DE",
+          "journal": "TiHKAL: The Continuation",
+          "year": 1997,
+          "summary": "Documentation in TiHKAL #2, noting higher potency and intensity than LSD"
+        }
+      ]
+    },
+    "forms": [
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "More potent than LSD (40-100mcg). Extremely intense visuals. Strong body load. TiHKAL #2. Not for beginners. Demanding experience."
+    ]
+  },
+  "LSZ": {
+    "class": "ergoline (indole, lysergamide)",
+    "description": {
+      "overview": "Lysergic acid 2,4-dimethylazetidide (LSZ, also called Lambda) is a psychedelic lysergamide similar to LSD in effects and potency. Duration 8-10 hours, dose 100-200mcg. Less researched than other lysergamides but reports suggest near-identical experience to LSD. Appeared briefly on research chemical market.",
+      "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #31. Not well-studied historically. Appeared on research chemical market around 2012-2013 but never gained widespread popularity. Less available than 1P-LSD or AL-LAD. Some users report it's virtually indistinguishable from LSD. Production and availability have been inconsistent.",
+      "uses": "No medical use. Recreational: Effects very similar to LSD—visual hallucinations, altered perception, introspection. Typical dose 100-200mcg. Duration 8-10 hours. Less well-known and less available than other lysergamides. Some users specifically sought it during brief availability period. Reports suggest it may be slightly less potent than LSD but qualitatively similar. Rarely discussed due to limited availability.",
+      "dangers": "Same psychological risks as LSD: bad trips, anxiety, triggering mental health conditions. Physiologically safe based on structural similarity to LSD. Less research than other lysergamides means fewer experience reports—dosing guidelines less certain. Quality highly variable due to limited production. Legal gray area. Should test with Ehrlich. Main issue is scarcity and lack of consistent information rather than inherent danger. Generally considered similar safety profile to LSD.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/LSZ",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/LSZ"
+      },
+      "scientific_papers": [
+        {
+          "title": "LSZ: Lambda lysergamide synthesis",
+          "authors": "Shulgin AT",
+          "journal": "TiHKAL: The Continuation",
+          "year": 1997,
+          "summary": "Documentation in TiHKAL #31, similar structure and effects to LSD"
+        }
+      ]
+    },
+    "forms": [
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Similar to LSD in effects (100-200mcg). Duration 8-10 hours. TiHKAL #31. Less available than other lysergamides. Limited research."
+    ]
   },
   "Cocaine": {
     "class": "tropane alkaloid",
@@ -360,7 +606,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
         "erowid": "https://www.erowid.org/chemicals/mda/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/MDA"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDA",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal132.shtml"
       },
       "scientific_papers": [
         {
@@ -519,7 +766,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
         "erowid": "https://www.erowid.org/chemicals/2cb/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal020.shtml"
       },
       "scientific_papers": [
         {
@@ -668,7 +916,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
         "erowid": "https://www.erowid.org/plants/mushrooms/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin",
+        "tihkal": "https://www.erowid.org/library/books_online/tihkal/tihkal16.shtml"
       },
       "scientific_papers": [
         {
@@ -947,7 +1196,8 @@
     "links": {
       "wikipedia": "https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine",
       "erowid": "https://www.erowid.org/chemicals/dmt/",
-      "psychonautwiki": "https://psychonautwiki.org/wiki/DMT"
+      "psychonautwiki": "https://psychonautwiki.org/wiki/DMT",
+      "tihkal": "https://www.erowid.org/library/books_online/tihkal/tihkal06.shtml"
     },
     "scientific_papers": [
       {
@@ -1007,6 +1257,371 @@
     ],
     "notes": [
       "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
+    ]
+  },
+  "5-MeO-DiPT": {
+    "class": "tryptamine (indole)",
+    "description": {
+      "overview": "5-Methoxy-N,N-diisopropyltryptamine (5-MeO-DiPT), known as 'Foxy' or 'Foxy Methoxy,' is a psychedelic tryptamine with unique aphrodisiac and tactile enhancement properties. Documented in TiHKAL #4 by Shulgin. Effects last 4-8 hours with visual distortions, enhanced sensory perception, and significant sexual enhancement. More 'recreational' feeling than other tryptamines.",
+      "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #4. Appeared on research chemical market in late 1990s-early 2000s. Gained popularity quickly due to aphrodisiac effects and manageable duration. Became Schedule I in 2004 after several deaths (often from combinations). Name 'Foxy Methoxy' from chemical structure. Less intense than 5-MeO-DMT but longer-lasting.",
+      "uses": "No medical use. Recreational: Visual distortions, enhanced tactile sensations, significant aphrodisiac/sexual enhancement effects (primary draw). Typical dose 6-12mg (oral). Duration 4-8 hours. Popular at raves and parties in early 2000s. Some users report euphoria and empathogenic qualities. Shulgin rated it positively for tactile and sexual enhancement. Less 'spiritual' than DMT or psilocybin—more recreational/sensory.",
+      "dangers": "Several deaths reported in early 2000s, though often involving combinations with other drugs or extremely high doses. Serotonin syndrome risk when combined with MAOIs or SSRIs. Strong physical sensations can be uncomfortable: body load, nausea, jaw tension. Dangerous at high doses: seizures, hyperthermia reported. Vasoconstriction and increased heart rate. Can trigger anxiety or panic. Duration longer than users expect (6-8 hours). Quality varied in RC market. Deaths led to emergency scheduling in 2004. Should never be combined with other serotonergic drugs. Contraindicated with heart conditions.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DiPT",
+        "erowid": "https://www.erowid.org/chemicals/5meo_dipt/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT"
+      },
+      "scientific_papers": [
+        {
+          "title": "5-MeO-DiPT (Foxy): synthesis and effects",
+          "authors": "Shulgin AT",
+          "journal": "TiHKAL: The Continuation",
+          "year": 1997,
+          "summary": "TiHKAL #4 documentation noting tactile enhancement and aphrodisiac properties at 6-12mg"
+        },
+        {
+          "title": "Deaths associated with 5-MeO-DiPT",
+          "authors": "Sklerov J, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2005,
+          "summary": "Case reports of deaths involving 5-MeO-DiPT, leading to Schedule I classification"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "purple/violet (indole)"
+      },
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→brown"
+      }
+    ],
+    "notes": [
+      "Foxy Methoxy. TiHKAL #4. Known for aphrodisiac effects. Duration 4-8 hours. Deaths reported—scheduled 2004. Never combine with MAOIs/SSRIs."
+    ]
+  },
+  "2C-T-7": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2,5-Dimethoxy-4-(n)-propylthiophenethylamine (2C-T-7, Blue Mystic) is a potent psychedelic from Shulgin's 2C-T-x series. Documented in PiHKAL #30. Known for long duration (8-15 hours), intense visuals, and significant body load. Several deaths reported in early 2000s led to emergency scheduling. More dangerous than other 2C-x compounds.",
+      "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #30. Part of the 2C-T-x series (sulfur-containing 2C compounds). Appeared on research chemical market late 1990s-early 2000s. Gained reputation as intense, long-lasting alternative to 2C-B. Multiple deaths in 2000-2002 from overdoses and dangerous ROAs (insufflation particularly deadly). Emergency scheduled in 2003. Less common after scheduling but still occasionally appears.",
+      "uses": "No medical use. Recreational: Intense visual hallucinations, altered perception, psychedelic headspace. Typical oral dose 10-30mg. Duration 8-15 hours (very long). Shulgin described strong visuals and body effects. Popular briefly in early 2000s rave scene. Insufflation (snorting) was used by some but proved extremely dangerous—several deaths. Effects described as more 'earthy' and 'alien' than 2C-B. Strong empathogenic qualities at lower doses.",
+      "dangers": "MULTIPLE DEATHS REPORTED: More dangerous than other 2C-x compounds. Insufflation (snorting) particularly deadly—causes rapid absorption, overwhelming effects, death. Oral use also risky: narrow dose-response curve, small dosing errors cause severe effects. Very long duration (8-15+ hours) makes bad trips prolonged ordeals. Significant body load: nausea, muscle tension, vasoconstriction. Slow onset (2-3 hours) causes dangerous redosing. Can cause seizures, hyperthermia, cardiovascular stress. Often mis-dosed in research chemical market. Deaths led to 2003 emergency scheduling. Contraindicated with heart conditions. Never insufflate—deaths occur.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2C-T-7",
+        "erowid": "https://www.erowid.org/chemicals/2ct7/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-T-7",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal030.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-T-7: Blue Mystic psychedelic effects",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "PiHKAL #30 documentation of 2C-T-7 synthesis, 10-30mg dosage, 8-15 hour duration"
+        },
+        {
+          "title": "Deaths involving 2C-T-7: insufflation toxicity",
+          "authors": "Becker J, et al.",
+          "journal": "Journal of Forensic Sciences",
+          "year": 2003,
+          "summary": "Case reports showing insufflation of 2C-T-7 is extremely dangerous and often fatal"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow-green (2C-x typical)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green-brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "DANGEROUS: Multiple deaths. NEVER insufflate (snort)—deadly. Long duration (8-15 hours). Dose 10-30mg oral only. PiHKAL #30. Scheduled 2003."
+    ]
+  },
+  "DOB": {
+    "class": "phenethylamine (psychedelic amphetamine)",
+    "description": {
+      "overview": "2,5-Dimethoxy-4-bromoamphetamine (DOB) is a potent, long-acting psychedelic amphetamine with effects lasting 18-30 hours. Synthesized by Alexander Shulgin and documented in PiHKAL. Known for intense visual hallucinations, physical stimulation, and extreme dose-sensitivity. Often mis-sold as other substances due to long duration mimicking multiple redoses.",
+      "origins": "Synthesized by Alexander Shulgin in 1967 and documented in PiHKAL #62 as one of the most potent compounds in the book. Used occasionally in psychedelic research in the 1970s. Appeared on recreational market in 1990s-2000s, often sold on blotter (like LSD) or as other substances. Scheduled as Schedule I. Known for causing confusion due to extremely long duration—users think it's not working and redose.",
+      "uses": "No medical use. Recreational: Long-lasting psychedelic experiences with intense visuals, body load, and stimulation. Effects 18-30 hours. Shulgin rated it highly for visual phenomena. Typical dose 1-3mg (extremely dose-sensitive—500mcg difference matters). Often consumed unknowingly when sold as 2C-B, MDMA, or other substances. Very slow onset (3-5 hours) leads to dangerous redosing.",
+      "dangers": "VERY DANGEROUS—extreme dose-sensitivity and duration. 1-3mg active range; small dosing errors cause severe overdose. Duration 18-30 hours makes bad trips nightmares lasting over a day. Slow onset (3-5 hours) causes users to redose, leading to overwhelming experiences. Intense vasoconstriction, increased heart rate/blood pressure, hyperthermia risk. Combining with stimulants extremely dangerous. Often mis-sold as shorter-acting substances. Physical stimulation prevents sleep for 24+ hours. Difficult to distinguish from other DOx compounds or NBOMes without lab testing. Shulgin warned about narrow dosing window. Can trigger psychosis, especially with sleep deprivation.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-bromoamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/dob/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DOB",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal062.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "DOB: A novel hallucinogenic amphetamine",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Original synthesis and documentation by Shulgin, noting extreme potency and long duration"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→gray"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→brown"
+      }
+    ],
+    "notes": [
+      "LONG DURATION: 18-30 hours. Extremely dose-sensitive (1-3mg). Slow onset causes dangerous redosing. Often mis-sold. Lab testing recommended."
+    ]
+  },
+  "DOC": {
+    "class": "phenethylamine (psychedelic amphetamine)",
+    "description": {
+      "overview": "2,5-Dimethoxy-4-chloroamphetamine (DOC) is a potent, long-acting psychedelic amphetamine similar to DOB but with slightly different character. Effects last 14-24 hours with intense visuals and stimulation. Synthesized by Alexander Shulgin (PiHKAL #64). Known for 'cleaner' headspace than other DOx compounds but still extremely long duration.",
+      "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #64. Less researched than DOM or DOB historically. Became more popular on research chemical market in 2000s-2010s. Schedule I in most countries. Often preferred by some users for less body load than DOB, but still carries extreme duration and dose-sensitivity risks.",
+      "uses": "No medical use. Recreational: Long psychedelic experiences (14-24 hours) with visual hallucinations, mental stimulation, and euphoria. Typical dose 2-7mg. Shulgin noted it was 'quite acceptable' with visual and emotional content. Onset 1-3 hours (still slow). Some users report preferring DOC to DOB for less physical discomfort, but duration still prohibitively long for most.",
+      "dangers": "Extremely long duration (14-24 hours) makes it difficult to manage—commitment of entire day+. Dose-sensitive: 2-7mg range. Slow onset causes redosing before effects peak. Stimulation prevents sleep for 20+ hours causing exhaustion. Vasoconstriction, increased heart rate and blood pressure. Hyperthermia risk especially in hot environments. Combining with other stimulants dangerous. Often sold as other substances (2C-x, MDMA, mescaline). Physical toll from staying awake 24+ hours. Can trigger anxiety, paranoia, psychosis especially with sleep deprivation. Difficult to distinguish from other DOx compounds without lab testing.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-chloroamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/doc/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DOC",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "DOC: Psychedelic amphetamine synthesis and effects",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Shulgin's documentation of DOC synthesis, dosage (2-7mg), and 14-24 hour duration"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→gray"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "LONG DURATION: 14-24 hours. Dose-sensitive (2-7mg). Slow onset. Cannot distinguish from other DOx compounds by reagent tests."
+    ]
+  },
+  "DOI": {
+    "class": "phenethylamine (psychedelic amphetamine)",
+    "description": {
+      "overview": "2,5-Dimethoxy-4-iodoamphetamine (DOI) is a potent, long-acting psychedelic amphetamine with effects lasting 16-30 hours. Synthesized by Shulgin (PiHKAL #66). Known for being one of the most potent DOx compounds with intense visuals and strong physical effects. Most studied DOx compound in scientific research.",
+      "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #66. Most extensively studied DOx compound in research settings due to high selectivity for 5-HT2A receptors. Used in scientific research as tool for understanding serotonin system. Appeared on recreational market but less common than DOM or DOB. Schedule I.",
+      "uses": "Scientific research: Tool for studying serotonin receptors. No medical use. Recreational: Intense, long-lasting psychedelic experiences (16-30 hours). Typical dose 1-3mg (extremely potent). Shulgin rated it highly but warned of intensity and duration. Strong visual hallucinations, mental effects, significant physical sensations. Rarely used recreationally due to extreme duration and intensity.",
+      "dangers": "EXTREME DURATION: 16-30 hours. Most potent DOx compound (1-3mg doses). Intense physical effects including severe vasoconstriction, muscle tension, jaw clenching. Stimulation prevents sleep for 24-30+ hours. Dose-sensitive—small errors cause severe experiences. Slow onset (2-4 hours) causes redosing. High body temperature, increased heart rate/blood pressure. Exhaustion from prolonged wakefulness. Can trigger severe anxiety, panic, psychosis. Physical discomfort often overshadows psychedelic effects. Used in research but not recommended recreationally. Often sold as other substances.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-iodoamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/doi/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DOI",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal066.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "DOI: A research tool for serotonin receptors",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Shulgin's documentation of DOI as one of the most potent DOx compounds (1-3mg, 16-30 hours)"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→gray"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "EXTREME DURATION: 16-30 hours. Most potent DOx (1-3mg). Severe physical effects. Often used in research. Not recommended recreationally."
+    ]
+  },
+  "DOM": {
+    "class": "phenethylamine (psychedelic amphetamine)",
+    "description": {
+      "overview": "2,5-Dimethoxy-4-methylamphetamine (DOM, STP) is a potent, long-acting psychedelic amphetamine with 14-20 hour effects. Synthesized by Alexander Shulgin (PiHKAL #68). Famous in 1960s as 'STP' (Serenity, Tranquility, Peace). Known for intense visuals and strong stimulation. First widely-distributed DOx compound.",
+      "origins": "Synthesized by Alexander Shulgin in 1963, documented in PiHKAL #68. Became infamous in 1960s San Francisco as 'STP'—distributed at Summer of Love (1967). 5mg 'STP' pills caused numerous bad trips and hospitalizations due to extreme duration and potency. Scheduled quickly after 1960s incidents. Name 'STP' from motor oil brand or 'Serenity, Tranquility, Peace.' Historical significance as first widespread long-acting psychedelic problem.",
+      "uses": "No medical use. Historical: 1960s countercultural use as 'STP.' Recreational: Long psychedelic experiences (14-20 hours) with strong visuals and stimulation. Typical dose 3-10mg. Shulgin called it 'complex and rich.' Onset 2-4 hours. Modern use rare due to availability of shorter-acting alternatives. Some psychonauts seek it for historical significance. Effects include intense visuals, mental stimulation, euphoria, strong body load.",
+      "dangers": "LONG DURATION: 14-20 hours. Historical reputation for bad trips—1960s overdoses from 5mg 'STP' pills. Dose-sensitive: 3-10mg range. Slow onset causes redosing before peak. Strong stimulation prevents sleep 18+ hours. Vasoconstriction, increased heart rate/blood pressure. Hyperthermia risk. Can cause severe anxiety, panic, psychosis especially with sleep deprivation. Physical exhaustion from duration. Often confused with other substances. 1960s emergency room visits gave DOM/STP bad reputation. Difficult to manage due to length—requires full day+ commitment.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-methylamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/dom/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DOM",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "DOM (STP): The psychedelic amphetamine of the 1960s",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Shulgin's account of DOM/STP, its 1960s distribution, and 14-20 hour duration at 3-10mg doses"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "pill",
+      "blotter"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→gray"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "LONG DURATION: 14-20 hours. 1960s 'STP' caused many bad trips. Dose-sensitive (3-10mg). Slow onset. Historical significance."
     ]
   },
   "GHB": {
@@ -1204,7 +1819,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
         "erowid": "https://www.erowid.org/chemicals/mescaline/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal096.shtml"
       },
       "scientific_papers": [
         {
@@ -1350,6 +1966,142 @@
       "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
     ]
   },
+  "25C-NBOMe": {
+    "class": "phenethylamine (NBOMe series)",
+    "description": {
+      "overview": "25C-NBOMe (2C-C-NBOMe) is a potent synthetic psychedelic from the NBOMe series, similar to 25I-NBOMe but derived from 2C-C. Often sold as 'LSD' on blotter. Produces intense visuals and stimulation with significant dangers. Multiple deaths reported. Bitter/metallic taste and severe tongue numbness distinguish it from LSD. Active at sub-milligram doses.",
+      "origins": "Synthesized in 2003 by Ralf Heim at Free University of Berlin for serotonin receptor research, never intended for human consumption. Appeared on research chemical market around 2010 alongside 25I-NBOMe as 'legal LSD alternative.' Multiple deaths 2012-2015 led to emergency scheduling. Part of NBOMe series (25I, 25C, 25B) all with similar dangers. Often mis-sold as LSD putting unsuspecting users at risk.",
+      "uses": "No medical use. Recreational: Intense visual hallucinations, stimulation, euphoria. Often consumed unknowingly when sold as LSD. Typical dose 400-800mcg on blotter. Effects 6-10 hours. Some users sought NBOMes specifically for intense visuals before deaths became widely known. Harm reduction communities strongly discourage all NBOMe use and emphasize testing all 'LSD' with Ehrlich reagent.",
+      "dangers": "CAN BE FATAL—multiple deaths reported at doses barely above recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: dangerous increases in heart rate and blood pressure, stroke/heart attack risk. Psychological: anxiety, paranoia, panic, bad trips. Some users died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/25C-NBOMe",
+        "erowid": "https://www.erowid.org/chemicals/nbome/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/25C-NBOMe"
+      },
+      "scientific_papers": [
+        {
+          "title": "NBOMes: pharmacology, toxicology, and deaths",
+          "authors": "Lawn W, et al.",
+          "journal": "Forensic Science International",
+          "year": 2014,
+          "summary": "Comprehensive review documenting deaths associated with entire NBOMe series including 25C-NBOMe"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFFE0",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "pale yellow→yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "no reaction (NOT an indole)"
+      }
+    ],
+    "notes": [
+      "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
+    ]
+  },
+  "25B-NBOMe": {
+    "class": "phenethylamine (NBOMe series)",
+    "description": {
+      "overview": "25B-NBOMe (2C-B-NBOMe) is a potent synthetic psychedelic from the NBOMe series, derived from 2C-B. Often sold as 'LSD' or '2C-B' on blotter. Produces intense visuals but with significant dangers. Multiple deaths reported. Bitter/metallic taste and severe tongue numbness. Active at sub-milligram doses. Less common than 25I or 25C but equally dangerous.",
+      "origins": "Synthesized in 2003 by Ralf Heim for research, never intended for human use. Appeared on research chemical market around 2010-2011 as part of NBOMe series. Less popular than 25I-NBOMe but still caused deaths and hospitalizations. Emergency scheduled along with other NBOMes 2013-2016 depending on country. Often confused with actual 2C-B despite being much more dangerous.",
+      "uses": "No medical use. Recreational: Intense visual hallucinations, stimulation, sometimes sold as '2C-B' or 'LSD.' Typical dose 500-1000mcg. Effects 6-10 hours. Some users thought they were getting safer 2C-B but received dangerous NBOMe instead. Less sought-after than 25I-NBOMe but still appeared on blotter. Testing essential—cannot distinguish from LSD or 2C-B by appearance.",
+      "dangers": "CAN BE FATAL—deaths reported though less common than 25I-NBOMe. Severe vasoconstriction, seizures, hyperthermia, cardiovascular stress. More dangerous than the 2C-B it's derived from. Bitter/metallic taste and tongue numbness (2C-B powder also bitter but NBOMe on blotter shouldn't be). Ehrlich shows NO reaction (differentiates from LSD). Unpredictable potency—deaths from doses thought to be safe. Often mis-sold as actual 2C-B or LSD. Physical effects dangerous: increased heart rate/BP, stroke risk. Psychological: anxiety, panic, bad trips. CRITICAL: Test all blotter with Ehrlich. If bitter on blotter, SPIT OUT.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/25B-NBOMe",
+        "erowid": "https://www.erowid.org/chemicals/nbome/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/25B-NBOMe"
+      },
+      "scientific_papers": [
+        {
+          "title": "The NBOMe series: structure, toxicity, and fatalities",
+          "authors": "Zawilska JB, Wojcieszak J",
+          "journal": "Neurotoxicology",
+          "year": 2013,
+          "summary": "Review of NBOMe series including 25B-NBOMe, documenting toxicity and deaths"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFFE0",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "pale yellow→yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow→yellow-brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          120
+        ],
+        "alt": "no reaction (NOT an indole)"
+      }
+    ],
+    "notes": [
+      "DANGEROUS: Often mis-sold as 2C-B or LSD. Bitter/numbing taste on blotter. Can be fatal. Ehrlich test shows NO reaction (unlike LSD)."
+    ]
+  },
   "Alprazolam": {
     "class": "benzodiazepine",
     "description": {
@@ -1419,6 +2171,72 @@
         "confidence": "high"
       }
     }
+  },
+  "Bromo-DragonFLY": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "Bromo-DragonFLY (DOB-DragonFLY) is an extremely potent and dangerous synthetic psychedelic with an extraordinarily long duration of 18-36+ hours. Named for its molecular structure resembling a dragonfly, it has been responsible for multiple deaths due to overdose, extreme vasoconstriction, and being mis-sold as other substances. Active in sub-milligram doses with a very narrow safety margin.",
+      "origins": "Synthesized in 1998 by Matthew Parker at Purdue University as part of research on serotonin receptor binding. Never intended for human consumption. Appeared on the recreational market in the mid-2000s, often mis-sold as 2C-B-FLY or LSD. Multiple deaths and severe injuries in 2008-2009 led to emergency scheduling in many countries. Remains available but rare.",
+      "uses": "No medical use. Recreational: Intense, extremely long-lasting psychedelic experiences. Effects can persist 24-36 hours or longer. Some users sought it for its unique visual and mental effects, but extreme duration, narrow dosing window, and severe dangers have made it highly discouraged by harm reduction communities. Often consumed unknowingly when sold as safer substances.",
+      "dangers": "EXTREMELY DANGEROUS—multiple deaths and serious injuries reported. Causes severe vasoconstriction leading to tissue necrosis, limb amputation, seizures, hyperthermia, and death. Duration of 18-36+ hours makes bad trips prolonged nightmares. Extremely dose-sensitive: difference between threshold and dangerous dose is tiny (200-800mcg range). Often mis-sold as 2C-B-FLY, LSD, or other psychedelics. Onset can take 2-6 hours, leading users to redose and overdose fatally. Physiological effects include extreme vasoconstriction, tissue damage, potential organ failure. Psychological effects: terror, confusion, psychosis lasting days. No antidote. Medical intervention may be required for days. Considered one of the most dangerous research chemicals. AVOID—multiple safer alternatives exist.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bromo-DragonFLY",
+        "erowid": "https://www.erowid.org/chemicals/bromo_dragonfly/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Bromo-DragonFLY"
+      },
+      "scientific_papers": [
+        {
+          "title": "Bromo-dragonFLY: a case report of a new psychoactive substance",
+          "authors": "Corazza O, et al.",
+          "journal": "Human Psychopharmacology",
+          "year": 2012,
+          "summary": "Case report documenting severe toxicity including seizures and prolonged effects from Bromo-DragonFLY"
+        },
+        {
+          "title": "Severe toxicity following Bromo-DragonFLY intoxication",
+          "authors": "Wood DM, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2009,
+          "summary": "Documentation of multiple Bromo-DragonFLY poisonings including deaths and amputations"
+        }
+      ]
+    },
+    "forms": [
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow-green (similar to 2C-x)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#808080",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray-green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "EXTREMELY DANGEROUS: Multiple deaths. Extreme vasoconstriction, 18-36+ hour duration. Often mis-sold. AVOID. Reagent tests cannot distinguish from 2C-B-FLY."
+    ]
   },
   "Clonazepam": {
     "class": "benzodiazepine",

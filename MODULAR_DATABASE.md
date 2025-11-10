@@ -89,7 +89,14 @@ const myths = await dataLoader.loadModule('myths');
 | Module | Size | Lines | Contains |
 |--------|------|-------|----------|
 | **reagents.json** | 12.6 KB | ~140 | Reagent definitions (Marquis, Mecke, Mandelin, Simon's, Ehrlich, Hofmann) with origins, usage, strengths, weaknesses |
-| **substances.json** | 107 KB | ~1900 | 100+ substance entries with testing data, scientific papers, safety notes |
+| **substances/** | 162 KB | ~2900 | 42 substance entries split into 6 categories (psychedelics, stimulants, depressants, opioids, dissociatives, other) with index for search |
+| **substances/index.json** | 9.3 KB | ~110 | Searchable metadata for all substances (name, class, category, forms) |
+| **substances/psychedelics.json** | 73.3 KB | ~1300 | 21 psychedelics (LSD + analogues, psilocybin, DMT, 2C-x, DOx, NBOMes, etc.) |
+| **substances/depressants.json** | 25.3 KB | ~460 | 7 depressants (benzodiazepines, GHB, phenibut) |
+| **substances/stimulants.json** | 11.3 KB | ~200 | 3 stimulants (cocaine, MDMA, MDA) |
+| **substances/opioids.json** | 16.7 KB | ~310 | 4 opioids (heroin, fentanyl, carfentanil, kratom) |
+| **substances/dissociatives.json** | 11.1 KB | ~200 | 3 dissociatives (ketamine, PCP, DXM) |
+| **substances/other.json** | 15.0 KB | ~270 | 4 other substances (cannabis, nitrous oxide, etc.) |
 | **id_guide.json** | 12.5 KB | ~230 | Visual identification guides for 10 form types (blotter, pills, powders, crystals) |
 | **methods.json** | 18.8 KB | ~450 | Testing methods (reagent testing, fentanyl strips, UV testing, lab testing) |
 | **vendors.json** | 7.2 KB | ~140 | Trusted suppliers by region (USA, EU, International) |
@@ -122,21 +129,33 @@ function MyComponent() {
 }
 ```
 
-#### **Option 2: Load Multiple Modules**
+#### **Option 2: Load Substance Categories**
+
+```javascript
+// Load only psychedelics (73 KB vs 162 KB all)
+const psychedelics = await dataLoader.loadModule('substances/psychedelics.json');
+
+// Or search via index first (9 KB)
+const index = await dataLoader.loadModule('substances/index.json');
+const mdmaCategory = index.substances.MDMA.category; // 'stimulants'
+const stimulants = await dataLoader.loadModule(`substances/${mdmaCategory}.json`);
+```
+
+#### **Option 3: Load Multiple Modules**
 
 ```javascript
 async function loadData() {
-  const [reagents, substances, myths] = await dataLoader.loadModules([
+  const [reagents, psychedelics, myths] = await dataLoader.loadModules([
     'reagents',
-    'substances',
+    'substances/psychedelics',
     'myths'
   ]);
   
-  console.log('Loaded:', { reagents, substances, myths });
+  console.log('Loaded:', { reagents, psychedelics, myths });
 }
 ```
 
-#### **Option 3: Backward Compatible (Loads All)**
+#### **Option 4: Backward Compatible (Loads All)**
 
 ```javascript
 function App() {
@@ -186,11 +205,13 @@ python scripts/split_database.py
 
 | Metric | Monolithic | Modular | Improvement |
 |--------|-----------|---------|-------------|
-| **Initial Load** | 249.9 KB | 12.7 KB (critical only) | **🚀 95% faster** |
-| **Memory Usage** | 249.9 KB | ~50 KB (typical) | **💾 80% less** |
+| **Initial Load** | 299 KB | 12.7 KB (critical only) | **🚀 96% faster** |
+| **Memory Usage** | 299 KB | ~50 KB (typical) | **💾 83% less** |
+| **View LSD Details** | Loads all 299 KB | Loads psychedelics 73 KB + index 9 KB = 82 KB | **⚡ 73% less data** |
+| **Search Substances** | Loads all 299 KB | Loads index only 9 KB | **⚡ 97% less data** |
 | **Edit Safety** | High risk | Low risk | **✅ Isolated changes** |
 | **Git Conflicts** | Common | Rare | **👥 Better collaboration** |
-| **Loading Myths Tab** | Loads all 249.9 KB | Loads 34.8 KB | **⚡ 86% less data** |
+| **Loading Myths Tab** | Loads all 299 KB | Loads 34.8 KB | **⚡ 88% less data** |
 
 ## 🔮 Future Enhancements
 
@@ -318,11 +339,18 @@ When adding new data:
 
 ## 📊 Statistics
 
-- **Original file**: 4787 lines, 249.9 KB
-- **Modular files**: 10 modules, 244.6 KB total
-- **Largest module**: `substances.json` (107.0 KB)
+- **Original file**: 5471 lines, 299.0 KB
+- **Modular files**: 15 modules (10 base + 6 substance categories), 290.1 KB total
+- **Largest module**: `substances/psychedelics.json` (73.3 KB) - 21 substances
 - **Smallest module**: `config.json` (0.1 KB)
-- **Average module**: 24.5 KB
+- **Average substance category**: 25.5 KB
+- **Substance breakdown**:
+  - Psychedelics: 21 (50% of database)
+  - Depressants: 7 (17%)
+  - Opioids: 4 (10%)
+  - Other: 4 (10%)
+  - Stimulants: 3 (7%)
+  - Dissociatives: 3 (7%)
 
 ---
 

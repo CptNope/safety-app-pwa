@@ -1,0 +1,214 @@
+{
+  "Cocaine": {
+    "class": "tropane alkaloid",
+    "description": {
+      "overview": "Cocaine is a powerful stimulant drug extracted from coca plant leaves, producing intense euphoria, increased energy, and heightened alertness. One of the most addictive substances known, cocaine has profound effects on the brain's reward system and cardiovascular system.",
+      "origins": "Indigenous peoples of South America have chewed coca leaves for thousands of years. Pure cocaine was first isolated in 1859 and became widely used in medicine and consumer products (including Coca-Cola) before its addictive properties were understood. Criminalized in most countries by the 1920s.",
+      "uses": "Historically used as a local anesthetic in eye, nose, and throat surgeries (still used rarely for this purpose). Recreationally used for euphoria, confidence, and energy. No accepted medical use for systemic effects due to high addiction potential and cardiovascular risks.",
+      "dangers": "Highly addictive with severe cardiovascular risks including heart attack, stroke, and arrhythmias. Nasal damage from snorting, lung damage from smoking crack. Often cut with levamisole (causes immune system damage), phenacetin (carcinogenic), and increasingly fentanyl (lethal). Overdose can cause seizures, hyperthermia, and cardiac arrest. Psychological dependence develops rapidly.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Cocaine",
+        "erowid": "https://www.erowid.org/chemicals/cocaine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Cocaine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Cardiovascular toxicity of cocaine: an overview",
+          "authors": "Schwartz BG, et al.",
+          "journal": "Clinical Cardiology",
+          "year": 2010,
+          "doi": "10.1002/clc.20718",
+          "summary": "Comprehensive review of cocaine's cardiovascular effects including myocardial infarction, arrhythmias, and sudden death"
+        },
+        {
+          "title": "Levamisole contamination: a potential risk for all cocaine users",
+          "authors": "Muirhead TT, et al.",
+          "journal": "British Journal of Dermatology",
+          "year": 2011,
+          "summary": "Study on levamisole adulterant causing agranulocytosis and necrotic skin lesions in cocaine users"
+        },
+        {
+          "title": "Cocaine use and risk of myocardial infarction and stroke: systematic review and meta-analysis",
+          "authors": "Maraj S, et al.",
+          "journal": "Mayo Clinic Proceedings",
+          "year": 2010,
+          "summary": "Meta-analysis showing cocaine use significantly increases risk of heart attack and stroke"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "rock (crack)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to pale yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange-brown"
+      }
+    ],
+    "notes": [
+      "Cocaine often shows minimal/no reaction with common reagents. Use multiple tests; fentanyl strips recommended."
+    ]
+  },
+  "6-APB": {
+    "class": "benzofuran (entactogen)",
+    "description": {
+      "overview": "6-APB (6-(2-Aminopropyl)benzofuran), known as 'Benzo Fury,' is a synthetic empathogen-entactogen and stimulant, chemically related to MDMA and MDA. Produces euphoria, emotional openness, stimulation, and psychedelic visuals. Duration significantly longer than MDMA (8-14 hours). Popular in UK club scenes before being banned. Part of benzofuran family (5-APB, 5-MAPB, etc.).",
+      "origins": "Synthesized in 1993 by David Nichols at Purdue University for research purposes. Remained obscure research chemical until late 2000s. Marketed in UK as legal high under brand name 'Benzo Fury' in early 2010s before being scheduled in 2013. Gained popularity as MDMA substitute when MDMA quality/availability declined in UK. Now Schedule I in most countries but still available on research chemical markets.",
+      "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, music enhancement, dancing, emotional connection. Produces more psychedelic visuals than MDMA, especially at higher doses. Popular at festivals and raves as MDMA alternative. Typical dose 80-120mg; effects last 8-14 hours (much longer than MDMA's 4-6 hours). Some users prefer benzofurans for longer-lasting experiences; others find duration exhausting.",
+      "dangers": "Very long duration can be physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Vasoconstriction. Serotonin depletion worse than MDMA due to longer duration—severe comedown depression possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, eye wiggling (nystagmus), overheating risk. Difficult to sleep for 12-18 hours after dosing. Higher doses produce intense psychedelic effects that can be overwhelming. Limited research on long-term effects. Sold as MDMA or mixed into pills—always test. Reagent reactions similar to MDMA but distinguishable with multiple reagents. Tolerance develops; cross-tolerance with MDMA. Recommended waiting period 3+ months between uses like MDMA.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
+        "erowid": "https://www.erowid.org/chemicals/6apb/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/6-APB"
+      },
+      "scientific_papers": [
+        {
+          "title": "Benzofuran compounds as novel psychoactive substances",
+          "authors": "Dawson P, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2014,
+          "summary": "Analysis of 6-APB and related benzofurans as MDMA alternatives and their pharmacology"
+        },
+        {
+          "title": "Cardiovascular effects of benzofuran designer drugs",
+          "authors": "Scherbaum N, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2013,
+          "summary": "Study on cardiovascular risks of 6-APB and 5-APB use"
+        },
+        {
+          "title": "The rise of 'Benzo Fury': a review of the benzofuran NPS phenomenon",
+          "authors": "Iversen L, et al.",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2013,
+          "summary": "Review of 6-APB's emergence as legal high in UK and subsequent health concerns"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#1F1F1F",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      }
+    ],
+    "notes": [
+      "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
+    ]
+  },
+  "Methylphenidate": {
+    "class": "stimulant (pharmaceutical)",
+    "description": {
+      "overview": "Methylphenidate (Ritalin, Concerta) is a prescription stimulant medication used primarily to treat ADHD and narcolepsy. It increases dopamine and norepinephrine activity in the brain, improving focus, attention, and impulse control. Structurally different from amphetamine but with similar therapeutic effects. Commonly diverted for academic performance enhancement.",
+      "origins": "First synthesized in 1944 by Leandro Panizzon at Ciba (now Novartis). Named 'Ritalin' after his wife Rita who used it for low blood pressure. FDA-approved in 1955 for treating hyperactivity and later ADHD. Became Schedule II controlled substance in 1971. Extended-release formulations (Concerta, Ritalin LA) developed in 2000s to reduce abuse potential.",
+      "uses": "Medical: ADHD treatment (children and adults), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD patients. Recreational/Academic: Cognitive enhancement for studying, productivity, euphoria at high doses. Popular among college students during exams. Typical therapeutic dose 5-20mg; recreational users may take 40-80mg+.",
+      "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke with pre-existing conditions or high doses. Abuse potential lower than amphetamine but still significant. Tolerance develops with regular use. Nasal damage from snorting crushed pills (common route of abuse). Can trigger anxiety, paranoia, psychosis at high doses. Appetite suppression, insomnia, irritability. Growth suppression in children with long-term use (controversial). Withdrawal: fatigue, depression, difficulty concentrating. Interactions with MAOIs can be dangerous. Pharmaceutical pills should match pill ID databases—counterfeit Ritalin rare but possible.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
+        "erowid": "https://www.erowid.org/pharms/methylphenidate/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Methylphenidate"
+      },
+      "scientific_papers": [
+        {
+          "title": "Methylphenidate for ADHD in children and adolescents: a Cochrane systematic review",
+          "authors": "Storebø OJ, et al.",
+          "journal": "Cochrane Database of Systematic Reviews",
+          "year": 2015,
+          "summary": "Comprehensive review of methylphenidate effectiveness and safety for ADHD treatment"
+        },
+        {
+          "title": "Abuse of methylphenidate: a review of pharmacology and clinical experience",
+          "authors": "Morton WA, Stockton GG",
+          "journal": "Journal of the American Board of Family Medicine",
+          "year": 2000,
+          "summary": "Review of methylphenidate's abuse potential, particularly among students"
+        },
+        {
+          "title": "Cardiovascular effects of therapeutic doses of methylphenidate in adults",
+          "authors": "Habel LA, et al.",
+          "journal": "JAMA",
+          "year": 2011,
+          "summary": "Study on cardiovascular safety of methylphenidate in adult ADHD treatment"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FF8C00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark orange"
+      }
+    ],
+    "notes": [
+      "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
+    ]
+  }
+}

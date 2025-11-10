@@ -1,8 +1,7 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "modules": [
     "reagents.json",
-    "substances.json",
     "id_guide.json",
     "methods.json",
     "vendors.json",
@@ -10,7 +9,8 @@
     "counterfeit_pills.json",
     "medical_treatment.json",
     "myths.json",
-    "config.json"
+    "config.json",
+    "substances/"
   ],
-  "description": "Modular database structure for scalability"
+  "description": "Modular database with substance categories"
 }

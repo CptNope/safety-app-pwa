@@ -1,0 +1,300 @@
+{
+  "Fentanyl": {
+    "class": "synthetic opioid",
+    "description": {
+      "overview": "Fentanyl is an extremely potent synthetic opioid, approximately 50-100 times stronger than morphine and 30-50 times stronger than heroin. Originally developed for pain management and anesthesia, it has become a major driver of overdose deaths when illicitly manufactured and mixed into other drugs without users' knowledge.",
+      "origins": "Synthesized in 1959 by Belgian physician Paul Janssen as a surgical analgesic. Introduced medically in the 1960s for anesthesia and chronic pain management via patches and lozenges. Illicitly manufactured fentanyl (IMF) emerged in the 1970s but exploded in the 2010s, fueling the current opioid crisis.",
+      "uses": "Medical: Prescribed as transdermal patches (Duragesic), lozenges (Actiq), or IV anesthesia for severe pain and surgical procedures. Cancer patients and chronic pain management. Illicitly: Added to heroin to increase potency, pressed into counterfeit pills (fake oxycodone, Xanax), or mixed into cocaine, meth, and MDMA as adulterant.",
+      "dangers": "EXTREMELY HIGH OVERDOSE RISK: 2mg (size of few grains of salt) can be lethal. Respiratory depression occurs within seconds to minutes. Naloxone (Narcan) required immediately for overdose reversal—may need multiple doses. Increasingly found in non-opioid drugs causing unexpected overdoses. Analogues (carfentanil, acetylfentanyl) are even more potent. Cross-contamination during production endangers entire drug supply. Most overdose deaths now involve fentanyl. Test strips essential for any street drugs.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fentanyl",
+        "erowid": "https://www.erowid.org/chemicals/fentanyl/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Fentanyl"
+      },
+      "scientific_papers": [
+        {
+          "title": "Fentanyl and fentanyl analogues: 50 years on",
+          "authors": "Suzuki J, El-Haddad S",
+          "journal": "Current Opinion in Anaesthesiology",
+          "year": 2017,
+          "doi": "10.1097/ACO.0000000000000469",
+          "summary": "Comprehensive review of fentanyl history, pharmacology, and role in current overdose crisis"
+        },
+        {
+          "title": "Evidence of fentanyl contamination in the unregulated drug supply",
+          "authors": "Klar SA, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2016,
+          "summary": "Study documenting widespread fentanyl contamination in heroin and other street drugs"
+        },
+        {
+          "title": "Performance of fentanyl test strips for rapid assessment of fentanyl in drug samples",
+          "authors": "Peiper NC, et al.",
+          "journal": "International Journal of Drug Policy",
+          "year": 2019,
+          "summary": "Validation study showing fentanyl test strips are effective harm reduction tool"
+        },
+        {
+          "title": "The changing opioid crisis: development, challenges and opportunities",
+          "authors": "Ciccarone D",
+          "journal": "Molecular Psychiatry",
+          "year": 2021,
+          "summary": "Analysis of how illicit fentanyl transformed the opioid epidemic and increased mortality"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "pressed pill",
+      "patch",
+      "adulterant"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction to faint pink"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "yellow-green"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Use fentanyl test strips. Reagents are unreliable for fentanyl/analogues. Extremely potent—use PPE."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Immunoassay strips are the recommended method. Dissolve tiny sample and follow strip instructions.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Heroin": {
+    "class": "opioid (semi-synthetic)",
+    "description": {
+      "overview": "Heroin (diacetylmorphine) is a highly addictive semi-synthetic opioid derived from morphine, which comes from opium poppy plants. It produces intense euphoria, pain relief, and sedation, but carries extreme risks of addiction, overdose, and infectious disease transmission. The current street supply is heavily contaminated with fentanyl.",
+      "origins": "Synthesized from morphine in 1874 by English chemist C.R. Alder Wright. Commercialized by Bayer pharmaceutical company in 1898 as a 'safer' morphine substitute and cough suppressant (tradename 'Heroin'). Quickly recognized as highly addictive and banned in most countries by the 1920s-30s. Illicit production now centered in Afghanistan, Mexico, and Southeast Asia.",
+      "uses": "No current medical use in the United States (diamorphine still used medically in UK for severe pain). Historically used for pain, cough suppression, and as morphine substitute. Recreationally used for intense euphoria, pain relief, and escape. Routes: injection (IV), smoking, snorting. IV use carries highest overdose and infection risk.",
+      "dangers": "Extremely high addiction potential—physical dependence develops rapidly. Overdose causes respiratory depression and death, especially with fentanyl contamination (now in majority of heroin supply). HIV, Hepatitis C transmission from shared needles. Collapsed veins, bacterial infections, abscesses from injection. Withdrawal is intensely uncomfortable but not typically fatal. Xylazine (tranq) increasingly found in supply, causes severe wounds and doesn't respond to naloxone. Unpredictable potency makes every dose potentially lethal. Naloxone and fentanyl test strips are life-saving harm reduction tools.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Heroin",
+        "erowid": "https://www.erowid.org/chemicals/heroin/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Heroin"
+      },
+      "scientific_papers": [
+        {
+          "title": "Supervised injection facilities: a review of the evidence",
+          "authors": "Potier C, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2014,
+          "summary": "Review showing supervised injection sites reduce overdose deaths and disease transmission without increasing drug use"
+        },
+        {
+          "title": "The effectiveness of opioid maintenance treatment in prison settings",
+          "authors": "Hedrich D, et al.",
+          "journal": "Addiction",
+          "year": 2012,
+          "summary": "Evidence for methadone/buprenorphine maintenance reducing overdose risk and recidivism"
+        },
+        {
+          "title": "Fentanyl-contaminated heroin and overdose: a review",
+          "authors": "Somerville NJ, et al.",
+          "journal": "JAMA Internal Medicine",
+          "year": 2017,
+          "summary": "Analysis of fentanyl contamination in heroin supply and impact on overdose mortality"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "tar"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B008B",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→violet"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-green→dark green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#808080",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "gray→brown"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Always use fentanyl test strips. Heroin frequently contaminated with fentanyl/analogues."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Essential due to widespread fentanyl contamination. Test every batch.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Codeine": {
+    "class": "opioid",
+    "description": {
+      "overview": "Codeine is a naturally occurring opioid found in opium poppy, commonly prescribed for mild to moderate pain and cough suppression. Weaker than morphine (codeine is a prodrug that converts to morphine in the liver). Found in prescription medications like Tylenol #3, cough syrups (promethazine-codeine), and standalone pills. Popular in 'lean' or 'purple drank' culture when mixed with soda and candy.",
+      "origins": "Isolated from opium in 1832 by French chemist Pierre Robiquet. Widely used in medicine since late 1800s as safer alternative to morphine for mild pain. Included in over-the-counter cough syrups until stricter regulations in 1970s-90s. Hip-hop culture popularized 'lean' (codeine cough syrup + soda) in 1990s-2000s Houston scene, spreading nationally. Now Schedule II-V depending on formulation and concentration.",
+      "uses": "Medical: Mild-moderate pain relief, cough suppression, diarrhea treatment. Often combined with acetaminophen (Tylenol #3) or aspirin. Typical dose 15-60mg for pain. Recreational: 'Lean' or 'purple drank' (codeine cough syrup + promethazine + soda + candy), euphoria, relaxation, nodding. Doses 60-120mg+ for recreational effects. Effects: 3-4 hours duration, less intense than other opioids but still addictive.",
+      "dangers": "Addiction and physical dependence develop with regular use—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea. Respiratory depression at high doses or when combined with other depressants (alcohol, benzos, promethazine). Acetaminophen toxicity—many codeine pills contain APAP which causes liver damage/failure at high doses (>4000mg daily). 'Lean' culture glamorizes dangerous behavior—multiple celebrity deaths (Pimp C, DJ Screw, Lil Peep used multiple substances). Genetic variation in CYP2D6 enzyme means some people convert codeine to morphine very efficiently (ultra-rapid metabolizers = overdose risk) while others get no effect (poor metabolizers). Constipation, nausea, itching common. Promethazine in cough syrup adds sedation and respiratory depression risk. Driving impairment. Gateway to stronger opioids for some users.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
+        "erowid": "https://www.erowid.org/pharms/codeine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Codeine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Codeine intoxication associated with ultrarapid CYP2D6 metabolism",
+          "authors": "Gasche Y, et al.",
+          "journal": "New England Journal of Medicine",
+          "year": 2004,
+          "doi": "10.1056/NEJMoa032295",
+          "summary": "Case report demonstrating fatal codeine toxicity in ultra-rapid CYP2D6 metabolizer"
+        },
+        {
+          "title": "Recreational use of codeine-containing cough syrup",
+          "authors": "Peters RJ, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2007,
+          "summary": "Study on 'purple drank' culture and health risks of recreational codeine syrup misuse"
+        },
+        {
+          "title": "Codeine, ultrarapid-metabolism genotype, and postoperative death",
+          "authors": "Ciszkowski C, et al.",
+          "journal": "New England Journal of Medicine",
+          "year": 2009,
+          "summary": "Documentation of pediatric death from codeine due to CYP2D6 ultra-rapid metabolism"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "liquid",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#9370DB",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-green"
+      }
+    ],
+    "notes": [
+      "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
+    ]
+  },
+  "Kratom": {
+    "class": "opioid agonist (plant alkaloids)",
+    "description": {
+      "overview": "Kratom (Mitragyna speciosa) is a tropical tree native to Southeast Asia whose leaves contain alkaloids that act as opioid agonists and stimulants. At low doses, produces stimulant effects; at higher doses, opioid-like pain relief and sedation. Widely used for pain management, opioid withdrawal, and energy. Legal status varies by country and US state.",
+      "origins": "Used traditionally in Thailand, Malaysia, and Indonesia for centuries by laborers to combat fatigue and manage pain. Leaves chewed fresh or brewed as tea. Western awareness grew in 1800s but remained obscure until 2000s internet commerce. Banned in Thailand (ironically, its origin) since 1943 but recently re-legalized. DEA attempted scheduling in 2016 but withdrew after public outcry. Currently unscheduled federally in US but banned in several states.",
+      "uses": "Traditional: Energy, pain relief, treating diarrhea, wound healing. Modern: Self-treatment for chronic pain (alternative to prescription opioids), opioid withdrawal aid (reduces symptoms), anxiety and depression relief, energy and focus (low doses), recreational sedation (high doses). Strains: Red (sedating, pain relief), Green (balanced), White (energizing). Typical dose 2-5g (moderate) to 5-10g+ (strong). Often consumed as powder in capsules, 'toss and wash,' or tea.",
+      "dangers": "Physical dependence and withdrawal with regular use—symptoms similar to mild opioid withdrawal (muscle aches, irritability, insomnia, runny nose). Tolerance develops, requiring increasing doses. Nausea and 'wobbles' (dizziness, nausea) common at high doses or with certain strains. Constipation (opioid effect). Liver toxicity rare but reported with chronic heavy use or adulterated products. Respiratory depression possible when combined with other CNS depressants (alcohol, benzos, opioids)—deaths almost always involve poly-drug use. Seizures reported in rare cases. Quality control issues: products may be contaminated with salmonella, heavy metals, or adulterated with actual opioids. Some extracts (shots, enhanced products) extremely potent. Addiction potential debated but real for some users. Can test positive for methadone on some drug tests (false positive).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
+        "erowid": "https://www.erowid.org/plants/kratom/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Kratom"
+      },
+      "scientific_papers": [
+        {
+          "title": "Kratom (Mitragyna speciosa): User motivations, use patterns and implications for use disorder",
+          "authors": "Garcia-Romeu A, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2020,
+          "doi": "10.1016/j.drugalcdep.2020.107849",
+          "summary": "Large survey study on kratom use patterns, self-reported benefits, and dependence potential"
+        },
+        {
+          "title": "Pharmacology of kratom: An emerging botanical agent with stimulant, analgesic and opioid-like effects",
+          "authors": "Kruegel AC, Grundmann O",
+          "journal": "Journal of the American Osteopathic Association",
+          "year": 2018,
+          "summary": "Comprehensive review of kratom alkaloids, pharmacology, mechanisms, and clinical effects"
+        },
+        {
+          "title": "Kratom and Pain: Reviewing the Evidence",
+          "authors": "Grundmann O",
+          "journal": "Frontiers in Pharmacology",
+          "year": 2017,
+          "summary": "Review of kratom's analgesic properties and potential for opioid withdrawal management"
+        },
+        {
+          "title": "Kratom dependence and withdrawal: A case series",
+          "authors": "Singh D, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2018,
+          "summary": "Clinical case reports documenting kratom withdrawal syndrome in chronic users"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "leaf",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B4513",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "saddle brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#A0522D",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "sienna"
+      }
+    ],
+    "notes": [
+      "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
+    ]
+  }
+}

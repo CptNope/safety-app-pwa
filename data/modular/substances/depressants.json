@@ -1,0 +1,399 @@
+{
+  "GHB": {
+    "class": "depressant (GHB/GBL)",
+    "description": {
+      "overview": "Gamma-hydroxybutyrate (GHB) is a CNS depressant that occurs naturally in the human body in trace amounts. As a drug, it produces euphoria, relaxation, and sociability at low doses, but has an extremely narrow margin between desired effects and overdose. Commonly known as a 'date rape drug' though most use is voluntary. Liquid form makes dosing dangerous.",
+      "origins": "Synthesized in 1874, developed as an anesthetic in 1960s but abandoned due to side effects. Used by bodybuilders in 1980s for alleged growth hormone release and sleep enhancement. Became popular club drug in 1990s. Scheduled as Schedule I (illicit) in 2000 but Schedule III when prescribed as Xyrem for narcolepsy. Precursors GBL and 1,4-BD legal in many areas and convert to GHB in body.",
+      "uses": "Medical: Xyrem (sodium oxybate) prescribed for narcolepsy with cataplexy. Rare use as anesthetic in some countries. Recreational: Euphoria, disinhibition, enhanced sociability and sexuality. Popular in club/rave scenes and 'chemsex' contexts. Bodybuilding: Claimed (unproven) benefits for muscle growth and recovery. Typical dose 1-2.5g but highly variable by concentration. Duration 1.5-3 hours.",
+      "dangers": "EXTREME OVERDOSE RISK: Very narrow therapeutic window. Difference between desired effects and unconsciousness can be <1g. Sudden onset—conscious to unconscious in minutes. Respiratory depression, vomiting while unconscious (aspiration risk), seizures. No antidote—supportive care only. Combining with alcohol is extremely dangerous and often fatal. Physical dependence develops quickly with regular use. Withdrawal can be life-threatening (similar to alcohol). Liquid form makes accurate dosing nearly impossible. Concentration varies wildly between batches. Used in drug-facilitated sexual assault. Memory impairment and blackouts common. Chronic use linked to cognitive impairment. GBL and 1,4-BD (precursors) are even more dangerous due to unpredictable conversion rates.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Gamma-Hydroxybutyric_acid",
+        "erowid": "https://www.erowid.org/chemicals/ghb/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/GHB"
+      },
+      "scientific_papers": [
+        {
+          "title": "Gamma hydroxybutyrate: a new drug of abuse",
+          "authors": "Mason PE, Kerns WP",
+          "journal": "American Family Physician",
+          "year": 2002,
+          "summary": "Clinical review of GHB pharmacology, toxicity, and overdose management"
+        },
+        {
+          "title": "GHB withdrawal syndrome: a review",
+          "authors": "Miotto K, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2001,
+          "summary": "Documentation of severe and potentially fatal GHB withdrawal syndrome"
+        },
+        {
+          "title": "Club drugs: methylenedioxymethamphetamine, flunitrazepam, ketamine hydrochloride, and gamma-hydroxybutyrate",
+          "authors": "Gahlinger PM",
+          "journal": "American Family Physician",
+          "year": 2004,
+          "summary": "Overview of club drugs including GHB's role in drug-facilitated sexual assault"
+        }
+      ]
+    },
+    "forms": [
+      "liquid",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Standard reagents ineffective for GHB/GBL. Specialized tests exist but uncommon. Use extreme caution with dosing."
+    ]
+  },
+  "Alprazolam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Alprazolam (Xanax) is a fast-acting, potent benzodiazepine prescribed for anxiety and panic disorders. Produces relaxation, sedation, and anxiolytic (anti-anxiety) effects. One of the most prescribed and most abused benzos due to rapid onset and euphoric effects at higher doses. Street 'Xanax' pills frequently counterfeit and contain fentanyl, other benzos (flualprazolam, etizolam), or no active ingredient.",
+      "origins": "Developed by Upjohn (now Pfizer) in late 1960s, FDA-approved 1981. Became one of most prescribed psychiatric medications in US. Short half-life (6-12 hours) makes it effective for acute anxiety but also increases addiction potential. Available in immediate-release tablets (0.25mg to 2mg) and extended-release (Xanax XR). 'Bars' (2mg) became street drug of choice in 2000s-2010s, often combined with opioids or alcohol.",
+      "uses": "Medical: Anxiety disorders, panic disorder, anxiety associated with depression. Short-term use recommended due to tolerance and dependence. Rapid relief of acute anxiety/panic attacks. Recreational: Sedation, disinhibition, euphoria (at high doses), blackout experiences, combining with opioids or alcohol ('lean'). Popular in hip-hop culture. Pressed counterfeit pills widely available on street/dark web. Typical prescribed dose 0.25-2mg; recreational users often take 4-10mg+ leading to blackouts and dangerous behavior.",
+      "dangers": "EXTREMELY ADDICTIVE—physical dependence develops within weeks. Withdrawal can be FATAL (seizures, delirium tremens)—requires medical supervision to safely discontinue. Blackouts and amnesia common at recreational doses leading to dangerous behavior, accidents, sexual assault. Combining with opioids or alcohol frequently FATAL (respiratory depression). Counterfeit 'Xanax' bars often contain fentanyl—numerous overdose deaths. Pressed pills may contain flualprazolam (longer-acting, more sedating RC benzo) or other research chemicals. Tolerance develops rapidly requiring higher doses. Cognitive impairment, motor coordination issues increase fall/accident risk. Paradoxical reactions possible (increased anxiety, aggression). Rebound anxiety when stopping. Elderly particularly vulnerable to falls, confusion, dementia-like symptoms. Reagent tests don't work on benzos—fentanyl test strips essential for any street pills.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alprazolam",
+        "erowid": "https://www.erowid.org/pharms/alprazolam/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Alprazolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Alprazolam dependence and withdrawal: a review of the syndrome and treatment",
+          "authors": "Ait-Daoud N, et al.",
+          "journal": "Expert Opinion on Drug Metabolism & Toxicology",
+          "year": 2018,
+          "summary": "Comprehensive review of alprazolam's high addiction potential and withdrawal management"
+        },
+        {
+          "title": "The epidemiology of alprazolam misuse: a review",
+          "authors": "Edinoff AN, et al.",
+          "journal": "Health Psychology Research",
+          "year": 2020,
+          "summary": "Analysis of alprazolam abuse patterns, counterfeit pills, and overdose risks"
+        },
+        {
+          "title": "Counterfeit alprazolam tablets containing fentanyl: a new public health concern",
+          "authors": "Moss MJ, et al.",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2018,
+          "summary": "Documentation of fentanyl-contaminated fake Xanax pills and overdose deaths"
+        }
+      ]
+    },
+    "forms": [
+      "pressed pill",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Xanax. Benzos do NOT react with colorimetric reagents. Many pressed 'Xanax' bars contain fentanyl or RC benzos—use fentanyl strips."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "CRITICAL for pressed pills. Many fake Xanax bars contain fentanyl.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Clonazepam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed primarily for seizure disorders and panic disorder. Known for potent anti-anxiety and anticonvulsant effects with a long half-life (18-50 hours). Often considered more sedating than other benzos. Street name 'k-pins' or 'klonies.' Popular for anxiety relief and combining with opioids (dangerous).",
+      "origins": "Developed by Hoffmann-La Roche in 1960s, FDA-approved 1975 for seizure disorders. Later approved for panic disorder. Became one of the most prescribed benzos for anxiety despite being primarily an anticonvulsant. Long duration makes it less prone to interdose withdrawal but more difficult to discontinue.",
+      "uses": "Medical: Seizure disorders (especially absence seizures, myoclonic seizures), panic disorder, acute mania, restless leg syndrome, akathisia. Typical dose 0.5-2mg daily. Recreational: Anxiety relief, sedation, enhancing opioid effects, muscle relaxation. Some users prefer clonazepam for longer-lasting anxiety relief compared to Xanax. Popular among those with opioid use disorder.",
+      "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, psychosis). Long half-life means withdrawal symptoms may appear days after last dose and persist for weeks/months. Combining with opioids or alcohol FATAL risk (respiratory depression). Cognitive impairment, memory problems, depression. Driving impairment significant. Elderly at high risk for falls, confusion. Tolerance develops. Paradoxical reactions (increased anxiety, aggression) possible. Counterfeit pills rare but increasing. Pregnancy category D. Chronic use linked to increased dementia risk (debated). Very difficult to taper off due to long action—requires slow, medically supervised withdrawal."
+    },
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
+    ]
+  },
+  "Diazepam": {
+    "class": "benzodiazepine",
+    "description": {
+      "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
+      "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
+      "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
+      "dangers": "Physical dependence and addiction with regular use. Withdrawal can be SEVERE and dangerous (seizures, psychosis, insomnia, anxiety)—medical supervision required for tapering. Long half-life means withdrawal symptoms may not appear for days after stopping. Combining with alcohol or opioids dangerous (respiratory depression). Cognitive impairment and memory issues. Sedation increases fall/accident risk especially in elderly. Counterfeit pills may contain other benzos, fentanyl, or nothing. Paradoxical reactions possible. Tolerance develops. Diazepam popular among those with opioid use disorder—deadly combination.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
+        "erowid": "https://www.erowid.org/pharms/diazepam/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Diazepam: a review of its pharmacological properties and therapeutic efficacy",
+          "authors": "Shader RI, Greenblatt DJ",
+          "journal": "Drugs",
+          "year": 1993,
+          "summary": "Comprehensive review of diazepam's pharmacology, clinical uses, and safety profile"
+        },
+        {
+          "title": "Benzodiazepine withdrawal: outcome in 50 patients",
+          "authors": "Rickels K, et al.",
+          "journal": "British Journal of Addiction",
+          "year": 1990,
+          "summary": "Clinical study documenting withdrawal syndrome from long-term diazepam use"
+        },
+        {
+          "title": "Long-term benzodiazepine use and cognitive decline",
+          "authors": "Billioti de Gage S, et al.",
+          "journal": "BMJ",
+          "year": 2014,
+          "summary": "Study showing association between benzodiazepine use and increased dementia risk"
+        }
+      ]
+    },
+    "forms": [
+      "tablet",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
+    ]
+  },
+  "Etizolam": {
+    "class": "thienodiazepine (benzo analogue)",
+    "description": {
+      "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
+      "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
+      "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
+      "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Etizolam and benzodiazepine differentiation in urine",
+          "authors": "Manchester KR, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2012,
+          "summary": "Analytical study on detecting etizolam as emerging benzodiazepine analogue"
+        },
+        {
+          "title": "Etizolam: a review of pharmacology, clinical efficacy, and tolerability",
+          "authors": "Lodhi A, Kaur J",
+          "journal": "Reviews on Recent Clinical Trials",
+          "year": 2020,
+          "summary": "Comprehensive review of etizolam's effects, medical uses, and side effects"
+        },
+        {
+          "title": "Designer benzodiazepines: a new challenge",
+          "authors": "Manchester KR, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2018,
+          "summary": "Review of etizolam and other research chemical benzos entering the illicit market"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Research chemical benzo analogue. No reagent reactions. Legal status varies; sold as 'research chemical' or pressed into fake pharma pills."
+    ]
+  },
+  "Flualprazolam": {
+    "class": "benzodiazepine (designer)",
+    "description": {
+      "overview": "Flualprazolam is a designer benzodiazepine (research chemical) that's significantly more potent than alprazolam (Xanax). Never approved for medical use. Primarily found in counterfeit 'Xanax' bars pressed by illegal manufacturers. Longer-lasting and more sedating than real alprazolam. Causes profound blackouts and amnesia at recreational doses. Extremely dangerous.",
+      "origins": "Synthesized as research chemical, never studied for medical use. Appeared on darknet markets and research chemical vendors around 2016-2017. Quickly became popular adulterant in fake Xanax bars because it's cheap, potent, and produces benzo-like effects. No legitimate pharmaceutical use—purely illicit production. Often manufactured in China and imported by illegal pill pressers.",
+      "uses": "No medical use. Illicit: Found in counterfeit Xanax bars (often labeled as 'alprazolam 2mg' but actually contain flualprazolam). Also sold as blotter or powder on research chemical markets. Effects: Intense sedation, anxiety relief, muscle relaxation, amnesia. Much stronger than alprazolam mg-for-mg. Duration 10-14 hours (vs Xanax 6-12 hours). Users often take what they think is regular Xanax but get unexpectedly powerful effects.",
+      "dangers": "EXTREMELY DANGEROUS. Much more potent than alprazolam—easy to overdose when sold as 'Xanax.' Causes severe blackouts lasting 12+ hours with total amnesia. Users engage in dangerous behavior with no memory. Physical dependence develops RAPIDLY (days to weeks). Withdrawal can be FATAL (seizures). Often combined with fentanyl in pressed pills—LETHAL combination. Overdose causes profound sedation, respiratory depression (especially with other depressants), coma. No quality control—dosage unpredictable. Some 'Xanax' bars contain 3-5mg flualprazolam (equivalent to 6-10mg+ alprazolam). Cannot be distinguished from real Xanax by appearance. Reagent tests don't work. Long half-life means effects persist dangerously long. Reports of users blacking out for entire weekends. Legal consequences: still driving, operating machinery during blackout.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Flualprazolam",
+        "erowid": "https://www.erowid.org/experiences/subs/exp_Flualprazolam.shtml",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Flualprazolam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Flualprazolam: report of an analytical challenge and prevalence in drug seizures",
+          "authors": "Papsun D, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2019,
+          "summary": "Documentation of flualprazolam in counterfeit pills and analytical detection challenges"
+        },
+        {
+          "title": "Designer benzodiazepines: a review of toxicology and public health risks",
+          "authors": "Zawilska JB, Wojcieszak J",
+          "journal": "Forensic Toxicology",
+          "year": 2019,
+          "summary": "Review of flualprazolam and other designer benzos as emerging public health threat"
+        },
+        {
+          "title": "Counterfeit medications containing designer benzodiazepines: a new threat",
+          "authors": "Hoiseth G, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2020,
+          "summary": "Case reports of overdoses from flualprazolam in fake Xanax pills"
+        }
+      ]
+    },
+    "forms": [
+      "pressed pill",
+      "blotter",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "Designer benzo found in fake Xanax bars. Very potent. No reagent reactions. Often mixed with fentanyl in pressed pills."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Test pressed pills for fentanyl contamination.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Phenibut": {
+    "class": "GABA-B agonist (nootropic)",
+    "description": {
+      "overview": "Phenibut (β-phenyl-GABA) is a GABA-B receptor agonist developed in Russia for anxiety, sold as unregulated dietary supplement in US. Produces anxiety relief, sociability, mild euphoria, and improved sleep. Not a benzodiazepine but has similar effects. Legal and widely available online. Marketed as nootropic/cognitive enhancer. Addiction potential severely underestimated by users.",
+      "origins": "Developed in 1960s Soviet Union for cosmonauts to reduce stress without sedation impairment. Prescription medication in Russia, Latvia, Ukraine (trade names: Noofen, Anvifen). Remains unscheduled in US, UK, and most Western countries. Sold as dietary supplement despite not being approved by FDA. Became popular in nootropic/biohacking communities in 2010s. Reddit, Longecity forums popularized use.",
+      "uses": "Medical (in Russia): Anxiety disorders, insomnia, PTSD, alcohol withdrawal. Typical dose 250-1000mg. Supplement use: Anxiety relief, social anxiety reduction, sleep aid, mood enhancement. Some users report improved sociability and reduced social inhibition (similar to alcohol but without intoxication). Popular for public speaking, dates, interviews. Effects: 2-4 hours onset, 15-24 hour duration. Recreational: Euphoria at higher doses (2-3g+), combining with alcohol or other drugs (dangerous).",
+      "dangers": "SEVERE PHYSICAL DEPENDENCE develops with daily use (even at recommended doses). Withdrawal can be DANGEROUS: seizures, psychosis, hallucinations, severe anxiety, insomnia, agitation. Withdrawal worse than many report—can last weeks. Tolerance develops rapidly requiring dose escalation. Long half-life (5-6 hours) but effects last much longer—easy to redose and overdose. Combining with alcohol or other depressants dangerous (respiratory depression). Liver toxicity possible with chronic use. Very difficult to quit once dependent—requires slow taper (months). Rebound anxiety severe. Highly variable individual response—some very sensitive. Sold with minimal warnings about addiction potential. Users often don't realize they're dependent until they try to stop. Not detected on standard drug tests. Quality varies between suppliers—heavy metal contamination possible. Some countries beginning to schedule/ban."
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction"
+      }
+    ],
+    "notes": [
+      "GABA analogue sold as nootropic supplement. No reagent reactions. Physical dependence can develop with regular use."
+    ]
+  }
+}

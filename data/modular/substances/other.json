@@ -1,0 +1,339 @@
+{
+  "MDMA": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "3,4-Methylenedioxymethamphetamine (MDMA), commonly known as ecstasy or molly, is an empathogen-entactogen that produces feelings of emotional openness, empathy, and euphoria. It's one of the most popular recreational drugs worldwide, particularly in dance and festival settings.",
+      "origins": "First synthesized by Merck pharmaceutical company in 1912, MDMA remained obscure until the 1970s when chemist Alexander Shulgin resynthesized it and introduced it to psychotherapists. It gained popularity as a therapeutic tool before becoming a Schedule I controlled substance in 1985.",
+      "uses": "Originally explored for marriage counseling and PTSD treatment in psychotherapy. Currently used recreationally for its prosocial effects, emotional warmth, and sensory enhancement. FDA-approved clinical trials are ongoing for PTSD-assisted therapy with promising results.",
+      "dangers": "Neurotoxicity concerns with frequent use, especially at high doses or elevated body temperatures. Risk of hyperthermia, hyponatremia (water intoxication), serotonin syndrome. Often adulterated with methamphetamine, MDA, cathinones, or other stimulants. Increasing fentanyl contamination in pressed pills. Can cause short-term memory issues, depression, and anxiety in the days following use ('comedown').",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/MDMA",
+        "erowid": "https://www.erowid.org/chemicals/mdma/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDMA",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal109.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study",
+          "authors": "Mitchell JM, et al.",
+          "journal": "Nature Medicine",
+          "year": 2021,
+          "doi": "10.1038/s41591-021-01336-3",
+          "summary": "MAPS Phase 3 trial showing 67% of participants no longer met PTSD criteria after MDMA-assisted therapy"
+        },
+        {
+          "title": "The pharmacology and clinical pharmacology of 3,4-methylenedioxymethamphetamine (MDMA, ecstasy)",
+          "authors": "Green AR, et al.",
+          "journal": "Pharmacological Reviews",
+          "year": 2003,
+          "doi": "10.1124/pr.55.3.3",
+          "summary": "Comprehensive review of MDMA pharmacology, metabolism, and toxicology"
+        },
+        {
+          "title": "MDMA (Ecstasy): a review of its harms and classification under the Misuse of Drugs Act 1971",
+          "authors": "Nutt D, King LA, Saulsbury W, Blakemore C",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2007,
+          "doi": "10.1177/0269881106074953",
+          "summary": "Evidence-based harm assessment placing MDMA lower than alcohol and tobacco"
+        },
+        {
+          "title": "Neurotoxicity of amphetamines and its metabolites",
+          "authors": "Carvalho M, et al.",
+          "journal": "Current Drug Metabolism",
+          "year": 2012,
+          "summary": "Review of neurotoxicity mechanisms and risk factors for MDMA-induced neurotoxicity"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "capsule",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→indigo→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#001A66",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark blue→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "very dark"
+      },
+      {
+        "reagent": "simons",
+        "color": "#1F66FF",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue (secondary amine)"
+      }
+    ],
+    "notes": [
+      "Use multiple reagents; lighting/timing matter."
+    ]
+  },
+  "Methamphetamine": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "Methamphetamine (meth, crystal, ice) is an extremely potent central nervous system stimulant with high abuse potential. It produces intense euphoria, increased energy, and focus, but is notorious for its destructive physical and psychological effects with chronic use.",
+      "origins": "First synthesized in Japan in 1919 from ephedrine. Used by military forces in WWII to enhance soldier alertness. Became popular in 1960s biker culture and later in the 1990s with improved synthesis methods. The 'Breaking Bad' era saw Mexican cartel production dominate the market.",
+      "uses": "Prescription methamphetamine (Desoxyn) exists for ADHD and severe obesity but is rarely prescribed. Recreationally used for euphoria, energy, focus, and appetite suppression. Popular in club scenes, among long-haul drivers, and for sexual enhancement (chemsex).",
+      "dangers": "Severe neurotoxicity with repeated use, causing permanent damage to dopamine and serotonin systems. 'Meth mouth' (severe dental decay), skin sores from compulsive picking, extreme weight loss, psychosis, paranoia, and violent behavior. Cardiovascular strain can cause heart attack and stroke. Often cut with MSM, ISO, or N-Iso (look identical). Sleep deprivation from binges causes hallucinations and psychotic breaks. Highly addictive with devastating social consequences.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/meth/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Methamphetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Methamphetamine neurotoxicity: dissociation of striatal dopamine terminal damage from parietal cortical cell body injury",
+          "authors": "Pu C, Vorhees CV",
+          "journal": "Synapse",
+          "year": 1993,
+          "summary": "Foundational study on methamphetamine-induced neurotoxicity and dopamine system damage"
+        },
+        {
+          "title": "Methamphetamine-associated psychosis",
+          "authors": "Glasner-Edwards S, Mooney LJ",
+          "journal": "Journal of Dual Diagnosis",
+          "year": 2014,
+          "summary": "Review of meth-induced psychosis, prevalence, and treatment strategies"
+        },
+        {
+          "title": "The Matrix Model for methamphetamine addiction: evidence-based strategies",
+          "authors": "Rawson RA, et al.",
+          "journal": "Journal of Substance Abuse Treatment",
+          "year": 2006,
+          "summary": "Evidence-based treatment protocol for methamphetamine addiction"
+        }
+      ]
+    },
+    "forms": [
+      "crystal",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FF4500",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→orange-brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#4B0082",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark blue-green→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→brown"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Simon's test distinguishes meth (no reaction) from MDMA (blue). Use multiple reagents."
+    ]
+  },
+  "MDA": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "3,4-Methylenedioxyamphetamine (MDA), known as 'sass' or 'the love drug,' is the parent compound of MDMA and produces similar empathogenic effects but with more pronounced psychedelic qualities. Often sold as or confused with MDMA, MDA has a longer duration and more intense visual effects.",
+      "origins": "First synthesized in 1910, predating MDMA by decades. Used experimentally in psychotherapy in the 1960s-70s before MDMA became popular. Nicknamed 'the love drug' in the 1960s counterculture. Became Schedule I in 1970. Currently resurging as MDMA alternative or adulterant in pressed pills.",
+      "uses": "Historically explored in psychotherapy for emotional processing and couples therapy. Recreationally used for empathogenic and mild psychedelic effects at music events and festivals. Some users prefer MDA's more 'trippy' character versus MDMA's pure empathy. Often unintentionally consumed when sold as MDMA.",
+      "dangers": "Similar neurotoxicity concerns as MDMA, possibly greater. Higher body temperature elevation risk (hyperthermia). More prone to causing confusion and anxiety than MDMA due to psychedelic effects. Often found as MDMA adulterant or sold as 'MDMA' in pressed pills. Simon's reagent shows NO reaction (primary amine vs MDMA's secondary amine)—key distinction. Longer duration (6-8 hours) can lead to dehydration and exhaustion. Same risks: serotonin syndrome, hyponatremia, comedown depression.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
+        "erowid": "https://www.erowid.org/chemicals/mda/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDA",
+        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal132.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "Comparative neurotoxicity of MDMA and MDA: a review",
+          "authors": "Stone DM, et al.",
+          "journal": "Pharmacology, Biochemistry and Behavior",
+          "year": 1987,
+          "summary": "Comparative study showing MDA may have greater neurotoxicity than MDMA"
+        },
+        {
+          "title": "Chemistry and pharmacology of MDA and MDMA",
+          "authors": "Shulgin AT",
+          "journal": "PiHKAL: A Chemical Love Story",
+          "year": 1991,
+          "summary": "Comprehensive report on MDA pharmacology and subjective effects by Alexander Shulgin"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "purple→black"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "blue-black→black"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "dark→black"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Similar to MDMA but Simon's shows no reaction (MDA is primary amine, MDMA is secondary)."
+    ]
+  },
+  "Amphetamine": {
+    "class": "phenethylamine",
+    "description": {
+      "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
+      "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
+      "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
+      "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
+        "erowid": "https://www.erowid.org/chemicals/amphetamines/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Amphetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "A review of the neuropharmacology of amphetamine",
+          "authors": "Sulzer D, et al.",
+          "journal": "Neuropsychopharmacology",
+          "year": 2005,
+          "doi": "10.1038/sj.npp.1300801",
+          "summary": "Comprehensive review of amphetamine mechanisms: dopamine release, transporter reversal, and therapeutic effects"
+        },
+        {
+          "title": "Efficacy and safety of long-term treatment with stimulants in adults with ADHD",
+          "authors": "Castells X, et al.",
+          "journal": "Cochrane Database of Systematic Reviews",
+          "year": 2011,
+          "summary": "Meta-analysis of amphetamine effectiveness and safety for ADHD treatment in adults"
+        },
+        {
+          "title": "Amphetamine-induced neurotoxicity: A review",
+          "authors": "Krasnova IN, Cadet JL",
+          "journal": "Brain Research Bulletin",
+          "year": 2009,
+          "summary": "Review of neurotoxic effects of amphetamine at high doses and potential mechanisms"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "paste",
+      "tablet"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FF8C00",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "orange→brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green→brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#228B22",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "green"
+      },
+      {
+        "reagent": "simons",
+        "color": "#00000000",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no reaction (primary amine)"
+      }
+    ],
+    "notes": [
+      "Speed/amphetamine paste often contains adulterants. Test multiple points."
+    ]
+  }
+}
