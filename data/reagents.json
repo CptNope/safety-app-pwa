@@ -4941,6 +4941,278 @@
         "regions": ["USA - Nationwide"],
         "source": "Drug and Alcohol Dependence",
         "source_url": null
+      },
+      {
+        "date": "2024-11-08",
+        "category": "Contamination Alert",
+        "priority": "critical",
+        "title": "🚨 Nitazenes Found in Heroin Samples - Chicago Area",
+        "summary": "Highly potent synthetic opioids (nitazenes) detected in heroin. 100x stronger than fentanyl in some cases. Multiple overdoses reported.",
+        "details": [
+          "Nitazenes are synthetic opioids potentially stronger than fentanyl",
+          "Not detected by standard fentanyl test strips",
+          "At least 8 overdoses in past week, 2 fatal",
+          "Required 4-6 doses of naloxone to reverse",
+          "Brown powder heroin appearance - impossible to identify visually",
+          "Lab testing strongly recommended for all opioids in Chicago area"
+        ],
+        "regions": ["USA - Illinois"],
+        "source": "Chicago Department of Public Health",
+        "source_url": null
+      },
+      {
+        "date": "2024-11-06",
+        "category": "Service Launch",
+        "priority": "normal",
+        "title": "🎉 Vancouver Opens 24/7 Drug Checking Service",
+        "summary": "British Columbia expands drug checking with new 24/7 facility using FTIR and GC-MS technology.",
+        "details": [
+          "Located in Downtown Eastside, open 24 hours",
+          "Free FTIR spectroscopy and GC-MS testing",
+          "Results in 10-15 minutes for FTIR, same day for GC-MS",
+          "Also offers fentanyl, benzodiazepine, and xylazine test strips",
+          "Anonymous service, no ID required",
+          "Part of BC's expanded harm reduction strategy"
+        ],
+        "regions": ["Canada - BC"],
+        "source": "BC Centre on Substance Use",
+        "source_url": null
+      },
+      {
+        "date": "2024-11-04",
+        "category": "Counterfeit Pills",
+        "priority": "high",
+        "title": "⚠️ Fake Adderall Pills Containing Meth - College Campuses",
+        "summary": "Orange oval pills stamped '30' sold as Adderall contain pure methamphetamine. Widespread on college campuses across multiple states.",
+        "details": [
+          "Pills designed to look like Adderall 30mg (orange, oval, '30' imprint)",
+          "Lab testing shows 85-95% methamphetamine, no amphetamine salts",
+          "Reported on campuses in CA, AZ, TX, FL, NY",
+          "Students reporting severe anxiety, insomnia, jaw clenching",
+          "Some pills also contain caffeine to mimic Adderall effects",
+          "NEVER trust pills from non-pharmacy sources during finals season"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "DEA Campus Safety Alert",
+        "source_url": null
+      },
+      {
+        "date": "2024-11-02",
+        "category": "Policy Update",
+        "priority": "high",
+        "title": "📜 New York Decriminalizes Fentanyl Test Strips Statewide",
+        "summary": "Governor signs bill removing fentanyl test strips from drug paraphernalia law. Now legal to possess and distribute.",
+        "details": [
+          "Effective immediately - FTS no longer considered paraphernalia",
+          "Harm reduction organizations can freely distribute",
+          "Cannot be used as evidence of drug possession",
+          "Pharmacies can now stock and sell test strips",
+          "Part of broader overdose prevention legislation package",
+          "NY joins 40+ states legalizing fentanyl test strips"
+        ],
+        "regions": ["USA - New York"],
+        "source": "New York State Legislature",
+        "source_url": null
+      },
+      {
+        "date": "2024-10-30",
+        "category": "Contamination Alert",
+        "priority": "high",
+        "title": "⚠️ High-Dose MDMA Pills Causing Hospitalizations - Netherlands",
+        "summary": "Blue 'Tesla' and Green 'Heineken' pills tested at 250-320mg MDMA - dangerous doses causing severe overheating.",
+        "details": [
+          "Blue Tesla: 280mg MDMA (dangerous - typical dose 80-120mg)",
+          "Green Heineken: 250-320mg MDMA per pill",
+          "At least 12 hospitalizations in past 2 weeks",
+          "Symptoms: Severe hyperthermia (overheating), seizures, confusion",
+          "DIMS lab confirmed extremely high doses",
+          "Recommend splitting pills, starting with 1/4 if using",
+          "Wait 2+ hours before redosing - these pills are dangerously strong"
+        ],
+        "regions": ["Netherlands"],
+        "source": "DIMS (Dutch Drug Information System)",
+        "source_url": "https://www.drugs-test.nl"
+      },
+      {
+        "date": "2024-10-27",
+        "category": "Research",
+        "priority": "normal",
+        "title": "🔬 Study: Harm Reduction Programs Reduce Overdose Deaths by 37%",
+        "summary": "Johns Hopkins study shows comprehensive harm reduction services cut overdose mortality significantly.",
+        "details": [
+          "10-year study across 15 US cities",
+          "Programs offering naloxone, test strips, and safe consumption saved lives",
+          "37% reduction in overdose deaths in areas with full services",
+          "Syringe services alone reduced HIV transmission by 58%",
+          "No increase in drug use rates in areas with harm reduction",
+          "Researchers recommend nationwide expansion of services"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "Johns Hopkins Bloomberg School of Public Health",
+        "source_url": "https://publichealth.jhu.edu"
+      },
+      {
+        "date": "2024-10-24",
+        "category": "Contamination Alert",
+        "priority": "critical",
+        "title": "🚨 Ketamine Contaminated with PCP - UK Rave Scene",
+        "summary": "Multiple ketamine samples testing positive for PCP. Users reporting violent behavior, extreme agitation instead of typical K-hole.",
+        "details": [
+          "WEDINOS confirmed PCP in 8 ketamine samples from Manchester, Bristol, London",
+          "PCP causes aggression, paranoia, dissociation - NOT calming like ketamine",
+          "Users reporting hours-long bad trips, violent outbursts",
+          "Impossible to tell apart visually - both white crystalline powders",
+          "Reagent test: Ketamine = purple on Mandelin, PCP = dark green/brown",
+          "If you experience agitation/aggression instead of sedation - it's NOT ketamine"
+        ],
+        "regions": ["UK - England"],
+        "source": "WEDINOS",
+        "source_url": "https://wedinos.org"
+      },
+      {
+        "date": "2024-10-22",
+        "category": "Service Launch",
+        "priority": "normal",
+        "title": "💡 Spain Launches Mobile Drug Testing Van - Festival Circuit",
+        "summary": "Energy Control debuts mobile lab van visiting music festivals across Spain with on-site testing.",
+        "details": [
+          "Fully equipped mobile lab with FTIR and reagent testing",
+          "Visits major festivals: Sónar, Primavera Sound, others",
+          "Results in 15-30 minutes on-site",
+          "Free service, no questions asked",
+          "Also distributes harm reduction materials",
+          "Plans to expand to Portugal and France in 2025"
+        ],
+        "regions": ["Spain"],
+        "source": "Energy Control",
+        "source_url": "https://energycontrol-international.org"
+      },
+      {
+        "date": "2024-10-18",
+        "category": "Policy Update",
+        "priority": "normal",
+        "title": "📜 Canada Approves Prescription Heroin Program Expansion",
+        "summary": "Health Canada expands injectable diacetylmorphine (pharmaceutical heroin) program to 10 more cities.",
+        "details": [
+          "Program provides pharmaceutical-grade heroin to patients who failed methadone/buprenorphine",
+          "Reduces overdose risk, HIV transmission, crime",
+          "Administered in clinical settings twice daily",
+          "Expanding from Vancouver to Toronto, Montreal, Calgary, others",
+          "Early data shows 90% retention rate vs 50% for methadone",
+          "Controversial but evidence-based harm reduction approach"
+        ],
+        "regions": ["Canada"],
+        "source": "Health Canada",
+        "source_url": null
+      },
+      {
+        "date": "2024-10-16",
+        "category": "Contamination Alert",
+        "priority": "high",
+        "title": "⚠️ LSD Blotter Containing NBOMe - West Coast Music Festivals",
+        "summary": "Blotter sold as LSD testing positive for 25I-NBOMe. Dangerous vasoconstrictor that can cause fatal overdose.",
+        "details": [
+          "Multiple samples from California, Oregon, Washington festivals",
+          "NBOMes cause severe vasoconstriction - can be lethal even at typical doses",
+          "Bitter/metallic taste (LSD is tasteless)",
+          "Ehrlich reagent test: LSD turns purple, NBOMe NO reaction",
+          "NBOMe overdoses: seizures, hyperthermia, cardiovascular collapse",
+          "If blotter tastes bitter - SPIT IT OUT immediately"
+        ],
+        "regions": ["USA - Pacific Northwest", "USA - California"],
+        "source": "DanceSafe",
+        "source_url": "https://dancesafe.org"
+      },
+      {
+        "date": "2024-10-12",
+        "category": "Community News",
+        "priority": "normal",
+        "title": "🎉 Harm Reduction Coalition Launches Peer Naloxone Distribution App",
+        "summary": "New smartphone app connects people with nearby naloxone carriers for emergency situations.",
+        "details": [
+          "Free app available on iOS and Android",
+          "Users can volunteer as naloxone carriers in their area",
+          "Emergency button connects to nearest carrier (like Uber for naloxone)",
+          "Privacy-focused: no real names, approximate locations only",
+          "Also includes overdose recognition training videos",
+          "Pilot program in 5 US cities, expanding nationally"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "Harm Reduction Coalition",
+        "source_url": null
+      },
+      {
+        "date": "2024-10-08",
+        "category": "Research",
+        "priority": "normal",
+        "title": "🔬 New Research: MDMA Shows Promise for PTSD Treatment",
+        "summary": "Phase 3 trials show MDMA-assisted therapy significantly reduces PTSD symptoms in 67% of participants.",
+        "details": [
+          "FDA reviewing data for potential approval in 2024-2025",
+          "Participants received 3 sessions of MDMA + therapy over 3 months",
+          "67% no longer met PTSD criteria after treatment",
+          "Pharmaceutical MDMA (pure, precise dosing) in clinical setting",
+          "NOT recreational use - supervised therapy sessions only",
+          "Could revolutionize PTSD treatment for veterans, trauma survivors"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "MAPS (Multidisciplinary Association for Psychedelic Studies)",
+        "source_url": "https://maps.org"
+      },
+      {
+        "date": "2024-10-04",
+        "category": "Contamination Alert",
+        "priority": "critical",
+        "title": "🚨 Cocaine Cut with Levamisole - Nationwide",
+        "summary": "Up to 90% of US cocaine supply contaminated with levamisole (cattle dewormer). Causes immune system damage.",
+        "details": [
+          "DrugsData testing shows 70-90% of cocaine contains levamisole",
+          "Levamisole destroys white blood cells - causes agranulocytosis",
+          "Symptoms: Infections, fever, sore throat, skin lesions that won't heal",
+          "Necrotic skin wounds especially on ears, nose, cheeks",
+          "No way to remove levamisole - it's added by cartels before US import",
+          "Acetone wash does NOT remove levamisole",
+          "Medical attention immediately if you develop infections/skin wounds"
+        ],
+        "regions": ["USA - Nationwide"],
+        "source": "DrugsData.org",
+        "source_url": "https://drugsdata.org"
+      },
+      {
+        "date": "2024-09-30",
+        "category": "Policy Update",
+        "priority": "high",
+        "title": "📜 Portugal Decriminalizes Drug Possession - 20 Year Results Published",
+        "summary": "Two-decade study shows Portugal's decriminalization reduced drug deaths, HIV, incarceration without increasing use.",
+        "details": [
+          "Drug use rates remained stable or decreased since 2001 decriminalization",
+          "HIV infections among people who inject drugs dropped 95%",
+          "Overdose deaths among lowest in Europe",
+          "Prison population for drug offenses dropped 90%",
+          "Money redirected from incarceration to treatment and harm reduction",
+          "Model being studied by other European countries"
+        ],
+        "regions": ["Portugal"],
+        "source": "European Monitoring Centre for Drugs and Drug Addiction",
+        "source_url": null
+      },
+      {
+        "date": "2024-09-25",
+        "category": "Service Launch",
+        "priority": "normal",
+        "title": "🎉 Austin Opens First Safe Consumption Site in Texas",
+        "summary": "Texas's first overdose prevention center opens despite legal gray area. Provides supervised space and medical monitoring.",
+        "details": [
+          "Located in downtown Austin harm reduction center",
+          "Supervised consumption spaces with medical staff present",
+          "Naloxone, oxygen, and emergency response available",
+          "Also offers wound care, HIV/HCV testing, referrals to treatment",
+          "Operating under harm reduction exception to paraphernalia laws",
+          "First in Southern US - NYC, Philadelphia, Rhode Island have similar sites"
+        ],
+        "regions": ["USA - Texas"],
+        "source": "Austin Public Health",
+        "source_url": null
       }
     ]
   },
