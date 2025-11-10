@@ -1145,13 +1145,11 @@ function News(){
   const {data} = useJSON('data/reagents.json');
   const [filter, setFilter] = useState('All');
   const [useLiveFeeds, setUseLiveFeeds] = useState(false);
-  const [showSettings, setShowSettings] = useState(false);
   
-  // Use live feeds if enabled and newsAggregator is available
+  // ALWAYS call the safe hook (Rules of Hooks) - it handles everything internally
+  // news-aggregator.js is loaded before app.js, so this function always exists
   const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, refresh } = 
-    useLiveFeeds && typeof useAggregatedNews !== 'undefined' 
-      ? useAggregatedNews() 
-      : { news: null, loading: false, error: null, lastUpdate: null, refresh: null };
+    useSafeAggregatedNews({ enabled: useLiveFeeds });
   
   if(!data?.news) return (
     <div className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-6">
@@ -1179,8 +1177,7 @@ function News(){
       </div>
 
       {/* Live Feeds Settings */}
-      {typeof useAggregatedNews !== 'undefined' && (
-        <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-4 space-y-3">
+      <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-4 space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <button
@@ -1230,7 +1227,6 @@ function News(){
             </div>
           )}
         </div>
-      )}
 
       {/* Category Filters */}
       {categories.length > 1 && (

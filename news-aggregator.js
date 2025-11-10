@@ -341,12 +341,21 @@ const newsAggregator = new NewsAggregator();
 
 // React hook for using aggregated news
 function useAggregatedNews(options = {}) {
+  const { enabled = true } = options;
   const [news, setNews] = React.useState(null);
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [lastUpdate, setLastUpdate] = React.useState(null);
 
   React.useEffect(() => {
+    // Don't fetch if disabled
+    if (!enabled) {
+      setNews(null);
+      setLoading(false);
+      setError(null);
+      return;
+    }
+
     let mounted = true;
 
     async function load() {
@@ -380,9 +389,11 @@ function useAggregatedNews(options = {}) {
       mounted = false;
       clearInterval(interval);
     };
-  }, []);
+  }, [enabled]);
 
   const refresh = React.useCallback(async () => {
+    if (!enabled) return;
+    
     setLoading(true);
     try {
       const result = await newsAggregator.fetchAllNews({ forceRefresh: true });
@@ -394,7 +405,79 @@ function useAggregatedNews(options = {}) {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [enabled]);
+
+  return { news, loading, error, lastUpdate, refresh };
+}
+
+// Safe wrapper hook that can ALWAYS be called (even if aggregator doesn't exist)
+// This prevents React Hooks violations
+function useSafeAggregatedNews(options = {}) {
+  const { enabled = false } = options;
+  const [news, setNews] = React.useState(null);
+  const [loading, setLoading] = React.useState(false);
+  const [error, setError] = React.useState(null);
+  const [lastUpdate, setLastUpdate] = React.useState(null);
+
+  React.useEffect(() => {
+    // Check if aggregator exists and is enabled
+    if (!enabled || typeof newsAggregator === 'undefined') {
+      setNews(null);
+      setLoading(false);
+      setError(null);
+      return;
+    }
+
+    let mounted = true;
+
+    async function load() {
+      try {
+        setLoading(true);
+        const result = await newsAggregator.fetchAllNews(options);
+        
+        if (mounted) {
+          setNews(result.articles || []);
+          setLastUpdate(new Date(result.timestamp));
+          setError(null);
+        }
+      } catch (err) {
+        if (mounted) {
+          setError(err);
+          console.error('News aggregation error:', err);
+        }
+      } finally {
+        if (mounted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    load();
+
+    // Auto-refresh every hour
+    const interval = setInterval(load, 3600000);
+
+    return () => {
+      mounted = false;
+      clearInterval(interval);
+    };
+  }, [enabled]);
+
+  const refresh = React.useCallback(async () => {
+    if (!enabled || typeof newsAggregator === 'undefined') return;
+    
+    setLoading(true);
+    try {
+      const result = await newsAggregator.fetchAllNews({ forceRefresh: true });
+      setNews(result.articles || []);
+      setLastUpdate(new Date(result.timestamp));
+      setError(null);
+    } catch (err) {
+      setError(err);
+    } finally {
+      setLoading(false);
+    }
+  }, [enabled]);
 
   return { news, loading, error, lastUpdate, refresh };
 }
