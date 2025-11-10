@@ -4764,7 +4764,18 @@
           }
         ]
       }
-    ]
+    ],
+    "bottom_line": {
+      "title": "Critical Takeaways",
+      "points": [
+        "Question everything you hear about drugs, especially from non-expert sources",
+        "Verify claims with evidence-based organizations (Erowid, DanceSafe, NIDA, etc.)",
+        "Dangerous myths persist because they sound plausible—always fact-check",
+        "When in doubt about safety, err on the side of caution and seek medical help",
+        "Harm reduction is about making informed decisions based on facts, not myths",
+        "Share accurate information to combat dangerous misinformation in your community"
+      ]
+    }
   },
   "news": {
     "title": "Harm Reduction News & Alerts",
