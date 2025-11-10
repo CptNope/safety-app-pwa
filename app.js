@@ -2305,6 +2305,104 @@ function Welcome(){
         </ul>
       </div>
 
+      <div className="rounded-2xl border-2 border-amber-500/50 bg-amber-500/10 p-5 space-y-4">
+        <h3 className="font-semibold text-lg text-amber-200 mb-2">⚠️ Current Trends and Emerging Threats</h3>
+        <p className="text-sm text-amber-100 mb-3">
+          Stay informed about the latest drug trends and emerging threats. Knowledge saves lives.
+        </p>
+
+        <div className="space-y-4 text-sm">
+          {/* Fentanyl Crisis */}
+          <div className="rounded-lg border border-red-400/40 bg-red-500/10 p-3">
+            <h4 className="font-semibold text-red-200 mb-2">🚨 Fentanyl Contamination Crisis</h4>
+            <p className="text-red-100 mb-2">Fentanyl and analogues are found in cocaine, methamphetamine, counterfeit pills, and heroin. Even trace amounts can be fatal.</p>
+            <div className="space-y-1 text-red-100">
+              <p>• <strong>Always use fentanyl test strips</strong> - Available free from harm reduction organizations</p>
+              <p>• <strong>CDC Fentanyl Data:</strong> <a href="https://www.cdc.gov/stopoverdose/fentanyl/index.html" target="_blank" rel="noopener noreferrer" className="hover:text-red-50 underline">CDC Fentanyl Facts</a></p>
+              <p>• <strong>DEA Alerts:</strong> <a href="https://www.dea.gov/fentanylawareness" target="_blank" rel="noopener noreferrer" className="hover:text-red-50 underline">DEA Fentanyl Awareness</a></p>
+            </div>
+          </div>
+
+          {/* Xylazine */}
+          <div className="rounded-lg border border-orange-400/40 bg-orange-500/10 p-3">
+            <h4 className="font-semibold text-orange-200 mb-2">⚡ Xylazine ("Tranq")</h4>
+            <p className="text-orange-100 mb-2">Veterinary sedative increasingly found in opioid supply. Causes severe skin wounds and doesn't respond to naloxone.</p>
+            <div className="space-y-1 text-orange-100">
+              <p>• Not detectable with standard fentanyl test strips</p>
+              <p>• Causes prolonged sedation even after naloxone</p>
+              <p>• <strong>FDA Alert:</strong> <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-approving-first-test-detect-xylazine" target="_blank" rel="noopener noreferrer" className="hover:text-orange-50 underline">Xylazine Information</a></p>
+              <p>• <strong>NIDA Research:</strong> <a href="https://nida.nih.gov/research-topics/xylazine" target="_blank" rel="noopener noreferrer" className="hover:text-orange-50 underline">Understanding Xylazine</a></p>
+            </div>
+          </div>
+
+          {/* Novel Synthetic Opioids */}
+          <div className="rounded-lg border border-purple-400/40 bg-purple-500/10 p-3">
+            <h4 className="font-semibold text-purple-200 mb-2">💊 Novel Synthetic Opioids (Nitazenes)</h4>
+            <p className="text-purple-100 mb-2">New ultra-potent synthetic opioids (isotonitazene, metonitazene) appearing in drug supply. More potent than fentanyl.</p>
+            <div className="space-y-1 text-purple-100">
+              <p>• May not show on fentanyl test strips</p>
+              <p>• Extremely dangerous - higher overdose risk</p>
+              <p>• <strong>UNODC Report:</strong> <a href="https://www.unodc.org/unodc/en/scientists/new-synthetic-opioids.html" target="_blank" rel="noopener noreferrer" className="hover:text-purple-50 underline">Synthetic Opioid Alerts</a></p>
+              <p>• <strong>EMCDDA Alerts:</strong> <a href="https://www.emcdda.europa.eu/drugs" target="_blank" rel="noopener noreferrer" className="hover:text-purple-50 underline">European Drug Report</a></p>
+            </div>
+          </div>
+
+          {/* Counterfeit Pills */}
+          <div className="rounded-lg border border-yellow-400/40 bg-yellow-500/10 p-3">
+            <h4 className="font-semibold text-yellow-200 mb-2">💊 Counterfeit Prescription Pills</h4>
+            <p className="text-yellow-100 mb-2">Fake Xanax, Percocet, Adderall widely available. Often contain fentanyl or methamphetamine instead of labeled drug.</p>
+            <div className="space-y-1 text-yellow-100">
+              <p>• <strong>DEA "One Pill Can Kill":</strong> <a href="https://www.dea.gov/onepill" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-50 underline">DEA Counterfeit Pills Warning</a></p>
+              <p>• Test EVERY pill - even if from "trusted" source</p>
+              <p>• Visual identification is NOT reliable</p>
+              <p>• <strong>PillSync:</strong> <a href="https://www.pillsync.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-50 underline">Pill Identification Database</a></p>
+            </div>
+          </div>
+
+          {/* Novel Psychoactive Substances */}
+          <div className="rounded-lg border border-cyan-400/40 bg-cyan-500/10 p-3">
+            <h4 className="font-semibold text-cyan-200 mb-2">🧪 Novel Psychoactive Substances (NPS)</h4>
+            <p className="text-cyan-100 mb-2">New synthetic drugs (synthetic cannabinoids, cathinones, benzimidazoles) with unpredictable effects.</p>
+            <div className="space-y-1 text-cyan-100">
+              <p>• <strong>EMCDDA NPS Monitoring:</strong> <a href="https://www.emcdda.europa.eu/drugs/drug-profiles_en" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-50 underline">NPS Database</a></p>
+              <p>• <strong>UNODC Early Warning:</strong> <a href="https://www.unodc.org/LSS/Home/NPS" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-50 underline">NPS Early Warning System</a></p>
+              <p>• Rapidly evolving - hard to test with standard reagents</p>
+              <p>• Lab testing recommended for unknown substances</p>
+            </div>
+          </div>
+
+          {/* Benzodiazepine Analogues */}
+          <div className="rounded-lg border border-blue-400/40 bg-blue-500/10 p-3">
+            <h4 className="font-semibold text-blue-200 mb-2">💤 Designer Benzodiazepines</h4>
+            <p className="text-blue-100 mb-2">Unregulated benzos (flualprazolam, etizolam, clonazolam) sold as "research chemicals" or in counterfeit pills.</p>
+            <div className="space-y-1 text-blue-100">
+              <p>• Much more potent than pharmaceutical benzos</p>
+              <p>• Long half-lives - prolonged effects</p>
+              <p>• Severe withdrawal risk</p>
+              <p>• <strong>Research Articles:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer" className="hover:text-blue-50 underline">PubMed Benzodiazepine Research</a></p>
+            </div>
+          </div>
+
+          {/* High-Potency Cannabis */}
+          <div className="rounded-lg border border-green-400/40 bg-green-500/10 p-3">
+            <h4 className="font-semibold text-green-200 mb-2">🌿 High-Potency THC Products</h4>
+            <p className="text-green-100 mb-2">Concentrates, dabs, vapes with 70-99% THC. Delta-8, Delta-10, and synthetic cannabinoids in products.</p>
+            <div className="space-y-1 text-green-100">
+              <p>• Much higher than traditional cannabis (15-20% THC)</p>
+              <p>• Increased risk of psychosis, anxiety, dependence</p>
+              <p>• <strong>FDA Delta-8 Warning:</strong> <a href="https://www.fda.gov/consumers/consumer-updates/5-things-know-about-delta-8-tetrahydrocannabinol-delta-8-thc" target="_blank" rel="noopener noreferrer" className="hover:text-green-50 underline">Delta-8 THC Safety</a></p>
+              <p>• <strong>NIDA Cannabis Research:</strong> <a href="https://nida.nih.gov/research-topics/cannabis-marijuana" target="_blank" rel="noopener noreferrer" className="hover:text-green-50 underline">Cannabis & Health</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-4 rounded-lg border border-amber-400/40 bg-amber-500/5 p-3">
+          <p className="text-sm text-amber-100">
+            <strong>💡 Stay Updated:</strong> Follow alerts from <a href="https://www.drugsdata.org" target="_blank" rel="noopener noreferrer" className="hover:text-amber-50 underline font-semibold">DrugsData</a>, <a href="https://www.psychonautwiki.org" target="_blank" rel="noopener noreferrer" className="hover:text-amber-50 underline font-semibold">PsychonautWiki</a>, and your local harm reduction organizations. Subscribe to email alerts for dangerous batches in your area.
+          </p>
+        </div>
+      </div>
+
       <div className="rounded-2xl border border-white/10 p-5 bg-white/5">
         <h3 className="font-semibold text-lg text-white mb-2">📱 Offline Access</h3>
         <p className="text-sm text-gray-300 mb-3">
