@@ -1569,6 +1569,72 @@
         }
       }
     },
+    "Bromo-DragonFLY": {
+      "class": "phenethylamine (psychedelic)",
+      "description": {
+        "overview": "Bromo-DragonFLY (DOB-DragonFLY) is an extremely potent and dangerous synthetic psychedelic with an extraordinarily long duration of 18-36+ hours. Named for its molecular structure resembling a dragonfly, it has been responsible for multiple deaths due to overdose, extreme vasoconstriction, and being mis-sold as other substances. Active in sub-milligram doses with a very narrow safety margin.",
+        "origins": "Synthesized in 1998 by Matthew Parker at Purdue University as part of research on serotonin receptor binding. Never intended for human consumption. Appeared on the recreational market in the mid-2000s, often mis-sold as 2C-B-FLY or LSD. Multiple deaths and severe injuries in 2008-2009 led to emergency scheduling in many countries. Remains available but rare.",
+        "uses": "No medical use. Recreational: Intense, extremely long-lasting psychedelic experiences. Effects can persist 24-36 hours or longer. Some users sought it for its unique visual and mental effects, but extreme duration, narrow dosing window, and severe dangers have made it highly discouraged by harm reduction communities. Often consumed unknowingly when sold as safer substances.",
+        "dangers": "EXTREMELY DANGEROUS—multiple deaths and serious injuries reported. Causes severe vasoconstriction leading to tissue necrosis, limb amputation, seizures, hyperthermia, and death. Duration of 18-36+ hours makes bad trips prolonged nightmares. Extremely dose-sensitive: difference between threshold and dangerous dose is tiny (200-800mcg range). Often mis-sold as 2C-B-FLY, LSD, or other psychedelics. Onset can take 2-6 hours, leading users to redose and overdose fatally. Physiological effects include extreme vasoconstriction, tissue damage, potential organ failure. Psychological effects: terror, confusion, psychosis lasting days. No antidote. Medical intervention may be required for days. Considered one of the most dangerous research chemicals. AVOID—multiple safer alternatives exist.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Bromo-DragonFLY",
+          "erowid": "https://www.erowid.org/chemicals/bromo_dragonfly/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Bromo-DragonFLY"
+        },
+        "scientific_papers": [
+          {
+            "title": "Bromo-dragonFLY: a case report of a new psychoactive substance",
+            "authors": "Corazza O, et al.",
+            "journal": "Human Psychopharmacology",
+            "year": 2012,
+            "summary": "Case report documenting severe toxicity including seizures and prolonged effects from Bromo-DragonFLY"
+          },
+          {
+            "title": "Severe toxicity following Bromo-DragonFLY intoxication",
+            "authors": "Wood DM, et al.",
+            "journal": "Clinical Toxicology",
+            "year": 2009,
+            "summary": "Documentation of multiple Bromo-DragonFLY poisonings including deaths and amputations"
+          }
+        ]
+      },
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow-green (similar to 2C-x)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#808080",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "gray-green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green"
+        }
+      ],
+      "notes": [
+        "EXTREMELY DANGEROUS: Multiple deaths. Extreme vasoconstriction, 18-36+ hour duration. Often mis-sold. AVOID. Reagent tests cannot distinguish from 2C-B-FLY."
+      ]
+    },
     "Clonazepam": {
       "class": "benzodiazepine",
       "description": {
