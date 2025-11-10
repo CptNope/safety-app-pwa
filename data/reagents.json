@@ -503,7 +503,8 @@
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/3,4-Methylenedioxyamphetamine",
           "erowid": "https://www.erowid.org/chemicals/mda/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/MDA"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/MDA",
+          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal132.shtml"
         },
         "scientific_papers": [
           {
@@ -662,7 +663,8 @@
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/2C-B",
           "erowid": "https://www.erowid.org/chemicals/2cb/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/2C-B",
+          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal020.shtml"
         },
         "scientific_papers": [
           {
@@ -811,7 +813,8 @@
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/Psilocybin",
           "erowid": "https://www.erowid.org/plants/mushrooms/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Psilocybin",
+          "tihkal": "https://www.erowid.org/library/books_online/tihkal/tihkal16.shtml"
         },
         "scientific_papers": [
           {
@@ -1090,7 +1093,8 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/N,N-Dimethyltryptamine",
         "erowid": "https://www.erowid.org/chemicals/dmt/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/DMT"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/DMT",
+        "tihkal": "https://www.erowid.org/library/books_online/tihkal/tihkal06.shtml"
       },
       "scientific_papers": [
         {
@@ -1347,7 +1351,8 @@
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/Mescaline",
           "erowid": "https://www.erowid.org/chemicals/mescaline/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Mescaline",
+          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal096.shtml"
         },
         "scientific_papers": [
           {
