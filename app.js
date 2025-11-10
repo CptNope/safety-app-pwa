@@ -1145,6 +1145,7 @@ function News(){
   const {data} = useJSON('data/reagents.json');
   const [filter, setFilter] = useState('All');
   const [regionFilter, setRegionFilter] = useState('All Regions');
+  const [preferredRegion, setPreferredRegion] = useState('All Regions'); // Pre-aggregation filter
   const [useLiveFeeds, setUseLiveFeeds] = useState(false);
   const [detectedRegion, setDetectedRegion] = useState(null);
   const [geoError, setGeoError] = useState(null);
@@ -1152,8 +1153,14 @@ function News(){
   
   // ALWAYS call the safe hook (Rules of Hooks) - it handles everything internally
   // news-aggregator.js is loaded before app.js, so this function always exists
+  // Pass preferredRegion to aggregator for location-aware news fetching
   const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, pagination, refresh } = 
-    useSafeAggregatedNews({ enabled: useLiveFeeds, limit: null, offset: 0 }); // Get all for now
+    useSafeAggregatedNews({ 
+      enabled: useLiveFeeds, 
+      limit: null, 
+      offset: 0,
+      preferredRegion: preferredRegion !== 'All Regions' ? preferredRegion : null
+    });
   
   // Detect user location (optional)
   const detectLocation = () => {
@@ -1181,7 +1188,8 @@ function News(){
         }
         
         setDetectedRegion(region);
-        setRegionFilter(region);
+        setPreferredRegion(region); // Set for live feed aggregation
+        setRegionFilter(region); // Set for post-filter display
       },
       (error) => {
         setGeoError(error.message);
@@ -1268,11 +1276,75 @@ function News(){
               </button>
             )}
           </div>
+
+          {/* Location Preference for News Aggregation */}
+          <div className="border-t border-cyan-500/20 pt-3 space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="text-xs font-medium text-cyan-300">📍 News Location Preference</div>
+              <button
+                onClick={detectLocation}
+                className="px-2 py-1 rounded text-xs bg-cyan-500/20 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/30 transition flex items-center gap-1"
+              >
+                🌍 Auto-Detect
+              </button>
+            </div>
+            
+            {detectedRegion && (
+              <div className="text-xs text-cyan-300 bg-cyan-500/10 rounded px-2 py-1">
+                ✓ Detected: {detectedRegion}
+              </div>
+            )}
+            
+            <select
+              value={preferredRegion}
+              onChange={(e) => {
+                setPreferredRegion(e.target.value);
+                setRegionFilter(e.target.value);
+              }}
+              className="w-full px-3 py-2 text-sm rounded-lg bg-gray-800 border border-cyan-500/30 text-cyan-100 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            >
+              <option value="All Regions">🌍 All Regions (Global News)</option>
+              <optgroup label="🇺🇸 United States">
+                <option value="USA - Nationwide">USA - Nationwide</option>
+                <option value="USA - Massachusetts">Massachusetts (Boston, Worcester)</option>
+                <option value="USA - East Coast">East Coast (NY, NJ, PA, MA)</option>
+                <option value="USA - Pacific Northwest">Pacific Northwest (WA, OR)</option>
+                <option value="USA - California">California</option>
+                <option value="USA - Southwest">Southwest (AZ, NV, NM)</option>
+                <option value="USA - Texas">Texas</option>
+                <option value="USA - Illinois">Illinois (Chicago)</option>
+                <option value="USA - New York">New York</option>
+              </optgroup>
+              <optgroup label="🇨🇦 Canada">
+                <option value="Canada">Canada - Nationwide</option>
+                <option value="Canada - BC">British Columbia (Vancouver)</option>
+                <option value="Canada - Ontario">Ontario (Toronto)</option>
+              </optgroup>
+              <optgroup label="🇬🇧 United Kingdom">
+                <option value="UK - England">England</option>
+                <option value="UK - Scotland">Scotland</option>
+              </optgroup>
+              <optgroup label="🌍 Europe">
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Portugal">Portugal</option>
+              </optgroup>
+            </select>
+            
+            <div className="text-xs text-gray-400">
+              {preferredRegion !== 'All Regions' ? (
+                <>✅ Fetching news relevant to <span className="text-cyan-300 font-medium">{preferredRegion}</span></>
+              ) : (
+                <>Showing global news from all regions</>
+              )}
+            </div>
+          </div>
           
           {useLiveFeeds && lastUpdate && (
-            <div className="text-xs text-gray-400">
+            <div className="text-xs text-gray-400 border-t border-cyan-500/20 pt-2">
               Last updated: {lastUpdate.toLocaleTimeString()} • 
-              Sources: DrugsData, FDA, DanceSafe, Erowid, NIDA, DPA
+              Sources: DrugsData, FDA, DanceSafe, Erowid, NIDA, DPA, SAMHSA, MAPS, Filter, Drug Science UK
             </div>
           )}
           

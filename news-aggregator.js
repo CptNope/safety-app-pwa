@@ -157,12 +157,14 @@ class NewsAggregator {
       maxAge = this.cacheExpiry, 
       forceRefresh = false,
       limit = null, // null = all articles
-      offset = 0
+      offset = 0,
+      preferredRegion = null // Filter by region
     } = options;
     
-    // Check cache first
-    if (!forceRefresh && this.isCacheValid('all', maxAge)) {
-      const cached = this.cache.get('all');
+    // Check cache first (but re-filter if region changed)
+    const cacheKey = preferredRegion ? `all-${preferredRegion}` : 'all';
+    if (!forceRefresh && this.isCacheValid(cacheKey, maxAge)) {
+      const cached = this.cache.get(cacheKey);
       return this.paginateResults(cached, limit, offset);
     }
 
@@ -176,16 +178,36 @@ class NewsAggregator {
       )
     );
 
-    // Combine and sort all articles
-    const allArticles = results
+    // Combine all articles
+    let allArticles = results
       .filter(r => r.status === 'fulfilled')
-      .flatMap(r => r.value || [])
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
+      .flatMap(r => r.value || []);
+
+    // Filter by preferred region if specified
+    if (preferredRegion) {
+      allArticles = allArticles.filter(article => {
+        // Keep articles with no regions (generic/global)
+        if (!article.regions || article.regions.length === 0) return true;
+        
+        // Keep articles that match the preferred region
+        return article.regions.some(region => 
+          region === preferredRegion ||
+          region.includes(preferredRegion) ||
+          preferredRegion.includes(region) ||
+          region === 'USA - Nationwide' && preferredRegion.startsWith('USA') ||
+          region === 'Canada' && preferredRegion.startsWith('Canada')
+        );
+      });
+    }
+
+    // Sort by date
+    allArticles = allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     // Cache results
     const cacheData = {
       articles: allArticles,
       timestamp: Date.now(),
+      preferredRegion,
       sources: results.map((r, i) => ({
         name: enabledSources[i][0],
         status: r.status,
@@ -193,7 +215,7 @@ class NewsAggregator {
       }))
     };
     
-    this.cache.set('all', cacheData);
+    this.cache.set(cacheKey, cacheData);
 
     return this.paginateResults(cacheData, limit, offset);
   }
