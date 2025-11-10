@@ -2511,6 +2511,196 @@ function Resources(){
           <li className="flex gap-2"><span>•</span><span><strong>High-Risk Alerts:</strong> Pay special attention to warnings about dangerous substances</span></li>
         </ul>
       </div>
+
+      {/* Harm Reduction Organizations */}
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-5 mt-6">
+        <h2 className="text-xl font-bold text-emerald-200 mb-2">🤝 Harm Reduction Organizations</h2>
+        <p className="text-sm text-emerald-100 mb-4">
+          National and international organizations providing education, support, and advocacy for safer substance use.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇺🇸 DanceSafe</h3>
+          <p className="text-sm text-gray-300 mb-2">Promotes health and safety within nightlife and electronic music community. Sells testing kits, provides education, on-site services at events.</p>
+          <a href="https://dancesafe.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇺🇸 Harm Reduction Coalition</h3>
+          <p className="text-sm text-gray-300 mb-2">National advocacy organization promoting harm reduction. Resources, training, syringe exchange support, overdose prevention.</p>
+          <a href="https://harmreduction.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🌍 Erowid</h3>
+          <p className="text-sm text-gray-300 mb-2">Comprehensive online library documenting psychoactive substances. Experience reports, dosage information, research, safety guides.</p>
+          <a href="https://erowid.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibent text-white mb-2">🌍 PsychonautWiki</h3>
+          <p className="text-sm text-gray-300 mb-2">Community-driven encyclopedia of psychoactive substances. Detailed pharmacology, effects, dosages, combinations, safety information.</p>
+          <a href="https://psychonautwiki.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇨🇦 TRIP! Project</h3>
+          <p className="text-sm text-gray-300 mb-2">Toronto Raves Integrated Project. Harm reduction at events, drug checking, peer support, education for party-goers.</p>
+          <a href="https://www.tripproject.ca" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Visit Website</a>
+        </div>
+      </div>
+
+      {/* Crisis Hotlines & Support */}
+      <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-5 mt-6">
+        <h2 className="text-xl font-bold text-red-200 mb-2">📞 Crisis Hotlines & Support</h2>
+        <p className="text-sm text-red-100 mb-4">
+          24/7 helplines for overdose response, mental health crises, substance use support, and harm reduction guidance.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🚨 National Poison Control</h3>
+          <p className="text-sm text-gray-300 mb-2">24/7 expert assistance for poisonings and overdoses. Medical advice, triage, guidance.</p>
+          <div className="flex gap-2 flex-wrap">
+            <a href="tel:1-800-222-1222" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">📞 1-800-222-1222</a>
+            <a href="https://www.poison.org" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">Visit Website</a>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🆘 SAMHSA National Helpline</h3>
+          <p className="text-sm text-gray-300 mb-2">Free, confidential, 24/7 treatment referral and information service for substance use and mental health.</p>
+          <div className="flex gap-2 flex-wrap">
+            <a href="tel:1-800-662-4357" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">📞 1-800-662-HELP (4357)</a>
+            <a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">Visit Website</a>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">💬 Crisis Text Line</h3>
+          <p className="text-sm text-gray-300 mb-2">Free, 24/7 crisis support via text. Trained counselors for any crisis including substance use.</p>
+          <div className="flex gap-2 flex-wrap">
+            <span className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200">Text HOME to 741741</span>
+            <a href="https://www.crisistextline.org" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">Visit Website</a>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇨🇦 Canada Drug Rehab</h3>
+          <p className="text-sm text-gray-300 mb-2">Canadian substance use support, referrals, crisis intervention. Bilingual English/French.</p>
+          <div className="flex gap-2 flex-wrap">
+            <a href="tel:1-877-254-3348" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">📞 1-877-254-3348</a>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇬🇧 Frank UK</h3>
+          <p className="text-sm text-gray-300 mb-2">UK drug advice and support. Confidential information about drugs, their effects, and where to get help.</p>
+          <div className="flex gap-2 flex-wrap">
+            <a href="tel:0300-123-6600" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">📞 0300 123 6600</a>
+            <a href="https://www.talktofrank.com" target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs rounded-lg bg-red-500/20 border border-red-400/40 text-red-200 hover:bg-red-500/30 transition">Visit Website</a>
+          </div>
+        </div>
+      </div>
+
+      {/* Naloxone & Overdose Prevention */}
+      <div className="rounded-2xl border-2 border-blue-500/50 bg-blue-500/10 p-5 mt-6">
+        <h2 className="text-xl font-bold text-blue-200 mb-2">💉 Naloxone Distribution & Training</h2>
+        <p className="text-sm text-blue-100 mb-4">
+          Free naloxone (Narcan) programs and overdose response training. Naloxone reverses opioid overdoses and saves lives.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇺🇸 NEXT Distro</h3>
+          <p className="text-sm text-gray-300 mb-2">Mail-order harm reduction supplies. Free naloxone, fentanyl test strips, safer use supplies shipped discreetly.</p>
+          <a href="https://nextdistro.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 hover:bg-blue-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇺🇸 GetNaloxoneNow.org</h3>
+          <p className="text-sm text-gray-300 mb-2">Find free naloxone near you. Search by ZIP code for local distribution programs, pharmacies, training events.</p>
+          <a href="https://www.getnaloxonenow.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 hover:bg-blue-500/30 transition">Find Naloxone</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇺🇸 Narcan Direct</h3>
+          <p className="text-sm text-gray-300 mb-2">Order free Narcan (naloxone nasal spray) by mail. No ID or insurance required. Ships to all 50 states.</p>
+          <a href="https://narcandirect.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 hover:bg-blue-500/30 transition">Order Free Narcan</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇨🇦 Take Home Naloxone</h3>
+          <p className="text-sm text-gray-300 mb-2">Canadian program providing free naloxone kits and training. Available at pharmacies, community health centers.</p>
+          <a href="https://www.canada.ca/en/health-canada/services/opioids/naloxone.html" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 hover:bg-blue-500/30 transition">Learn More</a>
+        </div>
+      </div>
+
+      {/* Mobile Apps */}
+      <div className="rounded-2xl border-2 border-cyan-500/50 bg-cyan-500/10 p-5 mt-6">
+        <h2 className="text-xl font-bold text-cyan-200 mb-2">📱 Mobile Apps for Harm Reduction</h2>
+        <p className="text-sm text-cyan-100 mb-4">
+          Apps for drug identification, dosage calculation, interaction checking, and overdose prevention.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📱 Canary - Overdose Detection</h3>
+          <p className="text-sm text-gray-300 mb-2">Motion-detection app for solo use. Alerts emergency contact if you stop moving. Free, iOS/Android.</p>
+          <a href="https://canaryapp.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Download App</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📱 KnowYourStuffNZ</h3>
+          <p className="text-sm text-gray-300 mb-2">New Zealand drug checking app. Submit photos, get alerts, view test results from community drug checking services.</p>
+          <a href="https://knowyourstuff.nz/app/" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Learn More</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📱 Drugs Meter</h3>
+          <p className="text-sm text-gray-300 mb-2">Dosage calculator, interaction checker, substance information. Covers 500+ substances with safety profiles.</p>
+          <a href="https://drugs-meter.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Visit Website</a>
+        </div>
+      </div>
+
+      {/* Research & Education */}
+      <div className="rounded-2xl border-2 border-indigo-500/50 bg-indigo-500/10 p-5 mt-6">
+        <h2 className="text-xl font-bold text-indigo-200 mb-2">🔬 Research & Educational Resources</h2>
+        <p className="text-sm text-indigo-100 mb-4">
+          Evidence-based information, academic research, and professional training in harm reduction and drug science.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔬 NIDA (National Institute on Drug Abuse)</h3>
+          <p className="text-sm text-gray-300 mb-2">Federal research institute. Evidence-based information on drugs, addiction science, treatment approaches.</p>
+          <a href="https://nida.nih.gov" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇪🇺 EMCDDA (European Monitoring Centre)</h3>
+          <p className="text-sm text-gray-300 mb-2">EU agency for drugs and drug addiction. Data, analysis, alerts on European drug situation.</p>
+          <a href="https://www.emcdda.europa.eu" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇬🇧 Drug Science UK</h3>
+          <p className="text-sm text-gray-300 mb-2">Independent UK research charity. Evidence-based drug policy, safety information, harm reduction research.</p>
+          <a href="https://www.drugscience.org.uk" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📚 The Loop</h3>
+          <p className="text-sm text-gray-300 mb-2">UK drug safety testing organization. Multi-agency harm reduction service providing on-site testing at festivals and events.</p>
+          <a href="https://wearetheloop.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+      </div>
     </div>
   );
 }
