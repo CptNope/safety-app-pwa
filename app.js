@@ -1165,6 +1165,13 @@ function News(){
     maps: true,
     filterforwards: true,
     drugscience: true,
+    cdc_overdose: true,
+    harmreduction: true,
+    transform: true,
+    talkingdrugs: true,
+    releaseuk: true,
+    ssdp: true,
+    emcdda: true,
     newsapi: false, // Disabled by default (requires API key)
     local: true
   });
@@ -1395,14 +1402,21 @@ function News(){
                     { key: 'drugsdata', label: 'DrugsData.org', type: 'Lab Results' },
                     { key: 'fda_recalls', label: 'FDA Recalls', type: 'Safety' },
                     { key: 'fda_safety', label: 'FDA Safety', type: 'Safety' },
+                    { key: 'cdc_overdose', label: 'CDC Overdose', type: 'Federal' },
                     { key: 'dancesafe', label: 'DanceSafe', type: 'Community' },
+                    { key: 'harmreduction', label: 'Harm Reduction Coalition', type: 'Community' },
                     { key: 'erowid', label: 'Erowid', type: 'Research' },
                     { key: 'dpa', label: 'Drug Policy Alliance', type: 'Policy' },
+                    { key: 'transform', label: 'Transform Drug Policy', type: 'Policy' },
+                    { key: 'talkingdrugs', label: 'TalkingDrugs', type: 'Policy' },
+                    { key: 'ssdp', label: 'SSDP', type: 'Policy' },
                     { key: 'nida', label: 'NIDA', type: 'Research' },
                     { key: 'samhsa', label: 'SAMHSA', type: 'Federal' },
                     { key: 'maps', label: 'MAPS', type: 'Research' },
+                    { key: 'emcdda', label: 'EMCDDA (EU)', type: 'Research' },
                     { key: 'filterforwards', label: 'Filter Magazine', type: 'Journalism' },
                     { key: 'drugscience', label: 'Drug Science UK', type: 'Research' },
+                    { key: 'releaseuk', label: 'Release UK', type: 'Community' },
                     { key: 'newsapi', label: 'NewsAPI.org', type: 'Aggregator' }
                   ].map(source => (
                     <label key={source.key} className="flex items-center gap-2 text-xs cursor-pointer hover:bg-cyan-500/10 rounded p-1.5 transition">

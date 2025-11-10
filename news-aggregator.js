@@ -121,6 +121,76 @@ class NewsAggregator {
         enabled: true
       },
 
+      // CDC Overdose Prevention
+      cdc_overdose: {
+        type: 'rss',
+        name: 'CDC Overdose Prevention',
+        url: 'https://tools.cdc.gov/api/v2/resources/media/132608.rss',
+        category: 'Safety Alerts',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Harm Reduction Coalition
+      harmreduction: {
+        type: 'rss',
+        name: 'Harm Reduction Coalition',
+        url: 'https://harmreduction.org/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Transform Drug Policy Foundation (UK)
+      transform: {
+        type: 'rss',
+        name: 'Transform Drug Policy',
+        url: 'https://transformdrugs.org/feed/',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // TalkingDrugs (International)
+      talkingdrugs: {
+        type: 'rss',
+        name: 'TalkingDrugs',
+        url: 'https://www.talkingdrugs.org/feed',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Release UK (Legal & HR)
+      releaseuk: {
+        type: 'rss',
+        name: 'Release UK',
+        url: 'https://www.release.org.uk/feed',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Students for Sensible Drug Policy
+      ssdp: {
+        type: 'rss',
+        name: 'SSDP',
+        url: 'https://ssdp.org/feed/',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // European Monitoring Centre for Drugs
+      emcdda: {
+        type: 'rss',
+        name: 'EMCDDA',
+        url: 'https://www.emcdda.europa.eu/rss.xml',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
       // News API Integration (requires API key, optional)
       newsapi: {
         type: 'newsapi',
