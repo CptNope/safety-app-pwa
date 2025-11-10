@@ -2108,6 +2108,142 @@
         "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
       ]
     },
+    "25C-NBOMe": {
+      "class": "phenethylamine (NBOMe series)",
+      "description": {
+        "overview": "25C-NBOMe (2C-C-NBOMe) is a potent synthetic psychedelic from the NBOMe series, similar to 25I-NBOMe but derived from 2C-C. Often sold as 'LSD' on blotter. Produces intense visuals and stimulation with significant dangers. Multiple deaths reported. Bitter/metallic taste and severe tongue numbness distinguish it from LSD. Active at sub-milligram doses.",
+        "origins": "Synthesized in 2003 by Ralf Heim at Free University of Berlin for serotonin receptor research, never intended for human consumption. Appeared on research chemical market around 2010 alongside 25I-NBOMe as 'legal LSD alternative.' Multiple deaths 2012-2015 led to emergency scheduling. Part of NBOMe series (25I, 25C, 25B) all with similar dangers. Often mis-sold as LSD putting unsuspecting users at risk.",
+        "uses": "No medical use. Recreational: Intense visual hallucinations, stimulation, euphoria. Often consumed unknowingly when sold as LSD. Typical dose 400-800mcg on blotter. Effects 6-10 hours. Some users sought NBOMes specifically for intense visuals before deaths became widely known. Harm reduction communities strongly discourage all NBOMe use and emphasize testing all 'LSD' with Ehrlich reagent.",
+        "dangers": "CAN BE FATAL—multiple deaths reported at doses barely above recreational amounts. Causes severe vasoconstriction leading to seizures, hyperthermia, multi-organ failure, death. Significantly more dangerous than LSD, psilocybin, or mescaline. Bitter/metallic taste and tongue numbness are warning signs (LSD is tasteless—only ink/paper taste). Ehrlich reagent shows NO reaction to NBOMes (LSD turns purple). Physical effects: dangerous increases in heart rate and blood pressure, stroke/heart attack risk. Psychological: anxiety, paranoia, panic, bad trips. Some users died from single 'common' doses. Unpredictable response between individuals. Often mis-sold as LSD. CRITICAL: If blotter tastes bitter or numbs tongue, SPIT IT OUT.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/25C-NBOMe",
+          "erowid": "https://www.erowid.org/chemicals/nbome/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/25C-NBOMe"
+        },
+        "scientific_papers": [
+          {
+            "title": "NBOMes: pharmacology, toxicology, and deaths",
+            "authors": "Lawn W, et al.",
+            "journal": "Forensic Science International",
+            "year": 2014,
+            "summary": "Comprehensive review documenting deaths associated with entire NBOMe series including 25C-NBOMe"
+          }
+        ]
+      },
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFFE0",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "pale yellow→yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "no reaction (NOT an indole)"
+        }
+      ],
+      "notes": [
+        "DANGEROUS: Often mis-sold as LSD. Bitter/numbing taste. Can be fatal. Ehrlich test essential—LSD reacts, NBOMe does NOT."
+      ]
+    },
+    "25B-NBOMe": {
+      "class": "phenethylamine (NBOMe series)",
+      "description": {
+        "overview": "25B-NBOMe (2C-B-NBOMe) is a potent synthetic psychedelic from the NBOMe series, derived from 2C-B. Often sold as 'LSD' or '2C-B' on blotter. Produces intense visuals but with significant dangers. Multiple deaths reported. Bitter/metallic taste and severe tongue numbness. Active at sub-milligram doses. Less common than 25I or 25C but equally dangerous.",
+        "origins": "Synthesized in 2003 by Ralf Heim for research, never intended for human use. Appeared on research chemical market around 2010-2011 as part of NBOMe series. Less popular than 25I-NBOMe but still caused deaths and hospitalizations. Emergency scheduled along with other NBOMes 2013-2016 depending on country. Often confused with actual 2C-B despite being much more dangerous.",
+        "uses": "No medical use. Recreational: Intense visual hallucinations, stimulation, sometimes sold as '2C-B' or 'LSD.' Typical dose 500-1000mcg. Effects 6-10 hours. Some users thought they were getting safer 2C-B but received dangerous NBOMe instead. Less sought-after than 25I-NBOMe but still appeared on blotter. Testing essential—cannot distinguish from LSD or 2C-B by appearance.",
+        "dangers": "CAN BE FATAL—deaths reported though less common than 25I-NBOMe. Severe vasoconstriction, seizures, hyperthermia, cardiovascular stress. More dangerous than the 2C-B it's derived from. Bitter/metallic taste and tongue numbness (2C-B powder also bitter but NBOMe on blotter shouldn't be). Ehrlich shows NO reaction (differentiates from LSD). Unpredictable potency—deaths from doses thought to be safe. Often mis-sold as actual 2C-B or LSD. Physical effects dangerous: increased heart rate/BP, stroke risk. Psychological: anxiety, panic, bad trips. CRITICAL: Test all blotter with Ehrlich. If bitter on blotter, SPIT OUT.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/25B-NBOMe",
+          "erowid": "https://www.erowid.org/chemicals/nbome/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/25B-NBOMe"
+        },
+        "scientific_papers": [
+          {
+            "title": "The NBOMe series: structure, toxicity, and fatalities",
+            "authors": "Zawilska JB, Wojcieszak J",
+            "journal": "Neurotoxicology",
+            "year": 2013,
+            "summary": "Review of NBOMe series including 25B-NBOMe, documenting toxicity and deaths"
+          }
+        ]
+      },
+      "forms": [
+        "blotter",
+        "powder"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFFE0",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "pale yellow→yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow→yellow-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "no reaction (NOT an indole)"
+        }
+      ],
+      "notes": [
+        "DANGEROUS: Often mis-sold as 2C-B or LSD. Bitter/numbing taste on blotter. Can be fatal. Ehrlich test shows NO reaction (unlike LSD)."
+      ]
+    },
     "Alprazolam": {
       "class": "benzodiazepine",
       "description": {
