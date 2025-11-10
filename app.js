@@ -3050,22 +3050,22 @@ function Addiction(){
             <div>
               <p className="text-cyan-300 font-semibold">Alcoholics Anonymous (AA)</p>
               <p>Oldest and largest recovery fellowship. Spiritual (not religious) program based on 12 steps. Free, worldwide availability. In-person and online meetings.</p>
-              <p className="text-cyan-200 text-xs mt-1">🌐 aa.org | 📱 Meeting Guide app | 💬 aa-intergroup.org (online meetings)</p>
+              <p className="text-cyan-200 text-xs mt-1"><a href="https://www.aa.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">🌐 aa.org</a> | 📱 Meeting Guide app | <a href="https://aa-intergroup.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">💬 aa-intergroup.org</a> (online meetings)</p>
             </div>
             <div>
               <p className="text-cyan-300 font-semibold">Narcotics Anonymous (NA)</p>
               <p>12-step program for drug addiction. All substances welcomed. "Just for today" philosophy. Peer support focus.</p>
-              <p className="text-cyan-200 text-xs mt-1">🌐 na.org | 💬 Virtual NA (online meetings)</p>
+              <p className="text-cyan-200 text-xs mt-1"><a href="https://na.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">🌐 na.org</a> | 💬 Virtual NA (online meetings)</p>
             </div>
             <div>
               <p className="text-cyan-300 font-semibold">Cocaine Anonymous (CA)</p>
               <p>12-step program specifically for cocaine and stimulant addiction. Welcomes all substance issues.</p>
-              <p className="text-cyan-200 text-xs mt-1">🌐 ca.org</p>
+              <p className="text-cyan-200 text-xs mt-1"><a href="https://ca.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">🌐 ca.org</a></p>
             </div>
             <div>
               <p className="text-cyan-300 font-semibold">Al-Anon / Nar-Anon</p>
               <p>Support for family members and loved ones of people with addiction. Helps you cope and set boundaries.</p>
-              <p className="text-cyan-200 text-xs mt-1">🌐 al-anon.org | nar-anon.org</p>
+              <p className="text-cyan-200 text-xs mt-1"><a href="https://al-anon.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">🌐 al-anon.org</a> | <a href="https://nar-anon.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">nar-anon.org</a></p>
             </div>
           </div>
         </div>
@@ -3077,27 +3077,27 @@ function Addiction(){
             <div>
               <p className="text-purple-300 font-semibold">Celebrate Recovery</p>
               <p>Christ-centered 12-step program. Addresses all types of hurts, habits, and hang-ups. Large community, church-based meetings nationwide. Open to everyone.</p>
-              <p className="text-purple-200 text-xs mt-1">🌐 celebraterecovery.com | 25,000+ churches worldwide | 💬 Online meetings available</p>
+              <p className="text-purple-200 text-xs mt-1"><a href="https://www.celebraterecovery.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-100 underline">🌐 celebraterecovery.com</a> | 25,000+ churches worldwide | 💬 Online meetings available</p>
             </div>
             <div>
               <p className="text-purple-300 font-semibold">Teen Challenge</p>
               <p>Faith-based residential program. Long-term (12-15 months). Intensive Christian discipleship approach. Free or low-cost options available.</p>
-              <p className="text-purple-200 text-xs mt-1">🌐 teenchallenge.org | 📞 Find local center</p>
+              <p className="text-purple-200 text-xs mt-1"><a href="https://teenchallenge.org" target="_blank" rel="noopener noreferrer" className="hover:text-purple-100 underline">🌐 teenchallenge.org</a> | 📞 Find local center</p>
             </div>
             <div>
               <p className="text-purple-300 font-semibold">Alcoholics for Christ</p>
               <p>Combines AA principles with Christian faith. Christ-centered recovery focusing on spiritual healing. Meeting directory available.</p>
-              <p className="text-purple-200 text-xs mt-1">🌐 alcoholicsforchrist.com</p>
+              <p className="text-purple-200 text-xs mt-1"><a href="https://alcoholicsforchrist.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-100 underline">🌐 alcoholicsforchrist.com</a></p>
             </div>
             <div>
               <p className="text-purple-300 font-semibold">Reformers Unanimous</p>
               <p>Addiction recovery program through local churches. Bible-based curriculum. Weekly meetings with accountability.</p>
-              <p className="text-purple-200 text-xs mt-1">🌐 reformu.com</p>
+              <p className="text-purple-200 text-xs mt-1"><a href="https://reformu.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-100 underline">🌐 reformu.com</a></p>
             </div>
             <div>
               <p className="text-purple-300 font-semibold">Setting Captives Free</p>
               <p>Online Christian discipleship courses for various addictions. Self-paced with mentorship. Free courses available.</p>
-              <p className="text-purple-200 text-xs mt-1">🌐 settingcaptivesfree.com | 💬 Online mentorship included</p>
+              <p className="text-purple-200 text-xs mt-1"><a href="https://settingcaptivesfree.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-100 underline">🌐 settingcaptivesfree.com</a> | 💬 Online mentorship included</p>
             </div>
           </div>
         </div>
@@ -3109,17 +3109,17 @@ function Addiction(){
             <div>
               <p className="text-emerald-300 font-semibold">SMART Recovery</p>
               <p>Science-based alternative to 12-step. Focuses on self-empowerment, CBT techniques, motivational interviewing. Online and in-person meetings.</p>
-              <p className="text-emerald-200 text-xs mt-1">🌐 smartrecovery.org | 💬 Daily online meetings | 📱 SMART Recovery app</p>
+              <p className="text-emerald-200 text-xs mt-1"><a href="https://www.smartrecovery.org" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-100 underline">🌐 smartrecovery.org</a> | 💬 Daily online meetings | 📱 SMART Recovery app</p>
             </div>
             <div>
               <p className="text-emerald-300 font-semibold">LifeRing Secular Recovery</p>
               <p>Non-religious, abstinence-based support. "Empower your sober self" approach. Peer-led meetings.</p>
-              <p className="text-emerald-200 text-xs mt-1">🌐 lifering.org | 💬 Online meetings available</p>
+              <p className="text-emerald-200 text-xs mt-1"><a href="https://lifering.org" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-100 underline">🌐 lifering.org</a> | 💬 Online meetings available</p>
             </div>
             <div>
               <p className="text-emerald-300 font-semibold">Women for Sobriety</p>
               <p>Program specifically for women. 13 statements of acceptance. Focuses on emotional and spiritual growth.</p>
-              <p className="text-emerald-200 text-xs mt-1">🌐 womenforsobriety.org</p>
+              <p className="text-emerald-200 text-xs mt-1"><a href="https://womenforsobriety.org" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-100 underline">🌐 womenforsobriety.org</a></p>
             </div>
           </div>
         </div>
@@ -3131,7 +3131,7 @@ function Addiction(){
             <div>
               <p className="text-amber-300 font-semibold">Refuge Recovery / Recovery Dharma</p>
               <p>Buddhist-based recovery program. Mindfulness, meditation, and Buddhist philosophy. Non-theistic approach.</p>
-              <p className="text-amber-200 text-xs mt-1">🌐 recoverydharma.org (merger of Refuge Recovery)</p>
+              <p className="text-amber-200 text-xs mt-1"><a href="https://recoverydharma.org" target="_blank" rel="noopener noreferrer" className="hover:text-amber-100 underline">🌐 recoverydharma.org</a> (merger of Refuge Recovery)</p>
             </div>
           </div>
         </div>
@@ -3160,12 +3160,12 @@ function Addiction(){
             
             <p className="font-semibold text-cyan-300 mt-3">Other Online Resources</p>
             <div className="space-y-1">
-              <p className="text-cyan-200">• <strong>In The Rooms</strong> (intherooms.com) - Free online 12-step meetings, 24/7, all time zones</p>
+              <p className="text-cyan-200">• <strong>In The Rooms</strong> (<a href="https://intherooms.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">intherooms.com</a>) - Free online 12-step meetings, 24/7, all time zones</p>
               <p className="text-cyan-200">• <strong>Sober Grid</strong> (app) - Sober social network, 24/7 peer support</p>
               <p className="text-cyan-200">• <strong>I Am Sober</strong> (app) - Sobriety tracker with community features</p>
-              <p className="text-cyan-200">• <strong>Tempest</strong> (jointempest.com) - Online recovery courses and community</p>
-              <p className="text-cyan-200">• <strong>She Recovers</strong> (sherecovers.org) - Community for women in recovery</p>
-              <p className="text-cyan-200">• <strong>The Phoenix</strong> (thephoenix.org) - Free sober active community (fitness-based)</p>
+              <p className="text-cyan-200">• <strong>Tempest</strong> (<a href="https://jointempest.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">jointempest.com</a>) - Online recovery courses and community</p>
+              <p className="text-cyan-200">• <strong>She Recovers</strong> (<a href="https://sherecovers.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">sherecovers.org</a>) - Community for women in recovery</p>
+              <p className="text-cyan-200">• <strong>The Phoenix</strong> (<a href="https://thephoenix.org" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-100 underline">thephoenix.org</a>) - Free sober active community (fitness-based)</p>
             </div>
           </div>
         </div>
@@ -3175,7 +3175,7 @@ function Addiction(){
           <h4 className="font-semibold text-white">Harm Reduction Communities</h4>
           <p className="text-sm text-gray-300">Support for people actively using or not ready for abstinence:</p>
           <div className="text-sm text-gray-300 space-y-1">
-            <p>• <strong>Moderation Management</strong> (moderation.org) - Controlled drinking support</p>
+            <p>• <strong>Moderation Management</strong> (<a href="https://moderation.org" target="_blank" rel="noopener noreferrer" className="hover:text-gray-100 underline">moderation.org</a>) - Controlled drinking support</p>
             <p>• <strong>r/HarmReduction</strong> (Reddit) - Safer use strategies and support</p>
             <p>• <strong>DanceSafe</strong> community forums - Drug checking and safety</p>
           </div>
