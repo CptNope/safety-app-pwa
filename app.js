@@ -2788,7 +2788,10 @@ function Resources(){
         </p>
       </div>
 
+      {/* Research Institutions */}
       <div className="space-y-3">
+        <h3 className="font-semibold text-lg text-indigo-200">🏛️ Research Institutions & Agencies</h3>
+        
         <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
           <h3 className="font-semibold text-white mb-2">🔬 NIDA (National Institute on Drug Abuse)</h3>
           <p className="text-sm text-gray-300 mb-2">Federal research institute. Evidence-based information on drugs, addiction science, treatment approaches.</p>
@@ -2811,6 +2814,82 @@ function Resources(){
           <h3 className="font-semibold text-white mb-2">📚 The Loop</h3>
           <p className="text-sm text-gray-300 mb-2">UK drug safety testing organization. Multi-agency harm reduction service providing on-site testing at festivals and events.</p>
           <a href="https://wearetheloop.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🌍 UNODC (United Nations Office on Drugs and Crime)</h3>
+          <p className="text-sm text-gray-300 mb-2">Global drug monitoring, World Drug Report, international drug control policies, early warning systems.</p>
+          <a href="https://www.unodc.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-indigo-500/20 border border-indigo-400/40 text-indigo-200 hover:bg-indigo-500/30 transition">Visit Website</a>
+        </div>
+      </div>
+
+      {/* Academic Journals */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-semibold text-lg text-emerald-200">📖 Peer-Reviewed Academic Journals</h3>
+        
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 Harm Reduction Journal</h3>
+          <p className="text-sm text-gray-300 mb-2">Leading open-access journal. Peer-reviewed research on harm reduction interventions, policy, and practice.</p>
+          <a href="https://harmreductionjournal.biomedcentral.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 Drug and Alcohol Dependence</h3>
+          <p className="text-sm text-gray-300 mb-2">High-impact journal covering addiction science, treatment, pharmacology, neurobiology of substance use.</p>
+          <a href="https://www.sciencedirect.com/journal/drug-and-alcohol-dependence" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 Addiction (Journal)</h3>
+          <p className="text-sm text-gray-300 mb-2">Premier addiction science journal. Published by Society for the Study of Addiction. Global authority on addiction research.</p>
+          <a href="https://onlinelibrary.wiley.com/journal/13600443" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 International Journal of Drug Policy</h3>
+          <p className="text-sm text-gray-300 mb-2">Evidence-based drug policy research, harm reduction strategies, social and health impacts of drug policies worldwide.</p>
+          <a href="https://www.sciencedirect.com/journal/international-journal-of-drug-policy" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 The Lancet - Drug Policy & Harm Reduction</h3>
+          <p className="text-sm text-gray-300 mb-2">World's leading medical journal. Landmark studies on drug policy, addiction treatment, public health interventions.</p>
+          <a href="https://www.thelancet.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 Journal of Psychopharmacology</h3>
+          <p className="text-sm text-gray-300 mb-2">Pharmacology of psychoactive drugs, clinical trials, neuroscience of drug effects, therapeutic applications.</p>
+          <a href="https://journals.sagepub.com/home/jop" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 hover:bg-emerald-500/30 transition">Access Journal</a>
+        </div>
+      </div>
+
+      {/* Research Databases */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-semibold text-lg text-cyan-200">🗄️ Research Databases & Archives</h3>
+        
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔍 PubMed / MEDLINE</h3>
+          <p className="text-sm text-gray-300 mb-2">US National Library of Medicine database. 35+ million citations for biomedical literature, clinical studies, drug research.</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Search Database</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔍 Google Scholar</h3>
+          <p className="text-sm text-gray-300 mb-2">Comprehensive academic search engine. Access scholarly literature, peer-reviewed papers, citations across disciplines.</p>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Search Database</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔍 Cochrane Library</h3>
+          <p className="text-sm text-gray-300 mb-2">Systematic reviews of healthcare interventions. High-quality evidence on treatment effectiveness, harm reduction outcomes.</p>
+          <a href="https://www.cochranelibrary.com" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Access Library</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔍 PsycINFO</h3>
+          <p className="text-sm text-gray-300 mb-2">American Psychological Association database. Behavioral science, addiction psychology, substance use research, mental health.</p>
+          <a href="https://www.apa.org/pubs/databases/psycinfo" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Access Database</a>
         </div>
       </div>
     </div>
