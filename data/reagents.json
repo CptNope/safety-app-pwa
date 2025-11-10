@@ -1835,282 +1835,282 @@
       ]
     },
     "6-APB": {
-    "class": "benzofuran (entactogen)",
-    "description": {
-      "overview": "6-APB (6-(2-Aminopropyl)benzofuran), known as 'Benzo Fury,' is a synthetic empathogen-entactogen and stimulant, chemically related to MDMA and MDA. Produces euphoria, emotional openness, stimulation, and psychedelic visuals. Duration significantly longer than MDMA (8-14 hours). Popular in UK club scenes before being banned. Part of benzofuran family (5-APB, 5-MAPB, etc.).",
-      "origins": "Synthesized in 1993 by David Nichols at Purdue University for research purposes. Remained obscure research chemical until late 2000s. Marketed in UK as legal high under brand name 'Benzo Fury' in early 2010s before being scheduled in 2013. Gained popularity as MDMA substitute when MDMA quality/availability declined in UK. Now Schedule I in most countries but still available on research chemical markets.",
-      "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, music enhancement, dancing, emotional connection. Produces more psychedelic visuals than MDMA, especially at higher doses. Popular at festivals and raves as MDMA alternative. Typical dose 80-120mg; effects last 8-14 hours (much longer than MDMA's 4-6 hours). Some users prefer benzofurans for longer-lasting experiences; others find duration exhausting.",
-      "dangers": "Very long duration can be physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Vasoconstriction. Serotonin depletion worse than MDMA due to longer duration—severe comedown depression possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, eye wiggling (nystagmus), overheating risk. Difficult to sleep for 12-18 hours after dosing. Higher doses produce intense psychedelic effects that can be overwhelming. Limited research on long-term effects. Sold as MDMA or mixed into pills—always test. Reagent reactions similar to MDMA but distinguishable with multiple reagents. Tolerance develops; cross-tolerance with MDMA. Recommended waiting period 3+ months between uses like MDMA.",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
-        "erowid": "https://www.erowid.org/chemicals/6apb/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/6-APB"
+      "class": "benzofuran (entactogen)",
+      "description": {
+        "overview": "6-APB (6-(2-Aminopropyl)benzofuran), known as 'Benzo Fury,' is a synthetic empathogen-entactogen and stimulant, chemically related to MDMA and MDA. Produces euphoria, emotional openness, stimulation, and psychedelic visuals. Duration significantly longer than MDMA (8-14 hours). Popular in UK club scenes before being banned. Part of benzofuran family (5-APB, 5-MAPB, etc.).",
+        "origins": "Synthesized in 1993 by David Nichols at Purdue University for research purposes. Remained obscure research chemical until late 2000s. Marketed in UK as legal high under brand name 'Benzo Fury' in early 2010s before being scheduled in 2013. Gained popularity as MDMA substitute when MDMA quality/availability declined in UK. Now Schedule I in most countries but still available on research chemical markets.",
+        "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, music enhancement, dancing, emotional connection. Produces more psychedelic visuals than MDMA, especially at higher doses. Popular at festivals and raves as MDMA alternative. Typical dose 80-120mg; effects last 8-14 hours (much longer than MDMA's 4-6 hours). Some users prefer benzofurans for longer-lasting experiences; others find duration exhausting.",
+        "dangers": "Very long duration can be physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Vasoconstriction. Serotonin depletion worse than MDMA due to longer duration—severe comedown depression possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, eye wiggling (nystagmus), overheating risk. Difficult to sleep for 12-18 hours after dosing. Higher doses produce intense psychedelic effects that can be overwhelming. Limited research on long-term effects. Sold as MDMA or mixed into pills—always test. Reagent reactions similar to MDMA but distinguishable with multiple reagents. Tolerance develops; cross-tolerance with MDMA. Recommended waiting period 3+ months between uses like MDMA.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/6-APB",
+          "erowid": "https://www.erowid.org/chemicals/6apb/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/6-APB"
+        },
+        "scientific_papers": [
+          {
+            "title": "Benzofuran compounds as novel psychoactive substances",
+            "authors": "Dawson P, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2014,
+            "summary": "Analysis of 6-APB and related benzofurans as MDMA alternatives and their pharmacology"
+          },
+          {
+            "title": "Cardiovascular effects of benzofuran designer drugs",
+            "authors": "Scherbaum N, et al.",
+            "journal": "Clinical Toxicology",
+            "year": 2013,
+            "summary": "Study on cardiovascular risks of 6-APB and 5-APB use"
+          },
+          {
+            "title": "The rise of 'Benzo Fury': a review of the benzofuran NPS phenomenon",
+            "authors": "Iversen L, et al.",
+            "journal": "Journal of Psychopharmacology",
+            "year": 2013,
+            "summary": "Review of 6-APB's emergence as legal high in UK and subsequent health concerns"
+          }
+        ]
       },
-      "scientific_papers": [
+      "forms": [
+        "powder",
+        "capsule",
+        "pill"
+      ],
+      "testing": [
         {
-          "title": "Benzofuran compounds as novel psychoactive substances",
-          "authors": "Dawson P, et al.",
-          "journal": "Drug Testing and Analysis",
-          "year": 2014,
-          "summary": "Analysis of 6-APB and related benzofurans as MDMA alternatives and their pharmacology"
+          "reagent": "marquis",
+          "color": "#4B0082",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple→black"
         },
         {
-          "title": "Cardiovascular effects of benzofuran designer drugs",
-          "authors": "Scherbaum N, et al.",
-          "journal": "Clinical Toxicology",
-          "year": 2013,
-          "summary": "Study on cardiovascular risks of 6-APB and 5-APB use"
+          "reagent": "mecke",
+          "color": "#1F1F1F",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark→black"
         },
         {
-          "title": "The rise of 'Benzo Fury': a review of the benzofuran NPS phenomenon",
-          "authors": "Iversen L, et al.",
-          "journal": "Journal of Psychopharmacology",
-          "year": 2013,
-          "summary": "Review of 6-APB's emergence as legal high in UK and subsequent health concerns"
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green"
         }
+      ],
+      "notes": [
+        "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
       ]
     },
-    "forms": [
-      "powder",
-      "capsule",
-      "pill"
-    ],
-    "testing": [
-      {
-        "reagent": "marquis",
-        "color": "#4B0082",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "purple→black"
+    "Methylphenidate": {
+      "class": "stimulant (pharmaceutical)",
+      "description": {
+        "overview": "Methylphenidate (Ritalin, Concerta) is a prescription stimulant medication used primarily to treat ADHD and narcolepsy. It increases dopamine and norepinephrine activity in the brain, improving focus, attention, and impulse control. Structurally different from amphetamine but with similar therapeutic effects. Commonly diverted for academic performance enhancement.",
+        "origins": "First synthesized in 1944 by Leandro Panizzon at Ciba (now Novartis). Named 'Ritalin' after his wife Rita who used it for low blood pressure. FDA-approved in 1955 for treating hyperactivity and later ADHD. Became Schedule II controlled substance in 1971. Extended-release formulations (Concerta, Ritalin LA) developed in 2000s to reduce abuse potential.",
+        "uses": "Medical: ADHD treatment (children and adults), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD patients. Recreational/Academic: Cognitive enhancement for studying, productivity, euphoria at high doses. Popular among college students during exams. Typical therapeutic dose 5-20mg; recreational users may take 40-80mg+.",
+        "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke with pre-existing conditions or high doses. Abuse potential lower than amphetamine but still significant. Tolerance develops with regular use. Nasal damage from snorting crushed pills (common route of abuse). Can trigger anxiety, paranoia, psychosis at high doses. Appetite suppression, insomnia, irritability. Growth suppression in children with long-term use (controversial). Withdrawal: fatigue, depression, difficulty concentrating. Interactions with MAOIs can be dangerous. Pharmaceutical pills should match pill ID databases—counterfeit Ritalin rare but possible.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
+          "erowid": "https://www.erowid.org/pharms/methylphenidate/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Methylphenidate"
+        },
+        "scientific_papers": [
+          {
+            "title": "Methylphenidate for ADHD in children and adolescents: a Cochrane systematic review",
+            "authors": "Storebø OJ, et al.",
+            "journal": "Cochrane Database of Systematic Reviews",
+            "year": 2015,
+            "summary": "Comprehensive review of methylphenidate effectiveness and safety for ADHD treatment"
+          },
+          {
+            "title": "Abuse of methylphenidate: a review of pharmacology and clinical experience",
+            "authors": "Morton WA, Stockton GG",
+            "journal": "Journal of the American Board of Family Medicine",
+            "year": 2000,
+            "summary": "Review of methylphenidate's abuse potential, particularly among students"
+          },
+          {
+            "title": "Cardiovascular effects of therapeutic doses of methylphenidate in adults",
+            "authors": "Habel LA, et al.",
+            "journal": "JAMA",
+            "year": 2011,
+            "summary": "Study on cardiovascular safety of methylphenidate in adult ADHD treatment"
+          }
+        ]
       },
-      {
-        "reagent": "mecke",
-        "color": "#1F1F1F",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "dark→black"
-      },
-      {
-        "reagent": "mandelin",
-        "color": "#228B22",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "green"
-      }
-    ],
-    "notes": [
-      "Benzo Fury. MDMA-like empathogen/entactogen. Longer duration than MDMA (8-10h). Benzofurans have unique reaction patterns."
-    ]
-  },
-  "Methylphenidate": {
-    "class": "stimulant (pharmaceutical)",
-    "description": {
-      "overview": "Methylphenidate (Ritalin, Concerta) is a prescription stimulant medication used primarily to treat ADHD and narcolepsy. It increases dopamine and norepinephrine activity in the brain, improving focus, attention, and impulse control. Structurally different from amphetamine but with similar therapeutic effects. Commonly diverted for academic performance enhancement.",
-      "origins": "First synthesized in 1944 by Leandro Panizzon at Ciba (now Novartis). Named 'Ritalin' after his wife Rita who used it for low blood pressure. FDA-approved in 1955 for treating hyperactivity and later ADHD. Became Schedule II controlled substance in 1971. Extended-release formulations (Concerta, Ritalin LA) developed in 2000s to reduce abuse potential.",
-      "uses": "Medical: ADHD treatment (children and adults), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD patients. Recreational/Academic: Cognitive enhancement for studying, productivity, euphoria at high doses. Popular among college students during exams. Typical therapeutic dose 5-20mg; recreational users may take 40-80mg+.",
-      "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke with pre-existing conditions or high doses. Abuse potential lower than amphetamine but still significant. Tolerance develops with regular use. Nasal damage from snorting crushed pills (common route of abuse). Can trigger anxiety, paranoia, psychosis at high doses. Appetite suppression, insomnia, irritability. Growth suppression in children with long-term use (controversial). Withdrawal: fatigue, depression, difficulty concentrating. Interactions with MAOIs can be dangerous. Pharmaceutical pills should match pill ID databases—counterfeit Ritalin rare but possible.",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Methylphenidate",
-        "erowid": "https://www.erowid.org/pharms/methylphenidate/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/Methylphenidate"
-      },
-      "scientific_papers": [
+      "forms": [
+        "pill",
+        "powder"
+      ],
+      "testing": [
         {
-          "title": "Methylphenidate for ADHD in children and adolescents: a Cochrane systematic review",
-          "authors": "Storebø OJ, et al.",
-          "journal": "Cochrane Database of Systematic Reviews",
-          "year": 2015,
-          "summary": "Comprehensive review of methylphenidate effectiveness and safety for ADHD treatment"
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange"
         },
         {
-          "title": "Abuse of methylphenidate: a review of pharmacology and clinical experience",
-          "authors": "Morton WA, Stockton GG",
-          "journal": "Journal of the American Board of Family Medicine",
-          "year": 2000,
-          "summary": "Review of methylphenidate's abuse potential, particularly among students"
-        },
-        {
-          "title": "Cardiovascular effects of therapeutic doses of methylphenidate in adults",
-          "authors": "Habel LA, et al.",
-          "journal": "JAMA",
-          "year": 2011,
-          "summary": "Study on cardiovascular safety of methylphenidate in adult ADHD treatment"
+          "reagent": "mandelin",
+          "color": "#FF8C00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "dark orange"
         }
+      ],
+      "notes": [
+        "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
       ]
     },
-    "forms": [
-      "pill",
-      "powder"
-    ],
-    "testing": [
-      {
-        "reagent": "marquis",
-        "color": "#FFA500",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "orange"
+    "Codeine": {
+      "class": "opioid",
+      "description": {
+        "overview": "Codeine is a naturally occurring opioid found in opium poppy, commonly prescribed for mild to moderate pain and cough suppression. Weaker than morphine (codeine is a prodrug that converts to morphine in the liver). Found in prescription medications like Tylenol #3, cough syrups (promethazine-codeine), and standalone pills. Popular in 'lean' or 'purple drank' culture when mixed with soda and candy.",
+        "origins": "Isolated from opium in 1832 by French chemist Pierre Robiquet. Widely used in medicine since late 1800s as safer alternative to morphine for mild pain. Included in over-the-counter cough syrups until stricter regulations in 1970s-90s. Hip-hop culture popularized 'lean' (codeine cough syrup + soda) in 1990s-2000s Houston scene, spreading nationally. Now Schedule II-V depending on formulation and concentration.",
+        "uses": "Medical: Mild-moderate pain relief, cough suppression, diarrhea treatment. Often combined with acetaminophen (Tylenol #3) or aspirin. Typical dose 15-60mg for pain. Recreational: 'Lean' or 'purple drank' (codeine cough syrup + promethazine + soda + candy), euphoria, relaxation, nodding. Doses 60-120mg+ for recreational effects. Effects: 3-4 hours duration, less intense than other opioids but still addictive.",
+        "dangers": "Addiction and physical dependence develop with regular use—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea. Respiratory depression at high doses or when combined with other depressants (alcohol, benzos, promethazine). Acetaminophen toxicity—many codeine pills contain APAP which causes liver damage/failure at high doses (>4000mg daily). 'Lean' culture glamorizes dangerous behavior—multiple celebrity deaths (Pimp C, DJ Screw, Lil Peep used multiple substances). Genetic variation in CYP2D6 enzyme means some people convert codeine to morphine very efficiently (ultra-rapid metabolizers = overdose risk) while others get no effect (poor metabolizers). Constipation, nausea, itching common. Promethazine in cough syrup adds sedation and respiratory depression risk. Driving impairment. Gateway to stronger opioids for some users.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
+          "erowid": "https://www.erowid.org/pharms/codeine/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Codeine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Codeine intoxication associated with ultrarapid CYP2D6 metabolism",
+            "authors": "Gasche Y, et al.",
+            "journal": "New England Journal of Medicine",
+            "year": 2004,
+            "doi": "10.1056/NEJMoa032295",
+            "summary": "Case report demonstrating fatal codeine toxicity in ultra-rapid CYP2D6 metabolizer"
+          },
+          {
+            "title": "Recreational use of codeine-containing cough syrup",
+            "authors": "Peters RJ, et al.",
+            "journal": "Journal of Psychoactive Drugs",
+            "year": 2007,
+            "summary": "Study on 'purple drank' culture and health risks of recreational codeine syrup misuse"
+          },
+          {
+            "title": "Codeine, ultrarapid-metabolism genotype, and postoperative death",
+            "authors": "Ciszkowski C, et al.",
+            "journal": "New England Journal of Medicine",
+            "year": 2009,
+            "summary": "Documentation of pediatric death from codeine due to CYP2D6 ultra-rapid metabolism"
+          }
+        ]
       },
-      {
-        "reagent": "mandelin",
-        "color": "#FF8C00",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "dark orange"
-      }
-    ],
-    "notes": [
-      "Ritalin/Concerta. Prescription ADHD medication. Weaker reactions than amphetamines. Pharmaceutical pills should match pill ID databases."
-    ]
-  },
-  "Codeine": {
-    "class": "opioid",
-    "description": {
-      "overview": "Codeine is a naturally occurring opioid found in opium poppy, commonly prescribed for mild to moderate pain and cough suppression. Weaker than morphine (codeine is a prodrug that converts to morphine in the liver). Found in prescription medications like Tylenol #3, cough syrups (promethazine-codeine), and standalone pills. Popular in 'lean' or 'purple drank' culture when mixed with soda and candy.",
-      "origins": "Isolated from opium in 1832 by French chemist Pierre Robiquet. Widely used in medicine since late 1800s as safer alternative to morphine for mild pain. Included in over-the-counter cough syrups until stricter regulations in 1970s-90s. Hip-hop culture popularized 'lean' (codeine cough syrup + soda) in 1990s-2000s Houston scene, spreading nationally. Now Schedule II-V depending on formulation and concentration.",
-      "uses": "Medical: Mild-moderate pain relief, cough suppression, diarrhea treatment. Often combined with acetaminophen (Tylenol #3) or aspirin. Typical dose 15-60mg for pain. Recreational: 'Lean' or 'purple drank' (codeine cough syrup + promethazine + soda + candy), euphoria, relaxation, nodding. Doses 60-120mg+ for recreational effects. Effects: 3-4 hours duration, less intense than other opioids but still addictive.",
-      "dangers": "Addiction and physical dependence develop with regular use—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea. Respiratory depression at high doses or when combined with other depressants (alcohol, benzos, promethazine). Acetaminophen toxicity—many codeine pills contain APAP which causes liver damage/failure at high doses (>4000mg daily). 'Lean' culture glamorizes dangerous behavior—multiple celebrity deaths (Pimp C, DJ Screw, Lil Peep used multiple substances). Genetic variation in CYP2D6 enzyme means some people convert codeine to morphine very efficiently (ultra-rapid metabolizers = overdose risk) while others get no effect (poor metabolizers). Constipation, nausea, itching common. Promethazine in cough syrup adds sedation and respiratory depression risk. Driving impairment. Gateway to stronger opioids for some users.",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Codeine",
-        "erowid": "https://www.erowid.org/pharms/codeine/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/Codeine"
-      },
-      "scientific_papers": [
+      "forms": [
+        "pill",
+        "liquid",
+        "powder"
+      ],
+      "testing": [
         {
-          "title": "Codeine intoxication associated with ultrarapid CYP2D6 metabolism",
-          "authors": "Gasche Y, et al.",
-          "journal": "New England Journal of Medicine",
-          "year": 2004,
-          "doi": "10.1056/NEJMoa032295",
-          "summary": "Case report demonstrating fatal codeine toxicity in ultra-rapid CYP2D6 metabolizer"
+          "reagent": "marquis",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "purple"
         },
         {
-          "title": "Recreational use of codeine-containing cough syrup",
-          "authors": "Peters RJ, et al.",
-          "journal": "Journal of Psychoactive Drugs",
-          "year": 2007,
-          "summary": "Study on 'purple drank' culture and health risks of recreational codeine syrup misuse"
-        },
-        {
-          "title": "Codeine, ultrarapid-metabolism genotype, and postoperative death",
-          "authors": "Ciszkowski C, et al.",
-          "journal": "New England Journal of Medicine",
-          "year": 2009,
-          "summary": "Documentation of pediatric death from codeine due to CYP2D6 ultra-rapid metabolism"
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "blue-green"
         }
+      ],
+      "notes": [
+        "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
       ]
     },
-    "forms": [
-      "pill",
-      "liquid",
-      "powder"
-    ],
-    "testing": [
-      {
-        "reagent": "marquis",
-        "color": "#9370DB",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "purple"
+    "Kratom": {
+      "class": "opioid agonist (plant alkaloids)",
+      "description": {
+        "overview": "Kratom (Mitragyna speciosa) is a tropical tree native to Southeast Asia whose leaves contain alkaloids that act as opioid agonists and stimulants. At low doses, produces stimulant effects; at higher doses, opioid-like pain relief and sedation. Widely used for pain management, opioid withdrawal, and energy. Legal status varies by country and US state.",
+        "origins": "Used traditionally in Thailand, Malaysia, and Indonesia for centuries by laborers to combat fatigue and manage pain. Leaves chewed fresh or brewed as tea. Western awareness grew in 1800s but remained obscure until 2000s internet commerce. Banned in Thailand (ironically, its origin) since 1943 but recently re-legalized. DEA attempted scheduling in 2016 but withdrew after public outcry. Currently unscheduled federally in US but banned in several states.",
+        "uses": "Traditional: Energy, pain relief, treating diarrhea, wound healing. Modern: Self-treatment for chronic pain (alternative to prescription opioids), opioid withdrawal aid (reduces symptoms), anxiety and depression relief, energy and focus (low doses), recreational sedation (high doses). Strains: Red (sedating, pain relief), Green (balanced), White (energizing). Typical dose 2-5g (moderate) to 5-10g+ (strong). Often consumed as powder in capsules, 'toss and wash,' or tea.",
+        "dangers": "Physical dependence and withdrawal with regular use—symptoms similar to mild opioid withdrawal (muscle aches, irritability, insomnia, runny nose). Tolerance develops, requiring increasing doses. Nausea and 'wobbles' (dizziness, nausea) common at high doses or with certain strains. Constipation (opioid effect). Liver toxicity rare but reported with chronic heavy use or adulterated products. Respiratory depression possible when combined with other CNS depressants (alcohol, benzos, opioids)—deaths almost always involve poly-drug use. Seizures reported in rare cases. Quality control issues: products may be contaminated with salmonella, heavy metals, or adulterated with actual opioids. Some extracts (shots, enhanced products) extremely potent. Addiction potential debated but real for some users. Can test positive for methadone on some drug tests (false positive).",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
+          "erowid": "https://www.erowid.org/plants/kratom/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Kratom"
+        },
+        "scientific_papers": [
+          {
+            "title": "Kratom (Mitragyna speciosa): User motivations, use patterns and implications for use disorder",
+            "authors": "Garcia-Romeu A, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2020,
+            "doi": "10.1016/j.drugalcdep.2020.107849",
+            "summary": "Large survey study on kratom use patterns, self-reported benefits, and dependence potential"
+          },
+          {
+            "title": "Pharmacology of kratom: An emerging botanical agent with stimulant, analgesic and opioid-like effects",
+            "authors": "Kruegel AC, Grundmann O",
+            "journal": "Journal of the American Osteopathic Association",
+            "year": 2018,
+            "summary": "Comprehensive review of kratom alkaloids, pharmacology, mechanisms, and clinical effects"
+          },
+          {
+            "title": "Kratom and Pain: Reviewing the Evidence",
+            "authors": "Grundmann O",
+            "journal": "Frontiers in Pharmacology",
+            "year": 2017,
+            "summary": "Review of kratom's analgesic properties and potential for opioid withdrawal management"
+          },
+          {
+            "title": "Kratom dependence and withdrawal: A case series",
+            "authors": "Singh D, et al.",
+            "journal": "Journal of Psychoactive Drugs",
+            "year": 2018,
+            "summary": "Clinical case reports documenting kratom withdrawal syndrome in chronic users"
+          }
+        ]
       },
-      {
-        "reagent": "mecke",
-        "color": "#228B22",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "blue-green"
-      }
-    ],
-    "notes": [
-      "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
-    ]
-  },
-  "Kratom": {
-    "class": "opioid agonist (plant alkaloids)",
-    "description": {
-      "overview": "Kratom (Mitragyna speciosa) is a tropical tree native to Southeast Asia whose leaves contain alkaloids that act as opioid agonists and stimulants. At low doses, produces stimulant effects; at higher doses, opioid-like pain relief and sedation. Widely used for pain management, opioid withdrawal, and energy. Legal status varies by country and US state.",
-      "origins": "Used traditionally in Thailand, Malaysia, and Indonesia for centuries by laborers to combat fatigue and manage pain. Leaves chewed fresh or brewed as tea. Western awareness grew in 1800s but remained obscure until 2000s internet commerce. Banned in Thailand (ironically, its origin) since 1943 but recently re-legalized. DEA attempted scheduling in 2016 but withdrew after public outcry. Currently unscheduled federally in US but banned in several states.",
-      "uses": "Traditional: Energy, pain relief, treating diarrhea, wound healing. Modern: Self-treatment for chronic pain (alternative to prescription opioids), opioid withdrawal aid (reduces symptoms), anxiety and depression relief, energy and focus (low doses), recreational sedation (high doses). Strains: Red (sedating, pain relief), Green (balanced), White (energizing). Typical dose 2-5g (moderate) to 5-10g+ (strong). Often consumed as powder in capsules, 'toss and wash,' or tea.",
-      "dangers": "Physical dependence and withdrawal with regular use—symptoms similar to mild opioid withdrawal (muscle aches, irritability, insomnia, runny nose). Tolerance develops, requiring increasing doses. Nausea and 'wobbles' (dizziness, nausea) common at high doses or with certain strains. Constipation (opioid effect). Liver toxicity rare but reported with chronic heavy use or adulterated products. Respiratory depression possible when combined with other CNS depressants (alcohol, benzos, opioids)—deaths almost always involve poly-drug use. Seizures reported in rare cases. Quality control issues: products may be contaminated with salmonella, heavy metals, or adulterated with actual opioids. Some extracts (shots, enhanced products) extremely potent. Addiction potential debated but real for some users. Can test positive for methadone on some drug tests (false positive).",
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Mitragyna_speciosa",
-        "erowid": "https://www.erowid.org/plants/kratom/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/Kratom"
-      },
-      "scientific_papers": [
+      "forms": [
+        "powder",
+        "leaf",
+        "capsule"
+      ],
+      "testing": [
         {
-          "title": "Kratom (Mitragyna speciosa): User motivations, use patterns and implications for use disorder",
-          "authors": "Garcia-Romeu A, et al.",
-          "journal": "Drug and Alcohol Dependence",
-          "year": 2020,
-          "doi": "10.1016/j.drugalcdep.2020.107849",
-          "summary": "Large survey study on kratom use patterns, self-reported benefits, and dependence potential"
+          "reagent": "marquis",
+          "color": "#8B4513",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "saddle brown"
         },
         {
-          "title": "Pharmacology of kratom: An emerging botanical agent with stimulant, analgesic and opioid-like effects",
-          "authors": "Kruegel AC, Grundmann O",
-          "journal": "Journal of the American Osteopathic Association",
-          "year": 2018,
-          "summary": "Comprehensive review of kratom alkaloids, pharmacology, mechanisms, and clinical effects"
-        },
-        {
-          "title": "Kratom and Pain: Reviewing the Evidence",
-          "authors": "Grundmann O",
-          "journal": "Frontiers in Pharmacology",
-          "year": 2017,
-          "summary": "Review of kratom's analgesic properties and potential for opioid withdrawal management"
-        },
-        {
-          "title": "Kratom dependence and withdrawal: A case series",
-          "authors": "Singh D, et al.",
-          "journal": "Journal of Psychoactive Drugs",
-          "year": 2018,
-          "summary": "Clinical case reports documenting kratom withdrawal syndrome in chronic users"
+          "reagent": "mandelin",
+          "color": "#A0522D",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "sienna"
         }
+      ],
+      "notes": [
+        "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
       ]
-    },
-    "forms": [
-      "powder",
-      "leaf",
-      "capsule"
-    ],
-    "testing": [
-      {
-        "reagent": "marquis",
-        "color": "#8B4513",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "saddle brown"
-      },
-      {
-        "reagent": "mandelin",
-        "color": "#A0522D",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "sienna"
-      }
-    ],
-    "notes": [
-      "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
-    ]
-  }
+    }
   },
   "id_guide": {
     "blotter": {
@@ -4768,546 +4768,8 @@
   },
   "news": {
     "title": "Harm Reduction News & Alerts",
-    "description": "Critical alerts about dangerous batches, contamination warnings, policy updates, and harm reduction developments. Stay informed to stay safe.",
-    "disclaimer": "⚠️ NOTE: Articles below are EXAMPLES demonstrating the news system. For real-time alerts, enable Live News Feeds (pulls from DrugsData, FDA, DanceSafe, etc.). Always verify information with official sources.",
-    "articles": [
-      {
-        "date": "2024-11-09",
-        "category": "Contamination Alert",
-        "priority": "critical",
-        "title": "🚨 Fentanyl-Laced Heroin - Boston Metro Area",
-        "summary": "EXAMPLE ALERT: Multiple overdoses in Boston, Cambridge, and Worcester linked to heroin batches containing high-dose fentanyl and carfentanil. Naloxone requiring 3-4 doses.",
-        "details": [
-          "EXAMPLE: This demonstrates how local alerts would appear",
-          "In real scenarios: Purple/tan heroin powder testing positive for fentanyl + carfentanil",
-          "Geographic focus: Boston, Cambridge, Somerville, Worcester areas",
-          "Action: Always use fentanyl test strips, never use alone, have naloxone ready",
-          "Real alerts would link to: Boston Public Health Commission or MA DPH",
-          "For actual alerts, check: mass.gov/dph or enable Live News Feeds"
-        ],
-        "regions": ["USA - East Coast", "USA - Massachusetts"],
-        "source": "EXAMPLE - Boston Public Health Commission",
-        "source_url": "https://www.boston.gov/departments/public-health-commission"
-      },
-      {
-        "date": "2024-11-07",
-        "category": "Service Launch",
-        "priority": "normal",
-        "title": "🎉 Worcester Harm Reduction Coalition Expands Naloxone Distribution",
-        "summary": "EXAMPLE: Worcester-based organization opens new location on Main Street, offering free naloxone, fentanyl test strips, and safer use supplies.",
-        "details": [
-          "EXAMPLE: This shows how service announcements would appear",
-          "Location (example): Main Street, Worcester",
-          "Services: Free naloxone, fentanyl strips, syringes, wound care",
-          "Hours: Monday-Friday 10am-6pm, Saturday 12pm-4pm",
-          "No ID required, confidential service",
-          "For real Worcester services: Check worcesterharmreduction.org or similar"
-        ],
-        "regions": ["USA - Massachusetts"],
-        "source": "EXAMPLE - Worcester Harm Reduction Coalition",
-        "source_url": null
-      },
-      {
-        "date": "2024-11-03",
-        "category": "Policy Update",
-        "priority": "high",
-        "title": "📜 Massachusetts Expands Good Samaritan Law Protections",
-        "summary": "EXAMPLE: New MA legislation strengthens immunity for overdose witnesses, covering paraphernalia possession and outstanding warrants.",
-        "details": [
-          "EXAMPLE: Demonstrating policy update format",
-          "In real scenarios: Calling 911 for overdose protects caller from arrest",
-          "Coverage: Drug possession, paraphernalia, probation violations, warrants",
-          "Purpose: Encourage bystanders to call 911 without fear",
-          "Applies statewide: Boston, Worcester, Springfield, all MA cities",
-          "Real info: Check mass.gov/good-samaritan-law for actual protections"
-        ],
-        "regions": ["USA - Massachusetts"],
-        "source": "EXAMPLE - Massachusetts Legislature",
-        "source_url": "https://malegislature.gov"
-      },
-      {
-        "date": "2024-10-29",
-        "category": "Contamination Alert",
-        "priority": "high",
-        "title": "⚠️ Counterfeit Xanax Bars - Boston College Campuses",
-        "summary": "EXAMPLE: Fake alprazolam bars circulating on college campuses contain fentanyl. Multiple hospitalizations reported at BU, Northeastern, BC areas.",
-        "details": [
-          "EXAMPLE: Campus-specific alert demonstration",
-          "Pills: White rectangular bars stamped 'XANAX 2', look authentic",
-          "Reality: Contain fentanyl, NOT alprazolam",
-          "Risk: Opioid-naive students at extreme overdose risk",
-          "Reported areas: BU, Northeastern, BC, Harvard, MIT campuses",
-          "Action: NEVER use pills from non-pharmacy sources, test everything",
-          "Real campus alerts: Check university health services websites"
-        ],
-        "regions": ["USA - Massachusetts", "USA - East Coast"],
-        "source": "EXAMPLE - Boston Area Campus Health",
-        "source_url": null
-      },
-      {
-        "date": "2024-10-21",
-        "category": "Research",
-        "priority": "normal",
-        "title": "🔬 Boston Medical Center Study: Supervised Injection Sites Reduce Deaths",
-        "summary": "EXAMPLE: BMC research shows supervised consumption could prevent 100+ overdose deaths annually in Boston area.",
-        "details": [
-          "EXAMPLE: Local research announcement format",
-          "Study: 5-year analysis of overdose patterns in Boston metro",
-          "Finding: Supervised sites could prevent 130 deaths/year in MA",
-          "Model: Similar to Vancouver Insite (no overdose deaths in 20 years)",
-          "Barriers: Current MA law prohibits operation",
-          "Advocacy: Boston Harm Reduction Coalition pushing for pilot program",
-          "Real research: Check BMC and Mass General publications"
-        ],
-        "regions": ["USA - Massachusetts"],
-        "source": "EXAMPLE - Boston Medical Center",
-        "source_url": "https://www.bmc.org"
-      },
-      {
-        "date": "2024-11-05",
-        "category": "Contamination Alert",
-        "priority": "critical",
-        "title": " Fentanyl-Laced Cocaine Circulating in Pacific Northwest",
-        "summary": "Multiple overdoses reported in Seattle, Portland, and Vancouver linked to cocaine contaminated with high doses of fentanyl. Test ALL powders with fentanyl strips.",
-        "details": [
-          "At least 15 overdoses in past 2 weeks, 3 fatal",
-          "Cocaine appears normal - white/off-white powder with fishscale appearance",
-          "Fentanyl test strips showing positive results",
-          "Some samples also contain xylazine (tranq)",
-          "Naloxone may require multiple doses due to high fentanyl concentration"
-        ],
-        "regions": ["USA - Pacific Northwest", "Canada - BC"],
-        "source": "King County Public Health",
-        "source_url": "https://kingcounty.gov/health"
-      },
-      {
-        "date": "2024-11-01",
-        "category": "Counterfeit Pills",
-        "priority": "critical",
-        "title": " DEA Seizes Record Number of Fake M30s Containing Carfentanil",
-        "summary": "DEA reports 10,000+ counterfeit oxycodone pills seized in California contained carfentanil - 100x stronger than fentanyl.",
-        "details": [
-          "Pills stamped 'M 30' designed to look identical to prescription oxycodone",
-          "Carfentanil is elephant tranquilizer - lethal in microgram doses",
-          "Standard naloxone doses may be insufficient",
-          "Pills distributed across CA, NV, AZ",
-          "NEVER use pressed pills obtained outside of pharmacy"
-        ],
-        "regions": ["USA - Southwest"],
-        "source": "DEA Public Alert",
-        "source_url": "https://www.dea.gov"
-      },
-      {
-        "date": "2024-10-28",
-        "category": "Policy Update",
-        "priority": "high",
-        "title": " Oregon Expands Naloxone Access - Now Available Without Prescription",
-        "summary": "Oregon joins 48 other states in making naloxone available over-the-counter at all pharmacies statewide.",
-        "details": [
-          "Naloxone nasal spray (Narcan) available at pharmacies without prescription",
-          "Many insurance plans now cover naloxone at no cost",
-          "Free naloxone distribution sites expanding across state",
-          "Training not required but recommended",
-          "Part of Oregon's harm reduction expansion following Measure 110"
-        ],
-        "regions": ["USA - Oregon"],
-        "source": "Oregon Health Authority",
-        "source_url": "https://www.oregon.gov/oha"
-      },
-      {
-        "date": "2024-10-25",
-        "category": "Research",
-        "priority": "normal",
-        "title": " Study: Fentanyl Test Strips 95% Effective at Detecting Contamination",
-        "summary": "New peer-reviewed research confirms fentanyl test strips are highly accurate for harm reduction purposes.",
-        "details": [
-          "Study tested 500+ street drug samples across 6 cities",
-          "95% sensitivity for detecting fentanyl and analogues",
-          "False positives rare (2% of tests)",
-          "Effective for cocaine, heroin, meth, and pressed pills",
-          "Researchers recommend testing entire batch, not just portion"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "JAMA Network Open",
-        "source_url": "https://jamanetwork.com"
-      },
-      {
-        "date": "2024-10-20",
-        "category": "Contamination Alert",
-        "priority": "high",
-        "title": " MDMA Pills Testing Positive for Methamphetamine in UK",
-        "summary": "Multiple cities across UK reporting MDMA pills containing high doses of methamphetamine with little to no MDMA.",
-        "details": [
-          "Pills sold as 'MDMA' or 'Ecstasy' containing mostly meth",
-          "Common pill presses: Blue Punisher, Heineken, Tesla",
-          "Users reporting unexpected stimulation, jaw clenching, paranoia",
-          "Reagent testing shows orange (amphetamine) instead of purple-black",
-          "WEDINOS lab confirmed multiple samples"
-        ],
-        "regions": ["UK - England", "UK - Scotland"],
-        "source": "WEDINOS",
-        "source_url": "https://wedinos.org"
-      },
-      {
-        "date": "2024-10-15",
-        "category": "Service Launch",
-        "priority": "normal",
-        "title": " Chicago Opens First Sanctioned Drug Checking Site",
-        "summary": "Chicago becomes third US city to offer free laboratory-grade drug checking using FTIR spectroscopy.",
-        "details": [
-          "Located at harm reduction center in South Side",
-          "Free testing using Fourier-transform infrared spectroscopy (FTIR)",
-          "Results provided within 15 minutes",
-          "Also offers fentanyl/xylazine test strips",
-          "No identification required, fully confidential",
-          "Open Mon-Fri 10am-6pm"
-        ],
-        "regions": ["USA - Illinois"],
-        "source": "Chicago Department of Public Health",
-        "source_url": null
-      },
-      {
-        "date": "2024-10-10",
-        "category": "Contamination Alert",
-        "priority": "high",
-        "title": " Benzodiazepine Adulterants Found in Heroin - East Coast",
-        "summary": "Heroin samples testing positive for potent benzodiazepines (not just fentanyl). Naloxone alone may not reverse overdose.",
-        "details": [
-          "Samples contain fentanyl + etizolam or flualprazolam",
-          "Benzodiazepines do NOT respond to naloxone",
-          "Overdoses presenting with prolonged unconsciousness despite naloxone",
-          "Requires hospital monitoring and supportive care",
-          "Particularly dangerous when combined with opioids",
-          "Test strips cannot detect benzos - lab testing required"
-        ],
-        "regions": ["USA - East Coast", "Canada - Ontario"],
-        "source": "DrugsData.org",
-        "source_url": "https://drugsdata.org"
-      },
-      {
-        "date": "2024-10-05",
-        "category": "Policy Update",
-        "priority": "normal",
-        "title": " California Decriminalizes Possession of Drug Testing Equipment",
-        "summary": "New law explicitly protects possession of reagent test kits and fentanyl strips from paraphernalia charges.",
-        "details": [
-          "AB 1598 signed into law, effective January 2025",
-          "Reagent test kits, fentanyl strips explicitly legal",
-          "Cannot be used as evidence of drug possession",
-          "Harm reduction organizations can distribute without legal risk",
-          "Part of broader overdose prevention legislation"
-        ],
-        "regions": ["USA - California"],
-        "source": "California Legislature",
-        "source_url": null
-      },
-      {
-        "date": "2024-09-28",
-        "category": "Community News",
-        "priority": "normal",
-        "title": " DanceSafe Launches Reagent Test Kit Recycling Program",
-        "summary": "National harm reduction org now accepting used reagent bottles for safe disposal and recycling.",
-        "details": [
-          "Mail-in program for expired or used reagent bottles",
-          "Prepaid shipping labels available on website",
-          "Prevents chemical contamination from improper disposal",
-          "Also offers reagent refill service (save money, reduce waste)",
-          "Program starts in US, expanding to EU in 2025"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "DanceSafe",
-        "source_url": "https://dancesafe.org"
-      },
-      {
-        "date": "2024-09-20",
-        "category": "Research",
-        "priority": "normal",
-        "title": " New Study: Testing Strips Detect Xylazine with 90% Accuracy",
-        "summary": "BTNX xylazine test strips validated in peer-reviewed study, showing high accuracy for detecting tranq contamination.",
-        "details": [
-          "Study tested 300+ heroin/fentanyl samples",
-          "90% sensitivity, 95% specificity for xylazine detection",
-          "Works with heroin, fentanyl powder, and pressed pills",
-          "Available at harm reduction organizations nationwide",
-          "Xylazine does NOT respond to naloxone - wounds require medical care"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "Drug and Alcohol Dependence",
-        "source_url": null
-      },
-      {
-        "date": "2024-11-08",
-        "category": "Contamination Alert",
-        "priority": "critical",
-        "title": "🚨 Nitazenes Found in Heroin Samples - Chicago Area",
-        "summary": "Highly potent synthetic opioids (nitazenes) detected in heroin. 100x stronger than fentanyl in some cases. Multiple overdoses reported.",
-        "details": [
-          "Nitazenes are synthetic opioids potentially stronger than fentanyl",
-          "Not detected by standard fentanyl test strips",
-          "At least 8 overdoses in past week, 2 fatal",
-          "Required 4-6 doses of naloxone to reverse",
-          "Brown powder heroin appearance - impossible to identify visually",
-          "Lab testing strongly recommended for all opioids in Chicago area"
-        ],
-        "regions": ["USA - Illinois"],
-        "source": "Chicago Department of Public Health",
-        "source_url": null
-      },
-      {
-        "date": "2024-11-06",
-        "category": "Service Launch",
-        "priority": "normal",
-        "title": "🎉 Vancouver Opens 24/7 Drug Checking Service",
-        "summary": "British Columbia expands drug checking with new 24/7 facility using FTIR and GC-MS technology.",
-        "details": [
-          "Located in Downtown Eastside, open 24 hours",
-          "Free FTIR spectroscopy and GC-MS testing",
-          "Results in 10-15 minutes for FTIR, same day for GC-MS",
-          "Also offers fentanyl, benzodiazepine, and xylazine test strips",
-          "Anonymous service, no ID required",
-          "Part of BC's expanded harm reduction strategy"
-        ],
-        "regions": ["Canada - BC"],
-        "source": "BC Centre on Substance Use",
-        "source_url": null
-      },
-      {
-        "date": "2024-11-04",
-        "category": "Counterfeit Pills",
-        "priority": "high",
-        "title": "⚠️ Fake Adderall Pills Containing Meth - College Campuses",
-        "summary": "Orange oval pills stamped '30' sold as Adderall contain pure methamphetamine. Widespread on college campuses across multiple states.",
-        "details": [
-          "Pills designed to look like Adderall 30mg (orange, oval, '30' imprint)",
-          "Lab testing shows 85-95% methamphetamine, no amphetamine salts",
-          "Reported on campuses in CA, AZ, TX, FL, NY",
-          "Students reporting severe anxiety, insomnia, jaw clenching",
-          "Some pills also contain caffeine to mimic Adderall effects",
-          "NEVER trust pills from non-pharmacy sources during finals season"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "DEA Campus Safety Alert",
-        "source_url": null
-      },
-      {
-        "date": "2024-11-02",
-        "category": "Policy Update",
-        "priority": "high",
-        "title": "📜 New York Decriminalizes Fentanyl Test Strips Statewide",
-        "summary": "Governor signs bill removing fentanyl test strips from drug paraphernalia law. Now legal to possess and distribute.",
-        "details": [
-          "Effective immediately - FTS no longer considered paraphernalia",
-          "Harm reduction organizations can freely distribute",
-          "Cannot be used as evidence of drug possession",
-          "Pharmacies can now stock and sell test strips",
-          "Part of broader overdose prevention legislation package",
-          "NY joins 40+ states legalizing fentanyl test strips"
-        ],
-        "regions": ["USA - New York"],
-        "source": "New York State Legislature",
-        "source_url": null
-      },
-      {
-        "date": "2024-10-30",
-        "category": "Contamination Alert",
-        "priority": "high",
-        "title": "⚠️ High-Dose MDMA Pills Causing Hospitalizations - Netherlands",
-        "summary": "Blue 'Tesla' and Green 'Heineken' pills tested at 250-320mg MDMA - dangerous doses causing severe overheating.",
-        "details": [
-          "Blue Tesla: 280mg MDMA (dangerous - typical dose 80-120mg)",
-          "Green Heineken: 250-320mg MDMA per pill",
-          "At least 12 hospitalizations in past 2 weeks",
-          "Symptoms: Severe hyperthermia (overheating), seizures, confusion",
-          "DIMS lab confirmed extremely high doses",
-          "Recommend splitting pills, starting with 1/4 if using",
-          "Wait 2+ hours before redosing - these pills are dangerously strong"
-        ],
-        "regions": ["Netherlands"],
-        "source": "DIMS (Dutch Drug Information System)",
-        "source_url": "https://www.drugs-test.nl"
-      },
-      {
-        "date": "2024-10-27",
-        "category": "Research",
-        "priority": "normal",
-        "title": "🔬 Study: Harm Reduction Programs Reduce Overdose Deaths by 37%",
-        "summary": "Johns Hopkins study shows comprehensive harm reduction services cut overdose mortality significantly.",
-        "details": [
-          "10-year study across 15 US cities",
-          "Programs offering naloxone, test strips, and safe consumption saved lives",
-          "37% reduction in overdose deaths in areas with full services",
-          "Syringe services alone reduced HIV transmission by 58%",
-          "No increase in drug use rates in areas with harm reduction",
-          "Researchers recommend nationwide expansion of services"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "Johns Hopkins Bloomberg School of Public Health",
-        "source_url": "https://publichealth.jhu.edu"
-      },
-      {
-        "date": "2024-10-24",
-        "category": "Contamination Alert",
-        "priority": "critical",
-        "title": "🚨 Ketamine Contaminated with PCP - UK Rave Scene",
-        "summary": "Multiple ketamine samples testing positive for PCP. Users reporting violent behavior, extreme agitation instead of typical K-hole.",
-        "details": [
-          "WEDINOS confirmed PCP in 8 ketamine samples from Manchester, Bristol, London",
-          "PCP causes aggression, paranoia, dissociation - NOT calming like ketamine",
-          "Users reporting hours-long bad trips, violent outbursts",
-          "Impossible to tell apart visually - both white crystalline powders",
-          "Reagent test: Ketamine = purple on Mandelin, PCP = dark green/brown",
-          "If you experience agitation/aggression instead of sedation - it's NOT ketamine"
-        ],
-        "regions": ["UK - England"],
-        "source": "WEDINOS",
-        "source_url": "https://wedinos.org"
-      },
-      {
-        "date": "2024-10-22",
-        "category": "Service Launch",
-        "priority": "normal",
-        "title": "💡 Spain Launches Mobile Drug Testing Van - Festival Circuit",
-        "summary": "Energy Control debuts mobile lab van visiting music festivals across Spain with on-site testing.",
-        "details": [
-          "Fully equipped mobile lab with FTIR and reagent testing",
-          "Visits major festivals: Sónar, Primavera Sound, others",
-          "Results in 15-30 minutes on-site",
-          "Free service, no questions asked",
-          "Also distributes harm reduction materials",
-          "Plans to expand to Portugal and France in 2025"
-        ],
-        "regions": ["Spain"],
-        "source": "Energy Control",
-        "source_url": "https://energycontrol-international.org"
-      },
-      {
-        "date": "2024-10-18",
-        "category": "Policy Update",
-        "priority": "normal",
-        "title": "📜 Canada Approves Prescription Heroin Program Expansion",
-        "summary": "Health Canada expands injectable diacetylmorphine (pharmaceutical heroin) program to 10 more cities.",
-        "details": [
-          "Program provides pharmaceutical-grade heroin to patients who failed methadone/buprenorphine",
-          "Reduces overdose risk, HIV transmission, crime",
-          "Administered in clinical settings twice daily",
-          "Expanding from Vancouver to Toronto, Montreal, Calgary, others",
-          "Early data shows 90% retention rate vs 50% for methadone",
-          "Controversial but evidence-based harm reduction approach"
-        ],
-        "regions": ["Canada"],
-        "source": "Health Canada",
-        "source_url": null
-      },
-      {
-        "date": "2024-10-16",
-        "category": "Contamination Alert",
-        "priority": "high",
-        "title": "⚠️ LSD Blotter Containing NBOMe - West Coast Music Festivals",
-        "summary": "Blotter sold as LSD testing positive for 25I-NBOMe. Dangerous vasoconstrictor that can cause fatal overdose.",
-        "details": [
-          "Multiple samples from California, Oregon, Washington festivals",
-          "NBOMes cause severe vasoconstriction - can be lethal even at typical doses",
-          "Bitter/metallic taste (LSD is tasteless)",
-          "Ehrlich reagent test: LSD turns purple, NBOMe NO reaction",
-          "NBOMe overdoses: seizures, hyperthermia, cardiovascular collapse",
-          "If blotter tastes bitter - SPIT IT OUT immediately"
-        ],
-        "regions": ["USA - Pacific Northwest", "USA - California"],
-        "source": "DanceSafe",
-        "source_url": "https://dancesafe.org"
-      },
-      {
-        "date": "2024-10-12",
-        "category": "Community News",
-        "priority": "normal",
-        "title": "🎉 Harm Reduction Coalition Launches Peer Naloxone Distribution App",
-        "summary": "New smartphone app connects people with nearby naloxone carriers for emergency situations.",
-        "details": [
-          "Free app available on iOS and Android",
-          "Users can volunteer as naloxone carriers in their area",
-          "Emergency button connects to nearest carrier (like Uber for naloxone)",
-          "Privacy-focused: no real names, approximate locations only",
-          "Also includes overdose recognition training videos",
-          "Pilot program in 5 US cities, expanding nationally"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "Harm Reduction Coalition",
-        "source_url": null
-      },
-      {
-        "date": "2024-10-08",
-        "category": "Research",
-        "priority": "normal",
-        "title": "🔬 New Research: MDMA Shows Promise for PTSD Treatment",
-        "summary": "Phase 3 trials show MDMA-assisted therapy significantly reduces PTSD symptoms in 67% of participants.",
-        "details": [
-          "FDA reviewing data for potential approval in 2024-2025",
-          "Participants received 3 sessions of MDMA + therapy over 3 months",
-          "67% no longer met PTSD criteria after treatment",
-          "Pharmaceutical MDMA (pure, precise dosing) in clinical setting",
-          "NOT recreational use - supervised therapy sessions only",
-          "Could revolutionize PTSD treatment for veterans, trauma survivors"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "MAPS (Multidisciplinary Association for Psychedelic Studies)",
-        "source_url": "https://maps.org"
-      },
-      {
-        "date": "2024-10-04",
-        "category": "Contamination Alert",
-        "priority": "critical",
-        "title": "🚨 Cocaine Cut with Levamisole - Nationwide",
-        "summary": "Up to 90% of US cocaine supply contaminated with levamisole (cattle dewormer). Causes immune system damage.",
-        "details": [
-          "DrugsData testing shows 70-90% of cocaine contains levamisole",
-          "Levamisole destroys white blood cells - causes agranulocytosis",
-          "Symptoms: Infections, fever, sore throat, skin lesions that won't heal",
-          "Necrotic skin wounds especially on ears, nose, cheeks",
-          "No way to remove levamisole - it's added by cartels before US import",
-          "Acetone wash does NOT remove levamisole",
-          "Medical attention immediately if you develop infections/skin wounds"
-        ],
-        "regions": ["USA - Nationwide"],
-        "source": "DrugsData.org",
-        "source_url": "https://drugsdata.org"
-      },
-      {
-        "date": "2024-09-30",
-        "category": "Policy Update",
-        "priority": "high",
-        "title": "📜 Portugal Decriminalizes Drug Possession - 20 Year Results Published",
-        "summary": "Two-decade study shows Portugal's decriminalization reduced drug deaths, HIV, incarceration without increasing use.",
-        "details": [
-          "Drug use rates remained stable or decreased since 2001 decriminalization",
-          "HIV infections among people who inject drugs dropped 95%",
-          "Overdose deaths among lowest in Europe",
-          "Prison population for drug offenses dropped 90%",
-          "Money redirected from incarceration to treatment and harm reduction",
-          "Model being studied by other European countries"
-        ],
-        "regions": ["Portugal"],
-        "source": "European Monitoring Centre for Drugs and Drug Addiction",
-        "source_url": null
-      },
-      {
-        "date": "2024-09-25",
-        "category": "Service Launch",
-        "priority": "normal",
-        "title": "🎉 Austin Opens First Safe Consumption Site in Texas",
-        "summary": "Texas's first overdose prevention center opens despite legal gray area. Provides supervised space and medical monitoring.",
-        "details": [
-          "Located in downtown Austin harm reduction center",
-          "Supervised consumption spaces with medical staff present",
-          "Naloxone, oxygen, and emergency response available",
-          "Also offers wound care, HIV/HCV testing, referrals to treatment",
-          "Operating under harm reduction exception to paraphernalia laws",
-          "First in Southern US - NYC, Philadelphia, Rhode Island have similar sites"
-        ],
-        "regions": ["USA - Texas"],
-        "source": "Austin Public Health",
-        "source_url": null
-      }
-    ]
+    "description": "Enable Live News Feeds below to see real-time alerts from DrugsData, FDA, DanceSafe, and other trusted sources. Add your own verified articles using the guide in ADDING_REAL_NEWS.md.",
+    "articles": []
   },
   "link_display_rules": {
     "show_warning": true,
