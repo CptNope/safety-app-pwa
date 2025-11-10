@@ -1,6 +1,6 @@
-# 🛡️ Harm Reduction Guide (PWA)
+# 🧪 Harm Reduction Guide (PWA)
 
-A comprehensive, offline-capable Progressive Web App (PWA) for substance testing, identification, and harm reduction education. Built to save lives through evidence-based information.
+A comprehensive, offline-capable Progressive Web App for substance testing, identification, and harm reduction education. Built to save lives through evidence-based information.
 
 **Created by Jeremy Anderson** • [Contribute on GitHub](https://github.com/CptNope/safety-app-pwa)
 
@@ -19,6 +19,20 @@ A comprehensive, offline-capable Progressive Web App (PWA) for substance testing
 - ✅ **Medical emergencies: Call 911** - Good Samaritan laws protect you in 47 US states + DC
 - ✅ **This app does NOT encourage illegal drug use** - it promotes safety through education
 
+---
+
+## 📋 Table of Contents
+
+1. [Overview](#-overview)
+2. [Key Features](#-key-features)
+3. [App Architecture](#-app-architecture)
+4. [Future Roadmap](#-future-roadmap)
+5. [Scalability & Architecture Evolution](#-scalability--architecture-evolution)
+6. [Getting Started](#-getting-started)
+7. [Contributing](#-contributing)
+
+---
+
 ## 📋 Overview
 
 A complete harm reduction toolkit providing:
@@ -31,13 +45,324 @@ A complete harm reduction toolkit providing:
 
 ### 🌟 Key Features
 
+| Tab | Icon | Name | Description |
+|-----|------|------|-------------|
+| 1 | 📚 | **Welcome** | Landing page, installation guide, best practices |
+| 2 | 🧪 | **Substance Testing** | Search 100+ substances with reagent reactions & scientific papers |
+| 3 | 🎨 | **Swatches** | Visual color reference for all reagents |
+| 4 | 🔍 | **ID Guide** | Counterfeit pills, cutting agents, crystal characteristics |
+| 5 | 🧬 | **Methods** | Testing protocols (reagent, fentanyl strips, lab testing) |
+| 6 | ❌ | **Myths** | 60 dangerous myths debunked |
+| 7 | 🌍 | **Resources** | 8 regional pill testing databases |
+| 8 | 🚒 | **First Responder** | EMS protocols, naloxone, field testing |
+| 9 | 🚨 | **Emergency** | Life-saving overdose response |
+| 10 | 🛒 | **Vendors** | Trusted suppliers for testing kits |
+
 #### Core Functionality
 - **📱 Installable PWA** - One-click install, works offline, no app store needed
-- **🧪 Quick Test Lookup** - Search 100+ substances, see expected reagent reactions instantly
+- **🧪 Substance Testing** - Search 100+ substances, see expected reagent reactions instantly
 - **🎨 Color-Coded Results** - Hex color visualization with descriptive names
 - **⏱️ Timing Windows** - Precise reaction observation timeframes
 - **🔗 External Resources** - Wikipedia (pharmacology) and Erowid (experiences) for every substance
 - **🔍 Smart Search** - Filter substances by name in real-time
+- **📚 Scientific Papers** - 95+ peer-reviewed research papers with DOI links
+
+---
+
+## 🏗 App Architecture
+
+### Current Architecture (V1 - Monolithic PWA)
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        👤 USER                              │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────────────────────┐
+│                   🌐 BROWSER (Client)                        │
+│  ┌────────────────────────────────────────────────────────┐  │
+│  │            Progressive Web App (PWA)                   │  │
+│  │  ┌──────────────────────────────────────────────────┐  │  │
+│  │  │          ⚛️  React 18 UI Layer                  │  │  │
+│  │  │  - 10 Tab Components                            │  │  │
+│  │  │  - Search & Filter Logic                        │  │  │
+│  │  │  - State Management                             │  │  │
+│  │  └──────────────────────────────────────────────────┘  │  │
+│  │                                                          │  │
+│  │  ┌──────────────────────────────────────────────────┐  │  │
+│  │  │          📦 Service Worker                       │  │  │
+│  │  │  - Offline Caching                              │  │  │
+│  │  │  - Asset Management                             │  │  │
+│  │  │  - Version Control                              │  │  │
+│  │  └──────────────────────────────────────────────────┘  │  │
+│  │                                                          │  │
+│  │  ┌──────────────────────────────────────────────────┐  │  │
+│  │  │          💾 Local Storage                        │  │  │
+│  │  │  - Cached Data (reagents.json)                  │  │  │
+│  │  │  - User Preferences                             │  │  │
+│  │  └──────────────────────────────────────────────────┘  │  │
+│  └────────────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────────────────────┐
+│                   📊 DATA LAYER                              │
+│  ┌────────────────────────────────────────────────────────┐  │
+│  │          data/reagents.json (4700+ lines)              │  │
+│  │                                                          │  │
+│  │  • substances: 100+ entries                            │  │
+│  │  • reagents: Test definitions                          │  │
+│  │  • scientific_papers: 95+ papers                       │  │
+│  │  • myths: 60 myths                                     │  │
+│  │  • medical_treatment: Emergency protocols              │  │
+│  │  • vendors: Supplier list                              │  │
+│  │  • id_guide: Identification tips                       │  │
+│  │  • resources: Regional databases                       │  │
+│  └────────────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### Data Flow
+
+```
+User Input → React State → Filter/Search Logic → Render Results
+     ↓                                                  ↑
+Service Worker ← Cache Check → Network Fetch → JSON Parse
+```
+
+### Key Design Principles
+
+1. **📴 Offline-First**: Service Worker caches all assets
+2. **⚡ Performance**: Static site, no server calls after first load
+3. **🔒 Privacy**: No tracking, all data stays local
+4. **📱 Responsive**: Works on desktop, tablet, mobile
+5. **♿ Accessible**: Semantic HTML, keyboard navigation
+6. **🎨 Modern UI**: Tailwind CSS for consistent styling
+
+---
+
+## 🔮 Future Roadmap & Scalability
+
+### Phase 1: Enhanced User Experience (Q1 2026)
+
+**Advanced Search & Filtering**
+- 🔍 Fuzzy matching for misspelled substance names
+- 🏷️ Filter by class (stimulants, psychedelics, opioids)
+- 🔤 Autocomplete suggestions
+- 🌟 Recently searched substances
+- 📌 Pin favorites for quick access
+- 🔀 Compare substances side-by-side
+
+**Interactive Color Matching**
+- 📸 Camera integration to capture test result colors
+- 🎨 Color picker to match against database
+- 📊 Confidence score for color matches
+- 🔬 Multi-reagent correlation analysis
+
+**Personalized Experience**
+- ⭐ Favorite substances list
+- 📝 Custom notes per substance
+- 📅 Test history log (local only, privacy-first)
+- 🔔 Custom alerts for new database entries
+- 🌙 Dark/Light mode toggle
+- 🌍 Multi-language support (Spanish, French, German, Portuguese)
+
+### Phase 2: Community & Collaboration (Q2 2026)
+
+**User-Generated Content**
+- 👥 Community submissions for new substance data
+- ✅ Peer review system with reputation scores
+- 📸 Photo uploads of test results (moderated)
+- 💬 Discussion threads per substance
+- 🏆 Contributor leaderboard
+- 🔒 Privacy-preserving anonymous submissions
+
+**Data Validation**
+- 🔬 Source verification requirements
+- 📚 Citation system for all data points
+- 🤝 Expert reviewer network
+- ⚠️ Flag disputed information
+- 📊 Confidence ratings for each data point
+
+### Phase 3: Advanced Analytics (Q3 2026)
+
+**Testing Analytics Dashboard**
+- 📈 Personal testing statistics
+- 🗺️ Regional contamination trends (opt-in data sharing)
+- ⚠️ Alert system for dangerous batches
+- 📊 Batch tracking by appearance/location
+- 🔔 Push notifications for critical alerts
+
+**Machine Learning Integration**
+- 🤖 Color recognition AI for automatic reagent reading
+- 🧠 Pattern detection for adulterant prediction
+- 📸 Image classification for pill identification
+- 🔮 Risk prediction based on test results
+- 📊 Anomaly detection for unusual reactions
+
+### Phase 4: Professional Tools (Q4 2026)
+
+**Lab Integration**
+- 🔗 API connections to lab testing services
+- 📥 Import results from DrugsData, WEDINOS
+- 📤 Export test data in standardized formats
+- 🔄 Sync with lab databases
+- 📋 Digital chain of custody
+
+**First Responder Edition**
+- 🚒 Specialized UI for emergency personnel
+- 📱 Offline maps of nearby medical facilities
+- 🎯 Quick access protocols by symptom
+- 📞 One-touch poison control contact
+- 📊 Field reporting tools
+
+### Phase 5: Platform Expansion (2027)
+
+**Native Mobile Apps**
+- 📱 iOS App (Swift/SwiftUI)
+- 🤖 Android App (Kotlin/Jetpack Compose)
+- ⚡ Better performance than PWA
+- 📸 Full camera access for color matching
+- 🔔 Native push notifications
+
+**Hardware Integration**
+- 📸 Smart camera for reagent reading
+- 🔬 Portable spectrometers (NIR, Raman)
+- 🌡️ Temperature sensors for melting point
+- ⚖️ Digital scales integration
+- 🔌 Bluetooth lab equipment connectivity
+
+### Phase 6: Ecosystem Development (2027+)
+
+**Developer Platform**
+- 🔧 Public API for third-party apps
+- 📚 SDK for custom integrations
+- 🎨 White-label solutions for organizations
+- 🔌 Plugin system for extensions
+- 📖 Developer documentation
+
+**Institutional Partnerships**
+- 🏥 Hospital systems integration
+- 🚔 Law enforcement tools
+- 🎓 Educational institutions licenses
+- 🔬 Research labs data sharing
+- 🏛️ Public health department dashboards
+
+---
+
+## 🏗 Scalability & Architecture Evolution
+
+### Current Limitations
+
+| Limitation | Impact | Priority | Solution |
+|------------|--------|----------|----------|
+| Single JSON file | Hard to maintain >5000 lines | 🔴 High | Database migration |
+| No backend | Can't sync across devices | 🟡 Medium | API layer |
+| Client-side only | No user accounts | 🟡 Medium | Auth service |
+| CDN dependencies | Requires internet first load | 🟢 Low | Self-hosted assets |
+
+### Architecture V2: Client-Server Hybrid (2026)
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    CLIENT LAYER                              │
+│  PWA/React + IndexedDB + Service Worker                     │
+└────────────┬─────────────────────────────────────────────────┘
+             │
+             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    EDGE/CDN LAYER                            │
+│  Cloudflare Workers + Edge Caching                          │
+└────────────┬─────────────────────────────────────────────────┘
+             │
+             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    API LAYER                                 │
+│  REST API + GraphQL + WebSocket                             │
+└────────────┬─────────────────────────────────────────────────┘
+             │
+             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    BACKEND LAYER                             │
+│  Application Servers + Message Queue + Workers              │
+└────────────┬─────────────────────────────────────────────────┘
+             │
+             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    DATA LAYER                                │
+│  PostgreSQL + Redis + Elasticsearch + S3                    │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**Benefits:**
+- ⚡ 10x faster queries with proper database
+- 👥 User accounts and cross-device sync
+- 🔄 Real-time updates via WebSocket
+- 📊 Analytics on actual usage
+- 🔍 Full-text search with Elasticsearch
+- 🎯 Personalized content delivery
+
+### Database Schema Evolution
+
+**Current: Flat JSON**
+```json
+{ "substances": { "MDMA": { /* all data */ } } }
+```
+
+**Phase 2: Normalized SQL**
+```sql
+CREATE TABLE substances (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) UNIQUE,
+    class VARCHAR(50),
+    created_at TIMESTAMP
+);
+
+CREATE TABLE reagent_tests (
+    id SERIAL PRIMARY KEY,
+    substance_id INTEGER REFERENCES substances(id),
+    reagent_id INTEGER REFERENCES reagents(id),
+    color_hex VARCHAR(7),
+    window_start INTEGER,
+    window_end INTEGER
+);
+
+CREATE TABLE scientific_papers (
+    id SERIAL PRIMARY KEY,
+    substance_id INTEGER REFERENCES substances(id),
+    title TEXT,
+    authors TEXT,
+    journal VARCHAR(200),
+    year INTEGER,
+    doi VARCHAR(100),
+    summary TEXT
+);
+```
+
+### Performance Optimization Roadmap
+
+| Phase | Optimization | Improvement |
+|-------|--------------|-------------|
+| Current | Service Worker caching | Offline capable |
+| Phase 1 | Code splitting | 50% faster load |
+| Phase 2 | Server-side rendering | 40% faster perceived |
+| Phase 3 | Database indexing | 90% faster queries |
+| Phase 4 | GraphQL federation | Optimized fetching |
+| Phase 5 | Native apps | 10x mobile performance |
+
+### Cost Analysis
+
+| Phase | Infrastructure | Monthly Cost |
+|-------|---------------|--------------|
+| Current | Static hosting | $0 (free tier) |
+| Phase 1 | Static + CDN | $10-50 |
+| Phase 2 | VPS + Database | $50-200 |
+| Phase 3 | Cloud (AWS/GCP) | $200-1000 |
+| Phase 4 | Kubernetes | $500-3000 |
+| Phase 5 | Enterprise | $2000-10000+ |
+
+---
 
 #### 10 Comprehensive Tabs
 
@@ -49,7 +374,7 @@ A complete harm reduction toolkit providing:
    - Testing best practices
    - Important disclaimers
 
-2. **🧪 Quick Test**
+2. **🧪 Substance Testing** (formerly Quick Test)
    - Search bar for 100+ substances
    - Expected reagent reactions with color swatches
    - Timing windows for each test

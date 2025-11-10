@@ -1727,7 +1727,7 @@ function Welcome(){
       <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
         <h3 className="font-semibold text-lg text-white">🎯 What This App Does</h3>
         <ul className="space-y-2 text-sm">
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Quick Test:</strong> Search substances and see expected reagent test results with color swatches</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Substance Testing:</strong> Search substances and see expected reagent test results with color swatches</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>ID Guide:</strong> Visual identification of different substance forms (pills, crystals, powders)</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Testing Methods:</strong> Comprehensive guide to reagent testing, lab testing, and field methods</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Myths Debunked:</strong> Correct dangerous misinformation with evidence-based facts</span></li>
@@ -1740,7 +1740,7 @@ function Welcome(){
       <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
         <h3 className="font-semibold text-lg text-white">📖 How to Use This Guide</h3>
         <ol className="space-y-3 text-sm list-decimal list-inside">
-          <li><strong>Search for your substance</strong> in the Quick Test tab to see expected reagent reactions</li>
+          <li><strong>Search for your substance</strong> in the Substance Testing tab to see expected reagent reactions</li>
           <li><strong>View color swatches</strong> to compare your test results visually</li>
           <li><strong>Check ID Guide</strong> for visual characteristics of different substance forms</li>
           <li><strong>Review testing methods</strong> to learn proper testing procedures</li>
@@ -2007,7 +2007,7 @@ function App(){
         <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
         <nav className="flex flex-wrap gap-2 justify-center sm:justify-start">
           <button onClick={()=>setTab('welcome')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}>📚 Welcome</button>
-          <button onClick={()=>setTab('quick')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Quick Test</button>
+          <button onClick={()=>setTab('quick')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>🧪 Substance Testing</button>
           <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Swatches</button>
           <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>ID Guide</button>
           <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-white/25 border border-white/40 text-white':'bg-white/10 border border-white/20 text-gray-300 hover:bg-white/15')}>Methods</button>
@@ -2024,7 +2024,7 @@ function App(){
       {data?.link_display_rules?.show_warning && <Banner tone="warn">{data.link_display_rules.warning_text}</Banner>}
 
       {tab==='welcome' && (<section className="space-y-3"><Welcome/></section>)}
-      {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Quick Test</h2><QuickTest/></section>)}
+      {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold">🧪 Substance Testing</h2><QuickTest/></section>)}
       {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
       {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
       {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
