@@ -2773,6 +2773,37 @@ function Addiction(){
           <p className="text-sm text-amber-100 mb-2">
             <strong>NOT FDA-approved</strong> but widely used for self-managed withdrawal when methadone/buprenorphine are inaccessible. Contains opioid receptor agonists (mitragynine, 7-hydroxymitragynine).
           </p>
+
+          <div className="bg-red-600/20 border-2 border-red-500/60 rounded p-3 mb-3">
+            <p className="text-red-200 font-bold mb-2">🚨 CRITICAL: 7-Hydroxymitragynine (7-OH) Fortified Products</p>
+            <div className="text-sm text-red-100 space-y-2">
+              <p><strong>EXTREME DANGER:</strong> Many kratom products (especially shots, extracts, tablets, vapes) are now fortified with isolated or synthetic 7-OH. This is NOT natural kratom.</p>
+              
+              <ul className="space-y-1 ml-4">
+                <li>• <strong>13x more potent than morphine</strong> - Much stronger than plain leaf kratom</li>
+                <li>• <strong>Rapid addiction:</strong> Physical dependence can develop in days/weeks vs months with plain leaf</li>
+                <li>• <strong>Severe withdrawal:</strong> Comparable to prescription opioids, NOT mild like plain kratom</li>
+                <li>• <strong>Higher overdose risk:</strong> Respiratory depression documented with high-dose 7-OH</li>
+                <li>• <strong>Often unlabeled:</strong> Products don't disclose 7-OH content or claim "enhanced" without specifics</li>
+                <li>• <strong>Synthetic versions:</strong> Some contain lab-synthesized 7-OH, not plant-derived</li>
+              </ul>
+              
+              <p className="font-semibold mt-2">⚠️ AVOID THESE PRODUCTS:</p>
+              <ul className="space-y-1 ml-4">
+                <li>• Kratom "shots" (liquid extracts in small bottles)</li>
+                <li>• "Extract" or "Enhanced" products</li>
+                <li>• Tablets/capsules labeled "extra strength" or "ultra"</li>
+                <li>• Any product with isolated 7-OH listed</li>
+                <li>• Gas station brands (highest risk of fortification)</li>
+                <li>• Products marketed as "synthetic kratom" or "legal opioid"</li>
+              </ul>
+              
+              <p className="font-semibold mt-2 text-red-200">✅ SAFER OPTION: Plain leaf kratom powder only</p>
+              <p>Natural kratom leaf contains ~66% mitragynine and ~2% 7-OH. This balance provides withdrawal relief with lower addiction/overdose risk. Isolated 7-OH products bypass natural safety mechanisms.</p>
+              
+              <p className="font-semibold mt-2 bg-red-700/30 p-2 rounded">If you're dependent on 7-OH products: DO NOT quit cold turkey. Taper slowly or seek medical help. Withdrawal is severe and dangerous.</p>
+            </div>
+          </div>
           
           <div className="space-y-2">
             <div className="bg-emerald-500/10 border border-emerald-500/30 rounded p-3">
@@ -2809,7 +2840,7 @@ function Addiction(){
                 <li>• <strong>Strains:</strong> Red vein (most sedating), Green (balanced), White (stimulating)</li>
                 <li>• <strong>Stay hydrated:</strong> Kratom is constipating and dehydrating</li>
                 <li>• <strong>Buy from tested vendors:</strong> Look for lab testing (avoid gas stations)</li>
-                <li>• <strong>Avoid extracts/enhanced:</strong> Higher potency = faster tolerance/dependence</li>
+                <li>• <strong>⚠️ PLAIN LEAF POWDER ONLY:</strong> NEVER use extracts, shots, or "enhanced" products (see 7-OH warning above). These cause rapid addiction and severe withdrawal.</li>
                 <li>• <strong>Plan to taper:</strong> Don't use indefinitely. Once stable, slowly reduce dose</li>
               </ul>
             </div>
@@ -2820,7 +2851,7 @@ function Addiction(){
                 <li>• <strong>Stabilize first:</strong> Use same dose for 1-2 weeks</li>
                 <li>• <strong>Reduce slowly:</strong> 0.5-1g per dose every 3-5 days</li>
                 <li>• <strong>Total timeline:</strong> 4-12 weeks depending on dose</li>
-                <li>• <strong>Withdrawal symptoms:</strong> Mild compared to traditional opioids</li>
+                <li>• <strong>Withdrawal symptoms:</strong> Mild compared to traditional opioids (plain leaf only - 7-OH products have severe withdrawal)</li>
                 <li>• <strong>Support helps:</strong> r/quittingkratom community</li>
               </ul>
             </div>
