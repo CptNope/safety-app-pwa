@@ -1144,6 +1144,14 @@ function Swatches(){
 function News(){
   const {data} = useJSON('data/reagents.json');
   const [filter, setFilter] = useState('All');
+  const [useLiveFeeds, setUseLiveFeeds] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  
+  // Use live feeds if enabled and newsAggregator is available
+  const { news: liveNews, loading: liveLoading, error: liveError, lastUpdate, refresh } = 
+    useLiveFeeds && typeof useAggregatedNews !== 'undefined' 
+      ? useAggregatedNews() 
+      : { news: null, loading: false, error: null, lastUpdate: null, refresh: null };
   
   if(!data?.news) return (
     <div className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-6">
@@ -1152,8 +1160,14 @@ function News(){
   );
 
   const news = data.news;
-  const categories = ['All', ...new Set(news.articles?.map(a => a.category) || [])];
-  const filtered = filter === 'All' ? news.articles : news.articles?.filter(a => a.category === filter);
+  
+  // Combine local and live articles if using live feeds
+  const allArticles = useLiveFeeds && liveNews && !liveError
+    ? [...(news.articles || []), ...liveNews]
+    : (news.articles || []);
+  
+  const categories = ['All', ...new Set(allArticles.map(a => a.category) || [])];
+  const filtered = filter === 'All' ? allArticles : allArticles.filter(a => a.category === filter);
 
   return (
     <div className="space-y-4">
@@ -1164,6 +1178,61 @@ function News(){
         </p>
       </div>
 
+      {/* Live Feeds Settings */}
+      {typeof useAggregatedNews !== 'undefined' && (
+        <div className="rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-4 space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setUseLiveFeeds(!useLiveFeeds)}
+                className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${
+                  useLiveFeeds ? 'bg-cyan-500' : 'bg-gray-600'
+                }`}
+              >
+                <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition ${
+                  useLiveFeeds ? 'translate-x-6' : 'translate-x-1'
+                }`}/>
+              </button>
+              <div>
+                <div className="font-medium text-sm text-cyan-200">Live News Feeds</div>
+                <div className="text-xs text-gray-400">
+                  {useLiveFeeds ? 'Enabled - fetching from RSS feeds & APIs' : 'Disabled - showing manual updates only'}
+                </div>
+              </div>
+            </div>
+            {useLiveFeeds && refresh && (
+              <button
+                onClick={refresh}
+                disabled={liveLoading}
+                className="px-3 py-1.5 rounded-lg text-xs font-medium bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition disabled:opacity-50"
+              >
+                {liveLoading ? '🔄 Loading...' : '🔄 Refresh'}
+              </button>
+            )}
+          </div>
+          
+          {useLiveFeeds && lastUpdate && (
+            <div className="text-xs text-gray-400">
+              Last updated: {lastUpdate.toLocaleTimeString()} • 
+              Sources: DrugsData, FDA, DanceSafe, Erowid, NIDA, DPA
+            </div>
+          )}
+          
+          {useLiveFeeds && liveError && (
+            <div className="text-xs text-red-300 bg-red-500/10 rounded p-2">
+              ⚠️ Error loading live feeds. Showing manual updates only.
+            </div>
+          )}
+          
+          {useLiveFeeds && liveLoading && (
+            <div className="text-xs text-cyan-300">
+              ⏳ Fetching latest news from multiple sources...
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Category Filters */}
       {categories.length > 1 && (
         <div className="flex flex-wrap gap-2">
           {categories.map(cat => (
@@ -1176,7 +1245,7 @@ function News(){
                   : 'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20'
               }`}
             >
-              {cat}
+              {cat} {useLiveFeeds && liveNews && `(${allArticles.filter(a => cat === 'All' || a.category === cat).length})`}
             </button>
           ))}
         </div>

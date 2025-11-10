@@ -1,5 +1,5 @@
 
-const VERSION = "v67-202511092130";
+const VERSION = "v68-202511092200";
 const CACHE = "safety-pwa-" + VERSION;
 const ASSETS = [
   "./",
@@ -7,6 +7,7 @@ const ASSETS = [
   "./assets/styles.css",
   "./app.js",
   "./data-loader.js",
+  "./news-aggregator.js",
   "./data/reagents.json",
   "./manifest.webmanifest",
   // Modular database files
