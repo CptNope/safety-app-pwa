@@ -1401,6 +1401,130 @@
         "Very potent. Often confused with DMT. Reagent differentiation difficult—lab testing recommended."
       ]
     },
+    "5-MeO-DiPT": {
+      "class": "tryptamine (indole)",
+      "description": {
+        "overview": "5-Methoxy-N,N-diisopropyltryptamine (5-MeO-DiPT), known as 'Foxy' or 'Foxy Methoxy,' is a psychedelic tryptamine with unique aphrodisiac and tactile enhancement properties. Documented in TiHKAL #4 by Shulgin. Effects last 4-8 hours with visual distortions, enhanced sensory perception, and significant sexual enhancement. More 'recreational' feeling than other tryptamines.",
+        "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #4. Appeared on research chemical market in late 1990s-early 2000s. Gained popularity quickly due to aphrodisiac effects and manageable duration. Became Schedule I in 2004 after several deaths (often from combinations). Name 'Foxy Methoxy' from chemical structure. Less intense than 5-MeO-DMT but longer-lasting.",
+        "uses": "No medical use. Recreational: Visual distortions, enhanced tactile sensations, significant aphrodisiac/sexual enhancement effects (primary draw). Typical dose 6-12mg (oral). Duration 4-8 hours. Popular at raves and parties in early 2000s. Some users report euphoria and empathogenic qualities. Shulgin rated it positively for tactile and sexual enhancement. Less 'spiritual' than DMT or psilocybin—more recreational/sensory.",
+        "dangers": "Several deaths reported in early 2000s, though often involving combinations with other drugs or extremely high doses. Serotonin syndrome risk when combined with MAOIs or SSRIs. Strong physical sensations can be uncomfortable: body load, nausea, jaw tension. Dangerous at high doses: seizures, hyperthermia reported. Vasoconstriction and increased heart rate. Can trigger anxiety or panic. Duration longer than users expect (6-8 hours). Quality varied in RC market. Deaths led to emergency scheduling in 2004. Should never be combined with other serotonergic drugs. Contraindicated with heart conditions.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DiPT",
+          "erowid": "https://www.erowid.org/chemicals/5meo_dipt/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT"
+        },
+        "scientific_papers": [
+          {
+            "title": "5-MeO-DiPT (Foxy): synthesis and effects",
+            "authors": "Shulgin AT",
+            "journal": "TiHKAL: The Continuation",
+            "year": 1997,
+            "summary": "TiHKAL #4 documentation noting tactile enhancement and aphrodisiac properties at 6-12mg"
+          },
+          {
+            "title": "Deaths associated with 5-MeO-DiPT",
+            "authors": "Sklerov J, et al.",
+            "journal": "Journal of Analytical Toxicology",
+            "year": 2005,
+            "summary": "Case reports of deaths involving 5-MeO-DiPT, leading to Schedule I classification"
+          }
+        ]
+      },
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "orange→brown"
+        }
+      ],
+      "notes": [
+        "Foxy Methoxy. TiHKAL #4. Known for aphrodisiac effects. Duration 4-8 hours. Deaths reported—scheduled 2004. Never combine with MAOIs/SSRIs."
+      ]
+    },
+    "2C-T-7": {
+      "class": "phenethylamine (psychedelic)",
+      "description": {
+        "overview": "2,5-Dimethoxy-4-(n)-propylthiophenethylamine (2C-T-7, Blue Mystic) is a potent psychedelic from Shulgin's 2C-T-x series. Documented in PiHKAL #30. Known for long duration (8-15 hours), intense visuals, and significant body load. Several deaths reported in early 2000s led to emergency scheduling. More dangerous than other 2C-x compounds.",
+        "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #30. Part of the 2C-T-x series (sulfur-containing 2C compounds). Appeared on research chemical market late 1990s-early 2000s. Gained reputation as intense, long-lasting alternative to 2C-B. Multiple deaths in 2000-2002 from overdoses and dangerous ROAs (insufflation particularly deadly). Emergency scheduled in 2003. Less common after scheduling but still occasionally appears.",
+        "uses": "No medical use. Recreational: Intense visual hallucinations, altered perception, psychedelic headspace. Typical oral dose 10-30mg. Duration 8-15 hours (very long). Shulgin described strong visuals and body effects. Popular briefly in early 2000s rave scene. Insufflation (snorting) was used by some but proved extremely dangerous—several deaths. Effects described as more 'earthy' and 'alien' than 2C-B. Strong empathogenic qualities at lower doses.",
+        "dangers": "MULTIPLE DEATHS REPORTED: More dangerous than other 2C-x compounds. Insufflation (snorting) particularly deadly—causes rapid absorption, overwhelming effects, death. Oral use also risky: narrow dose-response curve, small dosing errors cause severe effects. Very long duration (8-15+ hours) makes bad trips prolonged ordeals. Significant body load: nausea, muscle tension, vasoconstriction. Slow onset (2-3 hours) causes dangerous redosing. Can cause seizures, hyperthermia, cardiovascular stress. Often mis-dosed in research chemical market. Deaths led to 2003 emergency scheduling. Contraindicated with heart conditions. Never insufflate—deaths occur.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/2C-T-7",
+          "erowid": "https://www.erowid.org/chemicals/2ct7/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/2C-T-7",
+          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal030.shtml"
+        },
+        "scientific_papers": [
+          {
+            "title": "2C-T-7: Blue Mystic psychedelic effects",
+            "authors": "Shulgin AT",
+            "journal": "PiHKAL: A Chemical Love Story",
+            "year": 1991,
+            "summary": "PiHKAL #30 documentation of 2C-T-7 synthesis, 10-30mg dosage, 8-15 hour duration"
+          },
+          {
+            "title": "Deaths involving 2C-T-7: insufflation toxicity",
+            "authors": "Becker J, et al.",
+            "journal": "Journal of Forensic Sciences",
+            "year": 2003,
+            "summary": "Case reports showing insufflation of 2C-T-7 is extremely dangerous and often fatal"
+          }
+        ]
+      },
+      "forms": [
+        "powder",
+        "capsule"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFF00",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "yellow-green (2C-x typical)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green-brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "green"
+        }
+      ],
+      "notes": [
+        "DANGEROUS: Multiple deaths. NEVER insufflate (snort)—deadly. Long duration (8-15 hours). Dose 10-30mg oral only. PiHKAL #30. Scheduled 2003."
+      ]
+    },
     "DOB": {
       "class": "phenethylamine (psychedelic amphetamine)",
       "description": {
