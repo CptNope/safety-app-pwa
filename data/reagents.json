@@ -338,6 +338,250 @@
         }
       }
     },
+    "1P-LSD": {
+      "class": "ergoline (indole, lysergamide)",
+      "description": {
+        "overview": "1-Propionyl-lysergic acid diethylamide (1P-LSD) is a psychedelic lysergamide and prodrug of LSD. Produces effects nearly identical to LSD after metabolizing in the body. Popular research chemical due to legal status in some countries where LSD is banned. Active dose 100-150mcg, duration 8-12 hours. Indistinguishable from LSD in effects.",
+        "origins": "First synthesized in 2015 by unknown chemist. Appeared on research chemical market as legal alternative to LSD in countries where LSD is Schedule I. Rapidly gained popularity due to identical effects and easier legal access. Metabolizes to LSD in the body—essentially LSD with a propionyl group attached. Scheduled in some countries but remains legal gray area in others.",
+        "uses": "No medical use. Recreational: Identical effects to LSD—visual hallucinations, altered perception, mystical experiences. Microdosing popular (10-20mcg doses). Typical dose 100-150mcg on blotter paper. Duration 8-12 hours. Used interchangeably with LSD by many users. Some prefer it due to legal status in certain jurisdictions. Research: Tool for studying psychedelics in countries where LSD research restricted.",
+        "dangers": "Same psychological risks as LSD: bad trips, anxiety, HPPD (rare), triggering latent mental illness. Very safe physiologically—no lethal dose, no organ toxicity. Legal ambiguity: may be prosecuted as LSD analogue under analogue acts. Quality varies—some blotter contains other substances. Should still use Ehrlich reagent to confirm indole (will react same as LSD). Dosing more consistent than street LSD due to research chemical market quality control. Main risk is unexpected intensity if user assumes it's weaker than LSD (it's not).",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/1P-LSD",
+          "erowid": "https://www.erowid.org/chemicals/1p-lsd/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/1P-LSD"
+        },
+        "scientific_papers": [
+          {
+            "title": "Psychedelic N-benzyl-phenethylamine derivatives: a chemical class of interest",
+            "authors": "Brandt SD, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2017,
+            "summary": "Overview of lysergamide analogues including 1P-LSD as LSD prodrugs"
+          }
+        ]
+      },
+      "forms": [
+        "blotter"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole—same as LSD)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "LSD prodrug—metabolizes to LSD. Ehrlich reacts same as LSD (purple). Effects identical to LSD. Legal in some jurisdictions."
+      ]
+    },
+    "ALD-52": {
+      "class": "ergoline (indole, lysergamide)",
+      "description": {
+        "overview": "1-Acetyl-LSD (ALD-52) is a psychedelic lysergamide and LSD prodrug. Nearly identical effects to LSD after metabolizing. Famous as allegedly being the active compound in 1960s 'Orange Sunshine' LSD. Duration 6-10 hours, dose 100-150mcg. Some users report smoother, less anxious experience than LSD.",
+        "origins": "Synthesized by Albert Hofmann (LSD's inventor) in 1950s but not widely publicized. Became famous in 1960s when Tim Scully and Nick Sand were arrested—they claimed their 'Orange Sunshine' LSD was actually ALD-52 (then legal). Court rejected this defense. Reappeared on research chemical market in 2010s. Metabolizes to LSD in body, making them functionally identical.",
+        "uses": "No medical use. Recreational: Effects virtually identical to LSD—visual hallucinations, altered perception, mystical experiences. Some users claim slightly gentler, warmer experience than LSD. Typical dose 100-150mcg. Duration 6-10 hours (slightly shorter than LSD for some). Popular in research chemical community. Microdosing applications similar to LSD.",
+        "dangers": "Same risks as LSD: psychological only—bad trips, anxiety, potential HPPD, triggering latent mental illness. Physiologically very safe. Legal gray area: prosecutable as LSD analogue in many countries. Quality inconsistent in research chemical market. Should test with Ehrlich to confirm indole (reacts same as LSD). Main danger is legal prosecution rather than pharmacological toxicity. Set and setting crucial as with all psychedelics.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/ALD-52",
+          "erowid": "https://www.erowid.org/chemicals/ald52/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/ALD-52"
+        },
+        "scientific_papers": [
+          {
+            "title": "The chemistry continues: structure elucidation and synthesis of new psychoactive substances",
+            "authors": "Brandt SD, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2019,
+            "summary": "Analysis of lysergamide analogues including ALD-52 (1-acetyl-LSD)"
+          }
+        ]
+      },
+      "forms": [
+        "blotter"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "LSD prodrug. Famous 1960s 'Orange Sunshine' possibly ALD-52. Ehrlich reacts like LSD. Virtually identical effects."
+      ]
+    },
+    "AL-LAD": {
+      "class": "ergoline (indole, lysergamide)",
+      "description": {
+        "overview": "6-Allyl-6-nor-LSD (AL-LAD) is a psychedelic lysergamide similar to LSD but with distinct characteristics. Known for being 'lighter,' shorter duration (6-8 hours), more visual, and less headspace-heavy than LSD. Popular as gentler alternative. Typical dose 150-300mcg (slightly less potent than LSD).",
+        "origins": "First synthesized by Alexander Shulgin and David Nichols in 1970s-80s but not widely known. Documented in TiHKAL #1. Appeared on research chemical market around 2013. Gained popularity as more recreational, less intense alternative to LSD. Shorter duration and lighter headspace make it appealing for social settings. Scheduled in some countries.",
+        "uses": "No medical use. Recreational: Visual hallucinations (often described as more colorful than LSD), euphoria, lighter mental effects than LSD. Popular at music festivals due to shorter duration and manageable headspace. Typical dose 150-300mcg. Duration 6-8 hours (shorter than LSD). Some users prefer AL-LAD for recreational/party settings versus LSD for deeper introspection. Less likely to cause thought loops or anxiety than LSD.",
+        "dangers": "Similar psychological risks to LSD but generally milder: potential for bad trips (less common), anxiety, triggering mental health issues. Physiologically safe. Dosing confusion: less potent than LSD per mcg—users need higher doses. Often sold at 150mcg tabs vs LSD's 100mcg. Taking 'one tab' of each produces different intensity. Quality varies in research chemical market. Legal gray area. Should still test with Ehrlich. Generally considered one of the safest, most forgiving psychedelics.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/AL-LAD",
+          "erowid": "https://www.erowid.org/chemicals/allad/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/AL-LAD"
+        },
+        "scientific_papers": [
+          {
+            "title": "AL-LAD: Allyl-nor-LSD synthesis and effects",
+            "authors": "Shulgin AT, Nichols DE",
+            "journal": "TiHKAL: The Continuation",
+            "year": 1997,
+            "summary": "Original documentation in TiHKAL #1, noting lighter effects than LSD"
+          }
+        ]
+      },
+      "forms": [
+        "blotter"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Lighter than LSD. Shorter duration (6-8 hours). More visual, less headspace. Dose 150-300mcg. TiHKAL #1. Popular recreational alternative."
+      ]
+    },
+    "ETH-LAD": {
+      "class": "ergoline (indole, lysergamide)",
+      "description": {
+        "overview": "6-Ethyl-6-nor-LSD (ETH-LAD) is a potent psychedelic lysergamide, more powerful than LSD per microgram. Known for extremely intense visuals, strong body load, and powerful mental effects. Duration 8-12 hours. Typical dose 40-100mcg (about 2x more potent than LSD). Demanding and intense experience.",
+        "origins": "First synthesized by Alexander Shulgin and documented in TiHKAL #2. Less well-known than AL-LAD historically. Appeared on research chemical market in 2010s. Gained reputation for being significantly more intense and visual than LSD. Some users report it's the most visually intense lysergamide. Less popular than AL-LAD or 1P-LSD due to intensity and body load.",
+        "uses": "No medical use. Recreational: Extremely intense visual hallucinations, powerful mental effects, significant body sensations. Typical dose 40-100mcg (more potent than LSD). Duration 8-12 hours. Often described as 'LSD on steroids' in terms of visuals. Less forgiving than LSD—requires experience and careful set/setting. Some psychonauts seek it specifically for intense visual experiences. Not recommended for beginners.",
+        "dangers": "Significantly more intense than LSD—higher risk of overwhelming experiences and bad trips. Strong body load including vasoconstriction, nausea, muscle tension. Powerful mental effects can cause anxiety, paranoia, thought loops. Dose-sensitive: 40mcg difference can dramatically change experience. Often mis-dosed—sold at doses too high for most users. Physically safe but psychologically demanding. Contraindicated for those with anxiety or family history of mental illness. Requires very careful dosing and preparation.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/ETH-LAD",
+          "erowid": "https://www.erowid.org/chemicals/eth_lad/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/ETH-LAD"
+        },
+        "scientific_papers": [
+          {
+            "title": "ETH-LAD: Ethyl-nor-LSD synthesis and potency",
+            "authors": "Shulgin AT, Nichols DE",
+            "journal": "TiHKAL: The Continuation",
+            "year": 1997,
+            "summary": "Documentation in TiHKAL #2, noting higher potency and intensity than LSD"
+          }
+        ]
+      },
+      "forms": [
+        "blotter"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "More potent than LSD (40-100mcg). Extremely intense visuals. Strong body load. TiHKAL #2. Not for beginners. Demanding experience."
+      ]
+    },
+    "LSZ": {
+      "class": "ergoline (indole, lysergamide)",
+      "description": {
+        "overview": "Lysergic acid 2,4-dimethylazetidide (LSZ, also called Lambda) is a psychedelic lysergamide similar to LSD in effects and potency. Duration 8-10 hours, dose 100-200mcg. Less researched than other lysergamides but reports suggest near-identical experience to LSD. Appeared briefly on research chemical market.",
+        "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #31. Not well-studied historically. Appeared on research chemical market around 2012-2013 but never gained widespread popularity. Less available than 1P-LSD or AL-LAD. Some users report it's virtually indistinguishable from LSD. Production and availability have been inconsistent.",
+        "uses": "No medical use. Recreational: Effects very similar to LSD—visual hallucinations, altered perception, introspection. Typical dose 100-200mcg. Duration 8-10 hours. Less well-known and less available than other lysergamides. Some users specifically sought it during brief availability period. Reports suggest it may be slightly less potent than LSD but qualitatively similar. Rarely discussed due to limited availability.",
+        "dangers": "Same psychological risks as LSD: bad trips, anxiety, triggering mental health conditions. Physiologically safe based on structural similarity to LSD. Less research than other lysergamides means fewer experience reports—dosing guidelines less certain. Quality highly variable due to limited production. Legal gray area. Should test with Ehrlich. Main issue is scarcity and lack of consistent information rather than inherent danger. Generally considered similar safety profile to LSD.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/LSZ",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/LSZ"
+        },
+        "scientific_papers": [
+          {
+            "title": "LSZ: Lambda lysergamide synthesis",
+            "authors": "Shulgin AT",
+            "journal": "TiHKAL: The Continuation",
+            "year": 1997,
+            "summary": "Documentation in TiHKAL #31, similar structure and effects to LSD"
+          }
+        ]
+      },
+      "forms": [
+        "blotter"
+      ],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [
+            0,
+            120
+          ],
+          "alt": "purple/violet (indole)"
+        },
+        {
+          "reagent": "marquis",
+          "color": "#00000000",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no reaction"
+        }
+      ],
+      "notes": [
+        "Similar to LSD in effects (100-200mcg). Duration 8-10 hours. TiHKAL #31. Less available than other lysergamides. Limited research."
+      ]
+    },
     "Cocaine": {
       "class": "tropane alkaloid",
       "description": {
