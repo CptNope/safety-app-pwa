@@ -238,14 +238,24 @@ function QuickTest(){
                     <div className="font-semibold text-amber-100 mb-0.5">{paper.title}</div>
                     <div className="text-slate-300 mb-0.5">{paper.authors} ({paper.year})</div>
                     <div className="text-slate-400 italic mb-1">{paper.journal}</div>
-                    {paper.doi && (
-                      <div className="text-blue-300 mb-1">
+                    <div className="flex flex-wrap gap-2 mb-1">
+                      {paper.doi && (
                         <a href={`https://doi.org/${paper.doi}`} target="_blank" rel="noopener noreferrer" 
-                           className="hover:underline">
-                          DOI: {paper.doi}
+                           className="text-blue-300 hover:text-blue-200 underline text-xs">
+                          📄 DOI: {paper.doi}
                         </a>
-                      </div>
-                    )}
+                      )}
+                      <a href={`https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(paper.title)}`} 
+                         target="_blank" rel="noopener noreferrer"
+                         className="text-emerald-300 hover:text-emerald-200 underline text-xs">
+                        🔍 Search PubMed
+                      </a>
+                      <a href={`https://scholar.google.com/scholar?q=${encodeURIComponent(paper.title)}`} 
+                         target="_blank" rel="noopener noreferrer"
+                         className="text-cyan-300 hover:text-cyan-200 underline text-xs">
+                        📚 Google Scholar
+                      </a>
+                    </div>
                     <div className="text-slate-200">{paper.summary}</div>
                   </div>
                 ))}
@@ -2890,6 +2900,124 @@ function Resources(){
           <h3 className="font-semibold text-white mb-2">🔍 PsycINFO</h3>
           <p className="text-sm text-gray-300 mb-2">American Psychological Association database. Behavioral science, addiction psychology, substance use research, mental health.</p>
           <a href="https://www.apa.org/pubs/databases/psycinfo" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-cyan-500/20 border border-cyan-400/40 text-cyan-200 hover:bg-cyan-500/30 transition">Access Database</a>
+        </div>
+      </div>
+
+      {/* Professional Organizations - BATCH 2 */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-semibold text-lg text-purple-200">🏛️ Professional Organizations & Societies</h3>
+        
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🏥 ASAM (American Society of Addiction Medicine)</h3>
+          <p className="text-sm text-gray-300 mb-2">Leading professional society for addiction medicine physicians. Clinical guidelines, training, evidence-based treatment standards.</p>
+          <a href="https://www.asam.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🌍 ISSUP (International Society of Substance Use Professionals)</h3>
+          <p className="text-sm text-gray-300 mb-2">Global network of addiction professionals. Training resources, standards, professional development, international collaboration.</p>
+          <a href="https://www.issup.net" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🔬 MAPS (Multidisciplinary Association for Psychedelic Studies)</h3>
+          <p className="text-sm text-gray-300 mb-2">Research organization studying MDMA, psilocybin, LSD therapeutic applications. Clinical trials, drug policy reform, educational resources.</p>
+          <a href="https://maps.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🧠 Beckley Foundation</h3>
+          <p className="text-sm text-gray-300 mb-2">Scientific research into psychoactive substances, consciousness, drug policy reform. Partnerships with leading universities worldwide.</p>
+          <a href="https://beckleyfoundation.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">⚖️ Drug Policy Alliance</h3>
+          <p className="text-sm text-gray-300 mb-2">Leading organization for drug policy reform. Evidence-based policy, harm reduction advocacy, decriminalization, racial justice in drug law.</p>
+          <a href="https://drugpolicy.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🌏 Transform Drug Policy Foundation</h3>
+          <p className="text-sm text-gray-300 mb-2">UK charity campaigning for drug law reform. Evidence-based policy alternatives, regulation models, international drug policy analysis.</p>
+          <a href="https://transformdrugs.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 hover:bg-purple-500/30 transition">Visit Website</a>
+        </div>
+      </div>
+
+      {/* Landmark Studies & Reports - BATCH 2 */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-semibold text-lg text-rose-200">📜 Landmark Studies & Important Reports</h3>
+        
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇵🇹 Portugal Decriminalization Study</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"Drug Decriminalization in Portugal: Lessons for Creating Fair and Successful Drug Policies"</strong> - Cato Institute report on 20+ years of decriminalization data. Dramatic reduction in drug deaths, HIV infections, imprisonment.</p>
+          <a href="https://www.cato.org/policy-analysis/drug-decriminalization-portugal-lessons-creating-fair-successful-drug-policies" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Report</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🇨🇭 Swiss Heroin-Assisted Treatment (HAT)</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"Supervised injectable heroin or injectable methadone versus optimised oral methadone as treatment for chronic heroin addicts"</strong> - Lancet study. Significant improvements in health, social functioning, reduced crime.</p>
+          <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)61578-5/fulltext" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Study</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">💊 MDMA-PTSD Phase 3 Trial (MAPS)</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"MDMA-assisted therapy for severe PTSD"</strong> - Nature Medicine 2021. 67% no longer met PTSD criteria after 3 sessions. FDA breakthrough therapy designation.</p>
+          <a href="https://www.nature.com/articles/s41591-021-01336-3" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Study</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🍄 Psilocybin Depression Trial (Johns Hopkins)</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"Psilocybin produces substantial and sustained decreases in depression and anxiety"</strong> - Journal of Psychopharmacology 2016. 80% reduction in depression/anxiety in cancer patients, lasting 6+ months.</p>
+          <a href="https://journals.sagepub.com/doi/10.1177/0269881116675513" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Study</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🏥 Safe Injection Facilities - Cochrane Review</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"Supervised injection facilities: a review of the evidence"</strong> - Reduced overdose deaths, HIV/Hepatitis transmission, public drug use. No increase in crime or drug initiation.</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/25456324/" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Review</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📊 Global Commission on Drug Policy Reports</h3>
+          <p className="text-sm text-gray-300 mb-2">Former world leaders, policy experts analyzing global drug war. Evidence that criminalization has failed, recommendations for harm reduction, decriminalization, regulation.</p>
+          <a href="https://www.globalcommissionondrugs.org/reports" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">View Reports</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">💉 Naloxone Distribution Programs - Meta-Analysis</h3>
+          <p className="text-sm text-gray-300 mb-2"><strong>"Community-based opioid overdose prevention programs"</strong> - BMJ 2013. Take-home naloxone programs associated with reduced overdose deaths. Cost-effective intervention.</p>
+          <a href="https://www.bmj.com/content/346/bmj.f174" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-rose-500/20 border border-rose-400/40 text-rose-200 hover:bg-rose-500/30 transition">Read Meta-Analysis</a>
+        </div>
+      </div>
+
+      {/* Open Access Resources - BATCH 2 */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-semibold text-lg text-amber-200">📂 Open Access Resources & Archives</h3>
+        
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📖 PubMed Central (PMC)</h3>
+          <p className="text-sm text-gray-300 mb-2">Free full-text archive of biomedical and life sciences literature. 7+ million open-access articles, including drug research and addiction studies.</p>
+          <a href="https://www.ncbi.nlm.nih.gov/pmc/" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-200 hover:bg-amber-500/30 transition">Browse Archive</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📚 CORE (Open Access Repository)</h3>
+          <p className="text-sm text-gray-300 mb-2">World's largest collection of open-access research papers. 200+ million articles aggregated from global repositories. Advanced search tools.</p>
+          <a href="https://core.ac.uk" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-200 hover:bg-amber-500/30 transition">Search Repository</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">🧬 bioRxiv & medRxiv</h3>
+          <p className="text-sm text-gray-300 mb-2">Preprint servers for biology and medicine. Access cutting-edge research before peer review. Rapid dissemination of findings, COVID-19 research hub.</p>
+          <a href="https://www.biorxiv.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-200 hover:bg-amber-500/30 transition mr-2">bioRxiv</a>
+          <a href="https://www.medrxiv.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-200 hover:bg-amber-500/30 transition">medRxiv</a>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 p-4 bg-white/5">
+          <h3 className="font-semibold text-white mb-2">📰 DOAJ (Directory of Open Access Journals)</h3>
+          <p className="text-sm text-gray-300 mb-2">Directory of high-quality, peer-reviewed open-access journals. 19,000+ journals covering all disciplines, including addiction and pharmacology.</p>
+          <a href="https://doaj.org" target="_blank" rel="noopener noreferrer" className="inline-block px-3 py-1.5 text-xs rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-200 hover:bg-amber-500/30 transition">Browse Journals</a>
         </div>
       </div>
     </div>
