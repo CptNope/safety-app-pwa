@@ -75,6 +75,19 @@ function InstallAndUpdateBar(){
     }catch(e){/* noop */}
   };
 
+  const clearCache = async () => {
+    try {
+      if ('caches' in window) {
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.map(name => caches.delete(name)));
+        alert('Cache cleared! The page will now reload.');
+        window.location.reload();
+      }
+    } catch(e) {
+      alert('Failed to clear cache: ' + e.message);
+    }
+  };
+
   const applyUpdate = () => {
     const w = waitingRef.current || (reg && reg.waiting);
     if (w) { w.postMessage({type:'SKIP_WAITING'}); }
@@ -88,6 +101,7 @@ function InstallAndUpdateBar(){
 
       <Banner actions={<div className="flex flex-wrap gap-2">
         <button onClick={checkUpdates} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-white/20 border border-white/30 text-white hover:bg-white/25 transition">Check for updates</button>
+        <button onClick={clearCache} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-orange-500/30 border border-orange-400/60 text-orange-100 hover:bg-orange-500/40 transition">Clear cache</button>
         {updateReady && <button onClick={applyUpdate} className="px-3 py-1.5 text-xs font-medium rounded-lg bg-sky-500/30 border border-sky-400/60 text-sky-100 hover:bg-sky-500/40 transition">Update now</button>}
       </div>}>
         PWA updates install silently. Click "Check for updates" to fetch a new version. {updateReady ? "New version ready—click Update now." : ""}
