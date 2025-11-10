@@ -120,6 +120,7 @@ function QuickTest(){
   const {data} = useJSON('data/reagents.json');
   const [suspect,setSuspect] = useState('MDMA');
   const [search,setSearch] = useState('');
+  const [categoryFilter,setCategoryFilter] = useState('all');
   const [showAllMyths,setShowAllMyths] = useState(false);
   
   // Reset showAllMyths when substance changes
@@ -129,13 +130,49 @@ function QuickTest(){
   
   if(!data) return null;
   
-  // Filter substances based on search
+  // Category mapping helper
+  const getCategory = (substanceClass) => {
+    if(!substanceClass) return 'other';
+    const c = substanceClass.toLowerCase();
+    
+    if(c.includes('ergoline') || c.includes('tryptamine') || 
+       c.includes('phenethylamine (psychedelic)') || c.includes('nbome')) return 'psychedelics';
+    if(c.includes('benzodiazepine') || c.includes('ghb') || c.includes('gaba')) return 'depressants';
+    if(c.includes('tropane') || c.includes('amphetamine') || c.includes('entactogen')) return 'stimulants';
+    if(c.includes('opioid') || c.includes('kratom')) return 'opioids';
+    if(c.includes('dissociative') || c.includes('ketamine') || c.includes('pcp') || c.includes('dxm')) return 'dissociatives';
+    return 'other';
+  };
+  
+  // Filter substances based on search and category
   const allSubstances = Object.keys(data.substances).sort();
-  const filteredSubstances = search 
-    ? allSubstances.filter(k => k.toLowerCase().includes(search.toLowerCase()))
-    : allSubstances;
+  const filteredSubstances = allSubstances.filter(k => {
+    const matchesSearch = !search || k.toLowerCase().includes(search.toLowerCase());
+    const substanceCategory = getCategory(data.substances[k].class);
+    const matchesCategory = categoryFilter === 'all' || substanceCategory === categoryFilter;
+    return matchesSearch && matchesCategory;
+  });
   
   const s = data.substances[suspect];
+  
+  // Get category for display
+  const currentCategory = getCategory(s?.class);
+  const categoryEmojis = {
+    psychedelics: '🌈',
+    stimulants: '⚡',
+    depressants: '💤',
+    opioids: '💊',
+    dissociatives: '🌀',
+    other: '📦'
+  };
+  const categoryNames = {
+    psychedelics: 'Psychedelics',
+    stimulants: 'Stimulants',
+    depressants: 'Depressants',
+    opioids: 'Opioids',
+    dissociatives: 'Dissociatives',
+    other: 'Other'
+  };
   
   return (
     <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
@@ -156,10 +193,34 @@ function QuickTest(){
           )}
         </div>
         <div className="flex flex-wrap items-center gap-2">
+          <label className="text-sm font-medium">🏷️ Filter by category:</label>
+          <select 
+            value={categoryFilter} 
+            onChange={e=>setCategoryFilter(e.target.value)}
+            className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50"
+          >
+            <option value="all" className="bg-slate-800">All Categories ({allSubstances.length})</option>
+            <option value="psychedelics" className="bg-slate-800">🌈 Psychedelics</option>
+            <option value="stimulants" className="bg-slate-800">⚡ Stimulants</option>
+            <option value="depressants" className="bg-slate-800">💤 Depressants</option>
+            <option value="opioids" className="bg-slate-800">💊 Opioids</option>
+            <option value="dissociatives" className="bg-slate-800">🌀 Dissociatives</option>
+            <option value="other" className="bg-slate-800">📦 Other</option>
+          </select>
+          {categoryFilter !== 'all' && (
+            <button onClick={()=>setCategoryFilter('all')} className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition">
+              Clear Filter
+            </button>
+          )}
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
           <label className="text-sm font-medium">Selected substance:</label>
           <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
             {filteredSubstances.map(k=><option key={k} value={k} className="bg-slate-800">{k}</option>)}
           </select>
+          <span className="px-2 py-1 text-xs rounded-md bg-white/10 border border-white/20">
+            {categoryEmojis[currentCategory]} {categoryNames[currentCategory]}
+          </span>
           <span className="text-xs opacity-60">({filteredSubstances.length} of {allSubstances.length} substances)</span>
         </div>
       </div>
