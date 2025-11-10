@@ -1294,13 +1294,18 @@ function CounterfeitPillsWarning(){
       {cpw.resources && (
         <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 space-y-3">
           <h3 className="font-semibold text-lg text-emerald-200">📞 {cpw.resources.name}</h3>
-          {cpw.resources.resources.map((res,i)=>(
-            <div key={i} className="rounded-xl bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
-              <div className="font-bold text-emerald-100">{res.name}</div>
-              <div>{res.service}</div>
-              {res.url && <a href={res.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 hover:text-sky-200 underline">{res.url}</a>}
-              {res.phone && <div className="font-semibold text-lg">{res.phone}</div>}
-              {res.note && <div className="text-gray-400 italic">{res.note}</div>}
+          {cpw.resources.categories && cpw.resources.categories.map((cat,i)=>(
+            <div key={i} className="space-y-2">
+              <div className="font-semibold text-emerald-200 text-sm">{cat.category}</div>
+              {cat.resources && cat.resources.map((res,j)=>(
+                <div key={j} className="rounded-xl bg-white/5 border border-white/10 p-3 space-y-1 text-sm">
+                  <div className="font-bold text-emerald-100">{res.name}</div>
+                  <div>{res.service}</div>
+                  {res.url && <a href={res.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 hover:text-sky-200 underline">{res.url}</a>}
+                  {res.phone && <div className="font-semibold text-lg">{res.phone}</div>}
+                  {res.note && <div className="text-gray-400 italic">{res.note}</div>}
+                </div>
+              ))}
             </div>
           ))}
         </div>
