@@ -158,19 +158,30 @@ class NewsAggregator {
       forceRefresh = false,
       limit = null, // null = all articles
       offset = 0,
-      preferredRegion = null // Filter by region
+      preferredRegion = null, // Filter by region
+      enabledSources: userEnabledSources = null // User's source selection
     } = options;
     
-    // Check cache first (but re-filter if region changed)
-    const cacheKey = preferredRegion ? `all-${preferredRegion}` : 'all';
+    // Build cache key including sources for proper cache isolation
+    const sourceKey = userEnabledSources ? 
+      Object.entries(userEnabledSources).filter(([k,v]) => v).map(([k]) => k).sort().join(',') : 
+      'all';
+    const cacheKey = `${preferredRegion || 'all'}-${sourceKey}`;
+    
+    // Check cache first
     if (!forceRefresh && this.isCacheValid(cacheKey, maxAge)) {
       const cached = this.cache.get(cacheKey);
       return this.paginateResults(cached, limit, offset);
     }
 
-    // Only fetch from enabled sources
+    // Filter sources based on user selection AND default enabled state
     const enabledSources = Object.entries(this.sources)
-      .filter(([key, source]) => source.enabled !== false);
+      .filter(([key, source]) => {
+        // If user provided selection, use that; otherwise use source's default enabled state
+        const userEnabled = userEnabledSources ? userEnabledSources[key] : true;
+        const defaultEnabled = source.enabled !== false;
+        return userEnabled && defaultEnabled;
+      });
 
     const results = await Promise.allSettled(
       enabledSources.map(([key, source]) => 

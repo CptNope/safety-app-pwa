@@ -1150,6 +1150,24 @@ function News(){
   const [detectedRegion, setDetectedRegion] = useState(null);
   const [geoError, setGeoError] = useState(null);
   const [displayCount, setDisplayCount] = useState(10); // Show 10 initially
+  const [showSourceSelector, setShowSourceSelector] = useState(false);
+  
+  // Source selection - all enabled by default
+  const [enabledSources, setEnabledSources] = useState({
+    drugsdata: true,
+    fda_recalls: true,
+    fda_safety: true,
+    dancesafe: true,
+    erowid: true,
+    dpa: true,
+    nida: true,
+    samhsa: true,
+    maps: true,
+    filterforwards: true,
+    drugscience: true,
+    newsapi: false, // Disabled by default (requires API key)
+    local: true
+  });
   
   // ALWAYS call the safe hook (Rules of Hooks) - it handles everything internally
   // news-aggregator.js is loaded before app.js, so this function always exists
@@ -1159,7 +1177,8 @@ function News(){
       enabled: useLiveFeeds, 
       limit: null, 
       offset: 0,
-      preferredRegion: preferredRegion !== 'All Regions' ? preferredRegion : null
+      preferredRegion: preferredRegion !== 'All Regions' ? preferredRegion : null,
+      enabledSources: enabledSources
     });
   
   // Detect user location (optional)
@@ -1341,10 +1360,78 @@ function News(){
             </div>
           </div>
           
+          {/* Source Selector */}
+          <div className="border-t border-cyan-500/20 pt-3 space-y-2">
+            <button
+              onClick={() => setShowSourceSelector(!showSourceSelector)}
+              className="w-full flex items-center justify-between text-xs font-medium text-cyan-300 hover:text-cyan-200 transition"
+            >
+              <span>🎛️ Customize News Sources ({Object.values(enabledSources).filter(Boolean).length}/{Object.keys(enabledSources).length} enabled)</span>
+              <span className="text-gray-400">{showSourceSelector ? '▼' : '▶'}</span>
+            </button>
+            
+            {showSourceSelector && (
+              <div className="space-y-2 bg-gray-900/50 rounded-lg p-3">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs text-gray-400">Select which sources to query:</span>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => setEnabledSources(Object.keys(enabledSources).reduce((acc, key) => ({...acc, [key]: true}), {}))}
+                      className="text-xs px-2 py-1 rounded bg-cyan-500/20 text-cyan-300 hover:bg-cyan-500/30"
+                    >
+                      All
+                    </button>
+                    <button
+                      onClick={() => setEnabledSources(Object.keys(enabledSources).reduce((acc, key) => ({...acc, [key]: false}), {}))}
+                      className="text-xs px-2 py-1 rounded bg-gray-700 text-gray-300 hover:bg-gray-600"
+                    >
+                      None
+                    </button>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-2">
+                  {[
+                    { key: 'drugsdata', label: 'DrugsData.org', type: 'Lab Results' },
+                    { key: 'fda_recalls', label: 'FDA Recalls', type: 'Safety' },
+                    { key: 'fda_safety', label: 'FDA Safety', type: 'Safety' },
+                    { key: 'dancesafe', label: 'DanceSafe', type: 'Community' },
+                    { key: 'erowid', label: 'Erowid', type: 'Research' },
+                    { key: 'dpa', label: 'Drug Policy Alliance', type: 'Policy' },
+                    { key: 'nida', label: 'NIDA', type: 'Research' },
+                    { key: 'samhsa', label: 'SAMHSA', type: 'Federal' },
+                    { key: 'maps', label: 'MAPS', type: 'Research' },
+                    { key: 'filterforwards', label: 'Filter Magazine', type: 'Journalism' },
+                    { key: 'drugscience', label: 'Drug Science UK', type: 'Research' },
+                    { key: 'newsapi', label: 'NewsAPI.org', type: 'Aggregator' }
+                  ].map(source => (
+                    <label key={source.key} className="flex items-center gap-2 text-xs cursor-pointer hover:bg-cyan-500/10 rounded p-1.5 transition">
+                      <input
+                        type="checkbox"
+                        checked={enabledSources[source.key] || false}
+                        onChange={(e) => setEnabledSources({...enabledSources, [source.key]: e.target.checked})}
+                        className="w-3.5 h-3.5 rounded border-cyan-500/50 bg-gray-800 text-cyan-500 focus:ring-cyan-500"
+                      />
+                      <div className="flex-1 min-w-0">
+                        <div className="text-cyan-100 truncate">{source.label}</div>
+                        <div className="text-gray-500 text-xs">{source.type}</div>
+                      </div>
+                    </label>
+                  ))}
+                </div>
+                
+                {!enabledSources.newsapi && (
+                  <div className="text-xs text-amber-200 bg-amber-500/10 border border-amber-400/30 rounded p-2">
+                    💡 NewsAPI requires a free API key. See ADDING_REAL_NEWS.md
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+          
           {useLiveFeeds && lastUpdate && (
             <div className="text-xs text-gray-400 border-t border-cyan-500/20 pt-2">
-              Last updated: {lastUpdate.toLocaleTimeString()} • 
-              Sources: DrugsData, FDA, DanceSafe, Erowid, NIDA, DPA, SAMHSA, MAPS, Filter, Drug Science UK
+              Last updated: {lastUpdate.toLocaleTimeString()}
             </div>
           )}
           
