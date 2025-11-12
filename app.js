@@ -3614,6 +3614,118 @@ function Addiction(){
   );
 }
 
+function About(){
+  return (
+    <div className="space-y-6">
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/5 p-6">
+        <h2 className="text-2xl font-bold text-emerald-200 mb-4">About This App</h2>
+        
+        <div className="space-y-4 text-white/90">
+          <p className="text-base leading-relaxed">
+            The <strong>Harm Reduction Guide</strong> is a free, open-source Progressive Web App designed to save lives through evidence-based education about substance testing and harm reduction.
+          </p>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🎯 Mission</h3>
+            <p className="text-sm leading-relaxed">
+              To provide accessible, accurate, and privacy-respecting harm reduction information to anyone who needs it—without judgment, tracking, or barriers to access.
+            </p>
+          </div>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">✨ Key Features</h3>
+            <ul className="text-sm space-y-2">
+              <li>• <strong>100+ substances</strong> with detailed reagent testing data</li>
+              <li>• <strong>Zero tracking or data collection</strong> - completely private</li>
+              <li>• <strong>Fully offline-capable</strong> - works without internet after install</li>
+              <li>• <strong>Emergency protocols</strong> and life-saving information</li>
+              <li>• <strong>Myth debunking</strong> - 60+ dangerous myths corrected</li>
+              <li>• <strong>Regional resources</strong> - lab testing services worldwide</li>
+              <li>• <strong>Open source</strong> - transparent and community-driven</li>
+            </ul>
+          </div>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">👨‍💻 Creator</h3>
+            <p className="text-sm leading-relaxed">
+              Built and maintained by <strong>Jeremy Anderson</strong> (<a href="https://github.com/CptNope" target="_blank" rel="noopener noreferrer" className="text-emerald-300 hover:text-emerald-200 underline">@CptNope</a>).
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              This project is expanded based on community feedback and contributions. Thank you to everyone who helps make this resource more comprehensive and accurate.
+            </p>
+          </div>
+
+          <div className="rounded-xl bg-amber-500/10 p-4 border border-amber-400/30">
+            <h3 className="text-lg font-semibold text-amber-200 mb-3">⚠️ Important Disclaimer</h3>
+            <p className="text-sm leading-relaxed text-amber-100">
+              This app is for <strong>educational and harm reduction purposes only</strong>. It is NOT medical advice and does NOT encourage illegal drug use. Always seek professional medical help in emergencies.
+            </p>
+          </div>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🤝 Contributing</h3>
+            <p className="text-sm leading-relaxed mb-3">
+              This is an open-source project and contributions are welcome! You can help by:
+            </p>
+            <ul className="text-sm space-y-1 mb-3">
+              <li>• Adding new substance data with verified sources</li>
+              <li>• Correcting errors or outdated information</li>
+              <li>• Translating content to other languages</li>
+              <li>• Improving UI/UX and accessibility</li>
+              <li>• Reporting bugs or suggesting features</li>
+            </ul>
+            <a href="https://github.com/CptNope/safety-app-pwa" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 text-sm font-medium hover:bg-blue-500/30 transition">
+              🐙 View on GitHub
+            </a>
+          </div>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🔒 Privacy & Legal</h3>
+            <p className="text-sm leading-relaxed mb-3">
+              We take your privacy seriously. This app collects <strong>zero personal data</strong> and works completely offline. All usage stays on your device.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a href="PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
+                🔒 Privacy Policy
+              </a>
+              <a href="TERMS_OF_SERVICE.md" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
+                📄 Terms of Service
+              </a>
+            </div>
+          </div>
+
+          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">📊 Technical Details</h3>
+            <div className="text-sm space-y-2">
+              <div><strong>Built with:</strong> React 18, Tailwind CSS, Progressive Web App technology</div>
+              <div><strong>Database:</strong> Modular JSON architecture with lazy loading</div>
+              <div><strong>Hosting:</strong> Static hosting, no backend servers</div>
+              <div><strong>Data Sources:</strong> DanceSafe, Reagent Tests UK, Erowid, scientific literature</div>
+              <div><strong>License:</strong> Open source (see LICENSE file)</div>
+            </div>
+          </div>
+
+          <div className="rounded-xl bg-emerald-500/10 p-4 border border-emerald-400/30">
+            <h3 className="text-lg font-semibold text-emerald-200 mb-3">💙 Why This Exists</h3>
+            <p className="text-sm leading-relaxed text-emerald-100">
+              Harm reduction saves lives. People deserve access to accurate safety information without judgment, surveillance, or barriers. This app exists to make that information freely available to anyone who needs it.
+            </p>
+            <p className="text-sm leading-relaxed text-emerald-100 mt-2">
+              If this app helps even one person make a safer decision or survive an emergency, it has succeeded.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Version Info */}
+      <div className="text-center text-xs text-gray-400">
+        <div>Version 1.0 • Last Updated: November 2025</div>
+        <div className="mt-1">Made with 💙 for the harm reduction community</div>
+      </div>
+    </div>
+  );
+}
+
 function App(){
   const [tab,setTab] = useState('welcome');
   const {data} = useJSON('data/reagents.json');
@@ -3634,6 +3746,7 @@ function App(){
           <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
           <button onClick={()=>setTab('news')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='news'?'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100':'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20')}>📰 News</button>
           <button onClick={()=>setTab('vendors')} data-tab="vendors" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-slate-500/30 border border-slate-400/60 text-slate-100':'bg-slate-500/10 border border-slate-400/30 text-slate-200 hover:bg-slate-500/20')}>🏪 Vendors</button>
+          <button onClick={()=>setTab('about')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}>ℹ️ About</button>
         </nav>
       </header>
 
@@ -3653,6 +3766,7 @@ function App(){
       {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
       {tab==='news' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-cyan-200">📰 Harm Reduction News & Alerts</h2><News/></section>)}
       {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
+      {tab==='about' && (<section className="space-y-3"><About/></section>)}
 
       <footer className="py-8 space-y-4">
         <div className="flex flex-wrap justify-center gap-3">
@@ -3663,9 +3777,24 @@ function App(){
             🐙 Contribute on GitHub
           </a>
         </div>
+        
+        <div className="flex flex-wrap justify-center gap-3">
+          <a href="PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            Privacy Policy
+          </a>
+          <span className="text-xs text-gray-600">•</span>
+          <a href="TERMS_OF_SERVICE.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            Terms of Service
+          </a>
+          <span className="text-xs text-gray-600">•</span>
+          <button onClick={()=>setTab('about')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            About
+          </button>
+        </div>
+        
         <div className="text-xs text-gray-400 text-center space-y-1">
           <div>Built for education and harm reduction by <span className="text-white font-medium">Jeremy Anderson</span></div>
-          <div>© {new Date().getFullYear()} • Open source • Community contributions welcome</div>
+          <div>© {new Date().getFullYear()} • Open source • Zero tracking • Community contributions welcome</div>
         </div>
       </footer>
     </div>
