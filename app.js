@@ -3640,7 +3640,7 @@ function Addiction(){
   );
 }
 
-function About(){
+function About({setTab}){
   return (
     <div className="space-y-6">
       <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/5 p-6">
@@ -3711,12 +3711,15 @@ function About(){
               We take your privacy seriously. This app collects <strong>zero personal data</strong> and works completely offline. All usage stays on your device.
             </p>
             <div className="flex flex-wrap gap-2">
-              <a href="PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
+              <button onClick={()=>setTab('privacy')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
                 🔒 Privacy Policy
-              </a>
-              <a href="TERMS_OF_SERVICE.md" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
+              </button>
+              <button onClick={()=>setTab('terms')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
                 📄 Terms of Service
-              </a>
+              </button>
+              <button onClick={()=>setTab('accessibility')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
+                ♿ Accessibility
+              </button>
             </div>
           </div>
 
@@ -3771,7 +3774,10 @@ function App(){
       emergency: 'Emergency',
       news: 'News',
       vendors: 'Vendors',
-      about: 'About'
+      about: 'About',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
+      accessibility: 'Accessibility Statement'
     };
     announceToScreenReader(`${tabNames[tab]} tab selected`);
   }, [tab]);
@@ -3825,7 +3831,10 @@ function App(){
         {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200"><span aria-hidden="true">🚨</span> Emergency Medical Information</h2><MedicalTreatment/></section>)}
         {tab==='news' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-cyan-200"><span aria-hidden="true">📰</span> Harm Reduction News & Alerts</h2><News/></section>)}
         {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
-        {tab==='about' && (<section className="space-y-3"><About/></section>)}
+        {tab==='about' && (<section className="space-y-3"><About setTab={setTab}/></section>)}
+        {tab==='privacy' && (<section className="space-y-3"><PrivacyPolicy/></section>)}
+        {tab==='terms' && (<section className="space-y-3"><TermsOfService/></section>)}
+        {tab==='accessibility' && (<section className="space-y-3"><AccessibilityStatement/></section>)}
       </main>
 
       <footer className="py-8 space-y-4">
@@ -3839,14 +3848,18 @@ function App(){
         </div>
         
         <div className="flex flex-wrap justify-center gap-3">
-          <a href="PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
-            Privacy Policy<span className="sr-only"> (opens in new tab)</span>
-          </a>
+          <button onClick={()=>setTab('privacy')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            Privacy Policy
+          </button>
           <span className="text-xs text-gray-600" aria-hidden="true">•</span>
-          <a href="TERMS_OF_SERVICE.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
-            Terms of Service<span className="sr-only"> (opens in new tab)</span>
-          </a>
-          <span className="text-xs text-gray-600">•</span>
+          <button onClick={()=>setTab('terms')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            Terms of Service
+          </button>
+          <span className="text-xs text-gray-600" aria-hidden="true">•</span>
+          <button onClick={()=>setTab('accessibility')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
+            Accessibility
+          </button>
+          <span className="text-xs text-gray-600" aria-hidden="true">•</span>
           <button onClick={()=>setTab('about')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
             About
           </button>
