@@ -2,6 +2,15 @@
 /** @jsx React.createElement */
 const {useState, useEffect, useRef} = React;
 
+// Screen reader live region announcer
+function announceToScreenReader(message) {
+  const liveRegion = document.getElementById('sr-live-region');
+  if (liveRegion) {
+    liveRegion.textContent = message;
+    setTimeout(() => { liveRegion.textContent = ''; }, 1000);
+  }
+}
+
 function useJSON(url){
   const [data,setData] = useState(null);
   useEffect(()=>{ fetch(url).then(r=>r.json()).then(setData).catch(()=>{}); },[url]);
@@ -178,25 +187,33 @@ function QuickTest(){
     <div className="rounded-2xl border border-white/10 p-4 bg-white/5 space-y-3">
       <div className="space-y-3">
         <div className="flex flex-wrap items-center gap-2">
-          <label className="text-sm font-medium">🔍 Search substances:</label>
+          <label htmlFor="substance-search" className="text-sm font-medium">🔍 Search substances:</label>
           <input 
+            id="substance-search"
             type="text" 
             placeholder="Type to search (e.g., MDMA, LSD, Cocaine)..." 
             value={search} 
             onChange={e=>setSearch(e.target.value)}
+            aria-label="Search for substances by name"
             className="flex-1 min-w-[250px] bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50 placeholder:text-gray-500"
           />
           {search && (
-            <button onClick={()=>setSearch('')} className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition">
+            <button 
+              onClick={()=>setSearch('')} 
+              aria-label="Clear search"
+              className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition"
+            >
               Clear
             </button>
           )}
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <label className="text-sm font-medium">🏷️ Filter by category:</label>
+          <label htmlFor="category-filter" className="text-sm font-medium">🏷️ Filter by category:</label>
           <select 
+            id="category-filter"
             value={categoryFilter} 
             onChange={e=>setCategoryFilter(e.target.value)}
+            aria-label="Filter substances by category"
             className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50"
           >
             <option value="all" className="bg-slate-800">All Categories ({allSubstances.length})</option>
@@ -208,14 +225,23 @@ function QuickTest(){
             <option value="other" className="bg-slate-800">📦 Other</option>
           </select>
           {categoryFilter !== 'all' && (
-            <button onClick={()=>setCategoryFilter('all')} className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition">
+            <button 
+              onClick={()=>setCategoryFilter('all')} 
+              aria-label="Clear category filter"
+              className="px-3 py-2 text-xs rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition"
+            >
               Clear Filter
             </button>
           )}
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <label className="text-sm font-medium">Selected substance:</label>
-          <select value={suspect} onChange={e=>setSuspect(e.target.value)} className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
+          <label htmlFor="substance-select" className="text-sm font-medium">Selected substance:</label>
+          <select 
+            id="substance-select"
+            value={suspect} 
+            onChange={e=>setSuspect(e.target.value)} 
+            aria-label="Select a substance to view testing information"
+            className="bg-black/40 text-white rounded-lg px-3 py-2 border border-white/20 focus:border-white/40 focus:outline-none focus:ring-2 focus:ring-sky-500/50">
             {filteredSubstances.map(k=><option key={k} value={k} className="bg-slate-800">{k}</option>)}
           </select>
           <span className="px-2 py-1 text-xs rounded-md bg-white/10 border border-white/20">
@@ -3729,24 +3755,56 @@ function About(){
 function App(){
   const [tab,setTab] = useState('welcome');
   const {data} = useJSON('data/reagents.json');
+  
+  // Announce tab changes to screen readers
+  useEffect(() => {
+    const tabNames = {
+      welcome: 'Welcome',
+      quick: 'Substance Testing',
+      swatches: 'Swatches',
+      id: 'ID Guide',
+      methods: 'Methods',
+      myths: 'Myths',
+      addiction: 'Addiction',
+      resources: 'Resources',
+      responder: 'First Responder',
+      emergency: 'Emergency',
+      news: 'News',
+      vendors: 'Vendors',
+      about: 'About'
+    };
+    announceToScreenReader(`${tabNames[tab]} tab selected`);
+  }, [tab]);
+  
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8 space-y-6">
+      {/* Skip Navigation Link */}
+      <a 
+        href="#main-content" 
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-emerald-500 focus:text-white focus:rounded-lg focus:font-medium focus:shadow-lg"
+      >
+        Skip to main content
+      </a>
+      
+      {/* Screen Reader Live Region */}
+      <div id="sr-live-region" className="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+      
       <header className="space-y-3">
         <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
-        <nav className="flex flex-wrap gap-2 justify-center sm:justify-start">
-          <button onClick={()=>setTab('welcome')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}>📚 Welcome</button>
-          <button onClick={()=>setTab('quick')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-lime-500/30 border border-lime-400/60 text-lime-100':'bg-lime-500/10 border border-lime-400/30 text-lime-200 hover:bg-lime-500/20')}>🧪 Substance Testing</button>
-          <button onClick={()=>setTab('swatches')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-sky-500/30 border border-sky-400/60 text-sky-100':'bg-sky-500/10 border border-sky-400/30 text-sky-200 hover:bg-sky-500/20')}>🎨 Swatches</button>
-          <button onClick={()=>setTab('id')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-indigo-500/30 border border-indigo-400/60 text-indigo-100':'bg-indigo-500/10 border border-indigo-400/30 text-indigo-200 hover:bg-indigo-500/20')}>🔍 ID Guide</button>
-          <button onClick={()=>setTab('methods')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-orange-500/30 border border-orange-400/60 text-orange-100':'bg-orange-500/10 border border-orange-400/30 text-orange-200 hover:bg-orange-500/20')}>⚗️ Methods</button>
-          <button onClick={()=>setTab('myths')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='myths'?'bg-amber-500/30 border border-amber-400/60 text-amber-100':'bg-amber-500/10 border border-amber-400/30 text-amber-200 hover:bg-amber-500/20')}>❌ Myths</button>
-          <button onClick={()=>setTab('addiction')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='addiction'?'bg-teal-500/30 border border-teal-400/60 text-teal-100':'bg-teal-500/10 border border-teal-400/30 text-teal-200 hover:bg-teal-500/20')}>💊 Addiction</button>
-          <button onClick={()=>setTab('resources')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}>🌍 Resources</button>
-          <button onClick={()=>setTab('responder')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}>🚒 Responder</button>
-          <button onClick={()=>setTab('emergency')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}>🚨 Emergency</button>
-          <button onClick={()=>setTab('news')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='news'?'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100':'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20')}>📰 News</button>
-          <button onClick={()=>setTab('vendors')} data-tab="vendors" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-slate-500/30 border border-slate-400/60 text-slate-100':'bg-slate-500/10 border border-slate-400/30 text-slate-200 hover:bg-slate-500/20')}>🏪 Vendors</button>
-          <button onClick={()=>setTab('about')} className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}>ℹ️ About</button>
+        <nav className="flex flex-wrap gap-2 justify-center sm:justify-start" role="tablist" aria-label="Main navigation">
+          <button onClick={()=>setTab('welcome')} role="tab" aria-selected={tab==='welcome'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}><span aria-hidden="true">📚</span> Welcome</button>
+          <button onClick={()=>setTab('quick')} role="tab" aria-selected={tab==='quick'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-lime-500/30 border border-lime-400/60 text-lime-100':'bg-lime-500/10 border border-lime-400/30 text-lime-200 hover:bg-lime-500/20')}><span aria-hidden="true">🧪</span> Substance Testing</button>
+          <button onClick={()=>setTab('swatches')} role="tab" aria-selected={tab==='swatches'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-sky-500/30 border border-sky-400/60 text-sky-100':'bg-sky-500/10 border border-sky-400/30 text-sky-200 hover:bg-sky-500/20')}><span aria-hidden="true">🎨</span> Swatches</button>
+          <button onClick={()=>setTab('id')} role="tab" aria-selected={tab==='id'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-indigo-500/30 border border-indigo-400/60 text-indigo-100':'bg-indigo-500/10 border border-indigo-400/30 text-indigo-200 hover:bg-indigo-500/20')}><span aria-hidden="true">🔍</span> ID Guide</button>
+          <button onClick={()=>setTab('methods')} role="tab" aria-selected={tab==='methods'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='methods'?'bg-orange-500/30 border border-orange-400/60 text-orange-100':'bg-orange-500/10 border border-orange-400/30 text-orange-200 hover:bg-orange-500/20')}><span aria-hidden="true">⚗️</span> Methods</button>
+          <button onClick={()=>setTab('myths')} role="tab" aria-selected={tab==='myths'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='myths'?'bg-amber-500/30 border border-amber-400/60 text-amber-100':'bg-amber-500/10 border border-amber-400/30 text-amber-200 hover:bg-amber-500/20')}><span aria-hidden="true">❌</span> Myths</button>
+          <button onClick={()=>setTab('addiction')} role="tab" aria-selected={tab==='addiction'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='addiction'?'bg-teal-500/30 border border-teal-400/60 text-teal-100':'bg-teal-500/10 border border-teal-400/30 text-teal-200 hover:bg-teal-500/20')}><span aria-hidden="true">💊</span> Addiction</button>
+          <button onClick={()=>setTab('resources')} role="tab" aria-selected={tab==='resources'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='resources'?'bg-purple-500/30 border border-purple-400/60 text-purple-100':'bg-purple-500/10 border border-purple-400/30 text-purple-200 hover:bg-purple-500/20')}><span aria-hidden="true">🌍</span> Resources</button>
+          <button onClick={()=>setTab('responder')} role="tab" aria-selected={tab==='responder'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='responder'?'bg-blue-500/30 border border-blue-400/60 text-blue-100':'bg-blue-500/10 border border-blue-400/30 text-blue-200 hover:bg-blue-500/20')}><span aria-hidden="true">🚒</span> Responder</button>
+          <button onClick={()=>setTab('emergency')} role="tab" aria-selected={tab==='emergency'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}><span aria-hidden="true">🚨</span> Emergency</button>
+          <button onClick={()=>setTab('news')} role="tab" aria-selected={tab==='news'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='news'?'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100':'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20')}><span aria-hidden="true">📰</span> News</button>
+          <button onClick={()=>setTab('vendors')} role="tab" aria-selected={tab==='vendors'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-slate-500/30 border border-slate-400/60 text-slate-100':'bg-slate-500/10 border border-slate-400/30 text-slate-200 hover:bg-slate-500/20')}><span aria-hidden="true">🏪</span> Vendors</button>
+          <button onClick={()=>setTab('about')} role="tab" aria-selected={tab==='about'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}><span aria-hidden="true">ℹ️</span> About</button>
         </nav>
       </header>
 
@@ -3754,19 +3812,21 @@ function App(){
 
       {data?.link_display_rules?.show_warning && <Banner tone="warn">{data.link_display_rules.warning_text}</Banner>}
 
-      {tab==='welcome' && (<section className="space-y-3"><Welcome/></section>)}
-      {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold">🧪 Substance Testing</h2><QuickTest/></section>)}
-      {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
-      {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
-      {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
-      {tab==='myths' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-amber-200">❌ Common Myths & Misinformation</h2><Myths/></section>)}
-      {tab==='addiction' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-teal-200">💊 Addiction & Treatment</h2><Addiction/></section>)}
-      {tab==='resources' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-purple-200">🌍 Testing Resources by Region</h2><Resources/></section>)}
-      {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200">🚒 First Responder Protocols</h2><FirstResponder/></section>)}
-      {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200">🚨 Emergency Medical Information</h2><MedicalTreatment/></section>)}
-      {tab==='news' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-cyan-200">📰 Harm Reduction News & Alerts</h2><News/></section>)}
-      {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
-      {tab==='about' && (<section className="space-y-3"><About/></section>)}
+      <main id="main-content" role="tabpanel" aria-label="Main content">
+        {tab==='welcome' && (<section className="space-y-3"><Welcome/></section>)}
+        {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold"><span aria-hidden="true">🧪</span> Substance Testing</h2><QuickTest/></section>)}
+        {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
+        {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
+        {tab==='methods' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Other Methods</h2><Methods/></section>)}
+        {tab==='myths' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-amber-200"><span aria-hidden="true">❌</span> Common Myths & Misinformation</h2><Myths/></section>)}
+        {tab==='addiction' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-teal-200"><span aria-hidden="true">💊</span> Addiction & Treatment</h2><Addiction/></section>)}
+        {tab==='resources' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-purple-200"><span aria-hidden="true">🌍</span> Testing Resources by Region</h2><Resources/></section>)}
+        {tab==='responder' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-blue-200"><span aria-hidden="true">🚒</span> First Responder Protocols</h2><FirstResponder/></section>)}
+        {tab==='emergency' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-red-200"><span aria-hidden="true">🚨</span> Emergency Medical Information</h2><MedicalTreatment/></section>)}
+        {tab==='news' && (<section className="space-y-3"><h2 className="text-lg font-semibold text-cyan-200"><span aria-hidden="true">📰</span> Harm Reduction News & Alerts</h2><News/></section>)}
+        {tab==='vendors' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Trusted Vendors</h2><Vendors/></section>)}
+        {tab==='about' && (<section className="space-y-3"><About/></section>)}
+      </main>
 
       <footer className="py-8 space-y-4">
         <div className="flex flex-wrap justify-center gap-3">
@@ -3774,17 +3834,17 @@ function App(){
             💚 Support This Project (Coming Soon)
           </button>
           <a href="https://github.com/CptNope/safety-app-pwa" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 text-sm font-medium hover:bg-blue-500/30 transition inline-flex items-center gap-2">
-            🐙 Contribute on GitHub
+            🐙 Contribute on GitHub<span className="sr-only"> (opens in new tab)</span>
           </a>
         </div>
         
         <div className="flex flex-wrap justify-center gap-3">
           <a href="PRIVACY_POLICY.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
-            Privacy Policy
+            Privacy Policy<span className="sr-only"> (opens in new tab)</span>
           </a>
-          <span className="text-xs text-gray-600">•</span>
+          <span className="text-xs text-gray-600" aria-hidden="true">•</span>
           <a href="TERMS_OF_SERVICE.md" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-gray-300 underline transition">
-            Terms of Service
+            Terms of Service<span className="sr-only"> (opens in new tab)</span>
           </a>
           <span className="text-xs text-gray-600">•</span>
           <button onClick={()=>setTab('about')} className="text-xs text-gray-400 hover:text-gray-300 underline transition">
@@ -3792,7 +3852,7 @@ function App(){
           </button>
         </div>
         
-        <div className="text-xs text-gray-400 text-center space-y-1">
+        <div className="text-xs text-gray-300 text-center space-y-1">
           <div>Built for education and harm reduction by <span className="text-white font-medium">Jeremy Anderson</span></div>
           <div>© {new Date().getFullYear()} • Open source • Zero tracking • Community contributions welcome</div>
         </div>

@@ -2,5 +2,64 @@
 :root{
   --simons-mdma:#1f66ff; --marquis-mdma:#4b0082; --mecke-mdma:#001a66; --mandelin-mdma:#000;
 }
+
+/* Screen Reader Only - WCAG AA */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Enhanced Focus Indicators - WCAG AA */
+*:focus {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .reagent-chip {
+    border-width: 2px;
+  }
+  button, a {
+    border-width: 2px !important;
+  }
+}
+
+/* Reduced Motion Support - WCAG AA */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .reagent-chip{display:inline-block;padding:.375rem .75rem;border-radius:999px;font-weight:600;font-size:.875rem;line-height:1.25;color:#fff;border:1px solid rgba(255,255,255,.2);box-shadow:0 1px 3px rgba(0,0,0,.3)}
 .reagent-chip[data-nr="true"]{color:#d1d5db;border-color:#6b7280;background:rgba(55,65,81,.4);font-style:italic}

@@ -6,6 +6,7 @@ A comprehensive, offline-capable Progressive Web App for substance testing, iden
 
 [![PWA](https://img.shields.io/badge/PWA-Enabled-success)]()
 [![Offline](https://img.shields.io/badge/Offline-Capable-blue)]()
+[![WCAG](https://img.shields.io/badge/WCAG_2.1-AA_Compliant-green)]()
 [![License](https://img.shields.io/badge/License-Open_Source-green)]()
 
 ## ⚠️ Important Disclaimer
@@ -993,12 +994,28 @@ This ensures users get the latest version. Format: `v[number]-[YYYYMMDDHHMMSS]`
 - **Fully offline** after installation
 - **No data collection**: All usage is local to your device
 
+## ♿ Accessibility
+
+This app is **fully WCAG 2.1 Level AA compliant**, ensuring accessibility for all users:
+
+- ✅ **Keyboard navigation** - All features accessible without a mouse
+- ✅ **Screen reader support** - NVDA, JAWS, VoiceOver, TalkBack compatible
+- ✅ **High contrast ratios** - Meets 4.5:1 minimum for readability
+- ✅ **ARIA labels** - Proper semantic markup and roles
+- ✅ **Skip navigation** - Quick access to main content
+- ✅ **Form labels** - All inputs properly associated
+- ✅ **Reduced motion** - Respects user preferences
+- ✅ **Responsive design** - Works at 200-400% zoom
+
+**Read the full accessibility statement:** [ACCESSIBILITY.md](ACCESSIBILITY.md)
+
 ## ⚖️ Legal & Safety
 
 ### Important Legal Documents
 
 - 📄 **[Terms of Service](TERMS_OF_SERVICE.md)** - Usage terms, disclaimers, and limitations
 - 🔒 **[Privacy Policy](PRIVACY_POLICY.md)** - Zero data collection, full privacy protection
+- ♿ **[Accessibility Statement](ACCESSIBILITY.md)** - WCAG AA compliance details
 
 ### Educational Purpose Only
 
