@@ -995,6 +995,11 @@ This ensures users get the latest version. Format: `v[number]-[YYYYMMDDHHMMSS]`
 
 ## ⚖️ Legal & Safety
 
+### Important Legal Documents
+
+- 📄 **[Terms of Service](TERMS_OF_SERVICE.md)** - Usage terms, disclaimers, and limitations
+- 🔒 **[Privacy Policy](PRIVACY_POLICY.md)** - Zero data collection, full privacy protection
+
 ### Educational Purpose Only
 
 This app is designed for:
