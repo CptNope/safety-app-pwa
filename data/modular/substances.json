@@ -2281,67 +2281,42 @@
     ]
   },
   "Diazepam": {
-    "class": "benzodiazepine",
+    "class": "benzodiazepine (pharmaceutical)",
     "description": {
-      "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
-      "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
-      "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
-      "dangers": "Physical dependence and addiction with regular use. Withdrawal can be SEVERE and dangerous (seizures, psychosis, insomnia, anxiety)—medical supervision required for tapering. Long half-life means withdrawal symptoms may not appear for days after stopping. Combining with alcohol or opioids dangerous (respiratory depression). Cognitive impairment and memory issues. Sedation increases fall/accident risk especially in elderly. Counterfeit pills may contain other benzos, fentanyl, or nothing. Paradoxical reactions possible. Tolerance develops. Diazepam popular among those with opioid use disorder—deadly combination.",
+      "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed (1963) and still widely used. Long half-life (20-100 hours including active metabolites) provides sustained effects. Less potent than alprazolam—10mg diazepam ≈ 0.5mg alprazolam. Common in medical settings. High abuse and diversion potential.",
+      "origins": "Synthesized by Leo Sternbach at Hoffmann-La Roche in 1959, marketed 1963. Became one of most prescribed medications globally by 1970s. Cultural icon—'mother's little helper' (Rolling Stones song 1966). Widely prescribed for anxiety, muscle spasms, seizures. Schedule IV controlled substance. Generic since patent expiration. Still extensively prescribed despite newer benzos. Common diversion and black market availability.",
+      "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizures (status epilepticus), alcohol withdrawal (detox protocol), pre-surgical sedation. Typical dose 2-10mg for anxiety, up to 40mg for alcohol withdrawal. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (mild), sleep aid, potentiating other drugs. Duration 6-8 hours but metabolites active 20-100 hours. Popular for comedowns from stimulants.",
+      "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, delirium). Long half-life means withdrawal symptoms delayed 2-7 days after stopping, lasting weeks. Respiratory depression when combined with opioids, alcohol, or other CNS depressants. Cognitive impairment, memory issues ('benzo fog'). Blackouts at higher doses. Dangerous driving impairment. Tolerance develops. Paradoxical reactions (increased anxiety, aggression). Elderly at high risk for falls, confusion, cognitive decline. Long-term use linked to dementia. Counterfeit Valium may contain other substances.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
-        "erowid": "https://www.erowid.org/pharms/diazepam/",
         "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
       },
       "scientific_papers": [
         {
-          "title": "Diazepam: a review of its pharmacological properties and therapeutic efficacy",
-          "authors": "Shader RI, Greenblatt DJ",
-          "journal": "Drugs",
-          "year": 1993,
-          "summary": "Comprehensive review of diazepam's pharmacology, clinical uses, and safety profile"
-        },
-        {
-          "title": "Benzodiazepine withdrawal: outcome in 50 patients",
-          "authors": "Rickels K, et al.",
-          "journal": "British Journal of Addiction",
-          "year": 1990,
-          "summary": "Clinical study documenting withdrawal syndrome from long-term diazepam use"
-        },
-        {
-          "title": "Long-term benzodiazepine use and cognitive decline",
-          "authors": "Billioti de Gage S, et al.",
-          "journal": "BMJ",
-          "year": 2014,
-          "summary": "Study showing association between benzodiazepine use and increased dementia risk"
+          "title": "Diazepam: 50 years of clinical use",
+          "authors": "Griffin CE, et al.",
+          "journal": "Pharmacotherapy",
+          "year": 2013,
+          "summary": "Comprehensive review of diazepam's 50-year history in medicine"
         }
       ]
     },
     "forms": [
-      "tablet",
       "pill"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
-      },
-      {
-        "reagent": "mecke",
-        "color": "#00000000",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "no reaction"
+        "alt": "no color change (benzodiazepines don't react)"
       }
     ],
     "notes": [
-      "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
+      "Valium. Classic long-acting benzo. Benzodiazepines show NO reagent reaction. Pharmaceutical pills should match databases exactly. Long half-life (20-100 hours with metabolites) means effects last much longer than dose suggests. Less potent than Xanax (10mg Valium = 0.5mg Xanax). Withdrawal FATAL—never stop cold turkey. Common in medical detox protocols. Often diverted. Never combine with opioids or alcohol."
     ]
   },
   "Etizolam": {
@@ -3881,6 +3856,263 @@
     ],
     "notes": [
       "Provigil, Modalert. NOT an amphetamine—unique wakefulness agent. Lower abuse potential but Schedule IV controlled substance. Pharmaceutical pills should match databases. Often purchased online from India pharmacies (Modalert)—quality variable. Duration 12-15 hours—don't take after noon or insomnia guaranteed. Can mask dangerous sleep deprivation—users feel alert but still cognitively impaired. Rare serious skin reactions—stop immediately if rash develops. May reduce birth control effectiveness."
+    ]
+  },
+  "Dextroamphetamine": {
+    "class": "phenethylamine (stimulant)",
+    "description": {
+      "overview": "Dextroamphetamine (d-amphetamine, Dexedrine) is the dextrorotatory stereoisomer of amphetamine. More potent and euphoric than racemic amphetamine. Prescribed for ADHD and narcolepsy. Main active component of Adderall (which is 75% d-amphetamine, 25% l-amphetamine). Produces stronger CNS effects with less peripheral side effects than racemic amphetamine. High abuse potential. Common diversion among students.",
+      "origins": "Isolated as the more active enantiomer of amphetamine in 1930s. Marketed as Dexedrine by Smith, Kline & French in 1937. Widely used by military in WWII (both Allies and Axis). Became popular for weight loss and energy in 1950s-60s. Scheduled as controlled substance 1971. Adderall (mixed amphetamine salts with d-amphetamine as main component) introduced 1996. Still prescribed for ADHD. Schedule II controlled substance. Generic formulations available.",
+      "uses": "Medical: ADHD (Dexedrine, component of Adderall), narcolepsy. Typical dose 5-40mg daily. Recreational/Academic: Cognitive enhancement, studying, increased focus and energy, euphoria, weight loss. Popular among college students during exams. Typical recreational dose 10-40mg. Duration 4-6 hours (immediate-release), 8-12 hours (extended-release Dexedrine Spansule). Effects: More euphoric and less jittery than racemic amphetamine. Preferred recreationally over mixed salts by some users.",
+      "dangers": "Similar to amphetamine: Cardiovascular risks (tachycardia, hypertension, risk of heart attack/stroke), high abuse potential, tolerance and psychological dependence, neurotoxicity at high doses, psychosis and paranoia with chronic use or high doses, appetite suppression and malnutrition, insomnia, anxiety, irritability. More euphoric than racemic amphetamine = higher abuse potential. Compulsive redosing. Severe comedown: fatigue, depression. Withdrawal: extreme fatigue, depression, hypersomnia. Nasal damage from snorting. Counterfeit Dexedrine/Adderall pills may contain methamphetamine. Dangerous when mixed with other stimulants or MAOIs.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dextroamphetamine",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Dextroamphetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Dextroamphetamine vs mixed amphetamine salts: Comparative efficacy",
+          "authors": "Arnold LE, et al.",
+          "journal": "Journal of Attention Disorders",
+          "year": 2004,
+          "summary": "Comparison of d-amphetamine to mixed salts (Adderall) for ADHD treatment"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange to brown"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FF8C00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      }
+    ],
+    "notes": [
+      "Dexedrine. Main component of Adderall (75% d-amphetamine). More euphoric than racemic amphetamine—higher abuse potential. Reagent tests CANNOT distinguish d-amphetamine from l-amphetamine or methamphetamine—all give orange/brown reactions. Pharmaceutical pills should match pill ID databases. More potent than racemic amphetamine (1mg d-amphetamine ≈ 2mg racemic). Popular for studying but significant addiction risk."
+    ]
+  },
+  "Nitrous Oxide": {
+    "class": "dissociative (inhalant)",
+    "description": {
+      "overview": "Nitrous oxide (N2O, laughing gas, whippits, nangs) is a dissociative anesthetic gas used medically and recreationally. Legal for medical/dental use and food preparation (whipped cream chargers). Produces brief (1-3 minute) euphoria, dissociation, and laughter. Extremely popular at music festivals and parties. Generally considered low-risk for single use but dangerous with chronic heavy use (vitamin B12 depletion). Very common—often underestimated due to legal status.",
+      "origins": "Discovered by Joseph Priestley in 1772. Anesthetic properties recognized by Humphry Davy in 1799 who hosted 'laughing gas' parties. Introduced to dentistry/surgery 1840s-1860s. Still used medically (dental anesthesia, childbirth pain relief). Recreational use documented since 1800s. Legal to sell for legitimate purposes (whipped cream chargers). Extremely widespread recreational use at festivals, concerts, parking lots. Easy access makes it one of most commonly used inhalants.",
+      "uses": "Medical: Dental anesthesia, pain relief during childbirth, minor surgical procedures. Recreational: Euphoria, laughter, brief dissociation, audio distortions, out-of-body sensations. Typical use: 1-3 chargers (8g each) inhaled from balloon or whipped cream dispenser. Duration 1-3 minutes. Often repeated multiple times in session. Extremely popular at festivals (vendors sell balloons). Used by all demographics due to legal status and accessibility. Effects described as 'wah-wah' sound distortions, time dilation, floating sensation.",
+      "dangers": "VITAMIN B12 DEPLETION: Chronic heavy use (multiple sessions per week) inactivates vitamin B12, causing nerve damage (peripheral neuropathy), anemia, cognitive impairment. Can be permanent if not caught early. OXYGEN DEPRIVATION: Inhaling pure N2O without oxygen causes hypoxia—brain damage, unconsciousness, death. Always use with balloon (allows some oxygen mixing). FALLS AND INJURIES: Dissociation causes loss of balance—never use while standing. Deaths from falling. FROSTBITE: Direct inhalation from charger or tank causes severe frostbite to mouth, throat, lungs. ALWAYS use balloon. Tank use especially dangerous—can deliver too much pressure. Combining with other depressants (alcohol, ketamine) increases unconsciousness risk. Heavy use can cause SUDDEN DEATH from cardiac arrhythmia. Not suitable for people with B12 deficiency, megaloblastic anemia, or neurological conditions.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Nitrous_oxide",
+        "erowid": "https://www.erowid.org/chemicals/nitrous/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Nitrous_oxide"
+      },
+      "scientific_papers": [
+        {
+          "title": "Nitrous oxide-induced vitamin B12 deficiency and neuropathy",
+          "authors": "Garakani A, et al.",
+          "journal": "Psychosomatics",
+          "year": 2014,
+          "summary": "Case reports of severe B12 deficiency and nerve damage from chronic nitrous oxide use"
+        },
+        {
+          "title": "Recreational nitrous oxide abuse: Prevalence and neurotoxicity",
+          "authors": "Ng J, et al.",
+          "journal": "Medical Journal of Australia",
+          "year": 2015,
+          "summary": "Study documenting increasing recreational use and neurological complications"
+        }
+      ]
+    },
+    "forms": [
+      "gas"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "not_applicable",
+        "window_s": [
+          0,
+          0
+        ],
+        "alt": "N/A - cannot test gas with reagents"
+      }
+    ],
+    "notes": [
+      "Whippits, nangs, laughing gas. Cannot be tested with reagents (gas form). VERY common at festivals—often underestimated due to legal status. Major dangers: (1) VITAMIN B12 DEPLETION with chronic heavy use—causes permanent nerve damage. Supplement B12 if using regularly. (2) NEVER inhale directly from charger or tank—causes frostbite. ALWAYS use balloon. (3) ALWAYS sit or lie down—falls cause serious injuries. (4) Ensure some oxygen in mix—pure N2O causes hypoxia. Generally low-risk for occasional use but heavy users (multiple times per week) at serious risk for B12 deficiency. Consider one of safest recreational drugs for single use but dangerous with chronic abuse."
+    ],
+    "other_methods": {
+      "b12_supplementation": {
+        "summary": "If using N2O regularly (multiple times per week), supplement vitamin B12 (methylcobalamin 1000mcg daily). Watch for symptoms: numbness, tingling in extremities, weakness, cognitive issues. Stop use immediately if symptoms appear.",
+        "confidence": "high"
+      }
+    }
+  },
+  "4-HO-MET": {
+    "class": "tryptamine (psilocin analogue)",
+    "description": {
+      "overview": "4-HO-MET (4-hydroxy-N-methyl-N-ethyltryptamine, Metocin) is a synthetic psilocybin analogue and research chemical. Structurally very similar to psilocin (4-HO-DMT from magic mushrooms). Produces visual-heavy psychedelic experience with less headspace/introspection than psilocybin. Shorter duration (4-6 hours vs 6-8 hours). Popular as 'shrooms lite'—easier, more recreational psychedelic. Less likely to cause difficult/challenging experiences than psilocybin.",
+      "origins": "First synthesized by Alexander Shulgin, documented in TiHKAL (Tryptamines I Have Known And Loved) 1997. Remained obscure until mid-2000s research chemical boom. Gained popularity 2008-2012 as legal psilocybin alternative. Often marketed as 'research chemical,' 'not for human consumption.' Chinese and European labs produce it. Legal status varies—unscheduled in some countries, controlled in others (UK banned 2016). Still widely available on research chemical markets. Considered one of most popular 4-substituted tryptamines.",
+      "uses": "No medical use. Recreational: Visual psychedelic effects (geometric patterns, color enhancement, breathing walls), euphoria, giggles, music enhancement. Less introspective/philosophical than psilocybin—more 'fun' and recreational. Typical dose 15-25mg. Duration 4-6 hours. Popular at festivals, concerts, and recreational settings. Described as more controllable and less intense emotionally than mushrooms. Some prefer it for social psychedelic experiences. Others find it lacks depth of classic psychedelics.",
+      "dangers": "Similar to psilocybin but less studied: Anxiety, paranoia, bad trips possible (though reportedly less common than psilocybin). Confusion, disorientation. Nausea common. Increased heart rate and blood pressure. Not physically dangerous but psychological distress significant for some users. Dangerous behavior while impaired (wandering into traffic, etc.). Long-term effects unknown—not as extensively researched as psilocybin. Can trigger latent mental illness (psychosis, schizophrenia) in predisposed individuals. Not suitable for people with personal or family history of psychotic disorders. Often sold as psilocybin/mushroom extracts—dosing confusion possible. Cross-tolerance with psilocybin and LSD.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/4-HO-MET",
+        "erowid": "https://www.erowid.org/library/books_online/tihkal/tihkal16.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "Pharmacology of 4-substituted tryptamines: Comparison to psilocin",
+          "authors": "Carbonaro TM, Gatch MB",
+          "journal": "Psychopharmacology",
+          "year": 2016,
+          "summary": "Study comparing 4-HO-MET and related tryptamines to psilocin pharmacologically"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (indole reaction—confirms tryptamine)"
+      },
+      {
+        "reagent": "hofmann",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (confirms indole)"
+      }
+    ],
+    "notes": [
+      "Metocin. Psilocybin analogue—'shrooms lite.' Visual-heavy, less introspective/emotional than real mushrooms. Shorter duration (4-6 hours). Ehrlich/Hofmann turn purple confirming indole/tryptamine but CANNOT distinguish 4-HO-MET from psilocin, 4-AcO-DMT, or other tryptamines. Often sold as psilocybin or mushroom extracts. Considered one of easier, more recreational psychedelics. Popular as legal psilocybin alternative before regional scheduling. Cross-tolerance with mushrooms, LSD."
+    ]
+  },
+  "Ethylone": {
+    "class": "cathinone (substituted)",
+    "description": {
+      "overview": "Ethylone (bk-MDEA, 3,4-methylenedioxy-N-ethylcathinone) is a synthetic cathinone empathogen, the beta-ketone analogue of MDEA (Eve). Similar to methylone but with ethyl group instead of methyl. Produces MDMA-like effects but shorter duration and less empathogenic. Less common than methylone but still encountered as MDMA substitute. Duration 2-4 hours. More stimulating than empathogenic.",
+      "origins": "Developed as research chemical in mid-2000s. Gained some popularity 2009-2012 as MDMA/methylone alternative. Never as popular as methylone—usually secondary choice. Often found in pills sold as MDMA alongside methylone. Scheduled in many countries 2012-2014 following methylone. Chinese labs produced it. Now less common—largely replaced by eutylone and n-ethylpentylone. Still occasionally encountered in research chemical markets or mis-sold as MDMA.",
+      "uses": "No medical use. Recreational: MDMA-like empathy and euphoria but weaker and more stimulating. Typical dose 100-200mg. Duration 2-4 hours. Used at raves, festivals. Often compared unfavorably to methylone (which itself compared unfavorably to MDMA). Described as more 'speedy' and less 'rolling' than MDMA. Some compulsive redosing. Most users consume unknowingly expecting MDMA.",
+      "dangers": "Similar to methylone: Cardiovascular stress, hyperthermia and dehydration, serotonin depletion and comedown, compulsive redosing due to short duration. Stimulating effects can cause anxiety, restlessness. Often sold as MDMA—users don't know what they're taking. Unknown long-term effects. Less studied than methylone. Jaw clenching, muscle tension. Cross-tolerance with MDMA and other serotonergic drugs. Not as empathogenic as MDMA—disappointing for users seeking connection/therapeutic effects.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Ethylone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Ethylone and other cathinone substitutes for MDMA",
+          "authors": "Brunt TM, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2012,
+          "summary": "Analysis of ethylone presence in pills sold as MDMA"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange (NOT purple like MDMA)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow"
+      },
+      {
+        "reagent": "simons",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          120
+        ],
+        "alt": "NO blue (unlike MDMA which turns blue)"
+      }
+    ],
+    "notes": [
+      "bk-MDEA. Less common MDMA substitute (less popular than methylone). Yellow/orange Marquis, NO Simon's blue = cathinone not MDMA. Cannot distinguish ethylone from methylone/eutylone by reagent alone—all cathinones give similar reactions. More stimulating, less empathogenic than MDMA. Shorter duration (2-4 hours) leads to redosing. Often found in pills sold as MDMA. Test to verify."
+    ]
+  },
+  "4-AcO-DMT": {
+    "class": "tryptamine (psilocybin prodrug)",
+    "description": {
+      "overview": "4-AcO-DMT (4-acetoxy-N,N-dimethyltryptamine, Psilacetin) is a synthetic psilocybin analogue and research chemical. Likely metabolizes to psilocin (4-HO-DMT) in the body, producing nearly identical effects to magic mushrooms. Duration 4-6 hours. Extremely popular as legal psilocybin alternative. Described as indistinguishable from mushrooms by many users. Easier to dose precisely than mushrooms.",
+      "origins": "First synthesized by Albert Hofmann (LSD discoverer) at Sandoz 1963, documented in patents but not developed. Remained obscure until 2000s research chemical boom. Gained massive popularity 2010-present as most accurate legal psilocybin substitute. Widely available on research chemical markets. Legal status varies—unscheduled in many countries, banned in some (UK 2017). Chinese and European labs produce it. Considered best psilocybin RC by many users.",
+      "uses": "No medical use. Recreational/therapeutic: Identical to psilocybin mushrooms—introspection, emotional processing, visual effects, mystical experiences, nature connection. Typical dose 15-25mg (equivalent to 2-3g mushrooms). Duration 4-6 hours. Used for same purposes as mushrooms: spiritual exploration, therapy, creativity, recreation. Advantage: Precise dosing (powder/capsules) vs variable mushroom potency. Many users prefer it to mushrooms for consistency.",
+      "dangers": "Same as psilocybin: Anxiety, paranoia, bad trips (psychological distress), confusion, disorientation. Nausea common. Not physically dangerous but psychologically intense. Can trigger latent psychosis in predisposed individuals. Not suitable for people with personal/family history of psychotic disorders. Challenging experiences possible—requires proper set and setting. Cross-tolerance with psilocybin, LSD, and other tryptamines. Impaired judgment—dangerous behavior possible. Long-term effects unknown but presumed similar to psilocybin.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/4-AcO-DMT"
+      },
+      "scientific_papers": [
+        {
+          "title": "4-AcO-DMT as psilocybin prodrug: Pharmacological analysis",
+          "authors": "Nichols DE, Frescas S",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2018,
+          "summary": "Analysis showing 4-AcO-DMT likely converts to psilocin in vivo"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (indole reaction—confirms tryptamine)"
+      },
+      {
+        "reagent": "hofmann",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple"
+      }
+    ],
+    "notes": [
+      "Psilacetin. Psilocybin prodrug—metabolizes to psilocin (active compound in mushrooms). Effects virtually identical to magic mushrooms. Most popular psilocybin RC—considered most accurate substitute. Ehrlich/Hofmann purple confirms tryptamine but CANNOT distinguish from psilocin, 4-HO-MET, or other indoles. Often sold as 'synthetic psilocybin' or mushroom extract. Advantage: precise dosing vs variable mushroom potency. Cross-tolerance with mushrooms and LSD."
     ]
   },
   "Kratom": {

@@ -394,11 +394,12 @@ When researching new substances:
 
 ### Stats:
 - **Before:** ~60 substances
-- **After:** ~79 substances (+19 this session! 🚀🚀)
+- **After:** **85 substances (+25 this session! 🚀🚀🚀)**
 - **Priority 1:** ✅ **100% COMPLETE** (11 substances)
 - **Priority 2:** ✅ **100% COMPLETE** (8 substances)
-- **Total missing:** ~21-31 substances
-- **Coverage:** **79% of 100-substance goal!**
+- **Priority 3:** ✅ **6 common substances added**
+- **Total missing:** ~15 substances
+- **Coverage:** **85% of 100-substance goal!**
 
 ### Next Steps:
 1. Continue with Priority 1 substances (Alpha-PVP, MDPV, Methylone)
