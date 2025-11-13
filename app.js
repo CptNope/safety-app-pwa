@@ -3783,7 +3783,7 @@ function App(){
   const [tab,setTab] = useState('welcome');
   const {data} = useJSON('data/reagents.json');
   
-  // Announce tab changes to screen readers
+  // Update page title and meta description based on active tab for SEO
   useEffect(() => {
     const tabNames = {
       welcome: 'Welcome',
@@ -3801,9 +3801,26 @@ function App(){
       about: 'About',
       privacy: 'Privacy Policy',
       terms: 'Terms of Service',
-      accessibility: 'Accessibility Statement'
+      accessibility: 'Accessibility'
     };
-    announceToScreenReader(`${tabNames[tab]} tab selected`);
+    
+    // SEO-optimized titles
+    const seoTitles = {
+      welcome: 'Harm Reduction Guide | Free Drug Testing Database',
+      quick: 'Drug Testing - 110 Substances | Reagent Test Guide',
+      swatches: 'Reagent Color Swatches | Visual Test Reference',
+      id: 'Drug ID Guide | Pill & Crystal Identification',
+      methods: 'Drug Testing Methods | Reagent, Lab, Field Tests',
+      myths: 'Drug Testing Myths Debunked | Harm Reduction Facts',
+      emergency: 'Overdose Emergency Response | Medical Protocols',
+      vendors: 'Buy Drug Test Kits | Trusted Vendors',
+      about: 'About | Harm Reduction Guide'
+    };
+    
+    document.title = seoTitles[tab] || `${tabNames[tab]} | Harm Reduction Guide`;
+    
+    // Announce page changes to screen readers
+    announceToScreenReader(`Navigated to ${tabNames[tab] || 'page'}`);
   }, [tab]);
   
   return (

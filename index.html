@@ -51,6 +51,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   
+  <!-- Performance Optimizations -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://3Dmol.csb.pitt.edu">
+  <link rel="dns-prefetch" href="https://pubchem.ncbi.nlm.nih.gov">
+  <link rel="preload" href="./data/reagents.json" as="fetch" crossorigin>
+  <link rel="preload" href="./app.js" as="script">
+  
   <!-- Structured Data: WebApplication -->
   <script type="application/ld+json">
   {
@@ -139,10 +147,15 @@
   <link rel="stylesheet" href="./assets/styles.css"/>
   <style>html,body,#root{height:100%} body{background:#0b1220;color:#e5e7eb}</style>
   
-  <!-- 3Dmol.js for molecular visualization -->
-  <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+  <!-- 3Dmol.js for molecular visualization (defer loading) -->
+  <script defer src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
 </head>
 <body>
+  <!-- Skip to main content (accessibility & SEO) -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-emerald-500 focus:text-white focus:rounded-lg">
+    Skip to main content
+  </a>
+  
   <div id="root" class="min-h-full"></div>
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>

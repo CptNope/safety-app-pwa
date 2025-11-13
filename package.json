@@ -1,0 +1,77 @@
+{
+  "name": "harm-reduction-guide",
+  "version": "2.0.0",
+  "description": "Free reagent drug testing guide for 110 substances with 3D molecules and multi-reagent calculator",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "node build-script.js && npm run prerender",
+    "prerender": "react-snap",
+    "postbuild": "echo Build complete! Deploy the build/ directory",
+    "lighthouse": "lighthouse https://safety-app-pwa.netlify.app --view",
+    "test:seo": "echo Testing SEO... && node scripts/test-seo.js"
+  },
+  "keywords": [
+    "harm reduction",
+    "drug testing",
+    "reagent test",
+    "MDMA test",
+    "LSD test",
+    "fentanyl test strips",
+    "substance testing",
+    "3d molecules",
+    "reagent calculator"
+  ],
+  "author": "Jeremy Anderson (CptNope)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CptNope/safety-app-pwa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CptNope/safety-app-pwa/issues"
+  },
+  "homepage": "https://safety-app-pwa.netlify.app",
+  "devDependencies": {
+    "fs-extra": "^11.3.2",
+    "lighthouse": "^11.0.0",
+    "react-snap": "^1.23.0"
+  },
+  "reactSnap": {
+    "include": [
+      "/",
+      "/#welcome",
+      "/#about",
+      "/#quick",
+      "/#swatches",
+      "/#id",
+      "/#methods",
+      "/#myths",
+      "/#addiction",
+      "/#resources",
+      "/#responder",
+      "/#emergency",
+      "/#news",
+      "/#vendors",
+      "/#privacy",
+      "/#terms",
+      "/#accessibility"
+    ],
+    "skipThirdPartyRequests": true,
+    "cacheAjaxRequests": false,
+    "minifyHtml": {
+      "collapseWhitespace": true,
+      "removeComments": true,
+      "removeRedundantAttributes": true,
+      "removeScriptTypeAttributes": true,
+      "removeStyleLinkTypeAttributes": true,
+      "useShortDoctype": true,
+      "minifyCSS": true,
+      "minifyJS": true
+    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  }
+}
