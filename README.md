@@ -677,13 +677,13 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (86 of 100 target)
+## 🧬 Substances Covered (89 of 100 target)
 
-**Current Status:** **86 substances fully documented** | **Priority 1 & 2: COMPLETE** ✅✅  
+**Current Status:** **89 substances fully documented** | **Priority 1 & 2: COMPLETE** ✅✅  
 [View missing substances roadmap](MISSING_SUBSTANCES.md)
 
-**Coverage:** 86% of goal - excellent progress! 🎉  
-**Latest:** Complete 2C series + Lysergamides + Ethnobotanicals (ibogaine, blue lotus, kanna, Syrian rue)
+**Coverage:** 89% of goal - almost there! 🎉🎉  
+**Latest:** Complete 2C series + Lysergamides + Traditional psychedelics (ayahuasca, toad venom, yopo, ibogaine, etc.)
 
 **Recent Additions (Nov 12, 2025) - 19 Substances (Priority 1 & 2):**
 

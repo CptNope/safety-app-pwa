@@ -5024,6 +5024,132 @@
       "EXTREME DANGER: Powerful MAOI. NEVER combine with: SSRIs, stimulants, tyramine foods, many medications—can be FATAL. Used to potentiate oral DMT (pharmahuasca). Causes severe nausea/vomiting. Requires strict dietary restrictions 24hrs before/after. Can cause hypertensive crisis, serotonin syndrome. Only for extremely experienced and informed users. Legal but very risky. NOT for beginners."
     ]
   },
+  "Toad Venom": {
+    "class": "tryptamine (5-MeO-DMT, natural)",
+    "description": {
+      "overview": "Toad venom refers to secretions from the Colorado River toad (Incilius alvarius, formerly Bufo alvarius) which contain high concentrations of 5-MeO-DMT. When dried and smoked, produces extremely intense, short-lasting mystical experiences (15-45 minutes). Considered one of most powerful psychedelics. Popularized by figures like Mike Tyson. Controversial due to toad welfare concerns. Synthetic 5-MeO-DMT is identical and doesn't harm toads.",
+      "origins": "Indigenous use possibly dates back centuries in Sonoran Desert region (disputed—may be modern practice). Toad venom contains 5-MeO-DMT and bufotenin. Modern popularity began 1980s-1990s. Albert Most published pamphlet on toad venom smoking 1984. Gained mainstream attention 2010s-2020s through celebrity endorsements. Toad populations threatened by overharvesting. Many advocate for synthetic 5-MeO-DMT instead (chemically identical, no toad harm).",
+      "uses": "Recreational/spiritual: Extremely intense mystical experiences, ego dissolution, sense of unity/oneness, encounters with ineffable. Duration: 15-45 minutes of peak intensity, afterglow hours. Described as most powerful psychedelic by many users. Used for spiritual breakthroughs, trauma processing, end-of-life anxiety (clinical research). Synthetic 5-MeO-DMT preferred by many for ethical/consistency reasons.",
+      "dangers": "EXTREMELY INTENSE: Can cause overwhelming experiences, terror, psychological distress. Not suitable for first psychedelic experience. Physical effects: tachycardia, increased blood pressure, difficulty breathing (feels like), muscle rigidity, loss of motor control during peak. Psychological risks: triggering latent mental illness, PTSD from difficult experiences, depersonalization/derealization. Contraindicated with heart conditions, mental health issues. NEVER use alone—sitter essential. Toad harvesting threatens species. Bufotenin in venom can cause nausea (synthetic 5-MeO-DMT doesn't have this).",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DMT",
+        "erowid": "https://www.erowid.org/chemicals/5meo_dmt/"
+      },
+      "scientific_papers": [
+        {
+          "title": "5-MeO-DMT: Clinical pharmacology and potential therapeutic applications",
+          "authors": "Davis AK, et al.",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2018,
+          "summary": "Review of 5-MeO-DMT's effects and therapeutic potential"
+        }
+      ]
+    },
+    "forms": [
+      "dried venom",
+      "synthetic powder"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (indole/tryptamine)"
+      }
+    ],
+    "notes": [
+      "Bufo alvarius toad venom containing 5-MeO-DMT. EXTREMELY INTENSE psychedelic. Duration 15-45 minutes but feels eternal. Ehrlich purple (tryptamine). ALWAYS have sitter present—total loss of motor control. Not for beginners. Toad populations threatened—use synthetic 5-MeO-DMT instead (identical, no animal harm). Can trigger serious psychological distress. Contraindicated with heart/mental health conditions."
+    ]
+  },
+  "Ayahuasca": {
+    "class": "plant brew (DMT + MAOI - banisteriopsis + psychotria)",
+    "description": {
+      "overview": "Ayahuasca is a traditional Amazonian plant brew combining DMT-containing plants (usually Psychotria viridis) with MAOI-containing plants (Banisteriopsis caapi vine). MAOIs make DMT orally active. Produces 4-6 hour visionary experiences. Used ceremonially by indigenous peoples for millennia. Increasingly popular in Western ayahuasca tourism and neo-shamanic ceremonies. Potentially therapeutic but carries significant risks.",
+      "origins": "Traditional use by indigenous Amazonian peoples (Peru, Brazil, Ecuador, Colombia) for thousands of years. Used by shamans for healing, divination, spiritual work. Banisteriopsis caapi vine (MAOI) + Psychotria viridis leaves (DMT) traditional combination. Discovered by Western anthropologists mid-1900s. Popularized by Terence McKenna, Dennis McKenna, others. Now commercialized in ayahuasca tourism (controversial—exploitation concerns). Legal status varies: traditional use protected in some areas, prohibited in others. Churches like UDV and Santo Daime have religious exemptions in some countries.",
+      "uses": "Traditional: Shamanic healing, spiritual guidance, divination, community ceremonies. Modern: Spiritual exploration, trauma healing, addiction treatment (some clinical research), personal growth. Duration 4-6 hours. Effects: intense visuals, emotional processing, purging (vomiting common—seen as cleansing), insights, mystical experiences. Often described as profoundly meaningful but difficult. Preparation (dieta) typically required in traditional contexts—dietary restrictions, abstinence, intention-setting.",
+      "dangers": "MAOI INTERACTIONS: Ayahuasca contains MAOIs from B. caapi. DANGEROUS with: SSRIs/antidepressants (serotonin syndrome—potentially FATAL), stimulants (hypertensive crisis), tyramine-rich foods, many medications. Requires dietary restrictions 24hrs+ before/after. Intense purging (vomiting, diarrhea) very common. Psychologically challenging—can surface trauma, cause distressing experiences. Risk of triggering mental illness. Safety varies hugely by setting: traditional shamans vs. untrained facilitators vs. tourist traps. Reports of sexual abuse in ceremonies. Quality/potency varies wildly. Can cause hypertensive crisis, serotonin syndrome with wrong combinations. Contraindicated in pregnancy, heart conditions, mental health issues.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Ayahuasca",
+        "erowid": "https://www.erowid.org/chemicals/ayahuasca/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Ayahuasca: Pharmacology, neuroscience, and therapeutic potential",
+          "authors": "Dos Santos RG, et al.",
+          "journal": "Brain Research Bulletin",
+          "year": 2016,
+          "summary": "Comprehensive review of ayahuasca's chemistry and therapeutic research"
+        },
+        {
+          "title": "Ayahuasca and public health: Risks and therapeutic potential",
+          "authors": "Frecska E, et al.",
+          "journal": "Current Drug Abuse Reviews",
+          "year": 2016,
+          "summary": "Analysis of ayahuasca safety and medical applications"
+        }
+      ]
+    },
+    "forms": [
+      "brew"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (DMT in brew - indole/tryptamine)"
+      }
+    ],
+    "notes": [
+      "Amazonian DMT + MAOI brew. Duration 4-6 hours. Ehrlich purple (DMT). MAOI DANGERS: NEVER combine with SSRIs, stimulants, tyramine foods—can be FATAL. Requires dietary restrictions 24hrs before/after. Intense purging (vomiting) very common. Psychologically intense. Quality/safety varies hugely by setting—research facilitators carefully. Traditional indigenous use vs. tourist ceremonies very different. Legal status varies. Not for beginners."
+    ]
+  },
+  "Yopo": {
+    "class": "plant seeds (5-MeO-DMT, bufotenin, DMT)",
+    "description": {
+      "overview": "Yopo (Anadenanthera peregrina) is a tree whose seeds contain DMT, 5-MeO-DMT, and bufotenin. Indigenous peoples of Caribbean and South America use powdered roasted seeds as insufflated snuff in traditional ceremonies. Produces intense but short-lived visionary experiences (30-90 minutes). Also called cohoba. Similar to cebil/vilca (Anadenanthera colubrina). Extremely painful to insufflate. Vomiting common. Traditional preparation methods differ from modern use.",
+      "origins": "Traditional use by Taíno and other indigenous peoples of Caribbean, Orinoco basin (Venezuela, Colombia) documented since pre-Columbian times. Seeds roasted, ground with lime/ash, insufflated as snuff. Used ceremonially by shamans for divination, healing, communication with spirits. Documented by early European explorers 1496+ (Columbus expedition). Also called cohoba in historical texts. Seeds contain 5-MeO-DMT, bufotenin, DMT (ratios vary). Modern users often unprepared for intensity and pain of traditional ROA.",
+      "uses": "Traditional: Shamanic ceremonies, healing, divination, vision quests. Seeds roasted, ground with calcium compound (lime, ash), insufflated. Modern: Psychonauts seeking natural psychedelic experiences. Duration 30-90 minutes. Effects: rapid onset intense visuals, altered perception, mystical experiences. EXTREMELY painful to insufflate—burning sensation. Nausea, vomiting common. Some modern users attempt other ROAs (oral with MAOI, smoking) with varying success.",
+      "dangers": "EXTREMELY PAINFUL insufflation—severe nasal burning, damage to mucous membranes. Nausea, vomiting very common (bufotenin causes this). Rapid, intense onset can be overwhelming. Vasoconstriction. Tachycardia. Bufotenin may cause more physical discomfort than DMT/5-MeO-DMT alone. Psychological risks: bad trips, anxiety, panic, triggering mental illness. Traditional preparation methods poorly documented—risk of doing it wrong. Seed potency varies. Legal status unclear in many jurisdictions (seeds vs. extracted compounds). Not recommended due to severe discomfort. Synthetic alternatives (5-MeO-DMT, DMT) easier and more comfortable.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Anadenanthera_peregrina",
+        "erowid": "https://www.erowid.org/plants/anadenanthera/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Anadenanthera: Visionary and healing powers of South American snuff",
+          "authors": "Torres CM, Repke DB",
+          "journal": "Journal of Psychoactive Drugs",
+          "year": 2006,
+          "summary": "Ethnobotanical and chemical analysis of Anadenanthera snuffs"
+        }
+      ]
+    },
+    "forms": [
+      "seeds",
+      "snuff powder"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (DMT/5-MeO-DMT/bufotenin - tryptamines)"
+      }
+    ],
+    "notes": [
+      "Anadenanthera seeds containing DMT, 5-MeO-DMT, bufotenin. Traditional snuff (cohoba). EXTREMELY PAINFUL to insufflate—severe burning, nasal damage. Nausea/vomiting very common. Duration 30-90 minutes. Ehrlich purple (tryptamines). Traditional ceremonial use vs. modern recreational very different. Not recommended—synthetic alternatives much more comfortable. Seed potency varies. Cultural appropriation concerns with non-traditional use."
+    ]
+  },
   "Kratom": {
     "class": "opioid agonist (plant alkaloids)",
     "description": {
