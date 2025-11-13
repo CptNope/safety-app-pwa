@@ -1268,58 +1268,40 @@
   "5-MeO-DiPT": {
     "class": "tryptamine (indole)",
     "description": {
-      "overview": "5-Methoxy-N,N-diisopropyltryptamine (5-MeO-DiPT), known as 'Foxy' or 'Foxy Methoxy,' is a psychedelic tryptamine with unique aphrodisiac and tactile enhancement properties. Documented in TiHKAL #4 by Shulgin. Effects last 4-8 hours with visual distortions, enhanced sensory perception, and significant sexual enhancement. More 'recreational' feeling than other tryptamines.",
-      "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #4. Appeared on research chemical market in late 1990s-early 2000s. Gained popularity quickly due to aphrodisiac effects and manageable duration. Became Schedule I in 2004 after several deaths (often from combinations). Name 'Foxy Methoxy' from chemical structure. Less intense than 5-MeO-DMT but longer-lasting.",
-      "uses": "No medical use. Recreational: Visual distortions, enhanced tactile sensations, significant aphrodisiac/sexual enhancement effects (primary draw). Typical dose 6-12mg (oral). Duration 4-8 hours. Popular at raves and parties in early 2000s. Some users report euphoria and empathogenic qualities. Shulgin rated it positively for tactile and sexual enhancement. Less 'spiritual' than DMT or psilocybin—more recreational/sensory.",
-      "dangers": "Several deaths reported in early 2000s, though often involving combinations with other drugs or extremely high doses. Serotonin syndrome risk when combined with MAOIs or SSRIs. Strong physical sensations can be uncomfortable: body load, nausea, jaw tension. Dangerous at high doses: seizures, hyperthermia reported. Vasoconstriction and increased heart rate. Can trigger anxiety or panic. Duration longer than users expect (6-8 hours). Quality varied in RC market. Deaths led to emergency scheduling in 2004. Should never be combined with other serotonergic drugs. Contraindicated with heart conditions.",
+      "overview": "5-MeO-DiPT (5-methoxy-N,N-diisopropyltryptamine, Foxy, Foxy Methoxy) is a psychedelic tryptamine with unique effects profile. More tactile/sensory than visual. Known for strong aphrodisiac effects and body sensations. Duration 3-6 hours. Popular in early 2000s rave/party scene. Less common now but still encountered.",
+      "origins": "Synthesized by Alexander Shulgin, documented in TiHKAL 1997. Became popular party drug early 2000s, especially in Japan. Known for sexual/tactile enhancement. Emergency scheduled in US 2004, other countries followed. Peak use 2000-2005. Now less common than peak but still available as RC. Nostalgic significance for those from early 2000s rave scene.",
+      "uses": "No medical use. Recreational: Tactile enhancement, body euphoria, mild visuals, aphrodisiac effects, empathogenic qualities. Typical dose 6-12mg oral, 3-6mg insufflated. Duration 3-6 hours. Popular at raves, parties, intimate settings for sexual/sensory enhancement. Less 'headspace' than classical psychedelics. Some users find it uniquely pleasurable; others experience uncomfortable body sensations.",
+      "dangers": "Nausea very common, especially at higher doses. Uncomfortable body sensations ('weird feeling'). Can cause difficult trips despite less visual intensity. Dosing tricky—small increases cause major effects changes. Some users report lasting sexual dysfunction after use (unverified). Vasoconstriction. Insomnia. Can trigger anxiety, paranoia. Less studied than classical tryptamines—long-term effects unknown. Cross-tolerance with other tryptamines.",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DiPT",
-        "erowid": "https://www.erowid.org/chemicals/5meo_dipt/",
-        "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT"
+        "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT",
+        "erowid": "https://www.erowid.org/library/books_online/tihkal/tihkal28.shtml"
       },
       "scientific_papers": [
         {
-          "title": "5-MeO-DiPT (Foxy): synthesis and effects",
-          "authors": "Shulgin AT",
-          "journal": "TiHKAL: The Continuation",
+          "title": "5-MeO-DiPT (Foxy): Pharmacology and subjective effects",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "TiHKAL",
           "year": 1997,
-          "summary": "TiHKAL #4 documentation noting tactile enhancement and aphrodisiac properties at 6-12mg"
-        },
-        {
-          "title": "Deaths associated with 5-MeO-DiPT",
-          "authors": "Sklerov J, et al.",
-          "journal": "Journal of Analytical Toxicology",
-          "year": 2005,
-          "summary": "Case reports of deaths involving 5-MeO-DiPT, leading to Schedule I classification"
+          "summary": "Original documentation of 5-MeO-DiPT synthesis and effects"
         }
       ]
     },
     "forms": [
-      "powder",
-      "capsule"
+      "powder"
     ],
     "testing": [
       {
         "reagent": "ehrlich",
         "color": "#9370DB",
         "window_s": [
-          0,
-          120
+          60,
+          180
         ],
-        "alt": "purple/violet (indole)"
-      },
-      {
-        "reagent": "marquis",
-        "color": "#FFA500",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "orange→brown"
+        "alt": "purple (indole/tryptamine)"
       }
     ],
     "notes": [
-      "Foxy Methoxy. TiHKAL #4. Known for aphrodisiac effects. Duration 4-8 hours. Deaths reported—scheduled 2004. Never combine with MAOIs/SSRIs."
+      "Foxy, Foxy Methoxy. Known for tactile/sexual enhancement more than visuals. Ehrlich purple (tryptamine) but cannot distinguish from other tryptamines. Duration 3-6 hours. Nausea very common. Popular in early 2000s rave scene. Dose-sensitive. Unique effects profile—not like classical psychedelics. Less headspace, more body sensations."
     ]
   },
   "2C-T-7": {
@@ -1452,61 +1434,50 @@
   "DOC": {
     "class": "phenethylamine (psychedelic amphetamine)",
     "description": {
-      "overview": "2,5-Dimethoxy-4-chloroamphetamine (DOC) is a potent, long-acting psychedelic amphetamine similar to DOB but with slightly different character. Effects last 14-24 hours with intense visuals and stimulation. Synthesized by Alexander Shulgin (PiHKAL #64). Known for 'cleaner' headspace than other DOx compounds but still extremely long duration.",
-      "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #64. Less researched than DOM or DOB historically. Became more popular on research chemical market in 2000s-2010s. Schedule I in most countries. Often preferred by some users for less body load than DOB, but still carries extreme duration and dose-sensitivity risks.",
-      "uses": "No medical use. Recreational: Long psychedelic experiences (14-24 hours) with visual hallucinations, mental stimulation, and euphoria. Typical dose 2-7mg. Shulgin noted it was 'quite acceptable' with visual and emotional content. Onset 1-3 hours (still slow). Some users report preferring DOC to DOB for less physical discomfort, but duration still prohibitively long for most.",
-      "dangers": "Extremely long duration (14-24 hours) makes it difficult to manage—commitment of entire day+. Dose-sensitive: 2-7mg range. Slow onset causes redosing before effects peak. Stimulation prevents sleep for 20+ hours causing exhaustion. Vasoconstriction, increased heart rate and blood pressure. Hyperthermia risk especially in hot environments. Combining with other stimulants dangerous. Often sold as other substances (2C-x, MDMA, mescaline). Physical toll from staying awake 24+ hours. Can trigger anxiety, paranoia, psychosis especially with sleep deprivation. Difficult to distinguish from other DOx compounds without lab testing.",
+      "overview": "DOC (2,5-dimethoxy-4-chloroamphetamine) is a psychedelic amphetamine with 12-24 hour duration. Most commonly encountered DOx compound. Very potent (1.5-3mg), highly stimulating, strong visuals. Often sold on blotter as 'LSD' but much longer-lasting. Popular in psychonaut communities but controversial due to extreme duration and stimulation.",
+      "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Most popular of DOx series due to more 'balanced' profile than DOI/DOM. Common on research chemical markets 2000s-2010s. Frequently mis-sold as LSD on blotter—duration difference causes problems. Less intense than DOI but still very long. Emergency scheduled in many countries. Still encountered on blotter and as powder.",
+      "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, long introspective experiences. Typical dose 1.5-3mg. Duration 12-24 hours. Used for spiritual/therapeutic exploration. Described as more 'clearheaded' than DOI, less body load than DOM. Still extremely long—requires full day+ commitment. Some users appreciate; others find duration exhausting.",
+      "dangers": "VERY LONG DURATION: 12-24 hours of intense effects physically and mentally taxing. Vasoconstriction severe (numbness, cold extremities, muscle tension). Stimulation causes tachycardia, hypertension, insomnia for 24+ hours. Bad trips last entire day. Often mis-sold as LSD—users expect 8-12 hours get 20+ hours. Thought loops, anxiety, paranoia. Can trigger HPPD. Dangerous with MAOIs. Cross-tolerance with other psychedelics.",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-chloroamphetamine",
-        "erowid": "https://www.erowid.org/chemicals/doc/",
         "psychonautwiki": "https://psychonautwiki.org/wiki/DOC",
-        "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal062.shtml"
       },
       "scientific_papers": [
         {
-          "title": "DOC: Psychedelic amphetamine synthesis and effects",
-          "authors": "Shulgin AT",
-          "journal": "PiHKAL: A Chemical Love Story",
-          "year": 1991,
-          "summary": "Shulgin's documentation of DOC synthesis, dosage (2-7mg), and 14-24 hour duration"
+          "title": "DOC and the DOx series: Pharmacology and toxicology",
+          "authors": "Brandt SD, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2017,
+          "summary": "Analysis of DOC as most prevalent DOx compound"
         }
       ]
     },
     "forms": [
-      "powder",
-      "blotter"
+      "blotter",
+      "powder"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#FFA500",
+        "color": "#808080",
         "window_s": [
-          0,
+          30,
           60
         ],
-        "alt": "orange→gray"
+        "alt": "dark grey to black"
       },
       {
-        "reagent": "mecke",
-        "color": "#228B22",
+        "reagent": "ehrlich",
+        "color": "no_reaction",
         "window_s": [
-          0,
-          60
+          60,
+          180
         ],
-        "alt": "green"
-      },
-      {
-        "reagent": "mandelin",
-        "color": "#228B22",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "green"
+        "alt": "no color change (not indole)"
       }
     ],
     "notes": [
-      "LONG DURATION: 14-24 hours. Dose-sensitive (2-7mg). Slow onset. Cannot distinguish from other DOx compounds by reagent tests."
+      "Most common DOx compound. 12-24 hour duration—NOT like LSD! Often sold on blotter as LSD but lasts much longer. Ehrlich negative (phenethylamine) helps distinguish from LSD. Very potent (1.5-3mg). Severe vasoconstriction and stimulation. More 'balanced' than DOI/DOM but still overwhelming for most. If you suspect DOC instead of LSD, prepare for 18+ hour experience."
     ]
   },
   "DOI": {
@@ -2224,39 +2195,42 @@
     ]
   },
   "Clonazepam": {
-    "class": "benzodiazepine",
+    "class": "benzodiazepine (pharmaceutical)",
     "description": {
-      "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed primarily for seizure disorders and panic disorder. Known for potent anti-anxiety and anticonvulsant effects with a long half-life (18-50 hours). Often considered more sedating than other benzos. Street name 'k-pins' or 'klonies.' Popular for anxiety relief and combining with opioids (dangerous).",
-      "origins": "Developed by Hoffmann-La Roche in 1960s, FDA-approved 1975 for seizure disorders. Later approved for panic disorder. Became one of the most prescribed benzos for anxiety despite being primarily an anticonvulsant. Long duration makes it less prone to interdose withdrawal but more difficult to discontinue.",
-      "uses": "Medical: Seizure disorders (especially absence seizures, myoclonic seizures), panic disorder, acute mania, restless leg syndrome, akathisia. Typical dose 0.5-2mg daily. Recreational: Anxiety relief, sedation, enhancing opioid effects, muscle relaxation. Some users prefer clonazepam for longer-lasting anxiety relief compared to Xanax. Popular among those with opioid use disorder.",
-      "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, psychosis). Long half-life means withdrawal symptoms may appear days after last dose and persist for weeks/months. Combining with opioids or alcohol FATAL risk (respiratory depression). Cognitive impairment, memory problems, depression. Driving impairment significant. Elderly at high risk for falls, confusion. Tolerance develops. Paradoxical reactions (increased anxiety, aggression) possible. Counterfeit pills rare but increasing. Pregnancy category D. Chronic use linked to increased dementia risk (debated). Very difficult to taper off due to long action—requires slow, medically supervised withdrawal."
+      "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed for anxiety, panic disorder, and seizures. Duration 6-12 hours, long half-life (30-40 hours) means effects accumulate. More potent than diazepam. High abuse potential. Widely prescribed and frequently diverted. Known for causing severe dependence and difficult withdrawal.",
+      "origins": "Developed by Hoffmann-La Roche, introduced 1975. FDA-approved for seizures, panic disorder. Became widely prescribed for anxiety despite recommendations for short-term use only. Generic versions available. Schedule IV controlled substance. Common in medical settings and street markets. Often prescribed long-term despite addiction risks.",
+      "uses": "Medical: Panic disorder, anxiety disorders, seizure disorders (especially absence seizures), akathisia, acute mania. Typical dose 0.5-2mg for anxiety, up to 20mg for seizures. Duration 6-12 hours. Recreational/diverted: Anxiety relief, sedation, euphoria (mild), sleep aid, potentiating opioids (dangerous), managing stimulant comedowns. Popular among those with anxiety or opioid use disorder.",
+      "dangers": "Severe physical dependence—withdrawal can be FATAL (seizures, delirium). Long half-life means effects accumulate and withdrawal delayed. Cognitive impairment, memory issues, 'benzo fog.' Respiratory depression when combined with opioids/alcohol—FATAL. Blackouts, amnesia at higher doses. Dangerous driving impairment. Tolerance develops. Extremely difficult withdrawal (worse than many benzos due to long half-life). Counterfeit Klonopin may contain other benzos, RC benzos, or fentanyl.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Clonazepam",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Clonazepam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Clonazepam in panic disorder: Clinical efficacy and withdrawal",
+          "authors": "Pollack MH, et al.",
+          "journal": "Journal of Clinical Psychiatry",
+          "year": 1993,
+          "summary": "Study of clonazepam efficacy and dependence issues"
+        }
+      ]
     },
     "forms": [
-      "pill",
-      "powder"
+      "pill"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
-      },
-      {
-        "reagent": "mecke",
-        "color": "#00000000",
-        "window_s": [
-          0,
-          60
-        ],
-        "alt": "no reaction"
+        "alt": "no color change (benzodiazepines don't react)"
       }
     ],
     "notes": [
-      "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
+      "Klonopin. Long-acting benzo (6-12 hr effects, 30-40 hr half-life). Benzos show NO reagent reaction. Effects accumulate over days. Withdrawal FATAL—never stop cold turkey. More potent than Valium. Very difficult withdrawal due to long half-life. Often diverted. Counterfeit pills may contain RC benzos or fentanyl. Never combine with opioids or alcohol."
     ]
   },
   "Diazepam": {
@@ -4364,6 +4338,163 @@
     ],
     "notes": [
       "Long-acting opioid (24-36 hrs). DANGEROUS: Accumulates over days—can overdose on day 3 even if day 1 felt safe. Reagent reactions differ from morphine-based opioids (orange vs purple). Used in MAT clinics. Diverted liquid 'take-homes' dangerous. Withdrawal extremely prolonged (weeks). Test with fentanyl strips if source unknown. Never combine with benzos or alcohol—FATAL."
+    ]
+  },
+  "Buprenorphine": {
+    "class": "opioid (partial agonist)",
+    "description": {
+      "overview": "Buprenorphine (Suboxone, Subutex) is a partial opioid agonist used for opioid addiction treatment and chronic pain. Unique 'ceiling effect' makes overdose difficult but not impossible. Blocks other opioids, precipitates withdrawal if taken too soon after full agonist opioids. Gold standard for MAT alongside methadone. Also widely diverted and abused, especially by those in withdrawal.",
+      "origins": "Developed in 1960s-70s, FDA-approved 2002 for opioid dependence (Suboxone with naloxone, Subutex without). Revolutionary because it can be prescribed in office settings unlike methadone (clinic-only). Became widely used for MAT. Suboxone combines buprenorphine with naloxone to deter IV abuse. Generic versions available. Strict prescribing regulations but more accessible than methadone. Widely diverted—street market significant.",
+      "uses": "Medical: Opioid use disorder treatment (Suboxone/Subutex), chronic pain (buprenorphine patch). Typical MAT dose 8-24mg daily sublingual. Duration 24-72 hours. Recreational/diverted: Preventing withdrawal, mild opioid high (ceiling effect limits euphoria), managing pain. Popular on street for self-treatment of withdrawal. IV abuse attempts despite naloxone (bioavailability issue makes it ineffective deterrent). Film strips easier to divert than pills.",
+      "dangers": "PRECIPITATED WITHDRAWAL: Taking buprenorphine while full agonist opioids still in system causes SEVERE immediate withdrawal (buprenorphine displaces other opioids from receptors). Must wait 12-24+ hours after last heroin/fentanyl use. Respiratory depression possible, especially when combined with benzos, alcohol—many deaths. 'Ceiling effect' not absolute—high doses or combinations still dangerous. Very difficult withdrawal (weeks of symptoms). Diverted strips/pills dangerous if dosing unknown. Can be abused despite partial agonist profile. Neonatal abstinence syndrome if used in pregnancy (still preferred over full agonists).",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Buprenorphine",
+        "erowid": "https://www.erowid.org/pharms/buprenorphine/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Buprenorphine for opioid use disorder: Clinical review",
+          "authors": "Kampman K, Jarvis M",
+          "journal": "Annals of Internal Medicine",
+          "year": 2015,
+          "summary": "Comprehensive review of buprenorphine efficacy and safety for MAT"
+        }
+      ]
+    },
+    "forms": [
+      "film",
+      "pill",
+      "patch"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to yellow"
+      }
+    ],
+    "notes": [
+      "Suboxone/Subutex. Critical MAT medication. DANGER: Causes precipitated withdrawal if taken too soon after full opioid use—wait 12-24+ hours. Partial agonist with ceiling effect but still causes respiratory depression with benzos/alcohol. Long duration (24-72 hrs). Widely diverted. Orange/yellow Marquis (differs from morphine-based opioids). Test with fentanyl strips if source unknown."
+    ]
+  },
+  "O-PCE": {
+    "class": "dissociative (arylcyclohexylamine)",
+    "description": {
+      "overview": "O-PCE (2'-oxo-PCE, Eticyclidone) is a dissociative research chemical related to PCP and ketamine. More potent than ketamine, longer duration (4-8 hours). Produces strong dissociation and 'holes.' Less manic than 3-MeO-PCP, less warm than 3-HO-PCP. Known for clean dissociation. Very potent (5-15mg). Popular in dissociative RC community.",
+      "origins": "Research chemical appearing around 2012-2014. Designed as ketamine/PCP analogue with unique profile. Chinese labs primary manufacturers. Legal in some regions, banned in others. Gained popularity for strong dissociative effects without excessive mania or stimulation. Still widely available on RC markets. Considered one of better ketamine alternatives by enthusiasts.",
+      "uses": "No medical use. Recreational: Strong dissociation, 'holes,' out-of-body experiences, music enhancement. Typical dose 5-15mg. Duration 4-8 hours. Popular among dissociative users. Described as 'clean' dissociation—less confusing than some analogues. Hole doses possible. Used for introspection, escapism, recreation. Some compulsive redosing.",
+      "dangers": "Bladder toxicity possible with chronic use (like ketamine). Confusion, memory impairment, poor coordination. Dissociation impairs judgment—dangerous behavior possible. Respiratory depression when combined with depressants. Tolerance develops. Psychological dependence. Long-term effects unknown. Can cause anxiety, paranoia in some users. Very potent—easy to take too much. Dangerous when mixed with alcohol, benzos, opioids.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/O-PCE"
+      },
+      "scientific_papers": [
+        {
+          "title": "O-PCE and related dissociative compounds in the drug market",
+          "authors": "Wallach J, Brandt SD",
+          "journal": "Drug Testing and Analysis",
+          "year": 2018,
+          "summary": "Analysis of O-PCE emergence as ketamine alternative"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Eticyclidone. Potent dissociative (5-15mg). Duration 4-8 hours. Cannot distinguish from PCP/ketamine analogues by reagent alone. Described as 'clean' dissociation without excessive mania. Hole doses possible. Bladder damage risk with chronic use. Popular ketamine alternative. Less studied than ketamine—unknowns remain."
+    ]
+  },
+  "3-MeO-PCE": {
+    "class": "dissociative (arylcyclohexylamine)",
+    "description": {
+      "overview": "3-MeO-PCE (3-methoxyeticyclidine) is a dissociative research chemical related to 3-MeO-PCP. Similar manic/stimulating profile to 3-MeO-PCP but slightly different character. Duration 4-8 hours. Very potent (5-15mg). Known for stimulation, mania potential, and compulsive redosing. Popular but carries significant risks.",
+      "origins": "Research chemical appearing around 2014-2016. Designed as 3-MeO-PCP variant. Chinese manufacturers. Legal in some regions, banned in others. Gained popularity as 3-MeO-PCP alternative with slightly different effects. Still widely available. Known in dissociative RC community but controversial due to mania and addiction potential.",
+      "uses": "No medical use. Recreational: Dissociation, stimulation, euphoria, music enhancement. Typical dose 5-15mg. Duration 4-8 hours. Used for similar purposes as 3-MeO-PCP. Some users prefer it; others find it too manic. Compulsive redosing common. Popular among dissociative enthusiasts but risky.",
+      "dangers": "MANIC EPISODES: Similar to 3-MeO-PCP—delusions of sobriety, poor judgment, dangerous behavior. Very stimulating. Compulsive redosing while dissociated. Bladder damage with chronic use. Tachycardia, hypertension. Confusion, memory issues. Psychological dependence. Tolerance develops rapidly. Dangerous with other depressants. Long-term effects unknown. Can cause psychotic episodes.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/3-MeO-PCE"
+      },
+      "scientific_papers": [
+        {
+          "title": "3-MeO-PCE: A novel dissociative arylcyclohexylamine",
+          "authors": "Hofer KE, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2014,
+          "summary": "First documentation of 3-MeO-PCE toxicity cases"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Similar to 3-MeO-PCP—manic, stimulating dissociative. Very potent (5-15mg). Cannot distinguish from PCP analogues by reagent. Duration 4-8 hours. Causes delusions of sobriety and poor judgment. Compulsive redosing common. Bladder damage possible. Addiction risk. Not recommended due to mania potential."
+    ]
+  },
+  "Temazepam": {
+    "class": "benzodiazepine (pharmaceutical)",
+    "description": {
+      "overview": "Temazepam (Restoril) is an intermediate-acting benzodiazepine prescribed primarily for insomnia. Duration 6-8 hours. More hypnotic (sleep-inducing) than anxiolytic compared to other benzos. Widely prescribed sleep aid but significant abuse potential, especially via IV injection of gel caps (dangerous). Popular in UK and Europe.",
+      "origins": "Synthesized 1964, marketed by Wyeth. FDA-approved 1981 for insomnia. Became one of most prescribed sleep medications. Schedule IV controlled substance. Gel capsule formulation notorious for IV abuse (especially UK in 1980s-90s)—formulation changed to reduce this. Generic widely available. Common in medical settings and diverted to street.",
+      "uses": "Medical: Short-term insomnia treatment. Typical dose 7.5-30mg at bedtime. Duration 6-8 hours (good for full night sleep). Recreational/diverted: Sleep aid, sedation, anxiety relief, euphoria (especially IV—dangerous). Popular among those with opioid use disorder. IV abuse of gel caps historically significant problem. Often combined with opioids (deadly).",
+      "dangers": "Physical dependence with regular use—withdrawal FATAL (seizures). Respiratory depression when combined with opioids, alcohol—many deaths. IV injection of gel caps extremely dangerous: thrombosis, gangrene, limb amputations reported (UK epidemic 1980s-90s). Blackouts, amnesia. 'Sleep-driving' and other complex behaviors while not fully awake. Tolerance develops. Hangover effects next day. Counterfeit pills may contain other substances.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Temazepam",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Temazepam"
+      },
+      "scientific_papers": [
+        {
+          "title": "Temazepam abuse: Clinical consequences of IV injection",
+          "authors": "Ogden E, et al.",
+          "journal": "British Medical Journal",
+          "year": 1992,
+          "summary": "Documentation of severe complications from IV temazepam gel cap injection"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change (benzodiazepines don't react)"
+      }
+    ],
+    "notes": [
+      "Restoril. Sleep-focused benzo. Benzos show NO reagent reaction. Withdrawal FATAL—never stop abruptly. NEVER inject gel caps—causes thrombosis, gangrene, amputations (UK epidemic documented). Often combined with opioids—respiratory depression FATAL. Popular sleep aid but significant abuse potential. Verify pharmaceutical pills with databases."
     ]
   },
   "Kratom": {
