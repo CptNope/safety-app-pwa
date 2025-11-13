@@ -2160,6 +2160,12 @@ function Methods(){
             <h3 className="font-semibold text-lg">{m.name}</h3>
             {m.type && <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/10 border border-white/15">{m.type}</span>}
           </div>
+          {m.disclaimer && (
+            <div className="rounded-xl bg-red-500/10 border-2 border-red-500/30 p-3 text-sm text-red-100">
+              <div className="font-bold text-red-200 mb-2">⚠️ IMPORTANT LEGAL DISCLAIMER</div>
+              <p>{m.disclaimer}</p>
+            </div>
+          )}
           {m.do && m.do.length>0 && (<div className="text-sm"><div className="font-semibold">Do</div><ul className="list-disc ms-5">{m.do.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
           {m.dont && m.dont.length>0 && (<div className="text-sm text-rose-200"><div className="font-semibold">Avoid</div><ul className="list-disc ms-5">{m.dont.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
           {m.services && m.services.length>0 && (<div className="text-sm text-emerald-200"><div className="font-semibold">Services</div><ul className="list-disc ms-5">{m.services.map((t,i)=><li key={i}>{t}</li>)}</ul></div>)}
