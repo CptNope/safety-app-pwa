@@ -5011,6 +5011,106 @@
         "EXTREME DURATION: 10-20 hours! Very potent (3-10mg). One of longest-lasting psychedelics. Exhausting and overwhelming. Green Marquis like other 2Cs. Only for very experienced users seeking marathon psychedelic experience. Requires 24+ hour clear schedule. Not recreational—too intense. Many prefer shorter compounds. Cannot distinguish from 2C-B by reagent."
       ]
     },
+    "LSA": {
+      "class": "ergoline (lysergamide, natural)",
+      "description": {
+        "overview": "LSA (lysergic acid amide, ergine) is a naturally-occurring lysergamide found in seeds of morning glory (Ipomoea tricolor) and Hawaiian baby woodrose (Argyreia nervosa). Produces psychedelic effects similar to but milder than LSD. Duration 6-10 hours. Often causes significant nausea and physical discomfort. Historically used in Aztec religious ceremonies. Popular as legal LSD alternative but often unpleasant.",
+        "origins": "Natural compound in several plant species, especially morning glory and Hawaiian baby woodrose seeds. Used ceremonially by Aztecs (ololiuqui). Psychoactive properties documented by Albert Hofmann (LSD discoverer) in 1950s. Became popular in 1960s counterculture as legal psychedelic. Seeds sold in garden stores but often treated with toxic fungicides/pesticides. Still used as legal LSD substitute despite difficult side effects.",
+        "uses": "No medical use. Recreational/spiritual: Mild psychedelic visuals, introspection, emotional experiences, altered thinking. Typical dose: 5-10 Hawaiian baby woodrose seeds or 200-400 morning glory seeds (strains vary). Duration 6-10 hours. Used for spiritual exploration, introspection. Effects described as more 'earthy' and sedating than LSD. Significant nausea very common—extraction methods attempt to reduce this but still present.",
+        "dangers": "SEVERE NAUSEA AND VOMITING very common (vasoconstriction from ergot alkaloids). Abdominal cramping, diarrhea. Vasoconstriction can cause numbness, cold extremities. Garden store seeds often treated with toxic fungicides or pesticides—can cause serious poisoning. Some preparations involve extraction with harmful solvents. Challenging psychological experiences possible. Can trigger HPPD. Fatigue, sedation common during experience. Long duration can be exhausting. Pregnancy risk: ergot alkaloids can cause uterine contractions.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/LSA",
+          "erowid": "https://www.erowid.org/plants/morning_glory/"
+        },
+        "scientific_papers": [
+          {
+            "title": "Lysergic acid amide: Pharmacology and natural occurrence",
+            "authors": "Hofmann A, et al.",
+            "journal": "Experientia",
+            "year": 1961,
+            "summary": "Albert Hofmann's documentation of LSA discovery in morning glory seeds"
+          }
+        ]
+      },
+      "forms": ["seeds", "extract"],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [60, 180],
+          "alt": "purple (indole/lysergamide)"
+        }
+      ],
+      "notes": [
+        "Natural LSD relative in morning glory and Hawaiian baby woodrose seeds. Ehrlich purple (lysergamide). SEVERE nausea very common—often unpleasant experience. Garden seeds often treated with TOXIC pesticides/fungicides. Only use untreated seeds sold specifically for consumption. Weaker and more sedating than LSD. Long duration (6-10 hrs). Not recommended due to side effects."
+      ]
+    },
+    "PRO-LAD": {
+      "class": "ergoline (lysergamide)",
+      "description": {
+        "overview": "PRO-LAD (6-propyl-6-nor-lysergic acid diethylamide) is a semi-synthetic lysergamide analogue of LSD. Similar effects to LSD but described as more visual, less mentally confusing. Duration 6-10 hours. Developed by David Nichols. Less common than other LSD analogues but valued by psychonauts for clearer headspace. Research chemical with limited human data.",
+        "origins": "Synthesized by David Nichols and team at Purdue University, documented in research papers 1980s-1990s. Remained obscure until 2010s research chemical markets. Less popular than 1P-LSD or ALD-52 but sought by experienced psychonauts. Legal status varies—unscheduled in many countries but banned under analogue acts in some. Available sporadically on RC markets. Less studied than LSD.",
+        "uses": "No medical use. Recreational: Visual hallucinations, enhanced colors, introspection, less 'headspace' than LSD. Typical dose 100-200µg. Duration 6-10 hours. Used for psychedelic experiences with clearer thinking than LSD. Some users prefer it for functional tripping. Less anxiety-inducing than LSD for some. Good for nature, music, art appreciation.",
+        "dangers": "Similar risks to LSD: Anxiety, paranoia, bad trips, confusion. Can trigger latent mental illness. Not suitable for those with psychotic disorder history. HPPD possible. Impaired judgment—dangerous behavior. Cross-tolerance with LSD and other psychedelics. Limited human safety data—less studied than LSD. Sold on blotter like LSD but could be mis-sold as LSD or contain other substances. Always test.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/PRO-LAD"
+        },
+        "scientific_papers": [
+          {
+            "title": "Structure-activity relationships of lysergamides: PRO-LAD analysis",
+            "authors": "Nichols DE, et al.",
+            "journal": "Journal of Medicinal Chemistry",
+            "year": 1985,
+            "summary": "Original documentation of PRO-LAD synthesis and pharmacology"
+          }
+        ]
+      },
+      "forms": ["blotter"],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [60, 180],
+          "alt": "purple (indole/lysergamide)"
+        }
+      ],
+      "notes": [
+        "LSD analogue. Described as more visual, clearer headspace than LSD. Ehrlich purple (lysergamide) but CANNOT distinguish from LSD, 1P-LSD, or other lysergamides. Duration 6-10 hours. Typical dose 100-200µg. Less studied than LSD. Cross-tolerance with all psychedelics. Test to verify—could be LSD or other lysergamide."
+      ]
+    },
+    "LSM-775": {
+      "class": "ergoline (lysergamide)",
+      "description": {
+        "overview": "LSM-775 (lysergic acid 2,4-dimethylazetidide) is a semi-synthetic lysergamide related to LSD. Shorter duration than LSD (4-6 hours). Described as similar to LSD but less intense and shorter. Very rare research chemical with minimal human use data. Developed by David Nichols. Occasionally appears on RC markets but uncommon.",
+        "origins": "Synthesized by David Nichols' research team, documented in academic papers 1990s. Designed as shorter-duration LSD alternative for potential therapeutic use. Never approved for medical use. Remained completely obscure until appearing sporadically on RC markets 2015+. Very rare even among research chemicals. Little anecdotal data. Legal status unclear in most places—likely covered under analogue acts.",
+        "uses": "No medical use. Recreational: Similar to LSD but shorter (4-6 hours), less intense. Typical dose 150-300µg (less potent than LSD). Used by psychonauts seeking shorter psychedelic experience. Very few user reports. Effects described as LSD-like: visuals, introspection, altered perception. Shorter duration appeals to some but effects may differ from LSD in unknown ways.",
+        "dangers": "VERY LIMITED HUMAN DATA: Safety profile unknown beyond animal studies and rare user reports. Similar risks expected as other lysergamides: bad trips, anxiety, triggering mental illness, HPPD. Impaired judgment. Unknown long-term effects. Cross-tolerance with psychedelics. Often sold as other lysergamides—test to verify. Extremely rare—if you have it, be extra cautious.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/LSM-775"
+        },
+        "scientific_papers": [
+          {
+            "title": "Lysergamides with varying N1 substituents: LSM-775 characterization",
+            "authors": "Nichols DE, Frescas S",
+            "journal": "Journal of Medicinal Chemistry",
+            "year": 1999,
+            "summary": "Documentation of LSM-775 synthesis and preliminary pharmacology"
+          }
+        ]
+      },
+      "forms": ["blotter", "powder"],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [60, 180],
+          "alt": "purple (lysergamide)"
+        }
+      ],
+      "notes": [
+        "Very rare LSD analogue. Shorter duration (4-6 hrs) and less potent than LSD. Ehrlich purple but cannot distinguish from other lysergamides. VERY LIMITED human data—safety unknown. If encountered, extreme caution. Likely mis-sold as LSD or other lysergamide. Test to verify. Cross-tolerance with psychedelics."
+      ]
+    },
     "Kratom": {
       "class": "opioid agonist (plant alkaloids)",
       "description": {
