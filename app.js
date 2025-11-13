@@ -274,13 +274,6 @@ function QuickTest(){
         </div>
       )}
       
-      {/* Reagent Calculator Tool - Moved above detailed info */}
-      {window.ReagentCalculator && (
-        <div className="mt-4">
-          <ReagentCalculator data={data} />
-        </div>
-      )}
-      
       {s.description && (
         <div className="rounded-xl p-4 bg-gradient-to-br from-slate-500/10 to-slate-600/10 border border-slate-400/30 space-y-3">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -403,6 +396,13 @@ function QuickTest(){
               </div>
             </div>
           )}
+        </div>
+      )}
+      
+      {/* Reagent Calculator Tool - Between scientific research and test results */}
+      {window.ReagentCalculator && (
+        <div className="mt-4 mb-4">
+          <ReagentCalculator data={data} />
         </div>
       )}
       
