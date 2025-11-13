@@ -271,7 +271,18 @@ function QuickTest(){
               <div className="text-sm text-slate-100 leading-relaxed">{s.description.overview}</div>
             </div>
           )}
-          
+        </div>
+      )}
+      
+      {/* Reagent Calculator Tool - Moved above detailed info */}
+      {window.ReagentCalculator && (
+        <div className="mt-4">
+          <ReagentCalculator data={data} />
+        </div>
+      )}
+      
+      {s.description && (
+        <div className="rounded-xl p-4 bg-gradient-to-br from-slate-500/10 to-slate-600/10 border border-slate-400/30 space-y-3">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {s.description.origins && (
               <div>
@@ -297,16 +308,22 @@ function QuickTest(){
             </div>
           )}
           
-          {s.description.links && (
+          {s.description.links && (()=>{
+            const hasAnyLinks = s.description.links.wikipedia || s.description.links.erowid || 
+                               s.description.links.psychonautwiki || s.description.links.pihkal || 
+                               s.description.links.tihkal || s.description.links.lsd_problem_child;
+            if (!hasAnyLinks) return null;
+            
+            return (
             <div className="rounded-lg p-3 bg-blue-500/10 border border-blue-400/30">
               <div className="text-sm font-semibold text-blue-200 mb-3">🔗 Resources & Information</div>
               <div className="text-xs text-blue-100 mb-3 space-y-1 leading-relaxed">
                 <p><strong>📖 What these resources provide:</strong></p>
-                <p>• <strong>Wikipedia:</strong> General overview, history, chemistry, legal status</p>
-                <p>• <strong>Erowid:</strong> Experience reports, dosage guides, effects timeline, harm reduction</p>
-                <p>• <strong>PsychonautWiki:</strong> Detailed pharmacology, subjective effects, interactions, safety</p>
-                <p>• <strong>PiHKAL/TiHKAL:</strong> Alexander Shulgin's original synthesis, dosage, duration, qualitative commentary</p>
-                <p>• <strong>LSD: My Problem Child:</strong> Albert Hofmann's autobiography - the discoverer's personal account of LSD's history</p>
+                {s.description.links.wikipedia && <p>• <strong>Wikipedia:</strong> General overview, history, chemistry, legal status</p>}
+                {s.description.links.erowid && <p>• <strong>Erowid:</strong> Experience reports, dosage guides, effects timeline, harm reduction</p>}
+                {s.description.links.psychonautwiki && <p>• <strong>PsychonautWiki:</strong> Detailed pharmacology, subjective effects, interactions, safety</p>}
+                {(s.description.links.pihkal || s.description.links.tihkal) && <p>• <strong>PiHKAL/TiHKAL:</strong> Alexander Shulgin's original synthesis, dosage, duration, qualitative commentary</p>}
+                {s.description.links.lsd_problem_child && <p>• <strong>LSD: My Problem Child:</strong> Albert Hofmann's autobiography - the discoverer's personal account of LSD's history</p>}
               </div>
               <div className="flex flex-wrap gap-2">
                 {s.description.links.wikipedia && (
@@ -350,7 +367,8 @@ function QuickTest(){
                 💡 Tip: Cross-reference multiple sources for accurate information. Each resource has unique strengths.
               </div>
             </div>
-          )}
+            );
+          })()}
           
           {s.description.scientific_papers && s.description.scientific_papers.length > 0 && (
             <div className="rounded-lg p-3 bg-amber-500/10 border border-amber-400/30">
@@ -1148,13 +1166,6 @@ function QuickTest(){
               </a>
             )}
           </div>
-        </div>
-      )}
-      
-      {/* Reagent Calculator Tool */}
-      {window.ReagentCalculator && (
-        <div className="mt-6 pt-6 border-t-2 border-purple-400/30">
-          <ReagentCalculator data={data} />
         </div>
       )}
     </div>
