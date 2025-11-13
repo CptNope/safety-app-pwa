@@ -2404,7 +2404,9 @@ function Welcome(){
       <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
         <h3 className="font-semibold text-lg text-white">🎯 What This App Does</h3>
         <ul className="space-y-2 text-sm">
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Substance Testing:</strong> Search substances and see expected reagent test results with color swatches</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Substance Testing (110+ substances!):</strong> Search substances and see expected reagent test results with color swatches</span></li>
+          <li className="flex gap-2"><span className="text-blue-400">✨ NEW</span><span><strong>3D Molecular Viewer:</strong> Interactive 3D visualization of molecular structures from PubChem database</span></li>
+          <li className="flex gap-2"><span className="text-purple-400">✨ NEW</span><span><strong>Reagent Calculator:</strong> Combine multiple test results to narrow down substance identity (prevents dangerous misidentification!)</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>ID Guide:</strong> Visual identification of different substance forms (pills, crystals, powders)</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Testing Methods:</strong> Comprehensive guide to reagent testing, lab testing, and field methods</span></li>
           <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Myths Debunked:</strong> Correct dangerous misinformation with evidence-based facts</span></li>
@@ -2418,6 +2420,8 @@ function Welcome(){
         <h3 className="font-semibold text-lg text-white">📖 How to Use This Guide</h3>
         <ol className="space-y-3 text-sm list-decimal list-inside">
           <li><strong>Search for your substance</strong> in the Substance Testing tab to see expected reagent reactions</li>
+          <li><strong>Explore the 3D molecule</strong> to understand chemical structure - drag to rotate, scroll to zoom</li>
+          <li><strong>Use the Reagent Calculator</strong> to combine 2-6 test results for accurate identification (critical for MDMA vs meth, LSD vs NBOMes!)</li>
           <li><strong>View color swatches</strong> to compare your test results visually</li>
           <li><strong>Check ID Guide</strong> for visual characteristics of different substance forms</li>
           <li><strong>Review testing methods</strong> to learn proper testing procedures</li>
@@ -3819,6 +3823,7 @@ function App(){
         <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
         <nav className="flex flex-wrap gap-2 justify-center sm:justify-start" role="tablist" aria-label="Main navigation">
           <button onClick={()=>setTab('welcome')} role="tab" aria-selected={tab==='welcome'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}><span aria-hidden="true">📚</span> Welcome</button>
+          <button onClick={()=>setTab('about')} role="tab" aria-selected={tab==='about'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}><span aria-hidden="true">ℹ️</span> About</button>
           <button onClick={()=>setTab('quick')} role="tab" aria-selected={tab==='quick'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='quick'?'bg-lime-500/30 border border-lime-400/60 text-lime-100':'bg-lime-500/10 border border-lime-400/30 text-lime-200 hover:bg-lime-500/20')}><span aria-hidden="true">🧪</span> Substance Testing</button>
           <button onClick={()=>setTab('swatches')} role="tab" aria-selected={tab==='swatches'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='swatches'?'bg-sky-500/30 border border-sky-400/60 text-sky-100':'bg-sky-500/10 border border-sky-400/30 text-sky-200 hover:bg-sky-500/20')}><span aria-hidden="true">🎨</span> Swatches</button>
           <button onClick={()=>setTab('id')} role="tab" aria-selected={tab==='id'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='id'?'bg-indigo-500/30 border border-indigo-400/60 text-indigo-100':'bg-indigo-500/10 border border-indigo-400/30 text-indigo-200 hover:bg-indigo-500/20')}><span aria-hidden="true">🔍</span> ID Guide</button>
@@ -3830,7 +3835,6 @@ function App(){
           <button onClick={()=>setTab('emergency')} role="tab" aria-selected={tab==='emergency'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='emergency'?'bg-red-500/30 border border-red-400/60 text-red-100':'bg-red-500/10 border border-red-400/30 text-red-200 hover:bg-red-500/20')}><span aria-hidden="true">🚨</span> Emergency</button>
           <button onClick={()=>setTab('news')} role="tab" aria-selected={tab==='news'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='news'?'bg-cyan-500/30 border border-cyan-400/60 text-cyan-100':'bg-cyan-500/10 border border-cyan-400/30 text-cyan-200 hover:bg-cyan-500/20')}><span aria-hidden="true">📰</span> News</button>
           <button onClick={()=>setTab('vendors')} role="tab" aria-selected={tab==='vendors'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='vendors'?'bg-slate-500/30 border border-slate-400/60 text-slate-100':'bg-slate-500/10 border border-slate-400/30 text-slate-200 hover:bg-slate-500/20')}><span aria-hidden="true">🏪</span> Vendors</button>
-          <button onClick={()=>setTab('about')} role="tab" aria-selected={tab==='about'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}><span aria-hidden="true">ℹ️</span> About</button>
         </nav>
       </header>
 

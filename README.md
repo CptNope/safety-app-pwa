@@ -37,7 +37,9 @@ A comprehensive, offline-capable Progressive Web App for substance testing, iden
 ## 📋 Overview
 
 A complete harm reduction toolkit providing:
-- **🧪 Substance testing data** for **100+ substances**
+- **🧪 Substance testing data** for **110 substances** (opioids, psychedelics, stimulants, dissociatives, depressants)
+- **⚗️ Interactive 3D molecular viewer** - Rotate and explore chemical structures from PubChem database
+- **🧮 Multi-reagent calculator** - Combine 2-6 test results to narrow down substance identity
 - **🚨 Emergency medical protocols** by drug class
 - **❌ Myth debunking** (60 dangerous myths corrected)
 - **🌍 Regional pill testing resources** (8 countries/regions)
@@ -49,23 +51,28 @@ A complete harm reduction toolkit providing:
 | Tab | Icon | Name | Description |
 |-----|------|------|-------------|
 | 1 | 📚 | **Welcome** | Landing page, installation guide, best practices |
-| 2 | 🧪 | **Substance Testing** | Search 100+ substances with reagent reactions & scientific papers |
-| 3 | 🎨 | **Swatches** | Visual color reference for all reagents |
-| 4 | 🔍 | **ID Guide** | Counterfeit pills, cutting agents, crystal characteristics |
-| 5 | 🧬 | **Methods** | Testing protocols (reagent, fentanyl strips, lab testing) |
-| 6 | ❌ | **Myths** | 60 dangerous myths debunked |
-| 7 | 🌍 | **Resources** | 8 regional pill testing databases |
-| 8 | 🚒 | **First Responder** | EMS protocols, naloxone, field testing |
-| 9 | 🚨 | **Emergency** | Life-saving overdose response |
-| 10 | 🛒 | **Vendors** | Trusted suppliers for testing kits |
+| 2 | ℹ️ | **About** | App information, features, version history |
+| 3 | 🧪 | **Substance Testing** | Search 110 substances with reagent reactions & scientific papers |
+| 3.1 | ⚗️ | **3D Molecule Viewer** ✨ NEW | Interactive WebGL visualization of chemical structures |
+| 3.2 | 🧮 | **Reagent Calculator** ✨ NEW | Combine multiple tests to identify substances accurately |
+| 4 | 🎨 | **Swatches** | Visual color reference for all reagents |
+| 5 | 🔍 | **ID Guide** | Counterfeit pills, cutting agents, crystal characteristics |
+| 6 | 🧬 | **Methods** | Testing protocols (reagent, fentanyl strips, lab testing) |
+| 7 | ❌ | **Myths** | 60 dangerous myths debunked |
+| 8 | 🌍 | **Resources** | 8 regional pill testing databases |
+| 9 | 🚒 | **First Responder** | EMS protocols, naloxone, field testing |
+| 10 | 🚨 | **Emergency** | Life-saving overdose response |
+| 11 | 🛒 | **Vendors** | Trusted suppliers for testing kits |
 
 #### Core Functionality
 - **📱 Installable PWA** - One-click install, works offline, no app store needed
-- **🧪 Substance Testing** - Search 100+ substances, see expected reagent reactions instantly
+- **🧪 Substance Testing** - Search 110 substances, see expected reagent reactions instantly
+- **⚗️ 3D Molecular Visualization** ✨ NEW - Interactive WebGL molecules from PubChem (NIH database)
+- **🧮 Multi-Reagent Calculator** ✨ NEW - Cross-reference 2-6 tests to eliminate dangerous ambiguity (MDMA vs meth, LSD vs NBOMes)
 - **🎨 Color-Coded Results** - Hex color visualization with descriptive names
 - **⏱️ Timing Windows** - Precise reaction observation timeframes
 - **🔗 External Resources** - Wikipedia (pharmacology) and Erowid (experiences) for every substance
-- **🔍 Smart Search** - Filter substances by name in real-time
+- **🔍 Smart Search** - Filter substances by name and category in real-time
 - **📚 Scientific Papers** - 95+ peer-reviewed research papers with DOI links
 
 ---
@@ -684,6 +691,44 @@ CREATE TABLE scientific_papers (
 
 **Coverage:** 110% - Going beyond! 🎉🎉🎉  
 **Latest:** Opioid crisis substances (nitazenes, U-47700) + Complete mescaline analogue series (Shulgin compounds)
+
+---
+
+## ✨ NEW FEATURES (November 2025)
+
+### ⚗️ **3D Molecular Structure Viewer**
+- **Interactive WebGL visualization** of all 110 substances
+- Real-time data from **PubChem** (NIH's free chemistry database)
+- **Drag to rotate, scroll to zoom** - fully interactive
+- Displays:
+  - Molecular formula (e.g., C₁₁H₁₅NO₂)
+  - Molecular weight (g/mol)
+  - IUPAC systematic name
+  - Direct link to full PubChem entry
+- **Stick-and-ball model** with semi-transparent surface
+- **Jmol color scheme** (industry standard)
+- Works on desktop and mobile
+
+**Why it matters:** Visual understanding of chemical structure helps users learn structure-activity relationships and builds scientific literacy.
+
+### 🧮 **Multi-Reagent Test Calculator**
+- **Combine 2-6 reagent tests** to narrow down substance identity
+- **Confidence scoring** (0-100%) for each match
+- **Conflict highlighting** shows when tests don't align (indicates adulterants)
+- Prevents dangerous misidentification:
+  - ✅ **MDMA vs Methamphetamine** - Simon's test is critical!
+  - ✅ **LSD vs NBOMes** - Ehrlich rules out deadly substitutes
+  - ✅ **Multi-substance detection** - Identifies mixtures and cutting agents
+
+**How it works:**
+1. Select observed colors for each reagent test
+2. Algorithm cross-references against all 110 substances
+3. Results ranked by confidence with matched/conflicting tests displayed
+4. Educational warnings about presumptive testing limitations
+
+**Why it matters:** Single reagent tests are ambiguous. Ehrlich turning purple could be LSD, psilocybin, DMT, or 10+ other substances. The calculator eliminates this dangerous ambiguity by requiring multiple confirmatory tests.
+
+---
 
 **Recent Additions (Nov 12, 2025) - 19 Substances (Priority 1 & 2):**
 
