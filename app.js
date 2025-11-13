@@ -1150,6 +1150,13 @@ function QuickTest(){
           </div>
         </div>
       )}
+      
+      {/* Reagent Calculator Tool */}
+      {window.ReagentCalculator && (
+        <div className="mt-6 pt-6 border-t-2 border-purple-400/30">
+          <ReagentCalculator data={data} />
+        </div>
+      )}
     </div>
   );
 }
