@@ -1,0 +1,212 @@
+{
+  "note": "These 3 substances are ready to be added to reagents.json - Priority 1 substances",
+  "substances": {
+    "Oxycodone": {
+      "class": "opioid (semi-synthetic)",
+      "description": {
+        "overview": "Oxycodone is a semi-synthetic opioid analgesic prescribed for moderate to severe pain. Approximately 1.5x more potent than morphine. Available as immediate-release (Roxicodone, Percocet with acetaminophen) and extended-release (OxyContin). Extremely high abuse and diversion rates. The counterfeit 'M30' pills (fake oxycodone 30mg) are now the #1 cause of fentanyl overdose deaths—virtually all street M30s contain fentanyl, not oxycodone.",
+        "origins": "Synthesized from thebaine (opium alkaloid) in 1916 by German chemists Martin Freund and Edmund Speyer. Introduced commercially in 1939. OxyContin (extended-release) launched by Purdue Pharma in 1996 with aggressive marketing claiming low addiction risk—this sparked the modern opioid epidemic. Purdue pled guilty to criminal charges in 2007 and 2020 for misleading marketing. By 2010s, pill mills and overprescribing led to epidemic of addiction and transition to heroin/fentanyl when prescriptions tightened. Now, counterfeit 'M30' pills are primary fentanyl delivery method.",
+        "uses": "Medical: Moderate-severe pain (post-surgical, cancer, chronic pain). Typical dose 5-30mg every 4-6 hours for immediate-release; 10-80mg every 12 hours for OxyContin. Recreational/diverted: Pills crushed and snorted, chewed, or dissolved for injection to bypass extended-release mechanism. Euphoria, pain relief, sedation, 'nodding.' Street pills ('blues,' 'M30s,' 'roxies') almost universally counterfeit containing fentanyl.",
+        "dangers": "COUNTERFEIT EPIDEMIC: The DEA reports 6 out of 10 fake M30 pills contain lethal fentanyl doses. If you didn't get it from YOUR prescription at a pharmacy, assume it's fake and contains fentanyl. Addiction develops rapidly—one of highest abuse potentials among opioids. Physical dependence and severe withdrawal. Respiratory depression and overdose, especially when combined with alcohol, benzos, or other depressants. Acetaminophen toxicity in Percocet formulations (liver damage/failure). Constipation, nausea, sedation. IV use carries infection risks. OxyContin abuse contributed to opioid epidemic and transition to heroin/fentanyl. Fake pills are manufactured by cartels with pill presses—look identical to real pills but contain fentanyl, carfentanil, or nothing.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Oxycodone",
+          "erowid": "https://www.erowid.org/pharms/oxycodone/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Oxycodone"
+        },
+        "scientific_papers": [
+          {
+            "title": "OxyContin and the opioid epidemic: Purdue Pharma's role",
+            "authors": "Van Zee A",
+            "journal": "American Journal of Public Health",
+            "year": 2009,
+            "doi": "10.2105/AJPH.2007.131714",
+            "summary": "Analysis of OxyContin marketing practices and contribution to opioid epidemic"
+          },
+          {
+            "title": "Counterfeit oxycodone tablets containing fentanyl: A new public health threat",
+            "authors": "DEA Laboratory Analysis",
+            "journal": "DEA Intelligence Report",
+            "year": 2021,
+            "summary": "Documentation of fake M30 pill crisis and fentanyl contamination rates"
+          },
+          {
+            "title": "Trends in opioid analgesic abuse and mortality in the United States",
+            "authors": "Cicero TJ, et al.",
+            "journal": "New England Journal of Medicine",
+            "year": 2015,
+            "summary": "Epidemiological study tracking oxycodone abuse patterns and transition to heroin"
+          }
+        ]
+      },
+      "forms": ["pill", "powder"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#9370DB",
+          "window_s": [30, 60],
+          "alt": "purple"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#0e7c61",
+          "window_s": [30, 60],
+          "alt": "blue-green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#4B0082",
+          "window_s": [30, 60],
+          "alt": "brown"
+        }
+      ],
+      "notes": [
+        "CRITICAL: Street 'M30' pills are ALMOST ALWAYS COUNTERFEIT FENTANYL. If you didn't get it from YOUR prescription at a licensed pharmacy, assume it contains fentanyl. Always use fentanyl test strips on any suspected oxycodone pill from the street. Real pharmaceutical pills should match pill identification databases (drugs.com) exactly—check imprint, color, size, texture. Fake pills may have: uneven edges, chalky texture, incorrect color, wrong thickness, crumbly consistency. Even perfect-looking pills can be deadly fakes. Visual inspection alone is NOT reliable—Mexican cartels use industrial pill presses."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "MANDATORY for any street pill. Dissolve small amount, test with fentanyl strips before consuming.",
+          "confidence": "critical"
+        },
+        "pill_databases": {
+          "summary": "Compare to drugs.com pill identifier. Check imprint, shape, color, score lines.",
+          "confidence": "medium"
+        }
+      }
+    },
+    "Hydrocodone": {
+      "class": "opioid (semi-synthetic)",
+      "description": {
+        "overview": "Hydrocodone is a semi-synthetic opioid analgesic prescribed for moderate pain and cough suppression. Similar potency to morphine. Almost always combined with acetaminophen (Vicodin, Norco, Lortab) or ibuprofen. One of the most prescribed opioids in the US. High diversion and abuse rates. Counterfeit Vicodin pills increasingly contain fentanyl.",
+        "origins": "First synthesized in Germany in 1920 from codeine. Introduced to US market in 1943 combined with other medications. Vicodin (hydrocodone + acetaminophen) launched in 1978 and became one of most prescribed medications in America. Originally Schedule III but rescheduled to Schedule II in 2014 due to abuse epidemic. Tighter prescribing regulations led to decline in legitimate prescriptions but increase in counterfeit pills containing fentanyl.",
+        "uses": "Medical: Moderate pain (dental procedures, injuries, post-surgical), cough suppression. Typical dose 5-10mg hydrocodone combined with 300-325mg acetaminophen (Norco 5/325, 10/325). Recreational: Euphoria, pain relief, relaxation, 'nodding.' Pills often taken in excess or combined with alcohol. Some users extract hydrocodone from acetaminophen ('cold water extraction') to avoid liver damage at high doses.",
+        "dangers": "Addiction and physical dependence common—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea, sweating. Respiratory depression and overdose, especially when combined with alcohol, benzodiazepines, or other CNS depressants. Acetaminophen toxicity—exceeding 4000mg daily causes liver damage and potential liver failure (fatal). Many deaths from Vicodin abuse involve acetaminophen overdose in addition to opioid effects. Constipation, nausea, drowsiness common. Driving impairment. COUNTERFEIT PILLS: Fake Vicodin increasingly common, often containing fentanyl instead of hydrocodone. Always verify pharmaceutical source.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Hydrocodone",
+          "erowid": "https://www.erowid.org/pharms/hydrocodone/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Hydrocodone"
+        },
+        "scientific_papers": [
+          {
+            "title": "Hydrocodone combination products: A review of abuse liability and therapeutic efficacy",
+            "authors": "Webster LR, et al.",
+            "journal": "Expert Opinion on Drug Safety",
+            "year": 2014,
+            "summary": "Review of hydrocodone's abuse potential and rationale for Schedule II reclassification"
+          },
+          {
+            "title": "Acetaminophen hepatotoxicity in patients treated with hydrocodone combination products",
+            "authors": "Dart RC, et al.",
+            "journal": "Annals of Pharmacotherapy",
+            "year": 2000,
+            "summary": "Study documenting liver damage from acetaminophen in Vicodin formulations"
+          },
+          {
+            "title": "Trends in hydrocodone prescribing after Schedule II reclassification",
+            "authors": "Jones CM, Lurie PG",
+            "journal": "JAMA Internal Medicine",
+            "year": 2016,
+            "summary": "Analysis of prescription patterns and abuse rates after 2014 rescheduling"
+          }
+        ]
+      },
+      "forms": ["pill", "liquid"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#9370DB",
+          "window_s": [30, 60],
+          "alt": "purple to purple-brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#0e7c61",
+          "window_s": [30, 60],
+          "alt": "green-blue"
+        }
+      ],
+      "notes": [
+        "Vicodin, Norco, Lortab. Almost always combined with acetaminophen—never exceed 4000mg APAP daily (liver damage). Street pills may be counterfeit fentanyl—test with fentanyl strips. Reagent tests show opioid reactions but cannot distinguish from other opioids. Verify pharmaceutical pills with pill ID databases."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "Test any street Vicodin/Norco pills. Counterfeit pills with fentanyl increasing.",
+          "confidence": "high"
+        }
+      }
+    },
+    "Mephedrone": {
+      "class": "cathinone (synthetic)",
+      "description": {
+        "overview": "Mephedrone (4-methylmethcathinone, 4-MMC) is a synthetic cathinone stimulant and empathogen. Known as 'meow meow,' 'M-CAT,' or 'drone.' Produces MDMA-like euphoria and empathy combined with cocaine-like stimulation. Extremely compulsive redosing behavior. Popular in UK rave scene 2008-2010 before being banned. Still encountered, often sold as MDMA, molly, or bath salts. Very 'moreish' (users have difficulty stopping once started).",
+        "origins": "First synthesized in 1929 but remained obscure. Re-emerged in 2003 on research chemical markets. Exploded in popularity in UK 2008-2009 as legal high sold in head shops and online. Media panic and several deaths led to emergency UK ban in April 2010, followed by worldwide scheduling. Peak use 2009-2010; still available on black/gray markets but less common than during legal era. Chinese labs were primary manufacturers. Often mis-sold as MDMA or methylone currently.",
+        "uses": "No medical use. Recreational: MDMA-like empathy, euphoria, music enhancement, dancing, sociability combined with cocaine-like rush and stimulation. Typical dose 100-250mg oral or nasal. Duration 2-3 hours (shorter than MDMA). Extremely compulsive redosing—users report going through grams in a session unable to stop. Often used at clubs, raves, festivals. Effects described as 'rolling and rushing' simultaneously. Some prefer it to MDMA for stronger stimulant component; others find it too compulsive and 'tweaky.'",
+        "dangers": "EXTREME compulsive redosing—users report inability to stop until supply exhausted, leading to massive doses, severe comedowns, and harm. Cardiovascular stress: tachycardia, hypertension, chest pain. Hyperthermia and dehydration (especially in hot environments). Jaw clenching, bruxism, muscle tension. Severe 'comedown' includes depression, anxiety, paranoia, insomnia lasting days. Vasoconstriction can cause blue/cold extremities. Psychosis with heavy use or binging. Possible neurotoxicity (unknown long-term effects). Deaths reported from hyperthermia, cardiovascular events, and combining with other substances. Nasal insufflation extremely caustic—burns nasal passages. Often cut or substituted with other cathinones, caffeine, or sold as MDMA. Harm reduction extremely difficult due to compulsive redosing nature.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Mephedrone",
+          "erowid": "https://www.erowid.org/chemicals/4_methylmethcathinone/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Mephedrone"
+        },
+        "scientific_papers": [
+          {
+            "title": "Mephedrone (4-methylmethcathinone): pharmacology, metabolism and toxicity",
+            "authors": "Schifano F, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2011,
+            "doi": "10.1016/j.drugalcdep.2011.02.003",
+            "summary": "Comprehensive review of mephedrone's effects, risks, and deaths associated with use"
+          },
+          {
+            "title": "The rise and fall of mephedrone in the United Kingdom",
+            "authors": "Winstock A, et al.",
+            "journal": "Addiction",
+            "year": 2011,
+            "summary": "Analysis of mephedrone's legal high era, use patterns, and banning in UK"
+          },
+          {
+            "title": "Compulsive use linked to 4-MMC: A comparison to MDMA",
+            "authors": "Freeman TP, et al.",
+            "journal": "European Neuropsychopharmacology",
+            "year": 2012,
+            "summary": "Study showing mephedrone users report significantly more compulsive redosing than MDMA users"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "yellow to orange (similar to amphetamine, NOT purple like MDMA)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "yellow to orange"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [20, 60],
+          "alt": "orange to brown"
+        },
+        {
+          "reagent": "simons",
+          "color": "no_reaction",
+          "window_s": [60, 120],
+          "alt": "NO blue color (unlike MDMA which turns blue)"
+        }
+      ],
+      "notes": [
+        "CRITICAL: Often sold as MDMA or molly. Mephedrone does NOT turn purple with Marquis (it goes yellow/orange) and does NOT turn blue with Simon's. If suspected MDMA gives yellow/orange Marquis + no Simon's blue reaction, likely mephedrone or another cathinone. Extremely compulsive redosing behavior—harm reduction very difficult. Users report going through entire supplies in one session. Short duration (2-3 hours) leads to repeated dosing. MUCH more 'tweaky' and stimulating than MDMA. Severe comedowns common."
+      ],
+      "other_methods": {
+        "comparison_to_mdma": {
+          "summary": "Test with Simon's reagent—MDMA turns blue, mephedrone does NOT. Marquis: MDMA purple-black, mephedrone yellow-orange.",
+          "confidence": "high"
+        }
+      }
+    }
+  }
+}

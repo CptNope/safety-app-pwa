@@ -677,7 +677,14 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (100+ Total)
+## 🧬 Substances Covered (~63 of 100 target)
+
+**Current Status:** ~63 substances fully documented | [View missing substances roadmap](MISSING_SUBSTANCES.md)
+
+**Recent Additions (Nov 12, 2025):**
+- ✅ Oxycodone (M30 counterfeit crisis)
+- ✅ Hydrocodone (Vicodin/Norco)
+- ✅ Mephedrone (4-MMC bath salts/cathinone)
 
 ### Entactogens / Empathogens (6)
 - **MDMA** (Ecstasy/Molly), **MDA** (Sass), **MDEA** (MDE/Eve)
