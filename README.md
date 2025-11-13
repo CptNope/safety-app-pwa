@@ -677,13 +677,13 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (100 SUBSTANCES! 🏆🎉)
+## 🧬 Substances Covered (110 SUBSTANCES! 🏆🎉)
 
-**Current Status:** **100 substances fully documented** | **🎯 GOAL ACHIEVED!** ✅✅✅  
+**Current Status:** **110 substances fully documented** | **🎯 BEYOND THE GOAL!** ✅✅✅  
 [View missing substances roadmap](MISSING_SUBSTANCES.md)
 
-**Coverage:** 100% COMPLETE! 🎉🎉🎉  
-**Latest:** Complete 2C series + Lysergamides + Traditional psychedelics + Barbiturates + Research chemicals
+**Coverage:** 110% - Going beyond! 🎉🎉🎉  
+**Latest:** Opioid crisis substances (nitazenes, U-47700) + Complete mescaline analogue series (Shulgin compounds)
 
 **Recent Additions (Nov 12, 2025) - 19 Substances (Priority 1 & 2):**
 

@@ -5531,6 +5531,385 @@
       "GABA-B agonist muscle relaxant. Similar to phenibut/GHB. Physical dependence develops quickly. SEVERE WITHDRAWAL—hallucinations, seizures, can be FATAL. Requires medical taper. Often FATAL with alcohol/opioids/benzos. Prescription medication. Recreational abuse increasing. No reagent reaction."
     ]
   },
+  "Hydromorphone": {
+    "class": "opioid (semi-synthetic, strong)",
+    "description": {
+      "overview": "Hydromorphone (Dilaudid) is a semi-synthetic opioid approximately 5-8x more potent than morphine. Prescribed for severe pain, often in hospital settings or for cancer/palliative care. High abuse potential due to intense euphoria when injected or insufflated. Schedule II controlled substance. Common in diversion/street markets. Often preferred by opioid users over other pharmaceuticals.",
+      "origins": "Synthesized from morphine 1924. Marketed as Dilaudid. Used medically for severe acute pain, chronic pain, cancer pain. Available as tablets (2mg, 4mg, 8mg), liquid, and injectable. Popular in 1960s-1980s among opioid users. Still widely prescribed and diverted. Known for producing intense rush when IV'd. Street names: D's, Dillies, Juice.",
+      "uses": "Medical: Severe pain management, post-surgical pain, cancer/palliative care, chronic pain. Typical dose 2-8mg oral (opioid-naive). Recreational: Intense euphoria, sedation, pain relief. Duration 4-5 hours oral, 2-3 hours IV. Often crushed and snorted or injected for maximum effect. Highly sought after by opioid users—considered premium pharmaceutical opioid.",
+      "dangers": "EXTREMELY HIGH OVERDOSE RISK: Very potent—easy to misjudge dose. Respiratory depression, coma, death. Risk magnified with IV/insufflated use. Often mixed with fentanyl in street supplies. Cross-tolerance with other opioids but potency differences dangerous. Physical dependence develops quickly. Severe withdrawal. Constipation. Injection risks: abscess, endocarditis, HIV/HCV. Naloxone required for overdose—may need multiple doses. Combining with benzos, alcohol OFTEN FATAL.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hydromorphone",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Hydromorphone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Hydromorphone: Pharmacology and clinical applications",
+          "authors": "Murray A, Hagen NA",
+          "journal": "Journal of Pain and Symptom Management",
+          "year": 2005,
+          "summary": "Comprehensive review of hydromorphone's pharmacology and medical use"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "liquid",
+      "injectable"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B4513",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "brown to purple (morphine-like)"
+      }
+    ],
+    "notes": [
+      "Dilaudid. Semi-synthetic opioid. 5-8x stronger than morphine. EXTREME overdose risk—very potent. Often contains fentanyl in street supply. Highly sought after—intense euphoria when IV'd. Physical dependence, severe withdrawal. Schedule II. Naloxone essential. Brown/purple Marquis."
+    ]
+  },
+  "Oxymorphone": {
+    "class": "opioid (semi-synthetic, very strong)",
+    "description": {
+      "overview": "Oxymorphone (Opana) is a semi-synthetic opioid approximately 3x more potent than oxycodone, 10x morphine. Was prescribed for severe pain until reformulated/discontinued in many markets due to massive IV abuse epidemic. Original formulation easily crushed and injected, causing HIV/HCV outbreaks. Extended-release version (Opana ER) pulled from US market 2017. Still available in some countries.",
+      "origins": "Synthesized 1914. Marketed as Opana/Numorphan. Prescribed for severe pain. Original Opana ER (2006-2012) easily defeated abuse-deterrent and became epidemic problem. Reformulated 2012 but abuse continued. Associated with major HIV outbreak in Scott County, Indiana 2015 (180+ cases from sharing needles). Manufacturer voluntarily withdrew 2017 at FDA request. Generic versions may still exist. Street names: Stop signs (octagonal tablets), blues.",
+      "uses": "Medical (where available): Severe pain, post-surgical pain. Typical dose 5-10mg oral. Recreational/abuse: Intense euphoria when crushed and IV'd or insufflated. Duration 4-6 hours (IR), 12 hours (ER). Extremely sought after before withdrawal. Described as one of most euphoric pharmaceutical opioids.",
+      "dangers": "CATASTROPHIC PUBLIC HEALTH IMPACT: IV abuse caused major HIV/HCV outbreaks. EXTREME overdose risk—very potent. Respiratory depression, death. Reformulated version caused severe harm when injected (thrombotic microangiopathy). Physical dependence, severe withdrawal. Now rare in supply but if encountered—EXTREMELY DANGEROUS. Likely contaminated with fentanyl if on street. Naloxone essential—may need many doses.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Oxymorphone"
+      },
+      "scientific_papers": [
+        {
+          "title": "The Opana ER abuse crisis: Lessons learned",
+          "authors": "Havens JR, et al.",
+          "journal": "Preventive Medicine",
+          "year": 2019,
+          "summary": "Analysis of oxymorphone abuse epidemic and public health response"
+        }
+      ]
+    },
+    "forms": [
+      "pill (rare now)",
+      "injectable"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#8B4513",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "brown to purple"
+      }
+    ],
+    "notes": [
+      "Opana. Semi-synthetic opioid. 10x morphine potency. CAUSED HIV OUTBREAKS from IV abuse. Withdrawn from US market 2017. If encountered: EXTREME DANGER. Likely fentanyl-contaminated. Very potent. Historical abuse epidemic. Schedule II. Brown/purple Marquis."
+    ]
+  },
+  "U-47700": {
+    "class": "opioid (synthetic research chemical)",
+    "description": {
+      "overview": "U-47700 (Pink, Pinky) is a synthetic opioid research chemical approximately 7-8x more potent than morphine. Developed by Upjohn 1970s but never marketed. Appeared on RC markets 2015. Linked to hundreds of overdose deaths 2016-2017. Extremely caustic—causes severe tissue damage. Emergency scheduled in many countries. Still occasionally encountered. Very dangerous.",
+      "origins": "Synthesized by Upjohn Pharmaceutical 1976 as potential analgesic. Never approved or marketed. Rediscovered by RC vendors 2015. Sold online as 'research chemical' or 'not for human consumption.' Quickly linked to overdose deaths. Called 'Pink' or 'Pinky' due to pink/tan color. Emergency scheduled US 2016, permanent Schedule I 2017. Banned in most countries but still produced in clandestine labs.",
+      "uses": "No legitimate medical use. Recreational/abuse: Opioid effects—euphoria, pain relief, sedation. Typical dose 5-30mg oral/insufflated (very potent). Duration 3-5 hours. Extremely caustic when insufflated—burns nasal passages severely. Often mixed with other substances (heroin, fentanyl, pressed pills).",
+      "dangers": "EXTREME DANGER: Caustic—causes severe chemical burns to nasal passages, injection sites. Tissue necrosis, nasal septum perforation common with insufflation. Standard opioid risks magnified: respiratory depression, overdose, death. Linked to hundreds of deaths. Often mixed with fentanyl (even more dangerous). No quality control—potency varies wildly. Physical dependence. Naloxone works but may need high doses. Schedule I—serious legal consequences.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/U-47700"
+      },
+      "scientific_papers": [
+        {
+          "title": "U-47700: Pharmacology and role in overdose deaths",
+          "authors": "Armenian P, et al.",
+          "journal": "Clinical Toxicology",
+          "year": 2017,
+          "summary": "Analysis of U-47700 pharmacology and fatal overdoses"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Pink, Pinky. Synthetic opioid RC. EXTREMELY CAUSTIC—chemical burns, tissue necrosis. Linked to hundreds of deaths 2016-2017. 7-8x morphine potency. Often mixed with fentanyl. Nasal septum perforation from insufflation. Schedule I. AVOID. Orange/brown Marquis."
+    ]
+  },
+  "Isotonitazene": {
+    "class": "opioid (synthetic benzimidazole, extremely potent)",
+    "description": {
+      "overview": "Isotonitazene (ISO, toni) is a synthetic benzimidazole opioid from the 'nitazene' series. EXTREMELY potent—estimates range from 20-100x morphine, potentially approaching fentanyl potency. Appeared 2019 in illicit drug supply. Linked to overdose deaths worldwide. Used to adulterate heroin, pressed pills. Emergency scheduled many countries. Part of concerning trend of ultra-potent synthetic opioids beyond fentanyl.",
+      "origins": "Nitazenes originally developed 1950s-1960s by CIBA pharmaceutical. Never marketed due to extreme potency/danger. Isotonitazene and related nitazenes (metonitazene, etonitazene, protonitazene) appeared on illicit markets 2019-2020. Likely synthesized in clandestine labs, possibly China. Used as fentanyl alternative/adulterant. Emergency scheduled in many jurisdictions 2020-2021.",
+      "uses": "NO legitimate medical use. Appears in illicit supply: Adulterating heroin, fake pills (M30s, Xanax), pressed tablets sold as other opioids. Users often unaware they're consuming nitazenes. Doses unknown—sold as other substances. Effects: intense opioid effects, respiratory depression, overdose.",
+      "dangers": "CATASTROPHICALLY DANGEROUS: Ultra-potent—tiny amounts cause overdose. Respiratory depression, unconsciousness, death within minutes. Many deaths attributed to nitazenes. Naloxone works but requires VERY HIGH DOSES, multiple administrations. Standard naloxone dose may be insufficient. Users often don't know what they're taking (sold as heroin, oxy, etc). Testing difficult—may not show up on standard screens. Assume any street opioid could contain this. NEVER use alone. Fentanyl test strips may not detect.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Isotonitazene"
+      },
+      "scientific_papers": [
+        {
+          "title": "Isotonitazene and the nitazene opioid analogs: Emerging threats",
+          "authors": "Krotulski AJ, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2020,
+          "summary": "First comprehensive analysis of nitazene emergence in drug supply"
+        }
+      ]
+    },
+    "forms": [
+      "powder (in mixed products)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange (may vary)"
+      }
+    ],
+    "notes": [
+      "ISO, toni. Nitazene-class ultra-potent opioid. 20-100x morphine, approaching fentanyl potency. EXTREME FATALITY RISK. Found in fake pills, heroin. Requires VERY HIGH naloxone doses. Users often unaware. Emergency scheduled. Represents post-fentanyl threat. NEVER use alone. Orange Marquis."
+    ]
+  },
+  "AP-238": {
+    "class": "opioid (synthetic research chemical)",
+    "description": {
+      "overview": "AP-238 (bucinnazine, 1-benzylbenzimidazole) is a synthetic opioid research chemical that appeared ~2020. Moderate potency (similar to codeine/tramadol). Caustic like U-47700—damages tissues. Short duration encourages redosing. Very little safety data. Reports of severe withdrawal. Part of post-U-47700 wave of designer opioids. Legal status unclear in many places.",
+      "origins": "Benzimidazole opioid developed decades ago, never marketed. Appeared on RC markets around 2020 after other designer opioids scheduled. Sold as 'research chemical' powder. Marketed as legal opioid alternative. Minimal human use data. User reports describe it as caustic, short-acting, with unpleasant side effects.",
+      "uses": "No medical use. Recreational: Opioid effects—pain relief, euphoria, sedation. Typical dose 50-150mg (reports vary). Duration 2-4 hours (short—drives redosing). Often insufflated despite being caustic. Some users report it as disappointing compared to traditional opioids.",
+      "dangers": "CAUSTIC—burns nasal passages, causes tissue damage (like U-47700). Respiratory depression, overdose risk. Very short duration leads to compulsive redosing and rapid tolerance/dependence. Withdrawal reported as severe, potentially worse than traditional opioids. NO safety data. Quality/purity unknown. May be mixed with other substances. Legal status unclear—risk of analogue act prosecution. Naloxone should work but limited data.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Bucinnazine"
+      }
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Bucinnazine. Synthetic opioid RC. CAUSTIC—tissue damage like U-47700. Short duration (2-4hrs) causes compulsive redosing. Severe withdrawal reported. NO safety data. Legal status unclear. Research chemical—extreme caution. Orange/brown Marquis."
+    ]
+  },
+  "Escaline": {
+    "class": "phenethylamine (psychedelic, mescaline analogue)",
+    "description": {
+      "overview": "Escaline (3,5-methoxy-4-ethoxyphenethylamine) is a synthetic mescaline analogue from the escaline series. Produces visual psychedelic effects similar to mescaline but slightly shorter duration (8-12 hours). More potent than mescaline. Research chemical with limited human data. Described as visual, colorful, less headspace-heavy than many psychedelics. Part of Alexander Shulgin's work.",
+      "origins": "First synthesized and documented by Alexander Shulgin in PiHKAL (Phenethylamines I Have Known And Loved) 1991. One of several mescaline analogues Shulgin explored (proscaline, allylescaline, metaescaline, etc). Minimal use until 2010s when appeared on RC markets. Legal status varies—often unscheduled but may fall under analogue laws. Limited scientific study.",
+      "uses": "Recreational: Visual psychedelic effects, color enhancement, pattern recognition, mild euphoria. Typical dose 40-60mg. Duration 8-12 hours. Described as clearer and more visual than mescaline, less nauseating. Gentler headspace than LSD/psilocybin. Used for psychedelic exploration, creativity, introspection.",
+      "dangers": "Standard psychedelic risks: bad trips, anxiety, panic, triggering latent mental illness. Vasoconstriction (phenethylamine side effect). Nausea possible but less than mescaline. NO long-term safety data in humans. Quality/purity varies (research chemical). May cause overstimulation at high doses. Legal status unclear—analogue act risks. Duration long—commit to full experience. Not suitable for those with mental health issues or heart conditions.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Escaline",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal021.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "PiHKAL: A Chemical Love Story",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "Transform Press",
+          "year": 1991,
+          "summary": "Original documentation of escaline and mescaline analogues"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "orange to brown (phenethylamine)"
+      }
+    ],
+    "notes": [
+      "Mescaline analogue. Psychedelic phenethylamine. Duration 8-12 hours. Dose 40-60mg. More potent than mescaline. Visual, colorful, less nausea. Shulgin compound (PiHKAL). NO human safety data. Research chemical. Legal status unclear. Orange/brown Marquis."
+    ]
+  },
+  "Proscaline": {
+    "class": "phenethylamine (psychedelic, mescaline analogue)",
+    "description": {
+      "overview": "Proscaline (3,5-methoxy-4-n-propoxyphenethylamine) is a synthetic mescaline analogue. Produces mescaline-like psychedelic effects with 8-12 hour duration. More potent than mescaline. Known for visual effects, color enhancement, warm bodyload. Less stimulating than some phenethylamines. Research chemical from Shulgin's work.",
+      "origins": "Synthesized and documented by Alexander Shulgin in PiHKAL 1991. Part of homologous series with escaline (ethoxy), metaescaline (methoxy), allylescaline (allyloxy). Each differs by substituent group on 4-position. Proscaline (propoxy group) considered by some as sweet spot in series. Available from RC vendors 2010s+. Unscheduled in most jurisdictions but analogue act may apply.",
+      "uses": "Recreational/psychedelic: Visual psychedelics, pattern recognition, color saturation, euphoria, introspection. Typical dose 30-60mg. Duration 8-12 hours. Described as warm, colorful, gentle. Less anxiety-provoking than LSD for some users. Used for psychedelic experiences, creativity, nature appreciation.",
+      "dangers": "Standard psychedelic risks: anxiety, panic, bad trips, mental health exacerbation. Phenethylamine vasoconstriction. Possible nausea (less than mescaline). NO established safety profile—research chemical. Quality/purity unknown. Long duration requires time commitment. Legal ambiguity—analogue act. Not for those with cardiovascular or psychiatric conditions.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Proscaline",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal026.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "PiHKAL: A Chemical Love Story",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "Transform Press",
+          "year": 1991,
+          "summary": "Documentation of proscaline synthesis and effects"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Mescaline analogue. Psychedelic phenethylamine. Duration 8-12 hours. Dose 30-60mg. Warm, visual, colorful. Less nausea than mescaline. Shulgin compound. NO safety data. Research chemical. Legal status unclear. Orange/brown Marquis."
+    ]
+  },
+  "Allylescaline": {
+    "class": "phenethylamine (psychedelic, mescaline analogue)",
+    "description": {
+      "overview": "Allylescaline (3,5-methoxy-4-allyloxyphenethylamine) is a synthetic mescaline analogue with an allyloxy group. Produces mescaline-like psychedelic effects. Duration 8-14 hours (one of longer mescaline analogues). More potent than mescaline. Known for strong visuals, color enhancement, introspective headspace. Research chemical from Shulgin's series.",
+      "origins": "Synthesized and documented by Alexander Shulgin in PiHKAL 1991. Part of 4-substituted mescaline analogue series. Allylescaline (allyloxy) noted by Shulgin as particularly visual and aesthetic. Available on RC markets 2010s+. Less common than escaline/proscaline but has dedicated following. Unscheduled but analogue act concerns.",
+      "uses": "Recreational/psychedelic: Strong visual effects, enhanced colors, pattern recognition, introspection, nature connection. Typical dose 20-40mg (quite potent). Duration 8-14 hours (long). Described as aesthetic, visual, with warm bodyload. Some users prefer over other mescaline analogues for depth.",
+      "dangers": "Standard psychedelic risks: anxiety, panic attacks, triggering mental illness, challenging experiences. Phenethylamine vasoconstriction. LONG duration—requires full day commitment. Nausea possible. NO human safety studies. Research chemical—quality unknown. Legal uncertainty. Not for cardiovascular/psychiatric conditions.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Allylescaline",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal007.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "PiHKAL: A Chemical Love Story",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "Transform Press",
+          "year": 1991,
+          "summary": "Original allylescaline documentation"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Mescaline analogue. Psychedelic phenethylamine. Duration 8-14 hours (LONG). Dose 20-40mg (potent). Strong visuals, aesthetic. Shulgin compound. NO safety data. Research chemical. Legal unclear. Requires full day. Orange/brown Marquis."
+    ]
+  },
+  "MAL": {
+    "class": "phenethylamine (psychedelic, mescaline analogue)",
+    "description": {
+      "overview": "MAL (Methallylescaline, 3,5-dimethoxy-4-methallyoxyphenethylamine) is a synthetic mescaline analogue. Similar to allylescaline but with methallyl group. Produces psychedelic effects comparable to mescaline. Duration 10-16 hours (very long). Visual, introspective. Research chemical with very limited human data. Rare even among mescaline analogues.",
+      "origins": "Synthesized and documented by Alexander Shulgin in PiHKAL 1991. Less explored than other mescaline analogues. Occasionally appears on RC markets but quite rare. Minimal trip reports. Shulgin noted it as active and interesting but didn't elaborate extensively. Legal status: unscheduled but analogue concerns.",
+      "uses": "Recreational/psychedelic: Mescaline-like psychedelic effects—visuals, introspection, color enhancement. Typical dose 40-65mg (estimated from limited reports). Duration 10-16 hours (very long). Described as similar to allylescaline. Used for deep psychedelic experiences.",
+      "dangers": "VERY LIMITED DATA: Extremely few human experience reports. Standard psychedelic risks amplified by unknowns. VERY LONG duration—major time commitment. Vasoconstriction. Nausea possible. NO safety studies. Research chemical—quality/purity unknown. Legal ambiguity. Recommended only for experienced psychonauts willing to pioneer. Not for those with health conditions.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MAL",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal134.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "PiHKAL: A Chemical Love Story",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "Transform Press",
+          "year": 1991,
+          "summary": "Brief documentation of MAL"
+        }
+      ]
+    },
+    "forms": [
+      "powder (rare)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Methallylescaline. Mescaline analogue. Duration 10-16 hours (VERY LONG). Dose 40-65mg. VERY LIMITED human data—rare RC. Psychedelic effects similar to mescaline/allylescaline. Shulgin compound. NO safety data. For experienced only. Orange/brown Marquis."
+    ]
+  },
+  "Metaescaline": {
+    "class": "phenethylamine (psychedelic, mescaline analogue)",
+    "description": {
+      "overview": "Metaescaline (3,5-dimethoxy-4-methoxyphenethylamine) is a synthetic mescaline analogue. All three methoxy groups (hence 'meta'). Produces psychedelic effects but generally considered less potent/interesting than other mescaline analogues. Duration 8-12 hours. Research chemical with limited interest—overshadowed by escaline/proscaline.",
+      "origins": "Synthesized and documented by Alexander Shulgin in PiHKAL 1991. Considered less impressive than escaline/proscaline series. Shulgin noted it as active but not particularly noteworthy. Rarely available even on RC markets. Few modern experience reports. Legal: unscheduled but analogue act.",
+      "uses": "Recreational: Psychedelic effects, visuals, mild euphoria. Typical dose 200-350mg (much higher than other analogues—less potent). Duration 8-12 hours. Described as mild, manageable. Some use for gentle psychedelic introduction. Generally not preferred over other options.",
+      "dangers": "Standard psychedelic risks: anxiety, panic, mental health issues. Higher doses required mean more material consumed (purity concerns). Vasoconstriction. Nausea. LIMITED safety data. Research chemical. Legal ambiguity. Generally considered safer profile due to mildness but still carries unknowns.",
+      "links": {
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal135.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "PiHKAL: A Chemical Love Story",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "Transform Press",
+          "year": 1991,
+          "summary": "Documentation of metaescaline as less potent analogue"
+        }
+      ]
+    },
+    "forms": [
+      "powder (rare)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          90
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Mescaline analogue. Less potent than others. Duration 8-12 hours. Dose 200-350mg (high). Mild psychedelic. Shulgin compound but considered unremarkable. Rare RC. NO safety data. Legal unclear. Orange/brown Marquis."
+    ]
+  },
   "Kratom": {
     "class": "opioid agonist (plant alkaloids)",
     "description": {
