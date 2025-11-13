@@ -1,5 +1,5 @@
 # 🔍 SEO Optimization Plan
-## Harm Reduction Guide PWA - Search Engine Optimization Audit & Roadmap
+## Dose Doctor PWA - Search Engine Optimization Audit & Roadmap
 
 **Date:** November 12, 2025  
 **Current Status:** Single-page PWA (React SPA)  
@@ -93,7 +93,7 @@
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Harm Reduction Guide"/>
+<meta property="og:site_name" content="Dose Doctor"/>
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
@@ -158,7 +158,7 @@
 {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  "name": "Substance Testing & Harm Reduction Guide",
+  "name": "Dose Doctor - Drug Testing & Harm Reduction",
   "url": "https://yourdomain.com/",
   "description": "Evidence-based harm reduction information including reagent testing, emergency protocols, and safety resources.",
   "medicalAudience": [
@@ -205,7 +205,7 @@
 **File:** `robots.txt` (create in root)
 
 ```
-# Harm Reduction Guide - Robots.txt
+# Dose Doctor - Robots.txt
 User-agent: *
 Allow: /
 

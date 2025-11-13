@@ -1,7 +1,7 @@
 # 🖼️ Image Optimization Guide
 
 ## Overview
-Optimized images improve SEO, page speed, and Core Web Vitals scores. This guide covers creating SEO-optimized images for the Harm Reduction Guide PWA.
+Optimized images improve SEO, page speed, and Core Web Vitals scores. This guide covers creating SEO-optimized images for the Dose Doctor PWA.
 
 ---
 
@@ -19,9 +19,9 @@ Optimized images improve SEO, page speed, and Core Web Vitals scores. This guide
 **Content Suggestions:**
 ```
 ┌─────────────────────────────────────┐
-│  🧪 Harm Reduction Guide            │
+│  💊 Dose Doctor                     │
 │                                     │
-│  ✓ 110 Substance Testing Database  │
+│  ✓ 116 Substance Testing Database  │
 │  ✓ 3D Molecular Viewer              │
 │  ✓ Multi-Reagent Calculator         │
 │  ✓ Emergency Protocols              │
@@ -173,7 +173,7 @@ Add alt text to ALL images in React components:
 <picture>
   <source srcset="og-image.webp" type="image/webp">
   <source srcset="og-image.png" type="image/png">
-  <img src="og-image.png" alt="Harm Reduction Guide social preview">
+  <img src="og-image.png" alt="Dose Doctor social preview">
 </picture>
 ```
 
@@ -226,7 +226,7 @@ magick convert og-image.png -quality 85 og-image.webp
    ```
    Background: Dark blue gradient (#0b1220 → #1e3a8a)
    
-   Title: "Harm Reduction Guide"
+   Title: "Dose Doctor"
    Font: Bold, 72px
    Color: White
    

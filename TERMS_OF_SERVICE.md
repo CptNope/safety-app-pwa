@@ -1,14 +1,14 @@
 # Terms of Service
 
-**Last Updated:** November 12, 2025
+**Last Updated:** November 13, 2025
 
 ## 1. Acceptance of Terms
 
-By accessing or using the Harm Reduction Guide PWA ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
+By accessing or using **Dose Doctor** ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
 
 ## 2. Description of Service
 
-The Harm Reduction Guide is a **free, open-source, educational Progressive Web Application** designed to provide:
+**Dose Doctor** is a **free, open-source, educational Progressive Web Application** designed to provide:
 
 - Substance testing information (reagent reactions, test protocols)
 - Harm reduction education and safety information

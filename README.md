@@ -1,6 +1,8 @@
-# 🧪 Harm Reduction Guide (PWA)
+# 💊 Dose Doctor (PWA)
 
-A comprehensive, offline-capable Progressive Web App for substance testing, identification, and harm reduction education. Built to save lives through evidence-based information.
+**The Comprehensive Drug Testing & Harm Reduction Guide**
+
+A free, offline-capable Progressive Web App for substance testing, identification, and harm reduction education. Built to save lives through evidence-based information and reagent test guidance.
 
 **Created by Jeremy Anderson** • [Contribute on GitHub](https://github.com/CptNope/safety-app-pwa)
 

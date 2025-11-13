@@ -13,14 +13,14 @@
 - **Savings:** -21.4 KB (5.2% reduction)
 
 ### **Substance Count**
-- **Total substances:** 85 fully documented
-- **Added today:** +25 substances (+42% growth)
-- **Coverage:** 85% of 100-substance goal
+- **Total substances:** 116 fully documented
+- **Added today:** +31 substances (+36% growth)
+- **Coverage:** 116% of 100-substance goal
 
 ### **Module Breakdown**
 ```
 reagents.json         12.6 KB  (6 reagent definitions)
-substances.json      248.5 KB  (85 substances - LARGEST)
+substances.json      248.5 KB  (116 substances - LARGEST)
 id_guide.json         12.5 KB  (10 form types)
 methods.json          20.1 KB  (testing protocols)
 vendors.json           7.2 KB  (supplier list)

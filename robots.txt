@@ -1,4 +1,4 @@
-# Harm Reduction Guide - Robots.txt
+# Dose Doctor - Robots.txt
 # Last Updated: November 12, 2025
 
 User-agent: *

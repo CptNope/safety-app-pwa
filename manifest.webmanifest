@@ -1,7 +1,7 @@
 {
-  "name": "Harm Reduction Guide - Drug Testing",
-  "short_name": "HR Guide",
-  "description": "Free reagent drug testing guide for 110 substances with 3D molecules, multi-reagent calculator, and emergency protocols. Works offline.",
+  "name": "Dose Doctor - Drug Testing",
+  "short_name": "Dose Doctor",
+  "description": "Dose Doctor: Free reagent drug testing guide for 116 substances including nitazenes & carfentanil. 3D molecules, multi-reagent calculator, emergency protocols. Works offline.",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "any",

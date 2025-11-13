@@ -45,7 +45,7 @@ The app uses React components with decent semantic structure (header, nav, main,
 **Implementation:**
 ```jsx
 // Main page
-<h1>Harm Reduction Guide - Drug Testing Database</h1>
+<h1>Dose Doctor - Drug Testing Database</h1>
 
   <h2>Substance Testing</h2>  // Tab section
   
