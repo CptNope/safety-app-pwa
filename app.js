@@ -1337,6 +1337,14 @@ function News(){
     releaseuk: true,
     ssdp: true,
     emcdda: true,
+    wedinos: true, // Welsh drug checking
+    energycontrol: true, // Spanish drug checking
+    dea_alerts: true, // DEA safety alerts
+    nyc_health: false, // NYC health (disabled until feed confirmed)
+    vancouver_health: false, // Vancouver health (disabled until feed confirmed)
+    globaldrugsurvey: true, // Global Drug Survey
+    psychonautwiki: false, // PsychonautWiki (may be noisy)
+    bluelight: false, // Bluelight forum (may be noisy)
     newsapi: false, // Disabled by default (requires API key)
     local: true
   });

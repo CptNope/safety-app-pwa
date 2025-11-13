@@ -191,6 +191,86 @@ class NewsAggregator {
         enabled: true
       },
 
+      // WEDINOS - Welsh Drug Checking Service
+      wedinos: {
+        type: 'rss',
+        name: 'WEDINOS Drug Testing',
+        url: 'https://www.wedinos.org/feed',
+        category: 'Lab Results',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Energy Control - Spanish Drug Checking
+      energycontrol: {
+        type: 'rss',
+        name: 'Energy Control International',
+        url: 'https://energycontrol-international.org/feed/',
+        category: 'Lab Results',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // DEA Public Safety Alerts
+      dea_alerts: {
+        type: 'rss',
+        name: 'DEA Safety Alerts',
+        url: 'https://www.dea.gov/press-releases.xml',
+        category: 'Safety Alerts',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // NYC Health Department
+      nyc_health: {
+        type: 'rss',
+        name: 'NYC Health Alerts',
+        url: 'https://www1.nyc.gov/site/doh/health/health-topics/alerts.page',
+        category: 'Contamination Alert',
+        parser: 'generic',
+        enabled: false // Enable when feed URL is confirmed
+      },
+
+      // Vancouver Coastal Health
+      vancouver_health: {
+        type: 'rss',
+        name: 'Vancouver Drug Alerts',
+        url: 'http://www.vch.ca/rss',
+        category: 'Contamination Alert',
+        parser: 'generic',
+        enabled: false // Enable when feed URL is confirmed
+      },
+
+      // Global Drug Survey
+      globaldrugsurvey: {
+        type: 'rss',
+        name: 'Global Drug Survey',
+        url: 'https://www.globaldrugsurvey.com/feed/',
+        category: 'Research',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // PsychonautWiki
+      psychonautwiki: {
+        type: 'rss',
+        name: 'PsychonautWiki News',
+        url: 'https://psychonautwiki.org/w/index.php?title=Special:RecentChanges&feed=rss',
+        category: 'Community News',
+        parser: 'generic',
+        enabled: false // May be noisy, enable on user request
+      },
+
+      // Bluelight Drug Discussion (harm reduction subforum)
+      bluelight: {
+        type: 'rss',
+        name: 'Bluelight Harm Reduction',
+        url: 'https://bluelight.org/xf/forums/harm-reduction.263/index.rss',
+        category: 'Community News',
+        parser: 'generic',
+        enabled: false // Community forum, enable on request
+      },
+
       // News API Integration (requires API key, optional)
       newsapi: {
         type: 'newsapi',
