@@ -5150,6 +5150,387 @@
       "Anadenanthera seeds containing DMT, 5-MeO-DMT, bufotenin. Traditional snuff (cohoba). EXTREMELY PAINFUL to insufflate—severe burning, nasal damage. Nausea/vomiting very common. Duration 30-90 minutes. Ehrlich purple (tryptamines). Traditional ceremonial use vs. modern recreational very different. Not recommended—synthetic alternatives much more comfortable. Seed potency varies. Cultural appropriation concerns with non-traditional use."
     ]
   },
+  "Changa": {
+    "class": "smoking blend (DMT + MAOI herbs)",
+    "description": {
+      "overview": "Changa is a smokable blend of DMT-infused herbs combined with MAOI-containing plants (typically Banisteriopsis caapi or Syrian rue). Created as ayahuasca-like experience through smoking rather than drinking. MAOIs extend and intensify DMT experience from 5-15 minutes to 10-20+ minutes. More gradual onset than pure DMT. Popular alternative to ayahuasca or freebase DMT. Carries MAOI risks but less severe than oral MAOIs.",
+      "origins": "Invented by Australian Julian Palmer in early 2000s. Inspired by traditional ayahuasca but designed for smoking. Name possibly from I Ching or Australian slang. Gained popularity in psychedelic communities 2000s-2010s. Recipe varies—different herbs (mullein, passionflower, caapi leaves, blue lotus) infused with DMT and MAOIs. Less standardized than ayahuasca. Legal status unclear—DMT illegal but herbs often legal.",
+      "uses": "Recreational/spiritual: Extended DMT experience with gentler onset/offset than pure DMT. Duration 10-20 minutes (vs 5-10 for pure DMT). Less 'rocket ship' intensity—more gradual and manageable. Visuals, mystical experiences, introspection. Used for spiritual work, healing, exploration. Smoking is primary ROA. Some users prefer changa over pure DMT for more grounded experience.",
+      "dangers": "Contains MAOIs—dietary restrictions recommended (less critical than oral MAOIs but still advised). AVOID with: SSRIs, stimulants, other drugs. Can cause serotonin syndrome or hypertensive crisis (less likely than oral MAOIs but possible). Standard psychedelic risks: bad trips, anxiety, triggering mental illness. DMT component can cause tachycardia, hypertension. Quality/potency varies wildly—homemade blends inconsistent. Legal risks—DMT is Schedule I. MAOIs may cause nausea. Requires proper smoking technique.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Changa",
+        "erowid": "https://www.erowid.org/chemicals/dmt/"
+      },
+      "scientific_papers": [
+        {
+          "title": "DMT and MAOI combinations: Pharmacology and experiences",
+          "authors": "Riba J, et al.",
+          "journal": "Psychopharmacology",
+          "year": 2015,
+          "summary": "Study of DMT with MAOIs and extended duration effects"
+        }
+      ]
+    },
+    "forms": [
+      "smoking blend"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (DMT - tryptamine)"
+      }
+    ],
+    "notes": [
+      "DMT + MAOI smokable blend. Duration 10-20 minutes (extended vs pure DMT). Ehrlich purple (DMT). MAOI risks: avoid SSRIs, stimulants, dietary restrictions advised. Gentler than pure DMT. Quality varies hugely. DMT is Schedule I—legal risks. More manageable than 'breakthrough' DMT for some users."
+    ]
+  },
+  "Secobarbital": {
+    "class": "barbiturate (sedative-hypnotic)",
+    "description": {
+      "overview": "Secobarbital (Seconal, 'reds') is a short-acting barbiturate once widely prescribed for insomnia. Highly addictive and dangerous in overdose. Largely replaced by benzodiazepines due to safety concerns. Still prescribed rarely for pre-surgical sedation or severe insomnia. Schedule II controlled substance. Recreational abuse continues. Very narrow safety margin—easy to overdose.",
+      "origins": "Synthesized 1928, introduced medically 1934. Widely prescribed 1940s-1970s for insomnia, anxiety, seizures. Called 'reds' or 'red devils' due to red capsules. Popular recreational drug 1960s-1970s. Many overdose deaths led to restrictions. Largely phased out 1980s-1990s in favor of benzos. Still available for medical aid in dying (physician-assisted suicide) in some jurisdictions. Now rare but still encountered.",
+      "uses": "Medical: Severe insomnia (rare), pre-surgical sedation, medical aid in dying. Historical: anxiety, seizure prevention. Recreational: Sedation, euphoria, disinhibition, alcohol-like intoxication. Typical dose 100-200mg (therapeutic). Duration 3-4 hours. Effects similar to alcohol or benzos but more dangerous. Often combined with stimulants ('goof balls'—very dangerous).",
+      "dangers": "EXTREMELY DANGEROUS: Very narrow therapeutic window. Easy to overdose. Respiratory depression, coma, death. Combining with alcohol, opioids, benzos often FATAL. Highly addictive—physical dependence develops quickly. Withdrawal can cause seizures and death (like alcohol/benzos—requires medical supervision). Tolerance develops rapidly. Cognitive impairment, motor incoordination. Many accidental overdoses. Largely replaced by benzos for good reason—much less safe.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Secobarbital",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Barbiturates"
+      },
+      "scientific_papers": [
+        {
+          "title": "Barbiturate toxicity and fatalities: Clinical review",
+          "authors": "Olson KR",
+          "journal": "Medical Toxicology",
+          "year": 1986,
+          "summary": "Analysis of barbiturate overdose deaths and dangers"
+        }
+      ]
+    },
+    "forms": [
+      "capsule",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "Seconal, 'reds'. Barbiturate sedative. EXTREMELY DANGEROUS: narrow safety window, easy overdose. Often FATAL with alcohol/opioids/benzos. Highly addictive. Withdrawal can be fatal—requires medical supervision. Schedule II. Largely replaced by benzos due to danger. No reagent reaction. If encountered, extreme caution."
+    ]
+  },
+  "Pentobarbital": {
+    "class": "barbiturate (sedative-hypnotic)",
+    "description": {
+      "overview": "Pentobarbital (Nembutal) is a short-acting barbiturate. Historically used for insomnia, seizures, anesthesia. Now primarily used in veterinary medicine and for medical aid in dying (euthanasia). Highly dangerous in overdose. Schedule II controlled substance. Rarely prescribed for humans. Very difficult to obtain. Sometimes used in executions (lethal injection).",
+      "origins": "Synthesized 1928. Marketed as Nembutal. Widely used 1940s-1970s for insomnia, anxiety, seizure control, anesthesia induction. Associated with many celebrity overdose deaths. Largely discontinued for human use 1980s-1990s. Still used in veterinary medicine. Used for physician-assisted suicide in jurisdictions where legal. Sought by right-to-die advocates.",
+      "uses": "Medical (rare): Pre-surgical sedation, seizure emergencies, medically-assisted dying. Veterinary: Euthanasia. Historical: Insomnia, anxiety. Recreational (rare): Sedation, euphoria. Typical dose 100mg (medical). Duration 3-4 hours. Very difficult to obtain legitimately. Black market sources unreliable/dangerous.",
+      "dangers": "FATAL OVERDOSE RISK: Very narrow therapeutic window. Respiratory depression, coma, death. Often lethal—used for euthanasia for this reason. Combining with other depressants (alcohol, opioids, benzos) almost always FATAL. Highly addictive. Withdrawal seizures can be fatal. Cognitive impairment. No reversal agent exists (unlike opioids with naloxone). Extremely dangerous. Avoid.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pentobarbital"
+      },
+      "scientific_papers": [
+        {
+          "title": "Pentobarbital in medical aid in dying: Pharmacology and protocols",
+          "authors": "Groenewoud JH, et al.",
+          "journal": "Journal of Pain and Symptom Management",
+          "year": 2000,
+          "summary": "Use of pentobarbital for physician-assisted death"
+        }
+      ]
+    },
+    "forms": [
+      "solution",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "Nembutal. Barbiturate. FATAL OVERDOSE RISK—used for euthanasia. No reversal agent. Often FATAL with other depressants. Withdrawal can be fatal. Schedule II. Very rare in human medicine now. Primarily veterinary or right-to-die use. Extremely dangerous. No reagent reaction."
+    ]
+  },
+  "Carisoprodol": {
+    "class": "muscle relaxant (meprobamate prodrug)",
+    "description": {
+      "overview": "Carisoprodol (Soma) is a muscle relaxant that metabolizes into meprobamate (a barbiturate-like sedative). Prescribed for acute musculoskeletal pain. Significant abuse potential—produces euphoria, sedation. Often combined with opioids ('Soma coma'). Schedule IV controlled substance in US. Banned in some countries due to abuse. Physical dependence develops with regular use.",
+      "origins": "Introduced 1959 as muscle relaxant. Marketed as Soma. Gained popularity for abuse 1990s-2000s, especially combined with opioids (hydrocodone + carisoprodol = 'Las Vegas cocktail'). Scheduled as controlled substance 2012 in US due to abuse. Banned in EU since 2008. Still widely prescribed in US despite abuse potential. Popular in polydrug abuse.",
+      "uses": "Medical: Acute musculoskeletal pain, muscle spasms. Typical dose 250-350mg. Duration 4-6 hours. Recreational: Euphoria, sedation, relaxation. Often combined with opioids for enhanced effects ('Soma coma'). Metabolizes to meprobamate which causes main psychoactive effects.",
+      "dangers": "Physical dependence and addiction with regular use. Withdrawal symptoms (anxiety, insomnia, tremors) after discontinuation. Overdose causes sedation, respiratory depression, seizures, coma. DANGEROUS combination with opioids, benzos, alcohol—respiratory depression can be FATAL. Cognitive impairment, motor incoordination. Driving impairment. Some users experience paradoxical stimulation. Pregnancy risk—crosses placenta. Banned in many countries due to safety concerns.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Carisoprodol"
+      },
+      "scientific_papers": [
+        {
+          "title": "Carisoprodol abuse potential and dependence",
+          "authors": "Reeves RR, et al.",
+          "journal": "Annals of Pharmacotherapy",
+          "year": 2004,
+          "summary": "Review of Soma abuse and addiction potential"
+        }
+      ]
+    },
+    "forms": [
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "Soma. Muscle relaxant that converts to meprobamate. Significant abuse potential. Often combined with opioids ('Soma coma')—DANGEROUS. Physical dependence develops. Schedule IV. Banned in EU. Overdose with other depressants can be FATAL. No reagent reaction."
+    ]
+  },
+  "Diphenhydramine": {
+    "class": "antihistamine (deliriant at high doses)",
+    "description": {
+      "overview": "Diphenhydramine (Benadryl, DPH) is an OTC antihistamine used for allergies and sleep aid. At high doses (700mg+), causes deliriant effects: realistic hallucinations, confusion, dysphoria. Extremely unpleasant 'trip'—most users describe as nightmare. Popular among teens due to OTC availability but universally regretted. Very dangerous at recreational doses. Not a 'fun' drug.",
+      "origins": "Synthesized 1943. Widely available OTC since 1946. Medical uses: allergies, insomnia, nausea, cold symptoms. Recreational abuse began emerging 1990s-2000s, especially among teenagers seeking legal high. Internet trip reports mostly describe terrifying experiences. Despite this, abuse continues due to easy access. Often first deliriant experience for young users.",
+      "uses": "Medical: Allergies (25-50mg), insomnia (50mg), motion sickness. Recreational (not recommended): Deliriant hallucinations (700mg+). Duration 6-8 hours of delirium. Effects: seeing spiders/insects, talking to people who aren't there, extreme confusion, inability to distinguish reality. Almost universally described as terrifying, not enjoyable. Used by teens due to OTC access.",
+      "dangers": "At recreational doses: Extremely dysphoric, terrifying hallucinations. Realistic visions of spiders, insects, shadow people. Confusion, amnesia, inability to recognize hallucinations as unreal. Dangerous behavior (walking into traffic, jumping from windows). Severe tachycardia, hyperthermia, urinary retention, seizures, rhabdomyolysis. Can cause long-term cognitive impairment. Overdose can be FATAL. Dementia risk with chronic use (even therapeutic doses). Extremely unpleasant—not recreational. Teenagers: AVOID—can ruin your life.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Diphenhydramine",
+        "erowid": "https://www.erowid.org/pharms/diphenhydramine/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Diphenhydramine abuse and toxicity",
+          "authors": "Roehrs T, Roth T",
+          "journal": "Sleep Medicine Reviews",
+          "year": 2008,
+          "summary": "Analysis of DPH abuse, effects, and dangers"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "liquid"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "Benadryl, DPH. Antihistamine. HIGH DOSES (700mg+) cause TERRIFYING delirium: spiders, shadow people, confusion. NOT FUN—universally described as nightmare. Popular with teens (OTC) but deeply regretted. Dangerous: seizures, hyperthermia, can be FATAL. Dementia risk. AVOID recreational use. No reagent reaction."
+    ]
+  },
+  "NEP": {
+    "class": "cathinone (stimulant)",
+    "description": {
+      "overview": "NEP (N-Ethylpentedrone) is a synthetic cathinone stimulant. Similar to pentedrone and other cathinones. Produces stimulation, euphoria, increased energy. Shorter duration than amphetamines (2-4 hours). Research chemical with minimal safety data. Addictive - compulsive redosing common. Legal status varies—often sold as 'research chemical' or 'not for human consumption.'",
+      "origins": "Developed as research chemical 2010s. Part of synthetic cathinone wave after mephedrone bans. Little known use before 2015. Sold online as legal alternative to banned cathinones. Minimal scientific research. Potency and effects vary batch-to-batch. Banned in many countries under blanket cathinone/analogue laws.",
+      "uses": "Recreational: Stimulation, euphoria, increased energy and focus, sociability. Typical dose 30-100mg insufflated or oral. Duration 2-4 hours. Often redosed compulsively. Used as alternative to cocaine, meth, or other cathinones. Some use for productivity (not recommended—unsafe).",
+      "dangers": "Highly addictive - compulsive redosing leads to binges. Cardiovascular strain: tachycardia, hypertension, chest pain. Hyperthermia, dehydration. Anxiety, paranoia, psychosis (especially with binging). Severe vasoconstriction. Neurotoxicity unknown but likely similar to other cathinones. Crash/comedown: depression, fatigue, anhedonia. Long-term effects completely unknown—no human safety studies. Quality varies—adulterants possible. Legal risks.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/NEP"
+      }
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to yellow (cathinone)"
+      }
+    ],
+    "notes": [
+      "N-Ethylpentedrone. Synthetic cathinone stimulant. Highly addictive—compulsive redosing. Duration 2-4 hours. Orange Marquis (cathinone). NO human safety data. Cardiovascular risks, paranoia, psychosis. Quality varies. Legal status unclear. Research chemical—extreme caution."
+    ]
+  },
+  "Hexen": {
+    "class": "cathinone (stimulant)",
+    "description": {
+      "overview": "Hexen (N-Ethylhexedrone) is a synthetic cathinone stimulant. More potent than NEP. Short duration (1-3 hours) leading to compulsive redosing. Produces stimulation, euphoria, focus. Research chemical with no safety data. Highly addictive. Infamous for terrible smell (described as cum/semen). Legal status varies—often sold as research chemical.",
+      "origins": "Appeared on RC markets mid-2010s. Became popular briefly as legal stimulant alternative. Notorious for awful smell/taste. Many users report extreme compulsive redosing. Minimal scientific study. Banned in many jurisdictions under cathinone/analogue laws. Still available from RC vendors in some countries.",
+      "uses": "Recreational: Strong stimulation, euphoria, focus, sociability. Typical dose 40-120mg insufflated/oral. Duration 1-3 hours (very short—encourages redosing). Used as cocaine/meth alternative. Some attempt productivity use (very risky). Insufflation causes intense burning.",
+      "dangers": "EXTREMELY ADDICTIVE: Compulsive redosing nearly unavoidable for most users. Very short duration drives binges. Severe cardiovascular strain: tachycardia, chest pain, hypertension. Hyperthermia. Extreme vasoconstriction (cold extremities, potential tissue damage). Paranoia, anxiety, psychosis common. Terrible comedown: depression, exhaustion, anhedonia. Awful smell/taste (described as semen—lingers on skin/breath). NO safety data. Neurotoxicity likely. Legal risks.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Hexen"
+      }
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to yellow"
+      }
+    ],
+    "notes": [
+      "N-Ethylhexedrone. Cathinone. EXTREMELY addictive—compulsive redosing. Duration 1-3 hours (very short). Orange Marquis. Infamous for terrible smell (cum/semen). Severe cardiovascular risks, paranoia. NO safety data. Avoid—many users regret trying. Research chemical."
+    ]
+  },
+  "3-FEA": {
+    "class": "amphetamine (empathogen-stimulant)",
+    "description": {
+      "overview": "3-FEA (3-Fluoroethamphetamine) is a fluorinated amphetamine with empathogenic and stimulant effects. Described as milder than MDMA but similar profile. Duration 4-6 hours. Research chemical with limited human data. Less neurotoxic than MDMA (possibly) but still carries risks. Legal status varies—often sold as research chemical.",
+      "origins": "Synthesized as research chemical 2010s. Gained popularity as MDMA alternative when cathinones started getting banned. Part of fluorinated amphetamine series (2-FA, 3-FA, 4-FA, etc.). Each has different effects profile. 3-FEA specifically known for empathogenic effects. Minimal scientific research. Some countries ban all fluorinated amphetamines.",
+      "uses": "Recreational: Empathy, emotional openness, mild euphoria, stimulation, music enhancement. Typical dose 100-200mg. Duration 4-6 hours. Used as MDMA substitute—less intense but similar vibe. Some use for social situations, raves, concerts. Described as gentler, less overwhelming than MDMA.",
+      "dangers": "Neurotoxicity unknown—possibly less than MDMA but unproven. Serotonin depletion possible. Cardiovascular strain: tachycardia, hypertension. Hyperthermia risk (like MDMA). Jaw clenching, nystagmus. Combining with SSRIs/MAOIs risky (serotonin syndrome). Comedown/aftereffects: depression, fatigue. NO long-term safety data. Fluorinated amphetamines understudied. Quality/purity varies. Legal risks.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/3-FEA"
+      }
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange"
+      }
+    ],
+    "notes": [
+      "3-Fluoroethamphetamine. Empathogen-stimulant. MDMA-like but milder. Duration 4-6 hours. Orange Marquis. Neurotoxicity unknown. Serotonin syndrome risk with SSRIs/MAOIs. NO long-term safety data. Research chemical. Quality varies."
+    ]
+  },
+  "A-PHP": {
+    "class": "cathinone (pyrovalerone, stimulant)",
+    "description": {
+      "overview": "A-PHP (α-Pyrrolidinohexiophenone) is a synthetic cathinone from the pyrovalerone family (same as α-PVP/flakka). EXTREMELY potent and addictive. Very short duration (30 minutes-2 hours) causing compulsive redosing. Severe paranoia and psychosis common. Often vaped. One of most dangerous cathinones. Many horror stories.",
+      "origins": "Appeared on RC markets mid-2010s after α-PVP (flakka) bans. Chemically very similar to α-PVP. Quickly gained reputation as extremely addictive and dangerous. Many trip reports describe psychotic episodes, paranoia, dangerous behavior. Banned in many countries. Still available from RC vendors in some regions.",
+      "uses": "Recreational: Intense stimulation, euphoria (short-lived). Typical dose 5-30mg (very potent). Duration 30min-2hrs. Often vaped for faster onset. Compulsive redosing nearly universal. Described as more euphoric than α-PVP but equally dangerous.",
+      "dangers": "EXTREME ADDICTION POTENTIAL: Compulsive redosing leads to multi-day binges. SEVERE PSYCHOSIS common: paranoia, hallucinations, delusions, violent behavior. Cardiovascular crisis: tachycardia, chest pain, heart attack. Hyperthermia. Extreme vasoconstriction. 'Stim dick' (erectile dysfunction). Insomnia for days. Terrible comedown: suicidal depression, exhaustion. Many users report regretting ever trying. Hospitalization/arrest common. NO safety data. Avoid.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/A-PHP"
+      }
+    },
+    "forms": [
+      "powder",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "α-Pyrrolidinohexiophenone. Pyrovalerone cathinone like flakka. EXTREME DANGER: Highly addictive, severe psychosis common. Duration 30min-2hrs. Orange Marquis. Compulsive redosing, paranoia, violent behavior reported. Many regret trying. AVOID. Research chemical."
+    ]
+  },
+  "Memantine": {
+    "class": "dissociative (NMDA antagonist)",
+    "description": {
+      "overview": "Memantine (Namenda) is an NMDA receptor antagonist prescribed for Alzheimer's disease. At recreational doses (50-150mg+), produces dissociative effects similar to DXM or ketamine but much longer duration (12-24+ hours). Effects described as clearer, less confusing than DXM. Some use for harm reduction (tolerance reduction to other substances). Relatively safe at therapeutic doses.",
+      "origins": "Synthesized 1963. Approved for Alzheimer's 2003 in US. Discovered by psychonauts 2000s-2010s to have dissociative effects at higher doses. Less well-known than DXM or ketamine but has dedicated following. Legal—available by prescription. Some obtain for off-label use (tolerance reduction, nootropic, recreational). Slow onset discourages abuse.",
+      "uses": "Medical: Alzheimer's disease (10-20mg daily). Recreational/off-label: Dissociation (50-150mg), tolerance reduction to stimulants/opioids, nootropic (low doses). Duration 12-24+ hours (very long). Slow onset (2-4 hours). Effects: dissociation, altered perception, mild euphoria, reduced anxiety. Described as clearer and more functional than DXM.",
+      "dangers": "Very long duration can be uncomfortable if dose too high (stuck dissociated for day). Cognitive impairment while active. Motor incoordination. Dizziness. At high doses: confusion, memory impairment, hallucinations. Can worsen mental health issues. Interactions with other drugs possible. Relatively safe compared to other dissociatives but still carries risks. Not recommended for frequent recreational use.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Memantine",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Memantine"
+      }
+    },
+    "forms": [
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "Namenda. NMDA antagonist dissociative. Alzheimer's medication. Duration 12-24+ hours (VERY long). Higher doses (50-150mg) cause dissociation. Clearer than DXM. Used for tolerance reduction. Relatively safe but long duration can be uncomfortable. Prescription medication. No reagent reaction."
+    ]
+  },
+  "Baclofen": {
+    "class": "GABA-B agonist (muscle relaxant)",
+    "description": {
+      "overview": "Baclofen is a GABA-B receptor agonist prescribed for muscle spasticity, multiple sclerosis, spinal cord injuries. Similar mechanism to phenibut and GHB. At higher doses, produces sedation, euphoria, alcohol-like intoxication. Increasing recreational abuse. Physical dependence develops quickly. Withdrawal can be severe including hallucinations and seizures. Prescription medication—Schedule not controlled in US but regulated.",
+      "origins": "Synthesized 1962. Approved for medical use 1977. Used for muscle spasticity, MS, spinal injuries, cerebral palsy. Researched for alcohol/GHB addiction treatment (high-dose baclofen therapy). Recreational abuse emerged 2000s-2010s, especially among opioid users and in prison populations. Awareness of abuse potential increasing.",
+      "uses": "Medical: Muscle spasticity (10-80mg/day divided doses), MS, spinal cord injury. Off-label/research: Alcohol addiction treatment (up to 300mg/day under supervision). Recreational: Euphoria, sedation, anxiolysis, alcohol-like intoxication. Typical recreational dose 75-150mg+. Duration 4-8 hours. Used by some as GHB/phenibut alternative.",
+      "dangers": "PHYSICAL DEPENDENCE develops quickly with daily use. SEVERE WITHDRAWAL: hallucinations, seizures, delirium, psychosis—can be life-threatening. Requires slow medical taper (like benzos/alcohol). Overdose causes severe CNS depression, respiratory depression, coma. FATAL when combined with other depressants (alcohol, opioids, benzos). Cognitive impairment, memory issues. Motor incoordination. Can worsen mental health conditions. High-dose therapy requires medical supervision.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Baclofen"
+      },
+      "scientific_papers": [
+        {
+          "title": "Baclofen withdrawal: Case reports and review",
+          "authors": "Dario A, Tomei G",
+          "journal": "Clinical Neuropharmacology",
+          "year": 2004,
+          "summary": "Documentation of severe baclofen withdrawal syndrome"
+        }
+      ]
+    },
+    "forms": [
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "GABA-B agonist muscle relaxant. Similar to phenibut/GHB. Physical dependence develops quickly. SEVERE WITHDRAWAL—hallucinations, seizures, can be FATAL. Requires medical taper. Often FATAL with alcohol/opioids/benzos. Prescription medication. Recreational abuse increasing. No reagent reaction."
+    ]
+  },
   "Kratom": {
     "class": "opioid agonist (plant alkaloids)",
     "description": {
