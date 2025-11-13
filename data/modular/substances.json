@@ -4497,6 +4497,247 @@
       "Restoril. Sleep-focused benzo. Benzos show NO reagent reaction. Withdrawal FATAL—never stop abruptly. NEVER inject gel caps—causes thrombosis, gangrene, amputations (UK epidemic documented). Often combined with opioids—respiratory depression FATAL. Popular sleep aid but significant abuse potential. Verify pharmaceutical pills with databases."
     ]
   },
+  "2C-I": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-I (2,5-dimethoxy-4-iodophenethylamine) is a psychedelic phenethylamine from the 2C-x family, similar to 2C-B but slightly more intense. Duration 6-10 hours. Produces strong visual hallucinations, color enhancement, and euphoria. Popular in rave/psychonaut communities as 2C-B alternative. More intense body load than 2C-B. Generally considered second most popular 2C compound after 2C-B.",
+      "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Remained obscure until 2000s research chemical boom. Gained popularity 2005-2015 as legal psychedelic, especially in Europe. Often marketed as similar to 2C-B but more visual. Emergency scheduled in many countries 2012-2016. Still available on RC markets. Known deaths from overdose (mistaking mg for common doses).",
+      "uses": "No medical use. Recreational: Visual hallucinations (geometric patterns, color enhancement, tracers), euphoria, enhanced music appreciation, tactile sensations. Typical dose 14-25mg. Duration 6-10 hours. Used at raves, festivals, concerts. Described as more intense and visual than 2C-B. Some prefer it; others find body load uncomfortable. Less 'gentle' than 2C-B.",
+      "dangers": "DOSE-SENSITIVE: Small increases cause major intensity jumps. Several deaths from overdose (taking 100+ mg thinking it was a normal dose). Strong body load: nausea, vasoconstriction, muscle tension. Can cause difficult trips, anxiety, paranoia. Challenging headspace at higher doses. Tachycardia, hypertension. Long duration can be exhausting. Can trigger HPPD. Often sold as 2C-B or other substances—verify with testing. Cross-tolerance with other psychedelics.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-I",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal29.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-I: Pharmacology and toxicology of a phenethylamine designer drug",
+          "authors": "Bosak A, et al.",
+          "journal": "Toxicology Letters",
+          "year": 2013,
+          "summary": "Analysis of 2C-I overdose cases and pharmacology"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#228B22",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "green to yellow"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "no color change (not indole)"
+      }
+    ],
+    "notes": [
+      "More intense than 2C-B. Duration 6-10 hours. Green Marquis reaction (similar to 2C-B). DOSE-SENSITIVE—deaths from taking 100+ mg. Typical dose only 14-25mg. Stronger body load than 2C-B. Often sold as 2C-B—verify with testing. More visual and intense. Not recommended for beginners—start with 2C-B."
+    ]
+  },
+  "2C-C": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-C (2,5-dimethoxy-4-chlorophenethylamine) is a psychedelic phenethylamine from the 2C-x family. Less potent and less intense than 2C-B or 2C-I. Duration 4-8 hours. Produces mild visuals, gentle headspace, and subtle euphoria. Described as 'softer' and more introspective than other 2C compounds. Less common but valued by some for gentler experience.",
+      "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Less popular than 2C-B/2C-I but available on research chemical markets 2000s-2010s. Known for being mild and manageable. Scheduled alongside other 2C compounds in various countries. Less commonly encountered than 2C-B or 2C-I. Considered niche compound for experienced psychonauts seeking subtle effects.",
+      "uses": "No medical use. Recreational: Mild visual effects, gentle euphoria, introspection, enhanced creativity, tactile sensations. Typical dose 20-50mg (higher than 2C-B due to lower potency). Duration 4-8 hours. Used for gentle psychedelic experiences, creative work, introspection. Described as more 'stoning' and less visual than other 2Cs. Some find it underwhelming; others appreciate subtlety.",
+      "dangers": "Similar to other 2C compounds but milder: Nausea, body load, vasoconstriction possible but less severe. Can still cause challenging experiences at high doses. Less studied than 2C-B/2C-I—long-term effects unknown. Cross-tolerance with other psychedelics. Dose-response curve less understood. Often sold as other 2C compounds—verify identity. Can trigger HPPD like other psychedelics.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-C",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal21.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-C and related chlorinated phenethylamines",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "PiHKAL",
+          "year": 1991,
+          "summary": "Original documentation of 2C-C synthesis and effects"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#228B22",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "green to yellow-green"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "no color change (phenethylamine)"
+      }
+    ],
+    "notes": [
+      "Milder, less potent than 2C-B/2C-I. Duration 4-8 hours. Higher doses needed (20-50mg). Green Marquis (similar to other 2Cs). Described as gentler, more introspective. Less visual than 2C-B. Good for beginners seeking mild psychedelic experience. Cannot distinguish from 2C-B/2C-I by reagent alone—similar reactions."
+    ]
+  },
+  "2C-D": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-D (2,5-dimethoxy-4-methylphenethylamine, LE-25) is a psychedelic phenethylamine from the 2C-x family. Known for clear-headed, analytical headspace with minimal visuals. Duration 4-6 hours. Described as most 'clear' and least visual 2C compound. Popular for introspection, therapy, and cognitive enhancement at low doses. Less recreational, more therapeutic.",
+      "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Called LE-25 in some literature. Less popular recreationally than 2C-B but valued for unique profile. Available on research chemical markets but never widely distributed. Scheduled with other 2C compounds. Known in psychedelic therapy/research circles for clear headspace. Rare nowadays.",
+      "uses": "No medical use. Recreational/therapeutic: Clear-headed introspection, analytical thinking, minimal visuals, emotional processing, creativity enhancement. Typical dose 20-60mg. Duration 4-6 hours. Used for therapy-like introspection, problem-solving, emotional work. Microdosed by some for cognitive enhancement. Less 'fun' than 2C-B—more serious/analytical. Described as 'psychedelic without losing your mind.'",
+      "dangers": "Minimal visual/perceptual effects can be disappointing for those seeking psychedelic experience. Still can cause challenging psychological experiences—introspection can be uncomfortable. Nausea, body load less severe than other 2Cs. Long-term effects unknown. Less studied than 2C-B. Can trigger anxiety at higher doses. Cross-tolerance with psychedelics. Often mis-sold as other 2C compounds.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-D",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal23.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-D: The 'psychedelic tofu' - subjective effects analysis",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "PiHKAL",
+          "year": 1991,
+          "summary": "Documentation of 2C-D's unique clear-headed effects profile"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#228B22",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "green to yellow"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "LE-25. Most clear-headed 2C—minimal visuals. Duration 4-6 hours. Higher doses (20-60mg). Described as 'psychedelic without losing your mind.' Good for therapy, introspection, analytical thinking. Less recreational, more therapeutic. Called 'psychedelic tofu' by Shulgin (takes on flavor of setting). Cannot distinguish from other 2Cs by reagent."
+    ]
+  },
+  "2C-T-2": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-T-2 (2,5-dimethoxy-4-ethylthiophenethylamine) is a psychedelic phenethylamine from the 2C-T-x family. More intense and longer-lasting than 2C-B. Duration 6-10 hours. Known for strong visuals, complex headspace, and significant body load. Popular in early 2000s rave scene. Several deaths led to emergency scheduling. More challenging than 2C-B.",
+      "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Became popular in early 2000s, especially 2000-2003. Deaths from overdose (insufflation particularly dangerous) led to DEA emergency scheduling 2003. Less common after scheduling. Known as 'T-2' or 'Rosy' in early 2000s rave scene. Now rare but occasionally encountered.",
+      "uses": "No medical use. Recreational: Strong visual hallucinations, complex thoughts, euphoria, music enhancement. Typical dose 12-25mg oral (MUCH LESS if insufflated—2-5mg). Duration 6-10 hours. Used at raves, festivals. Described as more intense and challenging than 2C-B. Insufflation popular but dangerous—burns mucosa, higher OD risk. Now rare.",
+      "dangers": "FATAL OVERDOSES: Multiple deaths, especially from insufflation. NEVER insufflate—much more dangerous than oral. Burns nasal passages severely. Strong body load: nausea, muscle tension, vasoconstriction. Challenging headspace can cause difficult trips. Long duration (8-10 hours) exhausting. Tachycardia, hypertension. Can trigger HPPD. Dose-sensitive. Cross-tolerance with psychedelics. Emergency scheduled due to deaths.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-T-2",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal33.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-T-2: Analysis of fatal intoxications",
+          "authors": "Cimbura G, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2004,
+          "summary": "Study of 2C-T-2 overdose deaths leading to emergency scheduling"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#808080",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "grey to dark grey"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "T-2, Rosy. DANGER: Multiple fatal overdoses. NEVER insufflate—extremely dangerous, burns severely. Oral only, 12-25mg. More intense than 2C-B, longer duration (6-10 hours). Strong body load. Grey Marquis (different from 2C-B's green). Emergency scheduled 2003 after deaths. Rare nowadays. Very challenging—not recommended."
+    ]
+  },
+  "2C-P": {
+    "class": "phenethylamine (psychedelic)",
+    "description": {
+      "overview": "2C-P (2,5-dimethoxy-4-propylphenethylamine) is a psychedelic phenethylamine with EXTREMELY long duration (10-20 hours). Very potent (3-10mg) and intense. Produces strong visuals and challenging headspace. Known for being one of longest-lasting 2C compounds. Uncommon due to difficulty of long experience. More intense than 2C-B.",
+      "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Remained very obscure until 2000s RC boom. Never widely popular due to extreme duration. Available on RC markets sporadically. Scheduled with other 2C compounds in various countries. Known in psychonaut communities but rarely sought due to 16+ hour commitment. Considered challenging even by experienced users.",
+      "uses": "No medical use. Recreational: Intense visual hallucinations, deep introspection, complex thoughts, time dilation. Typical dose 3-10mg (very potent). Duration 10-20 hours (exhausting). Used for extremely deep psychedelic experiences, spiritual work. Requires clear 24+ hours. Described as powerful and difficult. Not recreational—too intense and long. Only for very experienced psychonauts.",
+      "dangers": "EXTREMELY LONG DURATION: 16-20 hours of intense effects mentally and physically exhausting. Very potent—easy to overdose. Challenging headspace can cause difficult trips lasting entire day. Strong body load. Vasoconstriction, muscle tension for many hours. Insomnia persists after trip. Bad trips are marathon experiences. Can trigger HPPD, PTSD from difficult experiences. Not recommended—overwhelming for most. Cross-tolerance with psychedelics.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/2C-P",
+        "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal32.shtml"
+      },
+      "scientific_papers": [
+        {
+          "title": "2C-P: An ultra-long-duration phenethylamine psychedelic",
+          "authors": "Shulgin AT, Shulgin A",
+          "journal": "PiHKAL",
+          "year": 1991,
+          "summary": "Documentation of 2C-P's extreme duration and potency"
+        }
+      ]
+    },
+    "forms": [
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#228B22",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "green to yellow-green"
+      },
+      {
+        "reagent": "ehrlich",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "no color change"
+      }
+    ],
+    "notes": [
+      "EXTREME DURATION: 10-20 hours! Very potent (3-10mg). One of longest-lasting psychedelics. Exhausting and overwhelming. Green Marquis like other 2Cs. Only for very experienced users seeking marathon psychedelic experience. Requires 24+ hour clear schedule. Not recreational—too intense. Many prefer shorter compounds. Cannot distinguish from 2C-B by reagent."
+    ]
+  },
   "Kratom": {
     "class": "opioid agonist (plant alkaloids)",
     "description": {
