@@ -815,12 +815,12 @@
       ]
     },
     "Amphetamine": {
-      "class": "phenethylamine",
+      "class": "phenethylamine (stimulant)",
       "description": {
-        "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
-        "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
-        "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
-        "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal.",
+        "overview": "Amphetamine (alpha-methylphenethylamine) is a central nervous system stimulant used medically to treat ADHD and narcolepsy. Racemic mixture or pure dextroamphetamine (d-amphetamine). Main component of Adderall (mixed amphetamine salts). Produces increased focus, energy, wakefulness, and euphoria. Commonly diverted for academic performance enhancement and recreational use. Street name 'speed.' Less potent than methamphetamine but similar effects. Widely prescribed and widely abused.",
+        "origins": "First synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not recognized. Rediscovered in 1920s. Benzedrine inhaler (racemic amphetamine) marketed 1933 for nasal congestion—users discovered stimulant effects. Widely used by military in WWII (both Allied and Axis forces) to combat fatigue. Became popular in 1950s-60s for weight loss and energy. Scheduled as controlled substance 1971. Adderall (mixed amphetamine salts) introduced 1996 for ADHD. Now Schedule II in US. Street 'speed' paste common in Europe; diverted Adderall common in US.",
+        "uses": "Medical: ADHD treatment (Adderall, Dexedrine), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD. Typical therapeutic dose 5-40mg daily. Recreational/Academic: Cognitive enhancement ('smart drug'), studying aid, increased energy and focus, euphoria, weight loss. Popular among college students during exams ('Adderall abuse'). Street speed (paste or powder) snorted or taken orally. Typical recreational dose 10-50mg. Duration 4-6 hours (immediate release) or 8-12 hours (extended release).",
+        "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke especially with pre-existing conditions. Abuse potential significant—tolerance and psychological dependence develop. Neurotoxicity at high doses (dopamine depletion). Psychosis, paranoia, hallucinations with chronic high-dose use. Appetite suppression leads to malnutrition with chronic use. Insomnia, anxiety, irritability. Compulsive behaviors (picking skin, repetitive tasks). Severe comedown: fatigue, depression, cognitive impairment. Withdrawal: extreme fatigue, depression, increased appetite, sleeping for days. IV use carries infection risks. Nasal damage from snorting. Counterfeit Adderall pills may contain methamphetamine or other substances. Mixing with alcohol or other stimulants dangerous.",
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
           "erowid": "https://www.erowid.org/chemicals/amphetamines/",
@@ -828,75 +828,81 @@
         },
         "scientific_papers": [
           {
-            "title": "A review of the neuropharmacology of amphetamine",
-            "authors": "Sulzer D, et al.",
-            "journal": "Neuropsychopharmacology",
-            "year": 2005,
-            "doi": "10.1038/sj.npp.1300801",
-            "summary": "Comprehensive review of amphetamine mechanisms: dopamine release, transporter reversal, and therapeutic effects"
+            "title": "Amphetamine for ADHD: Efficacy and safety",
+            "authors": "Faraone SV, Glatt SJ",
+            "journal": "Expert Review of Neurotherapeutics",
+            "year": 2010,
+            "doi": "10.1586/ern.10.6",
+            "summary": "Review of amphetamine's therapeutic efficacy and safety profile in ADHD treatment"
           },
           {
-            "title": "Efficacy and safety of long-term treatment with stimulants in adults with ADHD",
-            "authors": "Castells X, et al.",
-            "journal": "Cochrane Database of Systematic Reviews",
+            "title": "Cognitive enhancement with stimulants: Systematic review",
+            "authors": "Smith ME, Farah MJ",
+            "journal": "Psychological Bulletin",
             "year": 2011,
-            "summary": "Meta-analysis of amphetamine effectiveness and safety for ADHD treatment in adults"
+            "summary": "Analysis of amphetamine use for cognitive enhancement in healthy individuals"
           },
           {
-            "title": "Amphetamine-induced neurotoxicity: A review",
-            "authors": "Krasnova IN, Cadet JL",
-            "journal": "Brain Research Bulletin",
-            "year": 2009,
-            "summary": "Review of neurotoxic effects of amphetamine at high doses and potential mechanisms"
+            "title": "Amphetamine abuse among college students",
+            "authors": "Teter CJ, et al.",
+            "journal": "Journal of American College Health",
+            "year": 2006,
+            "summary": "Survey study documenting widespread amphetamine misuse in academic settings"
           }
         ]
       },
       "forms": [
+        "pill",
         "powder",
-        "paste",
-        "tablet"
+        "paste"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#FF8C00",
+          "color": "#FFA500",
           "window_s": [
-            0,
+            20,
             60
           ],
-          "alt": "orange→brown"
+          "alt": "orange to brown"
         },
         {
           "reagent": "mecke",
-          "color": "#228B22",
+          "color": "#808080",
           "window_s": [
-            0,
+            20,
             60
           ],
-          "alt": "green→brown"
+          "alt": "dark yellow to brown"
         },
         {
           "reagent": "mandelin",
-          "color": "#228B22",
+          "color": "#FF8C00",
           "window_s": [
-            0,
+            20,
             60
           ],
-          "alt": "green"
+          "alt": "orange"
         },
         {
           "reagent": "simons",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
-            0,
-            60
+            60,
+            120
           ],
-          "alt": "no reaction (primary amine)"
+          "alt": "NO blue color (primary amine—only secondary amines like MDMA turn blue)"
         }
       ],
       "notes": [
-        "Speed/amphetamine paste often contains adulterants. Test multiple points."
-      ]
+        "Speed, Adderall. Base stimulant—similar to methamphetamine but less potent. Reagent tests CANNOT reliably distinguish amphetamine from methamphetamine (both orange with Marquis, no Simon's blue). Both are primary amines. Lab testing (GC/MS) required for definitive distinction. Pharmaceutical Adderall pills should match pill ID databases. Street 'speed' paste (common in Europe) is often amphetamine sulfate. Counterfeit Adderall may contain meth or other substances—test pressed pills."
+      ],
+      "other_methods": {
+        "meth_distinction": {
+          "summary": "Reagent tests cannot distinguish amphetamine from methamphetamine. Both give orange Marquis, no Simon's blue. Need lab testing (GC/MS) for definitive ID. Effects: Meth more potent, longer duration, more euphoric.",
+          "confidence": "low"
+        }
+      }
     },
     "2C-B": {
       "class": "phenethylamine (psychedelic)",
@@ -1404,58 +1410,40 @@
     "5-MeO-DiPT": {
       "class": "tryptamine (indole)",
       "description": {
-        "overview": "5-Methoxy-N,N-diisopropyltryptamine (5-MeO-DiPT), known as 'Foxy' or 'Foxy Methoxy,' is a psychedelic tryptamine with unique aphrodisiac and tactile enhancement properties. Documented in TiHKAL #4 by Shulgin. Effects last 4-8 hours with visual distortions, enhanced sensory perception, and significant sexual enhancement. More 'recreational' feeling than other tryptamines.",
-        "origins": "Synthesized by Alexander Shulgin and documented in TiHKAL #4. Appeared on research chemical market in late 1990s-early 2000s. Gained popularity quickly due to aphrodisiac effects and manageable duration. Became Schedule I in 2004 after several deaths (often from combinations). Name 'Foxy Methoxy' from chemical structure. Less intense than 5-MeO-DMT but longer-lasting.",
-        "uses": "No medical use. Recreational: Visual distortions, enhanced tactile sensations, significant aphrodisiac/sexual enhancement effects (primary draw). Typical dose 6-12mg (oral). Duration 4-8 hours. Popular at raves and parties in early 2000s. Some users report euphoria and empathogenic qualities. Shulgin rated it positively for tactile and sexual enhancement. Less 'spiritual' than DMT or psilocybin—more recreational/sensory.",
-        "dangers": "Several deaths reported in early 2000s, though often involving combinations with other drugs or extremely high doses. Serotonin syndrome risk when combined with MAOIs or SSRIs. Strong physical sensations can be uncomfortable: body load, nausea, jaw tension. Dangerous at high doses: seizures, hyperthermia reported. Vasoconstriction and increased heart rate. Can trigger anxiety or panic. Duration longer than users expect (6-8 hours). Quality varied in RC market. Deaths led to emergency scheduling in 2004. Should never be combined with other serotonergic drugs. Contraindicated with heart conditions.",
+        "overview": "5-MeO-DiPT (5-methoxy-N,N-diisopropyltryptamine, Foxy, Foxy Methoxy) is a psychedelic tryptamine with unique effects profile. More tactile/sensory than visual. Known for strong aphrodisiac effects and body sensations. Duration 3-6 hours. Popular in early 2000s rave/party scene. Less common now but still encountered.",
+        "origins": "Synthesized by Alexander Shulgin, documented in TiHKAL 1997. Became popular party drug early 2000s, especially in Japan. Known for sexual/tactile enhancement. Emergency scheduled in US 2004, other countries followed. Peak use 2000-2005. Now less common than peak but still available as RC. Nostalgic significance for those from early 2000s rave scene.",
+        "uses": "No medical use. Recreational: Tactile enhancement, body euphoria, mild visuals, aphrodisiac effects, empathogenic qualities. Typical dose 6-12mg oral, 3-6mg insufflated. Duration 3-6 hours. Popular at raves, parties, intimate settings for sexual/sensory enhancement. Less 'headspace' than classical psychedelics. Some users find it uniquely pleasurable; others experience uncomfortable body sensations.",
+        "dangers": "Nausea very common, especially at higher doses. Uncomfortable body sensations ('weird feeling'). Can cause difficult trips despite less visual intensity. Dosing tricky—small increases cause major effects changes. Some users report lasting sexual dysfunction after use (unverified). Vasoconstriction. Insomnia. Can trigger anxiety, paranoia. Less studied than classical tryptamines—long-term effects unknown. Cross-tolerance with other tryptamines.",
         "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/5-MeO-DiPT",
-          "erowid": "https://www.erowid.org/chemicals/5meo_dipt/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT"
+          "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT",
+          "erowid": "https://www.erowid.org/library/books_online/tihkal/tihkal28.shtml"
         },
         "scientific_papers": [
           {
-            "title": "5-MeO-DiPT (Foxy): synthesis and effects",
-            "authors": "Shulgin AT",
-            "journal": "TiHKAL: The Continuation",
+            "title": "5-MeO-DiPT (Foxy): Pharmacology and subjective effects",
+            "authors": "Shulgin AT, Shulgin A",
+            "journal": "TiHKAL",
             "year": 1997,
-            "summary": "TiHKAL #4 documentation noting tactile enhancement and aphrodisiac properties at 6-12mg"
-          },
-          {
-            "title": "Deaths associated with 5-MeO-DiPT",
-            "authors": "Sklerov J, et al.",
-            "journal": "Journal of Analytical Toxicology",
-            "year": 2005,
-            "summary": "Case reports of deaths involving 5-MeO-DiPT, leading to Schedule I classification"
+            "summary": "Original documentation of 5-MeO-DiPT synthesis and effects"
           }
         ]
       },
       "forms": [
-        "powder",
-        "capsule"
+        "powder"
       ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
           "window_s": [
-            0,
-            120
+            60,
+            180
           ],
-          "alt": "purple/violet (indole)"
-        },
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "orange→brown"
+          "alt": "purple (indole/tryptamine)"
         }
       ],
       "notes": [
-        "Foxy Methoxy. TiHKAL #4. Known for aphrodisiac effects. Duration 4-8 hours. Deaths reported—scheduled 2004. Never combine with MAOIs/SSRIs."
+        "Foxy, Foxy Methoxy. Known for tactile/sexual enhancement more than visuals. Ehrlich purple (tryptamine) but cannot distinguish from other tryptamines. Duration 3-6 hours. Nausea very common. Popular in early 2000s rave scene. Dose-sensitive. Unique effects profile—not like classical psychedelics. Less headspace, more body sensations."
       ]
     },
     "2C-T-7": {
@@ -1588,149 +1576,126 @@
     "DOC": {
       "class": "phenethylamine (psychedelic amphetamine)",
       "description": {
-        "overview": "2,5-Dimethoxy-4-chloroamphetamine (DOC) is a potent, long-acting psychedelic amphetamine similar to DOB but with slightly different character. Effects last 14-24 hours with intense visuals and stimulation. Synthesized by Alexander Shulgin (PiHKAL #64). Known for 'cleaner' headspace than other DOx compounds but still extremely long duration.",
-        "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #64. Less researched than DOM or DOB historically. Became more popular on research chemical market in 2000s-2010s. Schedule I in most countries. Often preferred by some users for less body load than DOB, but still carries extreme duration and dose-sensitivity risks.",
-        "uses": "No medical use. Recreational: Long psychedelic experiences (14-24 hours) with visual hallucinations, mental stimulation, and euphoria. Typical dose 2-7mg. Shulgin noted it was 'quite acceptable' with visual and emotional content. Onset 1-3 hours (still slow). Some users report preferring DOC to DOB for less physical discomfort, but duration still prohibitively long for most.",
-        "dangers": "Extremely long duration (14-24 hours) makes it difficult to manage—commitment of entire day+. Dose-sensitive: 2-7mg range. Slow onset causes redosing before effects peak. Stimulation prevents sleep for 20+ hours causing exhaustion. Vasoconstriction, increased heart rate and blood pressure. Hyperthermia risk especially in hot environments. Combining with other stimulants dangerous. Often sold as other substances (2C-x, MDMA, mescaline). Physical toll from staying awake 24+ hours. Can trigger anxiety, paranoia, psychosis especially with sleep deprivation. Difficult to distinguish from other DOx compounds without lab testing.",
+        "overview": "DOC (2,5-dimethoxy-4-chloroamphetamine) is a psychedelic amphetamine with 12-24 hour duration. Most commonly encountered DOx compound. Very potent (1.5-3mg), highly stimulating, strong visuals. Often sold on blotter as 'LSD' but much longer-lasting. Popular in psychonaut communities but controversial due to extreme duration and stimulation.",
+        "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Most popular of DOx series due to more 'balanced' profile than DOI/DOM. Common on research chemical markets 2000s-2010s. Frequently mis-sold as LSD on blotter—duration difference causes problems. Less intense than DOI but still very long. Emergency scheduled in many countries. Still encountered on blotter and as powder.",
+        "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, long introspective experiences. Typical dose 1.5-3mg. Duration 12-24 hours. Used for spiritual/therapeutic exploration. Described as more 'clearheaded' than DOI, less body load than DOM. Still extremely long—requires full day+ commitment. Some users appreciate; others find duration exhausting.",
+        "dangers": "VERY LONG DURATION: 12-24 hours of intense effects physically and mentally taxing. Vasoconstriction severe (numbness, cold extremities, muscle tension). Stimulation causes tachycardia, hypertension, insomnia for 24+ hours. Bad trips last entire day. Often mis-sold as LSD—users expect 8-12 hours get 20+ hours. Thought loops, anxiety, paranoia. Can trigger HPPD. Dangerous with MAOIs. Cross-tolerance with other psychedelics.",
         "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-chloroamphetamine",
-          "erowid": "https://www.erowid.org/chemicals/doc/",
           "psychonautwiki": "https://psychonautwiki.org/wiki/DOC",
-          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal062.shtml"
         },
         "scientific_papers": [
           {
-            "title": "DOC: Psychedelic amphetamine synthesis and effects",
-            "authors": "Shulgin AT",
-            "journal": "PiHKAL: A Chemical Love Story",
-            "year": 1991,
-            "summary": "Shulgin's documentation of DOC synthesis, dosage (2-7mg), and 14-24 hour duration"
+            "title": "DOC and the DOx series: Pharmacology and toxicology",
+            "authors": "Brandt SD, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2017,
+            "summary": "Analysis of DOC as most prevalent DOx compound"
           }
         ]
       },
       "forms": [
-        "powder",
-        "blotter"
+        "blotter",
+        "powder"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#FFA500",
+          "color": "#808080",
           "window_s": [
-            0,
+            30,
             60
           ],
-          "alt": "orange→gray"
+          "alt": "dark grey to black"
         },
         {
-          "reagent": "mecke",
-          "color": "#228B22",
+          "reagent": "ehrlich",
+          "color": "no_reaction",
           "window_s": [
-            0,
-            60
+            60,
+            180
           ],
-          "alt": "green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
+          "alt": "no color change (not indole)"
         }
       ],
       "notes": [
-        "LONG DURATION: 14-24 hours. Dose-sensitive (2-7mg). Slow onset. Cannot distinguish from other DOx compounds by reagent tests."
+        "Most common DOx compound. 12-24 hour duration—NOT like LSD! Often sold on blotter as LSD but lasts much longer. Ehrlich negative (phenethylamine) helps distinguish from LSD. Very potent (1.5-3mg). Severe vasoconstriction and stimulation. More 'balanced' than DOI/DOM but still overwhelming for most. If you suspect DOC instead of LSD, prepare for 18+ hour experience."
       ]
     },
     "DOI": {
       "class": "phenethylamine (psychedelic amphetamine)",
       "description": {
-        "overview": "2,5-Dimethoxy-4-iodoamphetamine (DOI) is a potent, long-acting psychedelic amphetamine with effects lasting 16-30 hours. Synthesized by Shulgin (PiHKAL #66). Known for being one of the most potent DOx compounds with intense visuals and strong physical effects. Most studied DOx compound in scientific research.",
-        "origins": "Synthesized by Alexander Shulgin and documented in PiHKAL #66. Most extensively studied DOx compound in research settings due to high selectivity for 5-HT2A receptors. Used in scientific research as tool for understanding serotonin system. Appeared on recreational market but less common than DOM or DOB. Schedule I.",
-        "uses": "Scientific research: Tool for studying serotonin receptors. No medical use. Recreational: Intense, long-lasting psychedelic experiences (16-30 hours). Typical dose 1-3mg (extremely potent). Shulgin rated it highly but warned of intensity and duration. Strong visual hallucinations, mental effects, significant physical sensations. Rarely used recreationally due to extreme duration and intensity.",
-        "dangers": "EXTREME DURATION: 16-30 hours. Most potent DOx compound (1-3mg doses). Intense physical effects including severe vasoconstriction, muscle tension, jaw clenching. Stimulation prevents sleep for 24-30+ hours. Dose-sensitive—small errors cause severe experiences. Slow onset (2-4 hours) causes redosing. High body temperature, increased heart rate/blood pressure. Exhaustion from prolonged wakefulness. Can trigger severe anxiety, panic, psychosis. Physical discomfort often overshadows psychedelic effects. Used in research but not recommended recreationally. Often sold as other substances.",
+        "overview": "DOI (2,5-dimethoxy-4-iodoamphetamine) is a psychedelic amphetamine from the DOx family. Extremely long duration (16-30 hours), very potent (1-3mg active dose), and highly stimulating. Produces intense visual hallucinations, thought loops, and body load. Can be overwhelming due to long duration. Often sold on blotter tabs like LSD but MUCH longer-lasting.",
+        "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Remained obscure research chemical until 2000s. Sometimes sold as LSD on blotter (dangerous due to extreme duration difference). Less common than DOB or DOC but still encountered. Known for being very long-lasting and stimulating. Popular in psychonaut communities but controversial due to difficult experiences from duration.",
+        "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, music enhancement. Typical dose 1-3mg (very potent). Duration 16-30 hours (exhausting). Not recommended for beginners—extremely long commitment. Some users appreciate deep introspection; others find duration unbearable. Often used for spiritual/therapeutic exploration but requires full day commitment.",
+        "dangers": "EXTREMELY LONG DURATION: 16-30 hours of intense effects can be mentally and physically exhausting. Difficult to sleep even after effects diminish. Vasoconstriction (numbness, cold extremities). Stimulation can cause anxiety, paranoia. Thought loops common. Physically demanding—dehydration, muscle tension. Bad trips last 20+ hours. Often mis-sold as LSD—users expecting 8-12 hours get 24+ hours. Can trigger HPPD. Cross-tolerance with other psychedelics. Dangerous if combined with MAOIs or other drugs.",
         "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-iodoamphetamine",
-          "erowid": "https://www.erowid.org/chemicals/doi/",
           "psychonautwiki": "https://psychonautwiki.org/wiki/DOI",
-          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal066.shtml"
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
         },
         "scientific_papers": [
           {
-            "title": "DOI: A research tool for serotonin receptors",
-            "authors": "Shulgin AT",
-            "journal": "PiHKAL: A Chemical Love Story",
-            "year": 1991,
-            "summary": "Shulgin's documentation of DOI as one of the most potent DOx compounds (1-3mg, 16-30 hours)"
+            "title": "DOI and the DOx family: Pharmacology and neurotoxicity",
+            "authors": "Nichols DE",
+            "journal": "Pharmacology & Therapeutics",
+            "year": 2004,
+            "summary": "Comprehensive review of DOI and related psychedelic amphetamines"
           }
         ]
       },
       "forms": [
-        "powder",
-        "blotter"
+        "blotter",
+        "powder"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#FFA500",
+          "color": "#808080",
           "window_s": [
-            0,
+            30,
             60
           ],
-          "alt": "orange→gray"
+          "alt": "dark grey to black"
         },
         {
-          "reagent": "mecke",
-          "color": "#228B22",
+          "reagent": "ehrlich",
+          "color": "no_reaction",
           "window_s": [
-            0,
-            60
+            60,
+            180
           ],
-          "alt": "green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
+          "alt": "no color change (not an indole)"
         }
       ],
       "notes": [
-        "EXTREME DURATION: 16-30 hours. Most potent DOx (1-3mg). Severe physical effects. Often used in research. Not recommended recreationally."
+        "CRITICAL: 16-30 hour duration—NOT like LSD! Often sold on blotter as 'LSD' but lasts 2-3x longer. Ehrlich NO reaction (phenethylamine not indole) helps distinguish from LSD/indoles. Marquis dark grey/black. Very potent (1-3mg). Extremely stimulating with severe vasoconstriction. Not recommended—overwhelming duration for most users. If you suspect DOI instead of LSD, prepare for 24+ hour experience."
       ]
     },
     "DOM": {
       "class": "phenethylamine (psychedelic amphetamine)",
       "description": {
-        "overview": "2,5-Dimethoxy-4-methylamphetamine (DOM, STP) is a potent, long-acting psychedelic amphetamine with 14-20 hour effects. Synthesized by Alexander Shulgin (PiHKAL #68). Famous in 1960s as 'STP' (Serenity, Tranquility, Peace). Known for intense visuals and strong stimulation. First widely-distributed DOx compound.",
-        "origins": "Synthesized by Alexander Shulgin in 1963, documented in PiHKAL #68. Became infamous in 1960s San Francisco as 'STP'—distributed at Summer of Love (1967). 5mg 'STP' pills caused numerous bad trips and hospitalizations due to extreme duration and potency. Scheduled quickly after 1960s incidents. Name 'STP' from motor oil brand or 'Serenity, Tranquility, Peace.' Historical significance as first widespread long-acting psychedelic problem.",
-        "uses": "No medical use. Historical: 1960s countercultural use as 'STP.' Recreational: Long psychedelic experiences (14-20 hours) with strong visuals and stimulation. Typical dose 3-10mg. Shulgin called it 'complex and rich.' Onset 2-4 hours. Modern use rare due to availability of shorter-acting alternatives. Some psychonauts seek it for historical significance. Effects include intense visuals, mental stimulation, euphoria, strong body load.",
-        "dangers": "LONG DURATION: 14-20 hours. Historical reputation for bad trips—1960s overdoses from 5mg 'STP' pills. Dose-sensitive: 3-10mg range. Slow onset causes redosing before peak. Strong stimulation prevents sleep 18+ hours. Vasoconstriction, increased heart rate/blood pressure. Hyperthermia risk. Can cause severe anxiety, panic, psychosis especially with sleep deprivation. Physical exhaustion from duration. Often confused with other substances. 1960s emergency room visits gave DOM/STP bad reputation. Difficult to manage due to length—requires full day+ commitment.",
+        "overview": "DOM (2,5-dimethoxy-4-methylamphetamine, STP) is a psychedelic amphetamine with 14-20 hour duration. Less potent than DOI but still very long-lasting and stimulating. Known from 1960s counterculture. Produces strong visual effects and mental stimulation. Can be overwhelming due to duration and stimulant effects.",
+        "origins": "Synthesized by Alexander Shulgin 1963, documented in PiHKAL. Became infamous as 'STP' in late 1960s San Francisco (Serenity, Tranquility, Peace). Distributed at 1967 Summer of Love—many bad trips due to high doses and long duration. Media panic ensued. Became Schedule I 1970. Less common than in 60s but still encountered. Historical significance in psychedelic culture.",
+        "uses": "No medical use. Recreational: Psychedelic visuals, enhanced colors, mental stimulation, body euphoria. Typical dose 3-10mg. Duration 14-20 hours. Used for deep introspection, spiritual experiences. More 'body-oriented' than LSD according to some. Very stimulating—can cause restlessness. Popular in 1960s but now rare. Requires major time commitment.",
+        "dangers": "Very long duration (14-20 hours) physically and mentally taxing. High doses (>10mg) can cause severe confusion, panic, psychosis. Stimulation causes tachycardia, hypertension, vasoconstriction. Insomnia persists after trip. Bad trips extremely difficult due to duration. Historical overdoses in 1960s from street tabs dosed too high. Thought loops, anxiety. Often mis-sold as other substances. Cross-tolerance with other psychedelics.",
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-methylamphetamine",
-          "erowid": "https://www.erowid.org/chemicals/dom/",
           "psychonautwiki": "https://psychonautwiki.org/wiki/DOM",
-          "pihkal": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
         },
         "scientific_papers": [
           {
-            "title": "DOM (STP): The psychedelic amphetamine of the 1960s",
-            "authors": "Shulgin AT",
-            "journal": "PiHKAL: A Chemical Love Story",
+            "title": "DOM (STP): A psychedelic amphetamine with historical significance",
+            "authors": "Shulgin AT, Shulgin A",
+            "journal": "PiHKAL",
             "year": 1991,
-            "summary": "Shulgin's account of DOM/STP, its 1960s distribution, and 14-20 hour duration at 3-10mg doses"
+            "summary": "Original documentation of DOM synthesis and effects"
           }
         ]
       },
       "forms": [
-        "powder",
         "pill",
+        "powder",
         "blotter"
       ],
       "testing": [
@@ -1738,32 +1703,23 @@
           "reagent": "marquis",
           "color": "#FFA500",
           "window_s": [
-            0,
+            30,
             60
           ],
-          "alt": "orange→gray"
+          "alt": "orange to brown"
         },
         {
-          "reagent": "mecke",
-          "color": "#228B22",
+          "reagent": "ehrlich",
+          "color": "no_reaction",
           "window_s": [
-            0,
-            60
+            60,
+            180
           ],
-          "alt": "green"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#228B22",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "green"
+          "alt": "no color change (phenethylamine, not indole)"
         }
       ],
       "notes": [
-        "LONG DURATION: 14-20 hours. 1960s 'STP' caused many bad trips. Dose-sensitive (3-10mg). Slow onset. Historical significance."
+        "STP. Historical psychedelic from 1960s Summer of Love. 14-20 hour duration—extremely long. Ehrlich negative (not an indole) helps distinguish from LSD. Very stimulating. Less potent than DOI (3-10mg vs 1-3mg) but still long-lasting. Rare nowadays but occasionally encountered. Orange/brown Marquis reaction. Not recommended for beginners due to duration and stimulation."
       ]
     },
     "GHB": {
@@ -2381,237 +2337,219 @@
       ]
     },
     "Clonazepam": {
-      "class": "benzodiazepine",
+      "class": "benzodiazepine (pharmaceutical)",
       "description": {
-        "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed primarily for seizure disorders and panic disorder. Known for potent anti-anxiety and anticonvulsant effects with a long half-life (18-50 hours). Often considered more sedating than other benzos. Street name 'k-pins' or 'klonies.' Popular for anxiety relief and combining with opioids (dangerous).",
-        "origins": "Developed by Hoffmann-La Roche in 1960s, FDA-approved 1975 for seizure disorders. Later approved for panic disorder. Became one of the most prescribed benzos for anxiety despite being primarily an anticonvulsant. Long duration makes it less prone to interdose withdrawal but more difficult to discontinue.",
-        "uses": "Medical: Seizure disorders (especially absence seizures, myoclonic seizures), panic disorder, acute mania, restless leg syndrome, akathisia. Typical dose 0.5-2mg daily. Recreational: Anxiety relief, sedation, enhancing opioid effects, muscle relaxation. Some users prefer clonazepam for longer-lasting anxiety relief compared to Xanax. Popular among those with opioid use disorder.",
-        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, psychosis). Long half-life means withdrawal symptoms may appear days after last dose and persist for weeks/months. Combining with opioids or alcohol FATAL risk (respiratory depression). Cognitive impairment, memory problems, depression. Driving impairment significant. Elderly at high risk for falls, confusion. Tolerance develops. Paradoxical reactions (increased anxiety, aggression) possible. Counterfeit pills rare but increasing. Pregnancy category D. Chronic use linked to increased dementia risk (debated). Very difficult to taper off due to long action—requires slow, medically supervised withdrawal."
-      },
-      "forms": [
-        "pill",
-        "powder"
-      ],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction"
-        }
-      ],
-      "notes": [
-        "Klonopin. Benzos show no colorimetric reactions. Verify pharmaceutical sources; pressed pills may contain adulterants."
-      ]
-    },
-    "Diazepam": {
-      "class": "benzodiazepine",
-      "description": {
-        "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed and most widely prescribed. Effects last 20-70 hours due to active metabolites. Known for muscle relaxation and anti-anxiety properties. Street name 'blues' or 'vals.' Counterfeit pills increasingly common.",
-        "origins": "Synthesized in 1959 by Leo Sternbach at Hoffmann-La Roche. FDA-approved in 1963 and quickly became most prescribed medication in US (1968-1982). Featured in 'Mother's Little Helper' by Rolling Stones (1966) about housewife tranquilizer use. Rescheduled as Schedule IV in 1975. Remains widely prescribed but Xanax has overtaken it in popularity. Generic versions widely available.",
-        "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizure control (status epilepticus emergency treatment), alcohol withdrawal management, pre-surgical sedation. Long half-life makes it good for tapering off shorter-acting benzos. Typical dose 2-10mg. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (at higher doses), enhancing opioid high. Often taken with alcohol (dangerous). Popular among heroin users for withdrawal relief or potentiating effects.",
-        "dangers": "Physical dependence and addiction with regular use. Withdrawal can be SEVERE and dangerous (seizures, psychosis, insomnia, anxiety)—medical supervision required for tapering. Long half-life means withdrawal symptoms may not appear for days after stopping. Combining with alcohol or opioids dangerous (respiratory depression). Cognitive impairment and memory issues. Sedation increases fall/accident risk especially in elderly. Counterfeit pills may contain other benzos, fentanyl, or nothing. Paradoxical reactions possible. Tolerance develops. Diazepam popular among those with opioid use disorder—deadly combination.",
+        "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed for anxiety, panic disorder, and seizures. Duration 6-12 hours, long half-life (30-40 hours) means effects accumulate. More potent than diazepam. High abuse potential. Widely prescribed and frequently diverted. Known for causing severe dependence and difficult withdrawal.",
+        "origins": "Developed by Hoffmann-La Roche, introduced 1975. FDA-approved for seizures, panic disorder. Became widely prescribed for anxiety despite recommendations for short-term use only. Generic versions available. Schedule IV controlled substance. Common in medical settings and street markets. Often prescribed long-term despite addiction risks.",
+        "uses": "Medical: Panic disorder, anxiety disorders, seizure disorders (especially absence seizures), akathisia, acute mania. Typical dose 0.5-2mg for anxiety, up to 20mg for seizures. Duration 6-12 hours. Recreational/diverted: Anxiety relief, sedation, euphoria (mild), sleep aid, potentiating opioids (dangerous), managing stimulant comedowns. Popular among those with anxiety or opioid use disorder.",
+        "dangers": "Severe physical dependence—withdrawal can be FATAL (seizures, delirium). Long half-life means effects accumulate and withdrawal delayed. Cognitive impairment, memory issues, 'benzo fog.' Respiratory depression when combined with opioids/alcohol—FATAL. Blackouts, amnesia at higher doses. Dangerous driving impairment. Tolerance develops. Extremely difficult withdrawal (worse than many benzos due to long half-life). Counterfeit Klonopin may contain other benzos, RC benzos, or fentanyl.",
         "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
-          "erowid": "https://www.erowid.org/pharms/diazepam/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
+          "wikipedia": "https://en.wikipedia.org/wiki/Clonazepam",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Clonazepam"
         },
         "scientific_papers": [
           {
-            "title": "Diazepam: a review of its pharmacological properties and therapeutic efficacy",
-            "authors": "Shader RI, Greenblatt DJ",
-            "journal": "Drugs",
+            "title": "Clonazepam in panic disorder: Clinical efficacy and withdrawal",
+            "authors": "Pollack MH, et al.",
+            "journal": "Journal of Clinical Psychiatry",
             "year": 1993,
-            "summary": "Comprehensive review of diazepam's pharmacology, clinical uses, and safety profile"
-          },
-          {
-            "title": "Benzodiazepine withdrawal: outcome in 50 patients",
-            "authors": "Rickels K, et al.",
-            "journal": "British Journal of Addiction",
-            "year": 1990,
-            "summary": "Clinical study documenting withdrawal syndrome from long-term diazepam use"
-          },
-          {
-            "title": "Long-term benzodiazepine use and cognitive decline",
-            "authors": "Billioti de Gage S, et al.",
-            "journal": "BMJ",
-            "year": 2014,
-            "summary": "Study showing association between benzodiazepine use and increased dementia risk"
+            "summary": "Study of clonazepam efficacy and dependence issues"
           }
         ]
       },
       "forms": [
-        "tablet",
         "pill"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
             0,
             60
           ],
-          "alt": "no reaction"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#00000000",
-          "window_s": [
-            0,
-            60
-          ],
-          "alt": "no reaction"
+          "alt": "no color change (benzodiazepines don't react)"
         }
       ],
       "notes": [
-        "Valium. Long-acting benzo. No reagent reactions. Counterfeit pills common in some regions."
+        "Klonopin. Long-acting benzo (6-12 hr effects, 30-40 hr half-life). Benzos show NO reagent reaction. Effects accumulate over days. Withdrawal FATAL—never stop cold turkey. More potent than Valium. Very difficult withdrawal due to long half-life. Often diverted. Counterfeit pills may contain RC benzos or fentanyl. Never combine with opioids or alcohol."
+      ]
+    },
+    "Diazepam": {
+      "class": "benzodiazepine (pharmaceutical)",
+      "description": {
+        "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed (1963) and still widely used. Long half-life (20-100 hours including active metabolites) provides sustained effects. Less potent than alprazolam—10mg diazepam ≈ 0.5mg alprazolam. Common in medical settings. High abuse and diversion potential.",
+        "origins": "Synthesized by Leo Sternbach at Hoffmann-La Roche in 1959, marketed 1963. Became one of most prescribed medications globally by 1970s. Cultural icon—'mother's little helper' (Rolling Stones song 1966). Widely prescribed for anxiety, muscle spasms, seizures. Schedule IV controlled substance. Generic since patent expiration. Still extensively prescribed despite newer benzos. Common diversion and black market availability.",
+        "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizures (status epilepticus), alcohol withdrawal (detox protocol), pre-surgical sedation. Typical dose 2-10mg for anxiety, up to 40mg for alcohol withdrawal. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (mild), sleep aid, potentiating other drugs. Duration 6-8 hours but metabolites active 20-100 hours. Popular for comedowns from stimulants.",
+        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, delirium). Long half-life means withdrawal symptoms delayed 2-7 days after stopping, lasting weeks. Respiratory depression when combined with opioids, alcohol, or other CNS depressants. Cognitive impairment, memory issues ('benzo fog'). Blackouts at higher doses. Dangerous driving impairment. Tolerance develops. Paradoxical reactions (increased anxiety, aggression). Elderly at high risk for falls, confusion, cognitive decline. Long-term use linked to dementia. Counterfeit Valium may contain other substances.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Diazepam: 50 years of clinical use",
+            "authors": "Griffin CE, et al.",
+            "journal": "Pharmacotherapy",
+            "year": 2013,
+            "summary": "Comprehensive review of diazepam's 50-year history in medicine"
+          }
+        ]
+      },
+      "forms": [
+        "pill"
+      ],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "no_reaction",
+          "window_s": [
+            0,
+            60
+          ],
+          "alt": "no color change (benzodiazepines don't react)"
+        }
+      ],
+      "notes": [
+        "Valium. Classic long-acting benzo. Benzodiazepines show NO reagent reaction. Pharmaceutical pills should match databases exactly. Long half-life (20-100 hours with metabolites) means effects last much longer than dose suggests. Less potent than Xanax (10mg Valium = 0.5mg Xanax). Withdrawal FATAL—never stop cold turkey. Common in medical detox protocols. Often diverted. Never combine with opioids or alcohol."
       ]
     },
     "Etizolam": {
-      "class": "thienodiazepine (benzo analogue)",
+      "class": "thienodiazepine (benzodiazepine analogue)",
       "description": {
-        "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
-        "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
-        "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
-        "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination.",
+        "overview": "Etizolam is a thienodiazepine, chemically related to benzodiazepines but not technically a benzodiazepine. Produces similar effects: anxiety relief, sedation, muscle relaxation, amnesia. Prescribed in Japan, India, and Italy but not FDA-approved in US. Widely available as research chemical. Frequently found in counterfeit Xanax bars and sold as 'legal' benzo alternative. Shorter half-life than most benzos (6-8 hours). Potency similar to alprazolam (Xanax). Extremely addictive with dangerous withdrawal.",
+        "origins": "First synthesized in Japan in 1980s. Approved as prescription medication in Japan, India, and Italy for anxiety and sleep disorders. Remained obscure in West until 2010s research chemical boom. Became popular as 'legal' benzodiazepine alternative in countries where it's unscheduled. Exploded in popularity 2015-present as Xanax substitute. Frequently pressed into fake Xanax bars. Scheduled in many US states and some countries but remains unscheduled federally in US (as of 2024). Easy online availability. Often combined with opioids (dangerous). Popular in hip-hop/SoundCloud rap culture.",
+        "uses": "Medical (Japan/India/Italy): Anxiety disorders, insomnia, panic attacks. Typical therapeutic dose 0.5-2mg. Recreational/self-medication: Anxiety relief, sedation, euphoria (some users), sleep aid, alcohol-like intoxication. Typical recreational dose 1-4mg. Duration 5-8 hours. Popular among those seeking Xanax effects legally or cheaply. Often combined with opioids (extremely dangerous—respiratory depression). Blacked-out behavior and amnesia common at higher doses. Some users compulsively redose. Pressed into fake Xanax bars—users often don't know they're taking etizolam.",
+        "dangers": "SEVERE ADDICTION AND WITHDRAWAL: Physical dependence develops rapidly (days to weeks). Withdrawal can be FATAL—seizures, delirium tremens, psychosis. NEVER stop abruptly after regular use—taper required. Respiratory depression when combined with opioids, alcohol, or other CNS depressants—many deaths. Blackouts and amnesia common—users wake up in jail, hospitals, or worse with no memory. Compulsive redosing while blacked out. Disinhibition leads to dangerous behavior. Impaired driving. Found in counterfeit Xanax—users don't know what they're taking or dosing. Tolerance develops quickly. Often adulterated with fentanyl in pressed pills. Harm reduction extremely difficult due to blackouts.",
         "links": {
           "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
-          "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml",
           "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
         },
         "scientific_papers": [
           {
-            "title": "Etizolam and benzodiazepine differentiation in urine",
-            "authors": "Manchester KR, et al.",
-            "journal": "Journal of Analytical Toxicology",
-            "year": 2012,
-            "summary": "Analytical study on detecting etizolam as emerging benzodiazepine analogue"
+            "title": "Etizolam and flualprazolam in counterfeit pharmaceuticals",
+            "authors": "Carpenter JE, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2021,
+            "summary": "Analysis of etizolam prevalence in fake Xanax pills seized by law enforcement"
           },
           {
-            "title": "Etizolam: a review of pharmacology, clinical efficacy, and tolerability",
-            "authors": "Lodhi A, Kaur J",
-            "journal": "Reviews on Recent Clinical Trials",
-            "year": 2020,
-            "summary": "Comprehensive review of etizolam's effects, medical uses, and side effects"
+            "title": "Etizolam dependence and withdrawal",
+            "authors": "Gupta S, et al.",
+            "journal": "Addiction",
+            "year": 2018,
+            "summary": "Case reports of severe etizolam withdrawal syndrome"
           },
           {
-            "title": "Designer benzodiazepines: a new challenge",
+            "title": "Designer benzodiazepines: An emerging threat",
             "authors": "Manchester KR, et al.",
             "journal": "Drug Testing and Analysis",
             "year": 2018,
-            "summary": "Review of etizolam and other research chemical benzos entering the illicit market"
+            "summary": "Review of etizolam and other RC benzos in drug supply"
           }
         ]
       },
       "forms": [
         "pill",
-        "blotter",
-        "powder"
+        "powder",
+        "blotter"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
             0,
             60
           ],
-          "alt": "no reaction"
+          "alt": "no color change"
         },
         {
           "reagent": "mecke",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
             0,
             60
           ],
-          "alt": "no reaction"
+          "alt": "no color change"
         }
       ],
       "notes": [
-        "Research chemical benzo analogue. No reagent reactions. Legal status varies; sold as 'research chemical' or pressed into fake pharma pills."
-      ]
+        "CRITICAL: Benzodiazepines and analogues (including etizolam) do NOT react with standard colorimetric reagents. No color change = cannot confirm or rule out benzos. Frequently found in COUNTERFEIT XANAX BARS. Withdrawal can be FATAL—never stop cold turkey. Test pills with fentanyl strips—fake bars often contain fentanyl. Verify pharmaceutical pills with pill ID databases. Etizolam blacked-out behavior extremely common. Not technically a benzodiazepine but acts like one. Legal status varies by region."
+      ],
+      "other_methods": {
+        "fentanyl_strips": {
+          "summary": "MANDATORY for any pressed benzo pills. Fake Xanax frequently contains fentanyl.",
+          "confidence": "critical"
+        },
+        "pill_databases": {
+          "summary": "Etizolam rarely comes in pharmaceutical pills in US. If pill looks like Xanax but isn't from YOUR prescription, likely fake containing etizolam, flualprazolam, or fentanyl.",
+          "confidence": "high"
+        }
+      }
     },
     "Flualprazolam": {
       "class": "benzodiazepine (designer)",
       "description": {
-        "overview": "Flualprazolam is a designer benzodiazepine (research chemical) that's significantly more potent than alprazolam (Xanax). Never approved for medical use. Primarily found in counterfeit 'Xanax' bars pressed by illegal manufacturers. Longer-lasting and more sedating than real alprazolam. Causes profound blackouts and amnesia at recreational doses. Extremely dangerous.",
-        "origins": "Synthesized as research chemical, never studied for medical use. Appeared on darknet markets and research chemical vendors around 2016-2017. Quickly became popular adulterant in fake Xanax bars because it's cheap, potent, and produces benzo-like effects. No legitimate pharmaceutical use—purely illicit production. Often manufactured in China and imported by illegal pill pressers.",
-        "uses": "No medical use. Illicit: Found in counterfeit Xanax bars (often labeled as 'alprazolam 2mg' but actually contain flualprazolam). Also sold as blotter or powder on research chemical markets. Effects: Intense sedation, anxiety relief, muscle relaxation, amnesia. Much stronger than alprazolam mg-for-mg. Duration 10-14 hours (vs Xanax 6-12 hours). Users often take what they think is regular Xanax but get unexpectedly powerful effects.",
-        "dangers": "EXTREMELY DANGEROUS. Much more potent than alprazolam—easy to overdose when sold as 'Xanax.' Causes severe blackouts lasting 12+ hours with total amnesia. Users engage in dangerous behavior with no memory. Physical dependence develops RAPIDLY (days to weeks). Withdrawal can be FATAL (seizures). Often combined with fentanyl in pressed pills—LETHAL combination. Overdose causes profound sedation, respiratory depression (especially with other depressants), coma. No quality control—dosage unpredictable. Some 'Xanax' bars contain 3-5mg flualprazolam (equivalent to 6-10mg+ alprazolam). Cannot be distinguished from real Xanax by appearance. Reagent tests don't work. Long half-life means effects persist dangerously long. Reports of users blacking out for entire weekends. Legal consequences: still driving, operating machinery during blackout.",
+        "overview": "Flualprazolam is an extremely potent designer benzodiazepine, ~2x stronger than alprazolam (Xanax). Not approved for medical use anywhere. Produces intense sedation, amnesia, and muscle relaxation. Longer duration than Xanax (8-12 hours). Frequently found in counterfeit Xanax bars. Causes severe blackouts and compulsive redosing. Extremely addictive with life-threatening withdrawal. One of most dangerous research chemical benzos.",
+        "origins": "Research chemical first appearing on online markets around 2017-2018. Never approved for medical use. Specifically designed as more potent Xanax alternative. Rapidly gained popularity in RC benzo scene. Frequently pressed into fake Xanax bars (often alongside etizolam or fentanyl). Seized in large quantities by law enforcement. Emergency scheduling in many jurisdictions 2020-2021. China production. Still widely available despite scheduling. Became notorious for extreme blackouts and dangerous behavior.",
+        "uses": "No medical use. Recreational/self-medication: Extreme anxiety relief, sedation, sleep aid, Xanax-like effects but stronger and longer. Typical dose 0.5-1mg (very potent—compare to Xanax 1-2mg). Duration 8-12 hours. Mostly consumed unknowingly in fake Xanax bars. Intentional use among RC benzo community. Extreme blackouts common—users report losing entire days. Compulsive redosing while blacked out. Often combined with opioids (deadly). Popular in addiction and poly-substance use contexts.",
+        "dangers": "EXTREME DANGER: Ultra-potent—easy to overdose. Severe blackouts lasting 12-24+ hours—users wake up in jail, hospitals, with no memory of actions. Compulsive redosing during blackouts leads to massive doses. Respiratory depression when combined with opioids/alcohol—FATAL. Physical dependence develops extremely rapidly. Withdrawal can be FATAL—seizures, delirium, death. NEVER stop cold turkey—medical taper required. Disinhibition causes dangerous, criminal behavior. Found in fake Xanax bars—users don't know dosage or what they're taking. Often contains fentanyl as well. Tolerance builds fast. Harm reduction nearly impossible due to blackout potential.",
         "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Flualprazolam",
-          "erowid": "https://www.erowid.org/experiences/subs/exp_Flualprazolam.shtml",
           "psychonautwiki": "https://psychonautwiki.org/wiki/Flualprazolam"
         },
         "scientific_papers": [
           {
-            "title": "Flualprazolam: report of an analytical challenge and prevalence in drug seizures",
-            "authors": "Papsun D, et al.",
-            "journal": "Journal of Analytical Toxicology",
-            "year": 2019,
-            "summary": "Documentation of flualprazolam in counterfeit pills and analytical detection challenges"
-          },
-          {
-            "title": "Designer benzodiazepines: a review of toxicology and public health risks",
-            "authors": "Zawilska JB, Wojcieszak J",
-            "journal": "Forensic Toxicology",
-            "year": 2019,
-            "summary": "Review of flualprazolam and other designer benzos as emerging public health threat"
-          },
-          {
-            "title": "Counterfeit medications containing designer benzodiazepines: a new threat",
-            "authors": "Hoiseth G, et al.",
-            "journal": "Clinical Toxicology",
+            "title": "Flualprazolam: A new designer benzodiazepine",
+            "authors": "Coppola M, et al.",
+            "journal": "Forensic Science International",
             "year": 2020,
-            "summary": "Case reports of overdoses from flualprazolam in fake Xanax pills"
+            "summary": "First forensic analysis of flualprazolam in counterfeit pharmaceuticals"
+          },
+          {
+            "title": "Designer benzodiazepines and their prevalence in drug-facilitated crimes",
+            "authors": "Moosmann B, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2021,
+            "summary": "Study showing flualprazolam in fake Xanax and associated with blackouts/crimes"
           }
         ]
       },
       "forms": [
-        "pressed pill",
-        "blotter",
-        "powder"
+        "pill (counterfeit)",
+        "powder",
+        "blotter"
       ],
       "testing": [
         {
           "reagent": "marquis",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
             0,
             60
           ],
-          "alt": "no reaction"
+          "alt": "no color change"
         },
         {
           "reagent": "mecke",
-          "color": "#00000000",
+          "color": "no_reaction",
           "window_s": [
             0,
             60
           ],
-          "alt": "no reaction"
+          "alt": "no color change"
         }
       ],
       "notes": [
-        "Designer benzo found in fake Xanax bars. Very potent. No reagent reactions. Often mixed with fentanyl in pressed pills."
+        "EXTREME DANGER: ~2x more potent than Xanax, longer duration, extreme blackouts. Benzodiazepines show NO reagent reaction—cannot test with colorimetric reagents. Frequently in FAKE XANAX BARS. Test with fentanyl strips—often contains fentanyl. Withdrawal can be FATAL. Compulsive redosing during blackouts common—users take entire bottles unknowingly. If pill looks like Xanax but isn't from YOUR prescription at pharmacy, assume it's fake containing flualprazolam, etizolam, or fentanyl. DO NOT mix with opioids or alcohol—respiratory depression FATAL."
       ],
       "other_methods": {
         "fentanyl_strips": {
-          "summary": "Test pressed pills for fentanyl contamination.",
+          "summary": "CRITICAL for any street Xanax bars. Many fake bars contain fentanyl in addition to flualprazolam.",
+          "confidence": "critical"
+        },
+        "pill_verification": {
+          "summary": "Flualprazolam not approved anywhere—all pills are counterfeit. If it looks like Xanax but isn't pharmaceutical, it's fake.",
           "confidence": "high"
         }
       }
@@ -2893,24 +2831,36 @@
           }
         ]
       },
-      "forms": ["pill", "powder"],
+      "forms": [
+        "pill",
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#9370DB",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "purple"
         },
         {
           "reagent": "mecke",
           "color": "#0e7c61",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "blue-green"
         },
         {
           "reagent": "mandelin",
           "color": "#4B0082",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "brown"
         }
       ],
@@ -2964,18 +2914,27 @@
           }
         ]
       },
-      "forms": ["pill", "liquid"],
+      "forms": [
+        "pill",
+        "liquid"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#9370DB",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "purple to purple-brown"
         },
         {
           "reagent": "mecke",
           "color": "#0e7c61",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green-blue"
         }
       ],
@@ -3026,30 +2985,46 @@
           }
         ]
       },
-      "forms": ["powder", "crystal", "pill"],
+      "forms": [
+        "powder",
+        "crystal",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange (similar to amphetamine, NOT purple like MDMA)"
         },
         {
           "reagent": "mecke",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange"
         },
         {
           "reagent": "mandelin",
           "color": "#808080",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange to brown"
         },
         {
           "reagent": "simons",
           "color": "no_reaction",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "NO blue color (unlike MDMA which turns blue)"
         }
       ],
@@ -3100,24 +3075,36 @@
           }
         ]
       },
-      "forms": ["powder", "crystal"],
+      "forms": [
+        "powder",
+        "crystal"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange to yellow"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to green"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         }
       ],
@@ -3162,24 +3149,36 @@
           }
         ]
       },
-      "forms": ["powder", "crystal"],
+      "forms": [
+        "powder",
+        "crystal"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -3224,30 +3223,46 @@
           }
         ]
       },
-      "forms": ["powder", "crystal", "pill"],
+      "forms": [
+        "powder",
+        "crystal",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange (NOT purple like MDMA)"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         },
         {
           "reagent": "simons",
           "color": "no_reaction",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "NO blue color (unlike MDMA which turns blue)"
         }
       ],
@@ -3258,80 +3273,6 @@
         "comparison_to_mdma": {
           "summary": "Simon's test is KEY. MDMA turns blue, methylone does NOT. Marquis: MDMA purple-black, methylone yellow-orange.",
           "confidence": "high"
-        }
-      }
-    },
-    "Amphetamine": {
-      "class": "phenethylamine (stimulant)",
-      "description": {
-        "overview": "Amphetamine (alpha-methylphenethylamine) is a central nervous system stimulant used medically to treat ADHD and narcolepsy. Racemic mixture or pure dextroamphetamine (d-amphetamine). Main component of Adderall (mixed amphetamine salts). Produces increased focus, energy, wakefulness, and euphoria. Commonly diverted for academic performance enhancement and recreational use. Street name 'speed.' Less potent than methamphetamine but similar effects. Widely prescribed and widely abused.",
-        "origins": "First synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not recognized. Rediscovered in 1920s. Benzedrine inhaler (racemic amphetamine) marketed 1933 for nasal congestion—users discovered stimulant effects. Widely used by military in WWII (both Allied and Axis forces) to combat fatigue. Became popular in 1950s-60s for weight loss and energy. Scheduled as controlled substance 1971. Adderall (mixed amphetamine salts) introduced 1996 for ADHD. Now Schedule II in US. Street 'speed' paste common in Europe; diverted Adderall common in US.",
-        "uses": "Medical: ADHD treatment (Adderall, Dexedrine), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD. Typical therapeutic dose 5-40mg daily. Recreational/Academic: Cognitive enhancement ('smart drug'), studying aid, increased energy and focus, euphoria, weight loss. Popular among college students during exams ('Adderall abuse'). Street speed (paste or powder) snorted or taken orally. Typical recreational dose 10-50mg. Duration 4-6 hours (immediate release) or 8-12 hours (extended release).",
-        "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke especially with pre-existing conditions. Abuse potential significant—tolerance and psychological dependence develop. Neurotoxicity at high doses (dopamine depletion). Psychosis, paranoia, hallucinations with chronic high-dose use. Appetite suppression leads to malnutrition with chronic use. Insomnia, anxiety, irritability. Compulsive behaviors (picking skin, repetitive tasks). Severe comedown: fatigue, depression, cognitive impairment. Withdrawal: extreme fatigue, depression, increased appetite, sleeping for days. IV use carries infection risks. Nasal damage from snorting. Counterfeit Adderall pills may contain methamphetamine or other substances. Mixing with alcohol or other stimulants dangerous.",
-        "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
-          "erowid": "https://www.erowid.org/chemicals/amphetamines/",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Amphetamine"
-        },
-        "scientific_papers": [
-          {
-            "title": "Amphetamine for ADHD: Efficacy and safety",
-            "authors": "Faraone SV, Glatt SJ",
-            "journal": "Expert Review of Neurotherapeutics",
-            "year": 2010,
-            "doi": "10.1586/ern.10.6",
-            "summary": "Review of amphetamine's therapeutic efficacy and safety profile in ADHD treatment"
-          },
-          {
-            "title": "Cognitive enhancement with stimulants: Systematic review",
-            "authors": "Smith ME, Farah MJ",
-            "journal": "Psychological Bulletin",
-            "year": 2011,
-            "summary": "Analysis of amphetamine use for cognitive enhancement in healthy individuals"
-          },
-          {
-            "title": "Amphetamine abuse among college students",
-            "authors": "Teter CJ, et al.",
-            "journal": "Journal of American College Health",
-            "year": 2006,
-            "summary": "Survey study documenting widespread amphetamine misuse in academic settings"
-          }
-        ]
-      },
-      "forms": ["pill", "powder", "paste"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [20, 60],
-          "alt": "orange to brown"
-        },
-        {
-          "reagent": "mecke",
-          "color": "#808080",
-          "window_s": [20, 60],
-          "alt": "dark yellow to brown"
-        },
-        {
-          "reagent": "mandelin",
-          "color": "#FF8C00",
-          "window_s": [20, 60],
-          "alt": "orange"
-        },
-        {
-          "reagent": "simons",
-          "color": "no_reaction",
-          "window_s": [60, 120],
-          "alt": "NO blue color (primary amine—only secondary amines like MDMA turn blue)"
-        }
-      ],
-      "notes": [
-        "Speed, Adderall. Base stimulant—similar to methamphetamine but less potent. Reagent tests CANNOT reliably distinguish amphetamine from methamphetamine (both orange with Marquis, no Simon's blue). Both are primary amines. Lab testing (GC/MS) required for definitive distinction. Pharmaceutical Adderall pills should match pill ID databases. Street 'speed' paste (common in Europe) is often amphetamine sulfate. Counterfeit Adderall may contain meth or other substances—test pressed pills."
-      ],
-      "other_methods": {
-        "meth_distinction": {
-          "summary": "Reagent tests cannot distinguish amphetamine from methamphetamine. Both give orange Marquis, no Simon's blue. Need lab testing (GC/MS) for definitive ID. Effects: Meth more potent, longer duration, more euphoric.",
-          "confidence": "low"
         }
       }
     },
@@ -3363,30 +3304,46 @@
           }
         ]
       },
-      "forms": ["powder", "crystal", "pill"],
+      "forms": [
+        "powder",
+        "crystal",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange (NOT purple like MDMA)"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         },
         {
           "reagent": "simons",
           "color": "no_reaction",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "NO blue color (unlike MDMA which turns blue)"
         }
       ],
@@ -3428,30 +3385,46 @@
           }
         ]
       },
-      "forms": ["powder", "crystal", "pill"],
+      "forms": [
+        "powder",
+        "crystal",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange (NOT purple like MDMA)"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         },
         {
           "reagent": "simons",
           "color": "no_reaction",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "NO blue color (unlike MDMA which turns blue)"
         }
       ],
@@ -3502,144 +3475,32 @@
           }
         ]
       },
-      "forms": ["pill (capsule)"],
+      "forms": [
+        "pill (capsule)"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange (metabolizes to d-amphetamine which gives orange reaction)"
         },
         {
           "reagent": "mandelin",
           "color": "#FF8C00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         }
       ],
       "notes": [
         "Vyvanse. Prodrug converted to d-amphetamine in body. Cannot be effectively snorted or injected (requires metabolism). Pharmaceutical capsules should match pill ID databases exactly. Reagent tests show amphetamine-like reactions (orange) after metabolism. Longer-acting than Adderall (10-14 hours). Lower abuse potential but still diverted. Counterfeit Vyvanse rare but possible—verify pharmaceutical source. One of most prescribed ADHD medications."
       ]
-    },
-    "Etizolam": {
-      "class": "thienodiazepine (benzodiazepine analogue)",
-      "description": {
-        "overview": "Etizolam is a thienodiazepine, chemically related to benzodiazepines but not technically a benzodiazepine. Produces similar effects: anxiety relief, sedation, muscle relaxation, amnesia. Prescribed in Japan, India, and Italy but not FDA-approved in US. Widely available as research chemical. Frequently found in counterfeit Xanax bars and sold as 'legal' benzo alternative. Shorter half-life than most benzos (6-8 hours). Potency similar to alprazolam (Xanax). Extremely addictive with dangerous withdrawal.",
-        "origins": "First synthesized in Japan in 1980s. Approved as prescription medication in Japan, India, and Italy for anxiety and sleep disorders. Remained obscure in West until 2010s research chemical boom. Became popular as 'legal' benzodiazepine alternative in countries where it's unscheduled. Exploded in popularity 2015-present as Xanax substitute. Frequently pressed into fake Xanax bars. Scheduled in many US states and some countries but remains unscheduled federally in US (as of 2024). Easy online availability. Often combined with opioids (dangerous). Popular in hip-hop/SoundCloud rap culture.",
-        "uses": "Medical (Japan/India/Italy): Anxiety disorders, insomnia, panic attacks. Typical therapeutic dose 0.5-2mg. Recreational/self-medication: Anxiety relief, sedation, euphoria (some users), sleep aid, alcohol-like intoxication. Typical recreational dose 1-4mg. Duration 5-8 hours. Popular among those seeking Xanax effects legally or cheaply. Often combined with opioids (extremely dangerous—respiratory depression). Blacked-out behavior and amnesia common at higher doses. Some users compulsively redose. Pressed into fake Xanax bars—users often don't know they're taking etizolam.",
-        "dangers": "SEVERE ADDICTION AND WITHDRAWAL: Physical dependence develops rapidly (days to weeks). Withdrawal can be FATAL—seizures, delirium tremens, psychosis. NEVER stop abruptly after regular use—taper required. Respiratory depression when combined with opioids, alcohol, or other CNS depressants—many deaths. Blackouts and amnesia common—users wake up in jail, hospitals, or worse with no memory. Compulsive redosing while blacked out. Disinhibition leads to dangerous behavior. Impaired driving. Found in counterfeit Xanax—users don't know what they're taking or dosing. Tolerance develops quickly. Often adulterated with fentanyl in pressed pills. Harm reduction extremely difficult due to blackouts.",
-        "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
-        },
-        "scientific_papers": [
-          {
-            "title": "Etizolam and flualprazolam in counterfeit pharmaceuticals",
-            "authors": "Carpenter JE, et al.",
-            "journal": "Drug and Alcohol Dependence",
-            "year": 2021,
-            "summary": "Analysis of etizolam prevalence in fake Xanax pills seized by law enforcement"
-          },
-          {
-            "title": "Etizolam dependence and withdrawal",
-            "authors": "Gupta S, et al.",
-            "journal": "Addiction",
-            "year": 2018,
-            "summary": "Case reports of severe etizolam withdrawal syndrome"
-          },
-          {
-            "title": "Designer benzodiazepines: An emerging threat",
-            "authors": "Manchester KR, et al.",
-            "journal": "Drug Testing and Analysis",
-            "year": 2018,
-            "summary": "Review of etizolam and other RC benzos in drug supply"
-          }
-        ]
-      },
-      "forms": ["pill", "powder", "blotter"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change"
-        },
-        {
-          "reagent": "mecke",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change"
-        }
-      ],
-      "notes": [
-        "CRITICAL: Benzodiazepines and analogues (including etizolam) do NOT react with standard colorimetric reagents. No color change = cannot confirm or rule out benzos. Frequently found in COUNTERFEIT XANAX BARS. Withdrawal can be FATAL—never stop cold turkey. Test pills with fentanyl strips—fake bars often contain fentanyl. Verify pharmaceutical pills with pill ID databases. Etizolam blacked-out behavior extremely common. Not technically a benzodiazepine but acts like one. Legal status varies by region."
-      ],
-      "other_methods": {
-        "fentanyl_strips": {
-          "summary": "MANDATORY for any pressed benzo pills. Fake Xanax frequently contains fentanyl.",
-          "confidence": "critical"
-        },
-        "pill_databases": {
-          "summary": "Etizolam rarely comes in pharmaceutical pills in US. If pill looks like Xanax but isn't from YOUR prescription, likely fake containing etizolam, flualprazolam, or fentanyl.",
-          "confidence": "high"
-        }
-      }
-    },
-    "Flualprazolam": {
-      "class": "benzodiazepine (designer)",
-      "description": {
-        "overview": "Flualprazolam is an extremely potent designer benzodiazepine, ~2x stronger than alprazolam (Xanax). Not approved for medical use anywhere. Produces intense sedation, amnesia, and muscle relaxation. Longer duration than Xanax (8-12 hours). Frequently found in counterfeit Xanax bars. Causes severe blackouts and compulsive redosing. Extremely addictive with life-threatening withdrawal. One of most dangerous research chemical benzos.",
-        "origins": "Research chemical first appearing on online markets around 2017-2018. Never approved for medical use. Specifically designed as more potent Xanax alternative. Rapidly gained popularity in RC benzo scene. Frequently pressed into fake Xanax bars (often alongside etizolam or fentanyl). Seized in large quantities by law enforcement. Emergency scheduling in many jurisdictions 2020-2021. China production. Still widely available despite scheduling. Became notorious for extreme blackouts and dangerous behavior.",
-        "uses": "No medical use. Recreational/self-medication: Extreme anxiety relief, sedation, sleep aid, Xanax-like effects but stronger and longer. Typical dose 0.5-1mg (very potent—compare to Xanax 1-2mg). Duration 8-12 hours. Mostly consumed unknowingly in fake Xanax bars. Intentional use among RC benzo community. Extreme blackouts common—users report losing entire days. Compulsive redosing while blacked out. Often combined with opioids (deadly). Popular in addiction and poly-substance use contexts.",
-        "dangers": "EXTREME DANGER: Ultra-potent—easy to overdose. Severe blackouts lasting 12-24+ hours—users wake up in jail, hospitals, with no memory of actions. Compulsive redosing during blackouts leads to massive doses. Respiratory depression when combined with opioids/alcohol—FATAL. Physical dependence develops extremely rapidly. Withdrawal can be FATAL—seizures, delirium, death. NEVER stop cold turkey—medical taper required. Disinhibition causes dangerous, criminal behavior. Found in fake Xanax bars—users don't know dosage or what they're taking. Often contains fentanyl as well. Tolerance builds fast. Harm reduction nearly impossible due to blackout potential.",
-        "links": {
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Flualprazolam"
-        },
-        "scientific_papers": [
-          {
-            "title": "Flualprazolam: A new designer benzodiazepine",
-            "authors": "Coppola M, et al.",
-            "journal": "Forensic Science International",
-            "year": 2020,
-            "summary": "First forensic analysis of flualprazolam in counterfeit pharmaceuticals"
-          },
-          {
-            "title": "Designer benzodiazepines and their prevalence in drug-facilitated crimes",
-            "authors": "Moosmann B, et al.",
-            "journal": "Drug Testing and Analysis",
-            "year": 2021,
-            "summary": "Study showing flualprazolam in fake Xanax and associated with blackouts/crimes"
-          }
-        ]
-      },
-      "forms": ["pill (counterfeit)", "powder", "blotter"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change"
-        },
-        {
-          "reagent": "mecke",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change"
-        }
-      ],
-      "notes": [
-        "EXTREME DANGER: ~2x more potent than Xanax, longer duration, extreme blackouts. Benzodiazepines show NO reagent reaction—cannot test with colorimetric reagents. Frequently in FAKE XANAX BARS. Test with fentanyl strips—often contains fentanyl. Withdrawal can be FATAL. Compulsive redosing during blackouts common—users take entire bottles unknowingly. If pill looks like Xanax but isn't from YOUR prescription at pharmacy, assume it's fake containing flualprazolam, etizolam, or fentanyl. DO NOT mix with opioids or alcohol—respiratory depression FATAL."
-      ],
-      "other_methods": {
-        "fentanyl_strips": {
-          "summary": "CRITICAL for any street Xanax bars. Many fake bars contain fentanyl in addition to flualprazolam.",
-          "confidence": "critical"
-        },
-        "pill_verification": {
-          "summary": "Flualprazolam not approved anywhere—all pills are counterfeit. If it looks like Xanax but isn't pharmaceutical, it's fake.",
-          "confidence": "high"
-        }
-      }
     },
     "3-MeO-PCP": {
       "class": "dissociative (arylcyclohexylamine)",
@@ -3669,18 +3530,27 @@
           }
         ]
       },
-      "forms": ["powder", "crystal"],
+      "forms": [
+        "powder",
+        "crystal"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown (similar to PCP)"
         },
         {
           "reagent": "mandelin",
           "color": "#808080",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "grey to brown"
         }
       ],
@@ -3716,18 +3586,27 @@
           }
         ]
       },
-      "forms": ["powder", "crystal"],
+      "forms": [
+        "powder",
+        "crystal"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange (similar to ketamine/PCP)"
         },
         {
           "reagent": "mandelin",
           "color": "#808080",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "grey to brown"
         }
       ],
@@ -3764,18 +3643,28 @@
           }
         ]
       },
-      "forms": ["pill", "liquid", "injection"],
+      "forms": [
+        "pill",
+        "liquid",
+        "injection"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#9370DB",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "purple (similar to other opioids)"
         },
         {
           "reagent": "mecke",
           "color": "#0e7c61",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "blue-green to green"
         }
       ],
@@ -3812,18 +3701,27 @@
           }
         ]
       },
-      "forms": ["pill", "capsule"],
+      "forms": [
+        "pill",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow (different from typical opioid purple)"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange"
         }
       ],
@@ -3851,24 +3749,36 @@
           }
         ]
       },
-      "forms": ["powder", "pill"],
+      "forms": [
+        "powder",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#4B0082",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "purple to black (similar to MDMA but distinguishable)"
         },
         {
           "reagent": "mecke",
           "color": "#1F1F1F",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "dark to black"
         },
         {
           "reagent": "mandelin",
           "color": "#228B22",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "green (different from MDMA's black)"
         }
       ],
@@ -3896,30 +3806,45 @@
           }
         ]
       },
-      "forms": ["powder", "capsule"],
+      "forms": [
+        "powder",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#4B0082",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "purple to black"
         },
         {
           "reagent": "mecke",
           "color": "#1F1F1F",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "dark to black"
         },
         {
           "reagent": "mandelin",
           "color": "#228B22",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "green"
         },
         {
           "reagent": "simons",
           "color": "#0000FF",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "blue (secondary amine like MDMA)"
         }
       ],
@@ -3955,12 +3880,18 @@
           }
         ]
       },
-      "forms": ["pill", "injection"],
+      "forms": [
+        "pill",
+        "injection"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change (benzodiazepines don't react)"
         }
       ],
@@ -4004,12 +3935,17 @@
           }
         ]
       },
-      "forms": ["pill"],
+      "forms": [
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFFF00",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "yellow to orange"
         }
       ],
@@ -4038,18 +3974,27 @@
           }
         ]
       },
-      "forms": ["pill", "capsule"],
+      "forms": [
+        "pill",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange to brown"
         },
         {
           "reagent": "mandelin",
           "color": "#FF8C00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "orange"
         }
       ],
@@ -4086,12 +4031,17 @@
           }
         ]
       },
-      "forms": ["gas"],
+      "forms": [
+        "gas"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "not_applicable",
-          "window_s": [0, 0],
+          "window_s": [
+            0,
+            0
+          ],
           "alt": "N/A - cannot test gas with reagents"
         }
       ],
@@ -4126,18 +4076,27 @@
           }
         ]
       },
-      "forms": ["powder", "pill"],
+      "forms": [
+        "powder",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole reaction—confirms tryptamine)"
         },
         {
           "reagent": "hofmann",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (confirms indole)"
         }
       ],
@@ -4165,63 +4124,42 @@
           }
         ]
       },
-      "forms": ["powder", "crystal", "pill"],
+      "forms": [
+        "powder",
+        "crystal",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow to orange (NOT purple like MDMA)"
         },
         {
           "reagent": "mecke",
           "color": "#FFFF00",
-          "window_s": [20, 60],
+          "window_s": [
+            20,
+            60
+          ],
           "alt": "yellow"
         },
         {
           "reagent": "simons",
           "color": "no_reaction",
-          "window_s": [60, 120],
+          "window_s": [
+            60,
+            120
+          ],
           "alt": "NO blue (unlike MDMA which turns blue)"
         }
       ],
       "notes": [
         "bk-MDEA. Less common MDMA substitute (less popular than methylone). Yellow/orange Marquis, NO Simon's blue = cathinone not MDMA. Cannot distinguish ethylone from methylone/eutylone by reagent alone—all cathinones give similar reactions. More stimulating, less empathogenic than MDMA. Shorter duration (2-4 hours) leads to redosing. Often found in pills sold as MDMA. Test to verify."
-      ]
-    },
-    "Diazepam": {
-      "class": "benzodiazepine (pharmaceutical)",
-      "description": {
-        "overview": "Diazepam (Valium) is a long-acting benzodiazepine prescribed for anxiety, muscle spasms, seizures, and alcohol withdrawal. One of the first benzos developed (1963) and still widely used. Long half-life (20-100 hours including active metabolites) provides sustained effects. Less potent than alprazolam—10mg diazepam ≈ 0.5mg alprazolam. Common in medical settings. High abuse and diversion potential.",
-        "origins": "Synthesized by Leo Sternbach at Hoffmann-La Roche in 1959, marketed 1963. Became one of most prescribed medications globally by 1970s. Cultural icon—'mother's little helper' (Rolling Stones song 1966). Widely prescribed for anxiety, muscle spasms, seizures. Schedule IV controlled substance. Generic since patent expiration. Still extensively prescribed despite newer benzos. Common diversion and black market availability.",
-        "uses": "Medical: Anxiety disorders, panic attacks, muscle spasms, seizures (status epilepticus), alcohol withdrawal (detox protocol), pre-surgical sedation. Typical dose 2-10mg for anxiety, up to 40mg for alcohol withdrawal. Recreational: Anxiety relief, sedation, muscle relaxation, euphoria (mild), sleep aid, potentiating other drugs. Duration 6-8 hours but metabolites active 20-100 hours. Popular for comedowns from stimulants.",
-        "dangers": "Physical dependence develops with regular use—withdrawal can be FATAL (seizures, delirium). Long half-life means withdrawal symptoms delayed 2-7 days after stopping, lasting weeks. Respiratory depression when combined with opioids, alcohol, or other CNS depressants. Cognitive impairment, memory issues ('benzo fog'). Blackouts at higher doses. Dangerous driving impairment. Tolerance develops. Paradoxical reactions (increased anxiety, aggression). Elderly at high risk for falls, confusion, cognitive decline. Long-term use linked to dementia. Counterfeit Valium may contain other substances.",
-        "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Diazepam",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Diazepam"
-        },
-        "scientific_papers": [
-          {
-            "title": "Diazepam: 50 years of clinical use",
-            "authors": "Griffin CE, et al.",
-            "journal": "Pharmacotherapy",
-            "year": 2013,
-            "summary": "Comprehensive review of diazepam's 50-year history in medicine"
-          }
-        ]
-      },
-      "forms": ["pill"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change (benzodiazepines don't react)"
-        }
-      ],
-      "notes": [
-        "Valium. Classic long-acting benzo. Benzodiazepines show NO reagent reaction. Pharmaceutical pills should match databases exactly. Long half-life (20-100 hours with metabolites) means effects last much longer than dose suggests. Less potent than Xanax (10mg Valium = 0.5mg Xanax). Withdrawal FATAL—never stop cold turkey. Common in medical detox protocols. Often diverted. Never combine with opioids or alcohol."
       ]
     },
     "4-AcO-DMT": {
@@ -4244,104 +4182,32 @@
           }
         ]
       },
-      "forms": ["powder", "capsule"],
+      "forms": [
+        "powder",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole reaction—confirms tryptamine)"
         },
         {
           "reagent": "hofmann",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple"
         }
       ],
       "notes": [
         "Psilacetin. Psilocybin prodrug—metabolizes to psilocin (active compound in mushrooms). Effects virtually identical to magic mushrooms. Most popular psilocybin RC—considered most accurate substitute. Ehrlich/Hofmann purple confirms tryptamine but CANNOT distinguish from psilocin, 4-HO-MET, or other indoles. Often sold as 'synthetic psilocybin' or mushroom extract. Advantage: precise dosing vs variable mushroom potency. Cross-tolerance with mushrooms and LSD."
-      ]
-    },
-    "DOI": {
-      "class": "phenethylamine (psychedelic amphetamine)",
-      "description": {
-        "overview": "DOI (2,5-dimethoxy-4-iodoamphetamine) is a psychedelic amphetamine from the DOx family. Extremely long duration (16-30 hours), very potent (1-3mg active dose), and highly stimulating. Produces intense visual hallucinations, thought loops, and body load. Can be overwhelming due to long duration. Often sold on blotter tabs like LSD but MUCH longer-lasting.",
-        "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Remained obscure research chemical until 2000s. Sometimes sold as LSD on blotter (dangerous due to extreme duration difference). Less common than DOB or DOC but still encountered. Known for being very long-lasting and stimulating. Popular in psychonaut communities but controversial due to difficult experiences from duration.",
-        "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, music enhancement. Typical dose 1-3mg (very potent). Duration 16-30 hours (exhausting). Not recommended for beginners—extremely long commitment. Some users appreciate deep introspection; others find duration unbearable. Often used for spiritual/therapeutic exploration but requires full day commitment.",
-        "dangers": "EXTREMELY LONG DURATION: 16-30 hours of intense effects can be mentally and physically exhausting. Difficult to sleep even after effects diminish. Vasoconstriction (numbness, cold extremities). Stimulation can cause anxiety, paranoia. Thought loops common. Physically demanding—dehydration, muscle tension. Bad trips last 20+ hours. Often mis-sold as LSD—users expecting 8-12 hours get 24+ hours. Can trigger HPPD. Cross-tolerance with other psychedelics. Dangerous if combined with MAOIs or other drugs.",
-        "links": {
-          "psychonautwiki": "https://psychonautwiki.org/wiki/DOI",
-          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
-        },
-        "scientific_papers": [
-          {
-            "title": "DOI and the DOx family: Pharmacology and neurotoxicity",
-            "authors": "Nichols DE",
-            "journal": "Pharmacology & Therapeutics",
-            "year": 2004,
-            "summary": "Comprehensive review of DOI and related psychedelic amphetamines"
-          }
-        ]
-      },
-      "forms": ["blotter", "powder"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#808080",
-          "window_s": [30, 60],
-          "alt": "dark grey to black"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "no_reaction",
-          "window_s": [60, 180],
-          "alt": "no color change (not an indole)"
-        }
-      ],
-      "notes": [
-        "CRITICAL: 16-30 hour duration—NOT like LSD! Often sold on blotter as 'LSD' but lasts 2-3x longer. Ehrlich NO reaction (phenethylamine not indole) helps distinguish from LSD/indoles. Marquis dark grey/black. Very potent (1-3mg). Extremely stimulating with severe vasoconstriction. Not recommended—overwhelming duration for most users. If you suspect DOI instead of LSD, prepare for 24+ hour experience."
-      ]
-    },
-    "DOM": {
-      "class": "phenethylamine (psychedelic amphetamine)",
-      "description": {
-        "overview": "DOM (2,5-dimethoxy-4-methylamphetamine, STP) is a psychedelic amphetamine with 14-20 hour duration. Less potent than DOI but still very long-lasting and stimulating. Known from 1960s counterculture. Produces strong visual effects and mental stimulation. Can be overwhelming due to duration and stimulant effects.",
-        "origins": "Synthesized by Alexander Shulgin 1963, documented in PiHKAL. Became infamous as 'STP' in late 1960s San Francisco (Serenity, Tranquility, Peace). Distributed at 1967 Summer of Love—many bad trips due to high doses and long duration. Media panic ensued. Became Schedule I 1970. Less common than in 60s but still encountered. Historical significance in psychedelic culture.",
-        "uses": "No medical use. Recreational: Psychedelic visuals, enhanced colors, mental stimulation, body euphoria. Typical dose 3-10mg. Duration 14-20 hours. Used for deep introspection, spiritual experiences. More 'body-oriented' than LSD according to some. Very stimulating—can cause restlessness. Popular in 1960s but now rare. Requires major time commitment.",
-        "dangers": "Very long duration (14-20 hours) physically and mentally taxing. High doses (>10mg) can cause severe confusion, panic, psychosis. Stimulation causes tachycardia, hypertension, vasoconstriction. Insomnia persists after trip. Bad trips extremely difficult due to duration. Historical overdoses in 1960s from street tabs dosed too high. Thought loops, anxiety. Often mis-sold as other substances. Cross-tolerance with other psychedelics.",
-        "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-methylamphetamine",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/DOM",
-          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
-        },
-        "scientific_papers": [
-          {
-            "title": "DOM (STP): A psychedelic amphetamine with historical significance",
-            "authors": "Shulgin AT, Shulgin A",
-            "journal": "PiHKAL",
-            "year": 1991,
-            "summary": "Original documentation of DOM synthesis and effects"
-          }
-        ]
-      },
-      "forms": ["pill", "powder", "blotter"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#FFA500",
-          "window_s": [30, 60],
-          "alt": "orange to brown"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "no_reaction",
-          "window_s": [60, 180],
-          "alt": "no color change (phenethylamine, not indole)"
-        }
-      ],
-      "notes": [
-        "STP. Historical psychedelic from 1960s Summer of Love. 14-20 hour duration—extremely long. Ehrlich negative (not an indole) helps distinguish from LSD. Very stimulating. Less potent than DOI (3-10mg vs 1-3mg) but still long-lasting. Rare nowadays but occasionally encountered. Orange/brown Marquis reaction. Not recommended for beginners due to duration and stimulation."
       ]
     },
     "2C-E": {
@@ -4365,18 +4231,27 @@
           }
         ]
       },
-      "forms": ["powder", "pill"],
+      "forms": [
+        "powder",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#228B22",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green to yellow-green"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change (not indole)"
         }
       ],
@@ -4405,18 +4280,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole reaction—confirms tryptamine)"
         },
         {
           "reagent": "hofmann",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple"
         }
       ],
@@ -4444,18 +4327,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown (similar to PCP)"
         },
         {
           "reagent": "mandelin",
           "color": "#808080",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "grey to brown"
         }
       ],
@@ -4483,12 +4374,19 @@
           }
         ]
       },
-      "forms": ["liquid", "blotter", "pill"],
+      "forms": [
+        "liquid",
+        "blotter",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change (benzodiazepines don't react)"
         }
       ],
@@ -4516,12 +4414,18 @@
           }
         ]
       },
-      "forms": ["pill (counterfeit)", "powder"],
+      "forms": [
+        "pill (counterfeit)",
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change (benzodiazepines don't react)"
         }
       ],
@@ -4565,18 +4469,28 @@
           }
         ]
       },
-      "forms": ["powder (in mixed products)", "pressed pills", "liquid"],
+      "forms": [
+        "powder (in mixed products)",
+        "pressed pills",
+        "liquid"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange (fentanyl-like)"
         },
         {
           "reagent": "mecke",
           "color": "#FFD700",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "yellow-green to brown"
         }
       ],
@@ -4605,18 +4519,27 @@
           }
         ]
       },
-      "forms": ["liquid", "pill"],
+      "forms": [
+        "liquid",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow (different from typical opioid purple)"
         },
         {
           "reagent": "mandelin",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange"
         }
       ],
@@ -4645,91 +4568,24 @@
           }
         ]
       },
-      "forms": ["film", "pill", "patch"],
+      "forms": [
+        "film",
+        "pill",
+        "patch"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow"
         }
       ],
       "notes": [
         "Suboxone/Subutex. Critical MAT medication. DANGER: Causes precipitated withdrawal if taken too soon after full opioid use—wait 12-24+ hours. Partial agonist with ceiling effect but still causes respiratory depression with benzos/alcohol. Long duration (24-72 hrs). Widely diverted. Orange/yellow Marquis (differs from morphine-based opioids). Test with fentanyl strips if source unknown."
-      ]
-    },
-    "DOC": {
-      "class": "phenethylamine (psychedelic amphetamine)",
-      "description": {
-        "overview": "DOC (2,5-dimethoxy-4-chloroamphetamine) is a psychedelic amphetamine with 12-24 hour duration. Most commonly encountered DOx compound. Very potent (1.5-3mg), highly stimulating, strong visuals. Often sold on blotter as 'LSD' but much longer-lasting. Popular in psychonaut communities but controversial due to extreme duration and stimulation.",
-        "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Most popular of DOx series due to more 'balanced' profile than DOI/DOM. Common on research chemical markets 2000s-2010s. Frequently mis-sold as LSD on blotter—duration difference causes problems. Less intense than DOI but still very long. Emergency scheduled in many countries. Still encountered on blotter and as powder.",
-        "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, long introspective experiences. Typical dose 1.5-3mg. Duration 12-24 hours. Used for spiritual/therapeutic exploration. Described as more 'clearheaded' than DOI, less body load than DOM. Still extremely long—requires full day+ commitment. Some users appreciate; others find duration exhausting.",
-        "dangers": "VERY LONG DURATION: 12-24 hours of intense effects physically and mentally taxing. Vasoconstriction severe (numbness, cold extremities, muscle tension). Stimulation causes tachycardia, hypertension, insomnia for 24+ hours. Bad trips last entire day. Often mis-sold as LSD—users expect 8-12 hours get 20+ hours. Thought loops, anxiety, paranoia. Can trigger HPPD. Dangerous with MAOIs. Cross-tolerance with other psychedelics.",
-        "links": {
-          "psychonautwiki": "https://psychonautwiki.org/wiki/DOC",
-          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal062.shtml"
-        },
-        "scientific_papers": [
-          {
-            "title": "DOC and the DOx series: Pharmacology and toxicology",
-            "authors": "Brandt SD, et al.",
-            "journal": "Drug Testing and Analysis",
-            "year": 2017,
-            "summary": "Analysis of DOC as most prevalent DOx compound"
-          }
-        ]
-      },
-      "forms": ["blotter", "powder"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "#808080",
-          "window_s": [30, 60],
-          "alt": "dark grey to black"
-        },
-        {
-          "reagent": "ehrlich",
-          "color": "no_reaction",
-          "window_s": [60, 180],
-          "alt": "no color change (not indole)"
-        }
-      ],
-      "notes": [
-        "Most common DOx compound. 12-24 hour duration—NOT like LSD! Often sold on blotter as LSD but lasts much longer. Ehrlich negative (phenethylamine) helps distinguish from LSD. Very potent (1.5-3mg). Severe vasoconstriction and stimulation. More 'balanced' than DOI/DOM but still overwhelming for most. If you suspect DOC instead of LSD, prepare for 18+ hour experience."
-      ]
-    },
-    "5-MeO-DiPT": {
-      "class": "tryptamine (indole)",
-      "description": {
-        "overview": "5-MeO-DiPT (5-methoxy-N,N-diisopropyltryptamine, Foxy, Foxy Methoxy) is a psychedelic tryptamine with unique effects profile. More tactile/sensory than visual. Known for strong aphrodisiac effects and body sensations. Duration 3-6 hours. Popular in early 2000s rave/party scene. Less common now but still encountered.",
-        "origins": "Synthesized by Alexander Shulgin, documented in TiHKAL 1997. Became popular party drug early 2000s, especially in Japan. Known for sexual/tactile enhancement. Emergency scheduled in US 2004, other countries followed. Peak use 2000-2005. Now less common than peak but still available as RC. Nostalgic significance for those from early 2000s rave scene.",
-        "uses": "No medical use. Recreational: Tactile enhancement, body euphoria, mild visuals, aphrodisiac effects, empathogenic qualities. Typical dose 6-12mg oral, 3-6mg insufflated. Duration 3-6 hours. Popular at raves, parties, intimate settings for sexual/sensory enhancement. Less 'headspace' than classical psychedelics. Some users find it uniquely pleasurable; others experience uncomfortable body sensations.",
-        "dangers": "Nausea very common, especially at higher doses. Uncomfortable body sensations ('weird feeling'). Can cause difficult trips despite less visual intensity. Dosing tricky—small increases cause major effects changes. Some users report lasting sexual dysfunction after use (unverified). Vasoconstriction. Insomnia. Can trigger anxiety, paranoia. Less studied than classical tryptamines—long-term effects unknown. Cross-tolerance with other tryptamines.",
-        "links": {
-          "psychonautwiki": "https://psychonautwiki.org/wiki/5-MeO-DiPT",
-          "erowid": "https://www.erowid.org/library/books_online/tihkal/tihkal28.shtml"
-        },
-        "scientific_papers": [
-          {
-            "title": "5-MeO-DiPT (Foxy): Pharmacology and subjective effects",
-            "authors": "Shulgin AT, Shulgin A",
-            "journal": "TiHKAL",
-            "year": 1997,
-            "summary": "Original documentation of 5-MeO-DiPT synthesis and effects"
-          }
-        ]
-      },
-      "forms": ["powder"],
-      "testing": [
-        {
-          "reagent": "ehrlich",
-          "color": "#9370DB",
-          "window_s": [60, 180],
-          "alt": "purple (indole/tryptamine)"
-        }
-      ],
-      "notes": [
-        "Foxy, Foxy Methoxy. Known for tactile/sexual enhancement more than visuals. Ehrlich purple (tryptamine) but cannot distinguish from other tryptamines. Duration 3-6 hours. Nausea very common. Popular in early 2000s rave scene. Dose-sensitive. Unique effects profile—not like classical psychedelics. Less headspace, more body sensations."
       ]
     },
     "O-PCE": {
@@ -4752,12 +4608,17 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -4785,51 +4646,22 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
       "notes": [
         "Similar to 3-MeO-PCP—manic, stimulating dissociative. Very potent (5-15mg). Cannot distinguish from PCP analogues by reagent. Duration 4-8 hours. Causes delusions of sobriety and poor judgment. Compulsive redosing common. Bladder damage possible. Addiction risk. Not recommended due to mania potential."
-      ]
-    },
-    "Clonazepam": {
-      "class": "benzodiazepine (pharmaceutical)",
-      "description": {
-        "overview": "Clonazepam (Klonopin) is a long-acting benzodiazepine prescribed for anxiety, panic disorder, and seizures. Duration 6-12 hours, long half-life (30-40 hours) means effects accumulate. More potent than diazepam. High abuse potential. Widely prescribed and frequently diverted. Known for causing severe dependence and difficult withdrawal.",
-        "origins": "Developed by Hoffmann-La Roche, introduced 1975. FDA-approved for seizures, panic disorder. Became widely prescribed for anxiety despite recommendations for short-term use only. Generic versions available. Schedule IV controlled substance. Common in medical settings and street markets. Often prescribed long-term despite addiction risks.",
-        "uses": "Medical: Panic disorder, anxiety disorders, seizure disorders (especially absence seizures), akathisia, acute mania. Typical dose 0.5-2mg for anxiety, up to 20mg for seizures. Duration 6-12 hours. Recreational/diverted: Anxiety relief, sedation, euphoria (mild), sleep aid, potentiating opioids (dangerous), managing stimulant comedowns. Popular among those with anxiety or opioid use disorder.",
-        "dangers": "Severe physical dependence—withdrawal can be FATAL (seizures, delirium). Long half-life means effects accumulate and withdrawal delayed. Cognitive impairment, memory issues, 'benzo fog.' Respiratory depression when combined with opioids/alcohol—FATAL. Blackouts, amnesia at higher doses. Dangerous driving impairment. Tolerance develops. Extremely difficult withdrawal (worse than many benzos due to long half-life). Counterfeit Klonopin may contain other benzos, RC benzos, or fentanyl.",
-        "links": {
-          "wikipedia": "https://en.wikipedia.org/wiki/Clonazepam",
-          "psychonautwiki": "https://psychonautwiki.org/wiki/Clonazepam"
-        },
-        "scientific_papers": [
-          {
-            "title": "Clonazepam in panic disorder: Clinical efficacy and withdrawal",
-            "authors": "Pollack MH, et al.",
-            "journal": "Journal of Clinical Psychiatry",
-            "year": 1993,
-            "summary": "Study of clonazepam efficacy and dependence issues"
-          }
-        ]
-      },
-      "forms": ["pill"],
-      "testing": [
-        {
-          "reagent": "marquis",
-          "color": "no_reaction",
-          "window_s": [0, 60],
-          "alt": "no color change (benzodiazepines don't react)"
-        }
-      ],
-      "notes": [
-        "Klonopin. Long-acting benzo (6-12 hr effects, 30-40 hr half-life). Benzos show NO reagent reaction. Effects accumulate over days. Withdrawal FATAL—never stop cold turkey. More potent than Valium. Very difficult withdrawal due to long half-life. Often diverted. Counterfeit pills may contain RC benzos or fentanyl. Never combine with opioids or alcohol."
       ]
     },
     "Temazepam": {
@@ -4853,12 +4685,18 @@
           }
         ]
       },
-      "forms": ["pill", "capsule"],
+      "forms": [
+        "pill",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change (benzodiazepines don't react)"
         }
       ],
@@ -4887,18 +4725,27 @@
           }
         ]
       },
-      "forms": ["powder", "pill"],
+      "forms": [
+        "powder",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#228B22",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green to yellow"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change (not indole)"
         }
       ],
@@ -4927,18 +4774,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#228B22",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green to yellow-green"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change (phenethylamine)"
         }
       ],
@@ -4967,18 +4822,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#228B22",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green to yellow"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change"
         }
       ],
@@ -5007,18 +4870,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#808080",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "grey to dark grey"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change"
         }
       ],
@@ -5047,18 +4918,26 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#228B22",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "green to yellow-green"
         },
         {
           "reagent": "ehrlich",
           "color": "no_reaction",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "no color change"
         }
       ],
@@ -5087,12 +4966,18 @@
           }
         ]
       },
-      "forms": ["seeds", "extract"],
+      "forms": [
+        "seeds",
+        "extract"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole/lysergamide)"
         }
       ],
@@ -5120,12 +5005,17 @@
           }
         ]
       },
-      "forms": ["blotter"],
+      "forms": [
+        "blotter"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole/lysergamide)"
         }
       ],
@@ -5153,12 +5043,18 @@
           }
         ]
       },
-      "forms": ["blotter", "powder"],
+      "forms": [
+        "blotter",
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (lysergamide)"
         }
       ],
@@ -5194,12 +5090,19 @@
           }
         ]
       },
-      "forms": ["root bark", "extract", "capsule"],
+      "forms": [
+        "root bark",
+        "extract",
+        "capsule"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole/tryptamine)"
         }
       ],
@@ -5228,12 +5131,18 @@
           }
         ]
       },
-      "forms": ["dried flowers", "extract"],
+      "forms": [
+        "dried flowers",
+        "extract"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change (alkaloids present but don't react strongly)"
         }
       ],
@@ -5262,12 +5171,19 @@
           }
         ]
       },
-      "forms": ["powder", "extract", "plant material"],
+      "forms": [
+        "powder",
+        "extract",
+        "plant material"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow"
         }
       ],
@@ -5296,12 +5212,18 @@
           }
         ]
       },
-      "forms": ["seeds", "extract"],
+      "forms": [
+        "seeds",
+        "extract"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -5330,12 +5252,18 @@
           }
         ]
       },
-      "forms": ["dried venom", "synthetic powder"],
+      "forms": [
+        "dried venom",
+        "synthetic powder"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (indole/tryptamine)"
         }
       ],
@@ -5371,12 +5299,17 @@
           }
         ]
       },
-      "forms": ["brew"],
+      "forms": [
+        "brew"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (DMT in brew - indole/tryptamine)"
         }
       ],
@@ -5388,7 +5321,7 @@
       "class": "plant seeds (5-MeO-DMT, bufotenin, DMT)",
       "description": {
         "overview": "Yopo (Anadenanthera peregrina) is a tree whose seeds contain DMT, 5-MeO-DMT, and bufotenin. Indigenous peoples of Caribbean and South America use powdered roasted seeds as insufflated snuff in traditional ceremonies. Produces intense but short-lived visionary experiences (30-90 minutes). Also called cohoba. Similar to cebil/vilca (Anadenanthera colubrina). Extremely painful to insufflate. Vomiting common. Traditional preparation methods differ from modern use.",
-      "origins": "Traditional use by Taíno and other indigenous peoples of Caribbean, Orinoco basin (Venezuela, Colombia) documented since pre-Columbian times. Seeds roasted, ground with lime/ash, insufflated as snuff. Used ceremonially by shamans for divination, healing, communication with spirits. Documented by early European explorers 1496+ (Columbus expedition). Also called cohoba in historical texts. Seeds contain 5-MeO-DMT, bufotenin, DMT (ratios vary). Modern users often unprepared for intensity and pain of traditional ROA.",
+        "origins": "Traditional use by Taíno and other indigenous peoples of Caribbean, Orinoco basin (Venezuela, Colombia) documented since pre-Columbian times. Seeds roasted, ground with lime/ash, insufflated as snuff. Used ceremonially by shamans for divination, healing, communication with spirits. Documented by early European explorers 1496+ (Columbus expedition). Also called cohoba in historical texts. Seeds contain 5-MeO-DMT, bufotenin, DMT (ratios vary). Modern users often unprepared for intensity and pain of traditional ROA.",
         "uses": "Traditional: Shamanic ceremonies, healing, divination, vision quests. Seeds roasted, ground with calcium compound (lime, ash), insufflated. Modern: Psychonauts seeking natural psychedelic experiences. Duration 30-90 minutes. Effects: rapid onset intense visuals, altered perception, mystical experiences. EXTREMELY painful to insufflate—burning sensation. Nausea, vomiting common. Some modern users attempt other ROAs (oral with MAOI, smoking) with varying success.",
         "dangers": "EXTREMELY PAINFUL insufflation—severe nasal burning, damage to mucous membranes. Nausea, vomiting very common (bufotenin causes this). Rapid, intense onset can be overwhelming. Vasoconstriction. Tachycardia. Bufotenin may cause more physical discomfort than DMT/5-MeO-DMT alone. Psychological risks: bad trips, anxiety, panic, triggering mental illness. Traditional preparation methods poorly documented—risk of doing it wrong. Seed potency varies. Legal status unclear in many jurisdictions (seeds vs. extracted compounds). Not recommended due to severe discomfort. Synthetic alternatives (5-MeO-DMT, DMT) easier and more comfortable.",
         "links": {
@@ -5405,12 +5338,18 @@
           }
         ]
       },
-      "forms": ["seeds", "snuff powder"],
+      "forms": [
+        "seeds",
+        "snuff powder"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (DMT/5-MeO-DMT/bufotenin - tryptamines)"
         }
       ],
@@ -5439,12 +5378,17 @@
           }
         ]
       },
-      "forms": ["smoking blend"],
+      "forms": [
+        "smoking blend"
+      ],
       "testing": [
         {
           "reagent": "ehrlich",
           "color": "#9370DB",
-          "window_s": [60, 180],
+          "window_s": [
+            60,
+            180
+          ],
           "alt": "purple (DMT - tryptamine)"
         }
       ],
@@ -5473,12 +5417,18 @@
           }
         ]
       },
-      "forms": ["capsule", "pill"],
+      "forms": [
+        "capsule",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5506,12 +5456,18 @@
           }
         ]
       },
-      "forms": ["solution", "pill"],
+      "forms": [
+        "solution",
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5539,12 +5495,17 @@
           }
         ]
       },
-      "forms": ["pill"],
+      "forms": [
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5573,12 +5534,18 @@
           }
         ]
       },
-      "forms": ["pill", "liquid"],
+      "forms": [
+        "pill",
+        "liquid"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5597,12 +5564,17 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/NEP"
         }
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow (cathinone)"
         }
       ],
@@ -5621,12 +5593,17 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/Hexen"
         }
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to yellow"
         }
       ],
@@ -5645,12 +5622,17 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/3-FEA"
         }
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange"
         }
       ],
@@ -5669,12 +5651,18 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/A-PHP"
         }
       },
-      "forms": ["powder", "crystal"],
+      "forms": [
+        "powder",
+        "crystal"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -5694,12 +5682,17 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/Memantine"
         }
       },
-      "forms": ["pill"],
+      "forms": [
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5727,12 +5720,17 @@
           }
         ]
       },
-      "forms": ["pill"],
+      "forms": [
+        "pill"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "no_reaction",
-          "window_s": [0, 60],
+          "window_s": [
+            0,
+            60
+          ],
           "alt": "no color change"
         }
       ],
@@ -5761,12 +5759,19 @@
           }
         ]
       },
-      "forms": ["pill", "liquid", "injectable"],
+      "forms": [
+        "pill",
+        "liquid",
+        "injectable"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#8B4513",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "brown to purple (morphine-like)"
         }
       ],
@@ -5794,12 +5799,18 @@
           }
         ]
       },
-      "forms": ["pill (rare now)", "injectable"],
+      "forms": [
+        "pill (rare now)",
+        "injectable"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#8B4513",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "brown to purple"
         }
       ],
@@ -5827,12 +5838,17 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -5860,12 +5876,17 @@
           }
         ]
       },
-      "forms": ["powder (in mixed products)"],
+      "forms": [
+        "powder (in mixed products)"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange (may vary)"
         }
       ],
@@ -5901,18 +5922,27 @@
           }
         ]
       },
-      "forms": ["powder (in mixed products)", "pressed pills"],
+      "forms": [
+        "powder (in mixed products)",
+        "pressed pills"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown (opioid reaction)"
         },
         {
           "reagent": "mecke",
           "color": "#8B4513",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "brown"
         }
       ],
@@ -5940,12 +5970,18 @@
           }
         ]
       },
-      "forms": ["powder (in mixed products)", "pressed pills"],
+      "forms": [
+        "powder (in mixed products)",
+        "pressed pills"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange (opioid)"
         }
       ],
@@ -5973,12 +6009,18 @@
           }
         ]
       },
-      "forms": ["powder", "pressed pills"],
+      "forms": [
+        "powder",
+        "pressed pills"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6006,12 +6048,18 @@
           }
         ]
       },
-      "forms": ["powder", "pressed pills"],
+      "forms": [
+        "powder",
+        "pressed pills"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown (opioid)"
         }
       ],
@@ -6030,12 +6078,17 @@
           "psychonautwiki": "https://psychonautwiki.org/wiki/Bucinnazine"
         }
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 60],
+          "window_s": [
+            30,
+            60
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6064,12 +6117,17 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "orange to brown (phenethylamine)"
         }
       ],
@@ -6098,12 +6156,17 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6132,12 +6195,17 @@
           }
         ]
       },
-      "forms": ["powder"],
+      "forms": [
+        "powder"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6166,12 +6234,17 @@
           }
         ]
       },
-      "forms": ["powder (rare)"],
+      "forms": [
+        "powder (rare)"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6199,12 +6272,17 @@
           }
         ]
       },
-      "forms": ["powder (rare)"],
+      "forms": [
+        "powder (rare)"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#FFA500",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "orange to brown"
         }
       ],
@@ -6320,12 +6398,20 @@
           }
         ]
       },
-      "forms": ["powder (extract)", "tablet", "capsule", "liquid shot"],
+      "forms": [
+        "powder (extract)",
+        "tablet",
+        "capsule",
+        "liquid shot"
+      ],
       "testing": [
         {
           "reagent": "marquis",
           "color": "#8B4513",
-          "window_s": [30, 90],
+          "window_s": [
+            30,
+            90
+          ],
           "alt": "brown to dark brown (alkaloid)"
         }
       ],
@@ -7816,20 +7902,57 @@
       "name": "Additional Substance-Specific Protocols",
       "ghb_overdose": {
         "name": "GHB/GBL Overdose",
-        "presentation": ["Rapid unconsciousness (minutes)", "Profound CNS depression", "Respiratory depression", "Vomiting with aspiration risk", "Often mixed with alcohol"],
-        "treatment": ["Airway management CRITICAL", "Position on side", "Suction ready", "Supportive care only - NO ANTIDOTE", "Usually resolves in 2-4 hours", "Transport for observation"],
+        "presentation": [
+          "Rapid unconsciousness (minutes)",
+          "Profound CNS depression",
+          "Respiratory depression",
+          "Vomiting with aspiration risk",
+          "Often mixed with alcohol"
+        ],
+        "treatment": [
+          "Airway management CRITICAL",
+          "Position on side",
+          "Suction ready",
+          "Supportive care only - NO ANTIDOTE",
+          "Usually resolves in 2-4 hours",
+          "Transport for observation"
+        ],
         "critical_note": "Naloxone does NOT work. GHB is NOT an opioid. Patients may wake suddenly and become agitated."
       },
       "hallucinogen_crisis": {
         "name": "Hallucinogen Bad Trip / NBOMe Emergency",
-        "presentation": ["Extreme anxiety/panic", "Paranoia/delusions", "Agitation or catatonia", "Dilated pupils", "Tachycardia", "Hyperthermia (NBOMes)"],
-        "treatment": ["Calm, quiet environment", "Verbal de-escalation", "Benzodiazepines for severe agitation (ALS)", "Monitor vitals - watch for serotonin syndrome", "Transport if persistent symptoms"],
+        "presentation": [
+          "Extreme anxiety/panic",
+          "Paranoia/delusions",
+          "Agitation or catatonia",
+          "Dilated pupils",
+          "Tachycardia",
+          "Hyperthermia (NBOMes)"
+        ],
+        "treatment": [
+          "Calm, quiet environment",
+          "Verbal de-escalation",
+          "Benzodiazepines for severe agitation (ALS)",
+          "Monitor vitals - watch for serotonin syndrome",
+          "Transport if persistent symptoms"
+        ],
         "nbome_warning": "NBOMe compounds (sold as LSD) can cause seizures, hyperthermia, cardiac arrest. Temp >104°F = medical emergency."
       },
       "synthetic_cannabinoid": {
         "name": "Synthetic Cannabinoid (K2/Spice) Toxicity",
-        "presentation": ["Extreme agitation or sedation", "Tachycardia >140", "Seizures", "Psychosis/violent behavior", "Often mass casualty scenarios"],
-        "treatment": ["Scene safety first", "Supportive care - NO ANTIDOTE", "Benzodiazepines for seizures", "Expect multiple patients"],
+        "presentation": [
+          "Extreme agitation or sedation",
+          "Tachycardia >140",
+          "Seizures",
+          "Psychosis/violent behavior",
+          "Often mass casualty scenarios"
+        ],
+        "treatment": [
+          "Scene safety first",
+          "Supportive care - NO ANTIDOTE",
+          "Benzodiazepines for seizures",
+          "Expect multiple patients"
+        ],
         "note": "Common at homeless encampments. Prepare for mass casualty response."
       }
     },
@@ -7845,21 +7968,57 @@
         "6. Law enforcement secures scene",
         "7. Public health notification for contaminated batch"
       ],
-      "triage": ["RED: Respiratory depression, unconscious", "YELLOW: Conscious but altered, stable vitals", "GREEN: Awake, alert, stable"],
+      "triage": [
+        "RED: Respiratory depression, unconscious",
+        "YELLOW: Conscious but altered, stable vitals",
+        "GREEN: Awake, alert, stable"
+      ],
       "naloxone_rationing": "Prioritize patients with NO respiratory effort. Intranasal preferred for mass deployment."
     },
     "needle_stick_protocol": {
       "name": "Needle Stick Injury Response",
-      "immediate_action": ["Remove from scene", "DO NOT squeeze wound", "Wash with soap and water 15 min", "Transport to ED"],
-      "infection_risks": ["Hepatitis B (highest risk)", "Hepatitis C (moderate)", "HIV (low from needle stick)"],
-      "post_exposure": ["HIV PEP must start within 72 hours (ideally <2 hrs)", "Baseline testing at ED", "Follow-up at 6 weeks, 3 months, 6 months"],
-      "prevention": ["Never recap needles", "High-visibility gloves when searching", "Visual inspection before blind reaches"]
+      "immediate_action": [
+        "Remove from scene",
+        "DO NOT squeeze wound",
+        "Wash with soap and water 15 min",
+        "Transport to ED"
+      ],
+      "infection_risks": [
+        "Hepatitis B (highest risk)",
+        "Hepatitis C (moderate)",
+        "HIV (low from needle stick)"
+      ],
+      "post_exposure": [
+        "HIV PEP must start within 72 hours (ideally <2 hrs)",
+        "Baseline testing at ED",
+        "Follow-up at 6 weeks, 3 months, 6 months"
+      ],
+      "prevention": [
+        "Never recap needles",
+        "High-visibility gloves when searching",
+        "Visual inspection before blind reaches"
+      ]
     },
     "decontamination_procedures": {
       "name": "Equipment & Vehicle Decontamination",
-      "after_fentanyl_exposure": ["Remove contaminated PPE before entering vehicle", "DO NOT shake clothing", "Wipe surfaces with soap and water", "Do NOT use alcohol cleaners on fentanyl", "Air out vehicle", "Change uniforms ASAP"],
-      "equipment": ["Wipe all touched equipment with disinfectant", "Stretcher gets full clean", "Contaminated gear in red biohazard bag labeled 'FENTANYL'"],
-      "personal": ["Shower as soon as possible", "Wash all exposed skin", "Do NOT bring contaminated clothing home"]
+      "after_fentanyl_exposure": [
+        "Remove contaminated PPE before entering vehicle",
+        "DO NOT shake clothing",
+        "Wipe surfaces with soap and water",
+        "Do NOT use alcohol cleaners on fentanyl",
+        "Air out vehicle",
+        "Change uniforms ASAP"
+      ],
+      "equipment": [
+        "Wipe all touched equipment with disinfectant",
+        "Stretcher gets full clean",
+        "Contaminated gear in red biohazard bag labeled 'FENTANYL'"
+      ],
+      "personal": [
+        "Shower as soon as possible",
+        "Wash all exposed skin",
+        "Do NOT bring contaminated clothing home"
+      ]
     }
   },
   "counterfeit_pills_warning": {
