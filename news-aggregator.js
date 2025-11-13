@@ -271,6 +271,226 @@ class NewsAggregator {
         enabled: false // Community forum, enable on request
       },
 
+      // The Loop - UK Drug Testing at Festivals
+      theloop: {
+        type: 'rss',
+        name: 'The Loop UK',
+        url: 'https://wearetheloop.org/feed/',
+        category: 'Lab Results',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // CheckIt! - Austrian Drug Checking
+      checkit: {
+        type: 'rss',
+        name: 'CheckIt! Vienna',
+        url: 'https://checkit.wien/feed/',
+        category: 'Lab Results',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // KnowYourStuffNZ - New Zealand Drug Checking
+      knowyourstuffnz: {
+        type: 'rss',
+        name: 'KnowYourStuff NZ',
+        url: 'https://knowyourstuff.nz/feed/',
+        category: 'Lab Results',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Canadian Centre on Substance Use and Addiction
+      ccsa: {
+        type: 'rss',
+        name: 'CCSA Canada',
+        url: 'https://www.ccsa.ca/rss.xml',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // UN Office on Drugs and Crime
+      unodc: {
+        type: 'rss',
+        name: 'UNODC',
+        url: 'https://www.unodc.org/unodc/en/rss/press-releases.xml',
+        category: 'Policy Update',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Australian Criminal Intelligence Commission - Drug Trends
+      acic: {
+        type: 'rss',
+        name: 'ACIC Australia',
+        url: 'https://www.acic.gov.au/rss.xml',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Beckley Foundation - Drug Policy Research
+      beckley: {
+        type: 'rss',
+        name: 'Beckley Foundation',
+        url: 'https://www.beckleyfoundation.org/feed/',
+        category: 'Research',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Scottish Drugs Forum
+      scottishdrugs: {
+        type: 'rss',
+        name: 'Scottish Drugs Forum',
+        url: 'https://www.sdf.org.uk/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // International Drug Policy Consortium
+      idpc: {
+        type: 'rss',
+        name: 'IDPC',
+        url: 'https://idpc.net/feed',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Drugs-Forum Community
+      drugsforum: {
+        type: 'rss',
+        name: 'Drugs-Forum',
+        url: 'https://drugs-forum.com/forums/harm-reduction.91/index.rss',
+        category: 'Community News',
+        parser: 'generic',
+        enabled: false // Community forum, enable on request
+      },
+
+      // National Harm Reduction Coalition Blog
+      nhrc: {
+        type: 'rss',
+        name: 'NHRC Blog',
+        url: 'https://harmreduction.org/blog/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Chicago Recovery Alliance
+      chicagorecovery: {
+        type: 'rss',
+        name: 'Chicago Recovery Alliance',
+        url: 'https://anypositivechange.org/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // OnPoint NYC - Supervised Consumption Sites
+      onpointnyc: {
+        type: 'rss',
+        name: 'OnPoint NYC',
+        url: 'https://www.onpointnyc.org/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Drug User Liberation Front (Vancouver)
+      dulf: {
+        type: 'rss',
+        name: 'DULF Vancouver',
+        url: 'https://dulf.ca/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Johns Hopkins Bloomberg School of Public Health
+      jhsph: {
+        type: 'rss',
+        name: 'Johns Hopkins Drug Policy',
+        url: 'https://publichealth.jhu.edu/rss',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Brown University CERP - Rhode Island drug trends
+      browncerp: {
+        type: 'rss',
+        name: 'Brown University CERP',
+        url: 'https://www.brown.edu/academics/public-health/research/feed',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // Columbia University Mailman School
+      columbiamailman: {
+        type: 'rss',
+        name: 'Columbia Mailman School',
+        url: 'https://www.publichealth.columbia.edu/rss.xml',
+        category: 'Research',
+        parser: 'generic',
+        enabled: true
+      },
+
+      // European Harm Reduction Network (Correlation)
+      correlation: {
+        type: 'rss',
+        name: 'Correlation Network',
+        url: 'https://www.correlation-net.org/feed/',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Canadian HIV/AIDS Legal Network
+      canadianhivlegal: {
+        type: 'rss',
+        name: 'Canadian HIV/AIDS Legal',
+        url: 'https://www.hivlegalnetwork.ca/feed/',
+        category: 'Policy Update',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Mainline - Netherlands Harm Reduction
+      mainline: {
+        type: 'rss',
+        name: 'Mainline Netherlands',
+        url: 'https://www.mainline.nl/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // Project HOPE - Overdose Prevention
+      projecthope: {
+        type: 'rss',
+        name: 'Project HOPE',
+        url: 'https://www.projecthope.org/feed/',
+        category: 'Community News',
+        parser: 'wordpress',
+        enabled: true
+      },
+
+      // MAPS Blog (separate from main MAPS feed)
+      mapsblog: {
+        type: 'rss',
+        name: 'MAPS Blog',
+        url: 'https://maps.org/news/blog/feed',
+        category: 'Research',
+        parser: 'wordpress',
+        enabled: true
+      },
+
       // News API Integration (requires API key, optional)
       newsapi: {
         type: 'newsapi',

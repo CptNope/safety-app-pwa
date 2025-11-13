@@ -1345,6 +1345,28 @@ function News(){
     globaldrugsurvey: true, // Global Drug Survey
     psychonautwiki: false, // PsychonautWiki (may be noisy)
     bluelight: false, // Bluelight forum (may be noisy)
+    theloop: true, // The Loop UK drug testing
+    checkit: true, // CheckIt! Vienna
+    knowyourstuffnz: true, // KnowYourStuff NZ
+    ccsa: true, // Canadian Centre on Substance Use
+    unodc: true, // UN Office on Drugs and Crime
+    acic: true, // Australian Criminal Intelligence Commission
+    beckley: true, // Beckley Foundation
+    scottishdrugs: true, // Scottish Drugs Forum
+    idpc: true, // International Drug Policy Consortium
+    drugsforum: false, // Drugs-Forum (community, may be noisy)
+    nhrc: true, // National Harm Reduction Coalition blog
+    chicagorecovery: true, // Chicago Recovery Alliance
+    onpointnyc: true, // OnPoint NYC supervised consumption
+    dulf: true, // Drug User Liberation Front Vancouver
+    jhsph: true, // Johns Hopkins Bloomberg School
+    browncerp: true, // Brown University CERP
+    columbiamailman: true, // Columbia University Mailman School
+    correlation: true, // European Harm Reduction Network
+    canadianhivlegal: true, // Canadian HIV/AIDS Legal Network
+    mainline: true, // Mainline Netherlands
+    projecthope: true, // Project HOPE
+    mapsblog: true, // MAPS Blog
     newsapi: false, // Disabled by default (requires API key)
     local: true
   });
