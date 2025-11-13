@@ -4529,6 +4529,61 @@
         "Xanax-strength RC benzo in fake bars. Benzos show NO reagent reaction. Less potent than clonazolam but still dangerous. Withdrawal FATAL—never stop cold turkey. Blackouts common. Test fake Xanax with fentanyl strips—often contains fentanyl too. Similar potency to real alprazolam but may have fentanyl or other adulterants. Never combine with opioids or alcohol."
       ]
     },
+    "Carfentanil": {
+      "class": "opioid (synthetic, ultra-potent tranquilizer)",
+      "description": {
+        "overview": "Carfentanil (carfentanyl) is the most potent commercially used opioid—estimated 10,000x more potent than morphine and 100x more potent than fentanyl. Developed as large animal tranquilizer for elephants, rhinos, bears. Active doses measured in MICROGRAMS. Appeared in illicit drug supply 2016-2017 causing mass overdose events. Even brief skin contact or inhalation dangerous. ONE GRAIN OF SALT can be lethal. Schedule II controlled substance.",
+        "origins": "Synthesized by Janssen Pharmaceutica 1974 as ultra-potent analgesic. Only approved use: veterinary medicine for immobilizing large animals (elephants 10,000+ lbs). Brand name Wildnil. Appeared in US heroin supply 2016 (Ohio, Florida mass overdoses). Also found in fake pills, cocaine. Likely diverted from veterinary sources or synthesized in clandestine labs. DEA emergency scheduling intensified.",
+        "uses": "Medical: Large animal (elephant/rhino) tranquilizer ONLY. Dosed in micrograms. Typical elephant dose 1-3mg. Illicit: Adulterating heroin, fentanyl, fake pills. Users NEVER aware they're consuming carfentanil—sold as heroin/fentanyl. Impossible to dose—active amount invisible to naked eye. Used to 'boost' potency of weak heroin.",
+        "dangers": "EXTREME LETHALITY—100x fentanyl potency. 20 MICROGRAMS (smaller than grain of salt) potentially FATAL to humans. Impossible to dose accurately. Respiratory arrest within seconds to minutes. Skin absorption possible—first responders endangered. Naloxone requires MASSIVE doses (10-20mg+), continuous IV infusion. Standard 2-4mg Narcan often insufficient. Death can occur before help arrives. Found mixed in drugs—users have no idea. Mass casualty incidents reported (Cincinnati 2016: 174 overdoses in 6 days). Respiratory protection required for first responders. No legitimate human medical use. Antidote may not work—too potent.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Carfentanil",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Carfentanil"
+        },
+        "scientific_papers": [
+          {
+            "title": "Carfentanil: A Narrative Review of Its Pharmacology and Public Health Concerns",
+            "authors": "Armenian P, et al.",
+            "journal": "Journal of Emergency Medicine",
+            "year": 2018,
+            "doi": "10.1016/j.jemermed.2017.09.027",
+            "summary": "Comprehensive review of carfentanil pharmacology, public health impact, and clinical management"
+          },
+          {
+            "title": "Carfentanil and the Rise of Ultra-Potent Opioids",
+            "authors": "Prekupec MP, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2017,
+            "summary": "Analysis of carfentanil's emergence in US drug supply and overdose crisis impact"
+          },
+          {
+            "title": "Mass Fentanyl Intoxication: A Syndromic Approach to Care",
+            "authors": "Cole JB, et al.",
+            "journal": "Annals of Emergency Medicine",
+            "year": 2017,
+            "summary": "Clinical management strategies for carfentanil and ultra-potent opioid mass overdose events"
+          }
+        ]
+      },
+      "forms": ["powder (in mixed products)", "pressed pills", "liquid"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange (fentanyl-like)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFD700",
+          "window_s": [30, 60],
+          "alt": "yellow-green to brown"
+        }
+      ],
+      "notes": [
+        "Carfentanil. MOST POTENT opioid in drug supply. 10,000x morphine, 100x fentanyl. Elephant tranquilizer. 20 MICROGRAMS (grain of salt) FATAL. Skin contact dangerous. Requires 10-20mg+ naloxone IV. Mass overdose events (Ohio 2016). Users NEVER aware. First responders need respiratory PPE. Schedule II. NO human medical use. Represents worst-case synthetic opioid. Orange Marquis. EXTREME DANGER."
+      ]
+    },
     "Methadone": {
       "class": "opioid (synthetic)",
       "description": {
@@ -5818,6 +5873,152 @@
         "ISO, toni. Nitazene-class ultra-potent opioid. 20-100x morphine, approaching fentanyl potency. EXTREME FATALITY RISK. Found in fake pills, heroin. Requires VERY HIGH naloxone doses. Users often unaware. Emergency scheduled. Represents post-fentanyl threat. NEVER use alone. Orange Marquis."
       ]
     },
+    "Metonitazene": {
+      "class": "opioid (synthetic benzimidazole, ultra-potent nitazene)",
+      "description": {
+        "overview": "Metonitazene is an ultra-potent synthetic benzimidazole opioid from the nitazene series. Estimated 100x more potent than morphine, comparable to fentanyl. First appeared in illicit drug supply 2019-2020. Linked to numerous overdose deaths across US, Canada, Europe. Found in counterfeit pills (M30s, Xanax), heroin, and cocaine. Users typically unaware they're consuming it. Emergency scheduled Schedule I in US and many countries.",
+        "origins": "Part of nitazene opioid series originally developed by CIBA pharmaceutical in 1950s-1960s, never marketed due to extreme potency. Metonitazene resurfaced in clandestine drug markets 2019-2020, likely synthesized in illicit labs. Used as fentanyl alternative or adulterant. Emergency scheduled by DEA 2021. Represents concerning trend of ultra-potent synthetic opioids beyond fentanyl.",
+        "uses": "NO legitimate medical use. Appears adulterating: heroin, pressed fake pills (oxycodone M30s, Xanax bars, Percocet), cocaine. Sold as other substances—users unknowingly consume. Extremely dangerous due to unknown potency in street products. Typical street doses impossible to determine—leads to overdoses.",
+        "dangers": "EXTREME OVERDOSE RISK—potency rivals fentanyl. Rapid respiratory depression, death. Requires HIGH doses naloxone, multiple administrations. Extremely small margin between effective dose and fatal dose. Found mixed with other drugs—poly-drug toxicity. Users unaware of what they're taking. Counterfeit pills appear identical to pharmaceutical products. Duration of effects unknown—may require prolonged medical monitoring. Physical dependence develops rapidly. Withdrawal severe. Post-fentanyl crisis substance—harm reduction critical.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Metonitazene"
+        },
+        "scientific_papers": [
+          {
+            "title": "Metonitazene in the United States: History, Pharmacology, and Toxicology",
+            "authors": "Vandeputte MM, et al.",
+            "journal": "Journal of Analytical Toxicology",
+            "year": 2021,
+            "doi": "10.1093/jat/bkab082",
+            "summary": "First comprehensive review of metonitazene emergence, pharmacology, and toxicological findings"
+          },
+          {
+            "title": "Novel synthetic opioids: The pathologist's point of view",
+            "authors": "Pichini S, et al.",
+            "journal": "Frontiers in Pharmacology",
+            "year": 2020,
+            "summary": "Review of designer opioids including metonitazene in postmortem cases"
+          }
+        ]
+      },
+      "forms": ["powder (in mixed products)", "pressed pills"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown (opioid reaction)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#8B4513",
+          "window_s": [30, 60],
+          "alt": "brown"
+        }
+      ],
+      "notes": [
+        "Metonitazene. Ultra-potent nitazene opioid. ~100x morphine potency. EXTREME FATALITY RISK. Found in fake M30s, Xanax, heroin, cocaine. Users typically unaware. Requires multiple high-dose naloxone. Emergency Schedule I. Post-fentanyl crisis threat. NEVER use drugs alone. Fentanyl test strips may not detect. Orange/brown Marquis."
+      ]
+    },
+    "Etonitazene": {
+      "class": "opioid (synthetic benzimidazole, extremely potent nitazene)",
+      "description": {
+        "overview": "Etonitazene is one of the original and most potent nitazene opioids, estimated 1000-1500x more potent than morphine. Originally synthesized in 1950s, abandoned due to extreme danger. Re-emerged in illicit drug supply 2020+. One of the most dangerous synthetic opioids ever identified. Found in fake pills and powder drugs. Minimal amount causes fatal overdose.",
+        "origins": "First synthesized by CIBA pharmaceutical 1950s-1960s as part of nitazene analgesic research program. Never approved for medical use due to extreme potency and danger. Remained obscure until reappearing in European and North American drug supply 2020-2021. Likely synthesized in clandestine labs. Emergency scheduled internationally. Represents apex of designer opioid potency crisis.",
+        "uses": "NO medical use ever approved. Illicit use: Adulterating heroin, fentanyl, fake pharmaceutical pills. Extreme potency means active doses are sub-milligram—impossible to dose accurately without laboratory equipment. Users virtually never aware they're consuming it. Effects: intense opioid effects, immediate respiratory depression, death.",
+        "dangers": "MOST DANGEROUS opioid in current drug supply—potency exceeds most fentanyl analogues. Minuscule amounts (micrograms) can be fatal. Impossible to visually detect or dose safely. Requires EXTREME naloxone doses, continuous administration. May overwhelm typical naloxone supply. Death can occur within minutes of exposure. Found mixed with other substances—unpredictable effects. No safe use scenario for non-medical contexts. Represents worst-case scenario of synthetic opioid crisis.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Etonitazene"
+        },
+        "scientific_papers": [
+          {
+            "title": "Etonitazene: A review of pharmacology and emergence in the illicit drug supply",
+            "authors": "Krotulski AJ, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2021,
+            "summary": "Comprehensive review of etonitazene pharmacology and public health implications"
+          }
+        ]
+      },
+      "forms": ["powder (in mixed products)", "pressed pills"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange (opioid)"
+        }
+      ],
+      "notes": [
+        "Etonitazene. MOST POTENT nitazene—1000-1500x morphine. EXTREME FATAL RISK. Micrograms can kill. Original 1950s research compound re-emerged. Found in fake pills, powder drugs. Impossible to dose safely. Requires extreme naloxone doses. May overwhelm medical response. NEVER use alone. Emergency Schedule I globally. Orange Marquis."
+      ]
+    },
+    "Protonitazene": {
+      "class": "opioid (synthetic benzimidazole, potent nitazene)",
+      "description": {
+        "overview": "Protonitazene is a synthetic nitazene opioid estimated 20-50x more potent than morphine. Appeared in drug supply 2019-2020 alongside other nitazenes. Found in fake prescription pills, heroin, and as standalone powder. Linked to overdose deaths across North America and Europe. Part of the nitazene family causing post-fentanyl crisis concerns.",
+        "origins": "Developed during CIBA's 1950s-1960s nitazene research program, never marketed. Re-emerged in clandestine drug markets 2019-2020. Synthesized in illicit labs as designer opioid. Found in drug seizures and toxicology cases. Emergency scheduled Schedule I in US 2021 along with other nitazenes. Represents ongoing evolution of synthetic opioid market.",
+        "uses": "NO legitimate medical use. Illicit: Found in counterfeit oxycodone M30 pills, fake Xanax bars, heroin, fentanyl mixtures. Users typically unaware of protonitazene presence. Sold as other opioids. Impossible to determine dose in street drugs—high overdose risk.",
+        "dangers": "High overdose risk—20-50x morphine potency. Respiratory depression, death. Users don't know they're taking it. Found in fake pharmaceutical pills that look identical to real medications. Requires multiple naloxone doses. Small amounts fatal. May be combined with fentanyl or other nitazenes—extreme danger. Rapid tolerance, physical dependence. Withdrawal severe. Part of poly-drug contamination crisis.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Protonitazene"
+        },
+        "scientific_papers": [
+          {
+            "title": "Protonitazene identified in biological specimens and drug seizure materials",
+            "authors": "Krotulski AJ, et al.",
+            "journal": "Journal of Analytical Toxicology",
+            "year": 2021,
+            "summary": "First reports of protonitazene in US overdose cases and drug seizures"
+          }
+        ]
+      },
+      "forms": ["powder", "pressed pills"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown"
+        }
+      ],
+      "notes": [
+        "Protonitazene. Nitazene opioid 20-50x morphine potency. Found in fake M30s, Xanax, heroin. High overdose risk. Users unaware. Requires multiple naloxone doses. Emergency Schedule I. Often mixed with fentanyl. Part of designer opioid crisis. NEVER use alone. Orange/brown Marquis."
+      ]
+    },
+    "Brorphine": {
+      "class": "opioid (synthetic research chemical, benzimidazole derivative)",
+      "description": {
+        "overview": "Brorphine (1-{1-[1-(4-bromophenyl)ethyl]piperidin-4-yl}-1,3-dihydro-2H-benzo[d]imidazol-2-one) is a synthetic opioid that appeared ~2018-2019 as research chemical. Moderate to high potency. Known for being CAUSTIC—damages tissues on contact. Found in pressed pills and powder. Linked to deaths in US, Europe. Short duration drives compulsive redosing.",
+        "origins": "Benzimidazole-based opioid appearing on research chemical markets 2018-2019. Sold as 'legal' opioid alternative after U-47700 scheduling. Minimal human safety data when introduced. User reports described tissue damage, unpleasant side effects. Implicated in overdose deaths. Emergency scheduled in multiple countries 2020-2021.",
+        "uses": "NO medical use. Recreational: Opioid effects—euphoria, pain relief, sedation. Typical dose 0.5-2mg (highly potent). Duration 2-4 hours (short). Often found in fake pharmaceutical pills. CAUSTIC nature makes insufflation extremely dangerous—nasal damage, necrosis possible.",
+        "dangers": "CAUSTIC—causes chemical burns, tissue damage on contact. Nasal septum perforation from snorting. Respiratory depression, overdose risk. Short duration causes rapid tolerance, compulsive redosing. Physical dependence develops quickly. Withdrawal reported as severe. Found in counterfeit pills with unknown dosing. May be mixed with fentanyl or other opioids. Quality control issues. Naloxone should work but limited data. Legal status ambiguous in some areas—analogue act risk.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Brorphine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Brorphine: Identifying a Novel Synthetic Opioid",
+            "authors": "Solingapuram Sai KK, et al.",
+            "journal": "Journal of Analytical Toxicology",
+            "year": 2020,
+            "summary": "First analytical characterization of brorphine in overdose cases"
+          }
+        ]
+      },
+      "forms": ["powder", "pressed pills"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown (opioid)"
+        }
+      ],
+      "notes": [
+        "Brorphine. Synthetic opioid RC. CAUSTIC—tissue damage like U-47700. Nasal septum damage from insufflation. Moderate-high potency (0.5-2mg dose). Short duration (2-4hr) drives redosing. Found in fake pills. Linked to deaths. Emergency scheduled. NO safety data. Orange/brown Marquis."
+      ]
+    },
     "AP-238": {
       "class": "opioid (synthetic research chemical)",
       "description": {
@@ -6082,6 +6283,54 @@
       ],
       "notes": [
         "Mitragyna speciosa. Contains mitragynine and 7-hydroxymitragynine (opioid agonists). Reagent testing limited for plant material—mainly confirms not synthetic opioid."
+      ]
+    },
+    "7-Hydroxymitragynine": {
+      "class": "opioid (natural alkaloid, kratom extract)",
+      "description": {
+        "overview": "7-Hydroxymitragynine (7-OH, 7-HMG) is the most potent opioid alkaloid in kratom, estimated 13-46x more potent than morphine (some studies suggest even higher). Naturally occurs in small amounts in kratom leaves but increasingly sold as concentrated extract or isolated alkaloid product. Acts as mu-opioid receptor agonist similar to traditional opioids. Growing concern as vendors sell concentrated 7-OH tablets, shots, and powders—much more addictive and dangerous than whole-leaf kratom.",
+        "origins": "First isolated from kratom (Mitragyna speciosa) in 1990s research. Naturally occurs at ~0.01-0.04% in kratom leaves—tiny fraction compared to mitragynine (1-2%). Recent years saw development of extraction/concentration methods and even synthetic production. Sold at gas stations, smoke shops, online as 'enhanced kratom,' tablets, liquid shots. Marketed as legal opioid alternative. Not scheduled federally in US but banned in some states. FDA warnings issued about concentrated kratom products.",
+        "uses": "No approved medical use. Marketed for: pain relief, opioid withdrawal, energy, mood enhancement. Typical concentrated product doses unclear—products vary wildly in content (10-100mg+ per dose reported). Effects: Strong opioid-like effects—analgesia, euphoria, sedation. Duration 4-6 hours. Much more potent than regular kratom powder. Used by some for managing opioid withdrawal but creates its own dependence.",
+        "dangers": "MUCH MORE ADDICTIVE than whole-leaf kratom. Rapid physical dependence (days to weeks). Severe withdrawal syndrome—worse than regular kratom (flu-like symptoms, anxiety, insomnia, RLS for 1-2 weeks). Respiratory depression possible at high doses. May contain synthetic 7-OH or other adulterants—quality control issues. Dosing inconsistent between products—overdose risk. Constipation, nausea, dizziness. Liver toxicity concerns (case reports). Can precipitate withdrawal if used while on buprenorphine. Marketing to opioid-dependent individuals creates high-risk cycle. Deaths reported with combinations (alcohol, benzos). Legal status unclear—may be banned suddenly.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/7-Hydroxymitragynine"
+        },
+        "scientific_papers": [
+          {
+            "title": "7-Hydroxymitragynine Is an Active Metabolite of Mitragynine and a Key Mediator of Its Analgesic Effects",
+            "authors": "Kruegel AC, et al.",
+            "journal": "ACS Central Science",
+            "year": 2019,
+            "doi": "10.1021/acscentsci.9b00141",
+            "summary": "Demonstrates 7-OH as primary active opioid component of kratom with high mu-opioid receptor affinity"
+          },
+          {
+            "title": "Pharmacological characterization of mitragynine and 7-hydroxymitragynine",
+            "authors": "Váradi A, et al.",
+            "journal": "Journal of Medicinal Chemistry",
+            "year": 2016,
+            "summary": "Pharmacological comparison showing 7-OH significantly more potent than mitragynine at opioid receptors"
+          },
+          {
+            "title": "Kratom and its Dangerous Extracts: Not Appropriate Alternatives to Opioids",
+            "authors": "Eastlack SC, et al.",
+            "journal": "Journal of Addiction Medicine",
+            "year": 2020,
+            "summary": "Clinical review of kratom extract dangers, addiction potential, and withdrawal severity"
+          }
+        ]
+      },
+      "forms": ["powder (extract)", "tablet", "capsule", "liquid shot"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#8B4513",
+          "window_s": [30, 90],
+          "alt": "brown to dark brown (alkaloid)"
+        }
+      ],
+      "notes": [
+        "7-OH, 7-HMG. Kratom's most potent alkaloid. 13-46x morphine potency. Sold as concentrated extract/tablets. MUCH more addictive than whole-leaf kratom. Rapid physical dependence. Severe withdrawal (1-2 weeks). Quality control issues—may contain synthetic 7-OH. Inconsistent dosing between products. Marketed at gas stations. Acts like traditional opioid. FDA warnings issued. Some states banned. Deaths with combinations. Avoid concentrated products—stick to whole-leaf kratom if using. Brown Marquis."
       ]
     }
   },
