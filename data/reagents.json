@@ -4263,6 +4263,312 @@
         "Psilacetin. Psilocybin prodrug—metabolizes to psilocin (active compound in mushrooms). Effects virtually identical to magic mushrooms. Most popular psilocybin RC—considered most accurate substitute. Ehrlich/Hofmann purple confirms tryptamine but CANNOT distinguish from psilocin, 4-HO-MET, or other indoles. Often sold as 'synthetic psilocybin' or mushroom extract. Advantage: precise dosing vs variable mushroom potency. Cross-tolerance with mushrooms and LSD."
       ]
     },
+    "DOI": {
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "description": {
+        "overview": "DOI (2,5-dimethoxy-4-iodoamphetamine) is a psychedelic amphetamine from the DOx family. Extremely long duration (16-30 hours), very potent (1-3mg active dose), and highly stimulating. Produces intense visual hallucinations, thought loops, and body load. Can be overwhelming due to long duration. Often sold on blotter tabs like LSD but MUCH longer-lasting.",
+        "origins": "Synthesized by Alexander Shulgin in 1970s, documented in PiHKAL 1991. Remained obscure research chemical until 2000s. Sometimes sold as LSD on blotter (dangerous due to extreme duration difference). Less common than DOB or DOC but still encountered. Known for being very long-lasting and stimulating. Popular in psychonaut communities but controversial due to difficult experiences from duration.",
+        "uses": "No medical use. Recreational: Intense psychedelic visuals, stimulation, altered thinking, music enhancement. Typical dose 1-3mg (very potent). Duration 16-30 hours (exhausting). Not recommended for beginners—extremely long commitment. Some users appreciate deep introspection; others find duration unbearable. Often used for spiritual/therapeutic exploration but requires full day commitment.",
+        "dangers": "EXTREMELY LONG DURATION: 16-30 hours of intense effects can be mentally and physically exhausting. Difficult to sleep even after effects diminish. Vasoconstriction (numbness, cold extremities). Stimulation can cause anxiety, paranoia. Thought loops common. Physically demanding—dehydration, muscle tension. Bad trips last 20+ hours. Often mis-sold as LSD—users expecting 8-12 hours get 24+ hours. Can trigger HPPD. Cross-tolerance with other psychedelics. Dangerous if combined with MAOIs or other drugs.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/DOI",
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal064.shtml"
+        },
+        "scientific_papers": [
+          {
+            "title": "DOI and the DOx family: Pharmacology and neurotoxicity",
+            "authors": "Nichols DE",
+            "journal": "Pharmacology & Therapeutics",
+            "year": 2004,
+            "summary": "Comprehensive review of DOI and related psychedelic amphetamines"
+          }
+        ]
+      },
+      "forms": ["blotter", "powder"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#808080",
+          "window_s": [30, 60],
+          "alt": "dark grey to black"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "no_reaction",
+          "window_s": [60, 180],
+          "alt": "no color change (not an indole)"
+        }
+      ],
+      "notes": [
+        "CRITICAL: 16-30 hour duration—NOT like LSD! Often sold on blotter as 'LSD' but lasts 2-3x longer. Ehrlich NO reaction (phenethylamine not indole) helps distinguish from LSD/indoles. Marquis dark grey/black. Very potent (1-3mg). Extremely stimulating with severe vasoconstriction. Not recommended—overwhelming duration for most users. If you suspect DOI instead of LSD, prepare for 24+ hour experience."
+      ]
+    },
+    "DOM": {
+      "class": "phenethylamine (psychedelic amphetamine)",
+      "description": {
+        "overview": "DOM (2,5-dimethoxy-4-methylamphetamine, STP) is a psychedelic amphetamine with 14-20 hour duration. Less potent than DOI but still very long-lasting and stimulating. Known from 1960s counterculture. Produces strong visual effects and mental stimulation. Can be overwhelming due to duration and stimulant effects.",
+        "origins": "Synthesized by Alexander Shulgin 1963, documented in PiHKAL. Became infamous as 'STP' in late 1960s San Francisco (Serenity, Tranquility, Peace). Distributed at 1967 Summer of Love—many bad trips due to high doses and long duration. Media panic ensued. Became Schedule I 1970. Less common than in 60s but still encountered. Historical significance in psychedelic culture.",
+        "uses": "No medical use. Recreational: Psychedelic visuals, enhanced colors, mental stimulation, body euphoria. Typical dose 3-10mg. Duration 14-20 hours. Used for deep introspection, spiritual experiences. More 'body-oriented' than LSD according to some. Very stimulating—can cause restlessness. Popular in 1960s but now rare. Requires major time commitment.",
+        "dangers": "Very long duration (14-20 hours) physically and mentally taxing. High doses (>10mg) can cause severe confusion, panic, psychosis. Stimulation causes tachycardia, hypertension, vasoconstriction. Insomnia persists after trip. Bad trips extremely difficult due to duration. Historical overdoses in 1960s from street tabs dosed too high. Thought loops, anxiety. Often mis-sold as other substances. Cross-tolerance with other psychedelics.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/2,5-Dimethoxy-4-methylamphetamine",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/DOM",
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal068.shtml"
+        },
+        "scientific_papers": [
+          {
+            "title": "DOM (STP): A psychedelic amphetamine with historical significance",
+            "authors": "Shulgin AT, Shulgin A",
+            "journal": "PiHKAL",
+            "year": 1991,
+            "summary": "Original documentation of DOM synthesis and effects"
+          }
+        ]
+      },
+      "forms": ["pill", "powder", "blotter"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "no_reaction",
+          "window_s": [60, 180],
+          "alt": "no color change (phenethylamine, not indole)"
+        }
+      ],
+      "notes": [
+        "STP. Historical psychedelic from 1960s Summer of Love. 14-20 hour duration—extremely long. Ehrlich negative (not an indole) helps distinguish from LSD. Very stimulating. Less potent than DOI (3-10mg vs 1-3mg) but still long-lasting. Rare nowadays but occasionally encountered. Orange/brown Marquis reaction. Not recommended for beginners due to duration and stimulation."
+      ]
+    },
+    "2C-E": {
+      "class": "phenethylamine (psychedelic)",
+      "description": {
+        "overview": "2C-E (2,5-dimethoxy-4-ethylphenethylamine) is a psychedelic phenethylamine from the 2C-x family. More intense and less predictable than 2C-B. Shorter duration than DOx series (4-8 hours). Produces strong visual effects and 'challenging' headspace. Often described as difficult or uncomfortable but insightful. Popular in psychonaut communities.",
+        "origins": "Synthesized by Alexander Shulgin, documented in PiHKAL 1991. Remained obscure until 2000s research chemical boom. Gained popularity 2005-2015 as legal psychedelic. Often compared unfavorably to 2C-B (more difficult, less euphoric). Emergency scheduled in many countries 2012-2016. Chinese labs produced it. Now less common than peak popularity. Considered more 'serious' or 'dark' than other 2C-x compounds.",
+        "uses": "No medical use. Recreational: Strong psychedelic visuals, introspection, challenging thought patterns. Typical dose 10-20mg. Duration 4-8 hours. Used for therapeutic/spiritual exploration. Described as 'teacher' substance—provides insights but not necessarily pleasant. Some users find it valuable for personal growth; others find it too uncomfortable. Less recreational than 2C-B.",
+        "dangers": "Physically uncomfortable: nausea, body load, muscle tension common. Can cause difficult psychological experiences—anxiety, confusion, existential distress. Less 'fun' than 2C-B. Vasoconstriction. Challenging headspace can be overwhelming. Reports of lasting anxiety after difficult trips. Dose-sensitive—small increases cause major intensity jumps. Can trigger HPPD. Often sold as 2C-B or other substances—verify with testing.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/2C-E",
+          "erowid": "https://www.erowid.org/library/books_online/pihkal/pihkal034.shtml"
+        },
+        "scientific_papers": [
+          {
+            "title": "2C-E and related phenethylamines: Structure-activity relationships",
+            "authors": "Monte AP, et al.",
+            "journal": "Journal of Medicinal Chemistry",
+            "year": 1997,
+            "summary": "Analysis of 2C-E pharmacology compared to other 2C-x compounds"
+          }
+        ]
+      },
+      "forms": ["powder", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#228B22",
+          "window_s": [30, 60],
+          "alt": "green to yellow-green"
+        },
+        {
+          "reagent": "ehrlich",
+          "color": "no_reaction",
+          "window_s": [60, 180],
+          "alt": "no color change (not indole)"
+        }
+      ],
+      "notes": [
+        "More intense and challenging than 2C-B. Duration 4-8 hours. Green Marquis reaction (similar to 2C-B but can vary). Ehrlich negative (phenethylamine). Often described as uncomfortable or difficult—strong body load. Considered 'serious' psychedelic for introspection, not recreation. Dose-sensitive. Sometimes sold as 2C-B—verify with testing. Not recommended for beginners."
+      ]
+    },
+    "DPT": {
+      "class": "tryptamine (indole)",
+      "description": {
+        "overview": "DPT (N,N-Dipropyltryptamine) is a psychedelic tryptamine structurally related to DMT. When smoked, produces short intense trip similar to DMT but longer (1-2 hours vs 10-15 minutes). When taken orally or insufflated, lasts 2-4 hours. Known for 'darker' or more challenging experiences than DMT. Used in religious contexts by Temple of the True Inner Light church.",
+        "origins": "First synthesized 1950s. Studied in 1960s-70s for potential therapeutic use. Adopted by Temple of the True Inner Light (NYC) as sacrament since 1980s. Remained obscure until 2000s research chemical availability. Less popular than DMT due to more difficult experiences. Legal status varies—unscheduled federally in US but some state bans. Still available on research chemical markets.",
+        "uses": "Religious: Sacrament in Temple of the True Inner Light church. Recreational/spiritual: Short intense psychedelic experiences (smoked), longer introspective trips (oral). Typical dose 50-100mg oral, 20-50mg smoked. Duration 1-2 hours smoked, 2-4 hours oral. Used for spiritual exploration, introspection. Described as more challenging and 'darker' than DMT—less euphoric, more introspective.",
+        "dangers": "Psychologically intense—can cause anxiety, paranoia, difficult experiences. Often described as 'darker' or more challenging than DMT. Nausea common, especially oral. Confusion, disorientation. Can trigger latent mental illness. Not suitable for those with psychotic disorder history. Less forgiving than DMT according to users. Vasoconstriction. Body load. Cross-tolerance with other tryptamines.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/DPT",
+          "erowid": "https://www.erowid.org/chemicals/dpt/"
+        },
+        "scientific_papers": [
+          {
+            "title": "DPT: Pharmacology and subjective effects",
+            "authors": "Faillace LA, et al.",
+            "journal": "Archives of General Psychiatry",
+            "year": 1967,
+            "summary": "Early clinical study of DPT's psychedelic effects"
+          }
+        ]
+      },
+      "forms": ["powder"],
+      "testing": [
+        {
+          "reagent": "ehrlich",
+          "color": "#9370DB",
+          "window_s": [60, 180],
+          "alt": "purple (indole reaction—confirms tryptamine)"
+        },
+        {
+          "reagent": "hofmann",
+          "color": "#9370DB",
+          "window_s": [60, 180],
+          "alt": "purple"
+        }
+      ],
+      "notes": [
+        "Dipropyltryptamine. DMT relative but darker/more challenging according to users. Ehrlich/Hofmann purple (tryptamine) but cannot distinguish from DMT or other tryptamines. Smoked: 1-2 hours (longer than DMT's 10-15 min). Oral: 2-4 hours. Used as religious sacrament by Temple of the True Inner Light. Less recreational, more introspective than DMT. Not recommended for beginners."
+      ]
+    },
+    "3-HO-PCP": {
+      "class": "dissociative (arylcyclohexylamine)",
+      "description": {
+        "overview": "3-HO-PCP (3-hydroxyphencyclidine) is a dissociative research chemical related to PCP and 3-MeO-PCP. More sedating and euphoric than 3-MeO-PCP, less manic. Duration 4-8 hours. Known for warm, opiate-like euphoria combined with dissociation. Very potent (5-15mg active). Popular in dissociative RC community but carries significant addiction risk.",
+        "origins": "Research chemical appearing on markets around 2015-2016. Designed as analogue to 3-MeO-PCP with different effects profile. Less manic and more 'warm' than 3-MeO-PCP. Chinese labs primary manufacturers. Legal status varies—unscheduled in many regions. Gained popularity for less stimulating, more euphoric profile than 3-MeO-PCP. Still widely available on RC markets.",
+        "uses": "No medical use. Recreational: Warm euphoria, dissociation, sedation, music enhancement. Typical dose 5-15mg. Duration 4-8 hours. Popular among dissociative enthusiasts. Described as combination of opioid warmth and ketamine dissociation. Less 'hole' inducing than ketamine at normal doses. Some compulsive redosing but less than 3-MeO-PCP. Used for relaxation, introspection.",
+        "dangers": "HIGH ADDICTION POTENTIAL: Euphoria leads to compulsive use. Tolerance develops quickly. Psychological dependence common. Bladder damage possible with chronic use (like ketamine). Respiratory depression when combined with depressants. Memory impairment. Confusion, poor coordination. Less manic than 3-MeO-PCP but still risk of poor judgment. Dangerous when mixed with alcohol, opioids, benzos. Long-term effects unknown. Withdrawal includes depression, anhedonia.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/3-HO-PCP"
+        },
+        "scientific_papers": [
+          {
+            "title": "3-HO-PCP and related dissociative arylcyclohexylamines",
+            "authors": "Morris H, Wallach J",
+            "journal": "Drug Testing and Analysis",
+            "year": 2019,
+            "summary": "Analysis of 3-HO-PCP pharmacology and emergence on drug markets"
+          }
+        ]
+      },
+      "forms": ["powder"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown (similar to PCP)"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [30, 60],
+          "alt": "grey to brown"
+        }
+      ],
+      "notes": [
+        "More sedating and euphoric than 3-MeO-PCP. Less manic but HIGH addiction risk due to pleasant effects. Cannot distinguish from PCP/3-MeO-PCP by reagent alone. Duration 4-8 hours. Very potent (5-15mg). Described as 'warm' dissociative with opioid-like euphoria. Bladder damage possible with chronic use. Popular but addictive. Not recommended due to high dependence potential."
+      ]
+    },
+    "Clonazolam": {
+      "class": "benzodiazepine (designer)",
+      "description": {
+        "overview": "Clonazolam is an extremely potent designer benzodiazepine, roughly 2-3x stronger than alprazolam (Xanax). Never approved for medical use. Produces intense sedation, amnesia, and muscle relaxation. Duration 6-10 hours. Notorious for causing severe blackouts, compulsive redosing, and rapid dependence. One of the most dangerous RC benzos.",
+        "origins": "Developed as research chemical around 2014-2015. Never approved for medical use anywhere. Rapidly gained notoriety for extreme potency and dangerous blackouts. Frequently sold as liquid drops or pressed pills. Common in RC benzo scene. Emergency scheduled in several jurisdictions 2019-2020. Still widely available despite scheduling. Known for ruining lives due to rapid addiction and blackout behavior.",
+        "uses": "No medical use. Recreational/self-medication: Extreme anxiety relief, sedation, sleep aid, Xanax-like effects but much stronger. Typical dose 0.25-0.5mg (extremely potent). Duration 6-10 hours. Mostly used by those seeking strong benzo effects or with high tolerance. Extreme amnesia common. Compulsive redosing during blackouts leads to taking massive doses unknowingly.",
+        "dangers": "EXTREME DANGER: Ultra-potent—easy overdose. Severe blackouts lasting 12-24+ hours. Compulsive redosing during blackouts—users take entire bottles. Physical dependence develops EXTREMELY rapidly (days of use). Withdrawal can be FATAL—seizures, delirium, death. Respiratory depression with depressants. Disinhibition causes dangerous/criminal behavior. Many reports of waking up in jail, hospitals with no memory. Tolerance skyrockets. Nearly impossible harm reduction due to amnesia. Often mixed with other substances in pressed pills.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Clonazolam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Clonazolam and designer benzodiazepines: Emerging threats",
+            "authors": "Manchester KR, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2018,
+            "summary": "Analysis of clonazolam's extreme potency and risks"
+          }
+        ]
+      },
+      "forms": ["liquid", "blotter", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "no_reaction",
+          "window_s": [0, 60],
+          "alt": "no color change (benzodiazepines don't react)"
+        }
+      ],
+      "notes": [
+        "EXTREME DANGER: 2-3x more potent than Xanax. Benzos show NO reagent reaction. Causes severe blackouts, compulsive redosing, RAPID dependence (days). Withdrawal FATAL. Considered one of most dangerous RC benzos—many horror stories. Often in liquid form (hard to dose). DO NOT USE unless experienced with benzos and aware of extreme risks. Harm reduction nearly impossible due to amnesia."
+      ]
+    },
+    "Bromazolam": {
+      "class": "benzodiazepine (designer)",
+      "description": {
+        "overview": "Bromazolam is a designer benzodiazepine similar in potency to alprazolam (Xanax). Never approved for medical use. Duration 6-8 hours. Less potent than clonazolam but still dangerous. Produces anxiety relief, sedation, and amnesia. Common in pressed pills sold as Xanax. High addiction potential and dangerous withdrawal.",
+        "origins": "Research chemical appearing around 2016-2018. Never medically approved. Designed as Xanax analogue. Became popular as clonazolam alternative (less potent = slightly safer). Frequently pressed into fake Xanax bars. Chinese manufacturers. Legal in some regions, banned in others. Widely available despite scheduling attempts. Common in current RC benzo market.",
+        "uses": "No medical use. Recreational/self-medication: Anxiety relief, sedation, sleep aid, similar to Xanax. Typical dose 1-3mg. Duration 6-8 hours. Popular among those seeking Xanax effects or with RC benzo tolerance. Causes amnesia and blackouts at higher doses. Some compulsive redosing. Often consumed unknowingly in fake Xanax bars.",
+        "dangers": "Physical dependence develops rapidly. Withdrawal can be FATAL—seizures, delirium. Blackouts and amnesia common at recreational doses. Respiratory depression when combined with opioids/alcohol—FATAL. Disinhibition leads to risky behavior. Impaired driving. Found in counterfeit Xanax bars—often with fentanyl. Tolerance develops. Less extreme than clonazolam but still very dangerous. Medical taper required if dependent.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Bromazolam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Bromazolam: A novel benzodiazepine in counterfeit pharmaceuticals",
+            "authors": "Soh YNA, Elliott S",
+            "journal": "Drug Testing and Analysis",
+            "year": 2022,
+            "summary": "Documentation of bromazolam in fake Xanax pills"
+          }
+        ]
+      },
+      "forms": ["pill (counterfeit)", "powder"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "no_reaction",
+          "window_s": [0, 60],
+          "alt": "no color change (benzodiazepines don't react)"
+        }
+      ],
+      "notes": [
+        "Xanax-strength RC benzo in fake bars. Benzos show NO reagent reaction. Less potent than clonazolam but still dangerous. Withdrawal FATAL—never stop cold turkey. Blackouts common. Test fake Xanax with fentanyl strips—often contains fentanyl too. Similar potency to real alprazolam but may have fentanyl or other adulterants. Never combine with opioids or alcohol."
+      ]
+    },
+    "Methadone": {
+      "class": "opioid (synthetic)",
+      "description": {
+        "overview": "Methadone is a long-acting synthetic opioid (24-36 hour half-life) used for chronic pain and opioid addiction treatment. Gold standard for medication-assisted treatment (MAT). Prevents withdrawal and reduces cravings without euphoria at therapeutic doses. Also diverted and abused. Dangerous due to very long half-life—overdoses can occur days after starting.",
+        "origins": "Developed in Germany 1937-1939 by scientists at IG Farben. Used in WWII Germany when morphine scarce. Brought to US post-war. FDA-approved 1947 for pain. Introduced for opioid addiction treatment in 1960s by Drs. Dole and Nyswander in NYC. Became standard MAT despite controversy. Heavily regulated—only dispensed at specialized clinics for addiction treatment. Generic and widely available but controlled distribution.",
+        "uses": "Medical: Opioid use disorder treatment (daily dosing at methadone clinics), chronic severe pain (long-acting option). Typical dose 40-120mg daily for MAT, 10-40mg for pain. Duration 24-36 hours (single dose) but accumulates with daily dosing. Recreational/diverted: Opioid high, preventing withdrawal. Duration much longer than heroin—appeals to some, others find it too long. Take-home bottles frequently diverted.",
+        "dangers": "VERY DANGEROUS OVERDOSE PROFILE: Long half-life means effects accumulate—safe on day 1, overdose on day 3. Respiratory depression FATAL, especially with other depressants. QT prolongation (cardiac arrhythmia risk). Extremely difficult withdrawal (2-4 weeks of acute symptoms vs 5-7 days for heroin). Sedation, cognitive impairment. Deaths common when switching from short-acting opioids (heroin) to methadone (underestimate potency). Diverted 'take-homes' dangerous—liquid formulation hard to dose. Drug interactions with benzos, alcohol FATAL.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methadone",
+          "erowid": "https://www.erowid.org/pharms/methadone/"
+        },
+        "scientific_papers": [
+          {
+            "title": "Methadone for opioid dependence: 50 years of clinical experience",
+            "authors": "Mattick RP, et al.",
+            "journal": "Addiction",
+            "year": 2009,
+            "summary": "Comprehensive review of methadone maintenance treatment efficacy and safety"
+          }
+        ]
+      },
+      "forms": ["liquid", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to yellow (different from typical opioid purple)"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange"
+        }
+      ],
+      "notes": [
+        "Long-acting opioid (24-36 hrs). DANGEROUS: Accumulates over days—can overdose on day 3 even if day 1 felt safe. Reagent reactions differ from morphine-based opioids (orange vs purple). Used in MAT clinics. Diverted liquid 'take-homes' dangerous. Withdrawal extremely prolonged (weeks). Test with fentanyl strips if source unknown. Never combine with benzos or alcohol—FATAL."
+      ]
+    },
     "Kratom": {
       "class": "opioid agonist (plant alkaloids)",
       "description": {
