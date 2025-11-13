@@ -395,5 +395,127 @@
         "description": "Research on fentanyl exposure risks, PPE recommendations"
       }
     ]
+  },
+  "additional_drug_protocols": {
+    "name": "Additional Substance-Specific Protocols",
+    "ghb_overdose": {
+      "name": "GHB/GBL Overdose",
+      "presentation": [
+        "Rapid unconsciousness (minutes)",
+        "Profound CNS depression",
+        "Respiratory depression",
+        "Vomiting with aspiration risk",
+        "Often mixed with alcohol"
+      ],
+      "treatment": [
+        "Airway management CRITICAL",
+        "Position on side",
+        "Suction ready",
+        "Supportive care only - NO ANTIDOTE",
+        "Usually resolves in 2-4 hours",
+        "Transport for observation"
+      ],
+      "critical_note": "Naloxone does NOT work. GHB is NOT an opioid. Patients may wake suddenly and become agitated."
+    },
+    "hallucinogen_crisis": {
+      "name": "Hallucinogen Bad Trip / NBOMe Emergency",
+      "presentation": [
+        "Extreme anxiety/panic",
+        "Paranoia/delusions",
+        "Agitation or catatonia",
+        "Dilated pupils",
+        "Tachycardia",
+        "Hyperthermia (NBOMes)"
+      ],
+      "treatment": [
+        "Calm, quiet environment",
+        "Verbal de-escalation",
+        "Benzodiazepines for severe agitation (ALS)",
+        "Monitor vitals - watch for serotonin syndrome",
+        "Transport if persistent symptoms"
+      ],
+      "nbome_warning": "NBOMe compounds (sold as LSD) can cause seizures, hyperthermia, cardiac arrest. Temp >104°F = medical emergency."
+    },
+    "synthetic_cannabinoid": {
+      "name": "Synthetic Cannabinoid (K2/Spice) Toxicity",
+      "presentation": [
+        "Extreme agitation or sedation",
+        "Tachycardia >140",
+        "Seizures",
+        "Psychosis/violent behavior",
+        "Often mass casualty scenarios"
+      ],
+      "treatment": [
+        "Scene safety first",
+        "Supportive care - NO ANTIDOTE",
+        "Benzodiazepines for seizures",
+        "Expect multiple patients"
+      ],
+      "note": "Common at homeless encampments. Prepare for mass casualty response."
+    }
+  },
+  "mass_casualty_guidance": {
+    "name": "Mass Overdose Events",
+    "scenario": "Multiple patients down simultaneously from contaminated batch",
+    "priorities": [
+      "1. Scene safety - assume fentanyl present",
+      "2. Request additional resources immediately",
+      "3. Triage by respiratory status",
+      "4. Prioritize naloxone for respiratory depression",
+      "5. Coordinate transport to multiple facilities",
+      "6. Law enforcement secures scene",
+      "7. Public health notification for contaminated batch"
+    ],
+    "triage": [
+      "RED: Respiratory depression, unconscious",
+      "YELLOW: Conscious but altered, stable vitals",
+      "GREEN: Awake, alert, stable"
+    ],
+    "naloxone_rationing": "Prioritize patients with NO respiratory effort. Intranasal preferred for mass deployment."
+  },
+  "needle_stick_protocol": {
+    "name": "Needle Stick Injury Response",
+    "immediate_action": [
+      "Remove from scene",
+      "DO NOT squeeze wound",
+      "Wash with soap and water 15 min",
+      "Transport to ED"
+    ],
+    "infection_risks": [
+      "Hepatitis B (highest risk)",
+      "Hepatitis C (moderate)",
+      "HIV (low from needle stick)"
+    ],
+    "post_exposure": [
+      "HIV PEP must start within 72 hours (ideally <2 hrs)",
+      "Baseline testing at ED",
+      "Follow-up at 6 weeks, 3 months, 6 months"
+    ],
+    "prevention": [
+      "Never recap needles",
+      "High-visibility gloves when searching",
+      "Visual inspection before blind reaches"
+    ]
+  },
+  "decontamination_procedures": {
+    "name": "Equipment & Vehicle Decontamination",
+    "after_fentanyl_exposure": [
+      "Remove contaminated PPE before entering vehicle",
+      "DO NOT shake clothing",
+      "Wipe surfaces with soap and water",
+      "Do NOT use alcohol cleaners on fentanyl",
+      "Air out vehicle",
+      "Change uniforms ASAP"
+    ],
+    "equipment": [
+      "Wipe all touched equipment with disinfectant",
+      "Stretcher gets full clean",
+      "Contaminated gear in red biohazard bag labeled 'FENTANYL'"
+    ],
+    "personal": [
+      "Shower as soon as possible",
+      "Wash all exposed skin",
+      "Do NOT bring contaminated clothing home"
+    ]
   }
 }

@@ -673,12 +673,12 @@
     ]
   },
   "Amphetamine": {
-    "class": "phenethylamine",
+    "class": "phenethylamine (stimulant)",
     "description": {
-      "overview": "Amphetamine (speed) is a central nervous system stimulant that increases alertness, focus, and energy while suppressing appetite. Prescription forms (Adderall, Dexedrine) are widely used for ADHD and narcolepsy. Street amphetamine is typically lower purity and more variable in composition than pharmaceutical versions.",
-      "origins": "Synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not studied until the 1920s-30s. Marketed as Benzedrine inhaler for nasal congestion in 1933. Widely used in WWII by all sides for soldier alertness. Became popular diet pill and study aid in 1950s-60s. Restricted as Schedule II in 1971 due to abuse. Street 'speed' paste common in Europe.",
-      "uses": "Medical: ADHD (Adderall mixed salts, Dexedrine), narcolepsy, rarely for obesity. Improves focus, attention, wakefulness in ADHD patients. Recreational: Energy, euphoria, focus for studying/work, dancing, socializing. Often used by students, truck drivers, shift workers for productivity. Performance enhancement in sports (banned).",
-      "dangers": "Cardiovascular strain: increased heart rate, blood pressure, risk of heart attack/stroke with heavy use. Neurotoxicity concerns with chronic high-dose use. Addiction potential moderate to high—psychological dependence common. Psychosis and paranoia with sleep deprivation from binges. Appetite suppression leads to malnutrition. 'Speed paste' often heavily cut with caffeine, sugars, or other stimulants. Tolerance develops rapidly requiring higher doses. Comedown includes fatigue, depression, irritability. Drug interactions with MAOIs can be fatal.",
+      "overview": "Amphetamine (alpha-methylphenethylamine) is a central nervous system stimulant used medically to treat ADHD and narcolepsy. Racemic mixture or pure dextroamphetamine (d-amphetamine). Main component of Adderall (mixed amphetamine salts). Produces increased focus, energy, wakefulness, and euphoria. Commonly diverted for academic performance enhancement and recreational use. Street name 'speed.' Less potent than methamphetamine but similar effects. Widely prescribed and widely abused.",
+      "origins": "First synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not recognized. Rediscovered in 1920s. Benzedrine inhaler (racemic amphetamine) marketed 1933 for nasal congestion—users discovered stimulant effects. Widely used by military in WWII (both Allied and Axis forces) to combat fatigue. Became popular in 1950s-60s for weight loss and energy. Scheduled as controlled substance 1971. Adderall (mixed amphetamine salts) introduced 1996 for ADHD. Now Schedule II in US. Street 'speed' paste common in Europe; diverted Adderall common in US.",
+      "uses": "Medical: ADHD treatment (Adderall, Dexedrine), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD. Typical therapeutic dose 5-40mg daily. Recreational/Academic: Cognitive enhancement ('smart drug'), studying aid, increased energy and focus, euphoria, weight loss. Popular among college students during exams ('Adderall abuse'). Street speed (paste or powder) snorted or taken orally. Typical recreational dose 10-50mg. Duration 4-6 hours (immediate release) or 8-12 hours (extended release).",
+      "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke especially with pre-existing conditions. Abuse potential significant—tolerance and psychological dependence develop. Neurotoxicity at high doses (dopamine depletion). Psychosis, paranoia, hallucinations with chronic high-dose use. Appetite suppression leads to malnutrition with chronic use. Insomnia, anxiety, irritability. Compulsive behaviors (picking skin, repetitive tasks). Severe comedown: fatigue, depression, cognitive impairment. Withdrawal: extreme fatigue, depression, increased appetite, sleeping for days. IV use carries infection risks. Nasal damage from snorting. Counterfeit Adderall pills may contain methamphetamine or other substances. Mixing with alcohol or other stimulants dangerous.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
         "erowid": "https://www.erowid.org/chemicals/amphetamines/",
@@ -686,75 +686,81 @@
       },
       "scientific_papers": [
         {
-          "title": "A review of the neuropharmacology of amphetamine",
-          "authors": "Sulzer D, et al.",
-          "journal": "Neuropsychopharmacology",
-          "year": 2005,
-          "doi": "10.1038/sj.npp.1300801",
-          "summary": "Comprehensive review of amphetamine mechanisms: dopamine release, transporter reversal, and therapeutic effects"
+          "title": "Amphetamine for ADHD: Efficacy and safety",
+          "authors": "Faraone SV, Glatt SJ",
+          "journal": "Expert Review of Neurotherapeutics",
+          "year": 2010,
+          "doi": "10.1586/ern.10.6",
+          "summary": "Review of amphetamine's therapeutic efficacy and safety profile in ADHD treatment"
         },
         {
-          "title": "Efficacy and safety of long-term treatment with stimulants in adults with ADHD",
-          "authors": "Castells X, et al.",
-          "journal": "Cochrane Database of Systematic Reviews",
+          "title": "Cognitive enhancement with stimulants: Systematic review",
+          "authors": "Smith ME, Farah MJ",
+          "journal": "Psychological Bulletin",
           "year": 2011,
-          "summary": "Meta-analysis of amphetamine effectiveness and safety for ADHD treatment in adults"
+          "summary": "Analysis of amphetamine use for cognitive enhancement in healthy individuals"
         },
         {
-          "title": "Amphetamine-induced neurotoxicity: A review",
-          "authors": "Krasnova IN, Cadet JL",
-          "journal": "Brain Research Bulletin",
-          "year": 2009,
-          "summary": "Review of neurotoxic effects of amphetamine at high doses and potential mechanisms"
+          "title": "Amphetamine abuse among college students",
+          "authors": "Teter CJ, et al.",
+          "journal": "Journal of American College Health",
+          "year": 2006,
+          "summary": "Survey study documenting widespread amphetamine misuse in academic settings"
         }
       ]
     },
     "forms": [
+      "pill",
       "powder",
-      "paste",
-      "tablet"
+      "paste"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#FF8C00",
+        "color": "#FFA500",
         "window_s": [
-          0,
+          20,
           60
         ],
-        "alt": "orange→brown"
+        "alt": "orange to brown"
       },
       {
         "reagent": "mecke",
-        "color": "#228B22",
+        "color": "#808080",
         "window_s": [
-          0,
+          20,
           60
         ],
-        "alt": "green→brown"
+        "alt": "dark yellow to brown"
       },
       {
         "reagent": "mandelin",
-        "color": "#228B22",
+        "color": "#FF8C00",
         "window_s": [
-          0,
+          20,
           60
         ],
-        "alt": "green"
+        "alt": "orange"
       },
       {
         "reagent": "simons",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
-          0,
-          60
+          60,
+          120
         ],
-        "alt": "no reaction (primary amine)"
+        "alt": "NO blue color (primary amine—only secondary amines like MDMA turn blue)"
       }
     ],
     "notes": [
-      "Speed/amphetamine paste often contains adulterants. Test multiple points."
-    ]
+      "Speed, Adderall. Base stimulant—similar to methamphetamine but less potent. Reagent tests CANNOT reliably distinguish amphetamine from methamphetamine (both orange with Marquis, no Simon's blue). Both are primary amines. Lab testing (GC/MS) required for definitive distinction. Pharmaceutical Adderall pills should match pill ID databases. Street 'speed' paste (common in Europe) is often amphetamine sulfate. Counterfeit Adderall may contain meth or other substances—test pressed pills."
+    ],
+    "other_methods": {
+      "meth_distinction": {
+        "summary": "Reagent tests cannot distinguish amphetamine from methamphetamine. Both give orange Marquis, no Simon's blue. Need lab testing (GC/MS) for definitive ID. Effects: Meth more potent, longer duration, more euphoric.",
+        "confidence": "low"
+      }
+    }
   },
   "2C-B": {
     "class": "phenethylamine (psychedelic)",
@@ -2339,137 +2345,141 @@
     ]
   },
   "Etizolam": {
-    "class": "thienodiazepine (benzo analogue)",
+    "class": "thienodiazepine (benzodiazepine analogue)",
     "description": {
-      "overview": "Etizolam is a thienodiazepine (benzo analogue) with similar effects to benzodiazepines but slightly different chemical structure. Produces anxiety relief, sedation, and muscle relaxation. Legal prescription medication in Japan, India, and Italy but unscheduled research chemical in many countries. Shorter half-life than Valium but longer than Xanax. Often sold on blotter paper or pressed into fake pharmaceutical pills.",
-      "origins": "Developed in 1980s as anxiolytic and sleep aid. Approved in Japan (1983), India, and Italy as prescription medication under names Etilaam, Etizest, Depas. Emerged on Western research chemical market in 2010s as legal alternative to scheduled benzos. Not FDA-approved in US but widely available online. Increasingly found in counterfeit Xanax bars.",
-      "uses": "Medical (in countries where approved): Anxiety disorders, insomnia, panic attacks, muscle tension. Typical dose 0.5-2mg. Research chemical/recreational: Anxiety relief, sleep aid, recreational sedation. Duration 6-8 hours. Effects similar to alprazolam but some report less amnesia and smoother comedown. Popular because unscheduled in many areas. Often sold on blotter (like LSD) or pressed into pills resembling pharmaceutical benzos.",
-      "dangers": "Physical dependence and FATAL withdrawal risk like pharmaceutical benzos despite being 'research chemical.' Addiction develops quickly. Often stronger than users expect—easy to blackout. Pressed pills dosage wildly inconsistent. Frequently mixed with other substances in fake pharma pills. Combining with opioids, alcohol, or other depressants FATAL. Memory blackouts common. Legal status ambiguous—may be prosecuted as analogue. Quality control issues: purity unknown, contamination possible. Tolerance develops rapidly. No medical supervision for use as research chemical. Long-term effects understudied. Reagent tests don't work—can't distinguish from other benzos visually. Some batches found with fentanyl contamination.",
+      "overview": "Etizolam is a thienodiazepine, chemically related to benzodiazepines but not technically a benzodiazepine. Produces similar effects: anxiety relief, sedation, muscle relaxation, amnesia. Prescribed in Japan, India, and Italy but not FDA-approved in US. Widely available as research chemical. Frequently found in counterfeit Xanax bars and sold as 'legal' benzo alternative. Shorter half-life than most benzos (6-8 hours). Potency similar to alprazolam (Xanax). Extremely addictive with dangerous withdrawal.",
+      "origins": "First synthesized in Japan in 1980s. Approved as prescription medication in Japan, India, and Italy for anxiety and sleep disorders. Remained obscure in West until 2010s research chemical boom. Became popular as 'legal' benzodiazepine alternative in countries where it's unscheduled. Exploded in popularity 2015-present as Xanax substitute. Frequently pressed into fake Xanax bars. Scheduled in many US states and some countries but remains unscheduled federally in US (as of 2024). Easy online availability. Often combined with opioids (dangerous). Popular in hip-hop/SoundCloud rap culture.",
+      "uses": "Medical (Japan/India/Italy): Anxiety disorders, insomnia, panic attacks. Typical therapeutic dose 0.5-2mg. Recreational/self-medication: Anxiety relief, sedation, euphoria (some users), sleep aid, alcohol-like intoxication. Typical recreational dose 1-4mg. Duration 5-8 hours. Popular among those seeking Xanax effects legally or cheaply. Often combined with opioids (extremely dangerous—respiratory depression). Blacked-out behavior and amnesia common at higher doses. Some users compulsively redose. Pressed into fake Xanax bars—users often don't know they're taking etizolam.",
+      "dangers": "SEVERE ADDICTION AND WITHDRAWAL: Physical dependence develops rapidly (days to weeks). Withdrawal can be FATAL—seizures, delirium tremens, psychosis. NEVER stop abruptly after regular use—taper required. Respiratory depression when combined with opioids, alcohol, or other CNS depressants—many deaths. Blackouts and amnesia common—users wake up in jail, hospitals, or worse with no memory. Compulsive redosing while blacked out. Disinhibition leads to dangerous behavior. Impaired driving. Found in counterfeit Xanax—users don't know what they're taking or dosing. Tolerance develops quickly. Often adulterated with fentanyl in pressed pills. Harm reduction extremely difficult due to blackouts.",
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Etizolam",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_Etizolam.shtml",
         "psychonautwiki": "https://psychonautwiki.org/wiki/Etizolam"
       },
       "scientific_papers": [
         {
-          "title": "Etizolam and benzodiazepine differentiation in urine",
-          "authors": "Manchester KR, et al.",
-          "journal": "Journal of Analytical Toxicology",
-          "year": 2012,
-          "summary": "Analytical study on detecting etizolam as emerging benzodiazepine analogue"
+          "title": "Etizolam and flualprazolam in counterfeit pharmaceuticals",
+          "authors": "Carpenter JE, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2021,
+          "summary": "Analysis of etizolam prevalence in fake Xanax pills seized by law enforcement"
         },
         {
-          "title": "Etizolam: a review of pharmacology, clinical efficacy, and tolerability",
-          "authors": "Lodhi A, Kaur J",
-          "journal": "Reviews on Recent Clinical Trials",
-          "year": 2020,
-          "summary": "Comprehensive review of etizolam's effects, medical uses, and side effects"
+          "title": "Etizolam dependence and withdrawal",
+          "authors": "Gupta S, et al.",
+          "journal": "Addiction",
+          "year": 2018,
+          "summary": "Case reports of severe etizolam withdrawal syndrome"
         },
         {
-          "title": "Designer benzodiazepines: a new challenge",
+          "title": "Designer benzodiazepines: An emerging threat",
           "authors": "Manchester KR, et al.",
           "journal": "Drug Testing and Analysis",
           "year": 2018,
-          "summary": "Review of etizolam and other research chemical benzos entering the illicit market"
+          "summary": "Review of etizolam and other RC benzos in drug supply"
         }
       ]
     },
     "forms": [
       "pill",
-      "blotter",
-      "powder"
+      "powder",
+      "blotter"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
+        "alt": "no color change"
       },
       {
         "reagent": "mecke",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
+        "alt": "no color change"
       }
     ],
     "notes": [
-      "Research chemical benzo analogue. No reagent reactions. Legal status varies; sold as 'research chemical' or pressed into fake pharma pills."
-    ]
+      "CRITICAL: Benzodiazepines and analogues (including etizolam) do NOT react with standard colorimetric reagents. No color change = cannot confirm or rule out benzos. Frequently found in COUNTERFEIT XANAX BARS. Withdrawal can be FATAL—never stop cold turkey. Test pills with fentanyl strips—fake bars often contain fentanyl. Verify pharmaceutical pills with pill ID databases. Etizolam blacked-out behavior extremely common. Not technically a benzodiazepine but acts like one. Legal status varies by region."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "MANDATORY for any pressed benzo pills. Fake Xanax frequently contains fentanyl.",
+        "confidence": "critical"
+      },
+      "pill_databases": {
+        "summary": "Etizolam rarely comes in pharmaceutical pills in US. If pill looks like Xanax but isn't from YOUR prescription, likely fake containing etizolam, flualprazolam, or fentanyl.",
+        "confidence": "high"
+      }
+    }
   },
   "Flualprazolam": {
     "class": "benzodiazepine (designer)",
     "description": {
-      "overview": "Flualprazolam is a designer benzodiazepine (research chemical) that's significantly more potent than alprazolam (Xanax). Never approved for medical use. Primarily found in counterfeit 'Xanax' bars pressed by illegal manufacturers. Longer-lasting and more sedating than real alprazolam. Causes profound blackouts and amnesia at recreational doses. Extremely dangerous.",
-      "origins": "Synthesized as research chemical, never studied for medical use. Appeared on darknet markets and research chemical vendors around 2016-2017. Quickly became popular adulterant in fake Xanax bars because it's cheap, potent, and produces benzo-like effects. No legitimate pharmaceutical use—purely illicit production. Often manufactured in China and imported by illegal pill pressers.",
-      "uses": "No medical use. Illicit: Found in counterfeit Xanax bars (often labeled as 'alprazolam 2mg' but actually contain flualprazolam). Also sold as blotter or powder on research chemical markets. Effects: Intense sedation, anxiety relief, muscle relaxation, amnesia. Much stronger than alprazolam mg-for-mg. Duration 10-14 hours (vs Xanax 6-12 hours). Users often take what they think is regular Xanax but get unexpectedly powerful effects.",
-      "dangers": "EXTREMELY DANGEROUS. Much more potent than alprazolam—easy to overdose when sold as 'Xanax.' Causes severe blackouts lasting 12+ hours with total amnesia. Users engage in dangerous behavior with no memory. Physical dependence develops RAPIDLY (days to weeks). Withdrawal can be FATAL (seizures). Often combined with fentanyl in pressed pills—LETHAL combination. Overdose causes profound sedation, respiratory depression (especially with other depressants), coma. No quality control—dosage unpredictable. Some 'Xanax' bars contain 3-5mg flualprazolam (equivalent to 6-10mg+ alprazolam). Cannot be distinguished from real Xanax by appearance. Reagent tests don't work. Long half-life means effects persist dangerously long. Reports of users blacking out for entire weekends. Legal consequences: still driving, operating machinery during blackout.",
+      "overview": "Flualprazolam is an extremely potent designer benzodiazepine, ~2x stronger than alprazolam (Xanax). Not approved for medical use anywhere. Produces intense sedation, amnesia, and muscle relaxation. Longer duration than Xanax (8-12 hours). Frequently found in counterfeit Xanax bars. Causes severe blackouts and compulsive redosing. Extremely addictive with life-threatening withdrawal. One of most dangerous research chemical benzos.",
+      "origins": "Research chemical first appearing on online markets around 2017-2018. Never approved for medical use. Specifically designed as more potent Xanax alternative. Rapidly gained popularity in RC benzo scene. Frequently pressed into fake Xanax bars (often alongside etizolam or fentanyl). Seized in large quantities by law enforcement. Emergency scheduling in many jurisdictions 2020-2021. China production. Still widely available despite scheduling. Became notorious for extreme blackouts and dangerous behavior.",
+      "uses": "No medical use. Recreational/self-medication: Extreme anxiety relief, sedation, sleep aid, Xanax-like effects but stronger and longer. Typical dose 0.5-1mg (very potent—compare to Xanax 1-2mg). Duration 8-12 hours. Mostly consumed unknowingly in fake Xanax bars. Intentional use among RC benzo community. Extreme blackouts common—users report losing entire days. Compulsive redosing while blacked out. Often combined with opioids (deadly). Popular in addiction and poly-substance use contexts.",
+      "dangers": "EXTREME DANGER: Ultra-potent—easy to overdose. Severe blackouts lasting 12-24+ hours—users wake up in jail, hospitals, with no memory of actions. Compulsive redosing during blackouts leads to massive doses. Respiratory depression when combined with opioids/alcohol—FATAL. Physical dependence develops extremely rapidly. Withdrawal can be FATAL—seizures, delirium, death. NEVER stop cold turkey—medical taper required. Disinhibition causes dangerous, criminal behavior. Found in fake Xanax bars—users don't know dosage or what they're taking. Often contains fentanyl as well. Tolerance builds fast. Harm reduction nearly impossible due to blackout potential.",
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Flualprazolam",
-        "erowid": "https://www.erowid.org/experiences/subs/exp_Flualprazolam.shtml",
         "psychonautwiki": "https://psychonautwiki.org/wiki/Flualprazolam"
       },
       "scientific_papers": [
         {
-          "title": "Flualprazolam: report of an analytical challenge and prevalence in drug seizures",
-          "authors": "Papsun D, et al.",
-          "journal": "Journal of Analytical Toxicology",
-          "year": 2019,
-          "summary": "Documentation of flualprazolam in counterfeit pills and analytical detection challenges"
-        },
-        {
-          "title": "Designer benzodiazepines: a review of toxicology and public health risks",
-          "authors": "Zawilska JB, Wojcieszak J",
-          "journal": "Forensic Toxicology",
-          "year": 2019,
-          "summary": "Review of flualprazolam and other designer benzos as emerging public health threat"
-        },
-        {
-          "title": "Counterfeit medications containing designer benzodiazepines: a new threat",
-          "authors": "Hoiseth G, et al.",
-          "journal": "Clinical Toxicology",
+          "title": "Flualprazolam: A new designer benzodiazepine",
+          "authors": "Coppola M, et al.",
+          "journal": "Forensic Science International",
           "year": 2020,
-          "summary": "Case reports of overdoses from flualprazolam in fake Xanax pills"
+          "summary": "First forensic analysis of flualprazolam in counterfeit pharmaceuticals"
+        },
+        {
+          "title": "Designer benzodiazepines and their prevalence in drug-facilitated crimes",
+          "authors": "Moosmann B, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2021,
+          "summary": "Study showing flualprazolam in fake Xanax and associated with blackouts/crimes"
         }
       ]
     },
     "forms": [
-      "pressed pill",
-      "blotter",
-      "powder"
+      "pill (counterfeit)",
+      "powder",
+      "blotter"
     ],
     "testing": [
       {
         "reagent": "marquis",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
+        "alt": "no color change"
       },
       {
         "reagent": "mecke",
-        "color": "#00000000",
+        "color": "no_reaction",
         "window_s": [
           0,
           60
         ],
-        "alt": "no reaction"
+        "alt": "no color change"
       }
     ],
     "notes": [
-      "Designer benzo found in fake Xanax bars. Very potent. No reagent reactions. Often mixed with fentanyl in pressed pills."
+      "EXTREME DANGER: ~2x more potent than Xanax, longer duration, extreme blackouts. Benzodiazepines show NO reagent reaction—cannot test with colorimetric reagents. Frequently in FAKE XANAX BARS. Test with fentanyl strips—often contains fentanyl. Withdrawal can be FATAL. Compulsive redosing during blackouts common—users take entire bottles unknowingly. If pill looks like Xanax but isn't from YOUR prescription at pharmacy, assume it's fake containing flualprazolam, etizolam, or fentanyl. DO NOT mix with opioids or alcohol—respiratory depression FATAL."
     ],
     "other_methods": {
       "fentanyl_strips": {
-        "summary": "Test pressed pills for fentanyl contamination.",
+        "summary": "CRITICAL for any street Xanax bars. Many fake bars contain fentanyl in addition to flualprazolam.",
+        "confidence": "critical"
+      },
+      "pill_verification": {
+        "summary": "Flualprazolam not approved anywhere—all pills are counterfeit. If it looks like Xanax but isn't pharmaceutical, it's fake.",
         "confidence": "high"
       }
     }
@@ -2712,6 +2722,714 @@
     ],
     "notes": [
       "Mild opioid. Often combined with acetaminophen—monitor APAP dose to avoid liver damage. Lean/purple drank popular in hip-hop culture."
+    ]
+  },
+  "Oxycodone": {
+    "class": "opioid (semi-synthetic)",
+    "description": {
+      "overview": "Oxycodone is a semi-synthetic opioid analgesic prescribed for moderate to severe pain. Approximately 1.5x more potent than morphine. Available as immediate-release (Roxicodone, Percocet with acetaminophen) and extended-release (OxyContin). Extremely high abuse and diversion rates. The counterfeit 'M30' pills (fake oxycodone 30mg) are now the #1 cause of fentanyl overdose deaths—virtually all street M30s contain fentanyl, not oxycodone.",
+      "origins": "Synthesized from thebaine (opium alkaloid) in 1916 by German chemists Martin Freund and Edmund Speyer. Introduced commercially in 1939. OxyContin (extended-release) launched by Purdue Pharma in 1996 with aggressive marketing claiming low addiction risk—this sparked the modern opioid epidemic. Purdue pled guilty to criminal charges in 2007 and 2020 for misleading marketing. By 2010s, pill mills and overprescribing led to epidemic of addiction and transition to heroin/fentanyl when prescriptions tightened. Now, counterfeit 'M30' pills are primary fentanyl delivery method.",
+      "uses": "Medical: Moderate-severe pain (post-surgical, cancer, chronic pain). Typical dose 5-30mg every 4-6 hours for immediate-release; 10-80mg every 12 hours for OxyContin. Recreational/diverted: Pills crushed and snorted, chewed, or dissolved for injection to bypass extended-release mechanism. Euphoria, pain relief, sedation, 'nodding.' Street pills ('blues,' 'M30s,' 'roxies') almost universally counterfeit containing fentanyl.",
+      "dangers": "COUNTERFEIT EPIDEMIC: The DEA reports 6 out of 10 fake M30 pills contain lethal fentanyl doses. If you didn't get it from YOUR prescription at a pharmacy, assume it's fake and contains fentanyl. Addiction develops rapidly—one of highest abuse potentials among opioids. Physical dependence and severe withdrawal. Respiratory depression and overdose, especially when combined with alcohol, benzos, or other depressants. Acetaminophen toxicity in Percocet formulations (liver damage/failure). Constipation, nausea, sedation. IV use carries infection risks. OxyContin abuse contributed to opioid epidemic and transition to heroin/fentanyl. Fake pills are manufactured by cartels with pill presses—look identical to real pills but contain fentanyl, carfentanil, or nothing.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Oxycodone",
+        "erowid": "https://www.erowid.org/pharms/oxycodone/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Oxycodone"
+      },
+      "scientific_papers": [
+        {
+          "title": "OxyContin and the opioid epidemic: Purdue Pharma's role",
+          "authors": "Van Zee A",
+          "journal": "American Journal of Public Health",
+          "year": 2009,
+          "doi": "10.2105/AJPH.2007.131714",
+          "summary": "Analysis of OxyContin marketing practices and contribution to opioid epidemic"
+        },
+        {
+          "title": "Counterfeit oxycodone tablets containing fentanyl: A new public health threat",
+          "authors": "DEA Laboratory Analysis",
+          "journal": "DEA Intelligence Report",
+          "year": 2021,
+          "summary": "Documentation of fake M30 pill crisis and fentanyl contamination rates"
+        },
+        {
+          "title": "Trends in opioid analgesic abuse and mortality in the United States",
+          "authors": "Cicero TJ, et al.",
+          "journal": "New England Journal of Medicine",
+          "year": 2015,
+          "summary": "Epidemiological study tracking oxycodone abuse patterns and transition to heroin"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "powder"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#9370DB",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "purple"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#0e7c61",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "blue-green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#4B0082",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "brown"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Street 'M30' pills are ALMOST ALWAYS COUNTERFEIT FENTANYL. If you didn't get it from YOUR prescription at a licensed pharmacy, assume it contains fentanyl. Always use fentanyl test strips on any suspected oxycodone pill from the street. Real pharmaceutical pills should match pill identification databases (drugs.com) exactly—check imprint, color, size, texture. Fake pills may have: uneven edges, chalky texture, incorrect color, wrong thickness, crumbly consistency. Even perfect-looking pills can be deadly fakes. Visual inspection alone is NOT reliable—Mexican cartels use industrial pill presses."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "MANDATORY for any street pill. Dissolve small amount, test with fentanyl strips before consuming.",
+        "confidence": "critical"
+      },
+      "pill_databases": {
+        "summary": "Compare to drugs.com pill identifier. Check imprint, shape, color, score lines.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "Hydrocodone": {
+    "class": "opioid (semi-synthetic)",
+    "description": {
+      "overview": "Hydrocodone is a semi-synthetic opioid analgesic prescribed for moderate pain and cough suppression. Similar potency to morphine. Almost always combined with acetaminophen (Vicodin, Norco, Lortab) or ibuprofen. One of the most prescribed opioids in the US. High diversion and abuse rates. Counterfeit Vicodin pills increasingly contain fentanyl.",
+      "origins": "First synthesized in Germany in 1920 from codeine. Introduced to US market in 1943 combined with other medications. Vicodin (hydrocodone + acetaminophen) launched in 1978 and became one of most prescribed medications in America. Originally Schedule III but rescheduled to Schedule II in 2014 due to abuse epidemic. Tighter prescribing regulations led to decline in legitimate prescriptions but increase in counterfeit pills containing fentanyl.",
+      "uses": "Medical: Moderate pain (dental procedures, injuries, post-surgical), cough suppression. Typical dose 5-10mg hydrocodone combined with 300-325mg acetaminophen (Norco 5/325, 10/325). Recreational: Euphoria, pain relief, relaxation, 'nodding.' Pills often taken in excess or combined with alcohol. Some users extract hydrocodone from acetaminophen ('cold water extraction') to avoid liver damage at high doses.",
+      "dangers": "Addiction and physical dependence common—opioid withdrawal includes muscle aches, anxiety, insomnia, nausea, sweating. Respiratory depression and overdose, especially when combined with alcohol, benzodiazepines, or other CNS depressants. Acetaminophen toxicity—exceeding 4000mg daily causes liver damage and potential liver failure (fatal). Many deaths from Vicodin abuse involve acetaminophen overdose in addition to opioid effects. Constipation, nausea, drowsiness common. Driving impairment. COUNTERFEIT PILLS: Fake Vicodin increasingly common, often containing fentanyl instead of hydrocodone. Always verify pharmaceutical source.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hydrocodone",
+        "erowid": "https://www.erowid.org/pharms/hydrocodone/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Hydrocodone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Hydrocodone combination products: A review of abuse liability and therapeutic efficacy",
+          "authors": "Webster LR, et al.",
+          "journal": "Expert Opinion on Drug Safety",
+          "year": 2014,
+          "summary": "Review of hydrocodone's abuse potential and rationale for Schedule II reclassification"
+        },
+        {
+          "title": "Acetaminophen hepatotoxicity in patients treated with hydrocodone combination products",
+          "authors": "Dart RC, et al.",
+          "journal": "Annals of Pharmacotherapy",
+          "year": 2000,
+          "summary": "Study documenting liver damage from acetaminophen in Vicodin formulations"
+        },
+        {
+          "title": "Trends in hydrocodone prescribing after Schedule II reclassification",
+          "authors": "Jones CM, Lurie PG",
+          "journal": "JAMA Internal Medicine",
+          "year": 2016,
+          "summary": "Analysis of prescription patterns and abuse rates after 2014 rescheduling"
+        }
+      ]
+    },
+    "forms": [
+      "pill",
+      "liquid"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#9370DB",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "purple to purple-brown"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#0e7c61",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "green-blue"
+      }
+    ],
+    "notes": [
+      "Vicodin, Norco, Lortab. Almost always combined with acetaminophen—never exceed 4000mg APAP daily (liver damage). Street pills may be counterfeit fentanyl—test with fentanyl strips. Reagent tests show opioid reactions but cannot distinguish from other opioids. Verify pharmaceutical pills with pill ID databases."
+    ],
+    "other_methods": {
+      "fentanyl_strips": {
+        "summary": "Test any street Vicodin/Norco pills. Counterfeit pills with fentanyl increasing.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Mephedrone": {
+    "class": "cathinone (synthetic)",
+    "description": {
+      "overview": "Mephedrone (4-methylmethcathinone, 4-MMC) is a synthetic cathinone stimulant and empathogen. Known as 'meow meow,' 'M-CAT,' or 'drone.' Produces MDMA-like euphoria and empathy combined with cocaine-like stimulation. Extremely compulsive redosing behavior. Popular in UK rave scene 2008-2010 before being banned. Still encountered, often sold as MDMA, molly, or bath salts. Very 'moreish' (users have difficulty stopping once started).",
+      "origins": "First synthesized in 1929 but remained obscure. Re-emerged in 2003 on research chemical markets. Exploded in popularity in UK 2008-2009 as legal high sold in head shops and online. Media panic and several deaths led to emergency UK ban in April 2010, followed by worldwide scheduling. Peak use 2009-2010; still available on black/gray markets but less common than during legal era. Chinese labs were primary manufacturers. Often mis-sold as MDMA or methylone currently.",
+      "uses": "No medical use. Recreational: MDMA-like empathy, euphoria, music enhancement, dancing, sociability combined with cocaine-like rush and stimulation. Typical dose 100-250mg oral or nasal. Duration 2-3 hours (shorter than MDMA). Extremely compulsive redosing—users report going through grams in a session unable to stop. Often used at clubs, raves, festivals. Effects described as 'rolling and rushing' simultaneously. Some prefer it to MDMA for stronger stimulant component; others find it too compulsive and 'tweaky.'",
+      "dangers": "EXTREME compulsive redosing—users report inability to stop until supply exhausted, leading to massive doses, severe comedowns, and harm. Cardiovascular stress: tachycardia, hypertension, chest pain. Hyperthermia and dehydration (especially in hot environments). Jaw clenching, bruxism, muscle tension. Severe 'comedown' includes depression, anxiety, paranoia, insomnia lasting days. Vasoconstriction can cause blue/cold extremities. Psychosis with heavy use or binging. Possible neurotoxicity (unknown long-term effects). Deaths reported from hyperthermia, cardiovascular events, and combining with other substances. Nasal insufflation extremely caustic—burns nasal passages. Often cut or substituted with other cathinones, caffeine, or sold as MDMA. Harm reduction extremely difficult due to compulsive redosing nature.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Mephedrone",
+        "erowid": "https://www.erowid.org/chemicals/4_methylmethcathinone/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Mephedrone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Mephedrone (4-methylmethcathinone): pharmacology, metabolism and toxicity",
+          "authors": "Schifano F, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2011,
+          "doi": "10.1016/j.drugalcdep.2011.02.003",
+          "summary": "Comprehensive review of mephedrone's effects, risks, and deaths associated with use"
+        },
+        {
+          "title": "The rise and fall of mephedrone in the United Kingdom",
+          "authors": "Winstock A, et al.",
+          "journal": "Addiction",
+          "year": 2011,
+          "summary": "Analysis of mephedrone's legal high era, use patterns, and banning in UK"
+        },
+        {
+          "title": "Compulsive use linked to 4-MMC: A comparison to MDMA",
+          "authors": "Freeman TP, et al.",
+          "journal": "European Neuropsychopharmacology",
+          "year": 2012,
+          "summary": "Study showing mephedrone users report significantly more compulsive redosing than MDMA users"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange (similar to amphetamine, NOT purple like MDMA)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#808080",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange to brown"
+      },
+      {
+        "reagent": "simons",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          120
+        ],
+        "alt": "NO blue color (unlike MDMA which turns blue)"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Often sold as MDMA or molly. Mephedrone does NOT turn purple with Marquis (it goes yellow/orange) and does NOT turn blue with Simon's. If suspected MDMA gives yellow/orange Marquis + no Simon's blue reaction, likely mephedrone or another cathinone. Extremely compulsive redosing behavior—harm reduction very difficult. Users report going through entire supplies in one session. Short duration (2-3 hours) leads to repeated dosing. MUCH more 'tweaky' and stimulating than MDMA. Severe comedowns common."
+    ],
+    "other_methods": {
+      "comparison_to_mdma": {
+        "summary": "Test with Simon's reagent—MDMA turns blue, mephedrone does NOT. Marquis: MDMA purple-black, mephedrone yellow-orange.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Alpha-PVP": {
+    "class": "cathinone (pyrrolidinophenone)",
+    "description": {
+      "overview": "Alpha-pyrrolidinopentiophenone (α-PVP), known as 'Flakka' or 'gravel,' is an extremely potent synthetic cathinone stimulant. Notorious for causing severe psychosis, violent behavior, and bizarre incidents ('zombie drug' media coverage). Much more potent and dangerous than mephedrone. Cheap, highly addictive, and widely available in mid-2010s. Associated with multiple deaths and emergency room visits. Effects include extreme stimulation, paranoia, hallucinations, hyperthermia, and violent outbursts.",
+      "origins": "First synthesized in the 1960s but remained obscure until 2010s. Exploded in Florida and other US states 2013-2015 as cheap MDPV replacement after MDPV scheduling. Marketed as 'bath salts' or 'research chemicals.' Media dubbed it 'zombie drug' after incidents of naked, violent users. Chinese labs mass-produced it. Scheduled federally in 2014 but continued availability. Peak crisis 2014-2015; still encountered but less common than height of epidemic.",
+      "uses": "No medical use. Recreational: Extreme stimulation, euphoria (initial), increased energy and alertness. Typical dose 5-30mg (extremely potent). Often vaped, snorted, or injected. Duration 2-4 hours. Compulsive redosing extremely common. Popular among those seeking cheap, intense stimulation. Some users report positive experiences at low doses, but risk of psychotic episodes very high. Often used in binges lasting days.",
+      "dangers": "EXTREME DANGER: Causes severe psychosis, paranoia, hallucinations (visual and auditory), violent behavior, self-harm, bizarre actions. 'Excited delirium' syndrome—hyperthermia, extreme agitation, superhuman strength perception, death. Cardiovascular toxicity: tachycardia, hypertension, cardiac arrest. Kidney damage reported. Vasoconstriction. Compulsive redosing leads to massive doses and severe toxicity. Addiction develops rapidly. Withdrawal includes severe depression, fatigue, anhedonia. Often triggers violent incidents and law enforcement encounters. Deaths from hyperthermia, cardiac events, and accidents. Media-documented cases: users attacking others, running naked, exhibiting superhuman strength. Extremely caustic—nasal damage from snorting. NOT recreational—harm potential extreme.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alpha-Pyrrolidinopentiophenone",
+        "erowid": "https://www.erowid.org/chemicals/alpha_pvp/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/A-PVP"
+      },
+      "scientific_papers": [
+        {
+          "title": "Alpha-PVP (flakka): A new synthetic cathinone invades the drug scene",
+          "authors": "Zawilska JB, Wojcieszak J",
+          "journal": "Forensic Science International",
+          "year": 2017,
+          "doi": "10.1016/j.forsciint.2016.11.006",
+          "summary": "Comprehensive review of alpha-PVP pharmacology, toxicity, and public health crisis"
+        },
+        {
+          "title": "Excited delirium and bath salts: A review of the literature",
+          "authors": "Ross EA, et al.",
+          "journal": "American Journal of Emergency Medicine",
+          "year": 2015,
+          "summary": "Analysis of alpha-PVP and related cathinones causing excited delirium syndrome"
+        },
+        {
+          "title": "Flakka-induced prolonged psychosis",
+          "authors": "Gunderson EW, et al.",
+          "journal": "Journal of Dual Diagnosis",
+          "year": 2016,
+          "summary": "Case reports of severe psychotic episodes lasting weeks after alpha-PVP use"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange to yellow"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to green"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      }
+    ],
+    "notes": [
+      "EXTREME DANGER: Flakka/gravel. Known for causing psychosis, violent behavior, 'zombie' incidents. NOT recreational—severe harm potential. If encountered, extreme caution advised. Often sold as bath salts or other stimulants. Pyrrolidinophenones (alpha-PVP, MDPV, etc.) have similar reagent reactions to other cathinones—yellow/orange with Marquis. Cannot be distinguished from other cathinones by reagent alone. If you suspect Flakka, DO NOT USE—psychosis risk extreme. Harm reduction: Start with extremely small dose if testing, have sitter, benzos available for psychotic episodes."
+    ]
+  },
+  "MDPV": {
+    "class": "cathinone (pyrrolidinophenone)",
+    "description": {
+      "overview": "Methylenedioxypyrovalerone (MDPV) is an extremely potent synthetic cathinone stimulant, the original 'bath salts' drug that sparked the 2010-2011 media panic. Much more potent than cocaine or methamphetamine. Causes intense stimulation, euphoria, paranoia, and hallucinations. Highly addictive with severe compulsive redosing. Active at 5-20mg doses. Associated with violent incidents, psychosis, and deaths. Largely replaced by alpha-PVP after scheduling but still encountered.",
+      "origins": "First synthesized in 1969 by Boehringer Ingelheim as potential ADHD medication but never marketed. Remained obscure until 2000s research chemical scene. Exploded in popularity 2009-2011 as legal high sold as 'bath salts,' 'plant food,' or 'research chemicals' with labels 'not for human consumption.' Miami 'cannibal' incident (2012) falsely attributed to MDPV caused media panic (actually not MDPV but became face of bath salts crisis). Emergency scheduling 2011, Schedule I 2012. Largely disappeared from market, replaced by alpha-PVP and other analogues.",
+      "uses": "No medical use. Recreational: Intense euphoria, stimulation, increased alertness, hypersexuality. Typical dose 5-20mg (extremely potent—less than grain of rice). Usually insufflated, sometimes oral or IV. Duration 2-4 hours. EXTREME compulsive redosing—users report inability to stop until supply exhausted. Popular 2009-2011 as legal stimulant. Effects described as more intense than cocaine with longer duration. Binges lasting days common. Now rare due to scheduling and replacement by analogues.",
+      "dangers": "EXTREME DANGER: Severe paranoia, auditory and visual hallucinations, psychosis, violent behavior. 'Excited delirium'—hyperthermia, agitation, superhuman strength, death. Cardiovascular toxicity: extreme tachycardia (>200 bpm reported), hypertension, vasoconstriction, cardiac arrest. Hyperthermia can be fatal. Compulsive redosing impossible to control—users report going through grams in sessions. Severe comedown: depression, exhaustion, suicidal ideation. Physical dependence and severe withdrawal. Multiple deaths documented. Violent incidents common—attacks on others, police encounters. Nasal damage from snorting. Often triggers psychotic breaks requiring psychiatric hospitalization. NOT safe at any dose—unpredictable severe reactions.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methylenedioxypyrovalerone",
+        "erowid": "https://www.erowid.org/chemicals/mdpv/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/MDPV"
+      },
+      "scientific_papers": [
+        {
+          "title": "MDPV: The new bath salts drug wave",
+          "authors": "Baumann MH, et al.",
+          "journal": "Neuropsychopharmacology",
+          "year": 2013,
+          "doi": "10.1038/npp.2012.162",
+          "summary": "Comprehensive pharmacology study showing MDPV is 10x more potent than cocaine"
+        },
+        {
+          "title": "Clinical manifestations of bath salt intoxication",
+          "authors": "Spiller HA, et al.",
+          "journal": "Drug and Alcohol Dependence",
+          "year": 2011,
+          "summary": "Analysis of emergency room presentations from MDPV and bath salts epidemic"
+        },
+        {
+          "title": "MDPV-induced psychosis: Case series",
+          "authors": "Murray BL, et al.",
+          "journal": "Journal of Medical Toxicology",
+          "year": 2012,
+          "summary": "Documentation of severe psychotic episodes from MDPV use"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "Original 'bath salts' drug (2010-2011). EXTREMELY potent and dangerous. Causes severe psychosis, paranoia, hallucinations, violent behavior. 10x more potent than cocaine. Compulsive redosing uncontrollable. Now rare (replaced by alpha-PVP) but still encountered. Cannot be distinguished from other cathinones by reagent tests alone. If suspected MDPV: DO NOT USE. Harm potential extreme—not recreational. This is the drug that caused the bath salts moral panic and emergency scheduling."
+    ]
+  },
+  "Methylone": {
+    "class": "cathinone (substituted)",
+    "description": {
+      "overview": "Methylone (βk-MDMA, bk-MDMA) is a synthetic cathinone empathogen, the beta-ketone analogue of MDMA. Produces MDMA-like effects but shorter duration, less empathogenic, more stimulating. Was the most common MDMA substitute 2010-2015 in 'molly' and ecstasy pills. Less intense than MDMA, often described as '70% of MDMA's magic.' Typical dose 100-200mg. Duration 2-4 hours (vs MDMA's 4-6). Largely replaced by eutylone/n-ethylpentylone in recent years but still encountered.",
+      "origins": "First synthesized by chemists Peyton Jacob III and Alexander Shulgin in 1996, documented in PiHKAL. Remained obscure until late 2000s. Exploded in popularity 2010-2014 as legal MDMA substitute. Sold as 'molly,' in pressed pills as 'ecstasy,' or as 'bath salts.' Often intentionally substituted for MDMA when MDMA scarce or expensive. Emergency scheduling 2013, Schedule I 2014. Peak use 2011-2014. Declined after scheduling but still found in pills and powders sold as MDMA. Chinese labs produced industrial quantities.",
+      "uses": "No medical use. Recreational: MDMA-like empathy, euphoria, increased sociability, music enhancement. Less 'rolling' than MDMA, more 'speedy.' Typical dose 100-200mg. Duration 2-4 hours. Often used at raves, festivals, clubs. Some users prefer shorter duration; others disappointed by lack of MDMA's emotional depth. Compulsive redosing common due to short duration. Often unknowingly consumed by people expecting MDMA. Less popular since scheduling made it no longer 'legal high' advantage.",
+      "dangers": "Less toxic than MDMA at equivalent doses but still carries risks: Cardiovascular stress (tachycardia, hypertension), hyperthermia and dehydration (especially in hot environments), neurotoxicity concerns (less studied than MDMA), serotonin depletion and comedown depression, jaw clenching and muscle tension. Compulsive redosing leads to higher doses and increased harm. Often sold as MDMA—users taking 'MDMA doses' (100-150mg) may redose thinking it's weak MDMA, leading to excessive methylone consumption. Unknown long-term effects. Deaths reported but less common than with MDMA. Often combined with other substances in pressed pills. Less empathogenic than MDMA—users often disappointed and seek 'real' MDMA. Harm reduction difficult when sold as MDMA.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Methylone",
+        "erowid": "https://www.erowid.org/chemicals/methylone/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Methylone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Methylone and MDMA: Behavioral and neurochemical comparison",
+          "authors": "Baumann MH, et al.",
+          "journal": "Neuropsychopharmacology",
+          "year": 2012,
+          "doi": "10.1038/npp.2012.16",
+          "summary": "Study comparing methylone to MDMA—similar but less potent empathogenic effects"
+        },
+        {
+          "title": "Methylone as MDMA substitute in ecstasy tablets",
+          "authors": "Brunt TM, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2012,
+          "summary": "Analysis showing methylone was most common MDMA substitute 2010-2012"
+        },
+        {
+          "title": "Clinical toxicology of methylone (bk-MDMA)",
+          "authors": "Coppola M, Mondola R",
+          "journal": "Current Pharmaceutical Biotechnology",
+          "year": 2012,
+          "summary": "Review of methylone toxicity and emergency presentations"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange (NOT purple like MDMA)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "simons",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          120
+        ],
+        "alt": "NO blue color (unlike MDMA which turns blue)"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Most common MDMA substitute 2010-2015, still encountered. Methylone does NOT turn purple with Marquis (yellow/orange) and does NOT turn blue with Simon's. MDMA: purple-black Marquis + blue Simon's. Methylone: yellow/orange Marquis + NO blue Simon's. If suspected MDMA gives cathinone reactions, likely methylone or another substitute. Described as '70% of MDMA'—shorter duration, less empathogenic, more stimulating. Test with multiple reagents to distinguish from MDMA."
+    ],
+    "other_methods": {
+      "comparison_to_mdma": {
+        "summary": "Simon's test is KEY. MDMA turns blue, methylone does NOT. Marquis: MDMA purple-black, methylone yellow-orange.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Eutylone": {
+    "class": "cathinone (substituted)",
+    "description": {
+      "overview": "Eutylone (bk-EBDB) is a synthetic cathinone empathogen-stimulant, the beta-ketone analogue of MBDB. Currently one of the most common MDMA substitutes found in 'molly' and ecstasy pills (2020s). Replaced methylone after its scheduling. Similar effects to MDMA but more stimulating, less empathogenic. Often sold as MDMA or mixed with MDMA in pills. Typical dose 100-200mg. Duration 3-5 hours. Compulsive redosing common.",
+      "origins": "First synthesized in 1960s but remained obscure until 2010s. Gained popularity after methylone scheduling (2014) as next-generation legal MDMA substitute. Exploded in use 2017-present, now one of primary adulterants in MDMA market. Often found alongside N-ethylpentylone (similar cathinone). Lab testing shows eutylone present in significant percentage of pills/powders sold as MDMA. Chinese labs primary producers. Not yet federally scheduled in US (as of 2024) but banned in many states.",
+      "uses": "No medical use. Recreational: MDMA-like effects but more stimulating, less emotional. Euphoria, increased energy, sociability, music enhancement. Typical dose 100-200mg. Duration 3-5 hours. Often unknowingly consumed by people expecting MDMA. Some users find it 'speedier' and less satisfying than MDMA. Compulsive redosing very common. Used at raves, festivals, clubs. Less empathogenic than MDMA—disappointing for users seeking 'rolling' experience.",
+      "dangers": "Cardiovascular stress: tachycardia, hypertension, vasoconstriction. More stimulating than MDMA—higher anxiety, paranoia risk. Compulsive redosing leads to excessive doses. Hyperthermia and dehydration (hot environments). Neurotoxicity unknown but presumed similar to other cathinones. Serotonin depletion and severe comedown. Jaw clenching, muscle tension. Often sold as MDMA—users don't know what they're taking, leading to unexpected effects and overdosing when redosing thinking it's 'weak MDMA.' Unknown long-term effects. Deaths reported but less studied than MDMA. Often combined with actual MDMA or other substances in pills, making dosing unpredictable.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Eutylone",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Eutylone"
+      },
+      "scientific_papers": [
+        {
+          "title": "Eutylone and its prevalence in MDMA samples",
+          "authors": "Krotulski AJ, et al.",
+          "journal": "Drug Testing and Analysis",
+          "year": 2020,
+          "summary": "Analysis showing eutylone is current primary MDMA adulterant in US drug supply"
+        },
+        {
+          "title": "Pharmacology of eutylone and related synthetic cathinones",
+          "authors": "Simmler LD, et al.",
+          "journal": "British Journal of Pharmacology",
+          "year": 2019,
+          "summary": "Study of eutylone's pharmacological profile compared to MDMA"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange (NOT purple like MDMA)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "simons",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          120
+        ],
+        "alt": "NO blue color (unlike MDMA which turns blue)"
+      }
+    ],
+    "notes": [
+      "CRITICAL: Currently one of most common MDMA substitutes (2020s), replacing methylone. Eutylone does NOT turn purple with Marquis (yellow/orange) and does NOT turn blue with Simon's. If suspected MDMA shows cathinone reactions, likely eutylone, n-ethylpentylone, or methylone. More stimulating and less empathogenic than MDMA. Test EVERYTHING sold as molly—eutylone contamination extremely common. Often mixed with actual MDMA in pills making identification harder."
+    ],
+    "other_methods": {
+      "comparison_to_mdma": {
+        "summary": "Simon's test essential. MDMA turns blue, eutylone does NOT. Marquis: MDMA purple-black, eutylone yellow-orange. Lab testing ideal for definitive ID.",
+        "confidence": "high"
+      }
+    }
+  },
+  "N-Ethylpentylone": {
+    "class": "cathinone (substituted)",
+    "description": {
+      "overview": "N-Ethylpentylone (ephylone, bk-EBDP) is a synthetic cathinone empathogen-stimulant similar to eutylone. Currently one of the most common MDMA adulterants (2020s). More stimulating and less empathogenic than MDMA. Often found alongside eutylone in MDMA samples. Typical dose 100-250mg. Duration 3-6 hours. Significant compulsive redosing behavior.",
+      "origins": "First appeared on research chemical markets in 2010s. Gained prominence 2018-present as methylone replacement. Often found in pills and powders sold as MDMA or molly. Lab analysis shows frequent presence in drug checking samples. Sometimes combined with actual MDMA to mimic MDMA effects while cutting costs. Chinese production. Not federally scheduled in US (as of 2024) but various state bans.",
+      "uses": "No medical use. Recreational: MDMA-like stimulation and euphoria but less emotional warmth. Increased energy, sociability, music enhancement. Typical dose 100-250mg. Duration 3-6 hours. Most users consume unknowingly expecting MDMA. Described as 'speedy' and unsatisfying compared to real MDMA. Compulsive redosing very common—users take more seeking MDMA's empathogenic effects. Popular at festivals, raves, clubs as cheap MDMA substitute.",
+      "dangers": "Cardiovascular effects: tachycardia, hypertension, increased stroke risk. More stimulating than MDMA—anxiety, paranoia, restlessness common. Compulsive redosing leads to dangerous doses. Hyperthermia in hot environments. Neurotoxicity profile unknown. Severe comedown: depression, exhaustion, irritability. Jaw clenching, muscle tension, bruxism. Often mis-sold as MDMA—users take MDMA-sized doses and redose excessively when effects don't match expectations. Deaths reported. Unknown long-term effects. Frequently combined with other cathinones or actual MDMA in pills.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/N-Ethylpentylone",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/N-Ethylpentylone"
+      },
+      "scientific_papers": [
+        {
+          "title": "N-Ethylpentylone: An emerging synthetic cathinone",
+          "authors": "Krotulski AJ, et al.",
+          "journal": "Journal of Analytical Toxicology",
+          "year": 2019,
+          "summary": "First comprehensive analysis of N-ethylpentylone prevalence in drug supply"
+        },
+        {
+          "title": "Pharmacological profile of ephylone and eutylone",
+          "authors": "Marusich JA, et al.",
+          "journal": "Neuropharmacology",
+          "year": 2020,
+          "summary": "Comparison of N-ethylpentylone to MDMA and other cathinones"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "crystal",
+      "pill"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange (NOT purple like MDMA)"
+      },
+      {
+        "reagent": "mecke",
+        "color": "#FFFF00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "yellow to orange"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      },
+      {
+        "reagent": "simons",
+        "color": "no_reaction",
+        "window_s": [
+          60,
+          120
+        ],
+        "alt": "NO blue color (unlike MDMA which turns blue)"
+      }
+    ],
+    "notes": [
+      "CURRENT THREAT: One of most common MDMA adulterants alongside eutylone (2020-2024). Does NOT turn purple with Marquis or blue with Simon's—clear indicator it's NOT MDMA. Yellow/orange cathinone reactions. Often found mixed with eutylone or actual MDMA. Test everything sold as molly. More stimulating, less empathogenic than MDMA. Cannot be distinguished from eutylone/methylone by reagent alone—all show similar cathinone reactions. Lab testing needed for specific cathinone ID."
+    ],
+    "other_methods": {
+      "comparison_to_mdma": {
+        "summary": "Simon's test KEY. MDMA = blue. N-Ethylpentylone = NO blue. Marquis: MDMA purple-black, N-ethylpentylone yellow-orange.",
+        "confidence": "high"
+      }
+    }
+  },
+  "Lisdexamfetamine": {
+    "class": "phenethylamine (stimulant prodrug)",
+    "description": {
+      "overview": "Lisdexamfetamine (Vyvanse) is a prodrug stimulant medication for ADHD and binge eating disorder. Converted to dextroamphetamine in the body after oral consumption. Longer-acting and smoother than immediate-release amphetamines. Designed to reduce abuse potential compared to Adderall. Now one of most prescribed ADHD medications. Common diversion for academic performance enhancement. Cannot be snorted or injected effectively (prodrug must be metabolized first).",
+      "origins": "Developed by New River Pharmaceuticals (acquired by Shire, now Takeda) specifically to create an abuse-deterrent amphetamine formulation. FDA-approved 2007 for ADHD. Approved 2015 for binge eating disorder—first medication for this indication. Designed as 'pro-drug' that requires enzymatic conversion in blood to become active dextroamphetamine. This prevents rapid onset from snorting/injecting, theoretically reducing abuse. Now one of top prescribed ADHD medications, competing with Adderall. Schedule II controlled substance. Patent expired 2023, generics now available.",
+      "uses": "Medical: ADHD treatment (children and adults), binge eating disorder. Typical dose 30-70mg once daily. Converted to d-amphetamine in body—30mg Vyvanse ≈ 10mg d-amphetamine. Effects last 10-14 hours (all-day coverage). Recreational/Academic: Cognitive enhancement, studying, increased focus and energy. Popular among college students. Some users still abuse despite prodrug design. Oral only—cannot be effectively snorted or injected. Lower 'rush' than Adderall makes it less preferred recreationally but still diverted.",
+      "dangers": "Similar to amphetamine: Cardiovascular risks (increased HR/BP, risk of heart issues), abuse potential (lower than immediate-release stimulants but still significant), tolerance and psychological dependence, appetite suppression and weight loss, insomnia if taken too late, anxiety and irritability, potential for psychosis with chronic high-dose use. Prodrug design means delayed onset—some users take more thinking it's not working, leading to overdose when all doses convert. Mixing with other stimulants or alcohol dangerous. Withdrawal: fatigue, depression, hypersomnia. Cannot be 'rushed' like other stimulants—frustrates some abusers but doesn't eliminate abuse.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Lisdexamfetamine",
+        "erowid": "https://www.erowid.org/pharms/lisdexamfetamine/",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Lisdexamfetamine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Lisdexamfetamine: A prodrug stimulant for ADHD",
+          "authors": "Biederman J, et al.",
+          "journal": "Expert Opinion on Pharmacotherapy",
+          "year": 2012,
+          "doi": "10.1517/14656566.2012.677421",
+          "summary": "Review of lisdexamfetamine's prodrug mechanism and reduced abuse potential"
+        },
+        {
+          "title": "Abuse liability of lisdexamfetamine versus d-amphetamine",
+          "authors": "Jasinski DR, Krishnan S",
+          "journal": "Journal of Psychopharmacology",
+          "year": 2009,
+          "summary": "Study showing lisdexamfetamine has lower abuse potential than immediate-release amphetamine"
+        },
+        {
+          "title": "Lisdexamfetamine for binge eating disorder",
+          "authors": "McElroy SL, et al.",
+          "journal": "JAMA Psychiatry",
+          "year": 2015,
+          "summary": "Clinical trial leading to FDA approval for binge eating disorder"
+        }
+      ]
+    },
+    "forms": [
+      "pill (capsule)"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange (metabolizes to d-amphetamine which gives orange reaction)"
+      },
+      {
+        "reagent": "mandelin",
+        "color": "#FF8C00",
+        "window_s": [
+          20,
+          60
+        ],
+        "alt": "orange"
+      }
+    ],
+    "notes": [
+      "Vyvanse. Prodrug converted to d-amphetamine in body. Cannot be effectively snorted or injected (requires metabolism). Pharmaceutical capsules should match pill ID databases exactly. Reagent tests show amphetamine-like reactions (orange) after metabolism. Longer-acting than Adderall (10-14 hours). Lower abuse potential but still diverted. Counterfeit Vyvanse rare but possible—verify pharmaceutical source. One of most prescribed ADHD medications."
     ]
   },
   "Kratom": {

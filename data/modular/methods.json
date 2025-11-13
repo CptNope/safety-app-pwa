@@ -1,6 +1,6 @@
 {
   "overview": {
-    "note": "Auxiliary observations. Do NOT confirm identity; avoid taste-testing. Use multiple reagents; use lab testing where possible."
+    "note": "⚠️ EDUCATIONAL DISCLAIMER: The methods described in this section are for educational purposes, harm reduction research, first responder training, and understanding substance adulteration. This is NOT instruction or encouragement to use, possess, manufacture, or process controlled substances. Possession and use of controlled substances is illegal in most jurisdictions and may result in criminal prosecution. Some techniques described may constitute illegal manufacturing or processing under federal and state laws. This information is provided solely for educational understanding of harm reduction principles and emergency response situations. Always follow applicable laws. When in doubt, seek professional testing through legitimate drug checking services."
   },
   "cards": [
     {
@@ -240,8 +240,9 @@
     },
     {
       "id": "acetone_wash",
-      "name": "Acetone Wash (Purity Improvement)",
-      "type": "clandestine",
+      "name": "Acetone Wash (Purity Assessment)",
+      "type": "educational",
+      "disclaimer": "EDUCATIONAL ONLY: This information describes chemical processes for understanding substance adulteration and harm reduction research. Purification or processing of controlled substances may constitute manufacturing under federal and state laws, which carries severe criminal penalties. This is NOT instruction or encouragement to perform these techniques. For educational understanding and first responder training only.",
       "do": [
         "Use pure anhydrous acetone (not nail polish remover)",
         "Crush sample to fine powder in glass container",
@@ -256,11 +257,11 @@
         "Don't assume washed = pure—some cuts remain"
       ],
       "notes": [
-        "Effective for cocaine, amphetamines, MDMA (HCl salts insoluble in cold acetone)",
-        "Removes many common cuts: caffeine, sugars, MSM, cutting agents",
-        "Weight loss indicates cut percentage (50% loss = ~50% cut)",
-        "NOT foolproof—some adulterants also insoluble",
-        "Legal in most areas (acetone is hardware store item)"
+        "Educational context: Demonstrates how HCl salts behave differently than water-soluble cuts in certain solvents",
+        "Weight comparison before/after can indicate approximate adulterant percentage for research purposes",
+        "Some cuts (levamisole, fentanyl analogues) may not be removed by this process",
+        "Lab testing (GC/MS) remains the only definitive purity assessment",
+        "WARNING: Purifying or processing any controlled substance is illegal manufacturing in most jurisdictions, regardless of intent. This information is for harm reduction research and understanding adulteration only."
       ]
     },
     {
