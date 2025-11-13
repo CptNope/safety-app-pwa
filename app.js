@@ -2402,18 +2402,24 @@ function Myths(){
   );
 }
 
-function Welcome(){
+function Welcome({setTab}){
   return (
     <div className="space-y-4">
       {/* Hero Section */}
       <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-6" role="region" aria-labelledby="welcome-heading">
-        <h2 id="welcome-heading" className="text-2xl font-bold text-emerald-200 mb-3">
-          <span aria-hidden="true">📚</span> Welcome to Harm Reduction Guide
+        <h2 id="welcome-heading" className="text-3xl font-bold text-emerald-200 mb-2">
+          <span aria-hidden="true">💊</span> Dose Doctor
         </h2>
+        <p className="text-base font-semibold text-emerald-100 mb-3">
+          Harm reduction through education, not encouragement.
+        </p>
         <p className="text-sm text-emerald-100 leading-relaxed">
           This comprehensive, evidence-based resource provides free information about substance testing, identification, and harm reduction practices. Our mission is to promote safety and save lives through accessible education and accurate information.
         </p>
-        <p className="text-xs text-emerald-200 mt-2 font-medium">
+        <p className="text-xs text-emerald-200 mt-3 font-medium">
+          Private • Anonymous • Community-Driven
+        </p>
+        <p className="text-xs text-emerald-300/80 mt-1">
           Free • Open Source • No Tracking • Works Offline • WCAG 2.1 AA Compliant
         </p>
       </div>
@@ -2452,7 +2458,7 @@ function Welcome(){
         </ul>
         <div className="mt-3 pt-3 border-t border-red-400/30">
           <p className="text-xs text-red-200 font-medium">
-            By using this application, you acknowledge that you have read, understood, and agree to these disclaimers and our <a href="#" onClick={(e)=>{e.preventDefault();document.querySelector('[data-tab="terms"]')?.click();}} className="underline hover:text-red-100">Terms of Service</a>.
+            By using this application, you acknowledge that you have read, understood, and agree to these disclaimers and our <button onClick={()=>setTab('terms')} className="underline hover:text-red-100 cursor-pointer">Terms of Service</button>.
           </p>
         </div>
       </div>
@@ -3719,7 +3725,10 @@ function About({setTab}){
         
         <div className="space-y-4 text-white/90">
           <p className="text-base leading-relaxed">
-            The <strong>Harm Reduction Guide</strong> is a free, open-source Progressive Web App designed to save lives through evidence-based education about substance testing and harm reduction.
+            <strong>Dose Doctor</strong> is a free, open-source Progressive Web App designed to save lives through evidence-based education about substance testing and harm reduction.
+          </p>
+          <p className="text-sm leading-relaxed italic text-emerald-200">
+            "Harm reduction through education, not encouragement."
           </p>
 
           <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="mission-heading">
@@ -3910,7 +3919,9 @@ function App(){
       <div id="sr-live-region" className="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
       
       <header className="space-y-3">
-        <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">Harm Reduction Guide</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-center sm:text-left">
+          <span aria-hidden="true">💊</span> Dose Doctor
+        </h1>
         <nav className="flex flex-wrap gap-2 justify-center sm:justify-start" role="tablist" aria-label="Main navigation">
           <button onClick={()=>setTab('welcome')} role="tab" aria-selected={tab==='welcome'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='welcome'?'bg-emerald-500/30 border border-emerald-400/60 text-emerald-100':'bg-emerald-500/10 border border-emerald-400/30 text-emerald-200 hover:bg-emerald-500/20')}><span aria-hidden="true">📚</span> Welcome</button>
           <button onClick={()=>setTab('about')} role="tab" aria-selected={tab==='about'} aria-controls="main-content" className={"px-3 py-2 text-sm font-medium rounded-lg transition "+(tab==='about'?'bg-violet-500/30 border border-violet-400/60 text-violet-100':'bg-violet-500/10 border border-violet-400/30 text-violet-200 hover:bg-violet-500/20')}><span aria-hidden="true">ℹ️</span> About</button>
@@ -3933,7 +3944,7 @@ function App(){
       {data?.link_display_rules?.show_warning && <Banner tone="warn">{data.link_display_rules.warning_text}</Banner>}
 
       <main id="main-content" role="tabpanel" aria-label="Main content">
-        {tab==='welcome' && (<section className="space-y-3"><Welcome/></section>)}
+        {tab==='welcome' && (<section className="space-y-3"><Welcome setTab={setTab}/></section>)}
         {tab==='quick' && (<section className="space-y-3"><h2 className="text-lg font-semibold"><span aria-hidden="true">🧪</span> Substance Testing</h2><QuickTest/></section>)}
         {tab==='swatches' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Reagent Swatches</h2><Swatches/></section>)}
         {tab==='id' && (<section className="space-y-3"><h2 className="text-lg font-semibold">Identification Guide</h2><IDGuide/></section>)}
