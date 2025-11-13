@@ -395,6 +395,13 @@ function QuickTest(){
         ))}
       </div>
       
+      {/* 3D Molecular Structure Viewer */}
+      {window.MoleculeViewer && (
+        <div className="mt-4">
+          <MoleculeViewer substanceName={suspect} />
+        </div>
+      )}
+      
       {data.vendors && (()=>{
         // Get reagents needed for this substance
         const neededReagents = s.testing.map(t => data.reagents[t.reagent].name);
