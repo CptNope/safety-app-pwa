@@ -677,12 +677,14 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (~71 of 100 target)
+## 🧬 Substances Covered (~79 of 100 target)
 
-**Current Status:** ~71 substances fully documented | **Priority 1: 100% COMPLETE** ✅  
+**Current Status:** ~79 substances fully documented | **Priority 1 & 2: 100% COMPLETE** ✅✅  
 [View missing substances roadmap](MISSING_SUBSTANCES.md)
 
-**Recent Additions (Nov 12, 2025) - 11 Priority 1 Substances:**
+**Recent Additions (Nov 12, 2025) - 19 Substances (Priority 1 & 2):**
+
+### Priority 1 (11 Critical Substances):
 
 **Opioids & Counterfeit Crisis:**
 - ✅ **Oxycodone** (M30 fake pill epidemic)
@@ -703,6 +705,26 @@ CREATE TABLE scientific_papers (
 **Research Chemical Benzos (Fake Xanax Crisis):**
 - ✅ **Etizolam** (in fake bars, legal gray area)
 - ✅ **Flualprazolam** (ultra-potent, extreme blackouts)
+
+### Priority 2 (8 Important Gaps):
+
+**Dissociatives (Ketamine Alternatives):**
+- ✅ **3-MeO-PCP** (manic episodes, 8-14 hour duration)
+- ✅ **MXE** (Methoxetamine - historical ketamine RC)
+
+**Opioids (Pain Medications):**
+- ✅ **Morphine** (prototypical opioid, medical standard)
+- ✅ **Tramadol** (Ultram - unique seizure risk, SNRI effects)
+
+**Benzofurans (MDMA Alternatives):**
+- ✅ **5-APB** (Benzo Fury component)
+- ✅ **5-MAPB** (most MDMA-like benzofuran)
+
+**Pharmaceuticals:**
+- ✅ **Lorazepam** (Ativan - common benzo)
+- ✅ **Modafinil** (Provigil - wakefulness/nootropic)
+
+---
 
 ### Entactogens / Empathogens (6)
 - **MDMA** (Ecstasy/Molly), **MDA** (Sass), **MDEA** (MDE/Eve)

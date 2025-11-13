@@ -3641,6 +3641,382 @@
         }
       }
     },
+    "3-MeO-PCP": {
+      "class": "dissociative (arylcyclohexylamine)",
+      "description": {
+        "overview": "3-Methoxyphencyclidine (3-MeO-PCP) is a dissociative research chemical from the arylcyclohexylamine class, closely related to PCP and ketamine. More potent and longer-lasting than ketamine. Produces dissociation, euphoria, and stimulation. Popular as ketamine alternative but much longer duration (8-14 hours vs 1-2 hours). Active at 5-20mg doses. Known for inducing manic episodes, delusions of sobriety, and compulsive redosing. Dangerous when combined with other substances.",
+        "origins": "First synthesized in 1979 but remained obscure until 2000s research chemical boom. Gained popularity 2008-2012 as legal ketamine alternative. Often marketed as 'Methoxetamine' (MXE) replacement after MXE scheduling. Chinese labs primary manufacturers. Legal status varies—banned in many countries but unscheduled in some regions. Peak use 2012-2016; still widely available. Frequently mis-sold as ketamine or MXE.",
+        "uses": "No medical use. Recreational: Dissociation, out-of-body experiences, euphoria, stimulation, music enhancement. Typical dose 5-15mg (very potent). Duration 8-14 hours (much longer than ketamine). Insufflated, oral, or sublingual. Popular in psychonaut/research chemical communities. Some users report 'warm' dissociation similar to PCP. Others find it stimulating and manic. Effects highly dose-dependent and unpredictable.",
+        "dangers": "MANIC EPISODES: Users report feeling invincible, delusions of sobriety, poor decision-making, dangerous behavior. Extremely long duration (12+ hours) can be overwhelming. Compulsive redosing common—users take more while already dissociated. Cardiovascular effects: tachycardia, hypertension. Bladder damage with chronic use (similar to ketamine). Psychosis, paranoia, confusion. 'Hole' experiences can be terrifying and last hours. Extremely dangerous when combined with other depressants (alcohol, benzos, opioids)—respiratory depression, death. Stimulant effects mask sedation—users don't realize how intoxicated they are. Tolerance develops quickly. Addiction potential. Deaths reported from overdose and accidents while intoxicated. Often sold as ketamine—users expecting ketamine duration get trapped in 12-hour dissociative state.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/3-MeO-PCP",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/3-MeO-PCP"
+        },
+        "scientific_papers": [
+          {
+            "title": "3-MeO-PCP: A new dissociative substance on the drug scene",
+            "authors": "Wallach J, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2016,
+            "summary": "First comprehensive analysis of 3-MeO-PCP pharmacology and prevalence"
+          },
+          {
+            "title": "Manic psychosis induced by 3-methoxyphencyclidine",
+            "authors": "Johansson A, et al.",
+            "journal": "Journal of Clinical Psychopharmacology",
+            "year": 2017,
+            "summary": "Case reports of manic episodes and psychosis from 3-MeO-PCP use"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to brown (similar to PCP)"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [30, 60],
+          "alt": "grey to brown"
+        }
+      ],
+      "notes": [
+        "DANGER: Often sold as ketamine but MUCH longer duration (8-14 hours vs 1-2 hours). Causes manic episodes, delusions of sobriety, extremely poor judgment. Very potent—5-15mg active dose. Compulsive redosing while dissociated common. Cannot be reliably distinguished from ketamine or PCP by reagent tests alone—similar arylcyclohexylamine reactions. If suspected ketamine lasts >4 hours, likely 3-MeO-PCP or analogue. DO NOT combine with depressants—respiratory depression fatal. Stimulant effects deceive users into thinking they're less intoxicated than they are."
+      ]
+    },
+    "MXE": {
+      "class": "dissociative (arylcyclohexylamine)",
+      "description": {
+        "overview": "Methoxetamine (MXE, 3-MeO-2-Oxo-PCE) is a dissociative research chemical designed as a safer ketamine alternative. Longer duration than ketamine (4-8 hours), less bladder toxicity (theoretically). Produces dissociation, euphoria, and introspection. Was most popular ketamine substitute 2010-2015. Emergency scheduling and China ban (2015) made it rare. Now mostly replaced by 3-MeO-PCP and other analogues. Described as 'warmer' and more euphoric than ketamine.",
+        "origins": "Synthesized specifically as ketamine alternative with reduced bladder toxicity. Appeared on research chemical markets around 2010. Exploded in popularity 2011-2014 as 'legal ketamine' sold openly online. Marketed with harm reduction angle (less bladder damage). Chinese manufacturers produced industrial quantities. Emergency scheduled in UK 2012, USA 2013, China ban 2015. Peak use 2012-2014. Now rare and expensive due to China ban. Largely replaced by 3-MeO-PCP, DCK, 2-FDCK. Historical significance as most successful ketamine RC.",
+        "uses": "No medical use. Recreational: Dissociation, out-of-body experiences, euphoria, introspection, music enhancement. Typical dose 30-80mg. Duration 4-8 hours (longer than ketamine's 1-2 hours). Insufflated, oral, sublingual, or IM injection. Popular at raves, festivals, and psychonaut communities 2010-2014. Described as more 'warm' and euphoric than ketamine's 'cold' dissociation. 'M-hole' comparable to K-hole but longer. Some prefer it to ketamine; others find duration exhausting.",
+        "dangers": "Bladder toxicity STILL OCCURS despite marketing claims—less than ketamine but not eliminated. Cardiovascular effects: tachycardia, hypertension. Long duration (6-8 hours) can be mentally exhausting. Compulsive redosing. Respiratory depression when combined with depressants. 'Hole' experiences can last hours and be terrifying. Confusion, poor coordination, falls and injuries. Tolerance builds quickly. Psychological addiction. Dangerous driving impairment. Deaths reported from overdose and poly-drug combinations (especially with alcohol, opioids, benzos). Now rare—products sold as MXE often other dissociatives (3-MeO-PCP, DCK). Test before use if claimed to be MXE.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methoxetamine",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Methoxetamine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Methoxetamine: From drug of abuse to rapid-acting antidepressant",
+            "authors": "Wallach JV, et al.",
+            "journal": "Medical Hypotheses",
+            "year": 2014,
+            "summary": "Analysis of MXE as ketamine alternative and potential therapeutic applications"
+          },
+          {
+            "title": "The rise and fall of methoxetamine: A cautionary tale",
+            "authors": "Corazza O, et al.",
+            "journal": "Human Psychopharmacology",
+            "year": 2013,
+            "summary": "Study of MXE's rapid popularity and subsequent emergency scheduling"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange (similar to ketamine/PCP)"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#808080",
+          "window_s": [30, 60],
+          "alt": "grey to brown"
+        }
+      ],
+      "notes": [
+        "Historical dissociative—now rare after China ban (2015). Most popular ketamine alternative 2010-2014. Longer duration than ketamine (4-8 hours). Cannot reliably distinguish from ketamine or 3-MeO-PCP by reagent alone. If product sold as MXE, likely actually 3-MeO-PCP, DCK, or 2-FDCK (MXE expensive/scarce). Bladder damage still possible despite early marketing claims. Warmer, more euphoric than ketamine according to users. Combine duration + reagent results to distinguish from ketamine (MXE lasts 4-8 hrs, ketamine 1-2 hrs)."
+      ]
+    },
+    "Morphine": {
+      "class": "opioid (natural)",
+      "description": {
+        "overview": "Morphine is the principal active alkaloid in opium, isolated from the opium poppy (Papaver somniferum). The prototypical opioid—all other opioids are compared to morphine for potency. Used medically for severe pain (post-surgical, cancer, trauma). Available as immediate-release and extended-release (MS Contin). Highly addictive with severe physical dependence. Standard pharmaceutical opioid but also diverted for recreational use. Less common on street than oxycodone/heroin due to lower oral bioavailability.",
+        "origins": "Isolated from opium in 1804 by German pharmacist Friedrich Sertürner, making it the first active alkaloid extracted from a plant. Named after Morpheus, Greek god of dreams. Revolutionized pain management in medicine. Widely used in 1800s, including during American Civil War (created many addicts). Injectable morphine introduced mid-1800s. Recognized as highly addictive by early 1900s. Controlled substance since 1914 Harrison Narcotics Act. Still gold standard for severe pain management. Oral morphine (immediate and extended-release) and IV morphine standard in hospitals.",
+        "uses": "Medical: Severe acute pain (trauma, post-surgical), chronic pain (cancer), end-of-life care (hospice), severe breathlessness. Typical dose 15-30mg oral, 5-10mg IV/IM. MS Contin (extended-release) 15-200mg every 8-12 hours. Recreational: Euphoria, pain relief, sedation, 'nodding.' Less preferred recreationally than oxycodone due to poor oral bioavailability (~30%). IV/IM injection more effective but carries infection risks. Street use less common than heroin or oxycodone.",
+        "dangers": "Severe addiction and physical dependence—withdrawal includes severe muscle aches, anxiety, insomnia, vomiting, diarrhea. Respiratory depression—fatal overdose, especially when combined with alcohol, benzos, or other CNS depressants. Constipation (severe, chronic). Nausea and vomiting common. Tolerance develops rapidly—requires increasing doses. IV use carries infection risks (HIV, Hep C, bacterial endocarditis). Hypotension, sedation, cognitive impairment. Driving extremely dangerous. Naloxone reverses overdose but must be administered quickly. Gateway to heroin for some users (when prescription cut off). Counterfeit pharmaceutical morphine rare but possible.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Morphine",
+          "erowid": "https://www.erowid.org/pharms/morphine/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Morphine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Morphine: The prototypical opioid - A review",
+            "authors": "Trescot AM, et al.",
+            "journal": "Pain Physician",
+            "year": 2008,
+            "summary": "Comprehensive review of morphine pharmacology, clinical use, and addiction risks"
+          },
+          {
+            "title": "Morphine and the origins of the opioid crisis",
+            "authors": "Quinones S",
+            "journal": "New England Journal of Medicine",
+            "year": 2019,
+            "summary": "Historical analysis of morphine's role in development of opioid epidemic"
+          }
+        ]
+      },
+      "forms": ["pill", "liquid", "injection"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#9370DB",
+          "window_s": [30, 60],
+          "alt": "purple (similar to other opioids)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#0e7c61",
+          "window_s": [30, 60],
+          "alt": "blue-green to green"
+        }
+      ],
+      "notes": [
+        "Prototypical opioid—all others measured against it (e.g., 'oxycodone is 1.5x morphine'). Less common on street than oxy/heroin but still diverted. Pharmaceutical pills should match pill ID databases. Reagent tests show opioid reactions but cannot distinguish morphine from other opioids. Lower oral bioavailability (~30%) makes it less desirable recreationally. MS Contin (extended-release) often abused by crushing to defeat time-release. Test with fentanyl strips if source unknown—counterfeit morphine may contain fentanyl."
+      ]
+    },
+    "Tramadol": {
+      "class": "opioid (synthetic, atypical)",
+      "description": {
+        "overview": "Tramadol (Ultram, ConZip) is an atypical synthetic opioid with dual mechanism: mu-opioid agonist AND serotonin-norepinephrine reuptake inhibitor (SNRI). Weaker than traditional opioids (1/10th potency of morphine) but still addictive and dangerous. Prescribed for moderate pain. Unique SEIZURE RISK not seen with other opioids. Lower abuse potential led to late scheduling (Schedule IV in US in 2014). Still widely prescribed and diverted. Dangerous when combined with other serotonergic drugs.",
+        "origins": "Synthesized by German pharmaceutical company Grünenthal in 1962. Marketed as safer opioid alternative with lower abuse potential. FDA-approved in US 1995. Initially unscheduled, considered non-addictive—this proved false. Evidence of abuse and dependence accumulated. Rescheduled to Schedule IV in 2014 after decades of unrestricted prescribing. Now recognized as addictive with unique risks. Popular in some regions (Middle East, Africa) where stronger opioids restricted. Online pharmacy sales common.",
+        "uses": "Medical: Moderate pain (post-surgical, dental, chronic pain), osteoarthritis pain. Typical dose 50-100mg every 4-6 hours, max 400mg/day. Extended-release formulations available. Recreational: Mild euphoria, pain relief, mood elevation (from SNRI effects). Less intense than traditional opioids. Some users prefer unique 'energizing' opioid effect from SNRI component. Typical recreational dose 100-300mg. Popular among those with limited opioid access.",
+        "dangers": "SEIZURE RISK: Tramadol lowers seizure threshold, especially at doses >400mg/day or when combined with other drugs that lower seizure threshold (SSRIs, bupropion, etc.). Seizures can occur even at therapeutic doses in susceptible individuals. SEROTONIN SYNDROME: When combined with SSRIs, SNRIs, MAOIs, or other serotonergic drugs—life-threatening (hyperthermia, agitation, seizures, death). Addiction and physical dependence (though 'weaker' than other opioids, withdrawal still occurs). Respiratory depression, especially with other CNS depressants. Nausea, dizziness, constipation. Hypoglycemia in diabetics. Deaths reported from overdose and serotonin syndrome. Often underestimated due to 'weak opioid' reputation—still dangerous.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Tramadol",
+          "erowid": "https://www.erowid.org/pharms/tramadol/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Tramadol"
+        },
+        "scientific_papers": [
+          {
+            "title": "Tramadol: Seizure risk and serotonin syndrome",
+            "authors": "Talaie H, et al.",
+            "journal": "Anesthesiology and Pain Medicine",
+            "year": 2015,
+            "summary": "Review of tramadol's unique seizure risks and serotonin syndrome potential"
+          },
+          {
+            "title": "Tramadol dependence and withdrawal: A case series",
+            "authors": "Senay EC, et al.",
+            "journal": "Addiction",
+            "year": 2003,
+            "summary": "Documentation of tramadol addiction despite 'low abuse potential' marketing"
+          }
+        ]
+      },
+      "forms": ["pill", "capsule"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange to yellow (different from typical opioid purple)"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [30, 60],
+          "alt": "orange"
+        }
+      ],
+      "notes": [
+        "Ultram. UNIQUE SEIZURE RISK even at therapeutic doses—do NOT exceed 400mg/day. SNRI component means SEROTONIN SYNDROME possible when combined with antidepressants. Weaker than other opioids but still addictive. Reagent reactions differ from typical opioids (orange/yellow vs purple) due to different chemical structure. Pharmaceutical pills should match pill ID databases. Often dismissed as 'weak' but deaths occur. Never combine with SSRIs, SNRIs, or MAOIs."
+      ]
+    },
+    "5-APB": {
+      "class": "benzofuran (entactogen)",
+      "description": {
+        "overview": "5-APB (5-(2-Aminopropyl)benzofuran) is a synthetic empathogen-entactogen from the benzofuran family, closely related to 6-APB. Produces MDMA-like empathy, euphoria, and psychedelic effects. Component of 'Benzo Fury' products. Duration 6-10 hours (longer than MDMA). Less common than 6-APB but similar effects. Popular in UK rave scene before 2013 ban. Still available as research chemical but less prevalent than during legal high era.",
+        "origins": "Synthesized by David Nichols team at Purdue University in 1990s for research purposes. Remained obscure until late 2000s. Often sold mixed with 6-APB in 'Benzo Fury' products in UK 2010-2013. Emergency scheduled in UK 2013 alongside 6-APB. Less individually popular than 6-APB—usually encountered in mixtures. Chinese and European RC labs produced it. Now Schedule I in most countries. Still available on research chemical markets but 6-APB more common.",
+        "uses": "No medical use. Recreational: MDMA-like empathy and euphoria, emotional openness, music enhancement, mild psychedelic visuals. Typically 50-100mg dose. Duration 6-10 hours. Often used at raves, festivals, parties. Described as slightly more psychedelic and less stimulating than 6-APB. Some users prefer it for stronger visuals; others find 6-APB more euphoric. Often sold mixed with 6-APB making individual effects hard to assess.",
+        "dangers": "Long duration (8-10 hours) physically and mentally exhausting. Cardiovascular stress: increased heart rate and blood pressure over extended period. Serotonin depletion worse than MDMA due to longer duration—severe comedown possible. Neurotoxicity concerns similar to MDMA but less studied. Jaw clenching, muscle tension, hyperthermia risk. Insomnia for 12-18 hours after dosing. Higher doses cause intense psychedelic effects that can be overwhelming. Limited long-term safety data. Often mixed with 6-APB making dosing unpredictable. Cross-tolerance with MDMA. Recommended 3+ month breaks between uses. Sometimes sold as MDMA—test to verify.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/5-APB"
+        },
+        "scientific_papers": [
+          {
+            "title": "Benzofuran compounds: 5-APB and 6-APB pharmacology",
+            "authors": "Dawson P, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2014,
+            "summary": "Comparison of 5-APB and 6-APB effects and pharmacological profiles"
+          }
+        ]
+      },
+      "forms": ["powder", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#4B0082",
+          "window_s": [0, 60],
+          "alt": "purple to black (similar to MDMA but distinguishable)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#1F1F1F",
+          "window_s": [0, 60],
+          "alt": "dark to black"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [0, 60],
+          "alt": "green (different from MDMA's black)"
+        }
+      ],
+      "notes": [
+        "Component of 'Benzo Fury' (often mixed with 6-APB). Longer duration than MDMA (6-10 hours). Reagent reactions similar to 6-APB and MDMA—Mandelin green distinguishes from MDMA. Slightly more psychedelic than 6-APB. Often sold mixed with 6-APB making pure 5-APB rare. Test with multiple reagents. Cross-tolerance with MDMA and 6-APB. Wait 3+ months between uses."
+      ]
+    },
+    "5-MAPB": {
+      "class": "benzofuran (entactogen)",
+      "description": {
+        "overview": "5-MAPB (1-(benzofuran-5-yl)-N-methylpropan-2-amine) is a synthetic empathogen-entactogen from the benzofuran family. Closely related to 5-APB and 6-APB but with N-methyl group making it structurally most similar to MDMA. Described as most MDMA-like benzofuran. Produces strong empathy, euphoria, and emotional warmth with less stimulation than amphetamine-based empathogens. Duration 5-7 hours. Popular as 'legal MDMA' alternative before scheduling.",
+        "origins": "Synthesized by David Nichols research team in 1990s. Remained obscure until 2010s research chemical boom. Gained popularity 2012-2014 as closest benzofuran to MDMA. Often sold separately from 5-APB/6-APB as 'premium' option. Emergency scheduled in UK 2013, various countries followed. Chinese labs primary manufacturers. Now Schedule I in most jurisdictions. Still available as research chemical. Considered by some users as best benzofuran for replicating MDMA experience.",
+        "uses": "No medical use. Recreational: Strong MDMA-like empathy and emotional connection, euphoria, music enhancement, tactile enhancement. Typical dose 50-100mg. Duration 5-7 hours. Less stimulating than MDMA—more 'chill' experience. Popular at intimate gatherings, festivals, therapeutic/introspective settings. Some users prefer it over MDMA for less 'speedy' effects. Others find it less euphoric than MDMA. Often described as 'rolling without rushing.'",
+        "dangers": "Cardiovascular effects: tachycardia, hypertension. Serotonin depletion and comedown (though reportedly less harsh than MDMA). Neurotoxicity unknown but presumed similar to MDMA/5-APB. Jaw clenching, muscle tension, dehydration. Hyperthermia risk in hot environments. Insomnia for hours after effects end. Limited safety research—long-term effects unknown. Cross-tolerance with MDMA and other serotonergic empathogens. Can be overwhelming at high doses. Sometimes adulterated or mis-sold as MDMA. Recommended 3+ month breaks. Not as extensively studied as MDMA—unknowns remain.",
+        "links": {
+          "psychonautwiki": "https://psychonautwiki.org/wiki/5-MAPB"
+        },
+        "scientific_papers": [
+          {
+            "title": "MDMA and benzofuran analogues: Comparative pharmacology",
+            "authors": "Iversen L, et al.",
+            "journal": "Neuropsychopharmacology",
+            "year": 2013,
+            "summary": "Comparison of 5-MAPB, MDMA, and other empathogenic benzofurans"
+          }
+        ]
+      },
+      "forms": ["powder", "capsule"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#4B0082",
+          "window_s": [0, 60],
+          "alt": "purple to black"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#1F1F1F",
+          "window_s": [0, 60],
+          "alt": "dark to black"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#228B22",
+          "window_s": [0, 60],
+          "alt": "green"
+        },
+        {
+          "reagent": "simons",
+          "color": "#0000FF",
+          "window_s": [60, 120],
+          "alt": "blue (secondary amine like MDMA)"
+        }
+      ],
+      "notes": [
+        "Most MDMA-like benzofuran—has N-methyl group like MDMA. Duration 5-7 hours. Turns blue with Simon's (like MDMA) due to secondary amine structure. Less stimulating than MDMA—described as 'rolling without rushing.' Mandelin green reaction distinguishes from MDMA (MDMA goes black). Often considered best benzofuran for replicating MDMA experience. Cross-tolerance with MDMA. Wait 3+ months between uses."
+      ]
+    },
+    "Lorazepam": {
+      "class": "benzodiazepine (pharmaceutical)",
+      "description": {
+        "overview": "Lorazepam (Ativan) is a pharmaceutical benzodiazepine prescribed for anxiety, insomnia, and seizures. Intermediate-acting (10-20 hour half-life). More potent than diazepam—1mg lorazepam ≈ 10mg diazepam. Common in medical settings for acute anxiety and seizure control. High abuse potential. Physical dependence develops rapidly. Dangerous withdrawal can be fatal. Frequently diverted for recreational use and combined with opioids (deadly).",
+        "origins": "Developed by DJ Richards for Wyeth Pharmaceuticals. Patent filed 1963, FDA-approved 1977 for anxiety disorders. Became one of most prescribed benzos by 1980s-90s. Widely used in hospitals for acute anxiety, alcohol withdrawal, seizures. Schedule IV controlled substance. Now generic and widely available. Common diversion and black market sales. Often prescribed long-term despite recommendations for short-term use only.",
+        "uses": "Medical: Anxiety disorders, panic attacks, insomnia, acute seizures, alcohol withdrawal, pre-surgical sedation, chemotherapy-induced nausea. Typical dose 0.5-2mg for anxiety, 2-4mg for insomnia. Recreational/diverted: Anxiety relief, sedation, euphoria (some users), sleep aid, potentiating opioids (dangerous), comedown management from stimulants. Often combined with alcohol (very dangerous). Duration 6-8 hours.",
+        "dangers": "SEVERE ADDICTION: Physical dependence develops in weeks of daily use. Withdrawal can be FATAL—seizures, delirium tremens, psychosis. NEVER stop abruptly—medical taper required. Respiratory depression when combined with opioids, alcohol, or other CNS depressants—many deaths. Memory impairment, cognitive dysfunction, paradoxical anxiety. Blackouts and amnesia at higher doses. Rebound anxiety worse than original. Tolerance develops rapidly. Disinhibition leads to risky behavior. Extremely dangerous driving impairment. Often diverted—counterfeit Ativan may contain other benzos or fentanyl. Elderly at higher risk for falls, confusion. Long-term use linked to dementia.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Lorazepam",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Lorazepam"
+        },
+        "scientific_papers": [
+          {
+            "title": "Lorazepam: Clinical pharmacology and therapeutic use",
+            "authors": "Greenblatt DJ, et al.",
+            "journal": "Clinical Pharmacokinetics",
+            "year": 1983,
+            "summary": "Comprehensive review of lorazepam pharmacology and medical applications"
+          },
+          {
+            "title": "Benzodiazepine dependence and withdrawal: Lorazepam case series",
+            "authors": "Lader M, et al.",
+            "journal": "Addiction",
+            "year": 2014,
+            "summary": "Documentation of lorazepam dependence and withdrawal syndrome"
+          }
+        ]
+      },
+      "forms": ["pill", "injection"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "no_reaction",
+          "window_s": [0, 60],
+          "alt": "no color change (benzodiazepines don't react)"
+        }
+      ],
+      "notes": [
+        "Ativan. Benzodiazepines show NO reagent reaction—cannot test with colorimetric reagents. Pharmaceutical pills should exactly match pill ID databases. Withdrawal can be FATAL—never stop cold turkey after regular use. Often combined with opioids—respiratory depression DEADLY. More potent than Valium (1mg = 10mg diazepam). Common in medical settings. Diverted pills may be counterfeit—verify source. Never combine with alcohol or opioids."
+      ],
+      "other_methods": {
+        "pill_verification": {
+          "summary": "Compare to pharmaceutical databases. Ativan pills should have specific imprints. If doesn't match exactly, may be counterfeit or different benzo.",
+          "confidence": "medium"
+        }
+      }
+    },
+    "Modafinil": {
+      "class": "wakefulness-promoting agent (eugeroic)",
+      "description": {
+        "overview": "Modafinil (Provigil, Modalert) is a wakefulness-promoting medication approved for narcolepsy, sleep apnea, and shift work sleep disorder. NOT an amphetamine—unique mechanism of action. Produces wakefulness, alertness, and cognitive enhancement without traditional stimulant side effects. Popular as nootropic/'smart drug' for studying, productivity, and performance enhancement. Lower abuse potential than amphetamines. Widely diverted and used off-label by students, professionals, military.",
+        "origins": "Developed by French neurophysiologist Michel Jouvet and Lafon Laboratories in 1970s. Originally called adrafinil prodrug. Modafinil (active metabolite) isolated and approved in France 1994 for narcolepsy. FDA-approved in US 1998. Marketed as non-addictive wakefulness drug. Military use documented (air force pilots, special forces). Became popular cognitive enhancer 2000s-2010s. Schedule IV in US (low abuse potential). Generic since 2012. Widely available via online pharmacies.",
+        "uses": "Medical: Narcolepsy, obstructive sleep apnea, shift work sleep disorder. Typical dose 100-200mg once daily. Off-label/recreational: Cognitive enhancement, studying, productivity, staying awake for extended periods, ADHD (off-label), depression augmentation. Popular among students, tech workers, military, shift workers. Effects: Wakefulness, alertness, improved focus, reduced need for sleep. Duration 12-15 hours. Less euphoric than amphetamines—described as 'functional wakefulness.'",
+        "dangers": "Serious skin reactions (rare but dangerous—Stevens-Johnson syndrome, DRESS). Cardiovascular effects: increased blood pressure and heart rate (milder than amphetamines). Psychiatric effects: anxiety, agitation, psychosis in susceptible individuals. Headache, nausea, insomnia (if taken too late). Dependence possible but less severe than amphetamines—psychological more than physical. Masks sleep deprivation—users stay awake dangerously long. Dangerous driving when sleep-deprived despite feeling alert. Interactions with hormonal birth control (reduced effectiveness). Rare but serious allergic reactions. Often purchased online from questionable sources—quality concerns.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Modafinil",
+          "erowid": "https://www.erowid.org/smarts/modafinil/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Modafinil"
+        },
+        "scientific_papers": [
+          {
+            "title": "Modafinil: A review of neurochemical actions and effects on cognition",
+            "authors": "Minzenberg MJ, Carter CS",
+            "journal": "Neuropsychopharmacology",
+            "year": 2008,
+            "doi": "10.1038/sj.npp.1301534",
+            "summary": "Comprehensive review of modafinil's unique mechanisms and cognitive enhancement effects"
+          },
+          {
+            "title": "Modafinil for cognitive enhancement in healthy non-sleep-deprived subjects",
+            "authors": "Battleday RM, Brem AK",
+            "journal": "European Neuropsychopharmacology",
+            "year": 2015,
+            "summary": "Systematic review showing modafinil improves cognition in healthy individuals"
+          }
+        ]
+      },
+      "forms": ["pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFFF00",
+          "window_s": [30, 60],
+          "alt": "yellow to orange"
+        }
+      ],
+      "notes": [
+        "Provigil, Modalert. NOT an amphetamine—unique wakefulness agent. Lower abuse potential but Schedule IV controlled substance. Pharmaceutical pills should match databases. Often purchased online from India pharmacies (Modalert)—quality variable. Duration 12-15 hours—don't take after noon or insomnia guaranteed. Can mask dangerous sleep deprivation—users feel alert but still cognitively impaired. Rare serious skin reactions—stop immediately if rash develops. May reduce birth control effectiveness."
+      ]
+    },
     "Kratom": {
       "class": "opioid agonist (plant alkaloids)",
       "description": {
