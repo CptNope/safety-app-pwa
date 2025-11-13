@@ -258,6 +258,13 @@ function QuickTest(){
             {s.class && <div className="text-xs px-2 py-1 rounded bg-slate-500/30 border border-slate-400/40 text-slate-200">{s.class}</div>}
           </div>
           
+          {/* 3D Molecular Structure Viewer */}
+          {window.MoleculeViewer && (
+            <div>
+              <MoleculeViewer substanceName={suspect} />
+            </div>
+          )}
+          
           {s.description.overview && (
             <div>
               <div className="text-sm font-semibold text-slate-200 mb-1">📋 Overview</div>
@@ -394,13 +401,6 @@ function QuickTest(){
           </div>
         ))}
       </div>
-      
-      {/* 3D Molecular Structure Viewer */}
-      {window.MoleculeViewer && (
-        <div className="mt-4">
-          <MoleculeViewer substanceName={suspect} />
-        </div>
-      )}
       
       {data.vendors && (()=>{
         // Get reagents needed for this substance
