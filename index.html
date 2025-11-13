@@ -3,17 +3,137 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="description" content="Free, privacy-focused harm reduction guide with substance testing information, reagent reactions, emergency protocols, and safety resources. Works offline, no tracking."/>
-  <title>Harm Reduction Guide (PWA)</title>
+  
+  <!-- Primary Meta Tags -->
+  <title>Reagent Drug Test Guide | 110 Substances | Free Harm Reduction</title>
+  <meta name="title" content="Reagent Drug Test Guide | 110 Substances | Free Harm Reduction"/>
+  <meta name="description" content="Free reagent drug testing guide for 110 substances. Color reactions, 3D molecules, multi-reagent calculator. MDMA, LSD, fentanyl test strips & more. Works offline, no tracking."/>
+  <meta name="keywords" content="drug testing, reagent test, harm reduction, MDMA test, LSD test, fentanyl test strips, DanceSafe, ehrlich reagent, marquis reagent, simon's test, substance testing, drug checking, pill testing, reagent calculator, 3d molecule viewer"/>
+  
+  <!-- Author & Publisher -->
+  <meta name="author" content="Jeremy Anderson"/>
+  <meta name="creator" content="CptNope"/>
+  <meta http-equiv="content-language" content="en-US"/>
+  <meta name="copyright" content="2025 Jeremy Anderson"/>
+  
+  <!-- Canonical URL (Update with your actual domain) -->
+  <link rel="canonical" href="https://safety-app-pwa.netlify.app/"/>
+  
+  <!-- Robots Meta -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="googlebot" content="index, follow"/>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://safety-app-pwa.netlify.app/"/>
+  <meta property="og:title" content="Free Drug Testing Guide | Harm Reduction | 110 Substances"/>
+  <meta property="og:description" content="Comprehensive reagent testing guide with 3D molecular viewer and multi-reagent calculator. Test MDMA, LSD, cocaine, fentanyl & 110+ substances safely. Works offline."/>
+  <meta property="og:image" content="https://safety-app-pwa.netlify.app/icons/icon-512.png"/>
+  <meta property="og:image:width" content="512"/>
+  <meta property="og:image:height" content="512"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Harm Reduction Guide"/>
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:url" content="https://safety-app-pwa.netlify.app/"/>
+  <meta name="twitter:title" content="Free Drug Testing Guide | Harm Reduction | 110 Substances"/>
+  <meta name="twitter:description" content="Test 110 substances with reagent color reactions, 3D molecules, and safety protocols. Works offline. Zero tracking."/>
+  <meta name="twitter:image" content="https://safety-app-pwa.netlify.app/icons/icon-512.png"/>
+  
+  <!-- PWA & Mobile -->
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
-  
-  <!-- Theme colors for cross-browser support -->
   <meta name="theme-color" content="#0ea5e9">
   <meta name="msapplication-TileColor" content="#0ea5e9">
   <meta name="msapplication-navbutton-color" content="#0ea5e9">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <!-- Structured Data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Harm Reduction Guide",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Any (Progressive Web App)",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Free harm reduction web app providing reagent drug testing information for 110+ substances, interactive 3D molecular structures, multi-reagent calculator, emergency protocols, and safety resources.",
+    "author": {
+      "@type": "Person",
+      "name": "Jeremy Anderson",
+      "url": "https://github.com/CptNope"
+    },
+    "featureList": [
+      "110 substance testing database with reagent color reactions",
+      "Interactive 3D molecular viewer powered by PubChem",
+      "Multi-reagent test calculator for accurate identification",
+      "Emergency medical protocols and overdose response",
+      "Offline functionality via PWA",
+      "Zero tracking or data collection",
+      "Fentanyl test strip information",
+      "Counterfeit pill identification guide"
+    ],
+    "screenshot": "https://safety-app-pwa.netlify.app/icons/icon-512.png",
+    "softwareVersion": "2.0",
+    "releaseNotes": "Added 3D molecular viewer and multi-reagent calculator. Expanded to 110 substances including critical opioid analogues and mescaline series.",
+    "datePublished": "2024-01-01",
+    "dateModified": "2025-11-12"
+  }
+  </script>
+  
+  <!-- Structured Data: MedicalWebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Substance Testing & Harm Reduction Guide",
+    "url": "https://safety-app-pwa.netlify.app/",
+    "description": "Evidence-based harm reduction information including reagent testing, emergency protocols, and safety resources for 110 substances.",
+    "medicalAudience": [
+      {
+        "@type": "MedicalAudience",
+        "name": "General public seeking harm reduction information"
+      },
+      {
+        "@type": "MedicalAudience", 
+        "name": "First responders and medical professionals"
+      }
+    ],
+    "about": {
+      "@type": "MedicalEntity",
+      "name": "Harm reduction and substance safety"
+    },
+    "disclaimer": "This app is for educational and harm reduction purposes only. Reagent tests are presumptive - not definitive identification. Lab testing (GC/MS, FTIR) provides definitive results. Always call emergency services (911) for medical emergencies. Good Samaritan laws protect you in 47 US states + DC.",
+    "isAccessibleForFree": true,
+    "audience": {
+      "@type": "PeopleAudience",
+      "suggestedMinAge": 18
+    }
+  }
+  </script>
+  
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Harm Reduction Guide",
+    "url": "https://safety-app-pwa.netlify.app",
+    "logo": "https://safety-app-pwa.netlify.app/icons/icon-512.png",
+    "description": "Open-source harm reduction project providing free drug testing information",
+    "foundingDate": "2024",
+    "sameAs": [
+      "https://github.com/CptNope/safety-app-pwa"
+    ]
+  }
+  </script>
   
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./assets/styles.css"/>

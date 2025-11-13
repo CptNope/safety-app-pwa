@@ -1,0 +1,38 @@
+# Harm Reduction Guide - Robots.txt
+# Last Updated: November 12, 2025
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://safety-app-pwa.netlify.app/sitemap.xml
+
+# Disallow service worker and config files
+Disallow: /sw.js
+Disallow: /manifest.webmanifest
+
+# Allow all substance data
+Allow: /data/
+
+# Crawl delay (prevents aggressive crawling)
+Crawl-delay: 1
+
+# Specific bot directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

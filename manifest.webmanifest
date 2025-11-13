@@ -1,20 +1,55 @@
 {
-  "name": "Harm Reduction Guide",
+  "name": "Harm Reduction Guide - Drug Testing",
   "short_name": "HR Guide",
+  "description": "Free reagent drug testing guide for 110 substances with 3D molecules, multi-reagent calculator, and emergency protocols. Works offline.",
   "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#0b1220",
   "theme_color": "#0ea5e9",
+  "categories": ["health", "education", "medical", "utilities"],
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Substance Testing",
+      "short_name": "Test",
+      "description": "Search and test substances",
+      "url": "./#quick",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Emergency Info",
+      "short_name": "Emergency",
+      "description": "Overdose response protocols",
+      "url": "./#emergency",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Reagent Calculator",
+      "short_name": "Calculator",
+      "description": "Multi-reagent test calculator",
+      "url": "./#quick",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
