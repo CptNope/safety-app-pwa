@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   
   <!-- Primary Meta Tags -->
-  <title>Dose Doctor | Drug Testing Guide | 116 Substances | Free Harm Reduction</title>
-  <meta name="title" content="Dose Doctor | Drug Testing Guide | 116 Substances | Free Harm Reduction"/>
-  <meta name="description" content="Dose Doctor: Free reagent drug testing guide for 116 substances including nitazenes & carfentanil. Color reactions, 3D molecules, multi-reagent calculator. MDMA, LSD, fentanyl testing. Works offline, no tracking."/>
-  <meta name="keywords" content="drug testing, reagent test, harm reduction, MDMA test, LSD test, fentanyl test strips, DanceSafe, ehrlich reagent, marquis reagent, simon's test, substance testing, drug checking, pill testing, reagent calculator, 3d molecule viewer"/>
+  <title>Harm Reduction Guide | Drug Testing Guide | 110+ Substances | Free & Accessible</title>
+  <meta name="title" content="Harm Reduction Guide | Drug Testing Guide | 110+ Substances | Free & Accessible"/>
+  <meta name="description" content="Free, WCAG 2.1 AA accessible drug testing guide for 110+ substances. Color reactions, 3D molecules, multi-reagent calculator. MDMA, LSD, fentanyl testing. Educational harm reduction resource. Works offline, no tracking."/>
+  <meta name="keywords" content="drug testing, reagent test, harm reduction, MDMA test, LSD test, fentanyl test strips, DanceSafe, ehrlich reagent, marquis reagent, simon's test, substance testing, drug checking, pill testing, reagent calculator, 3d molecule viewer, accessibility, WCAG, educational purpose, legal disclaimer, presumptive testing, lab testing, GC-MS"/>
   
   <!-- Author & Publisher -->
   <meta name="author" content="Jeremy Anderson"/>
@@ -26,19 +26,19 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://safety-app-pwa.netlify.app/"/>
-  <meta property="og:title" content="Dose Doctor | Free Drug Testing Guide | 116 Substances"/>
-  <meta property="og:description" content="Dose Doctor: Comprehensive reagent testing guide with 3D molecular viewer and multi-reagent calculator. Test MDMA, LSD, cocaine, fentanyl, nitazenes & 116 substances safely. Works offline."/>
+  <meta property="og:title" content="Harm Reduction Guide | Free Drug Testing Guide | 110+ Substances | WCAG AA Accessible"/>
+  <meta property="og:description" content="Comprehensive reagent testing guide with 3D molecular viewer and multi-reagent calculator. Test MDMA, LSD, fentanyl, nitazenes & 110+ substances. Educational harm reduction resource with zero tracking. Works offline. WCAG 2.1 AA compliant."/>
   <meta property="og:image" content="https://safety-app-pwa.netlify.app/icons/icon-512.png"/>
   <meta property="og:image:width" content="512"/>
   <meta property="og:image:height" content="512"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Dose Doctor"/>
+  <meta property="og:site_name" content="Harm Reduction Guide"/>
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:url" content="https://safety-app-pwa.netlify.app/"/>
-  <meta name="twitter:title" content="Dose Doctor | Free Drug Testing Guide | 116 Substances"/>
-  <meta name="twitter:description" content="Test 110 substances with reagent color reactions, 3D molecules, and safety protocols. Works offline. Zero tracking."/>
+  <meta name="twitter:title" content="Harm Reduction Guide | Free Accessible Drug Testing Guide | 110+ Substances"/>
+  <meta name="twitter:description" content="Test 110+ substances with reagent color reactions, 3D molecules, and safety protocols. WCAG 2.1 AA accessible. Works offline. Zero tracking. Educational harm reduction resource."/>
   <meta name="twitter:image" content="https://safety-app-pwa.netlify.app/icons/icon-512.png"/>
   
   <!-- PWA & Mobile -->
@@ -72,27 +72,33 @@
       "price": "0",
       "priceCurrency": "USD"
     },
-    "description": "Free harm reduction web app providing reagent drug testing information for 110+ substances, interactive 3D molecular structures, multi-reagent calculator, emergency protocols, and safety resources.",
+    "description": "Free, WCAG 2.1 AA accessible harm reduction web app providing reagent drug testing information for 110+ substances, interactive 3D molecular structures, multi-reagent calculator, emergency protocols, and safety resources. Educational purpose only - not medical advice.",
     "author": {
       "@type": "Person",
       "name": "Jeremy Anderson",
       "url": "https://github.com/CptNope"
     },
     "featureList": [
-      "110 substance testing database with reagent color reactions",
+      "110+ substance testing database with reagent color reactions",
       "Interactive 3D molecular viewer powered by PubChem",
       "Multi-reagent test calculator for accurate identification",
       "Emergency medical protocols and overdose response",
+      "WCAG 2.1 Level AA accessibility - keyboard navigation and screen reader support",
       "Offline functionality via PWA",
-      "Zero tracking or data collection",
+      "Zero tracking or data collection - complete privacy",
       "Fentanyl test strip information",
-      "Counterfeit pill identification guide"
+      "Counterfeit pill identification guide",
+      "Legal disclaimers and educational purpose notices"
     ],
+    "accessibilityAPI": "ARIA",
+    "accessibilityControl": ["fullKeyboardControl", "fullMouseControl"],
+    "accessibilityFeature": ["alternativeText", "longDescription", "structuralNavigation"],
+    "accessibilityHazard": "none",
     "screenshot": "https://safety-app-pwa.netlify.app/icons/icon-512.png",
     "softwareVersion": "2.0",
-    "releaseNotes": "Added 3D molecular viewer and multi-reagent calculator. Expanded to 110 substances including critical opioid analogues and mescaline series.",
+    "releaseNotes": "Added 3D molecular viewer and multi-reagent calculator. Expanded to 110+ substances including critical opioid analogues and mescaline series. Enhanced WCAG 2.1 AA compliance and legal disclaimers.",
     "datePublished": "2024-01-01",
-    "dateModified": "2025-11-12"
+    "dateModified": "2025-11-13"
   }
   </script>
   
@@ -103,7 +109,7 @@
     "@type": "MedicalWebPage",
     "name": "Substance Testing & Harm Reduction Guide",
     "url": "https://safety-app-pwa.netlify.app/",
-    "description": "Evidence-based harm reduction information including reagent testing, emergency protocols, and safety resources for 110 substances.",
+    "description": "Evidence-based harm reduction information including reagent testing, emergency protocols, and safety resources for 110+ substances. WCAG 2.1 Level AA accessible. Educational purpose only - not medical advice.",
     "medicalAudience": [
       {
         "@type": "MedicalAudience",
@@ -112,14 +118,21 @@
       {
         "@type": "MedicalAudience", 
         "name": "First responders and medical professionals"
+      },
+      {
+        "@type": "MedicalAudience",
+        "name": "Harm reduction educators and researchers"
       }
     ],
     "about": {
       "@type": "MedicalEntity",
       "name": "Harm reduction and substance safety"
     },
-    "disclaimer": "This app is for educational and harm reduction purposes only. Reagent tests are presumptive - not definitive identification. Lab testing (GC/MS, FTIR) provides definitive results. Always call emergency services (911) for medical emergencies. Good Samaritan laws protect you in 47 US states + DC.",
+    "disclaimer": "LEGAL DISCLAIMER: This app is for educational and harm reduction purposes only. It does NOT encourage illegal drug use or provide medical advice. Reagent tests are presumptive - NOT definitive identification. Lab testing (GC/MS, FTIR) provides definitive results. Always call emergency services (911) for medical emergencies. We accept NO liability for consequences of using this information. Users are solely responsible for complying with all applicable laws. Good Samaritan laws protect you in 47 US states + DC.",
     "isAccessibleForFree": true,
+    "accessibilityAPI": "ARIA",
+    "accessibilityControl": ["fullKeyboardControl", "fullMouseControl", "fullTouchControl"],
+    "accessibilityFeature": ["highContrast", "alternativeText", "longDescription", "structuralNavigation", "tableOfContents"],
     "audience": {
       "@type": "PeopleAudience",
       "suggestedMinAge": 18

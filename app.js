@@ -2405,30 +2405,75 @@ function Myths(){
 function Welcome(){
   return (
     <div className="space-y-4">
-      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-6">
-        <h2 className="text-2xl font-bold text-emerald-200 mb-3">📚 Welcome to Harm Reduction Guide</h2>
+      {/* Hero Section */}
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/10 p-6" role="region" aria-labelledby="welcome-heading">
+        <h2 id="welcome-heading" className="text-2xl font-bold text-emerald-200 mb-3">
+          <span aria-hidden="true">📚</span> Welcome to Harm Reduction Guide
+        </h2>
         <p className="text-sm text-emerald-100 leading-relaxed">
-          This comprehensive guide provides evidence-based information about substance testing, identification, and harm reduction practices. Our goal is to promote safety through education.
+          This comprehensive, evidence-based resource provides free information about substance testing, identification, and harm reduction practices. Our mission is to promote safety and save lives through accessible education and accurate information.
+        </p>
+        <p className="text-xs text-emerald-200 mt-2 font-medium">
+          Free • Open Source • No Tracking • Works Offline • WCAG 2.1 AA Compliant
         </p>
       </div>
 
-      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
-        <h3 className="font-semibold text-lg text-white">🎯 What This App Does</h3>
+      {/* Critical Legal Disclaimer - Moved to top for prominence */}
+      <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-5" role="alert" aria-labelledby="critical-disclaimer">
+        <h3 id="critical-disclaimer" className="font-semibold text-lg text-red-200 mb-3 flex items-center gap-2">
+          <span aria-hidden="true">⚠️</span> 
+          <span>Critical Legal Disclaimers - Please Read</span>
+        </h3>
+        <ul className="space-y-2 text-sm text-red-100">
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>Educational Purpose Only:</strong> This application provides information for harm reduction and educational purposes. It does NOT encourage, promote, or condone illegal drug use. Content is for academic reference, harm reduction education, and first responder training.</span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>Not Medical Advice:</strong> This is NOT medical advice, diagnosis, or treatment. It does NOT replace professional medical consultation. In medical emergencies, ALWAYS call 911 or your local emergency services immediately.</span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>Presumptive Testing Only:</strong> Reagent tests are presumptive identification only, NOT definitive. They can produce false positives, false negatives, miss dangerous adulterants, and fail to detect certain substances. Lab testing (GC/MS, FTIR) provides definitive results.</span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>No Purity Information:</strong> Reagent tests show presence of substances, NOT purity, concentration, or dosage. Never assume safety based on a reagent test alone.</span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>Test Every Batch:</strong> Different batches, even from the same source, may contain completely different substances or dangerous adulterants. Always test every batch independently.</span>
+          </li>
+          <li className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span><strong>Legal Responsibility:</strong> Users are solely responsible for complying with all applicable laws in their jurisdiction. Information accuracy cannot be guaranteed. We accept NO liability for any consequences of using this information.</span>
+          </li>
+        </ul>
+        <div className="mt-3 pt-3 border-t border-red-400/30">
+          <p className="text-xs text-red-200 font-medium">
+            By using this application, you acknowledge that you have read, understood, and agree to these disclaimers and our <a href="#" onClick={(e)=>{e.preventDefault();document.querySelector('[data-tab="terms"]')?.click();}} className="underline hover:text-red-100">Terms of Service</a>.
+          </p>
+        </div>
+      </div>
+
+      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4" role="region" aria-labelledby="features-heading">
+        <h3 id="features-heading" className="font-semibold text-lg text-white"><span aria-hidden="true">🎯</span> What This App Does</h3>
         <ul className="space-y-2 text-sm">
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Substance Testing (110+ substances!):</strong> Search substances and see expected reagent test results with color swatches</span></li>
-          <li className="flex gap-2"><span className="text-blue-400">✨ NEW</span><span><strong>3D Molecular Viewer:</strong> Interactive 3D visualization of molecular structures from PubChem database</span></li>
-          <li className="flex gap-2"><span className="text-purple-400">✨ NEW</span><span><strong>Reagent Calculator:</strong> Combine multiple test results to narrow down substance identity (prevents dangerous misidentification!)</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>ID Guide:</strong> Visual identification of different substance forms (pills, crystals, powders)</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Testing Methods:</strong> Comprehensive guide to reagent testing, lab testing, and field methods</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Myths Debunked:</strong> Correct dangerous misinformation with evidence-based facts</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Emergency Info:</strong> Medical treatment protocols and overdose response</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Vendor List:</strong> Trusted sources for testing kits and harm reduction supplies</span></li>
-          <li className="flex gap-2"><span className="text-emerald-400">✓</span><span><strong>Resources:</strong> Regional pill testing databases and lab analysis services</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Substance Testing (110+ substances!):</strong> Search substances and see expected reagent test results with color swatches</span></li>
+          <li className="flex gap-2"><span className="text-blue-400" aria-hidden="true">✨ NEW</span><span><strong>3D Molecular Viewer:</strong> Interactive 3D visualization of molecular structures from PubChem database</span></li>
+          <li className="flex gap-2"><span className="text-purple-400" aria-hidden="true">✨ NEW</span><span><strong>Reagent Calculator:</strong> Combine multiple test results to narrow down substance identity (prevents dangerous misidentification!)</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>ID Guide:</strong> Visual identification of different substance forms (pills, crystals, powders)</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Testing Methods:</strong> Comprehensive guide to reagent testing, lab testing, and field methods</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Myths Debunked:</strong> Correct dangerous misinformation with evidence-based facts</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Emergency Info:</strong> Medical treatment protocols and overdose response</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Vendor List:</strong> Trusted sources for testing kits and harm reduction supplies</span></li>
+          <li className="flex gap-2"><span className="text-emerald-400" aria-hidden="true">✓</span><span><strong>Resources:</strong> Regional pill testing databases and lab analysis services</span></li>
         </ul>
       </div>
 
-      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4">
-        <h3 className="font-semibold text-lg text-white">📖 How to Use This Guide</h3>
+      <div className="rounded-2xl border border-white/10 p-5 bg-white/5 space-y-4" role="region" aria-labelledby="how-to-heading">
+        <h3 id="how-to-heading" className="font-semibold text-lg text-white"><span aria-hidden="true">📖</span> How to Use This Guide</h3>
         <ol className="space-y-3 text-sm list-decimal list-inside">
           <li><strong>Search for your substance</strong> in the Substance Testing tab to see expected reagent reactions</li>
           <li><strong>Explore the 3D molecule</strong> to understand chemical structure - drag to rotate, scroll to zoom</li>
@@ -2442,19 +2487,8 @@ function Welcome(){
         </ol>
       </div>
 
-      <div className="rounded-2xl border-2 border-red-500/50 bg-red-500/10 p-5">
-        <h3 className="font-semibold text-lg text-red-200 mb-2">⚠️ Important Disclaimers</h3>
-        <ul className="space-y-2 text-sm text-red-100">
-          <li className="flex gap-2"><span>•</span><span><strong>Educational Only:</strong> This app provides information for harm reduction purposes. It does not encourage illegal drug use.</span></li>
-          <li className="flex gap-2"><span>•</span><span><strong>Presumptive Testing:</strong> Reagent tests are presumptive identification only. Lab testing (GC/MS) provides definitive results.</span></li>
-          <li className="flex gap-2"><span>•</span><span><strong>No Purity Information:</strong> Reagent tests show presence, NOT purity or concentration.</span></li>
-          <li className="flex gap-2"><span>•</span><span><strong>Medical Emergencies:</strong> Always call emergency services (911) for overdoses or serious reactions.</span></li>
-          <li className="flex gap-2"><span>•</span><span><strong>Test Every Batch:</strong> Different batches may contain different substances. Always test.</span></li>
-        </ul>
-      </div>
-
-      <div className="rounded-2xl border border-sky-500/30 bg-sky-500/10 p-5">
-        <h3 className="font-semibold text-lg text-sky-200 mb-2">🔬 Testing Best Practices</h3>
+      <div className="rounded-2xl border border-sky-500/30 bg-sky-500/10 p-5" role="region" aria-labelledby="best-practices-heading">
+        <h3 id="best-practices-heading" className="font-semibold text-lg text-sky-200 mb-2"><span aria-hidden="true">🔬</span> Testing Best Practices</h3>
         <ul className="space-y-1.5 text-sm text-sky-100">
           <li>• Use multiple reagents for confirmation</li>
           <li>• Test in good lighting conditions</li>
@@ -3678,53 +3712,75 @@ function Addiction(){
 function About({setTab}){
   return (
     <div className="space-y-6">
-      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/5 p-6">
-        <h2 className="text-2xl font-bold text-emerald-200 mb-4">About This App</h2>
+      <div className="rounded-2xl border-2 border-emerald-500/50 bg-emerald-500/5 p-6" role="region" aria-labelledby="about-heading">
+        <h2 id="about-heading" className="text-2xl font-bold text-emerald-200 mb-4">
+          <span aria-hidden="true">ℹ️</span> About This App
+        </h2>
         
         <div className="space-y-4 text-white/90">
           <p className="text-base leading-relaxed">
             The <strong>Harm Reduction Guide</strong> is a free, open-source Progressive Web App designed to save lives through evidence-based education about substance testing and harm reduction.
           </p>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🎯 Mission</h3>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="mission-heading">
+            <h3 id="mission-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">🎯</span> Mission
+            </h3>
             <p className="text-sm leading-relaxed">
               To provide accessible, accurate, and privacy-respecting harm reduction information to anyone who needs it—without judgment, tracking, or barriers to access.
             </p>
-          </div>
+          </section>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">✨ Key Features</h3>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="key-features-heading">
+            <h3 id="key-features-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">✨</span> Key Features
+            </h3>
             <ul className="text-sm space-y-2">
-              <li>• <strong>100+ substances</strong> with detailed reagent testing data</li>
+              <li>• <strong>110+ substances</strong> with detailed reagent testing data and 3D molecular structures</li>
               <li>• <strong>Zero tracking or data collection</strong> - completely private</li>
               <li>• <strong>Fully offline-capable</strong> - works without internet after install</li>
+              <li>• <strong>Multi-reagent calculator</strong> - combine tests for accurate identification</li>
               <li>• <strong>Emergency protocols</strong> and life-saving information</li>
               <li>• <strong>Myth debunking</strong> - 60+ dangerous myths corrected</li>
               <li>• <strong>Regional resources</strong> - lab testing services worldwide</li>
+              <li>• <strong>WCAG 2.1 AA accessible</strong> - keyboard navigation and screen reader support</li>
               <li>• <strong>Open source</strong> - transparent and community-driven</li>
             </ul>
-          </div>
+          </section>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">👨‍💻 Creator</h3>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="creator-heading">
+            <h3 id="creator-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">👨‍💻</span> Creator
+            </h3>
             <p className="text-sm leading-relaxed">
               Built and maintained by <strong>Jeremy Anderson</strong> (<a href="https://github.com/CptNope" target="_blank" rel="noopener noreferrer" className="text-emerald-300 hover:text-emerald-200 underline">@CptNope</a>).
             </p>
             <p className="text-sm leading-relaxed mt-2">
               This project is expanded based on community feedback and contributions. Thank you to everyone who helps make this resource more comprehensive and accurate.
             </p>
-          </div>
+          </section>
 
-          <div className="rounded-xl bg-amber-500/10 p-4 border border-amber-400/30">
-            <h3 className="text-lg font-semibold text-amber-200 mb-3">⚠️ Important Disclaimer</h3>
-            <p className="text-sm leading-relaxed text-amber-100">
-              This app is for <strong>educational and harm reduction purposes only</strong>. It is NOT medical advice and does NOT encourage illegal drug use. Always seek professional medical help in emergencies.
-            </p>
-          </div>
+          <section className="rounded-xl bg-amber-500/10 p-4 border border-amber-400/30" role="alert" aria-labelledby="disclaimer-heading">
+            <h3 id="disclaimer-heading" className="text-lg font-semibold text-amber-200 mb-3">
+              <span aria-hidden="true">⚠️</span> Important Legal Disclaimer
+            </h3>
+            <div className="text-sm leading-relaxed text-amber-100 space-y-2">
+              <p>
+                This app is for <strong>educational and harm reduction purposes only</strong>. It is NOT medical advice and does NOT encourage illegal drug use.
+              </p>
+              <ul className="space-y-1 mt-2 ml-4">
+                <li>• <strong>Not Medical Advice:</strong> Always seek professional medical help in emergencies. Call 911 immediately.</li>
+                <li>• <strong>Presumptive Testing:</strong> Reagent tests are NOT definitive. Lab analysis (GC/MS, FTIR) is required for confirmation.</li>
+                <li>• <strong>No Liability:</strong> We accept NO responsibility for consequences of using this information.</li>
+                <li>• <strong>Legal Compliance:</strong> Users must comply with all applicable laws in their jurisdiction.</li>
+              </ul>
+            </div>
+          </section>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🤝 Contributing</h3>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="contributing-heading">
+            <h3 id="contributing-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">🤝</span> Contributing
+            </h3>
             <p className="text-sm leading-relaxed mb-3">
               This is an open-source project and contributions are welcome! You can help by:
             </p>
@@ -3735,49 +3791,55 @@ function About({setTab}){
               <li>• Improving UI/UX and accessibility</li>
               <li>• Reporting bugs or suggesting features</li>
             </ul>
-            <a href="https://github.com/CptNope/safety-app-pwa" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 text-sm font-medium hover:bg-blue-500/30 transition">
-              🐙 View on GitHub
+            <a href="https://github.com/CptNope/safety-app-pwa" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-400/40 text-blue-200 text-sm font-medium hover:bg-blue-500/30 transition" aria-label="View project on GitHub">
+              <span aria-hidden="true">🐙</span> View on GitHub
             </a>
-          </div>
+          </section>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">🔒 Privacy & Legal</h3>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="privacy-legal-heading">
+            <h3 id="privacy-legal-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">🔒</span> Privacy & Legal
+            </h3>
             <p className="text-sm leading-relaxed mb-3">
               We take your privacy seriously. This app collects <strong>zero personal data</strong> and works completely offline. All usage stays on your device.
             </p>
-            <div className="flex flex-wrap gap-2">
-              <button onClick={()=>setTab('privacy')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
-                🔒 Privacy Policy
+            <nav className="flex flex-wrap gap-2" aria-label="Legal documents">
+              <button onClick={()=>setTab('privacy')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition" aria-label="View Privacy Policy">
+                <span aria-hidden="true">🔒</span> Privacy Policy
               </button>
-              <button onClick={()=>setTab('terms')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
-                📄 Terms of Service
+              <button onClick={()=>setTab('terms')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition" aria-label="View Terms of Service">
+                <span aria-hidden="true">📄</span> Terms of Service
               </button>
-              <button onClick={()=>setTab('accessibility')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition">
-                ♿ Accessibility
+              <button onClick={()=>setTab('accessibility')} className="px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/40 text-purple-200 text-sm font-medium hover:bg-purple-500/30 transition" aria-label="View Accessibility Statement">
+                <span aria-hidden="true">♿</span> Accessibility
               </button>
-            </div>
-          </div>
+            </nav>
+          </section>
 
-          <div className="rounded-xl bg-white/5 p-4 border border-white/10">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">📊 Technical Details</h3>
-            <div className="text-sm space-y-2">
-              <div><strong>Built with:</strong> React 18, Tailwind CSS, Progressive Web App technology</div>
-              <div><strong>Database:</strong> Modular JSON architecture with lazy loading</div>
-              <div><strong>Hosting:</strong> Static hosting, no backend servers</div>
-              <div><strong>Data Sources:</strong> DanceSafe, Reagent Tests UK, Erowid, scientific literature</div>
-              <div><strong>License:</strong> Open source (see LICENSE file)</div>
-            </div>
-          </div>
+          <section className="rounded-xl bg-white/5 p-4 border border-white/10" aria-labelledby="technical-heading">
+            <h3 id="technical-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">📊</span> Technical Details
+            </h3>
+            <dl className="text-sm space-y-2">
+              <div><dt className="inline"><strong>Built with:</strong></dt> <dd className="inline">React 18, Tailwind CSS, Progressive Web App technology</dd></div>
+              <div><dt className="inline"><strong>Database:</strong></dt> <dd className="inline">Modular JSON architecture with lazy loading</dd></div>
+              <div><dt className="inline"><strong>Hosting:</strong></dt> <dd className="inline">Static hosting, no backend servers</dd></div>
+              <div><dt className="inline"><strong>Data Sources:</strong></dt> <dd className="inline">DanceSafe, Reagent Tests UK, Erowid, scientific literature</dd></div>
+              <div><dt className="inline"><strong>License:</strong></dt> <dd className="inline">Open source (see LICENSE file)</dd></div>
+            </dl>
+          </section>
 
-          <div className="rounded-xl bg-emerald-500/10 p-4 border border-emerald-400/30">
-            <h3 className="text-lg font-semibold text-emerald-200 mb-3">💙 Why This Exists</h3>
+          <section className="rounded-xl bg-emerald-500/10 p-4 border border-emerald-400/30" aria-labelledby="why-heading">
+            <h3 id="why-heading" className="text-lg font-semibold text-emerald-200 mb-3">
+              <span aria-hidden="true">💙</span> Why This Exists
+            </h3>
             <p className="text-sm leading-relaxed text-emerald-100">
               Harm reduction saves lives. People deserve access to accurate safety information without judgment, surveillance, or barriers. This app exists to make that information freely available to anyone who needs it.
             </p>
             <p className="text-sm leading-relaxed text-emerald-100 mt-2">
               If this app helps even one person make a safer decision or survive an emergency, it has succeeded.
             </p>
-          </div>
+          </section>
         </div>
       </div>
 
