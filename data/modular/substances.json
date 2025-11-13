@@ -4855,6 +4855,175 @@
       "Very rare LSD analogue. Shorter duration (4-6 hrs) and less potent than LSD. Ehrlich purple but cannot distinguish from other lysergamides. VERY LIMITED human data—safety unknown. If encountered, extreme caution. Likely mis-sold as LSD or other lysergamide. Test to verify. Cross-tolerance with psychedelics."
     ]
   },
+  "Ibogaine": {
+    "class": "tryptamine (indole, plant alkaloid)",
+    "description": {
+      "overview": "Ibogaine is a powerful psychedelic alkaloid from the iboga plant (Tabernanthe iboga) native to West Africa. Known for extremely long duration (24-48 hours), intense introspective experiences, and unique ability to interrupt addiction. Used in addiction treatment clinics (opioid, alcohol, stimulant). Very dangerous—can cause fatal cardiac arrhythmias. Illegal in US, legal/tolerated in some countries for addiction treatment.",
+      "origins": "Traditional use by Bwiti religion in Gabon and Cameroon for spiritual ceremonies, initiation rites. Discovered by Western medicine in 1960s for addiction treatment properties. Howard Lotsof documented anti-addictive effects 1962. Clinics opened in Mexico, Canada, Netherlands, New Zealand for ibogaine-assisted addiction treatment. Schedule I in US (illegal), but legal in some countries. Root bark vs. extracted ibogaine have different safety profiles.",
+      "uses": "Traditional: Spiritual ceremonies, vision quests, initiation rites (Bwiti religion). Medical (outside US): Opioid addiction treatment (interrupts physical dependence and cravings), alcohol addiction, stimulant addiction. Single dose can eliminate withdrawal and reduce cravings for months. Typical dose: 15-25mg/kg (very high dose). Duration: 24-48 hours of intense effects, aftereffects days-weeks. Used in supervised clinical settings for addiction treatment. NOT recreational—extremely difficult experience.",
+      "dangers": "POTENTIALLY FATAL: Cardiac arrhythmias (QT prolongation), sudden cardiac death documented. Deaths have occurred even in clinical settings with medical monitoring. Contraindicated for people with heart conditions, recent substance use (especially stimulants), certain medications. Requires extensive medical screening (ECG, blood work). Extremely physically and psychologically intense—12-48 hour ordeal. Severe ataxia (loss of coordination), inability to walk for hours. Nausea, vomiting. Can cause seizures. Dangerous drug interactions (especially SSRIs, stimulants, opioids). ONLY safe in medical setting with cardiac monitoring. DIY ibogaine use has caused many deaths. Not for recreational use.",
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ibogaine",
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Ibogaine"
+      },
+      "scientific_papers": [
+        {
+          "title": "Ibogaine in the treatment of substance dependence: Clinical review",
+          "authors": "Brown TK",
+          "journal": "Current Drug Abuse Reviews",
+          "year": 2013,
+          "summary": "Review of ibogaine's efficacy and safety for addiction treatment"
+        },
+        {
+          "title": "Ibogaine-related fatalities: Cardiac risk assessment",
+          "authors": "Alper KR, et al.",
+          "journal": "Addiction Biology",
+          "year": 2012,
+          "summary": "Analysis of ibogaine deaths and cardiac risks"
+        }
+      ]
+    },
+    "forms": [
+      "root bark",
+      "extract",
+      "capsule"
+    ],
+    "testing": [
+      {
+        "reagent": "ehrlich",
+        "color": "#9370DB",
+        "window_s": [
+          60,
+          180
+        ],
+        "alt": "purple (indole/tryptamine)"
+      }
+    ],
+    "notes": [
+      "EXTREME DANGER: Can cause fatal cardiac arrhythmias. Used for addiction treatment in clinics outside US. Duration 24-48 hours. Ehrlich purple (tryptamine). ONLY safe in medical setting with cardiac monitoring, ECG, blood work. Many deaths from unsupervised use. NOT recreational. Contraindicated with heart conditions, many medications, recent drug use. Schedule I in US (illegal). Legal in some countries for medical use only."
+    ]
+  },
+  "Blue Lotus": {
+    "class": "plant (alkaloids: aporphine, nuciferine)",
+    "description": {
+      "overview": "Blue lotus (Nymphaea caerulea) is a water lily native to Egypt and other parts of Africa. Contains mild psychoactive alkaloids (aporphine, nuciferine). Produces subtle euphoria, mild sedation, and aphrodisiac effects. Historically used in ancient Egypt (depicted in art, possibly in ceremonies). Legal in most countries. Sold as dried flowers for tea or smoking. Effects are VERY mild compared to classical psychedelics.",
+      "origins": "Sacred plant in ancient Egypt—depicted extensively in tomb paintings and temple art. Possibly used in religious ceremonies, as aphrodisiac, in wine/beer. Mentioned in ancient texts. Contains aporphine (mild dopamine agonist) and nuciferine (various effects). Modern rediscovery in ethnobotanical community. Legal and sold in smoke shops, online. Widely available but effects overhyped in marketing.",
+      "uses": "Historical: Ancient Egyptian ceremonies, aphrodisiac, added to wine. Modern: Mild euphoria, relaxation, aphrodisiac effects (mild), lucid dreaming (claimed but unproven), meditation aid. Consumed as: tea (most common—5-10g flowers), smoking (harsh, less effective), tincture, wine infusion. Duration 1-3 hours. Effects very subtle—not comparable to cannabis or psychedelics. Often disappointing for those expecting strong effects. Better for relaxation than recreation.",
+      "dangers": "Very safe—minimal risks. Possible: nausea (high doses or sensitive individuals), drowsiness, dizziness. No documented serious adverse effects. Not addictive. Legal in most jurisdictions. Quality varies—adulteration possible. Some products mix with other herbs. Possible drug interactions unknown but likely minimal. May cause mild drop in blood pressure. Not recommended during pregnancy (insufficient data). Main danger: inflated expectations leading to disappointment or trying other substances.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Blue_lotus",
+        "erowid": "https://www.erowid.org/plants/lotus/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Blue lotus (Nymphaea caerulea): Phytochemistry and pharmacology",
+          "authors": "Emboden WA",
+          "journal": "Economic Botany",
+          "year": 1978,
+          "summary": "Analysis of blue lotus alkaloids and historical use"
+        }
+      ]
+    },
+    "forms": [
+      "dried flowers",
+      "extract"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "no_reaction",
+        "window_s": [
+          0,
+          60
+        ],
+        "alt": "no color change (alkaloids present but don't react strongly)"
+      }
+    ],
+    "notes": [
+      "Sacred Egyptian water lily. VERY MILD effects: subtle euphoria, relaxation. Not comparable to cannabis or psychedelics. Legal in most places. Usually consumed as tea (5-10g flowers). Duration 1-3 hours. Very safe, minimal risks. Often disappointing for those expecting strong effects. Historical/cultural interest more than recreational value. No reagent reaction."
+    ]
+  },
+  "Kanna": {
+    "class": "plant (alkaloids: mesembrine, mesembrenone)",
+    "description": {
+      "overview": "Kanna (Sceletium tortuosum) is a succulent plant from South Africa. Contains alkaloids that act as serotonin reuptake inhibitors (SRIs). Produces mood elevation, anxiety reduction, mild euphoria, and empathogenic effects. Traditionally used by San and Khoikhoi peoples. Legal in most countries. Growing popularity as legal mood enhancer and MDMA/kratom alternative. Effects are subtle but noticeable.",
+      "origins": "Traditional use by indigenous San and Khoikhoi peoples of South Africa for thousands of years. Chewed or smoked for mood elevation, reducing anxiety, hunger suppression during long hunts. Rediscovered by ethnobotanical community 1990s-2000s. Now cultivated and sold as extract, powder, or whole plant. Legal in most countries. Marketed as nootropic, mood enhancer, legal high. Standardized extracts more potent than traditional plant material.",
+      "uses": "Traditional: Mood enhancement, anxiety reduction, social bonding, hunger suppression. Modern: Anxiety relief, mood boost, mild euphoria, empathogenic effects (described as 'gentle roll'), stress reduction, meditation aid. Typical dose: 50-150mg extract (standardized to mesembrine content) or 200-1000mg plant powder. Duration 1-3 hours. ROAs: oral (most common), sublingual, insufflation (harsh), smoking (traditional but wasteful). Used as alternative to SSRIs, MDMA, or anxiolytics.",
+      "dangers": "Generally safe but caution needed: SEROTONIN INTERACTIONS—do NOT combine with SSRIs, MAOIs, MDMA, or other serotonergics (serotonin syndrome risk). Some users report headaches, nausea, anxiety (paradoxical). Can cause insomnia at higher doses. Insufflation painful/damaging. Quality varies widely between vendors—standardization important. Tolerance develops with frequent use. Some countries beginning to regulate. Insufficient data on long-term daily use. Pregnancy/breastfeeding: avoid (no safety data).",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Kanna",
+        "erowid": "https://www.erowid.org/plants/kanna/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Sceletium tortuosum (Kanna): Chemistry and pharmacology",
+          "authors": "Gericke N, Viljoen AM",
+          "journal": "Journal of Ethnopharmacology",
+          "year": 2008,
+          "summary": "Review of kanna's alkaloids and effects as SRI"
+        }
+      ]
+    },
+    "forms": [
+      "powder",
+      "extract",
+      "plant material"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to yellow"
+      }
+    ],
+    "notes": [
+      "South African plant with SRI alkaloids. Mild euphoria, anxiety reduction, empathogenic effects. NEVER combine with SSRIs, MAOIs, MDMA—serotonin syndrome risk. Legal in most places. Dose: 50-150mg extract. Duration 1-3 hours. Safer alternative to pharmaceuticals for some. Quality varies—buy standardized extracts. Tolerance with frequent use. Not intense like MDMA but noticeable mood boost."
+    ]
+  },
+  "Syrian Rue": {
+    "class": "plant (alkaloids: harmine, harmaline - MAOIs)",
+    "description": {
+      "overview": "Syrian rue (Peganum harmala) is a plant containing powerful MAOI alkaloids (harmine, harmaline). Traditionally used in Middle Eastern and Central Asian cultures. Main modern use: potentiating DMT for ayahuasca-like experiences ('pharmahuasca' or 'anahuasca'). DANGEROUS if combined with many substances, foods, or medications. Causes severe nausea/vomiting. Legal in most places but extremely risky without proper knowledge.",
+      "origins": "Traditional use in Middle East, North Africa, Central Asia for medicinal and spiritual purposes. Used as dye, incense, folk medicine (Turkey, Iran, Pakistan). Contains β-carboline alkaloids (harmine, harmaline, harmalol) that inhibit MAO enzyme. Discovered by psychedelic community as DMT potentiator (creates oral activity). Often called 'Syrian rue' though native to broader region. Seeds widely available online/botanicals shops.",
+      "uses": "Traditional: Folk medicine, dye, incense, spiritual rituals. Modern: Potentiating oral DMT (pharmahuasca/anahuasca), MAOI effects, visionary experiences. Typical dose: 2-4g seeds (ground). Effects alone: mild visuals, body load, nausea, sedation. With DMT: enables oral DMT activity, extends duration to 4-6 hours. Used for DMT ceremonies as ayahuasca alternative. Some use for MAOI antidepressant effects (dangerous without medical supervision).",
+      "dangers": "EXTREMELY DANGEROUS WITH MANY SUBSTANCES: MAOIs interact with tyramine-rich foods (cheese, aged meats, fermented foods—can cause hypertensive crisis), SSRIs/antidepressants (serotonin syndrome—can be FATAL), stimulants (severe hypertension), opioids, alcohol, and many medications. Requires strict diet 24hrs before/after. Severe nausea and vomiting very common. Can cause serotonin syndrome with wrong combinations (potentially fatal). Hypertensive crisis possible. Pregnant/nursing: dangerous (emmenagogue effects). Legal but risky without extensive research. Many hospitalizations/deaths from improper use.",
+      "links": {
+        "psychonautwiki": "https://psychonautwiki.org/wiki/Harmala_alkaloids",
+        "erowid": "https://www.erowid.org/plants/syrian_rue/"
+      },
+      "scientific_papers": [
+        {
+          "title": "Peganum harmala and its alkaloids: Pharmacology and toxicology",
+          "authors": "Moloudizargari M, et al.",
+          "journal": "Pharmacological Reviews",
+          "year": 2013,
+          "summary": "Comprehensive review of Syrian rue MAOI alkaloids and dangers"
+        }
+      ]
+    },
+    "forms": [
+      "seeds",
+      "extract"
+    ],
+    "testing": [
+      {
+        "reagent": "marquis",
+        "color": "#FFA500",
+        "window_s": [
+          30,
+          60
+        ],
+        "alt": "orange to brown"
+      }
+    ],
+    "notes": [
+      "EXTREME DANGER: Powerful MAOI. NEVER combine with: SSRIs, stimulants, tyramine foods, many medications—can be FATAL. Used to potentiate oral DMT (pharmahuasca). Causes severe nausea/vomiting. Requires strict dietary restrictions 24hrs before/after. Can cause hypertensive crisis, serotonin syndrome. Only for extremely experienced and informed users. Legal but very risky. NOT for beginners."
+    ]
+  },
   "Kratom": {
     "class": "opioid agonist (plant alkaloids)",
     "description": {
