@@ -284,10 +284,13 @@ Less common but mentioned in scope. Complete for comprehensive coverage.
 5. ✅ **MDPV** - COMPLETED (Nov 12, 2025)
 6. ✅ **Methylone** - COMPLETED (Nov 12, 2025)
 7. ✅ **Amphetamine (speed)** - COMPLETED (Nov 12, 2025)
-8. Eutylone / N-Ethylpentylone - NEXT PRIORITY
-9. Lisdexamfetamine (Vyvanse)
-10. Etizolam
-11. Flualprazolam
+8. ✅ **Eutylone** - COMPLETED (Nov 12, 2025)
+9. ✅ **N-Ethylpentylone** - COMPLETED (Nov 12, 2025)
+10. ✅ **Lisdexamfetamine (Vyvanse)** - COMPLETED (Nov 12, 2025)
+11. ✅ **Etizolam** - COMPLETED (Nov 12, 2025)
+12. ✅ **Flualprazolam** - COMPLETED (Nov 12, 2025)
+
+🎉 **PRIORITY 1 COMPLETE! All 11 critical harm reduction substances added!**
 
 ### Phase 2: Important Gaps (Do Second)
 12. 3-MeO-PCP
@@ -373,20 +376,26 @@ When researching new substances:
 - ✅ Comprehensive gap analysis
 - ✅ Priority ranking
 - ✅ Implementation roadmap
-- ✅ **7 Priority 1 substances ADDED to database:**
-  - Oxycodone (fake M30 crisis coverage)
-  - Hydrocodone (Vicodin/Norco)
-  - Mephedrone (4-MMC cathinone)
-  - Alpha-PVP (Flakka - "zombie drug")
-  - MDPV (original bath salts)
-  - Methylone (most common MDMA substitute 2010-2015)
-  - Amphetamine (speed/Adderall)
+- ✅ **11 Priority 1 substances ADDED to database:**
+  1. Oxycodone (fake M30 crisis coverage)
+  2. Hydrocodone (Vicodin/Norco)
+  3. Mephedrone (4-MMC cathinone)
+  4. Alpha-PVP (Flakka - "zombie drug")
+  5. MDPV (original bath salts)
+  6. Methylone (most common MDMA substitute 2010-2015)
+  7. Amphetamine (speed/Adderall)
+  8. Eutylone (current MDMA adulterant 2020s)
+  9. N-Ethylpentylone (current MDMA adulterant 2020s)
+  10. Lisdexamfetamine (Vyvanse - most prescribed ADHD med)
+  11. Etizolam (RC benzo in fake Xanax)
+  12. Flualprazolam (ultra-potent RC benzo)
 
 ### Stats:
 - **Before:** ~60 substances
-- **After:** ~67 substances (+7 this session!)
-- **Remaining Priority 1:** 4 substances
-- **Total missing:** ~33-43 substances
+- **After:** ~71 substances (+11 this session! 🚀)
+- **Priority 1:** ✅ **100% COMPLETE** (0 remaining)
+- **Total missing:** ~29-39 substances
+- **Coverage:** **71% of 100-substance goal!**
 
 ### Next Steps:
 1. Continue with Priority 1 substances (Alpha-PVP, MDPV, Methylone)

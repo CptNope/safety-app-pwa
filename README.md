@@ -677,18 +677,32 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (~67 of 100 target)
+## 🧬 Substances Covered (~71 of 100 target)
 
-**Current Status:** ~67 substances fully documented | [View missing substances roadmap](MISSING_SUBSTANCES.md)
+**Current Status:** ~71 substances fully documented | **Priority 1: 100% COMPLETE** ✅  
+[View missing substances roadmap](MISSING_SUBSTANCES.md)
 
-**Recent Additions (Nov 12, 2025) - 7 Priority Substances:**
-- ✅ **Oxycodone** (M30 counterfeit crisis)
+**Recent Additions (Nov 12, 2025) - 11 Priority 1 Substances:**
+
+**Opioids & Counterfeit Crisis:**
+- ✅ **Oxycodone** (M30 fake pill epidemic)
 - ✅ **Hydrocodone** (Vicodin/Norco)
-- ✅ **Mephedrone** (4-MMC bath salts)
-- ✅ **Alpha-PVP** (Flakka - zombie drug)
+
+**Cathinones (Bath Salts & MDMA Substitutes):**
+- ✅ **Mephedrone** (4-MMC - UK legal high era)
+- ✅ **Alpha-PVP** (Flakka - "zombie drug")
 - ✅ **MDPV** (original bath salts 2010-2011)
-- ✅ **Methylone** (most common MDMA substitute)
+- ✅ **Methylone** (most common MDMA sub 2010-2015)
+- ✅ **Eutylone** (current MDMA adulterant 2020s)
+- ✅ **N-Ethylpentylone** (current MDMA adulterant 2020s)
+
+**Stimulants (Pharma & Street):**
 - ✅ **Amphetamine** (speed/Adderall)
+- ✅ **Lisdexamfetamine** (Vyvanse - prodrug ADHD med)
+
+**Research Chemical Benzos (Fake Xanax Crisis):**
+- ✅ **Etizolam** (in fake bars, legal gray area)
+- ✅ **Flualprazolam** (ultra-potent, extreme blackouts)
 
 ### Entactogens / Empathogens (6)
 - **MDMA** (Ecstasy/Molly), **MDA** (Sass), **MDEA** (MDE/Eve)
