@@ -1368,6 +1368,8 @@ function News(){
         
         // Very rough region detection (would need proper geocoding API for accuracy)
         if (latitude >= 49) region = 'Canada';
+        // Boston area (Massachusetts) - check first for specificity
+        else if (latitude >= 42 && latitude <= 43 && longitude >= -72 && longitude <= -70) region = 'USA - Boston area';
         else if (latitude >= 45 && longitude <= -110) region = 'USA - Pacific Northwest';
         else if (latitude >= 35 && latitude < 42 && longitude >= -125 && longitude <= -114) region = 'USA - California';
         else if (latitude >= 32 && latitude < 37 && longitude >= -115 && longitude <= -103) region = 'USA - Southwest';
@@ -1415,8 +1417,20 @@ function News(){
   // Filter by both category AND region
   const filtered = allArticles.filter(article => {
     const categoryMatch = filter === 'All' || article.category === filter;
+    
+    // Region matching logic:
+    // - If "All Regions" selected, show everything
+    // - If specific region selected:
+    //   * Show articles with no regions (global/RSS feeds)
+    //   * Show articles that explicitly include the selected region
+    //   * Show "USA - Nationwide" articles when any USA region is selected
     const regionMatch = regionFilter === 'All Regions' || 
-      (article.regions && article.regions.includes(regionFilter));
+      !article.regions || // No regions = global article, show for all
+      article.regions.length === 0 || // Empty regions array = global
+      article.regions.includes(regionFilter) || // Explicit match
+      (regionFilter.startsWith('USA') && article.regions.includes('USA - Nationwide')) || // USA nationwide for any USA region
+      (regionFilter.startsWith('Canada') && article.regions.includes('Canada')); // Canada nationwide for any Canada region
+    
     return categoryMatch && regionMatch;
   });
 
