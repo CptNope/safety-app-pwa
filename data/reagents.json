@@ -3063,6 +3063,278 @@
         }
       }
     },
+    "Alpha-PVP": {
+      "class": "cathinone (pyrrolidinophenone)",
+      "description": {
+        "overview": "Alpha-pyrrolidinopentiophenone (α-PVP), known as 'Flakka' or 'gravel,' is an extremely potent synthetic cathinone stimulant. Notorious for causing severe psychosis, violent behavior, and bizarre incidents ('zombie drug' media coverage). Much more potent and dangerous than mephedrone. Cheap, highly addictive, and widely available in mid-2010s. Associated with multiple deaths and emergency room visits. Effects include extreme stimulation, paranoia, hallucinations, hyperthermia, and violent outbursts.",
+        "origins": "First synthesized in the 1960s but remained obscure until 2010s. Exploded in Florida and other US states 2013-2015 as cheap MDPV replacement after MDPV scheduling. Marketed as 'bath salts' or 'research chemicals.' Media dubbed it 'zombie drug' after incidents of naked, violent users. Chinese labs mass-produced it. Scheduled federally in 2014 but continued availability. Peak crisis 2014-2015; still encountered but less common than height of epidemic.",
+        "uses": "No medical use. Recreational: Extreme stimulation, euphoria (initial), increased energy and alertness. Typical dose 5-30mg (extremely potent). Often vaped, snorted, or injected. Duration 2-4 hours. Compulsive redosing extremely common. Popular among those seeking cheap, intense stimulation. Some users report positive experiences at low doses, but risk of psychotic episodes very high. Often used in binges lasting days.",
+        "dangers": "EXTREME DANGER: Causes severe psychosis, paranoia, hallucinations (visual and auditory), violent behavior, self-harm, bizarre actions. 'Excited delirium' syndrome—hyperthermia, extreme agitation, superhuman strength perception, death. Cardiovascular toxicity: tachycardia, hypertension, cardiac arrest. Kidney damage reported. Vasoconstriction. Compulsive redosing leads to massive doses and severe toxicity. Addiction develops rapidly. Withdrawal includes severe depression, fatigue, anhedonia. Often triggers violent incidents and law enforcement encounters. Deaths from hyperthermia, cardiac events, and accidents. Media-documented cases: users attacking others, running naked, exhibiting superhuman strength. Extremely caustic—nasal damage from snorting. NOT recreational—harm potential extreme.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Alpha-Pyrrolidinopentiophenone",
+          "erowid": "https://www.erowid.org/chemicals/alpha_pvp/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/A-PVP"
+        },
+        "scientific_papers": [
+          {
+            "title": "Alpha-PVP (flakka): A new synthetic cathinone invades the drug scene",
+            "authors": "Zawilska JB, Wojcieszak J",
+            "journal": "Forensic Science International",
+            "year": 2017,
+            "doi": "10.1016/j.forsciint.2016.11.006",
+            "summary": "Comprehensive review of alpha-PVP pharmacology, toxicity, and public health crisis"
+          },
+          {
+            "title": "Excited delirium and bath salts: A review of the literature",
+            "authors": "Ross EA, et al.",
+            "journal": "American Journal of Emergency Medicine",
+            "year": 2015,
+            "summary": "Analysis of alpha-PVP and related cathinones causing excited delirium syndrome"
+          },
+          {
+            "title": "Flakka-induced prolonged psychosis",
+            "authors": "Gunderson EW, et al.",
+            "journal": "Journal of Dual Diagnosis",
+            "year": 2016,
+            "summary": "Case reports of severe psychotic episodes lasting weeks after alpha-PVP use"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "orange to yellow"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [20, 60],
+          "alt": "yellow to green"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "orange"
+        }
+      ],
+      "notes": [
+        "EXTREME DANGER: Flakka/gravel. Known for causing psychosis, violent behavior, 'zombie' incidents. NOT recreational—severe harm potential. If encountered, extreme caution advised. Often sold as bath salts or other stimulants. Pyrrolidinophenones (alpha-PVP, MDPV, etc.) have similar reagent reactions to other cathinones—yellow/orange with Marquis. Cannot be distinguished from other cathinones by reagent alone. If you suspect Flakka, DO NOT USE—psychosis risk extreme. Harm reduction: Start with extremely small dose if testing, have sitter, benzos available for psychotic episodes."
+      ]
+    },
+    "MDPV": {
+      "class": "cathinone (pyrrolidinophenone)",
+      "description": {
+        "overview": "Methylenedioxypyrovalerone (MDPV) is an extremely potent synthetic cathinone stimulant, the original 'bath salts' drug that sparked the 2010-2011 media panic. Much more potent than cocaine or methamphetamine. Causes intense stimulation, euphoria, paranoia, and hallucinations. Highly addictive with severe compulsive redosing. Active at 5-20mg doses. Associated with violent incidents, psychosis, and deaths. Largely replaced by alpha-PVP after scheduling but still encountered.",
+        "origins": "First synthesized in 1969 by Boehringer Ingelheim as potential ADHD medication but never marketed. Remained obscure until 2000s research chemical scene. Exploded in popularity 2009-2011 as legal high sold as 'bath salts,' 'plant food,' or 'research chemicals' with labels 'not for human consumption.' Miami 'cannibal' incident (2012) falsely attributed to MDPV caused media panic (actually not MDPV but became face of bath salts crisis). Emergency scheduling 2011, Schedule I 2012. Largely disappeared from market, replaced by alpha-PVP and other analogues.",
+        "uses": "No medical use. Recreational: Intense euphoria, stimulation, increased alertness, hypersexuality. Typical dose 5-20mg (extremely potent—less than grain of rice). Usually insufflated, sometimes oral or IV. Duration 2-4 hours. EXTREME compulsive redosing—users report inability to stop until supply exhausted. Popular 2009-2011 as legal stimulant. Effects described as more intense than cocaine with longer duration. Binges lasting days common. Now rare due to scheduling and replacement by analogues.",
+        "dangers": "EXTREME DANGER: Severe paranoia, auditory and visual hallucinations, psychosis, violent behavior. 'Excited delirium'—hyperthermia, agitation, superhuman strength, death. Cardiovascular toxicity: extreme tachycardia (>200 bpm reported), hypertension, vasoconstriction, cardiac arrest. Hyperthermia can be fatal. Compulsive redosing impossible to control—users report going through grams in sessions. Severe comedown: depression, exhaustion, suicidal ideation. Physical dependence and severe withdrawal. Multiple deaths documented. Violent incidents common—attacks on others, police encounters. Nasal damage from snorting. Often triggers psychotic breaks requiring psychiatric hospitalization. NOT safe at any dose—unpredictable severe reactions.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methylenedioxypyrovalerone",
+          "erowid": "https://www.erowid.org/chemicals/mdpv/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/MDPV"
+        },
+        "scientific_papers": [
+          {
+            "title": "MDPV: The new bath salts drug wave",
+            "authors": "Baumann MH, et al.",
+            "journal": "Neuropsychopharmacology",
+            "year": 2013,
+            "doi": "10.1038/npp.2012.162",
+            "summary": "Comprehensive pharmacology study showing MDPV is 10x more potent than cocaine"
+          },
+          {
+            "title": "Clinical manifestations of bath salt intoxication",
+            "authors": "Spiller HA, et al.",
+            "journal": "Drug and Alcohol Dependence",
+            "year": 2011,
+            "summary": "Analysis of emergency room presentations from MDPV and bath salts epidemic"
+          },
+          {
+            "title": "MDPV-induced psychosis: Case series",
+            "authors": "Murray BL, et al.",
+            "journal": "Journal of Medical Toxicology",
+            "year": 2012,
+            "summary": "Documentation of severe psychotic episodes from MDPV use"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "yellow to orange"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [20, 60],
+          "alt": "yellow"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "orange to brown"
+        }
+      ],
+      "notes": [
+        "Original 'bath salts' drug (2010-2011). EXTREMELY potent and dangerous. Causes severe psychosis, paranoia, hallucinations, violent behavior. 10x more potent than cocaine. Compulsive redosing uncontrollable. Now rare (replaced by alpha-PVP) but still encountered. Cannot be distinguished from other cathinones by reagent tests alone. If suspected MDPV: DO NOT USE. Harm potential extreme—not recreational. This is the drug that caused the bath salts moral panic and emergency scheduling."
+      ]
+    },
+    "Methylone": {
+      "class": "cathinone (substituted)",
+      "description": {
+        "overview": "Methylone (βk-MDMA, bk-MDMA) is a synthetic cathinone empathogen, the beta-ketone analogue of MDMA. Produces MDMA-like effects but shorter duration, less empathogenic, more stimulating. Was the most common MDMA substitute 2010-2015 in 'molly' and ecstasy pills. Less intense than MDMA, often described as '70% of MDMA's magic.' Typical dose 100-200mg. Duration 2-4 hours (vs MDMA's 4-6). Largely replaced by eutylone/n-ethylpentylone in recent years but still encountered.",
+        "origins": "First synthesized by chemists Peyton Jacob III and Alexander Shulgin in 1996, documented in PiHKAL. Remained obscure until late 2000s. Exploded in popularity 2010-2014 as legal MDMA substitute. Sold as 'molly,' in pressed pills as 'ecstasy,' or as 'bath salts.' Often intentionally substituted for MDMA when MDMA scarce or expensive. Emergency scheduling 2013, Schedule I 2014. Peak use 2011-2014. Declined after scheduling but still found in pills and powders sold as MDMA. Chinese labs produced industrial quantities.",
+        "uses": "No medical use. Recreational: MDMA-like empathy, euphoria, increased sociability, music enhancement. Less 'rolling' than MDMA, more 'speedy.' Typical dose 100-200mg. Duration 2-4 hours. Often used at raves, festivals, clubs. Some users prefer shorter duration; others disappointed by lack of MDMA's emotional depth. Compulsive redosing common due to short duration. Often unknowingly consumed by people expecting MDMA. Less popular since scheduling made it no longer 'legal high' advantage.",
+        "dangers": "Less toxic than MDMA at equivalent doses but still carries risks: Cardiovascular stress (tachycardia, hypertension), hyperthermia and dehydration (especially in hot environments), neurotoxicity concerns (less studied than MDMA), serotonin depletion and comedown depression, jaw clenching and muscle tension. Compulsive redosing leads to higher doses and increased harm. Often sold as MDMA—users taking 'MDMA doses' (100-150mg) may redose thinking it's weak MDMA, leading to excessive methylone consumption. Unknown long-term effects. Deaths reported but less common than with MDMA. Often combined with other substances in pressed pills. Less empathogenic than MDMA—users often disappointed and seek 'real' MDMA. Harm reduction difficult when sold as MDMA.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Methylone",
+          "erowid": "https://www.erowid.org/chemicals/methylone/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Methylone"
+        },
+        "scientific_papers": [
+          {
+            "title": "Methylone and MDMA: Behavioral and neurochemical comparison",
+            "authors": "Baumann MH, et al.",
+            "journal": "Neuropsychopharmacology",
+            "year": 2012,
+            "doi": "10.1038/npp.2012.16",
+            "summary": "Study comparing methylone to MDMA—similar but less potent empathogenic effects"
+          },
+          {
+            "title": "Methylone as MDMA substitute in ecstasy tablets",
+            "authors": "Brunt TM, et al.",
+            "journal": "Drug Testing and Analysis",
+            "year": 2012,
+            "summary": "Analysis showing methylone was most common MDMA substitute 2010-2012"
+          },
+          {
+            "title": "Clinical toxicology of methylone (bk-MDMA)",
+            "authors": "Coppola M, Mondola R",
+            "journal": "Current Pharmaceutical Biotechnology",
+            "year": 2012,
+            "summary": "Review of methylone toxicity and emergency presentations"
+          }
+        ]
+      },
+      "forms": ["powder", "crystal", "pill"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "yellow to orange (NOT purple like MDMA)"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#FFFF00",
+          "window_s": [20, 60],
+          "alt": "yellow to orange"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "orange"
+        },
+        {
+          "reagent": "simons",
+          "color": "no_reaction",
+          "window_s": [60, 120],
+          "alt": "NO blue color (unlike MDMA which turns blue)"
+        }
+      ],
+      "notes": [
+        "CRITICAL: Most common MDMA substitute 2010-2015, still encountered. Methylone does NOT turn purple with Marquis (yellow/orange) and does NOT turn blue with Simon's. MDMA: purple-black Marquis + blue Simon's. Methylone: yellow/orange Marquis + NO blue Simon's. If suspected MDMA gives cathinone reactions, likely methylone or another substitute. Described as '70% of MDMA'—shorter duration, less empathogenic, more stimulating. Test with multiple reagents to distinguish from MDMA."
+      ],
+      "other_methods": {
+        "comparison_to_mdma": {
+          "summary": "Simon's test is KEY. MDMA turns blue, methylone does NOT. Marquis: MDMA purple-black, methylone yellow-orange.",
+          "confidence": "high"
+        }
+      }
+    },
+    "Amphetamine": {
+      "class": "phenethylamine (stimulant)",
+      "description": {
+        "overview": "Amphetamine (alpha-methylphenethylamine) is a central nervous system stimulant used medically to treat ADHD and narcolepsy. Racemic mixture or pure dextroamphetamine (d-amphetamine). Main component of Adderall (mixed amphetamine salts). Produces increased focus, energy, wakefulness, and euphoria. Commonly diverted for academic performance enhancement and recreational use. Street name 'speed.' Less potent than methamphetamine but similar effects. Widely prescribed and widely abused.",
+        "origins": "First synthesized in 1887 by Romanian chemist Lazăr Edeleanu but effects not recognized. Rediscovered in 1920s. Benzedrine inhaler (racemic amphetamine) marketed 1933 for nasal congestion—users discovered stimulant effects. Widely used by military in WWII (both Allied and Axis forces) to combat fatigue. Became popular in 1950s-60s for weight loss and energy. Scheduled as controlled substance 1971. Adderall (mixed amphetamine salts) introduced 1996 for ADHD. Now Schedule II in US. Street 'speed' paste common in Europe; diverted Adderall common in US.",
+        "uses": "Medical: ADHD treatment (Adderall, Dexedrine), narcolepsy, treatment-resistant depression (off-label). Improves focus, reduces hyperactivity and impulsivity in ADHD. Typical therapeutic dose 5-40mg daily. Recreational/Academic: Cognitive enhancement ('smart drug'), studying aid, increased energy and focus, euphoria, weight loss. Popular among college students during exams ('Adderall abuse'). Street speed (paste or powder) snorted or taken orally. Typical recreational dose 10-50mg. Duration 4-6 hours (immediate release) or 8-12 hours (extended release).",
+        "dangers": "Cardiovascular risks: increased heart rate and blood pressure, risk of heart attack/stroke especially with pre-existing conditions. Abuse potential significant—tolerance and psychological dependence develop. Neurotoxicity at high doses (dopamine depletion). Psychosis, paranoia, hallucinations with chronic high-dose use. Appetite suppression leads to malnutrition with chronic use. Insomnia, anxiety, irritability. Compulsive behaviors (picking skin, repetitive tasks). Severe comedown: fatigue, depression, cognitive impairment. Withdrawal: extreme fatigue, depression, increased appetite, sleeping for days. IV use carries infection risks. Nasal damage from snorting. Counterfeit Adderall pills may contain methamphetamine or other substances. Mixing with alcohol or other stimulants dangerous.",
+        "links": {
+          "wikipedia": "https://en.wikipedia.org/wiki/Amphetamine",
+          "erowid": "https://www.erowid.org/chemicals/amphetamines/",
+          "psychonautwiki": "https://psychonautwiki.org/wiki/Amphetamine"
+        },
+        "scientific_papers": [
+          {
+            "title": "Amphetamine for ADHD: Efficacy and safety",
+            "authors": "Faraone SV, Glatt SJ",
+            "journal": "Expert Review of Neurotherapeutics",
+            "year": 2010,
+            "doi": "10.1586/ern.10.6",
+            "summary": "Review of amphetamine's therapeutic efficacy and safety profile in ADHD treatment"
+          },
+          {
+            "title": "Cognitive enhancement with stimulants: Systematic review",
+            "authors": "Smith ME, Farah MJ",
+            "journal": "Psychological Bulletin",
+            "year": 2011,
+            "summary": "Analysis of amphetamine use for cognitive enhancement in healthy individuals"
+          },
+          {
+            "title": "Amphetamine abuse among college students",
+            "authors": "Teter CJ, et al.",
+            "journal": "Journal of American College Health",
+            "year": 2006,
+            "summary": "Survey study documenting widespread amphetamine misuse in academic settings"
+          }
+        ]
+      },
+      "forms": ["pill", "powder", "paste"],
+      "testing": [
+        {
+          "reagent": "marquis",
+          "color": "#FFA500",
+          "window_s": [20, 60],
+          "alt": "orange to brown"
+        },
+        {
+          "reagent": "mecke",
+          "color": "#808080",
+          "window_s": [20, 60],
+          "alt": "dark yellow to brown"
+        },
+        {
+          "reagent": "mandelin",
+          "color": "#FF8C00",
+          "window_s": [20, 60],
+          "alt": "orange"
+        },
+        {
+          "reagent": "simons",
+          "color": "no_reaction",
+          "window_s": [60, 120],
+          "alt": "NO blue color (primary amine—only secondary amines like MDMA turn blue)"
+        }
+      ],
+      "notes": [
+        "Speed, Adderall. Base stimulant—similar to methamphetamine but less potent. Reagent tests CANNOT reliably distinguish amphetamine from methamphetamine (both orange with Marquis, no Simon's blue). Both are primary amines. Lab testing (GC/MS) required for definitive distinction. Pharmaceutical Adderall pills should match pill ID databases. Street 'speed' paste (common in Europe) is often amphetamine sulfate. Counterfeit Adderall may contain meth or other substances—test pressed pills."
+      ],
+      "other_methods": {
+        "meth_distinction": {
+          "summary": "Reagent tests cannot distinguish amphetamine from methamphetamine. Both give orange Marquis, no Simon's blue. Need lab testing (GC/MS) for definitive ID. Effects: Meth more potent, longer duration, more euphoric.",
+          "confidence": "low"
+        }
+      }
+    },
     "Kratom": {
       "class": "opioid agonist (plant alkaloids)",
       "description": {

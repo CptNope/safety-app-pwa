@@ -280,11 +280,11 @@ Less common but mentioned in scope. Complete for comprehensive coverage.
 1. ✅ **Oxycodone** - COMPLETED (Nov 12, 2025)
 2. ✅ **Hydrocodone** - COMPLETED (Nov 12, 2025)
 3. ✅ **Mephedrone (4-MMC)** - COMPLETED (Nov 12, 2025)
-4. Alpha-PVP (Flakka) - NEXT PRIORITY
-5. MDPV
-6. Methylone
-7. Eutylone / N-Ethylpentylone
-8. Amphetamine (speed)
+4. ✅ **Alpha-PVP (Flakka)** - COMPLETED (Nov 12, 2025)
+5. ✅ **MDPV** - COMPLETED (Nov 12, 2025)
+6. ✅ **Methylone** - COMPLETED (Nov 12, 2025)
+7. ✅ **Amphetamine (speed)** - COMPLETED (Nov 12, 2025)
+8. Eutylone / N-Ethylpentylone - NEXT PRIORITY
 9. Lisdexamfetamine (Vyvanse)
 10. Etizolam
 11. Flualprazolam
@@ -373,16 +373,20 @@ When researching new substances:
 - ✅ Comprehensive gap analysis
 - ✅ Priority ranking
 - ✅ Implementation roadmap
-- ✅ **3 Priority 1 substances ADDED to database:**
+- ✅ **7 Priority 1 substances ADDED to database:**
   - Oxycodone (fake M30 crisis coverage)
   - Hydrocodone (Vicodin/Norco)
   - Mephedrone (4-MMC cathinone)
+  - Alpha-PVP (Flakka - "zombie drug")
+  - MDPV (original bath salts)
+  - Methylone (most common MDMA substitute 2010-2015)
+  - Amphetamine (speed/Adderall)
 
 ### Stats:
 - **Before:** ~60 substances
-- **After:** ~63 substances  
-- **Remaining Priority 1:** 8 substances
-- **Total missing:** ~37-47 substances
+- **After:** ~67 substances (+7 this session!)
+- **Remaining Priority 1:** 4 substances
+- **Total missing:** ~33-43 substances
 
 ### Next Steps:
 1. Continue with Priority 1 substances (Alpha-PVP, MDPV, Methylone)

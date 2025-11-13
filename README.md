@@ -677,14 +677,18 @@ CREATE TABLE scientific_papers (
 - Region (USA, Europe, International)
 - Category (Consumer, Professional, First Responder)
 
-## 🧬 Substances Covered (~63 of 100 target)
+## 🧬 Substances Covered (~67 of 100 target)
 
-**Current Status:** ~63 substances fully documented | [View missing substances roadmap](MISSING_SUBSTANCES.md)
+**Current Status:** ~67 substances fully documented | [View missing substances roadmap](MISSING_SUBSTANCES.md)
 
-**Recent Additions (Nov 12, 2025):**
-- ✅ Oxycodone (M30 counterfeit crisis)
-- ✅ Hydrocodone (Vicodin/Norco)
-- ✅ Mephedrone (4-MMC bath salts/cathinone)
+**Recent Additions (Nov 12, 2025) - 7 Priority Substances:**
+- ✅ **Oxycodone** (M30 counterfeit crisis)
+- ✅ **Hydrocodone** (Vicodin/Norco)
+- ✅ **Mephedrone** (4-MMC bath salts)
+- ✅ **Alpha-PVP** (Flakka - zombie drug)
+- ✅ **MDPV** (original bath salts 2010-2011)
+- ✅ **Methylone** (most common MDMA substitute)
+- ✅ **Amphetamine** (speed/Adderall)
 
 ### Entactogens / Empathogens (6)
 - **MDMA** (Ecstasy/Molly), **MDA** (Sass), **MDEA** (MDE/Eve)
